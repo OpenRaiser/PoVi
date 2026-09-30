@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding</title>
+<meta content="Grounding the unspoken world of classical Chinese poetry before turning it into narrated video." name="description"/>
+<meta content="article" property="og:type"/>
+<meta content="PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding" property="og:title"/>
+<meta content="Grounding the unspoken world of classical Chinese poetry before turning it into narrated video." property="og:description"/>
+<meta content="assets/cases/fengqiao-mooring-at-night.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding" name="twitter:title"/>
+<meta content="Grounding the unspoken world of classical Chinese poetry before turning it into narrated video." name="twitter:description"/>
+<meta content="assets/cases/fengqiao-mooring-at-night.png" name="twitter:image"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding", "abstract": "Grounding the unspoken world of classical Chinese poetry before turning it into narrated video.", "image": "assets/cases/fengqiao-mooring-at-night.png", "keywords": "poetry-to-video, multimodal-generation, classical-Chinese-poetry"}</script>
+<style>
+:root{--primary:#293e35;--accent:#994a36;--surface:#f4f0e6;--surface-soft:#eae7dc;--paper:#fffdf7;--text:#283b33;--muted:#646d60;--border:#cbcdbf;--highlight:#e3e9dc;--shadow:rgba(32,46,37,.12);color-scheme:light}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;background:var(--surface);color:var(--text);font-family:Arial,Arial,sans-serif;font-size:15px;line-height:1.7}h1,h2,h3,p,figure{margin:0}a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:5px}button{border:0;background:none}h2,h3,.project-title,.wordmark{font-family:Georgia,"Times New Roman",serif}h2{font-size:clamp(36px,4.1vw,58px);font-weight:400;line-height:1.13;letter-spacing:-1.8px;margin:23px 0}h3{font-size:25px;font-weight:400;line-height:1.3}p{color:var(--muted)}header{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;border-bottom:1px solid var(--border);background:var(--surface);position:relative;z-index:5}.wordmark{display:flex;align-items:center;gap:12px;font-size:27px;font-weight:bold;line-height:1}.wordmark span{font-family:"Times New Roman",serif;font-size:13px;font-weight:400;letter-spacing:4px;border-left:1px solid var(--border);padding-left:15px}.wordmark img{width:29px;height:29px}nav{display:flex;gap:30px;font-size:12px}nav a:hover,.header-link:hover{color:var(--accent)}.header-link{font-size:12px;border-bottom:1px solid var(--muted);padding-bottom:4px}.skip-link{position:absolute;left:-9999px}.skip-link:focus{left:10px;top:10px;z-index:100;background:var(--paper);padding:12px}.hero{height:760px;min-height:680px;position:relative;isolation:isolate;overflow:hidden;text-align:center}.landscape{position:absolute;inset:0;z-index:-2;opacity:.85}.landscape svg{width:100%;height:100%}#ink{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:-1}.hero-content{position:relative;padding:64px 20px 90px}.eyebrow,.chapter,.folio{font-size:10px;letter-spacing:2.2px;font-weight:500}.eyebrow{color:var(--muted)}.poetic{font-family:Georgia,Georgia,"Times New Roman",serif;letter-spacing:11px;font-size:23px;margin:30px 0 8px;display:flex;align-items:center;justify-content:center;gap:19px}.poetic span{margin-left:10px}.poetic i{font-style:normal;display:inline-block;width:25px;font-size:12px;line-height:1.15;letter-spacing:1px;background:var(--accent);color:var(--surface);padding:5px 3px}.project-title{display:block;font-size:112px;line-height:1.15;font-weight:400;letter-spacing:-5px}.paper-title{display:block;font-size:20px;font-weight:400;line-height:1.55;letter-spacing:-.4px;margin:17px auto 0;max-width:750px}.hero-description{font-family:Georgia,serif;font-style:italic;font-size:19px;line-height:1.6;margin-top:24px}.hero-actions{display:flex;justify-content:center;gap:13px;margin:28px 0}.button{display:inline-flex;align-items:center;gap:24px;padding:12px 22px;border:1px solid var(--border);font-size:12px;background:var(--surface)}.button.primary{background:var(--primary);color:var(--surface);border-color:var(--primary)}.button:hover{transform:translateY(-2px)}.hero-foot{position:absolute;bottom:28px;left:5%;right:5%;display:flex;align-items:center;justify-content:space-between;font-size:9px;letter-spacing:1.7px;color:var(--muted)}#replay{font-size:11px;letter-spacing:.4px;border-bottom:1px solid var(--border);padding:4px}.section{max-width:1180px;margin:auto;padding:86px 36px;border-top:1px solid var(--border)}.section-top{display:flex;justify-content:space-between;gap:20px}.chapter{color:var(--accent)}.folio{color:var(--muted);font-size:9px}.intro{max-width:760px;margin-bottom:32px;font-size:16px;line-height:1.85}.case-tabs{display:flex;border-bottom:1px solid var(--border);gap:8px;margin-top:35px}.case-tabs button{padding:15px 24px;text-align:left;font-family:"Times New Roman",serif;font-size:22px;border-bottom:2px solid transparent;color:var(--muted)}.case-tabs button span{display:block;font-family:Arial,sans-serif;font-size:10px;letter-spacing:.3px;margin-top:2px}.case-tabs button[aria-selected=true]{border-color:var(--accent);color:var(--accent)}.case-stage{display:grid;grid-template-columns:1.9fr 1fr;gap:42px;align-items:start;margin-top:34px}.zoom{display:block;width:100%;padding:0;cursor:zoom-in}.zoom img{display:block;width:100%;height:auto}figcaption{font-size:11px;color:var(--muted);padding-top:12px;line-height:1.6;display:flex;justify-content:space-between;gap:20px}figcaption span:last-child{flex-shrink:0}aside h3{font-size:36px;letter-spacing:5px;margin:15px 0}aside .poem{font-family:"Times New Roman",serif;font-size:21px;line-height:1.8;color:var(--primary);letter-spacing:3px;margin-bottom:15px}aside>p:not(.poem){font-size:13px}.frame-nav{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--border);margin-top:20px;padding-top:12px;font-size:11px}.frame-nav button{width:36px;height:30px;border:1px solid var(--border)}.frame-strip{display:flex;gap:8px;flex-wrap:wrap;margin-top:23px}.frame-strip button{padding:0;position:relative;width:calc((100% - 64px)/9);opacity:.66;border-bottom:2px solid transparent}.frame-strip img{width:100%;height:auto;display:block}.frame-strip button[aria-pressed=true]{opacity:1;border-color:var(--accent)}.frame-strip button:hover{opacity:1}.frame-strip span{font-size:10px;display:block;padding:3px}.small-note{font-size:12px;line-height:1.8;margin-top:20px}.video-slot{margin-top:25px;border:1px solid var(--border);padding:19px 24px;display:flex;align-items:center;gap:18px;background:var(--surface-soft)}.video-slot .play-mark{border:1px solid var(--muted);width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-size:13px}.video-slot strong{font-weight:400;font-family:Georgia,serif;font-size:18px}.video-slot p{font-size:12px}.video-slot>span:last-child{margin-left:auto;font-size:10px;letter-spacing:1.3px;color:var(--muted)}.two-copy{display:grid;grid-template-columns:1fr 1fr;gap:55px;margin:30px 0}.paper-figure{margin:36px 0}.paper-figure .zoom{background:var(--paper);border:1px solid var(--border);padding:13px}.paper-figure figcaption span{margin-left:auto}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin:40px 0}.steps article{border-top:1px solid var(--border);padding-top:17px}.steps article>span{font-size:10px;letter-spacing:1px;color:var(--accent)}.steps h3{font-size:23px;margin:14px 0}.steps p{font-size:13px;line-height:1.85}.method-detail{display:grid;grid-template-columns:1fr 1.3fr;gap:50px;align-items:center;margin-top:60px}.method-detail h3{font-size:30px;margin:18px 0}.method-detail .paper-figure{margin:0}.stats{display:flex;gap:40px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:25px 0;margin:30px 0}.stats>div{flex:1;display:flex;flex-direction:column;gap:8px}.stats strong{font-family:Georgia,serif;font-size:58px;line-height:1.2;font-weight:400}.stats span{font-size:11px;color:var(--muted)}.results-highlights strong{font-size:40px}.stats em{font-style:normal;color:var(--accent);font-size:27px}.table-module{margin:35px 0}.table-insight{font-family:Georgia,serif;color:var(--primary);font-size:19px;margin:0 0 12px;line-height:1.5}table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.5;font-variant-numeric:tabular-nums;background:var(--paper)}caption{text-align:left;font-size:11px;color:var(--muted);padding:0 0 13px}th,td{border-bottom:1px solid var(--border);padding:12px 9px;text-align:center;overflow-wrap:anywhere}thead{background:var(--surface-soft)}thead th{font-weight:500;font-size:11px}tbody th{text-align:left;font-weight:400}tbody tr.ours{background:var(--highlight);font-weight:600}tbody tr.ours th{font-weight:600}tr.group{background:var(--surface-soft);color:var(--primary)}table[data-tex-label="tab:metrics"] td:nth-child(4){text-align:left}details{border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin-top:28px}summary{cursor:pointer;padding:20px 0;font-size:14px;list-style:none}summary span{float:right;color:var(--accent)}summary::-webkit-details-marker{display:none}details[open] summary span{transform:rotate(45deg)}.limits{display:grid;grid-template-columns:1fr 1fr;gap:65px}.limits p{margin:20px 0}.limits .table-module{margin:0}.limits .table-insight{font-size:17px}.citation{max-width:900px}.citation-head{display:flex;align-items:center;justify-content:space-between}.citation-head h2{font-size:38px}.citation-head button{border:1px solid var(--border);padding:9px 16px;font-size:11px}pre{padding:26px;background:var(--surface-soft);font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.9;border-left:2px solid var(--accent)}footer{border-top:1px solid var(--border);padding:32px 5%;display:flex;align-items:center;justify-content:space-between;font-size:10px;color:var(--muted)}footer>span{letter-spacing:1.3px}dialog{border:1px solid var(--border);background:var(--paper);max-width:94vw;max-height:95vh;padding:18px}dialog::backdrop{background:rgba(20,29,24,.8)}dialog img{display:block;max-width:88vw;max-height:80vh;object-fit:contain}#close-lightbox{display:block;margin:0 0 12px auto}body:has(dialog[open]){overflow:hidden}
+@media(max-width:960px){nav{gap:17px}.header-link{display:none}.case-stage{grid-template-columns:1.6fr 1fr;gap:24px}.section{padding:65px 30px}.steps{gap:22px}.method-detail{gap:25px}.hero{height:745px}.folio{font-size:8px}.limits{gap:30px}aside .poem{font-size:18px}aside h3{font-size:30px}.results-highlights strong{font-size:34px}}
+@media(max-width:720px){header{height:auto;min-height:72px;padding:15px 20px;flex-wrap:wrap;gap:15px}.wordmark{font-size:25px}header nav{width:100%;justify-content:space-between;font-size:10px;gap:8px;padding-top:10px;border-top:1px solid var(--border)}.hero{height:705px;min-height:0}.hero-content{padding:40px 20px}.eyebrow{font-size:8px;letter-spacing:1.4px}.poetic{font-size:19px;letter-spacing:4px;gap:7px;margin-top:32px}.poetic span{margin-left:8px}.project-title{font-size:91px}.paper-title{font-size:17px;line-height:1.6;max-width:340px;margin-top:19px}.desktop{display:none}.hero-description{font-size:17px}.hero-actions{gap:10px;flex-direction:column;align-items:center;margin-top:25px}.button{min-width:237px;justify-content:space-between;padding:11px 18px}.hero-foot{font-size:8px;bottom:21px}.hero-foot>span{display:none}.section{padding:55px 20px}h2{font-size:37px;letter-spacing:-1px}.folio{display:none}.chapter{font-size:9px;letter-spacing:1.6px}.intro{font-size:14px}.case-tabs{gap:0;justify-content:space-between}.case-tabs button{padding:13px 8px;font-size:20px;flex:1}.case-tabs button span{font-size:8px;max-width:100px;line-height:1.5}.case-stage{grid-template-columns:1fr;gap:23px;margin-top:23px}.case-stage aside{display:grid;grid-template-columns:1fr 1fr;gap:8px 18px}aside>.chapter,aside>p:not(.poem),.frame-nav{grid-column:1/-1}aside h3{font-size:28px;letter-spacing:2px;margin:10px 0}aside .poem{font-size:15px;letter-spacing:1px;margin:6px 0}.frame-nav{margin-top:8px}.frame-strip{gap:6px}.frame-strip button{width:calc((100% - 24px)/5)}figcaption{font-size:9px;gap:8px}.case-stage figcaption span:last-child{font-size:7px}.video-slot{padding:15px;gap:12px}.video-slot>span:last-child{display:none}.two-copy,.steps,.method-detail,.limits{grid-template-columns:1fr;gap:23px}.steps{margin:30px 0}.steps h3{font-size:25px}.steps p{font-size:14px}.paper-figure{margin:26px 0}.paper-figure .zoom{padding:6px}.paper-figure figcaption{display:block}.paper-figure figcaption span{display:block}.stats{gap:18px;flex-wrap:wrap}.stats>div{min-width:130px}.stats strong{font-size:42px}.stats span{font-size:10px}.results-highlights>div{min-width:100%;padding:4px 0}.results-highlights strong{font-size:37px}.table-insight{font-size:18px}table,thead,tbody,tr,th,td{display:block}thead{position:absolute;width:1px;height:1px;clip-path:inset(100%)}tbody tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:14px;border:1px solid var(--border);background:var(--paper)}tbody th{grid-column:1/-1;background:var(--surface-soft);font-size:12px;padding:10px 12px;overflow-wrap:anywhere}tbody td{display:flex;justify-content:space-between;align-items:flex-start;text-align:right;gap:7px;padding:9px 10px;font-size:12px;border-bottom:1px solid var(--border)}tbody td::before{content:attr(data-label);font-size:10px;color:var(--muted);text-align:left;flex:1}tr.group td{display:none}table[data-tex-label="tab:metrics"] tbody tr{grid-template-columns:1fr}table[data-tex-label="tab:metrics"] td{text-align:left;display:grid;grid-template-columns:70px 1fr}caption{display:block}pre{font-size:10px;padding:17px}.citation-head button{padding:8px;font-size:10px}footer{gap:20px;flex-wrap:wrap;padding:28px 20px}footer>span{display:none}dialog{padding:10px}dialog img{max-width:85vw}.small-note{font-size:11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}}
+
+
+:root{--primary:#343d35;--accent:#816a43;--surface:#f3eee2;--surface-soft:#e9e3d5;--paper:#f8f5ed;--text:#343d35;--muted:#65685d;--border:#d1ccbc;--highlight:#e7e9dd;--shadow:rgba(40,43,33,.1)}body{font-family:Arial,sans-serif;background:var(--surface);line-height:1.8}header{background:rgba(243,238,226,.96);height:76px;position:relative;border-color:rgba(129,106,67,.2)}.wordmark{font-size:25px;font-weight:400;letter-spacing:-1px}.wordmark span{font:8px Arial,sans-serif;letter-spacing:1.7px;padding-left:16px;color:var(--muted)}nav{gap:32px;font-size:11px}.header-link{font-size:10px}h2{font-size:clamp(34px,3.4vw,49px);letter-spacing:-1.4px;line-height:1.17;font-weight:400}h3{font-family:Georgia,serif}.hero{height:790px;min-height:740px;background:var(--surface)}.landscape{z-index:-3;background:url('assets/art/ink-landscape.png') center 62%/cover no-repeat;opacity:1;filter:saturate(.62)}.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(to bottom,rgba(243,238,226,.65) 0%,rgba(243,238,226,.16) 35%,rgba(243,238,226,.03) 65%,var(--surface) 100%)}#ink{z-index:-2;mix-blend-mode:normal}.hero-content{padding:49px 24px 90px;z-index:2;pointer-events:none}.hero-content a{pointer-events:auto}.eyebrow{font-size:9px;letter-spacing:2.8px;color:var(--primary)}.hero-kicker{font-size:9px;letter-spacing:3px;margin:31px 0 7px;color:var(--accent)}.project-title{font-family:Georgia,serif;font-size:124px;line-height:1.1;font-weight:400;letter-spacing:-7px}.paper-title{font-family:Georgia,serif;font-size:23px;line-height:1.5;letter-spacing:-.5px;max-width:710px;margin-top:16px;font-weight:400}.hero-description{font-size:18px;font-weight:400;font-style:italic;line-height:1.7;margin-top:23px;color:var(--primary)}.hero-actions{margin-top:26px}.button{padding:10px 21px;font-size:11px;background:rgba(248,245,237,.72);border-color:rgba(52,61,53,.3);transition:background .2s,transform .2s}.primary{box-shadow:0 6px 20px rgba(36,43,35,.1)}.hero-foot{bottom:28px;font-size:8px;letter-spacing:1.6px;color:var(--primary);z-index:3}.section{max-width:1160px;padding:78px 40px;border-top:1px solid var(--border)}.section-top{align-items:center}.chapter,.micro{font:9px Arial,sans-serif;letter-spacing:1.8px;color:var(--accent)}.folio{font-size:8px;letter-spacing:1.6px}.intro{font-size:14px;max-width:700px;line-height:1.9}.case-tabs{gap:36px;margin-top:30px}.case-tabs button{font:20px Georgia,serif;padding:15px 0;min-width:130px}.case-tabs button span{font-size:10px;margin-top:9px;letter-spacing:.3px}.case-tabs button[aria-selected=true]{color:var(--primary);border-color:var(--accent)}.case-stage{grid-template-columns:1.9fr 1fr;gap:36px;margin-top:30px}.case-stage figure{padding:9px;border:1px solid var(--border);background:var(--paper);box-shadow:0 14px 36px rgba(50,49,35,.04)}.case-stage figcaption{font-size:9px;padding:11px 4px 4px}.case-stage figcaption span:last-child{font-size:8px;letter-spacing:.5px}.case-stage aside{padding-top:8px}aside h3{font:32px/1.15 Georgia,serif;letter-spacing:-.7px;margin:18px 0}aside .poem{font:italic 17px/1.7 Georgia,serif;letter-spacing:0;color:var(--primary);margin-bottom:18px}aside>p:not(.poem){font-size:12px;line-height:1.9}.frame-nav{margin-top:19px}.frame-nav button{border-radius:50%;width:32px;height:32px}.video-slot{background:transparent;border:1px solid var(--border);padding:17px 20px;margin-top:22px}.video-slot strong{font-size:17px}.video-slot p{font-size:11px}.play-mark{opacity:.75}.frame-strip{margin-top:20px;gap:7px}.frame-strip button{width:calc((100% - 56px)/9)}.small-note{font-size:11px;color:var(--muted)}.two-copy{gap:45px;margin:25px 0 35px}.two-copy p{font-size:14px;line-height:1.9}.editorial-panel{border:1px solid var(--border);background:rgba(248,245,237,.55);padding:35px;margin:35px 0}.concept-flow{display:grid;grid-template-columns:1fr 30px 1fr 30px 1fr;gap:23px}.concept-flow h3{font-size:25px;line-height:1.25;margin:18px 0}.concept-flow p{font-size:12px;line-height:1.9}.flow-bridge{align-self:center;color:var(--accent);font-size:24px}.verse-lines{padding-top:22px}.verse-lines i{display:block;width:80%;height:1px;background:var(--border);margin:9px 0}.verse-lines i:nth-child(2){width:65%}.graph-glyph{position:relative;width:100px;height:46px;margin-top:18px;border-top:1px solid var(--accent);transform:skewY(-12deg)}.graph-glyph span{position:absolute;width:9px;height:9px;border:1px solid var(--accent);border-radius:50%;top:-5px;background:var(--surface)}.graph-glyph span:nth-child(2){left:33px}.graph-glyph span:nth-child(3){left:66px}.graph-glyph span:nth-child(4){left:97px}.film-glyph{display:flex;align-items:center;gap:17px;padding-top:16px}.film-glyph span{font-size:15px;border:1px solid var(--accent);width:38px;height:29px;display:grid;place-items:center;color:var(--accent)}.film-glyph i{height:1px;width:60px;background:var(--accent)}.steps{gap:30px;margin:32px 0}.steps h3{font-size:22px}.steps p{font-size:12px}.steps article>span{font-size:9px;letter-spacing:1.5px}.framework-panel{padding:30px}.framework-heading{display:flex;align-items:center;gap:30px;justify-content:space-between;border-bottom:1px solid var(--border);padding-bottom:18px;margin-bottom:26px}.framework-heading p{font-size:11px;max-width:380px}.graph-band{display:flex;align-items:center;justify-content:center;gap:22px;font:15px Georgia,serif}.graph-band b,.assembly-band b{font-weight:400;color:var(--accent)}.graph-band span{padding:11px 0}.flow-down{text-align:center;color:var(--accent);padding:12px;font-size:22px}.agent-flow{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--border)}.agent-flow>div{padding:18px 16px;border-right:1px solid var(--border)}.agent-flow>div:last-child{border:0}.agent-flow small{font:10px Georgia,serif;color:var(--accent)}.agent-flow h4{font:17px/1.3 Georgia,serif;margin:10px 0}.agent-flow p{font-size:11px;line-height:1.7}.assembly-band{display:flex;gap:25px;justify-content:center;align-items:center;font-size:12px}.assembly-band strong{font:18px Georgia,serif;color:var(--primary)}.method-detail{gap:35px;margin:48px 0}.method-detail h3{font-size:28px}.method-detail p{font-size:13px}.evidence-panel{padding:25px;margin:0}.evidence-panel>div{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--border);padding:16px 0;font-size:12px}.evidence-panel small{display:block;font-size:9px;color:var(--muted);margin-top:4px}.evidence-panel strong{font:15px Georgia,serif;align-self:center;max-width:140px}.evidence-panel>p{font-size:10px;margin-top:16px}.clock-panel{display:grid;grid-template-columns:1fr 1.5fr;gap:45px;align-items:center}.clock-panel h3{font-size:29px;margin:19px 0}.clock-panel p{font-size:12px}.track-label{font-size:9px;letter-spacing:1.5px;display:flex;justify-content:space-between;color:var(--muted)}.waveform{height:68px;display:flex;align-items:center;gap:3px;padding:8px 0;border-bottom:1px solid var(--border);margin-bottom:21px}.waveform i{flex:1;height:var(--bar);background:var(--primary);opacity:.7;border-radius:1px}.clip-track{display:flex;gap:5px;margin-top:12px}.clip-track>span{background:var(--surface-soft);border:1px solid var(--border);font-size:11px;padding:14px 9px;white-space:nowrap}.clip-track b{display:block;font-weight:400;color:var(--muted);font-size:9px;margin-top:7px}.timeline>p{font-size:10px;margin-top:15px}.stats{padding:24px 0;gap:30px}.stats strong{font-size:52px}.stats span{font-size:10px}.metric-triad{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--border);margin:36px 0}.metric-triad article{padding:27px 24px;border-right:1px solid var(--border)}.metric-triad article:last-child{border:0}.metric-triad h3{font-size:25px;margin:20px 0}.metric-triad .micro{font-size:8px}.metric-triad dl{margin:22px 0 0;font-size:11px}.metric-triad dl>div{display:flex;gap:13px;border-top:1px solid var(--border);padding:10px 0}.metric-triad dt{font-size:10px;color:var(--accent);min-width:39px}.metric-triad dd{margin:0;color:var(--muted)}.table-module{margin:31px 0}.table-insight{font-size:18px;max-width:930px}.results-highlights strong{font-size:37px}table{background:rgba(248,245,237,.65)}thead{background:var(--surface-soft)}th,td{padding:11px 8px}thead th{font-size:10px}tbody tr.ours{background:var(--highlight)}.limits{gap:50px}.limits h2{font-size:40px}.limits p{font-size:13px}.citation{max-width:1160px}.citation pre{font-size:12px;background:rgba(233,227,213,.6);border-left:1px solid var(--accent)}.citation-head h2{font-size:36px}footer{max-width:1160px;margin:auto;padding:32px 40px;font-size:9px}.hero-content{animation:contentIn 1.9s ease both}@keyframes contentIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(max-width:960px){.agent-flow{grid-template-columns:repeat(3,1fr)}.agent-flow>div{border-bottom:1px solid var(--border)}.hero{height:770px}.section{padding:64px 30px}.concept-flow{gap:14px;padding:26px}.graph-band{gap:12px;font-size:13px}.case-stage{gap:25px;grid-template-columns:1.6fr 1fr}.case-stage aside h3{font-size:29px}.case-stage aside .poem{font-size:15px}.editorial-panel{padding:25px}.clock-panel{gap:24px}.metric-triad article{padding:22px 16px}.metric-triad h3{font-size:22px}header nav{gap:20px}.header-link{display:none}.wordmark span{display:none}}
+@media(max-width:720px){header{height:auto;min-height:92px;padding:14px 20px;gap:11px}.wordmark{font-size:24px}.wordmark span{display:inline;font-size:7px}.wordmark img{width:23px;height:23px}header nav{padding-top:9px;font-size:9px;gap:5px}.hero{height:755px;min-height:0}.landscape{background-position:56% center;background-size:auto 100%}.hero::after{background:linear-gradient(to bottom,rgba(243,238,226,.63),rgba(243,238,226,.35) 53%,rgba(243,238,226,0) 72%,var(--surface))}.hero-content{padding:39px 20px}.eyebrow{font-size:7px;letter-spacing:1.3px}.hero-kicker{font-size:8px;letter-spacing:1.8px;margin-top:33px}.project-title{font-size:101px;letter-spacing:-5px}.paper-title{font-size:20px;line-height:1.45;max-width:360px;margin-top:20px}.hero-description{font-size:16px;margin-top:24px;line-height:1.7}.hero-actions{flex-direction:row;gap:9px;margin-top:26px}.button{min-width:0;font-size:9px;gap:14px;padding:11px 12px}.hero-foot{bottom:24px;font-size:7px;letter-spacing:1px}.hero-foot>span{display:none}#replay{font-size:9px}.section{padding:52px 20px}h2{font-size:35px;letter-spacing:-1.2px}.chapter,.micro{font-size:8px;letter-spacing:1.4px}.intro{font-size:13px;line-height:1.9}.case-tabs{gap:16px;justify-content:space-between}.case-tabs button{min-width:0;flex:1;font-size:17px;padding:12px 0}.case-tabs button span{font-size:8px;letter-spacing:0;line-height:1.4;margin-top:7px}.case-stage{grid-template-columns:1fr;gap:25px}.case-stage figure{padding:6px}.case-stage aside{display:block;padding:0}.case-stage aside h3{font-size:31px;margin:13px 0}.case-stage aside .poem{font-size:17px;max-width:330px;margin-bottom:15px}.case-stage aside>p:not(.poem){font-size:12px}.case-stage figcaption{font-size:8px}.case-stage figcaption span:last-child{font-size:6px}.frame-nav{margin-top:17px}.frame-strip{gap:6px}.frame-strip button{width:calc((100% - 24px)/5)}.video-slot{padding:14px;gap:12px}.video-slot strong{font-size:15px}.video-slot p{font-size:10px}.video-slot>span:last-child{display:none}.small-note{font-size:10px}.concept-flow{grid-template-columns:1fr;padding:25px;gap:12px}.concept-flow h3{font-size:26px}.concept-flow p{font-size:13px}.flow-bridge{transform:rotate(90deg);justify-self:center;margin:2px 0}.verse-lines,.graph-glyph,.film-glyph{display:none}.two-copy{grid-template-columns:1fr;gap:20px}.two-copy p{font-size:13px}.steps{grid-template-columns:1fr;gap:22px}.steps article{padding-top:13px}.steps h3{font-size:24px}.steps p{font-size:13px}.editorial-panel{padding:23px;margin:28px 0}.framework-heading{display:block;padding-bottom:15px}.framework-heading p{margin-top:12px}.graph-band{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:14px}.graph-band b{display:none}.graph-band span{padding:10px;border:1px solid var(--border);text-align:center}.agent-flow{grid-template-columns:1fr}.agent-flow>div{border-right:0;border-bottom:1px solid var(--border);padding:14px 17px;position:relative}.agent-flow h4{font-size:19px;margin:5px 0}.agent-flow p{font-size:12px}.agent-flow small{position:absolute;right:15px;top:16px}.assembly-band{display:flex;flex-wrap:wrap;gap:11px;font-size:10px}.assembly-band strong{font-size:16px}.method-detail{grid-template-columns:1fr;gap:22px;margin:35px 0}.evidence-panel{margin:0}.evidence-panel>div{font-size:11px}.evidence-panel strong{font-size:14px}.clock-panel{grid-template-columns:1fr;gap:27px}.clock-panel h3{font-size:29px}.timeline .track-label{font-size:8px;letter-spacing:.7px}.waveform{gap:2px}.clip-track>span{font-size:9px;padding:12px 7px}.stats{gap:25px}.stats strong{font-size:42px}.stats>div{min-width:135px}.metric-triad{grid-template-columns:1fr}.metric-triad article{border-right:0;border-bottom:1px solid var(--border);padding:27px}.metric-triad h3{font-size:28px}.metric-triad dl{font-size:12px}.results-highlights>div{min-width:100%}.results-highlights strong{font-size:34px}.table-insight{font-size:17px}tbody tr{background:var(--paper)}tbody th{font-size:11px}tbody td{font-size:11px;padding:10px}tbody td::before{font-size:9px}.limits{grid-template-columns:1fr;gap:30px}.limits h2{font-size:35px}.citation pre{font-size:10px;padding:17px}.citation-head h2{font-size:33px}footer{padding:25px 20px}.hero-content{animation-duration:1.3s}}
+@media(prefers-reduced-motion:reduce){.hero-content{animation:none!important}}
+@media(min-width:721px){.hero{height:min(700px,calc(100svh - 140px));min-height:570px}#cases{padding-top:44px}}
+@media(min-width:721px) and (max-height:820px){.hero-content{padding-top:32px}.project-title{font-size:104px}.hero-kicker{margin-top:20px}.hero-description{margin-top:16px}.hero-actions{margin-top:20px}.hero-foot{bottom:22px}}
+@media(max-width:720px){.hero{height:675px}#cases{padding-top:38px}}
+@media(max-width:720px) and (max-height:740px){.hero{height:510px}.hero-content{padding-top:23px}.hero-kicker{margin-top:20px}.project-title{font-size:82px}.paper-title{font-size:17px;margin-top:12px}.hero-description{font-size:14px;margin-top:13px}.hero-actions{margin-top:16px}.hero-foot{bottom:12px}#cases{padding-top:25px}}
+
+@media(max-width:720px){}
+
+.graph-band{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-bottom:1px solid var(--border)}
+.graph-band span{text-align:center;border-right:1px solid var(--border);padding:12px 8px}
+.graph-band span:last-child{border:0}
+.framework-dependency{font-size:11px;line-height:1.85;max-width:810px;margin:18px auto 0;text-align:center}
+.evidence-panel strong{font-size:13px;line-height:1.6;max-width:170px}
+@media(max-width:720px){.graph-band{grid-template-columns:1fr 1fr;gap:8px;border:0}.graph-band span:last-child{border:1px solid var(--border)}.framework-dependency{text-align:left;font-size:11px}.evidence-panel strong{max-width:150px}}
+
+/* ——— Redesign: header, hero, visual stories ——— */
+:root{--ink:#1f211d;--ink-soft:#4a4d45;--rice:#f5f1e8;--rice-deep:#ebe5d8;--seal:#b33a2b;--hair:rgba(31,33,29,.14);--serif:"Cormorant Garamond",Georgia,serif;--sans:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--zh:"Noto Serif SC","Songti SC","STSong",serif}
+body{font-family:var(--sans);background:var(--rice);color:var(--ink)}
+html{scroll-padding-top:72px}
+header{position:sticky;top:0;height:64px;padding:0 max(24px,4vw);background:rgba(245,241,232,.88);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--hair);z-index:20}
+header .wordmark{font:600 24px/1 var(--serif);letter-spacing:0;gap:10px;color:var(--ink)}
+header nav{gap:32px;font-size:14px;color:var(--ink-soft)}
+header nav a,.header-link{transition:color .2s}
+header nav a:hover,.header-link:hover{color:var(--seal)}
+.header-link{font-size:14px;border:0;padding:0;color:var(--ink-soft)}
+
+.hero{height:auto;min-height:min(860px,max(600px,calc(100svh - 64px)));display:flex;flex-direction:column;align-items:center;text-align:center;background:var(--rice)}
+.hero::after{background:linear-gradient(to bottom,rgba(245,241,232,.9) 0%,rgba(245,241,232,.55) 30%,rgba(245,241,232,0) 58%,rgba(245,241,232,0) 82%,var(--rice) 100%)}
+.hero-inner{position:relative;z-index:2;padding:clamp(56px,11vh,120px) 24px 0;max-width:900px;animation:contentIn 1.4s ease both}
+.hero-mark{position:relative;display:inline-block;font:500 clamp(96px,13vw,176px)/.95 var(--serif);letter-spacing:-.02em;color:var(--ink)}
+.seal{position:absolute;top:.55em;right:-1.95em;width:1.55em;height:1.55em;display:grid;place-items:center;font:600 .19em/1 var(--zh);box-shadow:inset 0 0 0 .08em rgba(245,241,232,.35);color:var(--rice);background:var(--seal);border-radius:3px;letter-spacing:0}
+.hero-sub{display:block;max-width:640px;margin:26px auto 0;font:500 clamp(20px,2vw,26px)/1.4 var(--serif);color:var(--ink-soft)}
+.hero-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:34px}
+.pill{display:inline-flex;align-items:center;padding:10px 20px;border-radius:999px;font-size:14px;font-weight:500;color:var(--ink);background:rgba(245,241,232,.7);border:1px solid rgba(31,33,29,.22);transition:background .2s,color .2s,border-color .2s}
+.pill:hover{background:var(--ink);color:var(--rice);border-color:var(--ink)}
+.pill-ink{background:var(--ink);color:var(--rice);border-color:var(--ink)}
+.pill-ink:hover{background:var(--seal);border-color:var(--seal)}
+.hero-verse{position:absolute;z-index:2;top:clamp(48px,9vh,96px);right:max(28px,6vw);writing-mode:vertical-rl;font:400 22px/1.9 var(--zh);letter-spacing:.3em;color:var(--ink)}
+.hero-verse small{display:block;margin-top:1.2em;font-size:13px;letter-spacing:.2em;color:var(--seal)}
+.hero-replay{position:absolute;z-index:3;bottom:22px;right:max(24px,4vw);font-size:12px;color:var(--ink-soft);opacity:.75}
+.hero-replay:hover{opacity:1;color:var(--ink)}
+
+#cases.story{max-width:1200px;margin:0 auto;padding:96px 40px 104px}
+.story-head{max-width:720px}
+.story-kicker{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--seal)}
+.story-head h2{font:500 clamp(36px,4vw,54px)/1.1 var(--serif);letter-spacing:-.01em;margin:14px 0 16px;color:var(--ink)}
+.story-head p:last-child{font-size:17px;line-height:1.7;color:var(--ink-soft)}
+.story-tabs{display:flex;gap:44px;margin:48px 0 36px;border-bottom:1px solid var(--hair)}
+.story-tabs button{position:relative;padding:0 0 16px;text-align:left;color:var(--ink-soft);transition:color .2s}
+.story-tabs button span{display:block;font:400 26px/1.3 var(--zh);letter-spacing:.08em}
+.story-tabs button small{display:block;margin-top:4px;font-size:13px}
+.story-tabs button::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--seal);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.story-tabs button:hover{color:var(--ink)}
+.story-tabs button[aria-selected=true]{color:var(--ink)}
+.story-tabs button[aria-selected=true]::after{transform:none}
+.story-stage{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:56px;align-items:start}
+.story-figure{margin:0}
+.story-zoom{display:block;width:100%;padding:0;cursor:zoom-in;border-radius:4px;overflow:hidden;box-shadow:0 1px 2px rgba(31,33,29,.08),0 18px 40px -18px rgba(31,33,29,.35)}
+.story-zoom img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;transition:transform .6s ease}
+.story-zoom:hover img{transform:scale(1.015)}
+.story-figure figcaption{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;font-size:14px;color:var(--ink-soft)}
+.story-nav{display:flex;align-items:center;gap:12px;font-variant-numeric:tabular-nums}
+.story-nav button{width:36px;height:36px;border-radius:50%;border:1px solid var(--hair);transition:background .2s,color .2s}
+.story-nav button:hover{background:var(--ink);color:var(--rice)}
+.story-meta{font-size:13px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--seal)}
+.story-poem{display:flex;gap:28px;margin:22px 0 24px;align-items:flex-start}
+.story-zh{flex:none;writing-mode:vertical-rl;font:400 28px/1.75 var(--zh);letter-spacing:.22em;color:var(--ink);padding-left:22px;border-left:1px solid var(--hair)}
+.story-poem h3{font:500 32px/1.15 var(--serif);color:var(--ink);margin:0}
+.story-author{margin-top:6px;font-size:14px;color:var(--ink-soft)}
+.story-en{margin-top:18px;font:italic 500 20px/1.55 var(--serif);color:var(--ink)}
+.story-desc{font-size:15px;line-height:1.75;color:var(--ink-soft)}
+.story-strip{display:flex;gap:14px;margin-top:40px;padding-bottom:10px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:thin}
+.story-strip button{flex:0 0 168px;padding:0;text-align:left;scroll-snap-align:start;opacity:.6;transition:opacity .2s}
+.story-strip button:hover,.story-strip button[aria-pressed=true]{opacity:1}
+.story-strip img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:3px;outline:2px solid transparent;outline-offset:2px;transition:outline-color .2s}
+.story-strip button[aria-pressed=true] img{outline-color:var(--seal)}
+.story-strip span{display:block;margin-top:8px;font-size:12px;line-height:1.4;color:var(--ink-soft)}
+.story-foot{display:flex;justify-content:space-between;gap:40px;margin-top:28px;padding-top:24px;border-top:1px solid var(--hair)}
+.story-film{display:flex;align-items:center;gap:14px;flex:none;font-size:14px;color:var(--ink-soft)}
+.story-film>span:first-child{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;font-size:12px;border:1px solid var(--hair);color:var(--ink)}
+.story-film strong{display:block;font:500 18px/1.3 var(--serif);color:var(--ink)}
+.story-note{max-width:560px;font-size:13px;line-height:1.7;color:var(--ink-soft)}
+
+@media(max-width:960px){header nav{gap:22px}.story-stage{grid-template-columns:1fr;gap:32px}.story-poem{max-width:640px}.hero-verse{display:none}}
+@media(max-width:720px){header{position:relative;height:auto;padding:14px 20px}header nav{font-size:13px}.hero{min-height:620px}.hero-inner{padding-top:56px}.hero-sub{font-size:19px;margin-top:18px}.hero-links{gap:8px;margin-top:26px}.pill{padding:9px 16px;font-size:13px}#cases.story{padding:64px 20px 72px}.story-head p:last-child{font-size:16px}.story-tabs{gap:0;justify-content:space-between;margin:36px 0 28px}.story-tabs button{flex:1}.story-tabs button span{font-size:20px}.story-tabs button small{font-size:11px}.story-zh{font-size:22px;padding-left:16px}.story-poem{gap:18px}.story-poem h3{font-size:26px}.story-en{font-size:18px}.story-strip button{flex-basis:132px}.story-foot{flex-direction:column;gap:16px}}
+@media(prefers-reduced-motion:reduce){.hero-inner{animation:none}}
+</style>
+<link href="assets/mark.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Inter:wght@400;500;600&amp;family=Noto+Serif+SC:wght@400;600&amp;display=swap" rel="stylesheet"/>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header>
+<a class="wordmark" href="#hero">
+<img alt="" height="26" src="assets/mark.svg" width="26"/>PoVi
+</a>
+<nav aria-label="Primary">
+<a href="#cases">Stories</a>
+<a href="#method">Framework</a>
+<a href="#benchmark">Benchmark</a>
+<a href="#results">Results</a>
+</nav>
+</header>
+<main id="main">
+<section class="hero" id="hero">
+<canvas aria-hidden="true" id="ink">
+</canvas>
+<div aria-hidden="true" class="landscape">
+</div>
+<div class="hero-inner">
+<h1 id="hero-title">
+<span class="hero-mark">PoVi<span aria-hidden="true" class="seal" lang="zh-Hans">诗</span></span>
+<span class="hero-sub">Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding</span>
+</h1>
+<div class="hero-links">
+<a class="pill pill-ink" href="#cases">View the stories</a>
+<a class="pill" href="#method">Framework</a>
+<a class="pill" href="#citation">Citation</a>
+</div>
+</div>
+<p aria-label="Poetry holds painting; painting holds poetry. Su Shi" class="hero-verse" lang="zh-Hans">诗中有画<br/>画中有诗<small>苏轼</small></p>
+<button class="hero-replay" id="replay">Replay ripple ↻</button>
+</section>
+<section class="story" id="cases">
+<div class="story-head">
+<p class="story-kicker">Visual stories</p>
+<h2>Between the lines, a world comes into view.</h2>
+<p>Three classical works, each told first through its lived context and then line by line. Frames are taken from PoVi’s generated teaching videos.</p>
+</div>
+<div aria-label="Poetry case studies" class="story-tabs" role="tablist">
+<button aria-controls="case-panel" aria-selected="true" data-case="0" id="tab-0" role="tab"><span lang="zh-Hans">枫桥夜泊</span><small>Mooring by Maple Bridge</small></button>
+<button aria-controls="case-panel" aria-selected="false" data-case="1" id="tab-1" role="tab" tabindex="-1"><span lang="zh-Hans">锦瑟</span><small>Jinse</small></button>
+<button aria-controls="case-panel" aria-selected="false" data-case="2" id="tab-2" role="tab" tabindex="-1"><span lang="zh-Hans">扬州慢</span><small>Yangzhou Man</small></button>
+</div>
+<div aria-labelledby="tab-0" class="story-panel" id="case-panel" role="tabpanel">
+<div class="story-stage">
+<figure class="story-figure">
+<button aria-label="Enlarge selected frame" class="story-zoom" data-figure="assets/cases/fengqiao-mooring-at-night.png" id="case-zoom">
+<img alt="Mooring at night: a boat resting beside a tree-lined riverbank" height="432" id="case-image" src="assets/cases/fengqiao-mooring-at-night.png" width="768"/>
+</button>
+<figcaption>
+<span id="frame-caption">05 · Mooring at night</span>
+<span class="story-nav">
+<button aria-label="Previous frame" id="prev-frame">←</button>
+<span aria-live="polite" id="frame-count">05 / 09</span>
+<button aria-label="Next frame" id="next-frame">→</button>
+</span>
+</figcaption>
+</figure>
+<div class="story-text">
+<p class="story-meta" id="case-type">Tang poetry · Introductory</p>
+<div class="story-poem">
+<p class="story-zh" id="case-zh" lang="zh-Hans"></p>
+<div>
+<h3 id="case-name">Mooring by Maple Bridge</h3>
+<p class="story-author" id="case-author"></p>
+<p class="story-en" id="case-poem"></p>
+</div>
+</div>
+<p class="story-desc" id="case-description"></p>
+</div>
+</div>
+<div aria-label="Select a video frame" class="story-strip" id="frame-strip"></div>
+<div class="story-foot">
+<p class="story-film"><span aria-hidden="true">▶</span><span><strong id="video-title">Mooring by Maple Bridge · Full film</strong> Coming soon</span></p>
+<p class="story-note" id="case-note"></p>
+</div>
+</div>
+</section>
+<section class="section" id="motivation">
+<div class="section-top">
+<span class="chapter">II / FROM TEXT TO UNDERSTANDING</span>
+<span class="folio">THE CHALLENGE</span>
+</div>
+<h2>A poem is not<br/>a visual specification.</h2>
+<div class="two-copy">
+<p>Classical poetry compresses people, events, cultural references and emotions into a few lines. Rendering the visible objects alone can produce beautiful imagery while losing what the poem means.</p>
+<p>PoVi reconstructs the implicit context and source–target relations first. That understanding becomes an evidence-bounded plan for narration, visual direction and synchronized audiovisual generation.</p>
+</div>
+<div class="concept-flow editorial-panel">
+<div>
+<span class="micro">THE INPUT</span>
+<h3>A few lines.<br/>A whole world.</h3>
+<p>A poem leaves its people, histories and figurative relations partly unstated.</p>
+<div class="verse-lines">
+<i>
+</i>
+<i>
+</i>
+<i>
+</i>
+</div>
+</div>
+<div class="flow-bridge">→</div>
+<div>
+<span class="micro">THE MISSING STEP</span>
+<h3>Make the<br/>implicit explicit.</h3>
+<p>Recover context, connect metaphor to meaning, and preserve interpretive uncertainty.</p>
+<div aria-hidden="true" class="graph-glyph">
+<span>
+</span>
+<span>
+</span>
+<span>
+</span>
+<span>
+</span>
+</div>
+</div>
+<div class="flow-bridge">→</div>
+<div>
+<span class="micro">THE OUTPUT</span>
+<h3>A story to hear.<br/>A world to see.</h3>
+<p>Direct coherent scenes and synchronize their timing with spoken narration.</p>
+<div aria-hidden="true" class="film-glyph">
+<span>▶</span>
+<i>
+</i>
+</div>
+</div>
+</div>
+</section>
+<section class="section" id="method">
+<div class="section-top">
+<span class="chapter">III / THE PoVi FRAMEWORK</span>
+<span class="folio">UNDERSTAND · DIRECT · REALIZE</span>
+</div>
+<h2>Ground the meaning.<br/>Then direct the scene.</h2>
+<div class="steps">
+<article>
+<span>01 / UNDERSTAND</span>
+<h3>Evidence-bounded planning</h3>
+<p>A semantic director graph connects context, causal relations, metaphor and visual constraints. Claims cannot exceed the authority of their supporting evidence.</p>
+</article>
+<article>
+<span>02 / DIRECT</span>
+<h3>Role-separated realization</h3>
+<p>Five specialized stages create the background story, narration, close reading, recurring characters and shot descriptions through validated artifacts.</p>
+</article>
+<article>
+<span>03 / SYNCHRONIZE</span>
+<h3>Audio-clocked assembly</h3>
+<p>Measured speech duration sets the final clock. Shot allocations, clips, narration and transitions are aligned to the synthesized audio.</p>
+</article>
+</div>
+<div class="framework-panel editorial-panel">
+<div class="framework-heading">
+<span class="micro">THE SEMANTIC DIRECTOR GRAPH</span>
+<p>Each stage receives a restricted graph view and communicates through validated artifacts.</p>
+</div>
+<div class="graph-band">
+<span>Historical context</span>
+<span>Causal relations</span>
+<span>Metaphor mappings</span>
+<span>Visual constraints</span>
+</div>
+<div class="flow-down">↓</div>
+<div class="agent-flow">
+<div>
+<small>01</small>
+<h4>Background story</h4>
+<p>Causal context and evidence become a continuous story.</p>
+</div>
+<div>
+<small>02</small>
+<h4>Narration</h4>
+<p>The background story is segmented into narration and visual events.</p>
+</div>
+<div>
+<small>03</small>
+<h4>Close reading</h4>
+<p>The story and metaphor nodes inform a line-by-line explanation.</p>
+</div>
+<div>
+<small>04</small>
+<h4>Character assets</h4>
+<p>The merged narration identifies recurring people and their appearance.</p>
+</div>
+<div>
+<small>05</small>
+<h4>Visual direction</h4>
+<p>Narration, metaphor nodes and character assets guide shots; events remain fixed.</p>
+</div>
+</div>
+<p class="framework-dependency">Stages 02 and 03 both use the background story. A program merges their outputs before Stage 04; Stage 05 receives the merged narration and character assets. Each stage runs in a fixed sequence.</p>
+<div class="flow-down">↓</div>
+<div class="assembly-band">
+<span>Speech synthesis</span>
+<b>+</b>
+<span>Generated shots</span>
+<b>→</b>
+<strong>A narration-aligned film</strong>
+</div>
+</div>
+<div class="method-detail">
+<div>
+<span class="chapter">EVIDENCE BEFORE CERTAINTY</span>
+<h3>A recalled claim is not a documented fact.</h3>
+<p>Schema, reference and grounding checks validate the graph. Model-recalled knowledge remains plausible or contested; consensus requires high-authority evidence. Failed checks trigger directed repair.</p>
+</div>
+<div class="evidence-panel editorial-panel">
+<span class="micro">EVIDENCE AUTHORITY &amp; CLAIM STATUS</span>
+<div>
+<span>Model recollection<small>Low authority</small>
+</span>
+<strong>Plausible / Contested</strong>
+</div>
+<div>
+<span>Poem &amp; metadata<small>Medium authority</small>
+</span>
+<strong>Documented requires medium or higher</strong>
+</div>
+<div>
+<span>Scholarly evidence<small>High authority</small>
+</span>
+<strong>Consensus requires high authority</strong>
+</div>
+<p>Authority sets an admissibility threshold, not proof of truth or consensus. The evidence inventory is fixed before planning; validation checks citations, structure and line coverage.</p>
+</div>
+</div>
+<div class="clock-panel editorial-panel">
+<div>
+<span class="micro">MEASURED SPEECH IS THE CLOCK</span>
+<h3>The voice sets<br/>the pace of the film.</h3>
+<p>Provisional shot durations are rescaled after speech synthesis. The final visual sequence follows the measured audio track.</p>
+</div>
+<div class="timeline">
+<div class="track-label">SYNTHESIZED NARRATION <span>12.0 s</span>
+</div>
+<div aria-hidden="true" class="waveform">
+<i style="--bar:18%">
+</i>
+<i style="--bar:49%">
+</i>
+<i style="--bar:80%">
+</i>
+<i style="--bar:41%">
+</i>
+<i style="--bar:72%">
+</i>
+<i style="--bar:33%">
+</i>
+<i style="--bar:64%">
+</i>
+<i style="--bar:25%">
+</i>
+<i style="--bar:56%">
+</i>
+<i style="--bar:87%">
+</i>
+<i style="--bar:48%">
+</i>
+<i style="--bar:79%">
+</i>
+<i style="--bar:40%">
+</i>
+<i style="--bar:71%">
+</i>
+<i style="--bar:32%">
+</i>
+<i style="--bar:63%">
+</i>
+<i style="--bar:24%">
+</i>
+<i style="--bar:55%">
+</i>
+<i style="--bar:86%">
+</i>
+<i style="--bar:47%">
+</i>
+<i style="--bar:78%">
+</i>
+<i style="--bar:39%">
+</i>
+<i style="--bar:70%">
+</i>
+<i style="--bar:31%">
+</i>
+<i style="--bar:62%">
+</i>
+<i style="--bar:23%">
+</i>
+<i style="--bar:54%">
+</i>
+<i style="--bar:85%">
+</i>
+<i style="--bar:46%">
+</i>
+<i style="--bar:77%">
+</i>
+<i style="--bar:38%">
+</i>
+<i style="--bar:69%">
+</i>
+<i style="--bar:30%">
+</i>
+<i style="--bar:61%">
+</i>
+<i style="--bar:22%">
+</i>
+<i style="--bar:53%">
+</i>
+<i style="--bar:84%">
+</i>
+<i style="--bar:45%">
+</i>
+<i style="--bar:76%">
+</i>
+<i style="--bar:37%">
+</i>
+<i style="--bar:68%">
+</i>
+<i style="--bar:29%">
+</i>
+<i style="--bar:60%">
+</i>
+<i style="--bar:21%">
+</i>
+<i style="--bar:52%">
+</i>
+<i style="--bar:83%">
+</i>
+<i style="--bar:44%">
+</i>
+<i style="--bar:75%">
+</i>
+<i style="--bar:36%">
+</i>
+<i style="--bar:67%">
+</i>
+<i style="--bar:28%">
+</i>
+<i style="--bar:59%">
+</i>
+<i style="--bar:20%">
+</i>
+<i style="--bar:51%">
+</i>
+<i style="--bar:82%">
+</i>
+<i style="--bar:43%">
+</i>
+<i style="--bar:74%">
+</i>
+<i style="--bar:35%">
+</i>
+<i style="--bar:66%">
+</i>
+<i style="--bar:27%">
+</i>
+<i style="--bar:58%">
+</i>
+<i style="--bar:19%">
+</i>
+<i style="--bar:50%">
+</i>
+<i style="--bar:81%">
+</i>
+<i style="--bar:42%">
+</i>
+</div>
+<div class="track-label">RESCALED VISUAL SEQUENCE</div>
+<div class="clip-track">
+<span style="flex:3.6">Shot 01<b>3.6 s</b>
+</span>
+<span style="flex:2.4">Shot 02<b>2.4 s</b>
+</span>
+<span style="flex:6">Shot 03<b>6.0 s</b>
+</span>
+</div>
+<p>Example allocation: 3 : 2 : 5 → 3.6 : 2.4 : 6.0 seconds</p>
+</div>
+</div>
+</section>
+<section class="section" id="benchmark">
+<div class="section-top">
+<span class="chapter">IV / PoVi-BENCH</span>
+<span class="folio">A BALANCED TEST OF UNDERSTANDING</span>
+</div>
+<h2>Measure the meaning,<br/>not just the picture.</h2>
+<div class="stats">
+<div>
+<strong>120</strong>
+<span>works · 60 Tang poems + 60 Song ci</span>
+</div>
+<div>
+<strong>17</strong>
+<span>metrics across 3 evaluation dimensions</span>
+</div>
+<div>
+<strong>5</strong>
+<span>groups of frozen gold annotations</span>
+</div>
+</div>
+<p class="intro">Required information, metaphor maps, evidence claims, ordered background events and visual requirements separate what a system understands from what it actually realizes. Gold annotations are reserved for evaluation.</p>
+<div class="table-module">
+<p class="table-insight">Both literary forms are balanced across three levels of interpretive difficulty.</p>
+<table data-tex-label="tab:eval-composition">
+<caption>Composition of PoVi-Bench by literary form and difficulty.</caption>
+<thead>
+<tr>
+<th scope="col">Literary form</th>
+<th scope="col">Easy</th>
+<th scope="col">Medium</th>
+<th scope="col">Challenging</th>
+<th scope="col">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Literary form" scope="row">Tang poetry</th>
+<td data-label="Easy">20</td>
+<td data-label="Medium">20</td>
+<td data-label="Challenging">20</td>
+<td data-label="Total">60</td>
+</tr>
+<tr class="">
+<th data-label="Literary form" scope="row">Song ci</th>
+<td data-label="Easy">20</td>
+<td data-label="Medium">20</td>
+<td data-label="Challenging">20</td>
+<td data-label="Total">60</td>
+</tr>
+<tr class="">
+<th data-label="Literary form" scope="row">Total</th>
+<td data-label="Easy">40</td>
+<td data-label="Medium">40</td>
+<td data-label="Challenging">40</td>
+<td data-label="Total">120</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="metric-triad">
+<article>
+<span class="micro">01 / SEMANTIC GROUNDING</span>
+<h3>Is the poem<br/>understood?</h3>
+<dl>
+<div>
+<dt>S1</dt>
+<dd>Information coverage</dd>
+</div>
+<div>
+<dt>S2–S4</dt>
+<dd>Metaphor source, target &amp; bridge</dd>
+</div>
+<div>
+<dt>S5</dt>
+<dd>Contextual support</dd>
+</div>
+<div>
+<dt>S6</dt>
+<dd>Interpretive calibration</dd>
+</div>
+</dl>
+</article>
+<article>
+<span class="micro">02 / DISCOURSE COHERENCE</span>
+<h3>Does meaning<br/>become explanation?</h3>
+<dl>
+<div>
+<dt>D1</dt>
+<dd>Narrative structure</dd>
+</div>
+<div>
+<dt>D2</dt>
+<dd>Prelude–explication linkage</dd>
+</div>
+<div>
+<dt>D3</dt>
+<dd>Modality complementarity</dd>
+</div>
+<div>
+<dt>D4</dt>
+<dd>Audiovisual pacing</dd>
+</div>
+</dl>
+</article>
+<article>
+<span class="micro">03 / AUDIOVISUAL REALIZATION</span>
+<h3>Does the film<br/>carry the meaning?</h3>
+<dl>
+<div>
+<dt>R1–R2</dt>
+<dd>Visual coverage &amp; correctness</dd>
+</div>
+<div>
+<dt>R3–R4</dt>
+<dd>Quality &amp; character continuity</dd>
+</div>
+<div>
+<dt>R5</dt>
+<dd>Visual metaphor</dd>
+</div>
+<div>
+<dt>R6–R7</dt>
+<dd>Correspondence &amp; synchrony</dd>
+</div>
+</dl>
+</article>
+</div>
+<details>
+<summary>Explore all 17 metric definitions <span>＋</span>
+</summary>
+<div class="table-module">
+<p class="table-insight">Seventeen atomic metrics distinguish understanding, explanation and audiovisual realization.</p>
+<table data-tex-label="tab:metrics">
+<caption>The 17 primary metrics of the benchmark, grouped by the three challenges of the task.</caption>
+<thead>
+<tr>
+<th scope="col">ID</th>
+<th scope="col">Metric</th>
+<th scope="col">Scale</th>
+<th scope="col">What it asks</th>
+<th scope="col">Gold field</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="ID" scope="row">S1</th>
+<td data-label="Metric">Information Coverage</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is the information a faithful explanation must convey actually conveyed?</td>
+<td data-label="Gold field">required_info</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">S2</th>
+<td data-label="Metric">Metaphor Source</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is the vehicle imagery explicitly identified?</td>
+<td data-label="Gold field">metaphor_maps</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">S3</th>
+<td data-label="Metric">Metaphor Target</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is the abstract referent stated without over-generalization?</td>
+<td data-label="Gold field">metaphor_maps</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">S4</th>
+<td data-label="Metric">Mapping Bridge</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is it explained why the source licenses the target?</td>
+<td data-label="Gold field">metaphor_maps</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">S5</th>
+<td data-label="Metric">Metaphor Contextual Support</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is the figurative reading supported by text, context or tradition rather than free association?</td>
+<td data-label="Gold field">metaphor_maps</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">S6</th>
+<td data-label="Metric">Interpretive Calibration</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Does the epistemic stance match the annotated status of the reading?</td>
+<td data-label="Gold field">status</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">D1</th>
+<td data-label="Metric">Narrative Structure</td>
+<td data-label="Scale">1–5</td>
+<td data-label="What it asks">Are event order, state change, causality and scene transitions correct?</td>
+<td data-label="Gold field">key_events</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">D2</th>
+<td data-label="Metric">Prelude–Explication Linkage</td>
+<td data-label="Scale">1–5</td>
+<td data-label="What it asks">Is the background dramatized concretely and does it lead into line-by-line explication?</td>
+<td data-label="Gold field">key_events</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">D3</th>
+<td data-label="Metric">Modality Complementarity</td>
+<td data-label="Scale">1–5</td>
+<td data-label="What it asks">Does the visual channel add information rather than duplicate the narration?</td>
+<td data-label="Gold field">—</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">D4</th>
+<td data-label="Metric">Audiovisual Pacing</td>
+<td data-label="Scale">1–5</td>
+<td data-label="What it asks">Are shot duration, transition frequency and information density coherent across phases?</td>
+<td data-label="Gold field">—</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R1</th>
+<td data-label="Metric">Visual Requirement Coverage</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Do the required visual elements appear at all?</td>
+<td data-label="Gold field">visual_req</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R2</th>
+<td data-label="Metric">Visual Semantic Correctness</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is what is shown correct in identity, period, space, action and outcome?</td>
+<td data-label="Gold field">visual_req</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R3</th>
+<td data-label="Metric">Static Visual Quality</td>
+<td data-label="Scale">1–5</td>
+<td data-label="What it asks">Sharpness, exposure, colour, texture, subject legibility.</td>
+<td data-label="Gold field">—</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R4</th>
+<td data-label="Metric">Character Identity Continuity</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Is the same narrative character still the same person across shots?</td>
+<td data-label="Gold field">—</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R5</th>
+<td data-label="Metric">Visual Metaphor Realization</td>
+<td data-label="Scale">1–5</td>
+<td data-label="What it asks">Are source, bridge and target realized visually?</td>
+<td data-label="Gold field">metaphor_maps</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R6</th>
+<td data-label="Metric">Cross-modal Correspondence</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Do concurrent narration and image refer to the same content?</td>
+<td data-label="Gold field">—</td>
+</tr>
+<tr class="">
+<th data-label="ID" scope="row">R7</th>
+<td data-label="Metric">Narration–Event Synchrony</td>
+<td data-label="Scale">[0,1]</td>
+<td data-label="What it asks">Does each key event appear when it is narrated?</td>
+<td data-label="Gold field">key_events</td>
+</tr>
+</tbody>
+</table>
+</div>
+</details>
+</section>
+<section class="section" id="results">
+<div class="section-top">
+<span class="chapter">V / EXPERIMENTAL EVIDENCE</span>
+<span class="folio">HUMAN RATINGS</span>
+</div>
+<h2>The biggest gains lie<br/>in what the poem leaves unsaid.</h2>
+<p class="intro">All 120 works are evaluated with three planning backbones and no external reference material (B = empty); gold annotations are used only for evaluation. The single-call comparisons hold the backbone, video generator and speech synthesizer fixed. Human ratings are the primary evidence.</p>
+<div class="stats results-highlights">
+<div>
+<span>GEMINI · INFORMATION COVERAGE (S1)</span>
+<strong>0.611 <em>→</em> 0.814</strong>
+<span>single call → PoVi</span>
+</div>
+<div>
+<span>WAN · VISUAL COVERAGE (R1)</span>
+<strong>0.671 <em>→</em> 0.832</strong>
+<span>single call → PoVi</span>
+</div>
+</div>
+<div class="table-module">
+<p class="table-insight">The largest narration gains concern information and figurative meaning that the poem leaves implicit.</p>
+<table data-tex-label="tab:text">
+<caption>Narration metrics, human ratings. D1 and D2 are 1--5 scores divided by 5.</caption>
+<thead>
+<tr>
+<th scope="col">Backbone</th>
+<th scope="col">System</th>
+<th scope="col">S1</th>
+<th scope="col">S2</th>
+<th scope="col">S3</th>
+<th scope="col">S4</th>
+<th scope="col">S5</th>
+<th scope="col">S6</th>
+<th scope="col">D1</th>
+<th scope="col">D2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Backbone" scope="row">Gemini-3.5-Flash</th>
+<td data-label="System">single call</td>
+<td data-label="S1">0.611</td>
+<td data-label="S2">0.931</td>
+<td data-label="S3">0.851</td>
+<td data-label="S4">0.617</td>
+<td data-label="S5">0.889</td>
+<td data-label="S6">0.943</td>
+<td data-label="D1">0.815</td>
+<td data-label="D2">0.633</td>
+</tr>
+<tr class="ours">
+<th data-label="Backbone" scope="row">Gemini-3.5-Flash</th>
+<td data-label="System">ours</td>
+<td data-label="S1">0.814</td>
+<td data-label="S2">0.951</td>
+<td data-label="S3">0.915</td>
+<td data-label="S4">0.789</td>
+<td data-label="S5">0.943</td>
+<td data-label="S6">0.965</td>
+<td data-label="D1">0.952</td>
+<td data-label="D2">0.800</td>
+</tr>
+<tr class="">
+<th data-label="Backbone" scope="row">DeepSeek-V4-Flash</th>
+<td data-label="System">single call</td>
+<td data-label="S1">0.533</td>
+<td data-label="S2">0.756</td>
+<td data-label="S3">0.512</td>
+<td data-label="S4">0.334</td>
+<td data-label="S5">0.688</td>
+<td data-label="S6">0.955</td>
+<td data-label="D1">0.725</td>
+<td data-label="D2">0.825</td>
+</tr>
+<tr class="ours">
+<th data-label="Backbone" scope="row">DeepSeek-V4-Flash</th>
+<td data-label="System">ours</td>
+<td data-label="S1">0.706</td>
+<td data-label="S2">0.894</td>
+<td data-label="S3">0.775</td>
+<td data-label="S4">0.521</td>
+<td data-label="S5">0.954</td>
+<td data-label="S6">0.957</td>
+<td data-label="D1">0.897</td>
+<td data-label="D2">0.569</td>
+</tr>
+<tr class="">
+<th data-label="Backbone" scope="row">Seed-2.0-Lite</th>
+<td data-label="System">single call</td>
+<td data-label="S1">0.625</td>
+<td data-label="S2">0.478</td>
+<td data-label="S3">0.400</td>
+<td data-label="S4">0.365</td>
+<td data-label="S5">0.665</td>
+<td data-label="S6">0.944</td>
+<td data-label="D1">0.906</td>
+<td data-label="D2">0.334</td>
+</tr>
+<tr class="ours">
+<th data-label="Backbone" scope="row">Seed-2.0-Lite</th>
+<td data-label="System">ours</td>
+<td data-label="S1">0.859</td>
+<td data-label="S2">0.692</td>
+<td data-label="S3">0.701</td>
+<td data-label="S4">0.428</td>
+<td data-label="S5">0.907</td>
+<td data-label="S6">0.961</td>
+<td data-label="D1">0.952</td>
+<td data-label="D2">0.688</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-module">
+<p class="table-insight">Explicit planning improves or preserves every reported full-pipeline visual score across four generators.</p>
+<table data-tex-label="tab:video">
+<caption>Video metrics, human ratings, Gemini planner. R3 and R5 are 1--5 scores divided by 5.</caption>
+<thead>
+<tr>
+<th scope="col">System</th>
+<th scope="col">R1</th>
+<th scope="col">R2</th>
+<th scope="col">R3</th>
+<th scope="col">R4</th>
+<th scope="col">R5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="group">
+<th data-label="System" scope="row">MiniMax-H3</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single call</th>
+<td data-label="R1">0.870</td>
+<td data-label="R2">0.910</td>
+<td data-label="R3">0.866</td>
+<td data-label="R4">0.950</td>
+<td data-label="R5">0.882</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.930</td>
+<td data-label="R2">0.930</td>
+<td data-label="R3">0.918</td>
+<td data-label="R4">0.950</td>
+<td data-label="R5">0.912</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">w/o ref. img.</th>
+<td data-label="R1">0.812</td>
+<td data-label="R2">0.796</td>
+<td data-label="R3">0.840</td>
+<td data-label="R4">0.000</td>
+<td data-label="R5">0.870</td>
+</tr>
+<tr class="group">
+<th data-label="System" scope="row">Wan2.2-VACE</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single call</th>
+<td data-label="R1">0.671</td>
+<td data-label="R2">0.788</td>
+<td data-label="R3">0.698</td>
+<td data-label="R4">0.900</td>
+<td data-label="R5">0.734</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.832</td>
+<td data-label="R2">0.876</td>
+<td data-label="R3">0.898</td>
+<td data-label="R4">0.900</td>
+<td data-label="R5">0.824</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">w/o ref. img.</th>
+<td data-label="R1">0.652</td>
+<td data-label="R2">0.825</td>
+<td data-label="R3">0.810</td>
+<td data-label="R4">0.000</td>
+<td data-label="R5">0.810</td>
+</tr>
+<tr class="group">
+<th data-label="System" scope="row">Veo-3.1</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single call</th>
+<td data-label="R1">0.699</td>
+<td data-label="R2">0.980</td>
+<td data-label="R3">0.897</td>
+<td data-label="R4">0.950</td>
+<td data-label="R5">0.811</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.754</td>
+<td data-label="R2">0.998</td>
+<td data-label="R3">0.944</td>
+<td data-label="R4">0.984</td>
+<td data-label="R5">0.844</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">w/o ref. img.</th>
+<td data-label="R1">0.534</td>
+<td data-label="R2">0.982</td>
+<td data-label="R3">0.880</td>
+<td data-label="R4">0.000</td>
+<td data-label="R5">0.830</td>
+</tr>
+<tr class="group">
+<th data-label="System" scope="row">Seedance-2.0</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single call</th>
+<td data-label="R1">0.770</td>
+<td data-label="R2">0.958</td>
+<td data-label="R3">0.939</td>
+<td data-label="R4">0.880</td>
+<td data-label="R5">0.896</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.862</td>
+<td data-label="R2">0.978</td>
+<td data-label="R3">0.984</td>
+<td data-label="R4">0.978</td>
+<td data-label="R5">0.903</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">w/o ref. img.</th>
+<td data-label="R1">0.765</td>
+<td data-label="R2">0.974</td>
+<td data-label="R3">0.810</td>
+<td data-label="R4">0.000</td>
+<td data-label="R5">0.880</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="small-note">R1: visual coverage · R2: semantic correctness · R3: static quality · R4: character continuity · R5: visual metaphor. “w/o ref. img.” is the reference-image ablation.</p>
+<div class="table-module">
+<p class="table-insight">Matching the narrated content is easier than making each event appear at exactly the right time.</p>
+<table data-tex-label="tab:av">
+<caption>Cross-modal metrics under our pipeline, human ratings. D3 and D4 are 1--5 scores divided by 5.</caption>
+<thead>
+<tr>
+<th scope="col">Generator</th>
+<th scope="col">R6</th>
+<th scope="col">R7</th>
+<th scope="col">D3</th>
+<th scope="col">D4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Generator" scope="row">Wan2.2-VACE</th>
+<td data-label="R6">0.881</td>
+<td data-label="R7">0.812</td>
+<td data-label="D3">0.785</td>
+<td data-label="D4">0.878</td>
+</tr>
+<tr class="">
+<th data-label="Generator" scope="row">MiniMax-H3</th>
+<td data-label="R6">0.904</td>
+<td data-label="R7">0.872</td>
+<td data-label="D3">0.919</td>
+<td data-label="D4">0.947</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-module">
+<p class="table-insight">In this separate agentic-pipeline comparison, PoVi improves background coverage and the transition into close reading.</p>
+<table data-tex-label="tab:pipelines">
+<caption>Comparison with agentic video pipelines on DeepSeek-V4-Flash, human ratings. D1, D2 and R3 are 1--5 scores divided by 5.</caption>
+<thead>
+<tr>
+<th scope="col">System</th>
+<th scope="col">S1</th>
+<th scope="col">S2</th>
+<th scope="col">S3</th>
+<th scope="col">S4</th>
+<th scope="col">S5</th>
+<th scope="col">S6</th>
+<th scope="col">D1</th>
+<th scope="col">D2</th>
+<th scope="col">R1</th>
+<th scope="col">R2</th>
+<th scope="col">R3</th>
+<th scope="col">R4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="System" scope="row">ArcReel</th>
+<td data-label="S1">0.780</td>
+<td data-label="S2">1.000</td>
+<td data-label="S3">0.980</td>
+<td data-label="S4">0.900</td>
+<td data-label="S5">0.800</td>
+<td data-label="S6">0.840</td>
+<td data-label="D1">1.000</td>
+<td data-label="D2">0.640</td>
+<td data-label="R1">0.800</td>
+<td data-label="R2">0.880</td>
+<td data-label="R3">0.920</td>
+<td data-label="R4">0.900</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">Lumenx</th>
+<td data-label="S1">0.700</td>
+<td data-label="S2">0.940</td>
+<td data-label="S3">0.780</td>
+<td data-label="S4">0.680</td>
+<td data-label="S5">0.960</td>
+<td data-label="S6">0.900</td>
+<td data-label="D1">0.980</td>
+<td data-label="D2">0.680</td>
+<td data-label="R1">0.780</td>
+<td data-label="R2">0.880</td>
+<td data-label="R3">0.880</td>
+<td data-label="R4">1.000</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="S1">0.880</td>
+<td data-label="S2">0.940</td>
+<td data-label="S3">0.920</td>
+<td data-label="S4">0.930</td>
+<td data-label="S5">0.970</td>
+<td data-label="S6">0.960</td>
+<td data-label="D1">1.000</td>
+<td data-label="D2">0.880</td>
+<td data-label="R1">0.880</td>
+<td data-label="R2">0.900</td>
+<td data-label="R3">0.960</td>
+<td data-label="R4">1.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="small-note">The manuscript reports different PoVi scores in the narration and agentic-pipeline comparisons, but does not explain the evaluation conditions behind that difference.</p>
+<details>
+<summary>Automatic evaluation and human agreement <span>＋</span>
+</summary>
+<div class="table-module">
+<p class="table-insight">Automatic evaluation complements the human-rated experiments; it is reported separately.</p>
+<table data-tex-label="tab:app-text">
+<caption>Narration metrics, Gemini-3.5-Flash judge; human ratings appear in the main results above.</caption>
+<thead>
+<tr>
+<th scope="col">Backbone</th>
+<th scope="col">System</th>
+<th scope="col">S1</th>
+<th scope="col">S2</th>
+<th scope="col">S3</th>
+<th scope="col">S4</th>
+<th scope="col">S5</th>
+<th scope="col">S6</th>
+<th scope="col">D1</th>
+<th scope="col">D2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Backbone" scope="row">Gemini-3.5-Flash</th>
+<td data-label="System">single call</td>
+<td data-label="S1">0.729</td>
+<td data-label="S2">0.976</td>
+<td data-label="S3">0.929</td>
+<td data-label="S4">0.670</td>
+<td data-label="S5">0.941</td>
+<td data-label="S6">0.943</td>
+<td data-label="D1">0.978</td>
+<td data-label="D2">0.823</td>
+</tr>
+<tr class="ours">
+<th data-label="Backbone" scope="row">Gemini-3.5-Flash</th>
+<td data-label="System">ours</td>
+<td data-label="S1">0.914</td>
+<td data-label="S2">0.983</td>
+<td data-label="S3">0.981</td>
+<td data-label="S4">0.953</td>
+<td data-label="S5">0.980</td>
+<td data-label="S6">0.979</td>
+<td data-label="D1">0.981</td>
+<td data-label="D2">0.954</td>
+</tr>
+<tr class="">
+<th data-label="Backbone" scope="row">DeepSeek-V4-Flash</th>
+<td data-label="System">single call</td>
+<td data-label="S1">0.634</td>
+<td data-label="S2">0.960</td>
+<td data-label="S3">0.863</td>
+<td data-label="S4">0.816</td>
+<td data-label="S5">0.898</td>
+<td data-label="S6">0.966</td>
+<td data-label="D1">0.933</td>
+<td data-label="D2">0.806</td>
+</tr>
+<tr class="ours">
+<th data-label="Backbone" scope="row">DeepSeek-V4-Flash</th>
+<td data-label="System">ours</td>
+<td data-label="S1">0.906</td>
+<td data-label="S2">0.976</td>
+<td data-label="S3">0.954</td>
+<td data-label="S4">0.934</td>
+<td data-label="S5">0.952</td>
+<td data-label="S6">0.914</td>
+<td data-label="D1">0.983</td>
+<td data-label="D2">0.921</td>
+</tr>
+<tr class="">
+<th data-label="Backbone" scope="row">Seed-2.0-Lite</th>
+<td data-label="System">single call</td>
+<td data-label="S1">0.464</td>
+<td data-label="S2">0.523</td>
+<td data-label="S3">0.500</td>
+<td data-label="S4">0.202</td>
+<td data-label="S5">0.694</td>
+<td data-label="S6">0.823</td>
+<td data-label="D1">0.912</td>
+<td data-label="D2">0.370</td>
+</tr>
+<tr class="ours">
+<th data-label="Backbone" scope="row">Seed-2.0-Lite</th>
+<td data-label="System">ours</td>
+<td data-label="S1">0.821</td>
+<td data-label="S2">0.758</td>
+<td data-label="S3">0.724</td>
+<td data-label="S4">0.524</td>
+<td data-label="S5">0.922</td>
+<td data-label="S6">0.965</td>
+<td data-label="D1">0.969</td>
+<td data-label="D2">0.651</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-module">
+<p class="table-insight">Automatic evaluation complements the human-rated experiments; it is reported separately.</p>
+<table data-tex-label="tab:app-video">
+<caption>Video metrics, Gemini-3.5-Flash judge. R3 and R5 are 1--5 scores divided by 5; human ratings appear in the main results above.</caption>
+<thead>
+<tr>
+<th scope="col">System</th>
+<th scope="col">R1</th>
+<th scope="col">R2</th>
+<th scope="col">R3</th>
+<th scope="col">R4</th>
+<th scope="col">R5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="group">
+<th data-label="System" scope="row">MiniMax-H3</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single</th>
+<td data-label="R1">0.811</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">0.985</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.821</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.831</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">0.988</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.874</td>
+</tr>
+<tr class="group">
+<th data-label="System" scope="row">Wan2.2-VACE</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single</th>
+<td data-label="R1">0.682</td>
+<td data-label="R2">0.880</td>
+<td data-label="R3">0.938</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.800</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.790</td>
+<td data-label="R2">0.881</td>
+<td data-label="R3">0.935</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.848</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">w/o ref. img.</th>
+<td data-label="R1">0.689</td>
+<td data-label="R2">0.813</td>
+<td data-label="R3">0.908</td>
+<td data-label="R4">0.000</td>
+<td data-label="R5">0.807</td>
+</tr>
+<tr class="group">
+<th data-label="System" scope="row">Veo-3.1</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single</th>
+<td data-label="R1">0.731</td>
+<td data-label="R2">0.998</td>
+<td data-label="R3">0.973</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.830</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.779</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">0.999</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.863</td>
+</tr>
+<tr class="group">
+<th data-label="System" scope="row">Seedance-2.0</th>
+<td data-label="R1">
+</td>
+<td data-label="R2">
+</td>
+<td data-label="R3">
+</td>
+<td data-label="R4">
+</td>
+<td data-label="R5">
+</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">single</th>
+<td data-label="R1">0.820</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">0.995</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.888</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">ours</th>
+<td data-label="R1">0.824</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">1.000</td>
+<td data-label="R4">1.000</td>
+<td data-label="R5">0.886</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-module">
+<p class="table-insight">Automatic evaluation complements the human-rated experiments; it is reported separately.</p>
+<table data-tex-label="tab:app-av">
+<caption>Cross-modal metrics, Gemini-3.5-Flash judge. D3 and D4 are 1--5 scores divided by 5; human ratings appear in the main results above.</caption>
+<thead>
+<tr>
+<th scope="col">Generator</th>
+<th scope="col">R6</th>
+<th scope="col">R7</th>
+<th scope="col">D3</th>
+<th scope="col">D4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Generator" scope="row">Wan2.2-VACE</th>
+<td data-label="R6">0.890</td>
+<td data-label="R7">0.817</td>
+<td data-label="D3">0.937</td>
+<td data-label="D4">0.902</td>
+</tr>
+<tr class="">
+<th data-label="Generator" scope="row">MiniMax-H3</th>
+<td data-label="R6">0.940</td>
+<td data-label="R7">0.925</td>
+<td data-label="D3">0.968</td>
+<td data-label="D4">0.975</td>
+</tr>
+<tr class="">
+<th data-label="Generator" scope="row">Seedance-2.0</th>
+<td data-label="R6">0.933</td>
+<td data-label="R7">0.897</td>
+<td data-label="D3">0.992</td>
+<td data-label="D4">0.986</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-module">
+<p class="table-insight">Automatic evaluation complements the human-rated experiments; it is reported separately.</p>
+<table data-tex-label="tab:app-pipe">
+<caption>Comparison with agentic video pipelines, Gemini-3.5-Flash judge; human ratings appear in the main results above.</caption>
+<thead>
+<tr>
+<th scope="col">System</th>
+<th scope="col">S1</th>
+<th scope="col">S2</th>
+<th scope="col">S3</th>
+<th scope="col">S4</th>
+<th scope="col">S5</th>
+<th scope="col">S6</th>
+<th scope="col">D1</th>
+<th scope="col">D2</th>
+<th scope="col">R1</th>
+<th scope="col">R2</th>
+<th scope="col">R3</th>
+<th scope="col">R4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="System" scope="row">ArcReel</th>
+<td data-label="S1">0.830</td>
+<td data-label="S2">0.980</td>
+<td data-label="S3">0.934</td>
+<td data-label="S4">0.972</td>
+<td data-label="S5">0.944</td>
+<td data-label="S6">0.800</td>
+<td data-label="D1">1.000</td>
+<td data-label="D2">0.560</td>
+<td data-label="R1">0.767</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">0.988</td>
+<td data-label="R4">0.900</td>
+</tr>
+<tr class="">
+<th data-label="System" scope="row">Lumenx</th>
+<td data-label="S1">0.818</td>
+<td data-label="S2">0.934</td>
+<td data-label="S3">0.894</td>
+<td data-label="S4">0.760</td>
+<td data-label="S5">0.934</td>
+<td data-label="S6">0.860</td>
+<td data-label="D1">1.000</td>
+<td data-label="D2">0.440</td>
+<td data-label="R1">0.702</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">1.000</td>
+<td data-label="R4">1.000</td>
+</tr>
+<tr class="ours">
+<th data-label="System" scope="row">Ours</th>
+<td data-label="S1">0.906</td>
+<td data-label="S2">0.976</td>
+<td data-label="S3">0.954</td>
+<td data-label="S4">0.934</td>
+<td data-label="S5">0.952</td>
+<td data-label="S6">0.914</td>
+<td data-label="D1">0.983</td>
+<td data-label="D2">0.921</td>
+<td data-label="R1">0.839</td>
+<td data-label="R2">1.000</td>
+<td data-label="R3">1.000</td>
+<td data-label="R4">1.000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-module">
+<p class="table-insight">Moderate agreement supports retaining human ratings as the primary evidence.</p>
+<table data-tex-label="tab:meta">
+<caption>Agreement between Gemini-3.5-Flash and human ratings on the eight narration metrics over all 120 works in PoVi-Bench.</caption>
+<thead>
+<tr>
+<th scope="col">Evaluator</th>
+<th scope="col">SRCC ↑</th>
+<th scope="col">KRCC ↑</th>
+<th scope="col">PLCC ↑</th>
+<th scope="col">nRMSE ↓</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Evaluator" scope="row">Gemini-3.5-Flash</th>
+<td data-label="SRCC ↑">0.505</td>
+<td data-label="KRCC ↑">0.429</td>
+<td data-label="PLCC ↑">0.503</td>
+<td data-label="nRMSE ↓">0.162</td>
+</tr>
+</tbody>
+</table>
+</div>
+</details>
+</section>
+<section class="section limits" id="limits">
+<div>
+<span class="chapter">VI / SCOPE &amp; LIMITATIONS</span>
+<h2>A richer process.<br/>A measurable cost.</h2>
+<p>PoVi uses eight initial model calls per poem, compared with one for the baseline. The 120-work benchmark cannot span the full historical and formal diversity of classical Chinese poetry.</p>
+<p>Gains are not uniform: DeepSeek’s prelude–explication linkage (D2) falls from 0.825 to 0.569. The automatic evaluator shows moderate human agreement and saturation on some visual metrics. The supplied draft does not specify human-rater count, background or inter-rater agreement.</p>
+</div>
+<div>
+<div class="table-module">
+<p class="table-insight">Eight initial model calls establish the cost of structured planning before any repairs.</p>
+<table class="compact-table" data-tex-label="tab:retries">
+<caption>Model calls per poem. A run with no repairs uses eight calls; the worked example used twelve.</caption>
+<thead>
+<tr>
+<th scope="col">Stage</th>
+<th scope="col">First call</th>
+<th scope="col">Max repairs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="">
+<th data-label="Stage" scope="row">Knowledge inventory</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">0</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Graph generation</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">3</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Context story</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">3</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Story narration</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">3</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Close-reading planner</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">2</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Close-reading realizer</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">2</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Character assets</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">2</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Visual direction</th>
+<td data-label="First call">1</td>
+<td data-label="Max repairs">2</td>
+</tr>
+<tr class="">
+<th data-label="Stage" scope="row">Total</th>
+<td data-label="First call">8</td>
+<td data-label="Max repairs">17</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section class="section citation" id="citation">
+<span class="chapter">VII / PAPER DETAILS</span>
+<div class="citation-head">
+<h2>Paper title</h2>
+<button id="copy-citation">Copy title ↗</button>
+</div>
+<pre id="bibtex">PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding</pre>
+<p class="small-note">Author names, venue and publication details are not confirmed in the supplied manuscript.</p>
+</section>
+</main>
+<footer>
+<a class="wordmark" href="#hero">PoVi <span>POETRY IN MOTION</span>
+</a>
+<span>FROM POETIC MEANING TO MOVING IMAGES</span>
+<a href="#hero">Back to the beginning ↑</a>
+</footer>
+<dialog id="lightbox">
+<button aria-label="Close enlarged figure" id="close-lightbox">Close ×</button>
+<img alt="Enlarged paper figure" id="lightbox-image"/>
+</dialog>
+<script>const cases=[{title:'Mooring by Maple Bridge',type:'Tang poetry · Introductory',author:'Zhang Ji · 张继',zh:'月落乌啼霜满天<br>江枫渔火对愁眠',poem:'Moonset, crow calls, frost across the sky.<br>Riverside maples and fishing lights meet a sleepless night.',prefix:'fengqiao',frames:['examination-success','news-of-unrest','southward-displacement','life-in-exile','mooring-at-night','arrival-at-maple-bridge','moonset-and-crow-calls','fishing-lights','temple-bell'],labels:['Examination success','News of unrest','Southward displacement','Life in exile','Mooring at night','Arrival at Maple Bridge','Moonset and crow calls','Fishing lights','The temple bell'],description:'A contextual narrative converges on a quiet riverside scene, then follows the poem from moonset and crow calls to fishing lights and the distant temple bell.',note:'The historical background is a narrative interpretation, not a definitive account of the writing occasion.'},
+{title:'Jinse',type:'Tang poetry · Challenging',author:'Li Shangyin · 李商隐',zh:'沧海月明珠有泪<br>蓝田日暖玉生烟',poem:'Beneath the sea’s bright moon, pearls hold tears.<br>In Lantian’s warm sunlight, jade exhales mist.',prefix:'jinse',frames:['official-correspondence','scholarly-writing','personal-loss','departure-for-zizhou','zither-motif','transition-to-poem','cuckoo-allusion','pearl-tear-imagery','lantian-jade'],labels:['Official correspondence','Scholarly writing','Personal loss','Departure for Zizhou','The zither motif','Transition to the poem','The cuckoo allusion','Pearl-tear imagery','Lantian jade'],description:'The zither becomes a recurring visual anchor between a possible biographical narrative and the poem. Allusive images unfold as distinct scenes, preserving space for interpretation.',note:'The biographical meaning of Jinse remains contested. Political frustration, loss and displacement form one instructional reading, not a definitive account of authorial intention.'},
+{title:'Yangzhou Man',type:'Song ci · Challenging',author:'Jiang Kui · 姜夔',zh:'二十四桥仍在<br>波心荡冷月无声',poem:'The Twenty-Four Bridges still stand.<br>A cold moon trembles silently in the water.',prefix:'yangzhou',frames:['early-displacement','journey-to-yangzhou','arrival-at-city','postwar-ruins','bridge-side-reflection','moonlit-desolation','wild-mustard','cold-moon','bridge-side-peonies'],labels:['Early displacement','Journey to Yangzhou','Arrival at the city','Postwar ruins','Bridge-side reflection','Moonlit desolation','Wild mustard','The cold moon','Bridge-side peonies'],description:'Remembered prosperity meets postwar desolation. Wild mustard, a cold moon and bridge-side peonies connect the city’s present landscape with its remembered past.',note:'The contrast joins personal displacement and historical decline as an interpretive framing, rather than a claim to a single definitive meaning.'}];
+let selected=0,frame=4;const $=s=>document.querySelector(s);const asset=(c,i)=>`assets/cases/${c.prefix}-${c.frames[i]}.png`;
+function showFrame(i){frame=(i+9)%9;let c=cases[selected];$('#case-image').src=asset(c,frame);$('#case-image').alt=c.title+' — '+c.labels[frame];$('#case-zoom').dataset.figure=asset(c,frame);$('#frame-caption').textContent=`${String(frame+1).padStart(2,'0')} · ${c.labels[frame]}`;$('#frame-count').textContent=`${String(frame+1).padStart(2,'0')} / 09`;document.querySelectorAll('.story-strip button').forEach((b,n)=>{const on=n===frame;b.setAttribute('aria-pressed',on);if(on){const s=b.parentElement;s.scrollTo({left:b.offsetLeft-(s.clientWidth-b.offsetWidth)/2,behavior:'smooth'})}});}
+function showCase(i){selected=i;let c=cases[i];document.querySelectorAll('[data-case]').forEach((b,n)=>{b.setAttribute('aria-selected',n===i);b.tabIndex=n===i?0:-1});$('#case-panel').setAttribute('aria-labelledby','tab-'+i);$('#case-name').textContent=c.title;$('#case-type').textContent=c.type;$('#case-author').textContent=c.author;$('#case-zh').innerHTML=c.zh;$('#case-poem').innerHTML=c.poem;$('#case-description').textContent=c.description;$('#case-note').textContent=c.note+' These are selected high-scoring qualitative examples, not representative samples of the entire benchmark.';$('#video-title').textContent=c.title+' · Full film';$('#frame-strip').replaceChildren();c.frames.forEach((f,n)=>{let b=document.createElement('button');b.setAttribute('aria-label',`Frame ${n+1}: ${c.labels[n]}`);b.innerHTML=`<img src="${asset(c,n)}" alt="" width="768" height="432" loading="lazy"><span>${String(n+1).padStart(2,'0')} ${c.labels[n]}</span>`;b.onclick=()=>showFrame(n);$('#frame-strip').append(b)});showFrame(4)}
+document.querySelectorAll('[data-case]').forEach(b=>{b.onclick=()=>showCase(+b.dataset.case);b.onkeydown=e=>{if(['ArrowRight','ArrowLeft','Home','End'].includes(e.key)){e.preventDefault();let n=e.key==='Home'?0:e.key==='End'?2:(selected+(e.key==='ArrowRight'?1:2))%3;showCase(n);$('#tab-'+n).focus()}}});$('#prev-frame').onclick=()=>showFrame(frame-1);$('#next-frame').onclick=()=>showFrame(frame+1);showCase(0);
+let lastFocus;document.addEventListener('click',e=>{let b=e.target.closest('[data-figure]');if(!b)return;lastFocus=b;$('#lightbox-image').src=b.dataset.figure;$('#lightbox-image').alt=b.querySelector('img').alt;$('#lightbox').showModal()});$('#close-lightbox').onclick=()=>$('#lightbox').close();$('#lightbox').onclick=e=>{if(e.target===$('#lightbox'))$('#lightbox').close()};$('#lightbox').addEventListener('close',()=>lastFocus?.focus());
+$('#copy-citation').onclick=async()=>{let text=$('#bibtex').textContent;try{await navigator.clipboard.writeText(text);$('#copy-citation').textContent='Copied ✓'}catch{let r=document.createRange();r.selectNodeContents($('#bibtex'));let s=getSelection();s.removeAllRanges();s.addRange(r);$('#copy-citation').textContent='Title selected'}setTimeout(()=>$('#copy-citation').textContent='Copy title ↗',2500)};
+(() => {
+  let canvas = document.querySelector('#ink');
+  const hero = document.querySelector('#hero');
+  const replayButton = document.querySelector('#replay');
+  if (!canvas || !hero || !replayButton) return;
+
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  const source = new Image();
+  source.src = 'assets/art/ink-landscape.png';
+  let width = 0, height = 0, ratio = 1, started = 0, frame = 0, visible = true;
+  let gl = null, texture = null, program = null, uniforms = null, fallback = null;
+
+  const vertexSource = `
+    attribute vec2 position;
+    void main() { gl_Position = vec4(position, 0.0, 1.0); }
+  `;
+  const fragmentSource = `
+    precision highp float;
+    uniform sampler2D scene;
+    uniform vec2 size;
+    uniform vec4 imageRect;
+    uniform float pixelRatio;
+    uniform float time;
+
+    float ease(float a, float b, float v) {
+      float x = clamp((v - a) / (b - a), 0.0, 1.0);
+      return x * x * (3.0 - 2.0 * x);
+    }
+    float hash(vec2 p) {
+      return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453);
+    }
+    float noise(vec2 p) {
+      vec2 i = floor(p), f = fract(p);
+      f = f * f * (3.0 - 2.0 * f);
+      return mix(mix(hash(i), hash(i + vec2(1.0, 0.0)), f.x),
+                 mix(hash(i + vec2(0.0, 1.0)), hash(i + vec2(1.0)), f.x), f.y);
+    }
+    void main() {
+      vec2 p = vec2(gl_FragCoord.x, size.y * pixelRatio - gl_FragCoord.y) / pixelRatio;
+      vec2 uvTop = (p - imageRect.xy) / imageRect.zw;
+      float water = ease(0.708, 0.755, uvTop.y)
+                  * (1.0 - ease(0.955, 1.0, p.y / size.y));
+      float age = time - 0.7;
+      float life = ease(0.0, 0.9, age) * (1.0 - ease(8.2, 13.1, age));
+      if (water * life < 0.001 || uvTop.x < 0.0 || uvTop.x > 1.0 || uvTop.y > 1.0) {
+        gl_FragColor = vec4(0.0);
+        return;
+      }
+
+      vec2 center = vec2(size.x * 0.575, size.y * 0.805);
+      vec2 delta = p - center;
+      float aspect = mix(0.205, 0.275, clamp(size.x / 1400.0, 0.0, 1.0));
+      vec2 lake = vec2(delta.x, delta.y / aspect);
+      float angle = atan(lake.y, lake.x);
+      float irregularity = 2.5 * sin(angle * 3.0 + age * 0.32)
+                         + 1.4 * sin(angle * 7.0 - age * 0.19);
+      float radius = length(lake) + irregularity;
+      float waveDistance = radius - (14.0 + age * 77.0);
+      float packet = exp(-pow(waveDistance / 43.0, 2.0));
+      float train = sin(waveDistance * 0.19) * packet;
+      float following = exp(-pow((radius - (age * 62.0 - 48.0)) / 44.0, 2.0));
+      float wave = train + 0.42 * sin((radius - age * 62.0 + 48.0) * 0.16) * following;
+
+      float xWarp = 2.3 * wave * life;
+      float yWarp = 1.2 * wave * aspect * life;
+      float backgroundDrift = noise(vec2(p.x * 0.012, p.y * 0.045 + age * 0.36));
+      xWarp += (backgroundDrift - 0.5) * 1.15 * packet * life;
+      vec2 samplePoint = p + vec2(xWarp, yWarp);
+      vec2 imageUV = (samplePoint - imageRect.xy) / imageRect.zw;
+      vec3 color = texture2D(scene, vec2(imageUV.x, 1.0 - imageUV.y)).rgb;
+      float luminance = dot(color, vec3(0.2126, 0.7152, 0.0722));
+      color = mix(vec3(luminance), color, 0.62);
+
+      float crest = cos(waveDistance * 0.19) * packet;
+      crest += 0.35 * cos((radius - age * 62.0 + 48.0) * 0.16) * following;
+      color += vec3(0.105, 0.089, 0.056) * crest * life;
+
+      float softenedRadius = length(vec2(delta.x, delta.y / (aspect * 1.4)));
+      float edge = softenedRadius - (25.0 + age * 19.0);
+      float drift = noise(vec2(delta.x * 0.019 + age * 0.07, delta.y * 0.037)) - 0.5;
+      float wash = 1.0 - ease(-8.0, 75.0, edge + drift * 22.0);
+      wash *= 0.038 * ease(0.0, 1.6, age) * (1.0 - ease(5.2, 9.0, age));
+      color = mix(color, vec3(0.19, 0.225, 0.175), wash);
+
+      float reach = max(packet, following * 0.6);
+      float alpha = water * life * clamp(0.34 + reach * 0.66 + wash * 4.0, 0.0, 1.0);
+      gl_FragColor = vec4(color, alpha);
+    }
+  `;
+
+  function compile(type, text) {
+    const item = gl.createShader(type);
+    gl.shaderSource(item, text);
+    gl.compileShader(item);
+    if (gl.getShaderParameter(item, gl.COMPILE_STATUS)) return item;
+    console.warn('The opening effect could not compile:', gl.getShaderInfoLog(item));
+    gl.deleteShader(item);
+    return null;
+  }
+
+  function initWebGL() {
+    try { gl = canvas.getContext('webgl', { alpha: true, antialias: false, premultipliedAlpha: false }); }
+    catch { gl = null; }
+    if (!gl) return false;
+    const vertex = compile(gl.VERTEX_SHADER, vertexSource);
+    const fragment = compile(gl.FRAGMENT_SHADER, fragmentSource);
+    if (!vertex || !fragment) return false;
+    program = gl.createProgram();
+    gl.attachShader(program, vertex);
+    gl.attachShader(program, fragment);
+    gl.linkProgram(program);
+    gl.deleteShader(vertex);
+    gl.deleteShader(fragment);
+    if (!gl.getProgramParameter(program, gl.LINK_STATUS)) return false;
+    gl.useProgram(program);
+    const buffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+    const position = gl.getAttribLocation(program, 'position');
+    gl.enableVertexAttribArray(position);
+    gl.vertexAttribPointer(position, 2, gl.FLOAT, false, 0, 0);
+    uniforms = {
+      size: gl.getUniformLocation(program, 'size'),
+      imageRect: gl.getUniformLocation(program, 'imageRect'),
+      pixelRatio: gl.getUniformLocation(program, 'pixelRatio'),
+      time: gl.getUniformLocation(program, 'time')
+    };
+    texture = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, texture);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+    gl.uniform1i(gl.getUniformLocation(program, 'scene'), 0);
+    return true;
+  }
+
+  function resize() {
+    width = canvas.clientWidth;
+    height = canvas.clientHeight;
+    ratio = Math.min(window.devicePixelRatio || 1, 1.5);
+    canvas.width = Math.round(width * ratio);
+    canvas.height = Math.round(height * ratio);
+    if (gl) gl.viewport(0, 0, canvas.width, canvas.height);
+    if (fallback) fallback.setTransform(ratio, 0, 0, ratio, 0, 0);
+  }
+
+  function imageRect() {
+    const mobile = width <= 720;
+    const scale = mobile ? height / source.naturalHeight
+      : Math.max(width / source.naturalWidth, height / source.naturalHeight);
+    const imageWidth = source.naturalWidth * scale;
+    const imageHeight = source.naturalHeight * scale;
+    return [(width - imageWidth) * (mobile ? 0.56 : 0.5),
+      (height - imageHeight) * (mobile ? 0.5 : 0.62), imageWidth, imageHeight];
+  }
+
+  function drawFallback(time) {
+    if (!fallback) return;
+    fallback.clearRect(0, 0, width, height);
+    const age = time - 0.7;
+    if (age <= 0 || age >= 13.1) return;
+    const fade = Math.min(1, age / 0.9, (13.1 - age) / 4.9);
+    const cx = width * 0.575, cy = height * 0.805;
+    const minor = width <= 720 ? 0.22 : 0.27;
+    fallback.save();
+    fallback.beginPath();
+    fallback.rect(0, height * 0.72, width, height * 0.23);
+    fallback.clip();
+    for (let n = 0; n < 4; n++) {
+      const r = 14 + age * 77 - n * 9;
+      if (r <= 0) continue;
+      fallback.beginPath();
+      fallback.ellipse(cx, cy, r, r * minor, 0, 0, Math.PI * 2);
+      fallback.strokeStyle = n % 2 ? `rgba(30, 43, 32, ${0.11 * fade})`
+        : `rgba(255, 246, 220, ${0.2 * fade})`;
+      fallback.lineWidth = n % 2 ? 1.1 : 1.5;
+      fallback.stroke();
+    }
+    fallback.restore();
+  }
+
+  function render(now) {
+    if (!visible || motion.matches) return;
+    const time = Math.min((now - started) / 1000, 14);
+    if (gl && source.naturalWidth && texture) {
+      gl.clearColor(0, 0, 0, 0);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+      gl.useProgram(program);
+      gl.uniform2f(uniforms.size, width, height);
+      gl.uniform4f(uniforms.imageRect, ...imageRect());
+      gl.uniform1f(uniforms.pixelRatio, ratio);
+      gl.uniform1f(uniforms.time, time);
+      gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    } else drawFallback(time);
+    if (time < 14) frame = requestAnimationFrame(render);
+    else if (gl) gl.clear(gl.COLOR_BUFFER_BIT);
+    else if (fallback) fallback.clearRect(0, 0, width, height);
+  }
+
+  function replay() {
+    cancelAnimationFrame(frame);
+    if (gl) gl.clear(gl.COLOR_BUFFER_BIT);
+    if (fallback) fallback.clearRect(0, 0, width, height);
+    if (motion.matches || !visible || !source.naturalWidth) return;
+    started = performance.now();
+    frame = requestAnimationFrame(render);
+  }
+
+  function useFallback() {
+    const replacement = canvas.cloneNode(false);
+    canvas.replaceWith(replacement);
+    canvas = replacement;
+    gl = null;
+    texture = null;
+    fallback = canvas.getContext('2d', { alpha: true });
+    resize();
+  }
+  const ready = initWebGL();
+  if (!ready) useFallback();
+  resize();
+  replayButton.addEventListener('click', replay);
+  window.addEventListener('resize', () => { resize(); replay(); });
+  if (motion.addEventListener) motion.addEventListener('change', replay);
+  else motion.addListener(replay);
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(entries => {
+      visible = entries[0].isIntersecting;
+      if (visible) replay();
+      else cancelAnimationFrame(frame);
+    }).observe(hero);
+  }
+  function uploadImage() {
+    if (gl && texture) {
+      gl.bindTexture(gl.TEXTURE_2D, texture);
+      gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
+      try { gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, source); }
+      catch { useFallback(); }
+    }
+    replay();
+  }
+  if (source.complete && source.naturalWidth) uploadImage();
+  else source.addEventListener('load', uploadImage, { once: true });
+})();
+
+</script>
+</body>
+</html>
