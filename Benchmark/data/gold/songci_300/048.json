@@ -1,0 +1,817 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_048",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人晏几道所作，词牌为《临江仙》，属婉约派小令代表作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：临江仙；作者：晏几道；朝代：宋；体裁：词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "晏几道（1048—1113），字叔原，号小山，北宋著名词人……是婉约词派重要代表。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "梦后楼台高锁，酒醒帘幕低垂。去年春恨却来时，落花人独立，微雨燕双飞。记得小苹初见，两重心字罗衣。琵琶弦上说相思，当时明月在，曾照彩云归。",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确标注该词为北宋晏几道《小山词》中的婉约小令",
+        "可将其与晏殊并称“二晏”的文学背景作简要关联"
+      ],
+      "forbidden_assertions": [
+        "误标为唐代作品或晏殊所作",
+        "将其归类为豪放派或叙事长诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme_background",
+      "claim": "词作主旨为追忆并深切怀念歌女小苹，创作背景源于作者早年于沈廉叔、陈君宠家听歌女演唱的交游经历。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "据在《小山词·自跋》里说：“沈廉叔，陈君宠家有莲、鸿、苹、云几个歌女。”晏每填一词就交给她们演唱……这首《临江仙·梦后楼台高锁》不过是他的好多怀念歌女词作中的一首。",
+          "locator": "创作背景三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词抒发作者对歌女小苹怀念之情。比较起来，这首《临江仙·梦后楼台高锁》在作者众多的怀念歌女词中更有其独到之处。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出此词属“本事词”，具有明确的现实人物原型",
+        "可结合宋代士大夫与歌伎交往的文化语境进行背景拓展"
+      ],
+      "forbidden_assertions": [
+        "称此词为政治抒怀、边塞征战或纯粹咏物之作",
+        "将小苹虚构为作者妻子或泛指普通女子"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure",
+      "claim": "全词依时间与心理流动分为四层：首层写梦后酒醒之空寂，次层写去年春恨之怅惘，三层写初见小苹之追忆，末层写明月彩云之余思。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全词共四层：“梦后楼台高锁，酒醒帘幕低垂”为第一层……“去年春恨却来时，落花人独立，微雨燕双飞”三句为第二层……“记得小苹初见，两重心字罗衣，琵琶弦上说相思”为第三层。第四层是最后两句：“当时明月在，曾照彩云归”",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可按“现实—回忆—再现实”的时空跳跃结构进行文本细读",
+        "可强调“去年春恨”作为全词情感枢纽的承转作用"
+      ],
+      "forbidden_assertions": [
+        "将四层结构打乱或合并为单一场景的平铺直叙",
+        "忽略“梦后”“酒醒”“记得”“当时”等时间提示词的线索功能"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lexical_allusion",
+      "claim": "“落花人独立，微雨燕双飞”直接化用五代翁宏《宫词》成句，以双飞之燕反衬独立之人的孤寂，属“以诗入词”且意境更深的典范。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "《诗话》卷七引翁宏《宫词》”落花人独立，微雨燕双飞。“……晏词一写“人独立”再写“燕双飞”形成了鲜明的对比。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "古人常用“双燕”反衬行文中人物的孤寂之感。……晏词一写“人独立”再写“燕双飞”形成了鲜明的对比。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出晏几道袭用前人成句而能“浑然天成，恰当好处”的创作功力",
+        "可对比原诗与词境，说明词体更重婉约含蓄的特质"
+      ],
+      "forbidden_assertions": [
+        "称此联为晏几道完全原创",
+        "忽略“双燕”与“独立”之间的反衬修辞关系"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor_caiyun",
+      "claim": "“彩云”为明确比喻意象，代指歌女小苹，化用李白“化作彩云飞”诗意，寓追怀追昔、美好易逝之意。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "彩云：比喻美人。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "彩云：比喻美人。……此篇”当时明月“”曾照彩云“，与诸例均合，寓追怀追昔之意。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可解释为以彩云之缥缈易散喻美人之难留与往昔欢情之不可追",
+        "可结合“明月在”与“彩云归”的时空对照，阐释物是人非的怅惘"
+      ],
+      "forbidden_assertions": [
+        "将“彩云”实指为自然气象或天气现象",
+        "脱离李白诗意渊源进行过度现代心理学解读"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_xinzi",
+      "claim": "“心字罗衣”的含义在学术上未有定论，主要有“心字香熏过的罗衣”、“衣服曲领如心字”以及“衣上的篆体心字花纹图案”等不同解释。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "心字罗衣：未详。《词品》卷二：“心字罗衣则谓心字香薰之尔，或谓女人衣曲领如心字。“说亦未必确。疑指衣上的花纹。”心“当是篆体，故可作为图案。”",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“两重心字”可能双关“心心相印”之意，用以渲染两人倾心相爱的情谊"
+      ],
+      "forbidden_assertions": [
+        "断言“心字罗衣”只有一种确切的解释",
+        "认为“心字”是指现代楷书字体的“心”字"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_que_lai",
+      "claim": "“却来”意为“又来”或“再来”，在词中表示去年的春恨与离愁又一次涌上心头。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "却来：又来，再来。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "却来：又来，再来。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“却”字和《夜雨寄北》中“却话巴山夜雨时”中的“却”字一样，当“又”字“再”字解。意思是说：去年的离愁别恨又涌上了心头。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“却来”体现了愁绪的周而复始，年年如期而至"
+      ],
+      "forbidden_assertions": [
+        "将“却来”解释为“退回来”或“拒绝来”"
+      ]
+    },
+    {
+      "claim_id": "claim_08_alternative_reading_zaizhi",
+      "claim": "关于“当时明月在”的“在”字，存在两种不同的赏析解读：一说为普通动词“存在”，指明月如今犹在；另一说认为“在”是吴语系中的处所方位词，意指“在某处”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "把“在”字当作表示处所方位词用，因为在吴系语中，“在”能表达这种意思。某处可说成“某在”。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_3",
+          "text": "当时明月如今犹在，曾照着她彩云般的身影回归。",
+          "locator": "译文三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "若作方位词，可将该句理解为“在当时明月高照的地方，如今似乎还留下她依依惜别的身影”"
+      ],
+      "forbidden_assertions": [
+        "否定“在”字作为普通动词“存在”的常规解释",
+        "断言“在”字在宋词中只能作现代汉语的进行时助词"
+      ]
+    },
+    {
+      "claim_id": "claim_09_alternative_reading_ping",
+      "claim": "在原文版本中，“小苹”的“苹”字存在异文，部分版本作“萍”，或标注“苹 通：萍”。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_2",
+          "text": "记得小苹初见，两重心字罗衣。……(苹 通：苹)",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“小苹”作为歌女名字，在流传过程中可能因同音而产生“苹”与“萍”的异文"
+      ],
+      "forbidden_assertions": [
+        "认为“小苹”与“小萍”是两个完全不同的歌女"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及流派归属。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋晏几道《临江仙》婉约小令",
+        "晏小山代表作之一"
+      ],
+      "forbidden_claims": [
+        "误标为唐代或晏殊作品",
+        "归类为豪放词或古体诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "交代词作本事背景，明确小苹身份及作者早年听曲交游的创作缘起。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "追忆沈、陈两家歌女小苹之作",
+        "源于《小山词》自跋所载听歌填词旧事"
+      ],
+      "forbidden_claims": [
+        "虚构为政治贬谪或边塞行旅背景",
+        "将小苹误作作者妻室"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "解析“落花人独立，微雨燕双飞”的成句化用及反衬手法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "袭用翁宏诗句而意境更深",
+        "以双燕翩飞反衬词人独立孤寂"
+      ],
+      "forbidden_claims": [
+        "称此句为晏几道完全原创",
+        "忽略双燕与独立之人的对照关系"
+      ],
+      "source_claim_ids": [
+        "claim_04_lexical_allusion"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "梳理全词四层时空转换与心理递进脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "梦醒现实—去年春恨—初见追忆—明月余思",
+        "以“去年春恨”为时针串联四个独立镜头"
+      ],
+      "forbidden_claims": [
+        "将四层结构打乱或视为单一场景平铺",
+        "忽略时间提示词的线索功能"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "阐释“彩云”意象的比喻本体及其化用渊源。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "彩云喻指歌女小苹",
+        "化用李白诗意，寓追怀追昔之意"
+      ],
+      "forbidden_claims": [
+        "将彩云实指为自然天象",
+        "脱离文本与注释进行无据引申"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor_caiyun"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "界定“在”字的方位词用法及全词含蓄真挚的情感基调。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“在”表处所方位，指明月依旧高悬",
+        "字字关情，以景结情，余韵悠长"
+      ],
+      "forbidden_claims": [
+        "将“在”字曲解为现代进行时态",
+        "过度渲染为直白哀怨或现代爱情观"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure",
+        "claim_05_metaphor_caiyun",
+        "claim_08_alternative_reading_zaizhi"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_lexical_xinzi",
+      "category": "lexical",
+      "description": "解析“两重心字罗衣”中“心字”的多重学术争议与美学内涵。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "心字香熏过的罗衣、曲领如心字、或篆体心字花纹",
+        "借“两重心字”双关“心心相印”之深情"
+      ],
+      "forbidden_claims": [
+        "断言“心字”只有单一确凿的解释",
+        "忽略其在词境中渲染倾心相爱的重要作用"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_xinzi"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_08_lexical_que_lai",
+      "category": "lexical",
+      "description": "解析“却来”的字义及其在词中表达愁绪重现的艺术效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“却来”即“又来”、“再来”",
+        "表达去年的春恨离愁再次涌上心头"
+      ],
+      "forbidden_claims": [
+        "将“却”字误解为现代汉语的转折连词"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_que_lai"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_09_alternative_reading",
+      "category": "alternative_reading",
+      "description": "指出“小苹”在不同版本中的异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“小苹”在部分版本中通作“小萍”",
+        "存在“苹”与“萍”的异文"
+      ],
+      "forbidden_claims": [
+        "认为“苹”与“萍”在此处指代两个不同的历史人物"
+      ],
+      "source_claim_ids": [
+        "claim_09_alternative_reading_ping"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_caiyun",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "彩云"
+      ],
+      "target_domain": [
+        "歌女小苹/昔日恋人"
+      ],
+      "bridges": [
+        "注释明确指出“彩云比喻美人”，且化用李白“化作彩云飞”诗意，以彩云之缥缈易散喻美人之难留与往昔欢情之不可追。"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor_caiyun"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可理解为小苹离去时轻盈曼妙的身姿，或象征美好却短暂的青春年华与欢宴时光。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_yanzi",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "燕双飞"
+      ],
+      "target_domain": [
+        "往昔成双的欢愉/反衬当下孤寂"
+      ],
+      "bridges": [
+        "赏析指出古人常用双燕反衬行文中人物的孤寂之感，此处以双飞之燕对照独立之人，暗逗怀人意。"
+      ],
+      "context_claim_ids": [
+        "claim_04_lexical_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可视为春景的自然白描，以乐景写哀情，不刻意强调反衬而重在氛围烘托。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text_display",
+      "description": "完整呈现词作原文与标点，配合旁白逐句朗读，确保字词准确无误。",
+      "acceptable_realizations": [
+        "分句淡入，采用古典书法字体与素雅背景",
+        "旁白朗读时同步高亮当前诗句"
+      ],
+      "forbidden_realizations": [
+        "错漏字、乱序或擅自改动原词",
+        "使用现代卡通字体或花哨动态特效"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_text_recitation",
+      "semantic_role": "opening_text_recitation"
+    },
+    {
+      "requirement_id": "vis_02_dream_awakening",
+      "description": "展现梦醒酒消后楼台紧锁、帘幕低垂的空寂实景，奠定全词迷惘基调。",
+      "acceptable_realizations": [
+        "冷色调空镜，门窗紧闭与帷幔低垂的特写",
+        "光影由暗转明，暗示从梦境跌回现实"
+      ],
+      "forbidden_realizations": [
+        "出现人物活动、喧闹场景或明亮暖光",
+        "将“楼台高锁”具象化为监狱或废墟"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "post_dream_awakening",
+      "semantic_role": "post_dream_awakening"
+    },
+    {
+      "requirement_id": "vis_03_spring_solitude",
+      "description": "呈现微雨落花中一人独立、双燕翩飞的对比画面，强化孤寂与怀人情绪。",
+      "acceptable_realizations": [
+        "慢镜头落花，双燕掠过雨丝，人物背影孤清",
+        "画面留白，突出“独立”与“双飞”的构图反差"
+      ],
+      "forbidden_realizations": [
+        "将双燕画为群鸟或忽略细雨氛围",
+        "人物面部清晰特写破坏含蓄意境"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_yanzi"
+      ],
+      "expected_phase": "spring_solitude_and_swallow_contrast",
+      "semantic_role": "spring_solitude_and_swallow_contrast"
+    },
+    {
+      "requirement_id": "vis_04_first_meeting",
+      "description": "闪回初见小苹场景，突出心字罗衣与琵琶弹奏细节，渲染倾心相爱之情。",
+      "acceptable_realizations": [
+        "暖色调回忆滤镜，衣饰花纹与琵琶虚影特写",
+        "镜头虚化处理，保持记忆的朦胧感"
+      ],
+      "forbidden_realizations": [
+        "现代服饰或写实歌舞表演",
+        "过度具象化“心字”图案导致俗艳"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "memory_of_first_encounter",
+      "semantic_role": "memory_of_first_encounter"
+    },
+    {
+      "requirement_id": "vis_05_moonlight_cloud",
+      "description": "以皎洁明月与缥缈彩云收束全篇，暗示美人已逝、余韵悠长。",
+      "acceptable_realizations": [
+        "月光穿透云层，彩云渐隐，大面积留白",
+        "镜头缓缓拉远，回归空寂楼台"
+      ],
+      "forbidden_realizations": [
+        "具象化彩云为具体人物或添加现代粒子特效",
+        "画面过于明亮或喧闹破坏“物是人非”的怅惘"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_caiyun"
+      ],
+      "expected_phase": "moonlight_and_fading_cloud",
+      "semantic_role": "moonlight_and_fading_cloud"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_048_01",
+      "description": "晏几道出身北宋相门，早年生活优裕。但他性情孤傲，仕途坎坷，中年以后逐渐家道中落，常历离愁别恨。",
+      "audio_triggers": [
+        "相门",
+        "家境中落",
+        "仕途坎坷"
+      ],
+      "visual_evidence": [
+        "宋代官宦府邸背景。",
+        "年轻时的晏几道意气风发，随后画面过渡至其家境衰落、神色黯然，服饰从华贵转为相对朴素。"
+      ],
+      "sound_evidence": [
+        "早期繁华喧闹的环境声，逐渐转为寂寥冷清的风声。"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_048_02",
+      "description": "依据晏几道《小山词》自跋，他早年常与好友沈廉叔、陈君宠交游，并为他们家中的歌女填词。在此期间，他结识了身穿心字罗衣、擅弹琵琶的歌女小苹，两人结下了深厚情谊。",
+      "audio_triggers": [
+        "沈廉叔",
+        "陈君宠",
+        "小苹",
+        "心字罗衣"
+      ],
+      "visual_evidence": [
+        "宋代厅堂内，晏几道与友人们饮酒听曲。",
+        "歌女小苹身穿带有篆体“心”字图案的罗衣，怀抱琵琶弹奏，晏几道在旁专注倾听。"
+      ],
+      "sound_evidence": [
+        "欢快的琵琶弹奏声",
+        "酒席间的笑语与酬唱声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_048_03",
+      "description": "后来随着境遇变迁，昔日的游宴聚会风流云散，晏几道与小苹分离，再难相见，这成为他心中长久的遗憾。",
+      "audio_triggers": [
+        "分离",
+        "聚散",
+        "遗憾",
+        "不知其踪"
+      ],
+      "visual_evidence": [
+        "空荡的院落，晏几道独自徘徊。",
+        "回忆中酒宴的繁华景象逐渐虚化消散，昔日歌女小苹的身影不复存在。"
+      ],
+      "sound_evidence": [
+        "欢呼声渐行渐远，转为微弱的回音",
+        "沉重孤独的叹息声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_048_04",
+      "description": "通常认为在一个暮春时节，晏几道从残梦或醉酒中醒来，面对高重深锁的楼阁和低垂的帘幕，倍感孤寂，去年的离愁别恨再次涌上心头。",
+      "audio_triggers": [
+        "梦后楼台高锁",
+        "酒醒帘幕低垂",
+        "暮春",
+        "春恨"
+      ],
+      "visual_evidence": [
+        "暮春时节的庭院，细雨蒙蒙，落花满地，燕子成双飞舞。",
+        "晏几道独自站在低垂的帘幕前，面对紧锁的楼门，神情凄惋独立。"
+      ],
+      "sound_evidence": [
+        "淅淅沥沥的细雨声",
+        "微风吹动帘幕的摩擦声",
+        "燕子清脆的呢喃声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_048_05",
+      "description": "晏几道提笔创作《临江仙》一词。他化用前人诗意，对比自身孤影，追忆与小苹初见及听其弹琴的情景，并在结尾以明月与彩云寄托对伊人的深切怀念。",
+      "audio_triggers": [
+        "创作《临江仙》",
+        "追忆",
+        "当时明月在",
+        "曾照彩云归"
+      ],
+      "visual_evidence": [
+        "晏几道在书案前挥毫写下词作。",
+        "画面可隐约浮现明月映照下如彩云般远去的美丽身影作为文学转化提示，禁止出现实体的云朵变成真人的神话特效。"
+      ],
+      "sound_evidence": [
+        "提笔写字的纸笔摩擦声",
+        "背景伴随悠远哀婉的琵琶独奏，如诉相思。"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "梦后楼台高锁，",
+      "pronunciation": "mèng hòu lóu tái gāo suǒ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "酒醒帘幕低垂。",
+      "pronunciation": "jiǔ xǐng lián mù dī chuí 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "去年春恨却来时，",
+      "pronunciation": "qù nián chūn hèn què lái shí ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "落花人独立，",
+      "pronunciation": "luò huā rén dú lì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "微雨燕双飞。",
+      "pronunciation": "wēi yǔ yàn shuāng fēi 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "记得小苹初见，",
+      "pronunciation": "jì dé xiǎo píng chū jiàn ，",
+      "accepted_variants": [
+        "jì de xiǎo píng chū jiàn ，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "两重心字罗衣。",
+      "pronunciation": "liǎng chóng xīn zì luó yī 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "琵琶弦上说相思，",
+      "pronunciation": "pí pá xián shàng shuō xiāng sī ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "当时明月在，",
+      "pronunciation": "dāng shí míng yuè zài ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曾照彩云归。",
+      "pronunciation": "céng zhào cǎi yún guī 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "临江仙",
+      "pronunciation": "lín jiāng xiān",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "晏几道",
+      "pronunciation": "yàn jǐ dào",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "小苹",
+      "pronunciation": "xiǎo píng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "沈廉叔",
+      "pronunciation": "shěn lián shū",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "陈君宠",
+      "pronunciation": "chén jūn chǒng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "两重",
+      "pronunciation": "liǎng chóng",
+      "category": "polyphone",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_048_01",
+      "source_event_id": "evt_048_01",
+      "target_event_id": "evt_048_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_048_02",
+      "source_event_id": "evt_048_02",
+      "target_event_id": "evt_048_03",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_048_03",
+      "source_event_id": "evt_048_03",
+      "target_event_id": "evt_048_04",
+      "relation_type": "STATE_CHANGE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_048_04",
+      "source_event_id": "evt_048_04",
+      "target_event_id": "evt_048_05",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_048_05",
+      "source_event_id": "evt_048_02",
+      "target_event_id": "evt_048_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/048.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/048.json",
+      "event_gold": "gold_annotation/songci_300/048.json"
+    },
+    "original_sample_id": "048",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

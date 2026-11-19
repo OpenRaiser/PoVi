@@ -1,0 +1,953 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_071",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词题为《江神子・江城子》，作者为北宋文学家苏轼，体裁为词。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：江神子・江城子\n作者：苏轼\n朝代：宋\n体裁：词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "苏轼（1037—1101）...北宋著名文学家、书画家、政治家...其词豪放洒脱，开宋词豪放派先河",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该作为北宋苏轼的悼亡词代表作",
+        "可指出苏轼在词体发展上的豪放派开创地位"
+      ],
+      "forbidden_assertions": [
+        "作者为唐代或明代诗人",
+        "该作品体裁为诗或曲"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词作于宋神宗熙宁八年（1075年）正月二十日，苏轼时任密州知州，因梦见亡妻王弗（逝世十年）而作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首悼亡词，是宋神宗熙宁八年（1075）徙知山东密州（今山东诸城）时所作...这一年正月二十日，他梦见爱妻王氏，便写下了这首传诵千古的悼亡词。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "十年：指结发妻子王弗去世已十年。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中“十年”指王弗卒于1065年，至1075年作词恰满十年",
+        "创作动机为正月二十日夜梦亡妻后的情感宣泄"
+      ],
+      "forbidden_assertions": [
+        "王弗逝世于作词当年",
+        "此词作于苏轼贬谪黄州时期"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure_theme",
+      "claim": "全词上片抒写生死相隔的清醒之痛与漂泊沧桑，下片前五句记梦境重逢，末三句落回现实想象，整体采用虚实结合手法。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词是“记梦”，而且明确写了做梦的日子。但虽说是“记梦”，其实只有下片五句是记梦境，其他都是抒胸臆。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这首词运用分合顿挫，虚实结合以及叙述白描等多种艺术的表现方法，来表达作者怀念亡妻的思想感情",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "上片侧重现实抒情，下片侧重梦境叙事与想象",
+        "记梦仅占下片部分，其余为醒后悲怀"
+      ],
+      "forbidden_assertions": [
+        "全词均为梦境记录",
+        "上片描写梦境，下片描写现实"
+      ]
+    },
+    {
+      "claim_id": "claim_04_line03_metaphor",
+      "claim": "“尘满面、鬓如霜”以风尘与白霜为喻，具象化作者十年间仕途坎坷、生活困顿与容颜衰老。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "尘满面，鬓如霜：形容饱经沧桑，面容憔悴。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "词中“尘满面，鬓如霜”不仅是对亡妻的哀思，也暗含了自身漂泊沧桑的感慨。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "该句不仅写生理衰老，更折射政治失意与人生艰辛",
+        "比喻使抽象的沧桑感获得强烈的视觉冲击"
+      ],
+      "forbidden_assertions": [
+        "仅指自然气候导致的寒冷与灰尘",
+        "与作者个人仕途经历无关"
+      ]
+    },
+    {
+      "claim_id": "claim_05_line06_symbolism",
+      "claim": "“明月夜、短松冈”以清冷月色与孤松山冈象征亡妻长眠之地，外化作者绵延不绝的哀思与孤寂。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "短松冈：苏轼葬妻之地，短松：矮松。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "特别是“明月夜，短松冈”二句，凄凉清幽独，黯然魂销。...作者设想死者的痛苦，以寓自己的悼念之情。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "景物描写承载了生死两隔的永恒悲痛",
+        "推己及人，借亡妻视角反衬自身思念之深"
+      ],
+      "forbidden_assertions": [
+        "仅为客观地理环境描写，无情感寄托",
+        "短松冈指代作者故乡而非墓地"
+      ]
+    },
+    {
+      "claim_id": "claim_06_emotional_core",
+      "claim": "“不思量，自难忘”通过矛盾心态的张力，揭示出深埋心底、无法刻意控制却自然涌现的患难深情。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "作者将“不思量”与“自难忘”并举，利用这两组看似矛盾的心态之间的张力，真实而深刻地揭示自己内心的情感。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "强忍不去思念可终究难以忘怀。",
+          "locator": "译文一",
+          "authority": "low"
+        }
+      ],
+      "acceptable_inferences": [
+        "情感表达克制而深沉，非嚎啕大哭式的宣泄",
+        "十年岁月未能冲淡感情，反而沉淀为潜意识本能"
+      ],
+      "forbidden_assertions": [
+        "作者已完全放下对亡妻的思念",
+        "“不思量”指感情淡漠或遗忘"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_details",
+      "claim": "词中“思量”意为想念；“千里”指王弗葬地四川眉山与苏轼任所山东密州相隔遥远；“幽梦”指梦境隐约；“小轩窗”指有窗槛的小屋窗前；“顾”指看；“料得”指料想。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "思量：想念。千里：王弗葬地四川眉山与苏轼任所山东密州，相隔遥远，故称“千里”。幽梦：梦境隐约，故云幽梦。小轩窗：指小室的窗前。小轩：有窗槛的小屋。顾：看。料得：料想，想来。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“千里”并非虚指，而是有具体的地理对应（四川眉山至山东密州）",
+        "“幽梦”的“幽”字传达出梦境的迷离与凄清感"
+      ],
+      "forbidden_assertions": [
+        "“千里”仅为文学夸张，无实际地理背景",
+        "“顾”在词中意为照顾或顾忌"
+      ]
+    },
+    {
+      "claim_id": "claim_08_alternative_reading",
+      "claim": "词中“料得年年肠断处”在不同版本中存在异文，原文版本二作“料得年年断肠处”，注释一也指出“肠断处”一作“断肠处”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_version_2",
+          "text": "料得年年断肠处，明月夜，短松冈。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "肠断处：一作“断肠处”。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“肠断”与“断肠”词义相通，皆形容极度悲伤，不影响词作核心情感的表达"
+      ],
+      "forbidden_assertions": [
+        "“肠断处”与“断肠处”在词意上有根本性的对立"
+      ]
+    },
+    {
+      "claim_id": "claim_09_historical_context_detail",
+      "claim": "苏轼十九岁时与十六岁的王弗结婚，王弗二十七岁时卒于京师，后葬于眉之东北彭山县安镇乡可龙里先君、先夫人墓之西北八步。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "苏东坡十九岁时，与年方十六的王弗结婚...王弗二十七岁就去世了...在《亡妻王氏墓志铭》里说：‘治平二年（1065）五月丁亥，赵郡苏轼之妻王氏（名弗），卒于京师。...葬于眉之东北彭山县安镇乡可龙里先君、先夫人墓之西北八步。’",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "王弗的早逝对苏轼是极大的精神打击",
+        "王弗归葬于苏轼父母墓旁，体现了其“侍亲甚孝”的家庭地位"
+      ],
+      "forbidden_assertions": [
+        "王弗去世时年过四十",
+        "王弗葬于山东密州"
+      ]
+    },
+    {
+      "claim_id": "claim_10_genre_innovation",
+      "claim": "在苏轼之前，悼亡诗已有悠久传统（如潘岳、元稹、李商隐等），但用“词”这一体裁来写悼亡，是苏轼的首创。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "从悼亡诗出现一直到北宋的苏轼这期间，悼亡诗写得最有名的有西晋的潘岳和中唐的元稹。晚唐的李商隐亦曾有悼亡之作。...而用词写悼亡，是苏轼的首创。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "苏轼此词拓宽了词的题材边界，使词不再局限于传统的艳情闺怨",
+        "此词在悼亡文学史上具有开创性的里程碑意义"
+      ],
+      "forbidden_assertions": [
+        "在苏轼之前，潘岳和元稹已经用词写过悼亡作",
+        "苏轼此词完全模仿前人，毫无体裁创新"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、朝代与词体身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋苏轼的悼亡词《江城子》",
+        "宋代词人苏轼所作《江神子・江城子》"
+      ],
+      "forbidden_claims": [
+        "作者为其他朝代文人",
+        "体裁误判为近体诗或散曲"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "交代熙宁八年密州任上、正月二十日夜梦亡妻王弗（逝世十年）的创作契机。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "1075年苏轼在密州梦见去世十年的妻子王弗后写下此词",
+        "作于宋神宗熙宁八年，为悼念结发妻子而作"
+      ],
+      "forbidden_claims": [
+        "王弗逝世于作词当年",
+        "创作地点为黄州或杭州"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "辨析上下片功能：上片抒清醒之痛与身世沧桑，下片记梦境重逢并落回现实想象，体现虚实结合。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上片写实抒情，下片记梦与想象交织",
+        "全词以虚实转换推进情感层次"
+      ],
+      "forbidden_claims": [
+        "全篇均为梦境实录",
+        "上下片内容无逻辑关联"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "识别“尘满面、鬓如霜”的比喻本体与喻体，理解其指向的沧桑与衰老。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "以风尘与白霜比喻容颜憔悴与岁月摧残",
+        "借外貌变化映射十年漂泊之苦"
+      ],
+      "forbidden_claims": [
+        "仅描写天气寒冷或灰尘堆积",
+        "比喻对象为亡妻而非作者自身"
+      ],
+      "source_claim_ids": [
+        "claim_04_line03_metaphor"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_05_mapping",
+      "category": "mapping_bridge",
+      "description": "阐释“明月夜、短松冈”如何将自然景物转化为情感载体，构建生死相隔的凄清意境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "清冷月色与孤松山冈共同构成哀思的视觉象征",
+        "借景抒情，以墓地实景寄托无尽悼念"
+      ],
+      "forbidden_claims": [
+        "景物与情感毫无关联",
+        "短松冈指代繁华市井"
+      ],
+      "source_claim_ids": [
+        "claim_05_line06_symbolism"
+      ],
+      "line_ids": [
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确“记梦”仅涵盖下片五句，其余为醒后抒怀，避免将全词误读为纯梦境叙事。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "仅下片“夜来幽梦”至“泪千行”为梦境描写",
+        "上片与结尾三句属现实心理活动"
+      ],
+      "forbidden_claims": [
+        "全词皆为梦境记录",
+        "“十年生死”发生在梦中"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure_theme",
+        "claim_06_emotional_core"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "概括全词核心：以十年生死为背景，融合身世之悲与夫妻深情，展现克制而深沉的悼亡主题。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "苏轼悼念亡妻王弗的千古绝唱，融个人沧桑与伉俪深情于一体",
+        "通过虚实交织与白描手法，表达生死不渝的哀思"
+      ],
+      "forbidden_claims": [
+        "主题为歌颂仕途得意或山水之乐",
+        "情感基调为轻快或戏谑"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_background",
+        "claim_06_emotional_core"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_08_lexical_meanings",
+      "category": "lexical",
+      "description": "掌握词中核心字词的训诂，包括“思量”意为想念，“千里”指两地相隔遥远，“幽梦”指隐约的梦境，“小轩窗”指小室的窗前，“顾”指看，“料得”指料想。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "掌握‘思量’、‘幽梦’、‘小轩窗’等词在词中的具体含义",
+        "理解‘千里’指代四川眉山与山东密州的遥远距离"
+      ],
+      "forbidden_claims": [
+        "将‘思量’解释为计算或商量",
+        "将‘顾’解释为照顾或顾虑"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04",
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_09_alternative_readings",
+      "category": "alternative_reading",
+      "description": "了解“料得年年肠断处”存在“断肠处”的异文版本。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“肠断处”在部分版本中亦写作“断肠处”",
+        "注意“肠断处”与“断肠处”的异文现象"
+      ],
+      "forbidden_claims": [
+        "“断肠处”是后人伪造、毫无文献依据的错字"
+      ],
+      "source_claim_ids": [
+        "claim_08_alternative_reading"
+      ],
+      "line_ids": [
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_10_genre_innovation",
+      "category": "structure",
+      "description": "理解苏轼首创用“词”来写悼亡的文学史意义，区别于前人（潘岳、元稹等）的悼亡诗。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "苏轼首开以词写悼亡的先河",
+        "此词是文学史上第一首用词体写作的悼亡名篇"
+      ],
+      "forbidden_claims": [
+        "词体悼亡在苏轼之前就已经非常普遍"
+      ],
+      "source_claim_ids": [
+        "claim_10_genre_innovation"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_aging",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "尘满面",
+        "鬓如霜"
+      ],
+      "target_domain": [
+        "十年漂泊的仕途坎坷",
+        "生活困顿与容颜衰老",
+        "身心俱疲的沧桑状态"
+      ],
+      "bridges": [
+        "以自然物象（霜）与生活痕迹（尘）具象化抽象的岁月摧残与政治失意",
+        "外貌的剧烈变化成为内心悲愤与无奈的直接外化"
+      ],
+      "context_claim_ids": [
+        "claim_04_line03_metaphor",
+        "claim_02_background"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅指生理自然衰老，与政治遭遇无关",
+        "尘霜为写实环境描写，无深层象征"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_grave_sorrow",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "明月夜",
+        "短松冈"
+      ],
+      "target_domain": [
+        "亡妻王弗的葬地",
+        "作者绵延不绝的哀思与孤寂",
+        "生死两隔的永恒悲痛"
+      ],
+      "bridges": [
+        "清冷月色与孤松山冈的凄清画面，与内心断肠之痛形成同构映射",
+        "推己及人，借设想亡妻在墓地的痛苦，反衬自身悼念之深"
+      ],
+      "context_claim_ids": [
+        "claim_05_line06_symbolism",
+        "claim_03_structure_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "纯客观地理与天象记录，无情感投射",
+        "短松冈指代作者隐居之地而非墓地"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_dream_window",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "小轩窗",
+        "正梳妆"
+      ],
+      "target_domain": [
+        "往昔夫妻恩爱生活",
+        "跨越生死的永恒记忆",
+        "青春与美好的瞬间定格"
+      ],
+      "bridges": [
+        "选取最具生活气息的日常片段，以瞬间场景象征长久的情感羁绊",
+        "梦境中的熟悉画面与现实中的生死相隔形成强烈反差，强化悲情"
+      ],
+      "context_claim_ids": [
+        "claim_03_structure_theme",
+        "claim_06_emotional_core"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "仅为梦境客观记录，无特殊情感象征",
+        "梳妆指代亡妻生前日常，不具永恒记忆意义"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰呈现词牌、题名、作者及完整原文，标点与断句须严格遵循定本。",
+      "acceptable_realizations": [
+        "片头题签后逐句浮现，配以沉稳旁白",
+        "背景留白，文字居中排版，突出古典质感"
+      ],
+      "forbidden_realizations": [
+        "擅自改动字词或标点",
+        "遗漏上下片分隔或关键句读"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_text_presentation",
+      "semantic_role": "title_and_text_presentation"
+    },
+    {
+      "requirement_id": "vis_02_waking_grief",
+      "description": "通过空旷远景与人物背影，表现十年生死相隔的茫然与“尘满面、鬓如霜”的沧桑感。",
+      "acceptable_realizations": [
+        "冷色调广角镜头展现千里孤坟意象，叠加作者风尘仆仆的面部特写",
+        "以风沙、秋霜等自然元素隐喻岁月流逝与仕途坎坷"
+      ],
+      "forbidden_realizations": [
+        "使用明快暖色调或欢快配乐",
+        "人物形象年轻俊朗，与“鬓如霜”矛盾"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_aging"
+      ],
+      "expected_phase": "waking_grief_and_separation",
+      "semantic_role": "waking_grief_and_separation"
+    },
+    {
+      "requirement_id": "vis_03_dream_reunion",
+      "description": "以柔光与慢镜头呈现“小轩窗，正梳妆”的温馨片段，随后转入“相顾无言，惟有泪千行”的静默对峙。",
+      "acceptable_realizations": [
+        "画面由虚转实，窗内女子梳妆剪影与窗外作者身影重叠",
+        "无声处理，仅以细微呼吸与泪滴落下的音效强化“此时无声胜有声”"
+      ],
+      "forbidden_realizations": [
+        "加入大量对话或喧闹背景音",
+        "梦境画面过于写实 or 充满现代元素"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_dream_window"
+      ],
+      "expected_phase": "dream_transition_and_reunion",
+      "semantic_role": "dream_transition_and_reunion"
+    },
+    {
+      "requirement_id": "vis_04_grave_scene",
+      "description": "以清冷月光、矮松山冈与空旷坟地构建凄清意境，呼应“料得年年肠断处”的推己及人。",
+      "acceptable_realizations": [
+        "俯拍短松冈全景，月光洒落，松影斑驳，营造幽独氛围",
+        "画面渐暗，留白处浮现“明月夜、短松冈”字幕"
+      ],
+      "forbidden_realizations": [
+        "墓地场景阴森恐怖或带有鬼怪元素",
+        "光线明亮喧闹，破坏凄清基调"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_grave_sorrow"
+      ],
+      "expected_phase": "imagined_grave_and_eternal_sorrow",
+      "semantic_role": "imagined_grave_and_eternal_sorrow"
+    },
+    {
+      "requirement_id": "vis_05_tone_guidance",
+      "description": "全片视觉节奏需保持沉郁顿挫，避免过度煽情或戏剧化表演，契合“真挚朴素，沉痛感人”的审美要求。",
+      "acceptable_realizations": [
+        "镜头运动平稳缓慢，剪辑留足情感沉淀空间",
+        "色彩饱和度偏低，以青灰、月白为主色调"
+      ],
+      "forbidden_realizations": [
+        "使用快速闪回或跳跃剪辑",
+        "演员表情夸张、嚎啕大哭，违背“相顾无言”的克制美学"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "overall_aesthetic_guidance",
+      "semantic_role": "overall_aesthetic_guidance"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_071_01",
+      "description": "苏轼十九岁时与年仅十六岁的王弗结为夫妻，两人恩爱情深，王弗蕙质兰心，常在苏轼读书、处事时给予帮助，感情甚笃。",
+      "audio_triggers": [
+        "十九岁时",
+        "与十六岁的王弗结婚",
+        "恩深"
+      ],
+      "visual_evidence": [
+        "北宋居室环境",
+        "年轻的苏轼与王弗和睦相处",
+        "服饰符合宋代士人与闺秀特征",
+        "夫妻琴瑟和鸣的温馨场景"
+      ],
+      "sound_evidence": [
+        "喜庆温馨的背景乐",
+        "轻松愉悦的交谈声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_071_02",
+      "description": "治平二年（1065），年仅二十七岁的王弗在京师病逝，次年归葬于四川眉山。夫妻自此阴阳相隔，成为苏轼心中深沉的痛。",
+      "audio_triggers": [
+        "王弗二十七岁就去世了",
+        "绝大的打击",
+        "十年生死两茫茫"
+      ],
+      "visual_evidence": [
+        "肃穆悲凉的葬礼场景",
+        "四川眉山长满矮松的山冈孤坟",
+        "年轻的苏轼悲痛欲绝的状态"
+      ],
+      "sound_evidence": [
+        "哀伤凄凉的音乐",
+        "风吹过松林的萧瑟声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_071_03",
+      "description": "十年间，苏轼因反对王安石变法屡受压制，仕途不顺，四处奔波。至熙宁八年（1075）任密州知州时，已是生活困苦、容颜沧桑、两鬓如霜。",
+      "audio_triggers": [
+        "反对王安石变法",
+        "外放",
+        "仕途失意",
+        "尘满面",
+        "鬓如霜"
+      ],
+      "visual_evidence": [
+        "中年苏轼在密州处理政务",
+        "面容憔悴、灰尘满面、两鬓斑白",
+        "身着宋代地方知州官服",
+        "生活简朴劳顿的场景"
+      ],
+      "sound_evidence": [
+        "沉重压抑的背景音乐"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_071_04",
+      "description": "熙宁八年（1075）正月二十日夜，苏轼在密州忽然做梦回到故乡，看到亡妻王弗正在小轩窗前对镜梳妆。两人相见，默默无言，唯有泪落千行。",
+      "audio_triggers": [
+        "正月二十日夜",
+        "梦见爱妻王氏",
+        "夜来幽梦忽还乡",
+        "小轩窗",
+        "正梳妆",
+        "相顾无言"
+      ],
+      "visual_evidence": [
+        "恍惚迷离的梦境氛围",
+        "夜晚的小室内",
+        "王弗在窗前对镜梳妆的幻影",
+        "满脸沧桑的中年苏轼与年轻的亡妻相对默默流泪"
+      ],
+      "sound_evidence": [
+        "幽婉如梦的音乐",
+        "无声的啜泣"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_071_05",
+      "description": "从幽梦中惊醒后，苏轼悲不自胜，遥想千里之外明月夜下长满短松的亡妻孤坟，挥笔写下这首传诵千古的悼亡词《江神子·江城子》。",
+      "audio_triggers": [
+        "写下了这首传诵千古的悼亡词",
+        "无处话凄凉",
+        "料得年年肠断处"
+      ],
+      "visual_evidence": [
+        "密州官舍的书房内",
+        "孤灯明月夜的背景",
+        "苏轼含泪在书案前挥毫作词",
+        "禁止出现现代文具或建筑穿帮"
+      ],
+      "sound_evidence": [
+        "毛笔在纸上书写的沙沙声",
+        "凄清的夜风声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "十年生死两茫茫，",
+      "pronunciation": "shí nián shēng sǐ liǎng máng máng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不思量，",
+      "pronunciation": "bù sī liáng ，",
+      "accepted_variants": [
+        "bù sī liang ，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自难忘。",
+      "pronunciation": "zì nán wàng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千里孤坟，",
+      "pronunciation": "qiān lǐ gū fén ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无处话凄凉。",
+      "pronunciation": "wú chù huà qī liáng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "纵使相逢应不识，",
+      "pronunciation": "zòng shǐ xiāng féng yīng bù shí ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "尘满面、",
+      "pronunciation": "chén mǎn miàn 、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "鬓如霜。",
+      "pronunciation": "bìn rú shuāng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夜来幽梦忽还乡，",
+      "pronunciation": "yè lái yōu mèng hū huán xiāng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "小轩窗，",
+      "pronunciation": "xiǎo xuān chuāng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "正梳妆。",
+      "pronunciation": "zhèng shū zhuāng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "相顾无言，",
+      "pronunciation": "xiāng gù wú yán ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "惟有泪千行。",
+      "pronunciation": "wéi yǒu lèi qiān háng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "料得年年肠断处，",
+      "pronunciation": "liào dé nián nián cháng duàn chù ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "明月夜、",
+      "pronunciation": "míng yuè yè 、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "短松冈。",
+      "pronunciation": "duǎn sōng gāng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "苏轼",
+      "pronunciation": "sū shì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "王弗",
+      "pronunciation": "wáng fú",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "密州",
+      "pronunciation": "mì zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "眉山",
+      "pronunciation": "méi shān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "江城子",
+      "pronunciation": "jiāng chéng zǐ",
+      "category": "poem",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_071_01",
+      "source_event_id": "evt_071_01",
+      "target_event_id": "evt_071_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_071_02",
+      "source_event_id": "evt_071_02",
+      "target_event_id": "evt_071_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_071_03",
+      "source_event_id": "evt_071_02",
+      "target_event_id": "evt_071_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_071_04",
+      "source_event_id": "evt_071_03",
+      "target_event_id": "evt_071_04",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_071_05",
+      "source_event_id": "evt_071_04",
+      "target_event_id": "evt_071_05",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/071.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/071.json",
+      "event_gold": "gold_annotation/songci_300/071.json"
+    },
+    "original_sample_id": "071",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

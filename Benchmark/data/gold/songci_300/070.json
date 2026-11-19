@@ -1,0 +1,847 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_070",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "作品为北宋苏轼所作《定风波》，属宋词豪放派代表作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "定风波 苏轼 宋",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "苏轼（1037—1101）...北宋著名文学家...其词豪放洒脱，开宋词豪放派先河",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为北宋豪放派词人苏轼的代表作之一。"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代诗人所作",
+        "该词属于婉约派风格"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "词作于宋神宗元丰五年（1082年）春，苏轼谪居黄州期间，于沙湖道中遇雨有感而发。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "此词作于元丰五年（1082年）苏轼谪居黄州时，时年47岁的诗人于沙湖（今湖北黄冈东）买田途中遇雨。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉，已而遂晴，故作此词。",
+          "locator": "原文版本三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合苏轼‘乌台诗案’后贬谪黄州的处境，理解词中旷达之情的现实根基。"
+      ],
+      "forbidden_assertions": [
+        "该词作于苏轼仕途顺遂的京城时期",
+        "创作动机是赞美歌女柔奴（注：此为另一首同名《定风波》内容，与本词无关）"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literal_action",
+      "claim": "词人面对穿林打叶的骤雨，不以为意，拄竹杖穿草鞋吟啸徐行，表现出从容不迫的姿态。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_2",
+          "text": "不用注意那穿林打叶的雨声，不妨一边吟咏长啸着，一边悠然地行走。竹杖和草鞋轻捷得胜过骑马...",
+          "locator": "译文二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "穿林打叶声：指大雨点透过树林打在树叶上的声音。吟啸：放声吟咏。芒鞋：草鞋。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "‘轻胜马’并非实指物理重量，而是心理上的轻松与精神豪迈。"
+      ],
+      "forbidden_assertions": [
+        "词人实际骑马避雨",
+        "‘芒鞋’指皮靴或官靴"
+      ]
+    },
+    {
+      "claim_id": "claim_04_metaphor_philosophy",
+      "claim": "“一蓑烟雨任平生”与“也无风雨也无晴”借自然风雨隐喻人生政治风波与荣辱得失，表达超然旷达、随遇而安的人生境界。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "‘风雨’二字，一语双关，既指野外途中所遇风雨，又暗指几乎致他于死地的政治‘风雨’和人生险途。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "一蓑烟雨任平生：披着蓑衣在风雨里过一辈子也处之泰然。也无风雨也无晴：意谓既不怕雨，也不喜晴。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "自然界的阴晴圆缺可映射人生际遇的顺逆起伏，词人主张以平常心对待。"
+      ],
+      "forbidden_assertions": [
+        "‘风雨’仅指自然气象，毫无政治隐喻",
+        "词人表达了对仕途彻底绝望的悲观情绪"
+      ]
+    },
+    {
+      "claim_id": "claim_05_textual_structure",
+      "claim": "词前原有小序交代创作契机，正文以遇雨、徐行、天晴、回首为时间与情感脉络，层层递进。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "首两句是全篇枢纽...过片到‘山头斜照却相迎’三句，是过天晴的景象...结拍‘回首向来萧瑟处’...",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "三月七日，沙湖道中遇雨...已而遂晴，故作此词。",
+          "locator": "原文版本三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "全词结构遵循‘遇雨-徐行-天晴-回首’的叙事逻辑，情景交融。"
+      ],
+      "forbidden_assertions": [
+        "该词为单调小令，无上下片之分",
+        "词中先写天晴后写遇雨"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "词中“料峭”意为微寒，“向来”意为方才，“萧瑟”指风雨吹打树叶声，“已而”意为过了一会儿，“狼狈”指进退皆难的困顿窘迫之状。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "⑶狼狈：进退皆难的困顿窘迫之状。⑷已而：过了一会儿。⑼料峭：微寒的样子。⑾向来：方才。萧瑟：风雨吹打树叶声。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“萧瑟”在词中是写实的声音描写，与上片“穿林打叶声”相应和。"
+      ],
+      "forbidden_assertions": [
+        "“萧瑟”在词中仅指词人内心凄凉，无写实风雨声含义",
+        "“料峭”指极其寒冷的严冬气候"
+      ]
+    },
+    {
+      "claim_id": "claim_07_zen_influence",
+      "claim": "词中“也无风雨也无晴”的禅悟深受《金刚经》“应无所住”思想的影响，展现了词人坦荡、任天而动的胸怀。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "其\"也无风雨\"的禅悟深受《金刚经》\"应无所住\"思想影响，清代郑文焯《手批东坡乐府》评：\"此足征是翁坦荡之怀，任天而动。\"",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人的旷达不仅是性格使然，也融入了深厚的佛禅哲理思考。"
+      ],
+      "forbidden_assertions": [
+        "该词纯属即兴写景，不含任何哲学或宗教思想背景"
+      ]
+    },
+    {
+      "claim_id": "claim_08_homonymous_confusion",
+      "claim": "《定风波》词牌下另有苏轼为王巩歌妓柔奴所作的“常羡人间琢玉郎”，两词背景、主题及内容完全不同，不应混淆。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_original_2",
+          "text": "王定国歌儿曰柔奴...常羡人间琢玉郎...此心安处是吾乡。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "的好友王巩因为受到使苏轼遭杀身之祸的“乌台诗案”牵连...苏轼作此词以赞柔奴。",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "在检索或教学《定风波》时，需注意区分“莫听穿林打叶声”与“常羡人间琢玉郎”这两首同调异作。"
+      ],
+      "forbidden_assertions": [
+        "“莫听穿林打叶声”是苏轼写给歌妓柔奴并赞美其高洁人品的词作"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确识别作品题名、作者、朝代及词体归属。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋苏轼的豪放词《定风波》",
+        "东坡居士谪居黄州时期的词作"
+      ],
+      "forbidden_claims": [
+        "唐代诗人作品",
+        "婉约派词作"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "结合元丰五年黄州贬谪背景与沙湖遇雨小序，理解创作契机。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "苏轼因乌台诗案贬谪黄州第三年春游遇雨所作",
+        "基于沙湖道中突遇风雨的真实经历"
+      ],
+      "forbidden_claims": [
+        "作于京城任职期间",
+        "为赠别歌女柔奴而作"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确解释“芒鞋”“吟啸”“料峭”“萧瑟”“已而”“狼狈”等核心词汇的古今义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "芒鞋即草鞋，吟啸指放声吟咏",
+        "料峭形容春寒微冷，萧瑟指风雨吹叶之声，狼狈指困顿窘迫"
+      ],
+      "forbidden_claims": [
+        "芒鞋为皮革官靴",
+        "萧瑟指心情凄凉而非风雨声"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_action",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal",
+      "category": "literal_meaning",
+      "description": "完整复述词人雨中徐行、酒醒迎晴、回首归去的字面叙事过程。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "不听雨声，拄杖穿草鞋慢走，春风吹醒酒意后见夕阳，回头看风雨处觉得无所谓",
+        "遇雨不避，吟啸缓行，雨停日出，回首来路心境平和"
+      ],
+      "forbidden_claims": [
+        "词人骑马快速逃离雨区",
+        "全词仅写天气变化，无行为描写"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_action",
+        "claim_05_textual_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "mapping_bridge",
+      "description": "阐明“风雨/晴”与“人生顺逆/政治风波”的双关映射关系及“任平生”的超然态度。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "自然风雨象征人生坎坷，词人主张以平常心面对荣辱",
+        "借天气阴晴隐喻仕途起伏，表达不悲不喜的豁达"
+      ],
+      "forbidden_claims": [
+        "风雨仅指气象，无任何人生隐喻",
+        "词人渴望重返朝廷重获晴日"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor_philosophy"
+      ],
+      "line_ids": [
+        "l03",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "区分自然气象描写与人生哲理寄托的界限，避免过度政治化或纯写景化解读。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "既承认自然风雨的实写，又认可其作为人生境遇的象征",
+        "哲理生于实景，不脱离文本空谈禅理"
+      ],
+      "forbidden_claims": [
+        "全词为纯粹的政治抗议书",
+        "毫无寄托的游记写景之作"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor_philosophy",
+        "claim_07_zen_influence"
+      ],
+      "line_ids": [
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "辨析《定风波》同调异作，避免将苏轼赞美柔奴的另一首《定风波》（常羡人间琢玉郎）与本词混淆。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "区分沙湖遇雨的‘莫听穿林打叶声’与赞美柔奴的‘常羡人间琢玉郎’",
+        "明确柔奴、王巩背景属于另一首《定风波》"
+      ],
+      "forbidden_claims": [
+        "认为‘莫听穿林打叶声’是为柔奴北归而作"
+      ],
+      "source_claim_ids": [
+        "claim_08_homonymous_confusion"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_wind_rain_politics",
+      "line_ids": [
+        "l01",
+        "l05"
+      ],
+      "source_domain": [
+        "穿林打叶声",
+        "风雨"
+      ],
+      "target_domain": [
+        "人生逆境",
+        "政治风波与荣辱得失"
+      ],
+      "bridges": [
+        "赏析二明确指出‘风雨’一语双关，既指自然骤雨，又暗指致其于死地的政治风波；创作背景二印证了贬谪处境下的心理投射。"
+      ],
+      "context_claim_ids": [
+        "claim_02_background",
+        "claim_04_metaphor_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅视为自然天气的客观记录，不作政治引申（纯写景派）"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_sunshine_prosperity",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "山头斜照",
+        "晴"
+      ],
+      "target_domain": [
+        "人生顺境",
+        "世俗的赞誉与得意"
+      ],
+      "bridges": [
+        "与上片‘风雨’形成自然对照，象征逆境过后的转机或外界赋予的荣华；词人‘微冷’后见斜照相迎，暗示对顺逆皆持平常心。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅指雨后初晴的自然美景，表达游春之悦"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_bamboo_staff_sandals",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "竹杖芒鞋"
+      ],
+      "target_domain": [
+        "简朴的贬谪生活",
+        "精神层面的自由与超脱"
+      ],
+      "bridges": [
+        "注释一释‘芒鞋’为草鞋；赏析二指出以‘轻胜马’的自我感受传达搏击风雨的轻松豪迈，与官场车马形成物质与精神的对比。"
+      ],
+      "context_claim_ids": [
+        "claim_03_literal_action",
+        "claim_04_metaphor_philosophy"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "实写春游装备简陋，无特殊象征意义"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text_display",
+      "description": "清晰展示词牌、作者及全词正文，标点与分行严格遵循定本。",
+      "acceptable_realizations": [
+        "水墨卷轴逐句展开",
+        "楷体字幕同步朗读"
+      ],
+      "forbidden_realizations": [
+        "错漏字词",
+        "混淆上下片"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_text_presentation",
+      "semantic_role": "opening_text_presentation"
+    },
+    {
+      "requirement_id": "vis_02_rain_walk_scene",
+      "description": "呈现骤雨穿林、词人拄杖穿草鞋吟啸徐行的动态画面，突出“轻胜马”的从容。",
+      "acceptable_realizations": [
+        "写意水墨渲染雨势，人物剪影缓步前行",
+        "特写竹杖芒鞋与雨打树叶的细节"
+      ],
+      "forbidden_realizations": [
+        "人物奔跑避雨",
+        "出现马匹或华丽服饰"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_bamboo_staff_sandals"
+      ],
+      "expected_phase": "rain_encounter_calm_walk",
+      "semantic_role": "rain_encounter_calm_walk"
+    },
+    {
+      "requirement_id": "vis_03_clearing_transition",
+      "description": "画面由阴雨转为山头斜照，配合“料峭春风”“微冷”的体感暗示。",
+      "acceptable_realizations": [
+        "光影渐变，云层散开透出暖光",
+        "色调由冷灰过渡至暖金"
+      ],
+      "forbidden_realizations": [
+        "烈日当空",
+        "完全无风无雨的静止画面"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_sunshine_prosperity"
+      ],
+      "expected_phase": "weather_clearing_transition",
+      "semantic_role": "weather_clearing_transition"
+    },
+    {
+      "requirement_id": "vis_04_philosophical_reflection",
+      "description": "以“回首”动作为引，将自然风雨与人生际遇的意象叠化，呈现“也无风雨也无晴”的空灵意境。",
+      "acceptable_realizations": [
+        "水面上倒影与实景交融，风雨与晴光同时淡出",
+        "留白处理配合哲理旁白"
+      ],
+      "forbidden_realizations": [
+        "具象化政治斗争场景",
+        "过度煽情的悲喜表情"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_wind_rain_politics"
+      ],
+      "expected_phase": "philosophical_retrospection",
+      "semantic_role": "philosophical_retrospection"
+    },
+    {
+      "requirement_id": "vis_05_context_overlay",
+      "description": "适时浮现“元丰五年黄州贬谪”“沙湖道中遇雨”等背景信息卡片，辅助理解。",
+      "acceptable_realizations": [
+        "半透明时间轴浮窗",
+        "古籍小序原文侧边标注"
+      ],
+      "forbidden_realizations": [
+        "长篇大论遮挡正文",
+        "引入无关的柔奴典故"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "historical_context_overlay",
+      "semantic_role": "historical_context_overlay"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_070_01",
+      "description": "宋神宗时期，苏轼因“乌台诗案”被贬为黄州团练副使，政治处境艰难，但这并未让他彻底颓丧，反而逐渐形成了超然旷达的胸怀。",
+      "audio_triggers": [
+        "乌台诗案",
+        "贬为黄州",
+        "处境",
+        "旷达",
+        "政治风云"
+      ],
+      "visual_evidence": [
+        "北宋服饰",
+        "苏轼中年的形象",
+        "展现失意但坦然的神情"
+      ],
+      "sound_evidence": [
+        "沉稳宁静的古琴声",
+        "风吹树木的环境音"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_070_02",
+      "description": "元丰五年（1082年）春，苏轼与朋友前往沙湖道中看田，途中突然遭遇风雨，而携带雨具的仆人已经先走。",
+      "audio_triggers": [
+        "元丰五年",
+        "沙湖",
+        "遇雨",
+        "雨具先去",
+        "突然遭遇"
+      ],
+      "visual_evidence": [
+        "春季野外郊道",
+        "突然乌云密布，大雨倾盆",
+        "苏轼与几位同行友人",
+        "没有雨伞或蓑衣",
+        "雨水打在树林叶子上"
+      ],
+      "sound_evidence": [
+        "大雨声",
+        "穿林打叶的雨声",
+        "雷声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_070_03",
+      "description": "同行的朋友们面对突如其来的风雨感到十分狼狈，慌乱躲避。",
+      "audio_triggers": [
+        "同行皆狼狈",
+        "狼狈",
+        "四处躲避"
+      ],
+      "visual_evidence": [
+        "同行的人神色慌张",
+        "用衣袖遮头",
+        "在泥泞的道路上奔跑躲避"
+      ],
+      "sound_evidence": [
+        "慌乱的脚步声",
+        "衣物摩擦声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_070_04",
+      "description": "苏轼却毫不在乎，泰然处之。他拄着竹杖，穿着草鞋，在雨中从容缓步前行，甚至放声吟咏长啸。",
+      "audio_triggers": [
+        "余独不觉",
+        "吟啸且徐行",
+        "毫不在乎",
+        "泰然处之"
+      ],
+      "visual_evidence": [
+        "苏轼手持竹杖，脚穿草鞋",
+        "在风雨中不紧不慢地行走",
+        "神态自若，抬头长啸吟唱",
+        "与同行人的慌乱形成鲜明对比"
+      ],
+      "sound_evidence": [
+        "从容的脚步声",
+        "雨中吟啸声",
+        "旷达豁朗的背景音乐"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_070_05",
+      "description": "过了一会儿，天色放晴，春风微冷吹醒了酒意，夕阳的余晖照在山头上。苏轼回头望着方才经过的风雨之处，心生顿悟。",
+      "audio_triggers": [
+        "已而遂晴",
+        "天晴",
+        "山头斜照",
+        "顿悟",
+        "回首"
+      ],
+      "visual_evidence": [
+        "雨停云散",
+        "偏西的夕阳阳光照耀",
+        "苏轼衣服微湿，感受春风",
+        "回望来时的林间小道"
+      ],
+      "sound_evidence": [
+        "雨停后的鸟鸣声",
+        "风吹树叶的微响",
+        "音乐转为开阔明朗"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_070_06",
+      "description": "苏轼将自然界的风雨晴晦与人生政治上的荣辱得失相联系，写下《定风波》一词，表达了“也无风雨也无晴”的超然境界。",
+      "audio_triggers": [
+        "故作此词",
+        "定风波",
+        "也无风雨也无晴",
+        "超然境界"
+      ],
+      "visual_evidence": [
+        "苏轼在书案前挥毫泼墨",
+        "画面穿插诗词意象：烟雨、竹杖、夕阳交织"
+      ],
+      "sound_evidence": [
+        "毛笔书写的沙沙声",
+        "激昂而深沉的旁白诵读声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "莫听穿林打叶声，",
+      "pronunciation": "mò tīng chuān lín dǎ yè shēng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "何妨吟啸且徐行。",
+      "pronunciation": "hé fáng yín xiào qiě xú xíng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "竹杖芒鞋轻胜马，",
+      "pronunciation": "zhú zhàng máng xié qīng shèng mǎ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "谁怕？",
+      "pronunciation": "shuí pà？",
+      "accepted_variants": [
+        "shéi pà？"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一蓑烟雨任平生。",
+      "pronunciation": "yī suō yān yǔ rèn píng shēng。",
+      "accepted_variants": [
+        "yì suō yān yǔ rèn píng shēng。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "料峭春风吹酒醒，",
+      "pronunciation": "liào qiào chūn fēng chuī jiǔ xǐng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "微冷，",
+      "pronunciation": "wēi lěng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山头斜照却相迎。",
+      "pronunciation": "shān tóu xié zhào què xiāng yíng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "回首向来萧瑟处，",
+      "pronunciation": "huí shǒu xiàng lái xiāo sè chù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "归去，",
+      "pronunciation": "guī qù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "也无风雨也无晴。",
+      "pronunciation": "yě wú fēng yǔ yě wú qíng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "苏轼",
+      "pronunciation": "sū shì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "定风波",
+      "pronunciation": "dìng fēng bō",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黄州",
+      "pronunciation": "huáng zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "沙湖",
+      "pronunciation": "shā hú",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "乌台诗案",
+      "pronunciation": "wū tái shī àn",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "元丰",
+      "pronunciation": "yuán fēng",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_070_01",
+      "source_event_id": "evt_070_01",
+      "target_event_id": "evt_070_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_070_02",
+      "source_event_id": "evt_070_01",
+      "target_event_id": "evt_070_06",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_070_03",
+      "source_event_id": "evt_070_02",
+      "target_event_id": "evt_070_03",
+      "relation_type": "CAUSES",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_070_04",
+      "source_event_id": "evt_070_02",
+      "target_event_id": "evt_070_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_070_05",
+      "source_event_id": "evt_070_04",
+      "target_event_id": "evt_070_01",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_070_06",
+      "source_event_id": "evt_070_04",
+      "target_event_id": "evt_070_05",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_070_07",
+      "source_event_id": "evt_070_05",
+      "target_event_id": "evt_070_06",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_070_08",
+      "source_event_id": "evt_070_04",
+      "target_event_id": "evt_070_06",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/070.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/070.json",
+      "event_gold": "gold_annotation/songci_300/070.json"
+    },
+    "original_sample_id": "070",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

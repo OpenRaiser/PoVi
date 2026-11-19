@@ -1,0 +1,974 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_093",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《兵车行》是唐代现实主义诗人杜甫自创的新题乐府作品，属于杜诗反映社会现实的代表性名篇。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "车辚辚，马萧萧，行人弓箭各在腰。",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "兵车行：是杜甫自创的乐府新题。行：本是乐府歌曲中的一种体裁。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "杜甫（712—770），字子美，号少陵野老，唐代伟大的现实主义诗人",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本诗归入杜甫现实主义讽喻诗序列进行讲解"
+      ],
+      "forbidden_assertions": [
+        "声称本诗是沿用汉魏乐府旧题创作",
+        "将作者归属为其他唐代诗人"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "本诗大约创作于唐玄宗天宝十载（751年），是杜甫困守长安期间，目睹朝廷为开边频繁强征百姓、送别哭声震野的现实场景后创作的，对应当时唐王朝进攻吐蕃、南诏的两次大规模不义战争。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "《兵车行》当作于唐玄宗天宝十载（751）。关于此诗创作背景，有两种观点。以往各家多认为是因唐玄宗用兵吐蕃而作。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《兵车行》此诗作于唐玄宗天宝十载（751年），时杜甫困守长安，目睹朝廷对吐蕃、南诏的连年征战。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "天宝八载哥舒翰攻吐蕃石堡城损失大半，天宝十载鲜于仲通攻南诏死者六万人，朝廷大举征兵，杜甫见到相关图景后创作此诗",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "本诗是安史之乱前社会危机的提前预警，印证了开元盛世表象下的民生凋敝"
+      ],
+      "forbidden_assertions": [
+        "声称本诗创作于安史之乱爆发之后",
+        "否认本诗有对应的真现实事件作为创作原型"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structural_feature",
+      "claim": "本诗采用古典诗歌典型的“一头两脚体”结构，全诗共三段，第一段共6句一韵到底，第二、三段各14句并四次换韵，章法前后呼应、层层递进，结构严密完整。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首诗的结构方式古称“一头两脚体”。全诗共三段：第一段（即“头”）共6句（按乐句计算，下同），一韵到底；第二、三段（即“两脚”）各14句，并四次换韵。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "章法严密，前后呼应，层层递进，析之则三合则为一",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "本诗以人哭开篇、以鬼哭收尾的首尾对照设计，强化了反战主题的感染力"
+      ],
+      "forbidden_assertions": [
+        "声称本诗结构散乱没有统一章法"
+      ]
+    },
+    {
+      "claim_id": "claim_04_allusion_han_to_tang",
+      "claim": "本诗中“武皇”“汉家”是唐诗常见的以汉代唐的委婉避讳手法，分别借指唐玄宗李隆基和唐王朝，并非实指汉朝的汉武帝和汉政权。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "武皇：汉武帝，这里借指唐玄宗。唐诗中借武皇代指玄宗。汉家：汉朝，这里借指唐朝",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "唐人诗歌中好以“汉”代“唐”，下文“汉家”也是指唐王朝。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这种以汉喻唐的写法，既达成了批判最高统治者的表达效果，又规避了直接指斥当朝皇帝的文字风险"
+      ],
+      "forbidden_assertions": [
+        "将诗中武皇直接解读为汉武帝，将汉家直接解读为汉朝"
+      ]
+    },
+    {
+      "claim_id": "claim_05_theme_anti_war",
+      "claim": "本诗核心主旨是批判统治者穷兵黩武的开边政策，揭露频繁战争给民众带来的兵役、租税双重灾难，表达对底层百姓的深切同情和鲜明的反战立场，是杜诗人民性的典型体现。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全诗揭露唐王朝穷兵黩武的罪恶，表现诗人反对开边战争的坚定立场，触摸到诗人同情人民的火热的心",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "全诗主旨在于批判当朝统治者的好大喜功，对苦难的人民表达深切的同情，以尖锐的批判视角暴露战争的罪恶",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中“生男恶生女好”的反常社会心理描写，是战争对传统伦理观念造成严重冲击的直接体现"
+      ],
+      "forbidden_assertions": [
+        "声称本诗是支持唐朝开边扩张的歌颂性作品"
+      ]
+    },
+    {
+      "claim_id": "claim_06_core_lexical",
+      "claim": "诗中核心字词如辚辚、萧萧、点行频、耶娘、干、比邻等的释义，符合古典汉语通用注释规范，不存在歧义性错误。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "辚辚：车行走时的声音。萧萧：马蹄声。行人：从军出征的人。耶娘妻子：父亲、母亲、妻子、儿女的并称。干：冲。点行频：点名征兵频繁。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "辚（lín）辚：车轮声。萧萧：马嘶叫声。行人：指被征出发的士兵。耶：通假字，同“爷”，父亲。走：奔跑。干(gān)：冲。点行（ xíng ）频：频繁地点名征调壮丁。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "耶是爷的通假字，对应现代汉语的父亲含义"
+      ],
+      "forbidden_assertions": [
+        "将“县官”直接解读为县级官员，将“山东”直接解读为现在的山东省"
+      ]
+    },
+    {
+      "claim_id": "claim_07_disputed_readings",
+      "claim": "诗中部分字词存在异文或多重解读，如“耶娘”在部分版本中作“爷娘”；“过者”一说指路过的人，一说指诗人自己；“长者”一说指对老年人的尊称，一说指有名望的人（即杜甫）。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "poem_variants",
+          "text": "娘 一作：“爷”",
+          "locator": "l04",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "过者：路过的人。这里指诗人自己。长者：对老年人的尊称。这里是说话者对杜甫的称呼。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "过者：过路的人，这里是自称。长者：即上文的\"道旁过者\"，也指有名望的人，即杜甫。",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "这些不同的解读和版本异文并不影响全诗反战和同情百姓的核心主旨"
+      ],
+      "forbidden_assertions": [
+        "断言“过者”和“长者”在学术界只有一种绝对唯一的解释"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_special",
+      "claim": "诗中“山东”指崤山或华山以东地区，唐代函谷关以东共二百十七州，诗中“二百州”是举其整数；“县官”指官府，而非现代汉语中的县长或县级官员。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "汉家山东二百州：汉朝秦地以东的二百个州。山东：古代秦居西方，秦地以东（或函谷关以东）统称“山东”。唐代函谷关以东共二百十七州，这里说“二百州”是举其整数。县官：这里指官府。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "山东：崤山或华山以东。古代秦居西方，秦地以外，统称山东。县官：官府。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "理解这些词汇的古义是准确把握诗歌所揭示的社会现实广度与深度的关键"
+      ],
+      "forbidden_assertions": [
+        "将“山东”等同于现代山东省，或将“县官”等同于现代县长"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《兵车行》的题名、作者、所属朝代、自创新题乐府的体裁属性，明确其杜甫现实主义代表作的定位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《兵车行》是唐代大诗人杜甫创作的新题乐府诗",
+        "杜甫的《兵车行》是唐诗中著名的反战讽喻作品"
+      ],
+      "forbidden_claims": [
+        "《兵车行》是李白的边塞诗代表作",
+        "《兵车行》沿用了汉代乐府旧题"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "讲解本诗创作的天宝十载前后的历史背景，梳理唐王朝对吐蕃、南诏频繁发动不义战争、强行征兵的史实，明确本诗的现实创作动因。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《兵车行》是杜甫亲眼见到咸阳桥边征人送别惨状后写下的纪实性作品",
+        "本诗的创作背景是天宝年间唐王朝穷兵黩武给百姓带来深重灾难的社会现实"
+      ],
+      "forbidden_claims": [
+        "本诗完全是杜甫凭空想象出来的虚构作品",
+        "本诗创作于安史之乱平定之后"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_explanation",
+      "category": "lexical",
+      "description": "讲解全诗核心重点字词的读音、含义和文化背景，纠正常见的释义误区。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“点行频”就是官府按户籍名册频繁强征壮丁服役",
+        "“干云霄”的干是冲的意思"
+      ],
+      "forbidden_claims": [
+        "“山东”指现在的山东省",
+        "“行人”指路上行走的普通路人"
+      ],
+      "source_claim_ids": [
+        "claim_06_core_lexical",
+        "claim_08_lexical_special"
+      ],
+      "line_ids": [
+        "l01",
+        "l06",
+        "l10",
+        "l15"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure_analysis",
+      "category": "structure",
+      "description": "讲解本诗“一头两脚体”的结构特征，梳理全诗送别场景、征夫诉苦、古战场收尾三个部分的逻辑关联，明确前后呼应、层层递进的章法特点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "全诗以人哭开头，以鬼哭收尾，形成强烈的前后对照",
+        "本诗的结构设计层层深入，逐步把反战主题推向高潮"
+      ],
+      "forbidden_claims": [
+        "本诗没有清晰的结构逻辑，是零散内容的堆砌"
+      ],
+      "source_claim_ids": [
+        "claim_03_structural_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14",
+        "l15",
+        "l16",
+        "l17",
+        "l18",
+        "l19"
+      ]
+    },
+    {
+      "unit_id": "req_05_allusion_understanding",
+      "category": "interpretive_boundary",
+      "description": "明确本诗以汉代唐的用典规则，厘清“武皇”“汉家”的实际指代对象，避免解读偏差。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "唐诗里经常用汉武帝来代指当朝的唐玄宗，是一种委婉的批判手法"
+      ],
+      "forbidden_claims": [
+        "这首诗写的是汉武帝开边的历史故事，和唐代现实无关"
+      ],
+      "source_claim_ids": [
+        "claim_04_allusion_han_to_tang"
+      ],
+      "line_ids": [
+        "l09",
+        "l10"
+      ]
+    },
+    {
+      "unit_id": "req_06_theme_summary",
+      "category": "summary",
+      "description": "总结全诗的核心反战主旨，梳理战争给民众带来的兵役、租税双重压迫，点明本诗体现的杜甫现实主义精神和人民性特征。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《兵车行》通过征夫的口述，揭露了统治者穷兵黩武政策的罪恶，表达了对普通民众的深切同情"
+      ],
+      "forbidden_claims": [
+        "本诗完全站在唐朝统治者的立场上歌颂开边战争的功绩"
+      ],
+      "source_claim_ids": [
+        "claim_05_theme_anti_war"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14",
+        "l15",
+        "l16",
+        "l17",
+        "l18",
+        "l19"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_readings",
+      "category": "alternative_reading",
+      "description": "讲解诗中“过者”与“长者”的身份争议，以及“耶娘”与“爷娘”的版本异文，引导学生辩证看待古籍流传中的多重解读。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“过者”和“长者”可以理解为路人与老人的对话，也可以理解为杜甫与征夫的对话"
+      ],
+      "forbidden_claims": [
+        "“过者”在诗中绝对不可能是杜甫本人的自称"
+      ],
+      "source_claim_ids": [
+        "claim_07_disputed_readings"
+      ],
+      "line_ids": [
+        "l02",
+        "l03",
+        "l04",
+        "l06",
+        "l13"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_blood_sea",
+      "line_ids": [
+        "l09"
+      ],
+      "source_domain": [
+        "边疆战士的鲜血汇聚成海水"
+      ],
+      "target_domain": [
+        "边疆战争伤亡规模极大，战死的士兵数量不计其数，血流成河"
+      ],
+      "bridges": [
+        "海水体量极为庞大，用海水比喻鲜血的总量，直观凸显战争的惨烈程度和死亡人数之多"
+      ],
+      "context_claim_ids": [
+        "claim_05_theme_anti_war"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可引申为连年不断的开边战争已经把边疆土地完全浸透，生存环境彻底被鲜血覆盖"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_soldiers_as_poultry",
+      "line_ids": [
+        "l12"
+      ],
+      "source_domain": [
+        "秦地征夫被驱使如同鸡和狗一样"
+      ],
+      "target_domain": [
+        "关中的应征士兵完全没有人身自主权，被统治者随意驱赶践踏，生命毫无尊严和保障"
+      ],
+      "bridges": [
+        "鸡犬是地位低微、可以被主人随意处置的家养牲畜，用来比喻征夫被物化的卑微处境，凸显征兵制度的残暴"
+      ],
+      "context_claim_ids": [
+        "claim_05_theme_anti_war"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "突出普通民众在穷兵黩武政策下完全失去人身自由，和家畜没有任何区别的悲惨处境"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_buried_under_grass",
+      "line_ids": [
+        "l17"
+      ],
+      "source_domain": [
+        "生下男孩最终只能埋没在荒草之间"
+      ],
+      "target_domain": [
+        "男性征夫战死沙场之后无人收葬，最终彻底消失在荒野之中，尸骨无存"
+      ],
+      "bridges": [
+        "荒草遍布无人的荒野，用来指代战死之后无人收尸的凄凉结局，和生女嫁比邻的安稳形成强烈反差"
+      ],
+      "context_claim_ids": [
+        "claim_05_theme_anti_war"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "这种反常的社会心理，是战争对传统重男轻女观念的彻底颠覆，凸显战争对民众心灵的严重伤害"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_title",
+      "description": "开场清晰呈现《兵车行》的诗题、作者、朝代、体裁基础信息，同步展示完整诗文的字幕框架，不得出现文字错漏。",
+      "acceptable_realizations": [
+        "古风题签样式开场，旁白朗读时同步逐句呈现诗文字幕",
+        "水墨风格卷轴展开，依次展示题名作者信息后引出全诗"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏字，把作者标注为其他诗人",
+        "擅自修改原诗的经典字句"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_poem_presentation",
+      "semantic_role": "opening_title_and_poem_presentation"
+    },
+    {
+      "requirement_id": "vis_02_xianyang_farewell",
+      "description": "还原咸阳桥边的送别场景，呈现兵车隆隆、战马嘶鸣，爷娘妻子牵衣顿足拦道痛哭，尘土遮天蔽日看不见咸阳桥的凄惨画面。",
+      "acceptable_realizations": [
+        "动态全景镜头从辚辚的兵车和萧萧的战马切入，慢慢聚焦到拦路痛哭的送亲人流",
+        "用沙尘特效渲染遮天蔽日的氛围，突出千万哭声直冲云霄的冲击力"
+      ],
+      "forbidden_realizations": [
+        "把送别场景渲染成热烈激昂的参军送行氛围",
+        "遗漏牵衣、顿足、拦道、痛哭四个核心动作细节"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "xianyang_bridge_grand_farewell_scene",
+      "semantic_role": "xianyang_bridge_grand_farewell_scene"
+    },
+    {
+      "requirement_id": "vis_03_veteran_storytelling",
+      "description": "呈现道旁过者（杜甫）和征夫对话的场景，穿插十五岁从军、四十岁仍戍边、千村万落荆棘丛生、官府紧急催租的相关画面，对应征夫口述的内容。",
+      "acceptable_realizations": [
+        "以征夫的第一人称视角闪回不同年龄段从军的经历，穿插内地农村凋敝的画面",
+        "用分屏对比展示边庭流血成海和内地村落荒芜的不同场景"
+      ],
+      "forbidden_realizations": [
+        "把征夫的形象刻画成自愿参军的积极形象",
+        "完全跳过农村凋敝、官府催租的相关内容"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_blood_sea",
+        "meta_02_soldiers_as_poultry"
+      ],
+      "expected_phase": "veteran_soldier_narration_sequence",
+      "semantic_role": "veteran_soldier_narration_sequence"
+    },
+    {
+      "requirement_id": "vis_04_qinghai_battlefield_ending",
+      "description": "呈现青海边古战场的阴森场景，白骨露野，天阴雨湿，新鬼旧鬼发出啾啾哭声的凄凉画面，完成全诗反战主题的最终升华。",
+      "acceptable_realizations": [
+        "冷色调全景镜头扫过遍布荒野的白骨，配合阴雨和磷火特效渲染氛围",
+        "和开篇咸阳桥人哭的热闹场景形成强烈的视觉冷暖对照"
+      ],
+      "forbidden_realizations": [
+        "把古战场场景渲染成宏大的战争胜利纪念画面",
+        "刻意弱化结尾的阴森凄惨氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_buried_under_grass"
+      ],
+      "expected_phase": "qinghai_lake_ancient_battlefield_ending",
+      "semantic_role": "qinghai_lake_ancient_battlefield_ending"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_093_01",
+      "description": "唐玄宗天宝年间，为开拓疆土，频繁对边疆少数民族发动战争。通常认为其背景包括哥舒翰攻吐蕃及鲜于仲通讨南诏，战争导致唐军死伤惨重，边庭血流成河。",
+      "audio_triggers": [
+        "对吐蕃、南诏用兵",
+        "伤亡惨重",
+        "武皇开边",
+        "边庭流血"
+      ],
+      "visual_evidence": [
+        "唐代边塞战场全景",
+        "恶劣的自然环境",
+        "惨烈的战争画面",
+        "古代士兵遗骸与横流的鲜血"
+      ],
+      "sound_evidence": [
+        "战马凄厉的嘶鸣",
+        "兵器交锋的砍杀声",
+        "凛冽的边风呼啸声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_093_02",
+      "description": "由于前线丧师巨万、兵源枯竭，宰相杨国忠遣御史分道大举强征士兵。因百姓不愿送死，官吏甚至用连枷将丁壮锁拿押送军所。",
+      "audio_triggers": [
+        "杨国忠",
+        "强行抓丁",
+        "连枷押送军所",
+        "点行频"
+      ],
+      "visual_evidence": [
+        "唐代官吏在民间强行抓捕壮丁",
+        "被枷锁和绳索捆绑的青年与中年男子",
+        "百姓惊恐万分、被迫离开家园的场景"
+      ],
+      "sound_evidence": [
+        "铁链与枷锁的撞击声",
+        "官兵粗暴的呵斥声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_093_03",
+      "description": "通常认为天宝十载（751年）左右，杜甫在长安咸阳桥边亲眼目睹了出征士兵与家人诀别的惨状：亲属牵衣顿足，拦道痛哭，尘土遮蔽了桥梁。",
+      "audio_triggers": [
+        "咸阳桥",
+        "亲眼目睹",
+        "送别惨剧",
+        "牵衣拦道哭"
+      ],
+      "visual_evidence": [
+        "咸阳桥头的漫天尘土",
+        "装束整齐但神情悲绝的唐代士兵",
+        "送别者（老人、妇女、儿童）拉扯着士兵的衣物顿足大哭",
+        "杜甫作为旁观者在路边驻足凝视"
+      ],
+      "sound_evidence": [
+        "隆隆的车轮声（车辚辚）",
+        "战马嘶鸣声（马萧萧）",
+        "男女老少震天动地的恸哭声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_093_04",
+      "description": "面对兵役给百姓带来的深重苦难和关中农村的凋敝，杜甫满怀悲愤，打破乐府旧题，自创《兵车行》新题，深刻揭露了最高统治者穷兵黩武的罪恶。",
+      "audio_triggers": [
+        "创作《兵车行》",
+        "自创乐府新题",
+        "揭露穷兵黩武"
+      ],
+      "visual_evidence": [
+        "中青年时期的杜甫",
+        "书案、笔墨与简牍纸张",
+        "诗人沉郁悲愤的神情"
+      ],
+      "sound_evidence": [
+        "深沉的叹息声",
+        "毛笔在纸上书写的摩擦声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "车辚辚，",
+      "pronunciation": "chē lín lín ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "马萧萧，",
+      "pronunciation": "mǎ xiāo xiāo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "行人弓箭各在腰。",
+      "pronunciation": "xíng rén gōng jiàn gè zài yāo .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "耶娘妻子走相送，",
+      "pronunciation": "yé niáng qī zǐ zǒu xiāng sòng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "尘埃不见咸阳桥。",
+      "pronunciation": "chén āi bù jiàn xián yáng qiáo .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "(",
+      "pronunciation": "(",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "娘 一作：“爷”)",
+      "pronunciation": "niáng yī zuò : “ yé ” )",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "牵衣顿足拦道哭，",
+      "pronunciation": "qiān yī dùn zú lán dào kū ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "哭声直上干云霄。",
+      "pronunciation": "kū shēng zhí shàng gān yún xiāo .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "道旁过者问行人，",
+      "pronunciation": "dào páng guò zhě wèn xíng rén ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "行人但云点行频。",
+      "pronunciation": "xíng rén dàn yún diǎn xíng pín .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "或从十五北防河，",
+      "pronunciation": "huò cóng shí wǔ běi fáng hé ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "便至四十西营田。",
+      "pronunciation": "biàn zhì sì shí xī yíng tián .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "去时里正与裹头，",
+      "pronunciation": "qù shí lǐ zhèng yǔ guǒ tóu ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "归来头白还戍边。",
+      "pronunciation": "guī lái tóu bái huán shù biān .",
+      "accepted_variants": [
+        "guī lái tóu bái hái shù biān ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "边庭流血成海水，",
+      "pronunciation": "biān tíng liú xuè chéng hǎi shuǐ ,",
+      "accepted_variants": [
+        "biān tíng liú xiě chéng hǎi shuǐ ,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "武皇开边意未已。",
+      "pronunciation": "wǔ huáng kāi biān yì wèi yǐ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "君不闻，",
+      "pronunciation": "jūn bù wén ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "汉家山东二百州，",
+      "pronunciation": "hàn jiā shān dōng èr bǎi zhōu ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千村万落生荆杞。",
+      "pronunciation": "qiān cūn wàn luò shēng jīng qǐ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "纵有健妇把锄犁，",
+      "pronunciation": "zòng yǒu jiàn fù bǎ chú lí ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "禾生陇亩无东西。",
+      "pronunciation": "hé shēng lǒng mǔ wú dōng xī .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "况复秦兵耐苦战，",
+      "pronunciation": "kuàng fù qín bīng nài kǔ zhàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "被驱不异犬与鸡。",
+      "pronunciation": "bèi qū bù yì quǎn yǔ jī .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "长者虽有问，",
+      "pronunciation": "zhǎng zhě suī yǒu wèn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "役夫敢申恨？",
+      "pronunciation": "yì fū gǎn shēn hèn ?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "且如今年冬，",
+      "pronunciation": "qiě rú jīn nián dōng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "未休关西卒。",
+      "pronunciation": "wèi xiū guān xī zú .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "县官急索租，",
+      "pronunciation": "xiàn guān jí suǒ zū ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "租税从何出？",
+      "pronunciation": "zū shuì cóng hé chū ?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "信知生男恶，",
+      "pronunciation": "xìn zhī shēng nán è ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "反是生女好。",
+      "pronunciation": "fǎn shì shēng nǚ hǎo .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "生女犹得嫁比邻，",
+      "pronunciation": "shēng nǚ yóu dé jià bǐ lín ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "生男埋没随百草。",
+      "pronunciation": "shēng nán mái mò suí bǎi cǎo .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "君不见，",
+      "pronunciation": "jūn bú jiàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青海头，",
+      "pronunciation": "qīng hǎi tóu ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "古来白骨无人收。",
+      "pronunciation": "gǔ lái bái gǔ wú rén shōu .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "新鬼烦冤旧鬼哭，",
+      "pronunciation": "xīn guǐ fán yuān jiù guǐ kū ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天阴雨湿声啾啾！",
+      "pronunciation": "tiān yīn yǔ shī shēng jiū jiū !",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杜甫",
+      "pronunciation": "dù fǔ",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "杨国忠",
+      "pronunciation": "yáng guó zhōng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "鲜于仲通",
+      "pronunciation": "xiān yú zhòng tōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "哥舒翰",
+      "pronunciation": "gē shū hàn",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "兵车行",
+      "pronunciation": "bīng chē xíng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "吐蕃",
+      "pronunciation": "tǔ bō",
+      "accepted_variants": [
+        "tǔ fān"
+      ],
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "南诏",
+      "pronunciation": "nán zhào",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "咸阳桥",
+      "pronunciation": "xián yáng qiáo",
+      "category": "place",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_093_01",
+      "source_event_id": "evt_093_01",
+      "target_event_id": "evt_093_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_093_02",
+      "source_event_id": "evt_093_02",
+      "target_event_id": "evt_093_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_093_03",
+      "source_event_id": "evt_093_03",
+      "target_event_id": "evt_093_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/093.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/093.json",
+      "event_gold": "gold_annotation/tangshi_300/093.json"
+    },
+    "original_sample_id": "093",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

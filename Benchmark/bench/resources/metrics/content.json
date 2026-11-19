@@ -1,0 +1,176 @@
+{
+  "version": "0.6.0",
+  "domain": {
+    "id": "content",
+    "name": "Semantic grounding & narrative discourse (S, D1–D2)",
+    "main": true
+  },
+  "families": [
+    {
+      "id": "S",
+      "name": "Semantic grounding",
+      "description": "Information coverage and metaphor understanding (paper S1–S6).",
+      "default_weight": 1.0
+    },
+    {
+      "id": "D_narr",
+      "name": "Narrative discourse",
+      "description": "Narrative structure and prelude–explication linkage (paper D1–D2).",
+      "default_weight": 1.0
+    }
+  ],
+  "metrics": [
+    {
+      "id": "S1",
+      "family_id": "S",
+      "name": "Information Coverage",
+      "name_zh": "信息覆盖",
+      "method": "llm_human",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "Gold 登记的必要教学信息是否被完整表达；LLM 分数仅作为独立机器代理。"
+    },
+    {
+      "id": "S2",
+      "family_id": "S",
+      "name": "Metaphor Source",
+      "name_zh": "隐喻源域",
+      "method": "llm_expert",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "是否正确识别 Gold 隐喻的 Source。"
+    },
+    {
+      "id": "S3",
+      "family_id": "S",
+      "name": "Metaphor Target",
+      "name_zh": "隐喻目标域",
+      "method": "llm_expert",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "是否正确识别 Gold 隐喻的 Target。"
+    },
+    {
+      "id": "S4",
+      "family_id": "S",
+      "name": "Mapping Bridge",
+      "name_zh": "映射桥接",
+      "method": "llm_expert",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "是否说明 Source 为什么能够支持 Target。"
+    },
+    {
+      "id": "S5",
+      "family_id": "S",
+      "name": "Metaphor Contextual Support",
+      "name_zh": "隐喻语境支撑",
+      "method": "llm_expert",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "隐喻解释是否得到文本、历史或文化语境支撑。"
+    },
+    {
+      "id": "S6",
+      "family_id": "S",
+      "name": "Interpretive Calibration",
+      "name_zh": "解释校准",
+      "method": "llm_expert",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "解释确定性是否与 Gold 的共识、合理、争议或未知状态一致。"
+    },
+    {
+      "id": "D1",
+      "family_id": "D_narr",
+      "name": "Narrative Structure",
+      "name_zh": "叙事结构",
+      "method": "human_llm",
+      "scale": "1_5",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "事件先后、状态变化、因果条件、场景转换和叙事推进是否正确连贯。"
+    },
+    {
+      "id": "D2",
+      "family_id": "D_narr",
+      "name": "Prelude-Explication Linkage",
+      "name_zh": "前传—逐句讲解衔接",
+      "method": "human_llm",
+      "scale": "1_5",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "text",
+      "formal_channel": "human",
+      "prelabel_channel": "llm",
+      "human_policy": "required",
+      "routes": [
+        "text_planning/standard",
+        "full_task_teaching/*"
+      ],
+      "rubric": "评价前传是否以具体场景、可观察动作、环境/物件变化和人物状态推进，形成可直接分镜演绎的因果故事，并自然过渡到同一作品的逐句教学。1分：无独立故事，主体为逐句翻译、资料罗列或故事无关/错误；2分：仅少量场景包装或抽象概要，主体仍为翻译/概括；3分：有基本因果和少量具体场景/动作，但可分镜性、状态推进或转折较弱；4分：具体场景、动作、环境/物件变化和状态推进清楚，可连续分镜并自然进入教学；5分：必要可见细节、连续动作、环境变化和状态转折形成强叙事，因果有张力且准确进入教学。若主体只是“诗句—翻译/释义—下一诗句”或仅一两句场景化开头，最高2分；只有抽象因果而缺乏具体时空、动作、环境变化和状态推进，最高3分；故事与后续不是同一作品或核心情境冲突，最高3分；核心故事依赖 Gold 不支持的具体时间、地点、人物心理或因果时最高3分。逐句教学不必逐项回收前传细节。任务明确不要求故事化/前传/叙事教学且候选也未尝试时为 N/A。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "022_tangshi_032_02c5663084d4",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "感遇·兰叶春葳蕤",
+    "author": "张九龄",
+    "dynasty": "唐",
+    "form": "五言古诗",
+    "text": "兰叶春葳蕤，桂华秋皎洁。\n欣欣此生意，自尔为佳节。\n谁知林栖者，闻风坐相悦。\n草木有本心，何求美人折！",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "兰叶春葳蕤，桂华秋皎洁。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "欣欣此生意，自尔为佳节。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "谁知林栖者，闻风坐相悦。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "草木有本心，何求美人折！"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "02c5663084d4c19986c83c57",
+    "global_index": 22
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "018_tangshi_217_b08b6302a0ba",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "登高",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "text": "风急天高猿啸哀，渚清沙白鸟飞回。\n无边落木萧萧下，不尽长江滚滚来。\n万里悲秋常作客，百年多病独登台。\n艰难苦恨繁霜鬓，潦倒新停浊酒杯。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "风急天高猿啸哀，渚清沙白鸟飞回。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "无边落木萧萧下，不尽长江滚滚来。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "万里悲秋常作客，百年多病独登台。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "艰难苦恨繁霜鬓，潦倒新停浊酒杯。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "b08b6302a0baa189ca67656a",
+    "global_index": 18
+  }
+}

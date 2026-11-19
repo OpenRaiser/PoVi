@@ -1,0 +1,1164 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_157",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词《六州歌头》为南宋豪放派词人张孝祥于隆兴二年（1164年）任建康留守时所作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：六州歌头 作者：张孝祥 朝代：宋 体裁：词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《六州歌头·长淮望断》这首词作于宋孝宗隆兴二年（1164年）。当时张孝祥任建康留守，在一次宴会上，写下了这首著名的词作。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "张孝祥（1132—1169）……南宋著名词人。其词风格豪放，境界阔大，情感激昂，多抒发爱国情怀，上承苏轼，下启辛弃疾，是豪放词派的重要代表。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为南宋爱国豪放词代表作",
+        "可指出作者创作时身处抗金前线（建康）的特定身份"
+      ],
+      "forbidden_assertions": [
+        "该词为北宋作品",
+        "作者为婉约派词人",
+        "创作时间早于隆兴元年"
+      ]
+    },
+    {
+      "claim_id": "claim_02_historical",
+      "claim": "隆兴元年北伐军在符离溃败后，主和派撤尽淮河边防并向金乞和，淮河成为宋金实际分界线。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "隆兴元年（1163年），张浚领导的南宋北伐军在符离（今安徽宿县北）溃败，主和派得势，将淮河前线边防撤尽，向金国遣使乞和。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "长淮：指淮河。宋高宗绍兴十年来（公元1141年）与金和议，以淮河为宋金的分界线。此句即远望边界之意。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "淮河从内河变为国境线是词人悲愤的直接地理与政治诱因",
+        "边防撤尽导致关塞荒废、敌骑可乘"
+      ],
+      "forbidden_assertions": [
+        "淮河在北宋时期即为宋金边界",
+        "北伐军取得了符离大捷",
+        "主战派主导了当时的朝廷决策"
+      ]
+    },
+    {
+      "claim_id": "claim_03_upper_scene",
+      "claim": "上阕通过长淮荒草、隔岸毡乡、落日牛羊与夜间骑火笳鼓，描绘边境荒凉与金人活动威势，暗含对边防松弛的忧愤。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "上阕，描写江淮区域宋金对峙的态势。……极目千里淮河，南岸一线的防御无屏障可守，只是莽莽平野而已。江淮之间，征尘暗淡，霜风凄紧，更增战后的荒凉景象。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "关塞莽然平：草木茂盛，齐及关塞。谓边备松驰。……隔水毡乡，落日牛羊下，区脱纵横。……看名王宵猎，骑火一川明，笳鼓悲鸣，遣人惊。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "景物描写并非纯写景，而是服务于政治军事形势的暗示",
+        "金人宵猎的喧闹反衬宋军防线的沉寂与空虚"
+      ],
+      "forbidden_assertions": [
+        "上阕纯粹描写自然风光与田园牧歌",
+        "金人活动仅限于和平贸易",
+        "边塞草木茂盛代表国防巩固"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lower_emotion",
+      "claim": "下阕以“腰间箭，匣中剑”起笔，直斥朝廷“干羽方怀远”的求和苟安，并写中原遗老南望王师的悲愤与忠愤填膺。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "下阕，抒写复国的壮志难酬，朝延当政者苟安于和议现状，中原人民空盼光复，词情更加悲壮。……“干羽方怀远”活用《尚书·大禹谟》……词人借以辛辣地讽刺朝廷放弃失地，安于现状。……“闻道”两句写金人统治下的父老同胞，年年盼望王师早日北伐收复天地。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "想我腰间弓箭，匣中宝剑，空自遭了虫尘埃的侵蚀和污染，满怀壮志竟不得施展。……冠服乘车的使者，纷纷地奔驰匆匆，实在让人羞愧难以为情。传说留下中原的父老，常常盼望朝廷……一腔忠愤，怒气填膺，热泪倾洒前胸。",
+          "locator": "译文二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "个人报国无门的苦闷与朝廷政策失误形成强烈共振",
+        "遗老的期盼与使者的屈辱构成尖锐的朝野/敌我矛盾"
+      ],
+      "forbidden_assertions": [
+        "词人赞同朝廷的怀柔政策",
+        "中原遗老已放弃对南宋的期望",
+        "下阕情绪转为闲适恬淡"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor_ganyu",
+      "claim": "“干羽”本为古代乐舞道具，此处借代朝廷放弃武备、以文德怀柔求和的妥协政策。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "干羽方怀远：用文德以怀柔远人，谓朝廷正在向敌人求和。干羽，干盾和翟羽，都是舞蹈乐具。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "干羽方怀远：用文德以怀柔远人，谓朝廷正在向敌人求和。干羽，干盾和翟羽，都是舞蹈乐具。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "典故反用，以文德之名行苟安之实，具强烈讽刺意味",
+        "可联系《尚书》原典对比理解词人的批判立场"
+      ],
+      "forbidden_assertions": [
+        "干羽指代实际的军事武器",
+        "朝廷真正以德服人、实现和平",
+        "该词为赞美朝廷外交成就之作"
+      ]
+    },
+    {
+      "claim_id": "claim_06_metaphor_cuibaoni",
+      "claim": "“翠葆霓旌”指以翠鸟羽毛为饰的车盖与彩旗，借指宋朝皇帝的仪仗或北伐王师。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "翠葆霓旌：指皇帝的仪仗。翠葆，以翠鸟羽毛为饰的车盖。霓旌，像虹霓似的彩色旌旗。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“翠葆霓旌”，即饰以鸟羽的车盖和彩旗，是皇帝的仪仗，这里借指宋帝车驾。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "仪仗象征国家正统与收复失地的希望",
+        "遗老“南望”实为期盼王师北定中原"
+      ],
+      "forbidden_assertions": [
+        "翠葆霓旌指金国贵族的车马",
+        "仅为普通节日装饰，无政治象征",
+        "遗老盼望的是金朝统治者的巡幸"
+      ]
+    },
+    {
+      "claim_id": "claim_07_structure",
+      "claim": "全词多用三、四言短句，节奏急促激越，通过多层次对比展现时代画卷，被评具有“词史”价值。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "《六州歌头》篇幅长，格局阔大。多用三言、四言的短句，构成激越紧张的促节，声情激壮……多层次、多角度地展示了那个时代的宏观历史画卷，强有力地表达出人民的心声。就像杜甫诗历来被称为诗史一样，这首《六州歌头》，也完全可以被称为词史。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "短句形式与抗金救亡的紧迫感高度契合",
+        "词作具有记录时代动荡与民心向背的文献价值"
+      ],
+      "forbidden_assertions": [
+        "该词以长句为主，节奏舒缓",
+        "词作仅抒发个人闲愁，无历史厚度",
+        "声情激壮与句式长短无关"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_zhusi",
+      "claim": "“洙泗”指鲁国洙水和泗水，流经曲阜，是孔子当年讲学的地方，此处代指中原礼乐文化之邦。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "洙、泗：鲁国二水名，流经曲阜（春秋时鲁国国都），孔子曾在此讲学。弦歌地：指礼乐文化之邦。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "洙泗沦为“膻腥”之地，象征着华夏文化正统遭受异族践踏，加深了词人的文化悲剧感"
+      ],
+      "forbidden_assertions": [
+        "洙泗是金国境内的河流名",
+        "洙泗在词中仅指代普通的自然山水"
+      ]
+    },
+    {
+      "claim_id": "claim_09_lexical_qutuo",
+      "claim": "“区脱”为匈奴语，指边境屯戍或守望之处的土堡。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "区（ōu）脱纵横：土堡很多。区脱，匈奴语称边境屯戍或守望之处。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“区脱纵横”表明金兵在边境设防严密，对南宋构成直接的军事威胁"
+      ],
+      "forbidden_assertions": [
+        "区脱是指金国游牧的牛羊群",
+        "区脱是宋军修筑的防御工事"
+      ]
+    },
+    {
+      "claim_id": "claim_10_alternative_reading_baobao",
+      "claim": "关于“翠葆霓旌”一句，原文版本二作“羽葆霓旌”，存在异文现象。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_version_2",
+          "text": "闻道中原遗老，常南望，羽葆霓旌。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_version_1",
+          "text": "闻道中原遗老，常南望，翠葆霓旌。",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“羽葆”与“翠葆”均指饰以鸟羽的皇家仪仗车盖，字面虽异但核心意象与政治寄托一致"
+      ],
+      "forbidden_assertions": [
+        "“羽葆”与“翠葆”指代完全不同的两种器物"
+      ]
+    },
+    {
+      "claim_id": "claim_11_historical_zhangjun",
+      "claim": "隆兴元年北伐失败后，张浚曾召集抗金义士于建康，拟上书宋孝宗反对议和，张孝祥当时任建康留守并参与了相关宴会。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "张浚召集抗金义士于建康（今南京），拟上书宋孝宗，反对议和。当时张孝祥任建康留守……在一次宴会上，即席挥毫，写下了这首著名的词作。",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "本词的创作具有强烈的政治针对性，是主战派在建康集会、反对妥协求和的文学宣言"
+      ],
+      "forbidden_assertions": [
+        "张孝祥创作此词时已被罢官，处于闲居状态",
+        "张孝祥写此词是为了迎合主和派的政治主张"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、朝代、词牌及创作年代。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋张孝祥《六州歌头·长淮望断》",
+        "隆兴二年张孝祥在建康所作的豪放词"
+      ],
+      "forbidden_claims": [
+        "该词为唐代作品",
+        "作者为秦观或柳永",
+        "词牌为《满江红》"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解隆兴北伐失败、淮河划界及主和派乞和的历史背景。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "符离之败后宋金以淮河为界，朝廷撤防求和",
+        "1163年北伐失利导致边防空虚与主和派掌权"
+      ],
+      "forbidden_claims": [
+        "淮河在北宋即为宋金边界",
+        "朝廷此时正积极筹备北伐",
+        "符离之战宋军大胜"
+      ],
+      "source_claim_ids": [
+        "claim_02_historical",
+        "claim_11_historical_zhangjun"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_upper",
+      "category": "literal_meaning",
+      "description": "准确翻译并理解上阕描绘的边境荒凉与金人活动景象。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "长淮边塞荒草丛生，隔岸金人毡帐遍布，夜间打猎火光冲天",
+        "上阕写淮河防线废弛与敌军威势，暗含忧愤"
+      ],
+      "forbidden_claims": [
+        "上阕描写江南水乡的宁静生活",
+        "关塞草木茂盛代表国防坚固",
+        "金人活动仅为和平游牧"
+      ],
+      "source_claim_ids": [
+        "claim_03_upper_scene"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_04_lower",
+      "category": "literal_meaning",
+      "description": "把握下阕抒发壮志难酬、讽刺朝廷求和及遗老期盼的复杂情感。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "武器蒙尘喻指报国无门，朝廷求和令人羞愤，遗老南望王师",
+        "下阕直斥苟安政策，表达忠愤填膺的爱国之情"
+      ],
+      "forbidden_claims": [
+        "词人安于现状、放弃抗金",
+        "朝廷求和深得民心",
+        "中原遗老已归顺金朝"
+      ],
+      "source_claim_ids": [
+        "claim_04_lower_emotion"
+      ],
+      "line_ids": [
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "识别“干羽”“翠葆霓旌”等意象的借代用法及其政治指向。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "干羽代指朝廷妥协求和政策，翠葆霓旌代指宋帝车驾或王师",
+        "借古代礼乐器物与皇家仪仗，讽刺现实政治并寄托收复之望"
+      ],
+      "forbidden_claims": [
+        "干羽指实际作战兵器",
+        "翠葆霓旌指金国贵族仪仗",
+        "意象仅为装饰性描写，无政治隐喻"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor_ganyu",
+        "claim_06_metaphor_cuibaoni"
+      ],
+      "line_ids": [
+        "l08",
+        "l10"
+      ]
+    },
+    {
+      "unit_id": "req_06_structure",
+      "category": "structure",
+      "description": "分析三、四言短句构成的急促节奏与全词激越悲壮的情感表达关系。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "短句连缀形成激越促节，声情与抗金救亡的紧迫感相契合",
+        "词体格局阔大，节奏紧凑有力，强化悲愤情绪"
+      ],
+      "forbidden_claims": [
+        "全词以长句为主，节奏舒缓",
+        "句式长短与情感表达无关",
+        "该词结构松散，缺乏章法"
+      ],
+      "source_claim_ids": [
+        "claim_07_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "概括全词反对议和、抒发爱国忠愤的核心主旨。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "通过边塞实景与朝野对比，痛斥苟安求和，抒发收复中原的忠愤之情",
+        "融民族、历史、现实与个人命运于一体，具强烈爱国主义精神"
+      ],
+      "forbidden_claims": [
+        "主旨为感叹个人仕途坎坷",
+        "表达对金国文化的向往",
+        "主旨为描写淮河自然风光"
+      ],
+      "source_claim_ids": [
+        "claim_04_lower_emotion",
+        "claim_07_structure"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_08_lexical_zhusi",
+      "category": "lexical",
+      "description": "掌握“洙泗”和“弦歌地”的文化典故及其在词中的特定指代。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "洙泗指鲁国二水，孔子讲学地，弦歌地指礼乐文化之邦，此处代指沦陷的中原华夏文化腹地"
+      ],
+      "forbidden_claims": [
+        "洙泗是金国本土的游牧河流",
+        "弦歌地指金兵寻欢作乐的场所"
+      ],
+      "source_claim_ids": [
+        "claim_08_lexical_zhusi"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_09_lexical_qutuo",
+      "category": "lexical",
+      "description": "掌握“区脱”的词源、词义及其在词中的军事暗示。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "区脱是匈奴语，指边境屯戍或守望的土堡，暗示金兵防备严密、军事对峙紧张"
+      ],
+      "forbidden_claims": [
+        "区脱指金人放牧的牛羊圈栏",
+        "区脱指宋朝边境的荒凉村落"
+      ],
+      "source_claim_ids": [
+        "claim_09_lexical_qutuo"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_10_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解“翠葆霓旌”在不同版本中的异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "版本二中写作“羽葆霓旌”，与“翠葆霓旌”同指皇家仪仗"
+      ],
+      "forbidden_claims": [
+        "“羽葆”与“翠葆”在词义上有根本性的对立"
+      ],
+      "source_claim_ids": [
+        "claim_10_alternative_reading_baobao"
+      ],
+      "line_ids": [
+        "l10"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_ganyu",
+      "line_ids": [
+        "l08"
+      ],
+      "source_domain": [
+        "干羽"
+      ],
+      "target_domain": [
+        "朝廷放弃武备、以文德怀柔求和的妥协政策"
+      ],
+      "bridges": [
+        "干羽本为古代文舞道具，词人反用《尚书》典故，以礼乐之名讽刺朝廷苟安求和、放弃失地的现实"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor_ganyu"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可理解为对朝廷粉饰太平、以文化外交掩盖军事软弱的政治符号反讽",
+        "亦可视作对儒家“修文德以来之”理想在现实政治中异化的批判"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_cuibaoni",
+      "line_ids": [
+        "l10"
+      ],
+      "source_domain": [
+        "翠葆霓旌"
+      ],
+      "target_domain": [
+        "宋朝皇帝车驾或北伐王师"
+      ],
+      "bridges": [
+        "翠鸟羽饰车盖与虹霓彩旗为皇家仪仗典型特征，借指遗老日夜期盼的朝廷军队与国家正统象征"
+      ],
+      "context_claim_ids": [
+        "claim_06_metaphor_cuibaoni"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可具体指代宋帝巡幸仪仗，象征收复失地的希望与民心所向",
+        "亦可视为一种精神图腾，代表沦陷区百姓对故国法统的坚守"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_weijian",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "腰间箭，匣中剑，空埃蠹"
+      ],
+      "target_domain": [
+        "词人及抗金志士闲置的军事才能与报国壮志"
+      ],
+      "bridges": [
+        "武器蒙尘生虫象征武备废弛与英雄无用武之地，映射主和派当道下个人抱负与时代悲剧的共振"
+      ],
+      "context_claim_ids": [
+        "claim_04_lower_emotion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可引申为南宋整体国防力量被闲置、主战派人才遭压抑的时代缩影",
+        "亦可解读为词人自况，表达“时易失，心徒壮”的焦灼与无奈"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_shansi",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "亦膻腥"
+      ],
+      "target_domain": [
+        "金国女真族统治者的占领与践踏"
+      ],
+      "bridges": [
+        "膻腥本指牛羊肉的腥臊气味，此处借指北方少数民族金人的统治，象征着圣贤礼乐之邦遭受异族蹂躏的惨状"
+      ],
+      "context_claim_ids": [
+        "claim_08_lexical_zhusi"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可引申为对中原文化沦丧、华夏文明蒙尘的深切悲哀"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰呈现题名、作者、词牌及完整诗文，标点句序无误，奠定教学基调。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现原词，配以沉稳旁白",
+        "背景使用宋代建康城或淮河古地图淡入"
+      ],
+      "forbidden_realizations": [
+        "漏掉关键诗句或擅自改动字词",
+        "使用现代流行音乐作为背景音"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_text_display",
+      "semantic_role": "opening_title_and_text_display"
+    },
+    {
+      "requirement_id": "vis_02_context",
+      "description": "动态地图展示1164年淮河宋金分界线及符离溃败后的边防撤尽态势。",
+      "acceptable_realizations": [
+        "地图高亮淮河中线，标注“绍兴和议”与“隆兴北伐溃败”时间轴",
+        "用红色箭头示意金军南下与宋军防线后撤"
+      ],
+      "forbidden_realizations": [
+        "地图边界标注错误（如以黄河为界）",
+        "忽略符离之战的历史节点"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "historical_border_mapping",
+      "semantic_role": "historical_border_mapping"
+    },
+    {
+      "requirement_id": "vis_03_upper",
+      "description": "画面呈现长淮荒草、隔岸毡帐、落日牛羊与夜间骑火笳鼓的肃杀场景。",
+      "acceptable_realizations": [
+        "广角镜头展现莽莽平野与废弃关塞，转场至对岸金营灯火与骑兵剪影",
+        "音效配合霜风劲吹与悲鸣笳鼓，强化紧张感"
+      ],
+      "forbidden_realizations": [
+        "画面呈现江南水乡的柔美田园风光",
+        "金人营地表现为和平集市而非军事据点"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_weijian"
+      ],
+      "expected_phase": "upper_stanza_desolation_and_threat",
+      "semantic_role": "upper_stanza_desolation_and_threat"
+    },
+    {
+      "requirement_id": "vis_04_lower",
+      "description": "视觉化“剑匣蒙尘”“使者纷驰”“遗老南望”的对比画面，突出悲愤情绪。",
+      "acceptable_realizations": [
+        "特写生锈剑匣与箭囊，切至冠盖使者车马扬尘北上，再叠化中原老者拄杖南望",
+        "色调由冷灰转为暗红，配合“忠愤气填膺”的朗诵节奏"
+      ],
+      "forbidden_realizations": [
+        "使者画面呈现为凯旋或欢庆场景",
+        "遗老表情安详或无动于衷"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_ganyu",
+        "meta_02_cuibaoni"
+      ],
+      "expected_phase": "lower_stanza_irony_and_longing",
+      "semantic_role": "lower_stanza_irony_and_longing"
+    },
+    {
+      "requirement_id": "vis_05_rhythm",
+      "description": "配合三、四言短句的朗读节奏，以字幕跳动或画面快切强化急促声情。",
+      "acceptable_realizations": [
+        "字幕按“三言/四言”断句逐词闪现，画面随鼓点快速切换",
+        "使用分屏对比宋金双方动态，突出“词史”格局"
+      ],
+      "forbidden_realizations": [
+        "字幕匀速平铺，无视句式长短变化",
+        "画面切换缓慢，与激越声情脱节"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "structural_pacing_visualization",
+      "semantic_role": "structural_pacing_visualization"
+    },
+    {
+      "requirement_id": "vis_06_climax",
+      "description": "结尾“有泪如倾”处聚焦人物面部或江水奔流意象，渲染忠愤填膺的情感高潮。",
+      "acceptable_realizations": [
+        "镜头推近词人/行人含泪双眼，叠化淮河波涛汹涌，渐隐于黑场",
+        "旁白放缓，留白数秒供学生沉淀情感"
+      ],
+      "forbidden_realizations": [
+        "以欢快音乐或笑脸画面收尾",
+        "忽略“泪如倾”的悲壮基调，转为说教式总结"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "patriotic_tears_climax",
+      "semantic_role": "patriotic_tears_climax"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_157_01",
+      "description": "靖康二年（1127年）中原沦陷，至绍兴十一年（1141年）宋金达成和议，划淮河中流为界，形成南北长期对峙的局面。",
+      "audio_triggers": [
+        "靖康之变",
+        "中原沦陷",
+        "绍兴十一年",
+        "以淮河为界"
+      ],
+      "visual_evidence": [
+        "宋金交战画面，金兵铁骑南下，中原大地图上划出淮河为宋金交界线，孔子故里（洙泗）等地竖起金国旗帜，牧民与牛羊在旧日农耕区出现。"
+      ],
+      "sound_evidence": [
+        "金戈铁马的交战声",
+        "凄凉的胡笳声",
+        "牛羊的叫声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_157_02",
+      "description": "隆兴元年（1163年），张浚领导的南宋北伐军在符离溃败，朝廷内部主和派得势，将淮河前线的边防全部撤除，并向金国遣使乞和。",
+      "audio_triggers": [
+        "隆兴元年",
+        "符离溃败",
+        "主和派得势",
+        "遣使乞和"
+      ],
+      "visual_evidence": [
+        "南宋军队溃退的场景，朝廷内主和派官员占据上风，前线关塞杂草丛生、防备撤尽，南宋使臣车队（冠盖）匆匆奔赴北方求和。"
+      ],
+      "sound_evidence": [
+        "大军溃散的脚步声",
+        "朝堂上的争辩声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_157_03",
+      "description": "隆兴二年（1164年），张孝祥担任建康（今南京）留守。他眼见边备空虚，宝剑与弓箭只能生锈虫蛀，面对朝廷投降媚敌的行径深感屈辱与痛心。",
+      "audio_triggers": [
+        "担任建康留守",
+        "边备空虚",
+        "报国无门"
+      ],
+      "visual_evidence": [
+        "南宋建康城的官署内，张孝祥身穿宋代官服，看着匣中生锈的宝剑和尘封的弓箭，神情黯然，望向北方。"
+      ],
+      "sound_evidence": [
+        "拔出锈剑的摩擦声",
+        "长叹声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_157_04",
+      "description": "通常认为，张浚在建康召集抗金义士，拟上书宋孝宗反对议和，张孝祥也参与了此次抗议集会。",
+      "audio_triggers": [
+        "张浚",
+        "召集抗金义士",
+        "反对议和"
+      ],
+      "visual_evidence": [
+        "张浚与众抗金志士在建康密会，众人表情激愤，共同商讨拟写反对议和的奏疏。"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_157_05",
+      "description": "在建康的一次宴席上，张孝祥为山河破碎、中原遗老苦盼王师而悲愤，即席挥毫写下《六州歌头》。据传其慷慨悲壮之情令张浚感动得罢席而入。",
+      "audio_triggers": [
+        "一次宴会上",
+        "即席挥毫",
+        "罢席而入",
+        "写下了这首"
+      ],
+      "visual_evidence": [
+        "宴会场景，张孝祥在案前奋笔疾书，满脸悲愤；同席的张浚（魏公）深受震撼，起身离席退入内室。禁止出现明清家具和服饰。"
+      ],
+      "sound_evidence": [
+        "激昂悲壮的背景音乐",
+        "笔墨摩擦纸张的声音",
+        "推开座椅起身的动作声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "长淮望断，",
+      "pronunciation": "cháng huái wàng duàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "关塞莽然平。",
+      "pronunciation": "guān sài mǎng rán píng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "征尘暗，",
+      "pronunciation": "zhēng chén àn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "霜风劲，",
+      "pronunciation": "shuāng fēng jìn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "悄边声。",
+      "pronunciation": "qiǎo biān shēng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黯消凝，",
+      "pronunciation": "àn xiāo níng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "追想当年事，",
+      "pronunciation": "zhuī xiǎng dāng nián shì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "殆天数，",
+      "pronunciation": "dài tiān shù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "非人力，",
+      "pronunciation": "fēi rén lì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "洙泗上，",
+      "pronunciation": "zhū sì shàng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "弦歌地，",
+      "pronunciation": "xián gē dì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "亦膻腥。",
+      "pronunciation": "yì shān xīng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "隔水毡乡，",
+      "pronunciation": "gé shuǐ zhān xiāng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "落日牛羊下，",
+      "pronunciation": "luò rì niú yáng xià,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "区脱纵横。",
+      "pronunciation": "ōu tuō zòng héng.",
+      "accepted_variants": [
+        "qū tuō zòng héng."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "看名王宵猎，",
+      "pronunciation": "kàn míng wáng xiāo liè,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "骑火一川明，",
+      "pronunciation": "qí huǒ yī chuān míng,",
+      "accepted_variants": [
+        "jì huǒ yī chuān míng,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "笳鼓悲鸣，",
+      "pronunciation": "jiā gǔ bēi míng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遣人惊。",
+      "pronunciation": "qiǎn rén jīng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念腰间箭，",
+      "pronunciation": "niàn yāo jiān jiàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "匣中剑，",
+      "pronunciation": "xiá zhōng jiàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "空埃蠹，",
+      "pronunciation": "kōng āi dù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "竟何成！",
+      "pronunciation": "jìng hé chéng!",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "时易失，",
+      "pronunciation": "shí yì shī,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "心徒壮，",
+      "pronunciation": "xīn tú zhuàng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "岁将零，",
+      "pronunciation": "suì jiāng líng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渺神京。",
+      "pronunciation": "miǎo shén jīng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "干羽方怀远，",
+      "pronunciation": "gān yǔ fāng huái yuǎn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "静烽燧，",
+      "pronunciation": "jìng fēng suì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "且休兵。",
+      "pronunciation": "qiě xiū bīng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "冠盖使，",
+      "pronunciation": "guān gài shǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "纷驰骛，",
+      "pronunciation": "fēn chí wù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "若为情。",
+      "pronunciation": "ruò wéi qíng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "闻道中原遗老，",
+      "pronunciation": "wén dào zhōng yuán yí lǎo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "常南望，",
+      "pronunciation": "cháng nán wàng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "翠葆霓旌。",
+      "pronunciation": "cuì bǎo ní jīng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "使行人到此，",
+      "pronunciation": "shǐ xíng rén dào cǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "忠愤气填膺，",
+      "pronunciation": "zhōng fèn qì tián yīng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "有泪如倾。",
+      "pronunciation": "yǒu lèi rú qīng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "六州歌头",
+      "pronunciation": "liù zhōu gē tóu",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "张孝祥",
+      "pronunciation": "zhāng xiào xiáng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "张浚",
+      "pronunciation": "zhāng jùn",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "宋孝宗",
+      "pronunciation": "sòng xiào zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "建康",
+      "pronunciation": "jiàn kāng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "干羽",
+      "pronunciation": "gān yǔ",
+      "category": "allusion",
+      "importance": 1
+    },
+    {
+      "term": "区脱",
+      "pronunciation": "ōu tuō",
+      "accepted_variants": [
+        "qū tuō"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_157_01",
+      "source_event_id": "evt_157_01",
+      "target_event_id": "evt_157_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_157_02",
+      "source_event_id": "evt_157_02",
+      "target_event_id": "evt_157_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_157_03",
+      "source_event_id": "evt_157_02",
+      "target_event_id": "evt_157_04",
+      "relation_type": "CAUSES",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_157_04",
+      "source_event_id": "evt_157_01",
+      "target_event_id": "evt_157_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_157_05",
+      "source_event_id": "evt_157_03",
+      "target_event_id": "evt_157_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_157_06",
+      "source_event_id": "evt_157_04",
+      "target_event_id": "evt_157_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/157.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/157.json",
+      "event_gold": "gold_annotation/songci_300/157.json"
+    },
+    "original_sample_id": "157",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

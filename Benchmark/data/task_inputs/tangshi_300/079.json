@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "027_tangshi_079_1471ab1ef34c",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "长相思·其一",
+    "author": "李白",
+    "dynasty": "唐",
+    "form": "乐府",
+    "text": "长相思，在长安。\n络纬秋啼金井阑，微霜凄凄簟色寒。\n孤灯不明思欲绝，卷帷望月空长叹。\n美人如花隔云端！\n上有青冥之长天，下有渌水之波澜。\n天长路远魂飞苦，梦魂不到关山难。\n长相思，摧心肝！",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "长相思，在长安。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "络纬秋啼金井阑，微霜凄凄簟色寒。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "孤灯不明思欲绝，卷帷望月空长叹。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "美人如花隔云端！"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "上有青冥之长天，下有渌水之波澜。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "天长路远魂飞苦，梦魂不到关山难。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "长相思，摧心肝！"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "1471ab1ef34cfa483b3b8dea",
+    "global_index": 27
+  }
+}

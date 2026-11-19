@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "080_tangshi_225_98873d1b050b",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "望蓟门",
+    "author": "祖咏",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "text": "燕台一望客心惊，笳鼓喧喧汉将营。\n(笳鼓 一作：箫鼓)\n万里寒光生积雪，三边曙色动危旌。\n沙场烽火侵胡月，海畔云山拥蓟城。\n少小虽非投笔吏，论功还欲请长缨。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "燕台一望客心惊，笳鼓喧喧汉将营。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "(笳鼓 一作：箫鼓)"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "万里寒光生积雪，三边曙色动危旌。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "沙场烽火侵胡月，海畔云山拥蓟城。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "少小虽非投笔吏，论功还欲请长缨。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "98873d1b050ba1f5dba2402c",
+    "global_index": 80
+  }
+}

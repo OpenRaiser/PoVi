@@ -1,0 +1,9 @@
+name: poetry-bench
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ffmpeg>=7
+  - pip
+  - pip:
+      - -r requirements.txt

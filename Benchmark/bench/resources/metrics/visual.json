@@ -1,0 +1,120 @@
+{
+  "version": "0.6.0",
+  "domain": {
+    "id": "visual",
+    "name": "Audiovisual realization — visual (R1–R5)",
+    "main": true
+  },
+  "families": [
+    {
+      "id": "R_vis",
+      "name": "Visual realization",
+      "description": "Paper R1–R5.",
+      "default_weight": 1.0
+    }
+  ],
+  "metrics": [
+    {
+      "id": "R1",
+      "family_id": "R_vis",
+      "name": "Visual Requirement Coverage",
+      "name_zh": "视觉要求覆盖",
+      "method": "mllm_human",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "visual",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "visual_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "必要主体、场景、动作、道具及可见要求是否被实现。"
+    },
+    {
+      "id": "R2",
+      "family_id": "R_vis",
+      "name": "Visual Semantic Correctness",
+      "name_zh": "视觉语义正确性",
+      "method": "mllm_human",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "visual",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "visual_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "主体身份、时代、空间、动作对象和结果状态是否符合 Gold。"
+    },
+    {
+      "id": "R3",
+      "family_id": "R_vis",
+      "name": "Static Visual Quality",
+      "name_zh": "静态视觉质量",
+      "method": "human_iqa",
+      "scale": "1_5",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "human",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "visual_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "清晰度、曝光、色彩、纹理和主体可辨识性是否达到可用水平。"
+    },
+    {
+      "id": "R4",
+      "family_id": "R_vis",
+      "name": "Character Identity Continuity",
+      "name_zh": "人物身份连续性",
+      "method": "vision_human",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "human",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "visual_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "同一角色跨镜头的身份、外貌、服饰和合理状态变化是否连续。",
+      "optional": true,
+      "applicability": "recurring_character"
+    },
+    {
+      "id": "R5",
+      "family_id": "R_vis",
+      "name": "Visual Metaphor Realization",
+      "name_zh": "视觉隐喻实现",
+      "method": "mllm_expert",
+      "scale": "1_5",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "visual",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "visual_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "画面是否通过构图、空间、动作、光色和母题有效表现 Gold 隐喻。"
+    }
+  ]
+}

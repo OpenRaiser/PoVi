@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "067_tangshi_301_4c3d5ef7eb04",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "滁州西涧",
+    "author": "韦应物",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "text": "独怜幽草涧边生，上有黄鹂深树鸣。\n春潮带雨晚来急，野渡无人舟自横。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "独怜幽草涧边生，上有黄鹂深树鸣。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "春潮带雨晚来急，野渡无人舟自横。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "4c3d5ef7eb04328e476519e6",
+    "global_index": 67
+  }
+}

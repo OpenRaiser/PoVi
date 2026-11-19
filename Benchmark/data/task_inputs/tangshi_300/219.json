@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "078_tangshi_219_b84b495a0eda",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "蜀相",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "text": "丞相祠堂何处寻，锦官城外柏森森。\n映阶碧草自春色，隔叶黄鹂空好音。\n三顾频烦天下计，两朝开济老臣心。\n(频烦 一作：频繁)\n出师未捷身先死，长使英雄泪满襟。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "丞相祠堂何处寻，锦官城外柏森森。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "映阶碧草自春色，隔叶黄鹂空好音。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "三顾频烦天下计，两朝开济老臣心。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "(频烦 一作：频繁)"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "出师未捷身先死，长使英雄泪满襟。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "b84b495a0edac2dd41ae32f1",
+    "global_index": 78
+  }
+}

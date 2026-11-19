@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "105_songci_158_1ec7ed7f9ce1",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "念奴娇",
+    "author": "张孝祥",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "洞庭青草，近中秋、更无一点风色。\n玉界琼田三万顷，著我扁舟一叶。\n素月分辉，银河共影，表里俱澄澈。\n怡然心会，妙处难与君说。\n应念岭海经年，孤光自照，肝胆皆冰雪。\n短发萧骚襟袖冷，稳泛沧浪空阔。\n尽挹西江，细斟北斗，万象为宾客。\n扣舷独啸，不知今夕何夕。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "洞庭青草，近中秋、更无一点风色。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "玉界琼田三万顷，著我扁舟一叶。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "素月分辉，银河共影，表里俱澄澈。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "怡然心会，妙处难与君说。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "应念岭海经年，孤光自照，肝胆皆冰雪。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "短发萧骚襟袖冷，稳泛沧浪空阔。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "尽挹西江，细斟北斗，万象为宾客。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "扣舷独啸，不知今夕何夕。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "1ec7ed7f9ce141081ec7a622",
+    "global_index": 105
+  }
+}

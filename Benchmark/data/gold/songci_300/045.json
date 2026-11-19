@@ -1,0 +1,906 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_045",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《桂枝香·金陵怀古》为北宋政治家、文学家王安石所作，体裁为词。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：桂枝香 作者：王安石 朝代：宋 体裁：词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "王安石（1021—1086），字介甫，号半山，北宋著名政治家、文学家、思想家",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确标注该作为北宋王安石词作",
+        "可结合其政治家身份理解词中深沉的历史视野"
+      ],
+      "forbidden_assertions": [
+        "该作品为唐代诗人所作",
+        "体裁为律诗或绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词约作于王安石任江宁知府或变法受挫退居金陵期间，借六朝兴亡寄托对北宋朝政的忧思。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此词可能是出知江宁府时所作。公元1067年...第一次任江宁知府...公元1076年之后王安石被罢相，第二次出任江宁知府。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "约作于宋神宗熙宁年间（1068—1077），王安石变法受挫后，退居金陵。目睹六朝古都的盛衰之迹，借古讽今，表达了对国家命运的深切关注。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "宋英宗治平四年（1067年）...第一次任江宁知府...还有一种说法是，此词大约作于王安石第二次被罢相、出知江宁府的时候，时间在宋神宗熙宁九年（1076年）之后。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "创作时间与作者两次知江宁府的政治生涯节点高度重合",
+        "词中怀古实为讽今，反映作者对北宋现实政治的忧虑"
+      ],
+      "forbidden_assertions": [
+        "作于南宋或明代",
+        "纯为游览金陵而作的闲适之词，无政治寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_03_imagery",
+      "claim": "“千里澄江似练，翠峰如簇”运用明喻，将长江比作白绢，群峰比作箭簇，勾勒金陵秋景的壮阔。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "千里澄江似练：形容长江像一匹长长的白绢。如簇：这里指群峰好像丛聚在一起。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "千里澄江似练：形容长江像一匹长长的白绢。语出谢眺《晚登三山还望京邑》...如簇：这里指群峰好像丛聚在一起。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "千里澄江似练，翠峰如簇。",
+          "locator": "l02",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "化用谢朓名句，突出江水澄澈与山势峭拔的视觉张力",
+        "白描手法结合比喻，奠定全词雄浑苍凉的基调"
+      ],
+      "forbidden_assertions": [
+        "此处使用借代或暗喻手法",
+        "描写的是春季繁花或冬季雪景"
+      ]
+    },
+    {
+      "claim_id": "claim_04_allusion",
+      "claim": "词中“门外楼头”化用《台城曲》指陈后主亡国惨剧，“商女犹唱《后庭》遗曲”化用杜牧《泊秦淮》，批判六朝荒淫误国并暗讽当世。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "门外楼头：指南朝陈亡国惨剧。门：指朱雀门。楼：指结绮阁。后庭遗曲：指歌曲《玉树后庭花》...最后三句化用杜牧《泊秦淮》诗意。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "门外楼头：指南朝陈亡国惨剧。语出《台城曲》：“门外韩擒虎，楼头张丽华。”...商女不知亡国恨，隔江犹唱《后庭花》，后人认为是亡国之音。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“门外楼头”，用《台城曲》句加以点染...此处用典。“商女不知亡国恨，隔江犹唱《后庭花》！”此唐贤小杜...词人复加运用，便觉尺幅千里，饶有有余不尽之情致。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "典故高度浓缩历史兴亡教训，具有强烈的现实警示意义",
+        "借古音讽今世，体现政治家对时局的清醒认知"
+      ],
+      "forbidden_assertions": [
+        "门外楼头仅指普通城门与楼阁建筑",
+        "商女唱曲仅为描写市井娱乐生活，无历史隐喻"
+      ]
+    },
+    {
+      "claim_id": "claim_05_structure",
+      "claim": "全词上片写景，下片怀古抒情，“念”字为转折枢纽，实现由实入虚、今昔对比的时空转换。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "上阕写登临金陵故都之所见...下阕写在金陵之所想。“念”字作转折，今昔对比，时空交错，虚实相生",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "上片写金陵之景，下片写怀古之情...换头之后写怀古：在金陵建都的六朝帝王，争奇斗胜地穷奢极欲，演出一幕幕触目惊心的亡国悲剧。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "章法严谨，上片铺陈壮丽山河为下片历史反思蓄势",
+        "“念”字是理解全词情感脉络与逻辑推进的关键"
+      ],
+      "forbidden_assertions": [
+        "上下片内容割裂无关联",
+        "全篇纯写景或纯抒情，无转折过渡"
+      ]
+    },
+    {
+      "claim_id": "claim_06_textual_variants",
+      "claim": "本词在不同版本中存在异文，如“归帆去棹”在部分版本中作“征帆去棹”，“六朝旧事随流水，但寒烟、芳草凝绿”在版本二中作“但寒烟衰草凝绿”。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "归帆去棹残阳里，背西风，酒旗斜矗。……但寒烟、芳草凝绿。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "归帆去棹残阳里……但寒烟衰草凝绿。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "归帆去棹：一作“征帆”……六朝旧事随流水，但寒烟衰草凝绿：意谓六朝的往事像流水般消逝了，如今只有寒烟笼罩衰草，凝成一片暗绿色",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“芳草”与“衰草”在文学意象上分别侧重于绿意常在与荒凉衰败，体现了不同版本在审美取向上的细微差异"
+      ],
+      "forbidden_assertions": [
+        "“归帆去棹”在所有古籍版本中均无任何异文"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_qinhuai",
+      "claim": "词中“彩舟云淡，星河鹭起”两句转写秦淮河，其中“星河”指秦淮河，“鹭”一说指白鹭洲（长江与秦淮河相汇之处的小洲）。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "这两句转写秦淮河……星河，天河，这里指秦淮河。鹭，白鹭，一种水鸟。一说指白鹭洲（长江与秦淮河相汇之处的小洲）。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "星河，银河，这里指长江。长江中有白鹭洲（在今南京水西门外）。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“星河”在此处并非实指天上的银河，而是借指波光粼粼、华灯映水的江河"
+      ],
+      "forbidden_assertions": [
+        "“星河”在词中仅指天上的银河，与地面的河流无关"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代和词体身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋王安石《桂枝香·金陵怀古》",
+        "王安石咏史怀古词代表作"
+      ],
+      "forbidden_claims": [
+        "唐代诗人作品",
+        "近体诗体裁"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "结合王安石变法受挫及知江宁府的背景，理解借古讽今的创作动机。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "变法退居金陵时借六朝兴亡忧国",
+        "政治失意时的咏史吊古之作"
+      ],
+      "forbidden_claims": [
+        "纯个人闲适游玩之作",
+        "与北宋政局及作者生平无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_literal",
+      "category": "literal_meaning",
+      "description": "准确翻译并理解上片金陵晚秋江景的白描与比喻手法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "长江如白练、山峰似箭簇的秋江图景",
+        "澄江翠峰、归帆酒旗的壮阔画面"
+      ],
+      "forbidden_claims": [
+        "江水浑浊或山峰平缓",
+        "描写春日繁华或冬季萧瑟"
+      ],
+      "source_claim_ids": [
+        "claim_03_imagery"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_allusion",
+      "category": "metaphor_source",
+      "description": "解析“门外楼头”与“商女唱曲”的典故来源及其在词中的象征意义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "陈后主亡国典故与杜牧诗意化用",
+        "警示当朝统治者勿重蹈覆辙"
+      ],
+      "forbidden_claims": [
+        "泛指普通楼阁与市井娱乐",
+        "无历史指涉或仅写男女情爱"
+      ],
+      "source_claim_ids": [
+        "claim_04_allusion"
+      ],
+      "line_ids": [
+        "l05",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "把握“念”字领起的转折作用，分析上景下情、虚实相生的章法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“念”字承上启下实现时空转换",
+        "上片写景下片怀古的虚实结构"
+      ],
+      "forbidden_claims": [
+        "全篇平铺直叙无逻辑转折",
+        "上下片内容割裂或无关联"
+      ],
+      "source_claim_ids": [
+        "claim_05_structure"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确词作批判六朝荒淫与空叹兴亡的界限，理解作者“反对谩嗟、主张改革”的政治家立场。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "不止于吊古伤今，更含现实政治关怀",
+        "批判奢靡与空叹，主张汲取历史教训"
+      ],
+      "forbidden_claims": [
+        "仅表达个人消极避世情绪",
+        "纯粹赞美金陵风光而无历史反思"
+      ],
+      "source_claim_ids": [
+        "claim_02_background",
+        "claim_04_allusion"
+      ],
+      "line_ids": [
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_07_variants",
+      "category": "alternative_reading",
+      "description": "了解“归帆去棹”一作“征帆去棹”，“芳草凝绿”一作“衰草凝绿”的异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“归帆”与“征帆”的异文",
+        "“芳草”与“衰草”的版本差异"
+      ],
+      "forbidden_claims": [
+        "该词在流传过程中没有任何文字差异"
+      ],
+      "source_claim_ids": [
+        "claim_06_textual_variants"
+      ],
+      "line_ids": [
+        "l03",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_08_lexical_xinghe",
+      "category": "lexical",
+      "description": "理解“星河”在词中特指秦淮河（一说指长江），“鹭”指白鹭或白鹭洲的名物训诂。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "星河指秦淮河或长江",
+        "鹭指白鹭或白鹭洲"
+      ],
+      "forbidden_claims": [
+        "星河仅指天上的银河"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_qinhuai"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_river_mountain",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "澄江似练",
+        "翠峰如簇"
+      ],
+      "target_domain": [
+        "清澈绵长的长江",
+        "陡峭丛聚的群山"
+      ],
+      "bridges": [
+        "以白绢之洁白柔长喻江水之澄澈辽阔",
+        "以箭簇之尖锐密集喻山势之峭拔峻立"
+      ],
+      "context_claim_ids": [
+        "claim_03_imagery"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "化用谢朓“澄江静如练”，融入个人登高远眺的雄健视角",
+        "不仅写形，更暗示六朝故都形胜之险固与历史沧桑"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_gate_tower",
+      "line_ids": [
+        "l05"
+      ],
+      "source_domain": [
+        "门外楼头"
+      ],
+      "target_domain": [
+        "隋军兵临城下与陈后主荒淫亡国的历史惨剧"
+      ],
+      "bridges": [
+        "借《台城曲》典故，以空间方位代指特定历史事件，浓缩兴亡之变"
+      ],
+      "context_claim_ids": [
+        "claim_04_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "泛指历代王朝覆灭前的醉生梦死",
+        "象征繁华表象下潜藏的致命政治危机"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_song_girls",
+      "line_ids": [
+        "l08"
+      ],
+      "source_domain": [
+        "商女犹唱《后庭》遗曲"
+      ],
+      "target_domain": [
+        "世人沉迷享乐、不察国家危机的社会现实"
+      ],
+      "bridges": [
+        "化用杜牧诗意，以歌女无知反衬士大夫当警醒，借古音讽今世"
+      ],
+      "context_claim_ids": [
+        "claim_04_allusion",
+        "claim_02_background"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "并非实指歌女，而是借代整个统治阶层的麻木",
+        "暗示北宋积贫积弱局面下潜在的亡国之忧"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_history_water",
+      "line_ids": [
+        "l07"
+      ],
+      "source_domain": [
+        "六朝旧事随流水"
+      ],
+      "target_domain": [
+        "历史繁华的消逝与朝代更迭的无情"
+      ],
+      "bridges": [
+        "以流水之奔逝不返喻历史长河的不可逆转与人事代谢"
+      ],
+      "context_claim_ids": [
+        "claim_05_structure",
+        "claim_04_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "暗含作者对变法阻力与时光虚掷的无奈",
+        "自然永恒与人事无常的哲学对照"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_text",
+      "description": "清晰展示词牌、题名、作者及完整词文，保持原句序与标点。",
+      "acceptable_realizations": [
+        "卷轴展开式逐句浮现",
+        "旁白朗读时同步字幕呈现"
+      ],
+      "forbidden_realizations": [
+        "错漏字词或擅自改动句序",
+        "遮挡关键诗句或上下片颠倒"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_full_text_display",
+      "semantic_role": "opening_title_and_full_text_display"
+    },
+    {
+      "requirement_id": "vis_02_upper_scenery",
+      "description": "动态呈现晚秋金陵江天画卷：澄江、翠峰、归帆、酒旗、彩舟、白鹭，突出“画图难足”的壮阔。",
+      "acceptable_realizations": [
+        "水墨长卷渐显配合航拍视角模拟登高送目",
+        "景物随词句逐层叠加，色调清朗苍劲"
+      ],
+      "forbidden_realizations": [
+        "使用现代城市景观或季节特征不符的画面",
+        "画面杂乱无主次或过度具象化限制想象"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_river_mountain"
+      ],
+      "expected_phase": "panoramic_autumn_river_landscape",
+      "semantic_role": "panoramic_autumn_river_landscape"
+    },
+    {
+      "requirement_id": "vis_03_historical_reflection",
+      "description": "画面由实景转入历史虚境，通过光影变幻或叠影表现“门外楼头”的兴亡更迭与“旧事随流水”的沧桑感。",
+      "acceptable_realizations": [
+        "虚实转场（实景淡出，历史剪影浮现）",
+        "流水意象贯穿画面，色调转沉郁悲壮"
+      ],
+      "forbidden_realizations": [
+        "直接播放古装剧片段或画面过于喧闹",
+        "忽略“念”字的转折提示导致时空跳跃生硬"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_gate_tower",
+        "meta_04_history_water"
+      ],
+      "expected_phase": "temporal_shift_and_historical_echo",
+      "semantic_role": "temporal_shift_and_historical_echo"
+    },
+    {
+      "requirement_id": "vis_04_concluding_warning",
+      "description": "聚焦“商女唱曲”意象，以听觉（隐约后庭花曲调）与视觉（寒烟衰草、歌楼灯火）结合，强化借古讽今的警示意味。",
+      "acceptable_realizations": [
+        "远景江面孤舟与暖色灯火、冷色寒烟对比",
+        "字幕点出杜牧原诗关联，留白余韵"
+      ],
+      "forbidden_realizations": [
+        "过度渲染商女形象脱离历史语境",
+        "画面突然中断无余韵或变为纯娱乐场景"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_song_girls"
+      ],
+      "expected_phase": "lingering_warning_and_modern_resonance",
+      "semantic_role": "lingering_warning_and_modern_resonance"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_045_01",
+      "description": "六朝衰亡与陈朝覆灭的历史悲剧。南朝陈等六朝君主贪图享乐，繁华竞逐。隋朝大将韩擒虎兵临金陵朱雀门外时，陈后主仍沉迷于结绮阁中寻欢作乐，最终国破家亡，《玉树后庭花》沦为亡国之音。",
+      "audio_triggers": [
+        "门外韩擒虎",
+        "楼头张丽华",
+        "六朝旧事",
+        "后庭遗曲",
+        "亡国悲剧"
+      ],
+      "visual_evidence": [
+        "南朝宫廷",
+        "陈后主寻欢作乐",
+        "结绮阁",
+        "隋军攻破金陵城门",
+        "古代战乱场景"
+      ],
+      "sound_evidence": [
+        "靡靡之音",
+        "军马战鼓声",
+        "城门破裂声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_045_02",
+      "description": "王安石推行“熙宁变法”受挫并退居江宁。北宋时期，王安石为改变国家积贫积弱的局面推行变法，但遭到保守派强烈反对，历经两度罢相。政治上的挫折使他退居（或出知）江宁府，对国势充满忧虑。",
+      "audio_triggers": [
+        "熙宁变法",
+        "罢相",
+        "退居江宁",
+        "政治家深邃的思想"
+      ],
+      "visual_evidence": [
+        "北宋朝堂争论",
+        "王安石身着宋代官服",
+        "面容忧虑沉思",
+        "贬谪或赴任途中的行装"
+      ],
+      "sound_evidence": [
+        "朝堂上的激烈争辩声",
+        "沉重的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_045_03",
+      "description": "王安石秋日登临金陵远望。晚秋时节，王安石在江宁（金陵）登高，俯瞰澄澈如白练的长江、往来的帆船与夕阳西风。登临的具体时间存在多说，通常认为作于其出知江宁府期间（1067年或1076年之后）。",
+      "audio_triggers": [
+        "登临送目",
+        "晚秋",
+        "金陵怀古",
+        "江宁知府"
+      ],
+      "visual_evidence": [
+        "晚秋时节的金陵城楼",
+        "长江如练",
+        "群峰翠绿如簇",
+        "夕阳余晖",
+        "江边酒楼外斜插飘扬的酒旗"
+      ],
+      "sound_evidence": [
+        "猎猎秋风声",
+        "江波拍岸声",
+        "水鸟飞起的扑腾声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_045_04",
+      "description": "王安石触景生情写成《桂枝香·金陵怀古》。面对六朝故都的秋景，他联想历史悲剧，叹息世人只知空叹兴亡而不图振作改革。借古讽今，他提笔写下了这首意境雄浑的词作，寄托对国家命运的关切。",
+      "audio_triggers": [
+        "桂枝香",
+        "借古讽今",
+        "千古凭高",
+        "写下这首名篇"
+      ],
+      "visual_evidence": [
+        "王安石在书案前挥毫作词",
+        "笔墨纸砚",
+        "神情凝重而刚健"
+      ],
+      "sound_evidence": [
+        "提笔写字声",
+        "沉吟诵读诗词声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "登临送目，",
+      "pronunciation": "dēng lín sòng mù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "正故国晚秋，",
+      "pronunciation": "zhèng gù guó wǎn qiū,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天气初肃。",
+      "pronunciation": "tiān qì chū sù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千里澄江似练，",
+      "pronunciation": "qiān lǐ chéng jiāng sì liàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "翠峰如簇。",
+      "pronunciation": "cuì fēng rú cù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "归帆去棹残阳里，",
+      "pronunciation": "guī fān qù zhào cán yáng lǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "背西风，",
+      "pronunciation": "bèi xī fēng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "酒旗斜矗。",
+      "pronunciation": "jiǔ qí xié chù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "彩舟云淡，",
+      "pronunciation": "cǎi zhōu yún dàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "星河鹭起，",
+      "pronunciation": "xīng hé lù qǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "画图难足。",
+      "pronunciation": "huà tú nán zú.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念往昔、",
+      "pronunciation": "niàn wǎng xī,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "繁华竞逐，",
+      "pronunciation": "fán huá jìng zhú,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "叹门外楼头，",
+      "pronunciation": "tàn mén wài lóu tóu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "悲恨相续。",
+      "pronunciation": "bēi hèn xiāng xù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千古凭高，",
+      "pronunciation": "qiān gǔ píng gāo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "对此漫嗟荣辱。",
+      "pronunciation": "duì cǐ màn jiē róng rǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "六朝旧事随流水，",
+      "pronunciation": "liù cháo jiù shì suí liú shuǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "但寒烟、",
+      "pronunciation": "dàn hán yān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "芳草凝绿。",
+      "pronunciation": "fāng cǎo níng lǜ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "至今商女，",
+      "pronunciation": "zhì jīn shāng nǚ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "时时犹唱，",
+      "pronunciation": "shí shí yóu chàng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "《后庭》遗曲。",
+      "pronunciation": "《hòu tíng》 yí qǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "桂枝香",
+      "pronunciation": "guì zhī xiāng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "王安石",
+      "pronunciation": "wáng ān shí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "金陵",
+      "pronunciation": "jīn líng",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "江宁",
+      "pronunciation": "jiāng níng",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "陈后主",
+      "pronunciation": "chén hòu zhǔ",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "韩擒虎",
+      "pronunciation": "hán qín hǔ",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "朱雀门",
+      "pronunciation": "zhū què mén",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "结绮阁",
+      "pronunciation": "jié qǐ gé",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "玉树后庭花",
+      "pronunciation": "yù shù hòu tíng huā",
+      "category": "allusion",
+      "importance": 3
+    },
+    {
+      "term": "漫嗟",
+      "pronunciation": "màn jiē",
+      "accepted_variants": [
+        "mán jiē"
+      ],
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_045_01",
+      "source_event_id": "evt_045_01",
+      "target_event_id": "evt_045_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_045_02",
+      "source_event_id": "evt_045_02",
+      "target_event_id": "evt_045_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_045_03",
+      "source_event_id": "evt_045_02",
+      "target_event_id": "evt_045_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_045_04",
+      "source_event_id": "evt_045_03",
+      "target_event_id": "evt_045_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/045.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/045.json",
+      "event_gold": "gold_annotation/songci_300/045.json"
+    },
+    "original_sample_id": "045",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

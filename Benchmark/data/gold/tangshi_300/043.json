@@ -1,0 +1,1032 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_043",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《梦游天姥吟留别》为唐代浪漫主义诗人李白所作，体裁为七言古诗。该诗在殷璠的《河岳英灵集》中收录题为《梦游天姥山别东鲁诸公》，后或作《别东鲁诸公》、《别东鲁诸公》或《梦游天姥山别鲁东诸公》。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据标注作者李白、朝代唐、体裁七言古诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "唐人殷璠在《河岳英灵集》中收录此诗题为《梦游天姥山别东鲁诸公》，后或作《别东鲁诸公》……也作《梦游天姥山别鲁东诸公》。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该诗是李白最具代表性的浪漫主义记梦游仙作品之一",
+        "此诗属于李白南游吴越前留给东鲁友人的留别类诗作"
+      ],
+      "forbidden_assertions": [
+        "该诗作者为杜甫或其他唐代诗人",
+        "该诗是严格格律的五言律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "该诗作于李白出翰林之后，大约在公元745年（天宝四载）或746年（天宝五载）。此前在天宝三载（744年），李白在长安受到权贵排挤，被唐玄宗赐金放还，返回东鲁。此诗是李白即将离开东鲁南游吴越、告别东鲁诸友时所作，宣泄其政治受挫的郁闷与愤懑。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此诗作于出翰林之后，其作年一说公元745年（天宝四载），一说公元746年（天宝五载）。公元744年（唐玄宗天宝三载），李白在长安受到权贵的排挤，被放出京，返回东鲁（在今山东）家园。之后再度踏上漫游的旅途。这首描绘梦中游历天姥山的诗，大约作于李白即将离开东鲁南游吴越之时。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "天宝四载（745年），李白将由东鲁（在今山东）南游吴越，写了这首描绘梦中游历天姥山的诗，留给在东鲁的朋友……",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中蔑视权贵的呐喊是李白长安三年受屈辱经历的直接抒发"
+      ],
+      "forbidden_assertions": [
+        "该诗作于李白在长安任供奉翰林的时期",
+        "该诗是李白晚年流放夜郎遇赦后所作"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical_annotations",
+      "claim": "诗中核心词汇释义：瀛洲为传说中的东海三神山之一；信意为确实、实在；向天横意为直插天空；势拔五岳中拔意为超出；渌意为清；清猿啼中清意为凄清；暝意为日落天黑；殷意为震响（动词）；栗、惊为使动用法，意为使深林战栗、使层巅震惊；青青意为黑沉沉；澹澹意为波浪起伏；列缺指闪电；訇然形容声音很大；青冥指天空；金银台指神仙居住的宫阙；向来意为原来；须意为等待；摧眉折腰意为低头弯腰。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "瀛洲：古代传说中的东海三座仙山之一……信：确实，实在……向天横：直插天空……拔：超出……渌：清……清：这里是凄清的意思……暝：日落，天黑……殷：这里用作动词，震响……栗、惊，使动用法……青青：黑沉沉的……澹澹：波浪起伏的样子……列缺：指闪电……訇然：形容声音很大……青冥：指天空……金银台：金银铸成的宫阙……向来：原来……须：等待……摧眉折腰：低头弯腰。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "天姥山：在浙江新昌东面……剡（shàn）溪：水名……",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "李白在诗中大量使用具有神秘色彩和动感、声感的词汇，用以营造梦境的奇幻与壮丽"
+      ],
+      "forbidden_assertions": [
+        "将“渌水”解释为绿色的水",
+        "将“青青”解释为青绿色的草木"
+      ]
+    },
+    {
+      "claim_id": "claim_04_allusions",
+      "claim": "诗中运用了多个典故与传说：谢公指喜欢游山、曾在剡溪住宿的南朝诗人谢灵运；谢公屐指谢灵运游山时穿的特制木屐（上山去前齿，下山去后齿）；天鸡指传说中栖息在东南桃都山大树上的神鸡，日出照耀时啼鸣，天下之鸡皆随之鸣叫；白鹿传说为神仙或隐士的坐骑。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "谢公：指南朝诗人谢灵运……谢公屐（jī）：谢灵运穿的那种木屐。《南史·谢灵运传》记载：谢灵运游山……特制的木屐，屐底装有活动的齿，上山时去掉前齿，下山时去掉后齿……天鸡：古代传说，东南有桃都山……树上栖有天鸡……白鹿，传说神仙或隐士多骑白鹿。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "李白自备“谢公屐”登天姥山，表现了他对谢灵运狂放不羁、寄情山水人格的追慕"
+      ],
+      "forbidden_assertions": [
+        "谢公是指东晋宰相谢安",
+        "谢公屐是谢灵运发明的普通日常便鞋"
+      ]
+    },
+    {
+      "claim_id": "claim_05_alternative_readings",
+      "claim": "本诗存在多处异文与版本差异：l04中的“四万八千丈”，在部分版本中作“一万八千丈”；l02中的“云霞明灭”在版本三中作“云霓明灭”；l09中的“渌水荡漾”在版本三中作“绿水荡漾”；l12中的“千岩万转”在版本三中作“千岩万壑”；l06中的“飞度”之“度”通“渡”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "一夜飞度镜湖月。(度 通：渡)",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "一万八千丈：一作“四万八千丈”",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "云霓明灭或可睹……绿水荡漾清猿啼……千岩万壑路不定",
+          "locator": "原文版本三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "不同版本的异文反映了该诗在流传过程中的文本演变，但基本不影响诗歌宏伟的意境"
+      ],
+      "forbidden_assertions": [
+        "“四万八千丈”是天台山唯一的、毫无争议的历史记载高度"
+      ]
+    },
+    {
+      "claim_id": "claim_06_literal_narrative",
+      "claim": "全诗叙事脉络为：先以瀛洲仙境难求反衬现实中天姥山可睹，继而诗人依照越人描述入梦，飞渡镜湖游历天姥山，逐步进入奇幻神仙洞府，群仙降临的盛大场面出现后诗人忽然惊醒，发现梦境消散只剩身边枕席，最后抒发人生感慨与留别志向。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_translation_2",
+          "text": "全诗完整白话译文",
+          "locator": "译文二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "逐段梳理全诗从入梦到梦醒的完整叙事脉络",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中的梦游场景是李白基于现实游历山水的印象，结合神话传说艺术加工而成，并非完全凭空虚构"
+      ],
+      "forbidden_assertions": [
+        "全诗内容是李白真实游览天姥山的写实记录",
+        "诗中神仙洞府的场景是李白亲眼所见的实景"
+      ]
+    },
+    {
+      "claim_id": "claim_07_artistic_feature",
+      "claim": "该诗艺术形式极具解放性，杂糅四言、五言、六言、七言、九言句式，穿插骚体“兮”字句式，转韵灵活（全诗转韵十二次，有两句一韵，也有三句、五句一韵），不受近体诗格律拘束，想象夸张奇特，是李白浪漫主义诗风的典型代表。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "形式上杂言相间，兼用骚体，不受律束，体制解放",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "体制非常解放，参用骚体和辞赋句式，不受体律拘束",
+          "locator": "赏析三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "五、六、七言句杂用在一起……其中转韵十二次，有两句一韵，也有三句一韵、五句一韵。全诗韵法变化多端……",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "自由错落的句式和多变的转韵刚好匹配梦游场景变幻莫测的节奏"
+      ],
+      "forbidden_assertions": [
+        "该诗是一首严格遵守平仄对仗规则的唐诗律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_08_core_theme",
+      "claim": "全诗核心主旨并非宣扬消极避世，而是借梦游游仙的外壳，抒发对光明自由的渴求，表达蔑视封建权贵、绝不卑躬屈膝的叛逆精神，整体格调昂扬潇洒无消沉之感。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "最后两句点亮全诗主题，唱出向封建统治者投过去的一瞥蔑视，全诗并无消沉之感",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "宣泄政治受挫的郁结之情，表明自己绝非低眉顺从权贵之人",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“安能摧眉折腰事权贵”是全诗最核心的点睛之笔，也是千百年来怀才不遇者的共同心声"
+      ],
+      "forbidden_assertions": [
+        "该诗主旨是宣扬万事皆空、完全逃避现实的消极思想",
+        "该诗最后两句表达了李白对仕途的彻底否定"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《梦游天姥吟留别》的题名、作者、所属朝代、作品体裁与别名信息。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这是唐代浪漫主义诗人李白创作的一首七言古诗，也叫《别东鲁诸公》",
+        "《梦游天姥吟留别》是李白的经典游仙诗代表作"
+      ],
+      "forbidden_claims": [
+        "这首诗是杜甫的作品",
+        "这首诗是宋代创作的律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "讲解该诗的创作背景：李白被赐金放还之后即将离开东鲁南游吴越，政治受挫的愤懑是创作的情绪基础。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗是李白离开东鲁漫游前写给友人的留别作品，宣泄他在长安受权贵排挤的郁结",
+        "李白写这首诗的时候已经结束了长安供奉翰林的短暂经历"
+      ],
+      "forbidden_claims": [
+        "这首诗是李白在长安做官时写的应酬作品",
+        "这首诗是李白被流放夜郎之后的作品"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "讲解全诗核心字词含义，包括瀛洲、信、向天横、势拔、渌、清、暝、殷、栗、惊、青青、澹澹、列缺、訇然、青冥、金银台、向来、须、摧眉折腰等词的释义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "摧眉折腰就是低眉弯腰，形容卑躬屈膝侍奉权贵的样子",
+        "“殷”在诗中用作动词，意思是震响；“栗”和“惊”是使动用法，表示使深林战栗、使层巅震惊"
+      ],
+      "forbidden_claims": [
+        "将“渌水”解释为绿色的水",
+        "瀛洲是现实中东海的一座名山"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical_annotations"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l09",
+        "l12",
+        "l13",
+        "l14",
+        "l15",
+        "l16",
+        "l17",
+        "l21",
+        "l24",
+        "l25"
+      ]
+    },
+    {
+      "unit_id": "req_04_allusions",
+      "category": "lexical",
+      "description": "讲解全诗涉及的典故与传说，包括谢公、谢公屐、天鸡、白鹿等典故的来源与文化内涵。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "谢公屐是南朝谢灵运为游山制作的特制木屐，李白借此典故表达游山的志趣",
+        "天鸡是传说中桃都山大树上的神鸡，日出时啼鸣，引得天下群鸡齐鸣"
+      ],
+      "forbidden_claims": [
+        "诗里的谢公指的是东晋的谢安",
+        "谢公屐是谢灵运发明的普通日常便鞋"
+      ],
+      "source_claim_ids": [
+        "claim_04_allusions"
+      ],
+      "line_ids": [
+        "l09",
+        "l10",
+        "l11",
+        "l24"
+      ]
+    },
+    {
+      "unit_id": "req_05_alternative_reading",
+      "category": "alternative_reading",
+      "description": "说明本诗在不同版本中的异文情况，如“四万八千丈”一作“一万八千丈”，“云霞”一作“云霓”，“渌水”一作“绿水”，“千岩万转”一作“千岩万壑”等。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "天台山的高度在不同版本中有四万八千丈和一万八千丈两种写法",
+        "部分版本中“云霞明灭”写作“云霓明灭”"
+      ],
+      "forbidden_claims": [
+        "“四万八千丈”是天台山唯一的、毫无争议的历史记载高度"
+      ],
+      "source_claim_ids": [
+        "claim_05_alternative_readings"
+      ],
+      "line_ids": [
+        "l02",
+        "l04",
+        "l05",
+        "l09",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_06_literal_meaning",
+      "category": "literal_meaning",
+      "description": "梳理全诗从引入天姥胜景、入梦游历、仙境奇观、梦醒嗟叹到最后抒志的完整叙事脉络。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "整首诗就是记录李白一场游览天姥山的奇幻梦境，梦醒之后他发出了不事权贵的宣言",
+        "诗人先听说天姥山的胜景，然后在梦里飞过去游玩，看到神仙降临之后忽然醒过来"
+      ],
+      "forbidden_claims": [
+        "这首诗写的是李白真实游览天姥山的经历",
+        "诗里的神仙洞府是李白亲眼看到的实景"
+      ],
+      "source_claim_ids": [
+        "claim_06_literal_narrative"
+      ],
+      "line_ids": [
+        "l01-l25"
+      ]
+    },
+    {
+      "unit_id": "req_07_structure",
+      "category": "structure",
+      "description": "讲解该诗自由的艺术形式特点：杂言错落、穿插骚体、转韵灵活（全诗转韵十二次），完全不受近体诗格律拘束。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗句子长短不一，韵脚变化很多，全诗转韵达十二次，完全跟着诗人的情绪走",
+        "诗里用了好几个“兮”字的骚体句式，读起来飘逸有仙气"
+      ],
+      "forbidden_claims": [
+        "这首诗是严格遵守平仄对仗的七言律诗",
+        "这首诗每一句字数都一样，是标准的齐言诗"
+      ],
+      "source_claim_ids": [
+        "claim_07_artistic_feature"
+      ],
+      "line_ids": [
+        "l01-l25"
+      ]
+    },
+    {
+      "unit_id": "req_08_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确该诗的解读边界：不能将主旨误读为消极遁世，全诗核心是蔑视权贵、追求自由的昂扬精神，没有消沉感。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "李白写游仙梦境不是要逃避现实，恰恰是用仙境的美好反衬现实权贵世界的污浊",
+        "最后两句的呐喊是整首诗的核心，体现了李白不向权贵低头的傲骨"
+      ],
+      "forbidden_claims": [
+        "这首诗整体是宣扬人生虚无的消极作品",
+        "李白写这首诗之后就彻底放弃了所有人生追求"
+      ],
+      "source_claim_ids": [
+        "claim_08_core_theme"
+      ],
+      "line_ids": [
+        "l22-l25"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_east_water",
+      "line_ids": [
+        "l22"
+      ],
+      "source_domain": [
+        "向东奔流一去不复返的江水"
+      ],
+      "target_domain": [
+        "世间所有过往的行乐、万事万物的消逝"
+      ],
+      "bridges": [
+        "东流的江水不会向西回流，过往的欢乐与经历也不会重来，二者在一去不复返的属性上高度一致"
+      ],
+      "context_claim_ids": [
+        "claim_06_literal_narrative",
+        "claim_08_core_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可引申为李白对时光不可逆、人生失意的感慨具象化表达"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_cloud_ladder",
+      "line_ids": [
+        "l10"
+      ],
+      "source_domain": [
+        "直上云霄的梯子"
+      ],
+      "target_domain": [
+        "高耸陡峭、仿佛连通天际的山间石路"
+      ],
+      "bridges": [
+        "山路沿着山体不断抬升，延伸到云雾缭绕的高处，看起来就像可以踩着登上云端的梯子"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical_annotations"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可象征通往自由仙境、脱离世俗束缚的路径"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_wind_as_horse",
+      "line_ids": [
+        "l18"
+      ],
+      "source_domain": [
+        "自然界迅疾飘逸的风"
+      ],
+      "target_domain": [
+        "神仙出行时所乘的坐骑"
+      ],
+      "bridges": [
+        "风无拘无束、瞬息千里的特质，完全契合神仙御风飞行、不受空间拘束的形象特征"
+      ],
+      "context_claim_ids": [
+        "claim_06_literal_narrative"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "也可象征李白本人追求绝对自由的精神化身"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_04_rainbow_as_clothes",
+      "line_ids": [
+        "l18"
+      ],
+      "source_domain": [
+        "五彩斑斓的彩虹"
+      ],
+      "target_domain": [
+        "神仙所穿的华丽衣裳"
+      ],
+      "bridges": [
+        "彩虹色彩绚丽、轻盈飘渺，与神仙高洁、超凡脱俗的服饰形象高度契合"
+      ],
+      "context_claim_ids": [
+        "claim_06_literal_narrative"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "体现了李白对神仙世界极尽华美、超脱尘俗的艺术想象"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "开场清晰展示诗题、作者、朝代信息，同步呈现完整无错字的全诗文本，配合朗诵逐句弹出字幕。",
+      "acceptable_realizations": [
+        "古风题签样式的开场画面，旁白朗读时诗句逐行浮现",
+        "书法字体呈现全诗，重点字词高亮标注"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏字，诗句顺序错乱",
+        "擅自修改原诗关键字词不做版本说明"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_introduction",
+      "semantic_role": "opening_poem_introduction"
+    },
+    {
+      "requirement_id": "vis_02_landscape_foreshadowing",
+      "description": "依次展示烟波微茫的东海瀛洲、云霞明灭的天姥山雄姿、五岳与赤城山、天台山的对比画面，突出天姥山高耸入云的气势。",
+      "acceptable_realizations": [
+        "远景航拍风格的山水动画，天姥山在云雾中若隐若现",
+        "用夸张的透视效果体现天姥山势拔五岳的视觉冲击力"
+      ],
+      "forbidden_realizations": [
+        "把天姥山画成低矮平缓的丘陵",
+        "瀛洲画面完全没有烟雾缥缈的仙境感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "prelude_landscape_foreshadowing",
+      "semantic_role": "prelude_landscape_foreshadowing"
+    },
+    {
+      "requirement_id": "vis_03_immersive_dream_journey",
+      "description": "完整呈现梦游全过程：月夜飞渡镜湖、剡溪谢公宿处、攀登青云梯、半山见海日闻天鸡、千岩万转暮色降临、熊咆龙吟云生水烟、闪电惊雷洞天开启、群仙降临的盛大奇幻场景。",
+      "acceptable_realizations": [
+        "用流动的水墨动画风格表现梦境的飘逸感，仙境部分用炫彩特效突出奇幻感",
+        "不同梦境段落配合对应的音效，比如猿啼、熊咆、惊雷、仙乐"
+      ],
+      "forbidden_realizations": [
+        "删减洞天开启、群仙降临的核心梦游场景",
+        "把神仙场景画得过于写实毫无仙气"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_cloud_ladder",
+        "meta_03_wind_as_horse",
+        "meta_04_rainbow_as_clothes"
+      ],
+      "expected_phase": "immersive_dream_travel",
+      "semantic_role": "immersive_dream_travel"
+    },
+    {
+      "requirement_id": "vis_04_wakeup_and_theme_elevation",
+      "description": "展示诗人惊觉梦醒，眼前只剩枕席、所有仙境烟霞全部消散的画面，继而呈现东流水奔流远去的意象，最后定格在李白傲立青崖、手牵白鹿，拒绝向权贵折腰的人物形象。",
+      "acceptable_realizations": [
+        "从绚烂的仙境画面快速切换回朴素的室内枕席场景，形成强烈的虚实对比",
+        "最后镜头定格在“安能摧眉折腰事权贵”的书法大字上"
+      ],
+      "forbidden_realizations": [
+        "把梦醒后的场景画得和仙境一样华丽",
+        "最后画面没有体现诗人蔑视权贵的傲骨气质"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_east_water"
+      ],
+      "expected_phase": "wakeup_and_theme_elevation",
+      "semantic_role": "wakeup_and_theme_elevation"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_043_01",
+      "description": "李白早年抱有济世之志，但不愿循常规科举入仕，而是漫游全国结交名流，以此广造声誉。",
+      "audio_triggers": [
+        "济世之志",
+        "漫游全国",
+        "结交名流"
+      ],
+      "visual_evidence": [
+        "青年李白游历山川，身着书生或隐士服饰",
+        "与友人饮酒赋诗，意气风发"
+      ],
+      "importance": 1
+    },
+    {
+      "event_id": "evt_043_02",
+      "description": "天宝元年（742年），因人推荐，李白被唐玄宗召入长安供奉翰林，初时抱有大展宏图的希望。",
+      "audio_triggers": [
+        "天宝元年",
+        "召入长安",
+        "供奉翰林"
+      ],
+      "visual_evidence": [
+        "唐玄宗召见李白的宫殿场景",
+        "李白在翰林院起草文书或参与宫廷宴饮"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_043_03",
+      "description": "李白一身傲骨，不肯与权贵同流合污，在长安屡遭排挤和谗言。天宝三年（744年），他被唐玄宗“赐金放还”，政治抱负彻底破灭。",
+      "audio_triggers": [
+        "权贵排挤",
+        "赐金放还",
+        "政治抱负破灭"
+      ],
+      "visual_evidence": [
+        "李白神情失落而倔强，带着行囊离开长安城",
+        "身后有权贵或宦官的冷眼与指点"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_043_04",
+      "description": "离开长安后，李白再度踏上漫游之旅，曾在东鲁（今山东）家中与杜甫、高适等人交游。生活虽相对安定，但他仍不安于此，决意南下吴越。",
+      "audio_triggers": [
+        "再度漫游",
+        "东鲁家中",
+        "南下游吴越"
+      ],
+      "visual_evidence": [
+        "李白在东鲁的宅院中，与朋友交谈",
+        "打点行装准备远行"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_043_05",
+      "description": "通常认为在天宝四载（745年）或五载，李白即将离开东鲁前创作此诗留别诸公。他在诗中借梦游天姥山的瑰丽仙境，宣泄了郁结在胸的不平之气，表达出绝不向权贵屈膝的自由精神。",
+      "audio_triggers": [
+        "留别诸公",
+        "梦游天姥",
+        "宣泄郁结",
+        "安能摧眉折腰事权贵"
+      ],
+      "visual_evidence": [
+        "李白在书案前挥毫疾书，神态激越",
+        "画面浮现其笔下奇幻的神仙世界（云霓、金银台、神仙降临等意象）",
+        "李白仰天长叹，表现出洒脱与桀骜不驯"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "海客谈瀛洲，",
+      "pronunciation": "hǎi kè tán yíng zhōu，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "烟涛微茫信难求；",
+      "pronunciation": "yān tāo wēi máng xìn nán qiú；",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "越人语天姥，",
+      "pronunciation": "yuè rén yǔ tiān mǔ，",
+      "accepted_variants": [
+        "yuè rén yù tiān mǔ，",
+        "yuè rén yǔ tiān lǎo，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "云霞明灭或可睹。",
+      "pronunciation": "yún xiá míng miè huò kě dǔ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天姥连天向天横，",
+      "pronunciation": "tiān mǔ lián tiān xiàng tiān héng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "势拔五岳掩赤城。",
+      "pronunciation": "shì bá wǔ yuè yǎn chì chéng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天台四万八千丈，",
+      "pronunciation": "tiān tāi sì wàn bā qiān zhàng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "对此欲倒东南倾。",
+      "pronunciation": "duì cǐ yù dǎo dōng nán qīng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "(四万 一作：一万)",
+      "pronunciation": "(sì wàn yī zuò：yī wàn)",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "我欲因之梦吴越，",
+      "pronunciation": "wǒ yù yīn zhī mèng wú yuè，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一夜飞度镜湖月。",
+      "pronunciation": "yī yè fēi dù jìng hú yuè。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "(度 通：渡)",
+      "pronunciation": "(dù tōng：dù)",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "湖月照我影，",
+      "pronunciation": "hú yuè zhào wǒ yǐng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "送我至剡溪。",
+      "pronunciation": "sòng wǒ zhì shàn xī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "谢公宿处今尚在，",
+      "pronunciation": "xiè gōng sù chù jīn shàng zài，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渌水荡漾清猿啼。",
+      "pronunciation": "lù shuǐ dàng yàng qīng yuán tí。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "脚著谢公屐，",
+      "pronunciation": "jiǎo zhuó xiè gōng jī，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "身登青云梯。",
+      "pronunciation": "shēn dēng qīng yún tī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "半壁见海日，",
+      "pronunciation": "bàn bì jiàn hǎi rì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "空中闻天鸡。",
+      "pronunciation": "kōng zhōng wén tiān jī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千岩万转路不定，",
+      "pronunciation": "qiān yán wàn zhuǎn lù bù dìng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "迷花倚石忽已暝。",
+      "pronunciation": "mí huā yǐ shí hū yǐ míng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "熊咆龙吟殷岩泉，",
+      "pronunciation": "xióng páo lóng yín yǐn yán quán，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "栗深林兮惊层巅。",
+      "pronunciation": "lì shēn lín xī jīng céng diān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "云青青兮欲雨，",
+      "pronunciation": "yún qīng qīng xī yù yǔ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "水澹澹兮生烟。",
+      "pronunciation": "shuǐ dàn dàn xī shēng yān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "列缺霹雳，",
+      "pronunciation": "liè quē pī lì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "丘峦崩摧。",
+      "pronunciation": "qiū luán bēng cuī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "洞天石扉，",
+      "pronunciation": "dòng tiān shí fēi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "訇然中开。",
+      "pronunciation": "hōng rán zhōng kāi。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青冥浩荡不见底，",
+      "pronunciation": "qīng míng hào dàng bú jiàn dǐ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "日月照耀金银台。",
+      "pronunciation": "rì yuè zhào yào jīn yín tái。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "霓为衣兮风为马，",
+      "pronunciation": "ní wéi yī xī fēng wéi mǎ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "云之君兮纷纷而来下。",
+      "pronunciation": "yún zhī jūn xī fēn fēn ér lái xià。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "虎鼓瑟兮鸾回车，",
+      "pronunciation": "hǔ gǔ sè xī luán huí chē，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "仙之人兮列如麻。",
+      "pronunciation": "xiān zhī rén xī liè rú má。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "忽魂悸以魄动，",
+      "pronunciation": "hū hún jì yǐ pò dòng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "恍惊起而长嗟。",
+      "pronunciation": "huǎng jīng qǐ ér cháng jiē。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "惟觉时之枕席，",
+      "pronunciation": "wéi jué shí zhī zhěn xí，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "失向来之烟霞。",
+      "pronunciation": "shī xiàng lái zhī yān xiá。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "世间行乐亦如此，",
+      "pronunciation": "shì jiān xíng lè yì rú cǐ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "古来万事东流水。",
+      "pronunciation": "gǔ lái wàn shì dōng liú shuǐ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "别君去兮何时还？",
+      "pronunciation": "bié jūn qù xī hé shí huán？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "且放白鹿青崖间，",
+      "pronunciation": "qiě fàng bái lù qīng yá jiān，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "须行即骑访名山。",
+      "pronunciation": "xū xíng jí qí fǎng míng shān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "安能摧眉折腰事权贵，",
+      "pronunciation": "ān néng cuī méi zhé yāo shì quán guì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "使我不得开心颜!",
+      "pronunciation": "shǐ wǒ bù dé kāi xīn yán!",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "李白",
+      "pronunciation": "lǐ bái",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "唐玄宗",
+      "pronunciation": "táng xuán zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "天姥",
+      "pronunciation": "tiān mǔ",
+      "accepted_variants": [
+        "tiān lǎo"
+      ],
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "天台",
+      "pronunciation": "tiān tāi",
+      "accepted_variants": [
+        "tiān tái"
+      ],
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "剡溪",
+      "pronunciation": "shàn xī",
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "殷",
+      "pronunciation": "yǐn",
+      "category": "polyphone",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_043_01",
+      "source_event_id": "evt_043_01",
+      "target_event_id": "evt_043_02",
+      "relation_type": "BEFORE",
+      "importance": 1
+    },
+    {
+      "relation_id": "rel_043_02",
+      "source_event_id": "evt_043_02",
+      "target_event_id": "evt_043_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_043_03",
+      "source_event_id": "evt_043_03",
+      "target_event_id": "evt_043_04",
+      "relation_type": "CAUSES",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_043_04",
+      "source_event_id": "evt_043_04",
+      "target_event_id": "evt_043_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_043_05",
+      "source_event_id": "evt_043_03",
+      "target_event_id": "evt_043_05",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/043.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/043.json",
+      "event_gold": "gold_annotation/tangshi_300/043.json"
+    },
+    "original_sample_id": "043",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

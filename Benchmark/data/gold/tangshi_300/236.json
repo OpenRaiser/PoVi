@@ -1,0 +1,841 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_236",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《西塞山怀古》为唐代诗人刘禹锡创作的七言律诗，是唐代怀古诗的经典作品之一。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "西塞山怀古 刘禹锡 唐 七言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "王濬楼船下益州，金陵王气黯然收。千寻铁锁沉江底，一片降幡出石头。人世几回伤往事，山形依旧枕寒流。今逢四海为家日，故垒萧萧芦荻秋。",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该诗归入刘禹锡咏史怀古诗代表作序列"
+      ],
+      "forbidden_assertions": [
+        "将该诗作者误归为其他唐代诗人",
+        "错误判定该诗为五言绝句或词体"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_background",
+      "claim": "该诗作于公元824年（唐穆宗长庆四年），刘禹锡由夔州刺史调任和州刺史，在沿江东下赴任的途中，经西塞山时触景生情、抚今追昔而作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首诗是于公元824年（唐穆宗长庆四年）所作。是年，刘禹锡由夔州（治今重庆奉节）刺史调任和州（治今安徽和县）刺史，在沿江东下赴任的途中，经西塞山时有感而作此诗。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "经西塞山时，触景生情，抚今追昔，写下了这首感叹历史兴亡的诗。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗人在行船途中亲眼见到了西塞山的险峻地理形势，从而引发了对历史军事要塞的感慨"
+      ],
+      "forbidden_assertions": [
+        "声称该诗创作于刘禹锡早年永贞革新时期",
+        "认为该诗是刘禹锡在长安时凭空想象而作"
+      ]
+    },
+    {
+      "claim_id": "claim_03_historical_narration",
+      "claim": "诗的前四句完整铺陈西晋太康元年晋武帝命王濬率楼船从益州顺江而下伐吴，东吴虽以千寻铁锁横江拦截仍告失败，最终吴主孙皓在石头城出降的历史事件。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "公元280年（西晋太康元年），晋武帝司马炎命王濬率领以高大的战船“楼船”组成的西晋水军，顺江而下，讨伐东吴。……东吴的亡国之君孙皓，凭借长江天险，并在江中暗置铁锥，再加以千寻铁链横锁江面，自以为是万全之计，谁知王濬用大筏数十，冲走铁锥，以火炬烧毁铁链，结果顺流鼓棹，径造三山，直取金陵。“皓乃备亡国之礼，造于垒门”（《晋书·王濬传》）。第二联就是形象地概括了这一段历史。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "王濬：晋益州刺史。一作“西晋”。益州：晋时郡治在今成都。晋武帝谋伐吴，派王濬造大船，出巴蜀……千寻铁锁沉江底：东吴末帝孙皓命人在江中轧铁锥，又用大铁索横于江面，拦截晋船，终失败。一片降幡出石头：王濬率船队从武昌顺流而下，直到金陵，攻破石头城，吴主孙皓到营门投降。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗人剪裁史事时重点突出东吴防御的虚妄和败亡的迅速"
+      ],
+      "forbidden_assertions": [
+        "声称前四句写的是三国时期刘备伐吴的历史事件"
+      ]
+    },
+    {
+      "claim_id": "claim_04_core_theme",
+      "claim": "全诗核心主旨是借古讽今，阐发国家统一是历史必然，天险、工事、虚妄的“王气”都不足以保障政权存续，兴废的根本决定因素是人事，以此对当时重新抬头的藩镇割据势力给予迎头一击，并作为唐王朝的镜子。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "写吴的灭亡，不仅揭示了当时吴王的昏聩无能，更表现了那些后来者的愚蠢，也反映了国家的统一是历史的必然。其次，诗人写晋吴之战，重点是写吴，而写吴又着重点出那种虚妄的精神支柱“王气”、天然的地形、千寻的铁链，皆不足恃。这就从反面阐发了一个深刻的思想，那就是“兴废由人事，山川空地形”……刘禹锡在这首诗中，把嘲弄的锋芒指向在历史上曾经占据一方、但终于覆灭的统治者，这正是对重新抬头的割据势力的迎头一击。当然……这个六朝覆灭的教训，对于当时骄侈腐败的唐王朝来说，也是一面很好的镜子。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "唐朝自安史之乱后，藩镇割据比较严重。唐宪宗时期，唐朝曾经取得了几次平定藩镇割据的胜利，国家又出现了比较统一的局面，不过这种景象只是昙花一现，公元821年到822年河北三镇又恢复了割据局面。此诗即为作者结合当时形势而作。",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗人通过古今对照，提醒当时唐朝统治者吸取六朝覆灭的教训，警惕地方割据"
+      ],
+      "forbidden_assertions": [
+        "认为该诗主旨是宣扬历史虚无主义，否定统一的价值"
+      ]
+    },
+    {
+      "claim_id": "claim_05_text_variants",
+      "claim": "该诗传世存在多处异文：末联首字通行本作“今逢”，一作“从今”；第三联首句一作“荒苑至今生茂草”；“枕寒流”一作“枕江流”；“黯然”一作“漠然”；王濬一作“西晋”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "王濬：晋益州刺史。一作“西晋”。黯然：一作“漠然”。人世几回伤往事：一作“荒苑至今生茂草”。枕寒流：一作“枕江流”。今逢：一作“从今”。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "从今四海为家日，故垒萧萧芦荻秋。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "异文不影响全诗核心表意的传递，但“荒苑至今生茂草”与“人世几回伤往事”在抒情格调上略有不同"
+      ],
+      "forbidden_assertions": [
+        "将某一小众异文宣称为唯一权威正统文本，否定其他版本的存在"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_xiseishan",
+      "claim": "西塞山位于今湖北省黄石市（又名道士洑），山体突出到江中形成弯道，是六朝时期有名的军事要塞。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "西塞山：位于今湖北省黄石市，又名道士洑，山体突出到中，因而形成长江弯道，站在山顶犹如身临江中。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "西塞山：位于今天湖北省境内，乃六朝时期重要的军事要塞。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "西塞山的险要地势使其成为历史上兵家必争之地，也是诗人怀古的绝佳立足点"
+      ],
+      "forbidden_assertions": [
+        "将西塞山的位置误判在江苏南京"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_shitou",
+      "claim": "“石头”指石头城，故址在今江苏省南京市清凉山，当时是吴国的都城金陵的防守要塞。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "金陵：今南京，当时是吴国的都城。一片降幡出石头：王濬率船队从武昌顺流而下，直到金陵，攻破石头城，吴主孙皓到营门投降。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "石头：指石头城，故址在今江苏省南京市清凉山。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“出石头”形象地写出了降旗从防守坚固的石头城中打出，标志着防线的彻底崩溃"
+      ],
+      "forbidden_assertions": [
+        "将石头城解释为普通的石头堆砌的城墙，忽略其特定地名指代"
+      ]
+    },
+    {
+      "claim_id": "claim_08_structure_contrast",
+      "claim": "全诗在章法上繁简得当、虚实相间。前四句洗炼紧凑，在强弱对比中直写历史战事与结局；后四句一笔折到西塞山，通过“山形依旧”与“人世伤往事”的古今对比，拓开意境，收束于眼前的荒凉秋景。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗的前四句，洗炼、紧凑，在对比之中写出了双方的强弱……可谓虚实相间，胜败相形，巧于安排。……第六句一笔折到西塞山……山川“依旧”，就更显得人事之变化，六朝之短促……第七句宕开一笔，直写“今逢”之世，第八句说往日的军事堡垒，如今已荒废在一片秋风芦荻之中。……全诗借古讽今，沉郁感伤，但繁简得当，直点现实。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "第六句一笔折到西塞山，是为圆熟。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗歌通过前四句的动景（战争）与后四句的静景（山川、荒垒）形成张力，使怀古之情更加深沉"
+      ],
+      "forbidden_assertions": [
+        "认为前四句与后四句在内容上完全割裂，没有逻辑关联"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《西塞山怀古》的题名、作者、朝代、体裁基本信息。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "中唐刘禹锡创作的经典七言怀古诗《西塞山怀古》",
+        "唐代诗人刘禹锡的七言律诗代表作《西塞山怀古》"
+      ],
+      "forbidden_claims": [
+        "《西塞山怀古》是宋代作品",
+        "《西塞山怀古》作者是杜牧"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "讲解该诗的创作时间、行旅背景以及中唐藩镇割据的现实语境。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "刘禹锡在长庆四年调任途中经西塞山，面对当时藩镇割据复燃的局势写下这首咏史抒怀作品"
+      ],
+      "forbidden_claims": [
+        "这首诗是刘禹锡被贬朗州时期的作品",
+        "该诗与中唐藩镇割据的社会现实无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_background",
+        "claim_04_core_theme"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_key_lexical",
+      "category": "lexical",
+      "description": "讲解诗中重点字词的含义，包括王濬、益州、千寻、降幡、石头、四海为家、故垒等专有名词与名物训诂。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "寻是古代长度单位，八尺为一寻；石头指石头城，故址在今江苏南京清凉山；故垒指旧时的壁垒。"
+      ],
+      "forbidden_claims": [
+        "千寻指的是普通的长度单位，一丈为一寻",
+        "石头城是西塞山的别称"
+      ],
+      "source_claim_ids": [
+        "claim_03_historical_narration",
+        "claim_06_lexical_xiseishan"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "逐句讲解全诗的字面含义，梳理西晋灭吴事件的完整脉络与后四句的怀古抒情。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "王濬率领高大的楼船从益州顺江东下，金陵的东吴王气一下子就黯然消散了。千丈长的铁链沉入江底，一片降旗挂在石头城头。"
+      ],
+      "forbidden_claims": [
+        "把“一片降幡出石头”解读为晋军投降东吴"
+      ],
+      "source_claim_ids": [
+        "claim_03_historical_narration"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确该诗的核心主旨边界，不能脱离借古讽今、倡导国家统一、警示割据势力的核心表意。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗通过六朝兴废的故事，说明任何依仗天险搞分裂的势力最终都会覆灭，国家统一是历史必然，以此警告当时的割据藩镇。"
+      ],
+      "forbidden_claims": [
+        "这首诗表达了刘禹锡对西晋发动战争的批判和反对国家统一的立场"
+      ],
+      "source_claim_ids": [
+        "claim_04_core_theme"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_text_variant_note",
+      "category": "alternative_reading",
+      "description": "说明该诗传世的常见异文情况，包括“今逢/从今”、“枕寒流/枕江流”、“人世几回伤往事/荒苑至今生茂草”等，解释异文对诗意的影响。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "部分版本里“今逢四海为家日”写作“从今四海为家日”，第三句也有“荒苑至今生茂草”的异文版本。"
+      ],
+      "forbidden_claims": [
+        "通行本的“今逢”是唯一正确的字眼，其他异文皆为现代人杜撰"
+      ],
+      "source_claim_ids": [
+        "claim_05_text_variants"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_structure_analysis",
+      "category": "structure",
+      "description": "分析全诗前四句写历史、后四句写现实与山川的章法结构，以及“山形依旧”与“人世伤往事”的对比手法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "前四句洗炼紧凑地概括历史，后四句折回西塞山，通过山川依旧与人事变迁的对比深化主题。"
+      ],
+      "forbidden_claims": [
+        "认为该诗是一首即景抒情诗，没有使用任何对比和章法转折"
+      ],
+      "source_claim_ids": [
+        "claim_08_structure_contrast"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_wangqi_metaphor",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "附着于定都之地的帝王祥瑞之气"
+      ],
+      "target_domain": [
+        "东吴政权的统治合法性、国运根基与虚妄的精神支柱"
+      ],
+      "bridges": [
+        "古代谶纬文化认为定都于金陵的王朝有对应的王气作为国运象征，王气消散直接对应政权的快速覆灭，在诗中也象征割据势力虚妄的精神支柱"
+      ],
+      "context_claim_ids": [
+        "claim_03_historical_narration",
+        "claim_04_core_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将王气解读为东吴政权凭借长江天险形成的军事威慑力"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_sihaiweijia_metaphor",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "天下所有疆土都归天子一家所有的家天下格局"
+      ],
+      "target_domain": [
+        "全国大一统、中央政权有效管控全部疆域的和平统一局面"
+      ],
+      "bridges": [
+        "传统语境下“四海为家”对应废除地方割据、打破疆域壁垒，实现国家层面的完整统一"
+      ],
+      "context_claim_ids": [
+        "claim_04_core_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可延伸指代唐宪宗平定藩镇后一度出现的全国统一安定的局面"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_gulei_metaphor",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "秋风芦荻中荒废残破的旧时军事堡垒"
+      ],
+      "target_domain": [
+        "分裂割据势力的覆灭结局与历史沧桑的见证"
+      ],
+      "bridges": [
+        "西塞山的旧堡垒是六朝时期南北分裂的军事遗存，如今荒废于秋风之中，直接象征分裂割据的结局必然是被大一统时代抛弃，成为历史的陈迹"
+      ],
+      "context_claim_ids": [
+        "claim_04_core_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将萧瑟秋景解读为对六朝覆灭之后历史变迁的苍凉感慨"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_tiesuo_metaphor",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "横锁江面的千寻铁链与江中暗置的铁锥"
+      ],
+      "target_domain": [
+        "割据政权所依仗的、但终究不可恃的天然地形与防御工事"
+      ],
+      "bridges": [
+        "东吴苦心经营的铁锁防线被王濬用火炬大筏轻易攻破，象征着违背历史统一潮流的顽抗工事终究是虚妄和无用的"
+      ],
+      "context_claim_ids": [
+        "claim_03_historical_narration",
+        "claim_04_core_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可单纯作为具体历史战争细节的写实描述"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_title",
+      "description": "清晰展示诗题、作者、朝代、体裁信息，同步呈现全诗完整文本，无错字漏字。",
+      "acceptable_realizations": [
+        "古风题签样式开场，逐行弹出诗文配合旁白朗读",
+        "书法卷轴缓缓展开呈现全诗内容"
+      ],
+      "forbidden_realizations": [
+        "出现诗文错字，将刘禹锡误写为其他作者",
+        "遗漏全诗任意一句内容"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_presentation",
+      "semantic_role": "opening_poem_presentation"
+    },
+    {
+      "requirement_id": "vis_02_jin_wu_war_recreation",
+      "description": "还原西晋王濬楼船东下、东吴铁锁横江、石头城出降的历史战争场景，直观呈现前四句的历史叙事。",
+      "acceptable_realizations": [
+        "动画演示楼船舰队从益州沿长江顺流而下的进军路线，铁锁被火炬烧毁的细节",
+        "历史插画风格还原石头城上悬挂降幡的画面"
+      ],
+      "forbidden_realizations": [
+        "出现不符合历史常识的武器、服饰设定",
+        "将进攻方和防守方的身份颠倒"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_wangqi_metaphor",
+        "meta_04_tiesuo_metaphor"
+      ],
+      "expected_phase": "historical_battle_retelling",
+      "semantic_role": "historical_battle_retelling"
+    },
+    {
+      "requirement_id": "vis_03_xisai_mountain_contrast",
+      "description": "呈现西塞山临江而立、依旧枕靠寒流的实景，对比六朝频繁更迭的人事变迁，突出“山形依旧”的时空感。",
+      "acceptable_realizations": [
+        "镜头从滚滚长江水面上摇，缓缓露出西塞山的山体轮廓，叠化不同朝代在山前发生战争的剪影快速闪回"
+      ],
+      "forbidden_realizations": [
+        "将西塞山的地理位置错误标注在南京附近",
+        "完全不出现西塞山的山体视觉元素"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "mountain_landscape_meditation",
+      "semantic_role": "mountain_landscape_meditation"
+    },
+    {
+      "requirement_id": "vis_04_ending_desolate_scene",
+      "description": "呈现秋风萧瑟、芦荻飘摇环绕旧时军事堡垒的秋景，点出四海一统的时代主题，收束全诗怀古伤今的情绪。",
+      "acceptable_realizations": [
+        "镜头缓缓扫过长满芦荻的残垒，远处是奔流的长江，最后画面淡出浮现全诗主旨文字"
+      ],
+      "forbidden_realizations": [
+        "将结尾场景处理为繁华热闹的都市景观，背离原诗的萧瑟基调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_sihaiweijia_metaphor",
+        "meta_03_gulei_metaphor"
+      ],
+      "expected_phase": "desolate_old_fort_closure",
+      "semantic_role": "desolate_old_fort_closure"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_236_01",
+      "description": "公元280年（西晋太康元年），晋武帝司马炎命王濬讨伐东吴。王濬在益州造大型战船“楼船”，率水军顺长江东下。",
+      "audio_triggers": [
+        "公元280年",
+        "西晋太康元年",
+        "司马炎",
+        "讨伐东吴",
+        "王濬",
+        "益州",
+        "造大船",
+        "楼船顺江而下"
+      ],
+      "visual_evidence": [
+        "古代造船场景",
+        "体型高大如城墙的木制战船（楼船）",
+        "身着晋代铠甲的将士乘船出征",
+        "庞大的船队顺着宽阔的长江水面航行"
+      ],
+      "sound_evidence": [
+        "江水汹涌流淌声",
+        "造船工匠敲击木材的沉闷声",
+        "水军出征时悠长的号角声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_236_02",
+      "description": "东吴末帝孙皓为阻挡晋军，凭借长江天险，命人在江底暗置铁锥，并用千丈长的大铁链横锁江面。",
+      "audio_triggers": [
+        "东吴末帝",
+        "孙皓",
+        "长江天险",
+        "暗置铁锥",
+        "大铁索横于江面",
+        "千寻铁锁"
+      ],
+      "visual_evidence": [
+        "长江江面上横截江流的粗大铁索",
+        "江水下隐藏着尖锐的铁锥",
+        "东吴士兵在岸边或江防工事上紧张据守"
+      ],
+      "sound_evidence": [
+        "粗大铁链被江水冲击或相互碰撞的沉重金属声",
+        "呼啸的江风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_236_03",
+      "description": "王濬以火炬烧毁江面铁链、用大筏冲走江底铁锥，直捣吴都石头城（金陵）。吴主孙皓至营门投降，西晋灭吴，实现天下一统。",
+      "audio_triggers": [
+        "烧毁铁链",
+        "冲毁铁锥",
+        "直捣石头城",
+        "金陵",
+        "孙皓投降",
+        "一片降幡",
+        "西晋灭吴",
+        "天下一统"
+      ],
+      "visual_evidence": [
+        "烈火在江面燃烧断裂的铁索",
+        "晋军战船势如破竹冲破防线",
+        "金陵石头城外",
+        "孙皓在营门外挂起白色的降旗（降幡）向晋军投降"
+      ],
+      "sound_evidence": [
+        "烈火熊熊燃烧声",
+        "沉重的铁索断裂落水声",
+        "震天的战鼓声与士兵呐喊声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_236_04",
+      "description": "唐朝安史之乱后，藩镇割据严重。唐宪宗时期虽曾短暂平定，但公元821年至822年间部分地区又恢复割据状态，国家再度面临分裂威胁。",
+      "audio_triggers": [
+        "唐朝中期",
+        "安史之乱后",
+        "藩镇割据",
+        "国家再度面临分裂",
+        "时局动荡"
+      ],
+      "visual_evidence": [
+        "象征唐朝军阀割据的军事地图或势力界线",
+        "连年战乱后荒芜破败的城郭景象",
+        "颠沛流离的流民与唐代征战士兵"
+      ],
+      "sound_evidence": [
+        "沉重压抑的鼓声",
+        "战马嘶鸣与杂乱的脚步声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_236_05",
+      "description": "公元824年（唐穆宗长庆四年），刘禹锡由夔州刺史调任和州刺史，乘船沿长江东下赴任。",
+      "audio_triggers": [
+        "公元824年",
+        "唐穆宗长庆四年",
+        "刘禹锡",
+        "夔州刺史调任和州刺史",
+        "沿江东下"
+      ],
+      "visual_evidence": [
+        "身着唐代中高级官员服饰的刘禹锡",
+        "乘坐客船在长江上顺流而下",
+        "刘禹锡站在船头，神情肃穆注视着两岸风物"
+      ],
+      "sound_evidence": [
+        "平缓的船桨划水声",
+        "悠远的江风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_236_06",
+      "description": "刘禹锡途经六朝军事要塞西塞山，见山川依旧而当年旧垒已长满芦荻。结合渴望平定藩镇割据的时代背景，他借古喻今，写下《西塞山怀古》。",
+      "audio_triggers": [
+        "途经西塞山",
+        "江山依旧",
+        "废弃的故垒",
+        "长满芦荻秋风飒飒",
+        "抚今追昔",
+        "渴望四海太平",
+        "创作了《西塞山怀古》"
+      ],
+      "visual_evidence": [
+        "刘禹锡在江边或山间眺望险峻的西塞山",
+        "秋风中破败荒芜的古代军事壁垒遗迹",
+        "大片茂密的芦荻在秋风中摇曳",
+        "刘禹锡提笔在书案前写下诗篇"
+      ],
+      "sound_evidence": [
+        "秋风吹拂芦荻发出萧萧声响",
+        "江水拍打岸石声",
+        "提笔蘸墨、在纸上书写的沙沙声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "王濬楼船下益州，",
+      "pronunciation": "wáng jùn lóu chuán xià yì zhōu，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "金陵王气黯然收。",
+      "pronunciation": "jīn líng wáng qì àn rán shōu。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千寻铁锁沉江底，",
+      "pronunciation": "qiān xún tiě suǒ chén jiāng dǐ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一片降幡出石头。",
+      "pronunciation": "yī piàn xiáng fān chū shí tou。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "人世几回伤往事，",
+      "pronunciation": "rén shì jǐ huí shāng wǎng shì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山形依旧枕寒流。",
+      "pronunciation": "shān xíng yī jiù zhěn hán liú。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今逢四海为家日，",
+      "pronunciation": "jīn féng sì hǎi wéi jiā rì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "故垒萧萧芦荻秋。",
+      "pronunciation": "gù lěi xiāo xiāo lú dí qiū。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "刘禹锡",
+      "pronunciation": "liú yǔ xī",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "王濬",
+      "pronunciation": "wáng jùn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "孙皓",
+      "pronunciation": "sūn hào",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "司马炎",
+      "pronunciation": "sī mǎ yán",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "西塞山",
+      "pronunciation": "xī sài shān",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "益州",
+      "pronunciation": "yì zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "金陵",
+      "pronunciation": "jīn líng",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "夔州",
+      "pronunciation": "kuí zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "和州",
+      "pronunciation": "hé zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "石头",
+      "pronunciation": "shí tou",
+      "accepted_variants": [
+        "shí tóu"
+      ],
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "降幡",
+      "pronunciation": "xiáng fān",
+      "category": "polyphone",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_236_01",
+      "source_event_id": "evt_236_01",
+      "target_event_id": "evt_236_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_236_02",
+      "source_event_id": "evt_236_02",
+      "target_event_id": "evt_236_03",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_236_03",
+      "source_event_id": "evt_236_03",
+      "target_event_id": "evt_236_06",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_236_04",
+      "source_event_id": "evt_236_04",
+      "target_event_id": "evt_236_06",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_236_05",
+      "source_event_id": "evt_236_05",
+      "target_event_id": "evt_236_06",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/236.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/236.json",
+      "event_gold": "gold_annotation/tangshi_300/236.json"
+    },
+    "original_sample_id": "236",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

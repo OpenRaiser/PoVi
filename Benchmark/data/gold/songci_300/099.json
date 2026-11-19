@@ -1,0 +1,944 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_099",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《兰陵王》为北宋词人周邦彦所作，属长调词，词牌为兰陵王，常以“柳”为副题。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：兰陵王 作者：周邦彦 朝代：宋 体裁：词 词牌：兰陵王",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "周邦彦（1056—1121），字美成，号清真居士，钱塘（今浙江杭州）人，北宋著名词人。代表作《兰陵王·柳》",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确其为北宋婉约派长调代表作，作者精通音律且长于铺叙。"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代作品或李白、苏轼等人所作",
+        "词牌为《水调歌头》或《念奴娇》"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme",
+      "claim": "词作核心为抒发作者离开京华（汴京）时的羁旅离愁与对旧日情人的眷恋，并非单纯咏物或“客中送客”。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词的题目是“柳”，内容却不是咏柳，而是伤别。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "其实《兰陵王·柳》这首词是周邦彦写自己离开京华时的心情。此时他已倦游京华，却还留恋着那里的情人，回想和她来往的旧事，恋恋不舍地乘船离去。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "旅居京城使我厌倦，可有谁知道我心中的隐痛？",
+          "locator": "译文二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“京华倦客”为作者自指，表达久客思归与离别不舍的矛盾心理。",
+        "李师师送别传说虽被辨明为妄，但侧面印证宋代读者将其理解为离京之作。"
+      ],
+      "forbidden_assertions": [
+        "纯为送别友人而作的“客中送客”词",
+        "全篇主旨仅为描写柳树形态而无情感寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_03_willow_symbol",
+      "claim": "词中“柳阴”“柳丝”“柔条”等意象借古人折柳送别习俗，层层渲染离愁别绪与聚散频繁。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "古人有折柳送别之习。柔条，柳枝。过千尺，极言折柳之多。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "古代有折柳的习俗，所以诗词里常用柳来渲染别情。它一上来就写柳阴、写柳丝、写柳絮、写柳条，先将离愁别绪借着渲染了一番。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "柳的形态（直、碧、飘绵）与离别场景交织，暗示时光流逝与别恨绵长。",
+        "“应折柔条过千尺”以夸张手法写送别之频，暗含人世聚散无常之叹。"
+      ],
+      "forbidden_assertions": [
+        "柳仅作为自然景物客观描写，无送别文化寓意",
+        "“过千尺”为实指物理长度而非虚指折柳数量"
+      ]
+    },
+    {
+      "claim_id": "claim_04_structure_time",
+      "claim": "全词分三片，时间由正午启程（柳阴直）渐至傍晚（斜阳冉冉），空间由隋堤长亭移至江船别浦，情感随景推移层层递进。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "从词开头的“柳阴直”看来，启程在中午，而这时已到傍晚。“渐”字也表明已经过了一段时间，不是刚刚分别时的情形了。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "上片借隋堤柳烘托了离别的气氛，中片便抒写自己的别情。中片写乍别之际，下片写渐远以后。",
+          "locator": "译文二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“渐”字为时间与空间转换的枢纽，体现周词结构严谨、长于铺叙的特点。",
+        "三片情感由景起兴、至别时追忆、再到渐远孤寂，呈波浪式推进。"
+      ],
+      "forbidden_assertions": [
+        "三片内容跳跃无序，缺乏内在逻辑",
+        "全词时间线始终停留在同一时刻或地点"
+      ]
+    },
+    {
+      "claim_id": "claim_05_hanshi",
+      "claim": "“梨花榆火催寒食”点明饯别时节在寒食清明前后，“催”字暗含岁月匆匆、别期已至的紧迫感。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "饯别时正值梨花盛开的寒食时节。唐宋时期朝廷在清明日取榆柳之火以赐百官，故有“榆火”之说。寒食：清明前一天为寒食。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“催寒食”的“催”字有岁月匆匆之感。岁月匆匆，别期已至了。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "节令物候与离别情绪相互触发，强化“闲寻旧踪迹”时的心理落差。",
+        "“榆火”为唐宋特定礼制，不可泛解为普通炊火。"
+      ],
+      "forbidden_assertions": [
+        "寒食节与离别时间毫无关联",
+        "“催”字仅表示节气自然更替，无主观情感色彩"
+      ]
+    },
+    {
+      "claim_id": "claim_06_liushishi_legend",
+      "claim": "宋代张端义《贵耳集》记载周邦彦因与名妓李师师相好得罪宋徽宗，被押出都门，李师师置酒送别时周邦彦写下此词。但此说在《清真先生遗事》中已被辨明为妄传。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "宋张端义《贵耳集》说和名伎李师师相好，得罪了宋徽宗，被押出都门。李师师置酒送别时，周邦彦写了这首词。在《清真先生遗事》中已辨明其妄。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "虽然李师师送别一说为虚构，但该传说反映了宋代人普遍将此词理解为周邦彦离开京华时的作品。"
+      ],
+      "forbidden_assertions": [
+        "此词确凿是为李师师置酒送别而作",
+        "《贵耳集》的记载是毫无争议的历史事实"
+      ]
+    },
+    {
+      "claim_id": "claim_07_suidi_meaning",
+      "claim": "“隋堤”指汴京附近汴河之堤，为隋炀帝时所建，是北宋来往京城的必经之路。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "隋堤：汴京附近汴河之堤，隋炀帝时所建，故称。是北宋来往京城的必经之路。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "隋堤不仅是地理意象，更是北宋京城送别与行旅的重要文化地标。"
+      ],
+      "forbidden_assertions": [
+        "隋堤是杭州西湖的堤岸",
+        "隋堤与北宋京城交通毫无关联"
+      ]
+    },
+    {
+      "claim_id": "claim_08_zhouji_view",
+      "claim": "清代周济《宋四家词选》认为这首词是“客中送客”，并认为“一愁字代行者设想”；而现代赏析多认为这是作者写自己离开京华时的亲身所见所感。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "周济《宋四家词选》曰：“一愁字代行者设想。”他认定作者是送行的人，所以只好作这样曲折的解释。其实这四句很有实感，应当是作者自己从船上回望岸边的所见所感。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "自从清代周济《宋四家词选》说这首词是“客中送客”以来，注家多采其说，认为是一首送别词。其实《兰陵王·柳》这首词是周邦彦写自己离开京华时的心情。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“客中送客”说与“自伤离京”说反映了对词中抒情主体身份的不同理解。"
+      ],
+      "forbidden_assertions": [
+        "周济的“客中送客”说是唯一公认的正确解释",
+        "词中“愁”字只能解释为替送行者设想"
+      ]
+    },
+    {
+      "claim_id": "claim_09_xun_meaning",
+      "claim": "词中“闲寻旧踪迹”的“寻”字并非指在堤上寻找，而是寻思、追忆、回想的意思；“踪迹”指往事。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "那“寻”字，并不是在隋堤上走来走去地寻找。“踪迹”，也不是自己到过的地方。“寻”是寻思、追忆、回想的意思。“踪迹”指往事而言。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“闲寻”二字表现了船开之后，周围安静下来，词人静下心来回忆京华往事的心理状态。"
+      ],
+      "forbidden_assertions": [
+        "“寻”字是实指在隋堤上步行寻找遗失的物品",
+        "“踪迹”仅指作者曾经物理到达过的具体地理位置"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋词人周邦彦的《兰陵王·柳》",
+        "宋代长调词代表作之一"
+      ],
+      "forbidden_claims": [
+        "唐代诗歌或李白作品",
+        "词牌误标为《水调歌头》"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_boundary",
+      "category": "interpretive_boundary",
+      "description": "辨析词作主旨为“自伤离京”而非“客中送客”或单纯咏物，明确“京华倦客”的自指属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "作者借柳写自身离京之愁与对旧情的眷恋",
+        "非送别他人，而是自述乘船离去时的回望与追忆"
+      ],
+      "forbidden_claims": [
+        "全篇为送别友人所作",
+        "李师师送别为确凿史实且为创作直接动因"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme",
+        "claim_08_zhouji_view"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握“折柳”“榆火”“寒食”“京华倦客”“隋堤”等核心词汇的文化内涵与字面释义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "折柳代指送别，榆火指清明赐火礼制",
+        "京华倦客指久居京城心生厌倦的游子，隋堤指汴京附近汴河之堤"
+      ],
+      "forbidden_claims": [
+        "柔条指代其他植物枝条",
+        "榆火泛指日常取暖之火"
+      ],
+      "source_claim_ids": [
+        "claim_03_willow_symbol",
+        "claim_05_hanshi",
+        "claim_07_suidi_meaning"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "理清全词三片结构，把握时间（正午至傍晚）与空间（隋堤至别浦）的推移脉络及“渐”字的枢纽作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片写景起兴，中片追忆乍别，下片写渐远孤寂",
+        "时间随“柳阴直”至“斜阳冉冉”自然流转"
+      ],
+      "forbidden_claims": [
+        "三片内容割裂无逻辑关联",
+        "全词时间线始终停留在饯别宴席"
+      ],
+      "source_claim_ids": [
+        "claim_04_structure_time"
+      ],
+      "line_ids": [
+        "l01",
+        "l06",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_05_literal",
+      "category": "literal_meaning",
+      "description": "准确翻译“梨花榆火催寒食”“愁一箭风快，半篙波暖”等关键句的字面意思与语境情感。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "梨花盛开、榆柳取火，寒食节临近催促着离别",
+        "船行如箭、竹篙入暖波，顺风反惹离愁"
+      ],
+      "forbidden_claims": [
+        "一箭风快指射箭比赛",
+        "半篙波暖指天气炎热"
+      ],
+      "source_claim_ids": [
+        "claim_05_hanshi",
+        "claim_04_structure_time"
+      ],
+      "line_ids": [
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_06_summary",
+      "category": "summary",
+      "description": "概括全词以柳起兴、借景抒情、时空交错、层层递进的艺术特色与羁旅伤别主旨。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以柳为线索，铺叙离京途中的所见所忆，情景交融，结构缜密",
+        "周邦彦长调铺叙典范，融节令、典故、个人情思于一炉"
+      ],
+      "forbidden_claims": [
+        "全词风格豪放旷达",
+        "主旨单一且缺乏层次变化"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_theme",
+        "claim_04_structure_time"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解关于词作背景的争议，包括“客中送客”说与“自伤离京”说，以及李师师送别传说的真伪辨析。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "清代周济主张此词为客中送客，现代多认为写词人自己离京",
+        "李师师送别说虽广为流传，但已被考证为虚妄"
+      ],
+      "forbidden_claims": [
+        "李师师送别是无可争议的历史事实",
+        "历代学者对该词的创作背景和抒情主体没有任何分歧"
+      ],
+      "source_claim_ids": [
+        "claim_06_liushishi_legend",
+        "claim_08_zhouji_view"
+      ],
+      "line_ids": [
+        "l03",
+        "l06"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_willow_parting",
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04"
+      ],
+      "source_domain": [
+        "柳阴、柳丝、柳絮、柔条"
+      ],
+      "target_domain": [
+        "离愁别绪、频繁送别、情意绵长"
+      ],
+      "bridges": [
+        "古代折柳送别习俗，“柳”谐音“留”，柳枝柔长象征别恨不绝；“过千尺”以折柳之多映射人世聚散之频。"
+      ],
+      "context_claim_ids": [
+        "claim_03_willow_symbol",
+        "claim_02_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "柳色亦象征春光易逝，与“催寒食”呼应，暗含岁月流转、欢期难再的无奈。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_arrow_wind",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "一箭风快、半篙波暖"
+      ],
+      "target_domain": [
+        "舟行迅疾、空间拉远、离愁加剧"
+      ],
+      "bridges": [
+        "以箭喻船速，以暖波衬春暮；物理距离的迅速扩大反衬心理依恋的加深，顺风本喜却转“愁”，凸显留恋之深。"
+      ],
+      "context_claim_ids": [
+        "claim_04_structure_time",
+        "claim_02_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "“愁”字可视为反衬手法，以客观顺境写主观逆情，强化行者回望时的怅惘。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_dream_tears",
+      "line_ids": [
+        "l09"
+      ],
+      "source_domain": [
+        "似梦里、泪暗滴"
+      ],
+      "target_domain": [
+        "往事虚幻、孤寂无诉、深沉哀痛"
+      ],
+      "bridges": [
+        "将真实过往（月榭携手、露桥闻笛）比作梦境，凸显现实离别的残酷；“暗滴”表明情感内敛，无人可诉，只能独自吞咽。"
+      ],
+      "context_claim_ids": [
+        "claim_02_theme",
+        "claim_04_structure_time"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "梦境亦暗含对重逢的渺茫期盼，泪水中交织着无奈、释然与对旧情的珍重。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰呈现词牌、题名、作者、朝代及完整词文，标点与分行需符合原词格律。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现，配以宋代文人书房或汴京古卷背景",
+        "旁白诵读时同步显示字幕，重点字词可微光提示"
+      ],
+      "forbidden_realizations": [
+        "漏掉词牌或副题“柳”",
+        "擅自改动字词、句序或标点而不加说明"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_display",
+      "semantic_role": "opening_title_display"
+    },
+    {
+      "requirement_id": "vis_02_willow_dike",
+      "description": "展现正午隋堤柳色成行、柳丝拂水、柳絮飘飞的画面，配合“直”与“弄碧”的视觉透视。",
+      "acceptable_realizations": [
+        "长镜头沿堤平移，柳影连缀成直线，薄雾中柳枝轻摇显碧色",
+        "画面叠加古人折柳送别的淡影，暗示文化语境"
+      ],
+      "forbidden_realizations": [
+        "柳树形态杂乱无章，无“直”的透视感",
+        "季节呈现为秋冬枯柳，与“碧”“寒食”矛盾"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_willow_parting"
+      ],
+      "expected_phase": "noon_willow_dike_scene",
+      "semantic_role": "noon_willow_dike_scene"
+    },
+    {
+      "requirement_id": "vis_03_banquet_memory",
+      "description": "呈现寒食前夕饯别宴席场景：华灯、哀弦、梨花、榆火，营造“闲寻旧踪迹”的追忆氛围。",
+      "acceptable_realizations": [
+        "暖色调室内宴席，灯影摇曳，乐师抚弦，窗外梨花微绽",
+        "画面采用叠化或半透明处理，区分“当下寻思”与“往昔实景”"
+      ],
+      "forbidden_realizations": [
+        "宴席喧闹欢快，无“哀弦”离愁基调",
+        "将“榆火”表现为普通篝火或现代炊具"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "evening_banquet_memory",
+      "semantic_role": "evening_banquet_memory"
+    },
+    {
+      "requirement_id": "vis_04_boat_sunset",
+      "description": "表现舟行江上、回望渐远、斜阳西下、春水无边的空间推移与时间流逝。",
+      "acceptable_realizations": [
+        "船头视角，竹篙入水，江面波光粼粼，远处驿站与送行人渐小",
+        "天空由正午明亮渐转为暖橘色斜阳，水面倒影拉长，呼应“渐”字"
+      ],
+      "forbidden_realizations": [
+        "船只静止或逆流而上，违背“一箭风快”",
+        "天色突变黑夜，跳过“斜阳冉冉”的黄昏过渡"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_arrow_wind"
+      ],
+      "expected_phase": "boat_journey_sunset_transition",
+      "semantic_role": "boat_journey_sunset_transition"
+    },
+    {
+      "requirement_id": "vis_05_night_reflection",
+      "description": "收束于孤舟夜泊、月榭露桥的回忆闪回，最终落于“泪暗滴”的静默特写。",
+      "acceptable_realizations": [
+        "暗调水面，孤灯一盏，穿穿插月下水榭携手、桥头听笛的柔光闪回",
+        "结尾定格于词人侧影或低垂的眼眸，泪光微闪，画面渐隐"
+      ],
+      "forbidden_realizations": [
+        "多人围观或大声痛哭，违背“暗滴”的私密内敛",
+        "回忆场景过于明亮喧闹，破坏“似梦里”的虚幻感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_dream_tears"
+      ],
+      "expected_phase": "night_reflection_tears",
+      "semantic_role": "night_reflection_tears"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_099_01",
+      "description": "周邦彦久居京华（汴京），对仕宦生涯与京城生活产生倦怠之情，自感为“京华倦客”，萌生离开京城南下的念头。",
+      "audio_triggers": [
+        "京华倦客",
+        "久居京华",
+        "厌倦"
+      ],
+      "visual_evidence": [
+        "北宋都城汴京的繁华市井风貌",
+        "中年文官装扮的周邦彦面露疲惫与倦意"
+      ],
+      "sound_evidence": [
+        "繁华市井的喧闹声",
+        "沉重悠长的叹息声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_099_02",
+      "description": "周邦彦决定离京。宋代有传说认为他因名妓李师师得罪宋徽宗而被押出都门，此说不可确考。但通常认为，他在寒食节前夕确实经历了一场与情人或友人的饯别宴席。",
+      "audio_triggers": [
+        "得罪宋徽宗",
+        "李师师置酒送别",
+        "不可确考",
+        "寒食节",
+        "灯照离席"
+      ],
+      "visual_evidence": [
+        "夜晚灯火摇曳的宴席",
+        "周邦彦与佳人或友人举杯饮酒",
+        "乐妓在旁弹奏琴瑟",
+        "庭院外可见梨花盛开",
+        "禁止出现宋徽宗当面斥责的虚构场景"
+      ],
+      "sound_evidence": [
+        "哀怨凄婉的弦乐声",
+        "酒杯碰撞声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_099_03",
+      "description": "饯别之后，周邦彦乘船沿着种满柳树的汴河（隋堤）南下离京。顺风行船，距离渐远，词人依依不舍地频频回头，遥望留在天北的京城与送行之人。",
+      "audio_triggers": [
+        "隋堤上",
+        "一箭风快",
+        "半篙波暖",
+        "回头望去",
+        "天北"
+      ],
+      "visual_evidence": [
+        "正午时分，汴河（隋堤）两岸柳荫笔直，柳絮飞舞",
+        "周邦彦立于客船船头",
+        "船夫撑起竹篙没入水中",
+        "客船顺风疾驰",
+        "词人频频回头远望"
+      ],
+      "sound_evidence": [
+        "呼啸而过的风声",
+        "竹篙划动水波的哗哗声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_099_04",
+      "description": "傍晚时分，客船行至寂寥的渡口，夕阳西下。周邦彦望着无尽春色，回想起昔日月下水榭携手、桥头听笛的交往往事，暗自落泪，写下《兰陵王·柳》以此抒怀。",
+      "audio_triggers": [
+        "傍晚",
+        "津堠岑寂",
+        "回忆往事",
+        "泪暗滴",
+        "写下这首词"
+      ],
+      "visual_evidence": [
+        "傍晚落日余晖洒在空旷的水面和冷清的古渡哨所（津堠）",
+        "周邦彦独自在船舱或岸边沉思",
+        "眼中含泪，提笔书写",
+        "画面可带有昔日“月榭携手，露桥闻笛”的虚化回忆闪回"
+      ],
+      "sound_evidence": [
+        "傍晚的微风声",
+        "空旷寂寥的环境声",
+        "隐约悠扬的笛声（作为回忆的音效）"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "柳阴直，",
+      "pronunciation": "liǔ yīn zhí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "烟里丝丝弄碧。",
+      "pronunciation": "yān lǐ sī sī nòng bì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "隋堤上、",
+      "pronunciation": "suí dī shàng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曾见几番，",
+      "pronunciation": "céng jiàn jǐ fān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "拂水飘绵送行色。",
+      "pronunciation": "fú shuǐ piāo mián sòng xíng sè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "登临望故国，",
+      "pronunciation": "dēng lín wàng gù guó,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "谁识、",
+      "pronunciation": "shuí shí,",
+      "accepted_variants": [
+        "shéi shí,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "京华倦客。",
+      "pronunciation": "jīng huá juàn kè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "长亭路、",
+      "pronunciation": "cháng tíng lù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "年去岁来，",
+      "pronunciation": "nián qù suì lái,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "应折柔条过千尺。",
+      "pronunciation": "yīng zhé róu tiáo guò qiān chǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "闲寻旧踪迹，",
+      "pronunciation": "xián xún jiù zōng jì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "又酒趁哀弦，",
+      "pronunciation": "yòu jiǔ chèn āi xián,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "灯照离席，",
+      "pronunciation": "dēng zhào lí xí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "梨花榆火催寒食。",
+      "pronunciation": "lí huā yú huǒ cuī hán shí.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "愁一箭风快，",
+      "pronunciation": "chóu yī jiàn fēng kuài,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "半篙波暖，",
+      "pronunciation": "bàn gāo bō nuǎn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "回头迢递便数驿，",
+      "pronunciation": "huí tóu tiáo dì biàn shù yì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望人在天北。",
+      "pronunciation": "wàng rén zài tiān běi.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凄恻，",
+      "pronunciation": "qī cè,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "恨堆积。",
+      "pronunciation": "hèn duī jī.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渐别浦萦回，",
+      "pronunciation": "jiàn bié pǔ yíng huí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "津堠岑寂，",
+      "pronunciation": "jīn hòu cén jì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "斜阳冉冉春无极。",
+      "pronunciation": "xié yáng rǎn rǎn chūn wú jí.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念月榭携手，",
+      "pronunciation": "niàn yuè xiè xié shǒu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "露桥闻笛，",
+      "pronunciation": "lù qiáo wén dí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "沈思前事，",
+      "pronunciation": "chén sī qián shì,",
+      "accepted_variants": [
+        "shěn sī qián shì,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "似梦里、",
+      "pronunciation": "sì mèng lǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "泪暗滴。",
+      "pronunciation": "lèi àn dī.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "周邦彦",
+      "pronunciation": "zhōu bāng yàn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "兰陵王",
+      "pronunciation": "lán líng wáng",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "宋徽宗",
+      "pronunciation": "sòng huī zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "李师师",
+      "pronunciation": "lǐ shī shī",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "汴京",
+      "pronunciation": "biàn jīng",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "隋堤",
+      "pronunciation": "suí dī",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "寒食",
+      "pronunciation": "hán shí",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_099_01",
+      "source_event_id": "evt_099_01",
+      "target_event_id": "evt_099_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_099_02",
+      "source_event_id": "evt_099_02",
+      "target_event_id": "evt_099_03",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_099_03",
+      "source_event_id": "evt_099_03",
+      "target_event_id": "evt_099_04",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_099_04",
+      "source_event_id": "evt_099_01",
+      "target_event_id": "evt_099_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_099_05",
+      "source_event_id": "evt_099_02",
+      "target_event_id": "evt_099_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/099.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/099.json",
+      "event_gold": "gold_annotation/songci_300/099.json"
+    },
+    "original_sample_id": "099",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

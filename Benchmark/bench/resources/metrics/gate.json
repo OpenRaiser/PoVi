@@ -1,0 +1,113 @@
+{
+  "version": "0.6.0",
+  "domain": {
+    "id": "gate",
+    "name": "基础有效性 Gate",
+    "main": false
+  },
+  "families": [
+    {
+      "id": "G1",
+      "name": "必要产物存在性",
+      "default_weight": 1.0
+    },
+    {
+      "id": "G2",
+      "name": "产物可读取性",
+      "default_weight": 1.0
+    }
+  ],
+  "metrics": [
+    {
+      "id": "G1.1",
+      "family_id": "G1",
+      "name": "Track 必要产物存在性",
+      "method": "rule",
+      "scale": "pass_fail",
+      "direction": "higher",
+      "score_role": "gate",
+      "stage": "gate",
+      "formal_channel": "rule",
+      "prelabel_channel": "none",
+      "human_policy": "none",
+      "routes": [
+        "*"
+      ],
+      "rubric": "当前 Track 明确要求的产物是否均已声明且文件存在。",
+      "gate": true
+    },
+    {
+      "id": "G2.1",
+      "family_id": "G2",
+      "name": "文本产物可读取性",
+      "method": "rule",
+      "scale": "pass_fail",
+      "direction": "higher",
+      "score_role": "gate",
+      "stage": "gate",
+      "formal_channel": "rule",
+      "prelabel_channel": "none",
+      "human_policy": "none",
+      "routes": [
+        "text_planning/standard"
+      ],
+      "requires_artifacts_any": [
+        "planning_output",
+        "narration",
+        "storyboard",
+        "prompts",
+        "timeline",
+        "intermediate_outputs"
+      ],
+      "rubric": "必要文本产物能够以 UTF-8 读取且不为空。",
+      "gate": true
+    },
+    {
+      "id": "G2.2",
+      "family_id": "G2",
+      "name": "视频产物可读取性",
+      "method": "rule",
+      "scale": "pass_fail",
+      "direction": "higher",
+      "score_role": "gate",
+      "stage": "gate",
+      "formal_channel": "rule",
+      "prelabel_channel": "none",
+      "human_policy": "none",
+      "routes": [
+        "visual_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "requires_artifacts_any": [
+        "final_video"
+      ],
+      "rubric": "最终视频可以打开、解码并包含有效视频轨道。",
+      "gate": true
+    },
+    {
+      "id": "G2.3",
+      "family_id": "G2",
+      "name": "音频产物可读取性",
+      "method": "rule",
+      "scale": "pass_fail",
+      "direction": "higher",
+      "score_role": "gate",
+      "stage": "gate",
+      "formal_channel": "rule",
+      "prelabel_channel": "none",
+      "human_policy": "none",
+      "routes": [
+        "audio_generation/*",
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "requires_artifacts_any": [
+        "audio",
+        "final_video"
+      ],
+      "rubric": "最终音频文件或视频中的音频轨道可以打开和解码。",
+      "gate": true
+    }
+  ]
+}

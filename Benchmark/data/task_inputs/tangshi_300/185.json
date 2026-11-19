@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "076_tangshi_185_01261192a6fd",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "在狱咏蝉",
+    "author": "骆宾王",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "西陆蝉声唱，南冠客思深。\n(客思深 一作：客思侵)\n不堪玄鬓影，来对白头吟。\n(不堪 一作：那堪)\n露重飞难进，风多响易沉。\n无人信高洁，谁为表予心？",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "西陆蝉声唱，南冠客思深。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "(客思深 一作：客思侵)"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "不堪玄鬓影，来对白头吟。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "(不堪 一作：那堪)"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "露重飞难进，风多响易沉。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "无人信高洁，谁为表予心？"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "01261192a6fd4ebc9f2ea43d",
+    "global_index": 76
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "006_tangshi_260_207152603d9a",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "江雪",
+    "author": "柳宗元",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "text": "千山鸟飞绝，万径人踪灭。\n孤舟蓑笠翁，独钓寒江雪。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "千山鸟飞绝，万径人踪灭。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "孤舟蓑笠翁，独钓寒江雪。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "207152603d9a8d1d31ba603b",
+    "global_index": 6
+  }
+}

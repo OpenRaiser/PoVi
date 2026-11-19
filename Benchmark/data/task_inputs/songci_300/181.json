@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "050_songci_181_e1e65eca1e59",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "菩萨蛮",
+    "author": "辛弃疾",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "郁孤台下清江水，中间多少行人泪。\n西北是长安，可怜无数山。\n青山遮不住，毕竟江流去。\n江晚正愁余，山深闻鹧鸪。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "郁孤台下清江水，中间多少行人泪。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "西北是长安，可怜无数山。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "青山遮不住，毕竟江流去。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "江晚正愁余，山深闻鹧鸪。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "e1e65eca1e59bc88f2879844",
+    "global_index": 50
+  }
+}

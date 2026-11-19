@@ -1,0 +1,893 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_001",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本作品为宋代皇帝赵佶（宋徽宗）所作的词，词牌为《燕山亭》。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：燕山亭；作者：赵佶；朝代：宋；体裁：词；词牌：燕山亭",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "赵佶（1082—1135） 即宋徽宗，宋神宗之子...公元1100～1125年在位。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为帝王之作，且作者身份为北宋末代君主。",
+        "可结合其艺术全才背景，解释词中工笔描写的审美来源。"
+      ],
+      "forbidden_assertions": [
+        "该词为其他宋代词人所作。",
+        "体裁误判为诗或曲。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词作于1127年靖康之变后，作者与其子钦宗被金兵掳往北方五国城的途中，是其身世遭遇的悲惨写照。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此词是宋徽宗于1127年覆国后与其子钦宗被金兵掳往北方五国城时途中，途中见杏花而托物兴感而作，是作者身世遭遇的悲惨写照。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《燕山亭·北行见杏花》此词是宋徽宗赵佶于1127年覆国后与其子钦宗赵桓被金兵掳往北方五国城时途中...途中见杏花而托物兴感而作。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中“天遥地远”“故宫何处”等句具有明确的北行囚徒视角。",
+        "创作时间与北宋灭亡、徽宗被俘的历史节点高度吻合。"
+      ],
+      "forbidden_assertions": [
+        "该词作于作者登基初期或太平盛世。",
+        "创作背景与金兵南下、被俘北行无关。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_upper_imagery",
+      "claim": "词的上片（l01-l05）以工笔手法细致描绘杏花的形态、色泽与香气，将其比作冰绡、胭脂与盛装美人。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "词之上片先以细腻的笔触工笔、描绘杏花，外形而及神态，勾勒出一幅绚丽的杏花图。杏花的瓣儿好似一叠叠冰清玉洁的缣绸...又逐步匀称地晕染上浅淡的胭脂。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "冰绡：洁白的丝绸，比喻花瓣。（1） 胭脂：原文“燕脂”，通假字。（2） 靓妆：美丽的妆饰。（3） 蕊珠宫女：指仙女。蕊珠，道家指天上仙宫。（4）",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "上片侧重客观物象的精细刻画，为下片抒情蓄势。",
+        "“羞杀蕊珠宫女”运用夸张与衬托手法突出杏花之美。"
+      ],
+      "forbidden_assertions": [
+        "上片描写的是牡丹或梅花。",
+        "上片已直接抒发亡国之痛，无咏物成分。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lower_emotion",
+      "claim": "词的下片（l06-l11）由咏物转入直抒胸臆，表达被掳北行的重重离恨、对故国的深切思念，以及连梦境亦无法归乡的绝望。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_translation_3",
+          "text": "我被拘押着向北行进，凭谁来寄托这重重离恨？...天遥地远，已经走过了万水千山，又怎么知道故宫此时的情形？...可又不知是什么原因，最近几天，竟连做梦也无法做成。",
+          "locator": "译文三",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "词通过写杏花的凋零，借以哀伤自己悲苦无告、横遭摧残的命运。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“者双燕”反用传统燕传书信的意象，强调音信断绝。",
+        "“和梦也、新来不做”将愁苦推向极致，体现精神防线的彻底崩溃。"
+      ],
+      "forbidden_assertions": [
+        "下片表达的是对春天逝去的单纯惋惜。",
+        "作者对归乡仍抱有现实希望。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor_link",
+      "claim": "全词以杏花“易得凋零”与“无情风雨”暗喻作者自身从帝王尊位跌落至阶下囚的悲惨命运，属典型的托物言志。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "途中见杏花而托物兴感而作，是作者身世遭遇的悲惨写照。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "途中见杏花而托物兴感而作，是作者身世遭遇的悲惨写照。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "杏花的盛极而衰与徽宗的国破家亡形成同构映射。",
+        "“风雨”既可指自然气候，也可指金兵南下的政治风暴。"
+      ],
+      "forbidden_assertions": [
+        "杏花仅为自然景物，与作者命运毫无关联。",
+        "词中未使用任何象征或隐喻手法。"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_basic",
+      "claim": "词中“冰绡”、“燕脂”、“靓妆”、“蕊珠宫女”等词语，生动描绘了杏花的形色与神态。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "冰绡：洁白的丝绸，比喻花瓣。（1） 胭脂：原文“燕脂”，通假字。（2） 靓妆：美丽的妆饰。（3） 蕊珠宫女：指仙女。蕊珠，道家指天上仙宫。（4）",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "①裁剪冰绡（xiāo），轻叠数重，淡着燕脂匀注：写杏花的形色。冰绡，白色丝绸，用来比喻花瓣。燕脂，同胭脂。②靓妆：用脂粉打扮。③蕊珠宫女：仙女。蕊珠宫是道教传说中的仙宫。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“冰绡”和“燕脂”分别从质感、色彩上对杏花进行拟物化比喻。",
+        "“蕊珠宫女”的比喻为杏花增添了超尘脱俗的仙子气质。"
+      ],
+      "forbidden_assertions": [
+        "“冰绡”在词中指真正的丝绸衣服。",
+        "“蕊珠宫女”指宋代宫廷中的普通宫女。"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_grammatical",
+      "claim": "词中关键虚词与通假字如“者”（同“这”）、“无据”（不知何故/没有凭据）、“和”（连）对准确理解下片情感递进至关重要。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "者：同“这”。（6） 无据：不知何故。（7） 和：连。（8）",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "④凭寄：寄托。⑥和梦也新来不做：和，连。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“无据”解释了梦境中断的突兀感与无奈感。",
+        "“和”字在古汉语中常表递进或连带，此处强调连最后的精神寄托也丧失。"
+      ],
+      "forbidden_assertions": [
+        "“者”指代作者本人。",
+        "“无据”意为没有证据或事实依据。"
+      ]
+    },
+    {
+      "claim_id": "claim_08_alternative_readings",
+      "claim": "本词在不同版本中存在异文，如“轻叠数重”在版本二中作“打叠数重”，“淡著燕脂”作“冷淡燕脂”，“问院落凄凉”作“闲院落凄凉”，“新来不做”作“有时不做”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_version_1",
+          "text": "裁翦冰绡，轻叠数重，淡著燕脂匀注。...问院落凄凉，几番春暮？...和梦也、新来不做。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_version_2",
+          "text": "裁翦冰绡，打叠数重，冷淡燕脂匀注。...闲院落凄凉，几番春暮。...和梦也、有时不做。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_version_3",
+          "text": "裁剪冰绡，轻叠数重，淡著燕脂匀注。...闲院落凄凉，几番春暮。...和梦也新来不做。",
+          "locator": "原文版本三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“淡著”与“冷淡”在色彩饱和度与情感色彩上存在细微差别。",
+        "“新来不做”与“有时不做”在表达愁苦的持续性与彻底性上有所不同。"
+      ],
+      "forbidden_assertions": [
+        "所有版本在字句上完全一致，没有任何异文。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代和词体身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "宋徽宗赵佶的词作《燕山亭》",
+        "北宋末代皇帝所作的《燕山亭》"
+      ],
+      "forbidden_claims": [
+        "该作品为诗或曲",
+        "作者为其他宋代文人"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "阐明1127年靖康之变、徽宗被俘北行五国城的历史背景与创作契机。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "作于北宋灭亡、作者被金兵掳往北方的囚徒途中",
+        "靖康之难后，徽宗北行见杏花有感而发"
+      ],
+      "forbidden_claims": [
+        "创作于太平盛世或作者登基初期",
+        "与金兵南下及被俘经历无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_basic",
+      "category": "lexical",
+      "description": "准确解释“冰绡”、“燕脂”、“靓妆”、“蕊珠宫女”等描绘杏花的名物词汇。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“冰绡”比喻洁白的花瓣",
+        "“燕脂”即胭脂，指花瓣的淡红色彩",
+        "“蕊珠宫女”指道教传说中的仙女，用以衬托杏花之美"
+      ],
+      "forbidden_claims": [
+        "“冰绡”指真正的丝绸衣服",
+        "“蕊珠宫女”指凡俗宫女"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_basic"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical_grammatical",
+      "category": "lexical",
+      "description": "准确解释“者”“无据”“和”等关键字词的古代汉语含义及语法功能。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“者”通“这”，指代眼前的双燕",
+        "“无据”表示不知何故、毫无凭依",
+        "“和”作连词，意为“连”"
+      ],
+      "forbidden_claims": [
+        "“者”为代词指代作者",
+        "“无据”意为缺乏证据",
+        "“和”表示并列关系"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_grammatical"
+      ],
+      "line_ids": [
+        "l06",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "把握全词上片工笔咏物、下片直抒胸臆的章法结构及情感转折。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片绘杏花之盛美，下片抒北行之愁苦",
+        "由物及人，由景入情，层层递进至绝望"
+      ],
+      "forbidden_claims": [
+        "全词始终停留在客观写景层面",
+        "上下片情感基调一致，无转折"
+      ],
+      "source_claim_ids": [
+        "claim_03_upper_imagery",
+        "claim_04_lower_emotion"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "识别并解析“杏花”“风雨”“双燕”“故宫”等核心意象的喻体特征。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "杏花喻指作者昔日繁华与今日沦落",
+        "风雨象征金兵铁骑与无情命运",
+        "双燕反衬音信断绝与沟通无望"
+      ],
+      "forbidden_claims": [
+        "意象仅为自然写实，无象征意义",
+        "杏花象征坚贞不屈的品格"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor_link"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解本词在不同版本中的异文情况，如“轻叠/打叠”、“淡著/冷淡”、“问/闲”等，以辅助多角度文本解读。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "不同版本存在“轻叠”与“打叠”、“淡著”与“冷淡”等字词差异",
+        "“新来不做”在版本二中写作“有时不做”"
+      ],
+      "forbidden_claims": [
+        "该词各版本完全一致，无任何异文"
+      ],
+      "source_claim_ids": [
+        "claim_08_alternative_readings"
+      ],
+      "line_ids": [
+        "l01",
+        "l05",
+        "l11"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_apricot_fate",
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03"
+      ],
+      "source_domain": [
+        "冰绡",
+        "燕脂",
+        "靓妆",
+        "无情风雨"
+      ],
+      "target_domain": [
+        "杏花盛放时的洁白与娇艳",
+        "作者昔日帝王生活的繁华与艺术造诣",
+        "金兵南下与国破家亡的残酷摧残"
+      ],
+      "bridges": [
+        "注释与赏析明确指出以杏花形色喻美人，以风雨凋零喻命运摧残",
+        "“易得凋零”与“更多少、无情风雨”形成强烈反差，暗合徽宗从极盛到极衰的人生轨迹"
+      ],
+      "context_claim_ids": [
+        "claim_03_upper_imagery",
+        "claim_05_metaphor_link"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为传统咏物词中对春光易逝的普遍慨叹，未必全指帝王身世",
+        "“风雨”亦可理解为自然界的暮春气候，仅烘托伤春氛围"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_swallow_messenger",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "双燕"
+      ],
+      "target_domain": [
+        "传递离恨的信使",
+        "无法沟通的隔阂与孤绝"
+      ],
+      "bridges": [
+        "燕子本为候鸟，古典诗词中常象征春信或传书，此处反用其意",
+        "“何曾会人言语”直接点出物我殊途，凸显北行途中音信断绝、无人可诉的囚徒困境"
+      ],
+      "context_claim_ids": [
+        "claim_04_lower_emotion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "燕子仅为途中实景，以双飞反衬作者形单影只的凄凉",
+        "“双燕”可能暗指随行的皇室成员或旧臣，但无法理解其内心苦痛"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_palace_dream",
+      "line_ids": [
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11"
+      ],
+      "source_domain": [
+        "故宫",
+        "梦"
+      ],
+      "target_domain": [
+        "故国汴京与旧日皇权",
+        "精神慰藉与心理归宿"
+      ],
+      "bridges": [
+        "空间上的“天遥地远，万水千山”阻隔与心理上的“除梦里、有时曾去”形成对照",
+        "“无据。和梦也、新来不做”将现实绝望延伸至潜意识层面，连梦境亦被剥夺，喻示精神世界的彻底崩塌"
+      ],
+      "context_claim_ids": [
+        "claim_04_lower_emotion",
+        "claim_05_metaphor_link"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "“故宫”可泛指旧日居所或故土，非特指皇宫",
+        "“梦”仅为生理睡眠现象的文学化表达，未必具有深层心理象征"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_author",
+      "description": "清晰展示词牌《燕山亭》、作者赵佶及宋代背景，配合瘦金体书法元素呈现。",
+      "acceptable_realizations": [
+        "片头以宋徽宗传世瘦金体题写词牌与作者名",
+        "背景配以北宋宫廷画卷或汴京线稿淡入"
+      ],
+      "forbidden_realizations": [
+        "使用现代简体字或错误朝代标识",
+        "遗漏作者帝王身份提示"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_author_intro",
+      "semantic_role": "title_and_author_intro"
+    },
+    {
+      "requirement_id": "vis_02_apricot_portrayal",
+      "description": "以工笔动画或微距摄影呈现杏花如冰绡叠瓣、淡施胭脂的形态，并随“无情风雨”逐渐凋零。",
+      "acceptable_realizations": [
+        "花瓣逐层展开，色彩由素白渐染浅红",
+        "风雨特效介入后花瓣飘落，画面色调转冷"
+      ],
+      "forbidden_realizations": [
+        "使用写实杏花照片直接堆砌，缺乏艺术化处理",
+        "风雨场景过于狂暴，破坏词中“淡著”“轻叠”的细腻基调"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_apricot_fate"
+      ],
+      "expected_phase": "apricot_blossom_portrayal",
+      "semantic_role": "apricot_blossom_portrayal"
+    },
+    {
+      "requirement_id": "vis_03_exile_journey",
+      "description": "展现北行途中万水千山的苍茫地貌，双燕掠过却无法停留，强化空间阻隔感。",
+      "acceptable_realizations": [
+        "长镜头推移展现荒原、关山与孤道",
+        "双燕剪影快速飞越画面，与静止的囚车或行旅形成动静对比"
+      ],
+      "forbidden_realizations": [
+        "画面呈现江南水乡或繁华市井",
+        "燕子拟人化开口说话或与人互动"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_swallow_messenger"
+      ],
+      "expected_phase": "exile_journey_and_longing",
+      "semantic_role": "exile_journey_and_longing"
+    },
+    {
+      "requirement_id": "vis_04_dream_despair",
+      "description": "通过虚实交替的视觉手法表现“故宫”幻象与梦境破灭，最终归于空寂。",
+      "acceptable_realizations": [
+        "汴京宫阙在雾气中若隐若现，随“无据”二字逐渐碎裂消散",
+        "画面由暖黄梦境色调骤转为冷灰现实，最后定格于空镜"
+      ],
+      "forbidden_realizations": [
+        "梦境场景过于清晰完整，削弱“新来不做”的断裂感",
+        "使用现代城市建筑替代宋代宫廷意象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_palace_dream"
+      ],
+      "expected_phase": "dream_despair_conclusion",
+      "semantic_role": "dream_despair_conclusion"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_001_01",
+      "description": "赵佶（宋徽宗）在位期间任用蔡京等人，穷奢极欲，导致国政日堕，多地爆发农民起义。",
+      "audio_triggers": [
+        "宋徽宗",
+        "在位",
+        "国政日堕",
+        "穷奢极欲"
+      ],
+      "visual_evidence": [
+        "北宋都城的繁华市井",
+        "身穿宋代帝王服饰的赵佶在宫廷苑囿中游玩或挥毫",
+        "画面边缘隐约展现民间起义的动荡"
+      ],
+      "sound_evidence": [
+        "宫廷中的管弦宴乐声",
+        "隐约的叹息与嘈杂声"
+      ],
+      "importance": 1
+    },
+    {
+      "event_id": "evt_001_02",
+      "description": "靖康二年（1127年），金兵南下攻破汴京，北宋覆亡，赵佶与其子钦宗被金兵俘虏，失去帝王身份。",
+      "audio_triggers": [
+        "靖康二年",
+        "金兵南下",
+        "覆国",
+        "被俘"
+      ],
+      "visual_evidence": [
+        "金兵攻破汴京城的战火硝烟",
+        "赵佶被迫脱下皇袍，神情凄惶、颓丧",
+        "金兵持兵器看押宋朝皇室"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "兵器交击与城破的轰塌声",
+        "人群凄厉的哭喊声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_001_03",
+      "description": "赵佶被作为阶下囚押解前往北方五国城，漫长北行途中饱受折磨，境遇凄凉。",
+      "audio_triggers": [
+        "掳往北方",
+        "五国城",
+        "途中",
+        "身世遭遇"
+      ],
+      "visual_evidence": [
+        "荒凉漫长的北行驿道",
+        "衣衫不整、面容憔悴的赵佶在风雪或泥泞中跋涉",
+        "金兵的粗暴驱赶",
+        "禁止出现任何繁华、闲适的游赏画面"
+      ],
+      "sound_evidence": [
+        "沉重疲惫的脚步声",
+        "凛冽的风声",
+        "金兵的呵斥声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_001_04",
+      "description": "北行途中，赵佶看到风雨中飘零的杏花，触景生情，借花感叹自身沦落与故国之思，写下《燕山亭》。",
+      "audio_triggers": [
+        "途中见杏花",
+        "托物兴感",
+        "写照",
+        "写下"
+      ],
+      "visual_evidence": [
+        "路边盛开却被无情风雨打落的白透杏花",
+        "赵佶目光悲凉地凝视落花",
+        "破败凄凉的院落中双燕飞走",
+        "夜间辗转反侧无法入眠的愁苦状态"
+      ],
+      "sound_evidence": [
+        "凄冷的风雨声",
+        "鸟啼声",
+        "凄凉沉重的叹息声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "裁翦冰绡，",
+      "pronunciation": "cái jiǎn bīng xiāo ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "轻叠数重，",
+      "pronunciation": "qīng dié shù chóng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "淡著燕脂匀注。",
+      "pronunciation": "dàn zhuó yān zhī yún zhù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "新样靓妆，",
+      "pronunciation": "xīn yàng jìng zhuāng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "艳溢香融，",
+      "pronunciation": "yàn yì xiāng róng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "羞杀蕊珠宫女。",
+      "pronunciation": "xiū shā ruǐ zhū gōng nǚ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "易得凋零，",
+      "pronunciation": "yì dé diāo líng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更多少、",
+      "pronunciation": "gèng duō shǎo 、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无情风雨。",
+      "pronunciation": "wú qíng fēng yǔ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "愁苦。",
+      "pronunciation": "chóu kǔ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "问院落凄凉，",
+      "pronunciation": "wèn yuàn luò qī liáng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "几番春暮？",
+      "pronunciation": "jǐ fān chūn mù ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凭寄离恨重重，",
+      "pronunciation": "píng jì lí hèn chóng chóng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "者双燕何曾，",
+      "pronunciation": "zhě shuāng yàn hé céng ，",
+      "accepted_variants": [
+        "zhè shuāng yàn hé céng ，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "会人言语？",
+      "pronunciation": "huì rén yán yǔ ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天遥地远，",
+      "pronunciation": "tiān yáo dì yuǎn ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "万水千山，",
+      "pronunciation": "wàn shuǐ qiān shān ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "知他故宫何处？",
+      "pronunciation": "zhī tā gù gōng hé chù ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "怎不思量？",
+      "pronunciation": "zěn bù sī liang ？",
+      "accepted_variants": [
+        "zěn bù sī liáng ？"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "除梦里、",
+      "pronunciation": "chú mèng lǐ 、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "有时曾去。",
+      "pronunciation": "yǒu shí céng qù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无据。",
+      "pronunciation": "wú jù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "和梦也、",
+      "pronunciation": "hé mèng yě 、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "新来不做。",
+      "pronunciation": "xīn lái bù zuò 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "燕山亭",
+      "pronunciation": "yàn shān tíng",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "赵佶",
+      "pronunciation": "zhào jí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "五国城",
+      "pronunciation": "wǔ guó chéng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "靖康",
+      "pronunciation": "jìng kāng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "燕脂",
+      "pronunciation": "yān zhī",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "靓妆",
+      "pronunciation": "jìng zhuāng",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "蕊珠宫",
+      "pronunciation": "ruǐ zhū gōng",
+      "category": "allusion",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_001_01",
+      "source_event_id": "evt_001_01",
+      "target_event_id": "evt_001_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_001_02",
+      "source_event_id": "evt_001_02",
+      "target_event_id": "evt_001_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_001_03",
+      "source_event_id": "evt_001_03",
+      "target_event_id": "evt_001_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_001_04",
+      "source_event_id": "evt_001_04",
+      "target_event_id": "evt_001_03",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/001.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/001.json",
+      "event_gold": "gold_annotation/songci_300/001.json"
+    },
+    "original_sample_id": "001",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

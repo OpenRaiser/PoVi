@@ -1,0 +1,1365 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://storytelling.local/schema/poetic_video_director_graph.schema.json",
+  "title": "Poetic Video Director Graph",
+  "description": "A benchmark and execution intermediate representation that maps classical Chinese poetry interpretation to teachable, shot-level video direction.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "doc_id",
+    "poem",
+    "task_profile",
+    "evidence_sources",
+    "causal_context",
+    "poem_card",
+    "interpretation",
+    "visual_bible",
+    "evaluation_hooks"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "0.5"
+    },
+    "doc_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9_.-]*$",
+      "description": "Stable id for this poem-video planning instance."
+    },
+    "poem": {
+      "$ref": "#/$defs/poem"
+    },
+    "task_profile": {
+      "$ref": "#/$defs/task_profile"
+    },
+    "evidence_sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/evidence_source"
+      }
+    },
+    "causal_context": {
+      "$ref": "#/$defs/causal_context"
+    },
+    "pre_poem_story": {
+      "$ref": "#/$defs/pre_poem_story"
+    },
+    "poem_card": {
+      "$ref": "#/$defs/poem_card"
+    },
+    "interpretation": {
+      "$ref": "#/$defs/interpretation"
+    },
+    "teaching_script": {
+      "$ref": "#/$defs/teaching_script"
+    },
+    "visual_bible": {
+      "$ref": "#/$defs/visual_bible"
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/shot"
+      }
+    },
+    "evaluation_hooks": {
+      "$ref": "#/$defs/evaluation_hooks"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "description": "Optional provenance such as annotator, model name, decoding params, or source links."
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "non_empty_string": {
+      "type": "string",
+      "minLength": 1
+    },
+    "poem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "author",
+        "dynasty",
+        "form",
+        "text",
+        "lines"
+      ],
+      "properties": {
+        "title": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "author": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "dynasty": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "form": {
+          "type": "string",
+          "enum": [
+            "shi",
+            "ci",
+            "qu",
+            "fu",
+            "other"
+          ]
+        },
+        "text": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/poem_line"
+          }
+        },
+        "source": {
+          "type": "string",
+          "description": "Optional source or edition."
+        }
+      }
+    },
+    "poem_line": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "line_id",
+        "order",
+        "text"
+      ],
+      "properties": {
+        "line_id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "poem_card": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "insert_after_shot_id": {
+          "$ref": "#/$defs/id",
+          "description": "Optional explicit insertion point. Otherwise the final bridge_to_poem shot is used."
+        },
+        "knowledge_background": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Supplied creation background appended after the title/author lead-in."
+        },
+        "appreciation": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Legacy source material retained for provenance only; it is not used as narration."
+        },
+        "appreciation_source": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Auditable local record path or source URL for appreciation."
+        },
+        "minimum_seconds": {
+          "type": "number",
+          "minimum": 1,
+          "default": 8
+        }
+      }
+    },
+    "task_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "video_type",
+        "target_audience",
+        "target_duration_seconds",
+        "narration_style",
+        "visual_mode"
+      ],
+      "properties": {
+        "video_type": {
+          "type": "string",
+          "enum": [
+            "teaching_explainer",
+            "poetic_reenactment",
+            "hybrid_explainer_reenactment"
+          ]
+        },
+        "target_audience": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "target_duration_seconds": {
+          "type": "number",
+          "minimum": 15,
+          "maximum": 300
+        },
+        "narration_style": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "visual_mode": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        }
+      }
+    },
+    "evidence_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "source_type",
+        "citation",
+        "authority_level",
+        "relevant_claims",
+        "source_excerpt",
+        "origin"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/id"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "primary_history",
+            "authoritative_biography",
+            "chronology",
+            "critical_edition",
+            "scholarly_study",
+            "reference_work",
+            "course_or_media_transcript",
+            "user_material",
+            "web_article"
+          ]
+        },
+        "citation": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "authority_level": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "relevant_claims": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "source_excerpt": {
+          "type": "string",
+          "description": "Verbatim material supplied to the planner. An empty value cannot support new factual detail."
+        },
+        "origin": {
+          "type": "string",
+          "enum": ["provided", "model_supplied"],
+          "description": "Whether the claim came from input material or unverified model knowledge."
+        },
+        "locator": {
+          "type": "string",
+          "description": "Optional URL, volume, chapter, page, or section locator."
+        }
+      }
+    },
+    "causal_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "context_id",
+        "central_question",
+        "subject",
+        "context_nodes",
+        "causal_links",
+        "causal_chain_node_ids",
+        "writing_situation",
+        "poem_causal_thesis",
+        "alternative_explanations",
+        "uncertainty_statement"
+      ],
+      "properties": {
+        "context_id": {
+          "$ref": "#/$defs/id"
+        },
+        "central_question": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "The causal question the pre-poem story must answer, rather than a paraphrase of the poem."
+        },
+        "subject": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "context_nodes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/context_node"
+          }
+        },
+        "causal_links": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/causal_link"
+          }
+        },
+        "causal_chain_node_ids": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Ordered backbone from formative context to writing trigger or interpretive projection."
+        },
+        "writing_situation": {
+          "$ref": "#/$defs/writing_situation"
+        },
+        "poem_causal_thesis": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Calibrated account of how biography/history shapes the poem without claiming undocumented direct causation."
+        },
+        "alternative_explanations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "uncertainty_statement": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "five_w_one_h": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "what",
+        "who",
+        "when",
+        "where",
+        "why",
+        "how"
+      ],
+      "properties": {
+        "what": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "who": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "when": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "where": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "why": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "how": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "context_node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node_id",
+        "order",
+        "node_type",
+        "narrative_role",
+        "claim_status",
+        "five_w_one_h",
+        "summary",
+        "causal_relevance",
+        "visual_anchor",
+        "evidence_ids",
+        "pre_poem_eligible"
+      ],
+      "properties": {
+        "node_id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "node_type": {
+          "type": "string",
+          "enum": [
+            "biographical_event",
+            "historical_event",
+            "political_condition",
+            "enduring_motivation",
+            "writing_occasion",
+            "social_scene",
+            "interpretive_hypothesis"
+          ]
+        },
+        "narrative_role": {
+          "type": "string",
+          "enum": [
+            "formative_experience",
+            "life_turn",
+            "persistent_goal",
+            "blocked_goal",
+            "historical_pressure",
+            "writing_trigger",
+            "public_contrast",
+            "poetic_projection"
+          ]
+        },
+        "claim_status": {
+          "type": "string",
+          "enum": [
+            "documented",
+            "scholarly_consensus",
+            "historically_plausible",
+            "interpretive_hypothesis",
+            "contested",
+            "unknown"
+          ]
+        },
+        "five_w_one_h": {
+          "$ref": "#/$defs/five_w_one_h"
+        },
+        "summary": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "causal_relevance": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Why this fact or hypothesis matters to the poem's later image, emotion, or stance."
+        },
+        "visual_anchor": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "pre_poem_eligible": {
+          "type": "boolean",
+          "description": "Whether this node may be directly dramatized before entering poem-scene reenactment."
+        },
+        "caveat": {
+          "type": "string"
+        }
+      }
+    },
+    "causal_link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "link_id",
+        "from_node_id",
+        "to_node_id",
+        "relation",
+        "explanation",
+        "claim_status",
+        "evidence_ids",
+        "caveat"
+      ],
+      "properties": {
+        "link_id": {
+          "$ref": "#/$defs/id"
+        },
+        "from_node_id": {
+          "$ref": "#/$defs/id"
+        },
+        "to_node_id": {
+          "$ref": "#/$defs/id"
+        },
+        "relation": {
+          "type": "string",
+          "enum": [
+            "causes",
+            "shapes_identity",
+            "creates_goal",
+            "encounters_obstacle",
+            "intensifies_conflict",
+            "contrasts_with",
+            "triggers_reflection",
+            "externalized_as_image",
+            "supports_interpretation"
+          ]
+        },
+        "explanation": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "claim_status": {
+          "type": "string",
+          "enum": [
+            "documented",
+            "scholarly_consensus",
+            "historically_plausible",
+            "interpretive_hypothesis",
+            "contested",
+            "unknown"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "caveat": {
+          "type": "string",
+          "description": "Required by the rule validator for uncertain causal links; use an empty string only for documented links."
+        }
+      }
+    },
+    "writing_situation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "occasion_node_id",
+        "time",
+        "place",
+        "certainty",
+        "evidence_ids",
+        "root_cause_distinction"
+      ],
+      "properties": {
+        "occasion_node_id": {
+          "$ref": "#/$defs/id"
+        },
+        "time": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "place": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "certainty": {
+          "type": "string",
+          "enum": [
+            "documented",
+            "probable",
+            "contested",
+            "unknown"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "root_cause_distinction": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Explicitly distinguishes the visible occasion from deeper biographical or historical causes."
+        }
+      }
+    },
+    "pre_poem_story": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "story_id",
+        "causal_context_id",
+        "context_node_ids",
+        "storyline",
+        "story_beats",
+        "bridge_sentence",
+        "depiction_policy"
+      ],
+      "properties": {
+        "story_id": {
+          "$ref": "#/$defs/id"
+        },
+        "causal_context_id": {
+          "$ref": "#/$defs/id"
+        },
+        "context_node_ids": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Ordered subset of causal_context nodes used to tell the pre-poem story."
+        },
+        "storyline": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "Concrete pre-poem story derived from the causal background before direct poem-scene reenactment."
+        },
+        "story_beats": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/story_beat"
+          }
+        },
+        "bridge_sentence": {
+          "$ref": "#/$defs/non_empty_string",
+          "description": "A sentence that explains why the causal background is transformed into the poem's visible scene or metaphor."
+        },
+        "depiction_policy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "forbid_literal_poem_reenactment_before_bridge",
+            "required_background_roles"
+          ],
+          "properties": {
+            "forbid_literal_poem_reenactment_before_bridge": {
+              "type": "boolean",
+              "const": true
+            },
+            "required_background_roles": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "enum": [
+                  "formative_experience",
+                  "life_turn",
+                  "persistent_goal",
+                  "blocked_goal",
+                  "historical_pressure"
+                ]
+              }
+            }
+          }
+        },
+        "constraints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        }
+      }
+    },
+    "story_beat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "story_beat_id",
+        "order",
+        "function",
+        "context_node_ids",
+        "causal_link_ids",
+        "content",
+        "visual_anchor",
+        "factuality",
+        "bridge_to_poem"
+      ],
+      "properties": {
+        "story_beat_id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "function": {
+          "type": "string",
+          "enum": [
+            "context_setup",
+            "formative_event",
+            "life_turn",
+            "persistent_goal",
+            "unresolved_conflict",
+            "writing_trigger",
+            "bridge_to_poem"
+          ]
+        },
+        "context_node_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "causal_link_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "content": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "visual_anchor": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "audio_cue": {
+          "type": "string"
+        },
+        "factuality": {
+          "type": "string",
+          "enum": [
+            "historical_fact",
+            "historical_reconstruction",
+            "interpretive_transition"
+          ]
+        },
+        "target_line_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Optional poem lines that this causal story beat prepares the viewer to interpret; it must not be used as evidence for the historical event."
+        },
+        "bridge_to_poem": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "interpretation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "narrative_mode",
+        "thesis",
+        "emotional_arc",
+        "background_context",
+        "metaphor_nodes"
+      ],
+      "properties": {
+        "narrative_mode": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "thesis": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "emotional_arc": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "background_context": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "metaphor_nodes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/metaphor_node"
+          }
+        },
+        "visual_callbacks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/visual_callback"
+          }
+        }
+      }
+    },
+    "metaphor_node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node_id",
+        "source_line_ids",
+        "source_text",
+        "literal_image",
+        "inferred_meaning",
+        "cultural_knowledge",
+        "teaching_point",
+        "visual_anchor",
+        "audio_anchor",
+        "difficulty",
+        "context_node_ids",
+        "evidence_ids",
+        "interpretation_status"
+      ],
+      "properties": {
+        "node_id": {
+          "$ref": "#/$defs/id"
+        },
+        "source_line_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "source_text": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "literal_image": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "inferred_meaning": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "cultural_knowledge": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "teaching_point": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "visual_anchor": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "audio_anchor": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": [
+            "literal",
+            "medium",
+            "hard"
+          ]
+        },
+        "evidence": {
+          "type": "string",
+          "description": "Optional textual evidence from reference materials."
+        },
+        "context_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Causal background nodes that support this interpretation beyond the poem's literal wording."
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "interpretation_status": {
+          "type": "string",
+          "enum": [
+            "textually_explicit",
+            "scholarly_consensus",
+            "plausible_reading",
+            "contested_reading"
+          ]
+        }
+      }
+    },
+    "visual_callback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "callback_id",
+        "trigger_line_ids",
+        "setup_shot_ids",
+        "payoff_shot_id",
+        "recalled_context_node_ids",
+        "techniques",
+        "narration_policy",
+        "purpose"
+      ],
+      "properties": {
+        "callback_id": {
+          "$ref": "#/$defs/id"
+        },
+        "trigger_line_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "setup_shot_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "payoff_shot_id": {
+          "$ref": "#/$defs/id"
+        },
+        "recalled_context_node_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "techniques": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": [
+              "match_cut",
+              "graphic_match",
+              "flashback_insert",
+              "sound_bridge",
+              "repeated_prop",
+              "same_composition",
+              "superimposition",
+              "parallel_montage",
+              "delayed_reveal"
+            ]
+          }
+        },
+        "narration_policy": {
+          "type": "string",
+          "enum": [
+            "poem_quote_first",
+            "visual_first",
+            "delayed_inference",
+            "silence_then_inference"
+          ]
+        },
+        "purpose": {
+          "$ref": "#/$defs/non_empty_string"
+        }
+      }
+    },
+    "teaching_script": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "full_script",
+        "beats"
+      ],
+      "properties": {
+        "full_script": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "beats": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/script_beat"
+          }
+        }
+      }
+    },
+    "script_beat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "beat_id",
+        "order",
+        "source_node_ids",
+        "text",
+        "rhetorical_function",
+        "estimated_seconds"
+      ],
+      "properties": {
+        "beat_id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "context_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Causal-context grounding for biography/history narration beats."
+        },
+        "text": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "rhetorical_function": {
+          "type": "string",
+          "enum": [
+            "hook",
+            "context",
+            "literal_scene",
+            "metaphor_explanation",
+            "emotional_turn",
+            "summary",
+            "transition"
+          ]
+        },
+        "estimated_seconds": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 30
+        }
+      }
+    },
+    "visual_bible": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "era",
+        "style",
+        "palette",
+        "lighting",
+        "composition_rules",
+        "recurring_assets",
+        "forbidden"
+      ],
+      "properties": {
+        "era": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "style": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "palette": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "lighting": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "composition_rules": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "recurring_assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "forbidden": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "asset_id",
+        "type",
+        "name",
+        "description",
+        "source_node_ids",
+        "consistency_rules",
+        "negative_constraints"
+      ],
+      "properties": {
+        "asset_id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "character",
+            "environment",
+            "object",
+            "character_environment",
+            "object_environment",
+            "sound",
+            "text_card"
+          ]
+        },
+        "name": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "description": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "source_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "context_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "consistency_rules": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "negative_constraints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/non_empty_string"
+          }
+        },
+        "generation_prompt": {
+          "type": "string",
+          "description": "Optional prompt for asset image generation."
+        }
+      }
+    },
+    "shot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shot_id",
+        "order",
+        "phase",
+        "duration_target",
+        "source_node_ids",
+        "context_node_ids",
+        "script_beat_ids",
+        "audio_cue",
+        "teaching_function",
+        "visual_goal",
+        "asset_refs",
+        "camera",
+        "subject_motion",
+        "transition_to_next",
+        "image_prompt",
+        "video_prompt"
+      ],
+      "properties": {
+        "shot_id": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "context_setup",
+            "formative_event",
+            "life_turn",
+            "unresolved_conflict",
+            "writing_trigger",
+            "bridge_to_poem",
+            "poem_scene",
+            "interpretive_turn",
+            "summary"
+          ],
+          "description": "Narrative phase. Opening shots must establish non-literal causal background before writing_trigger and poem_scene."
+        },
+        "duration_target": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 15
+        },
+        "source_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "context_node_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Biography/history/occasion nodes grounded by this shot. Pre-poem shots must use these rather than relying on poem lines alone."
+        },
+        "script_beat_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "story_beat_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "description": "Optional pre_poem_story.story_beats grounded by this shot."
+        },
+        "audio_cue": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "teaching_function": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "visual_goal": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "asset_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "camera": {
+          "$ref": "#/$defs/camera"
+        },
+        "subject_motion": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "transition_to_next": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "image_prompt": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "video_prompt": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "sync": {
+          "$ref": "#/$defs/sync"
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shot_size",
+        "angle",
+        "movement",
+        "path",
+        "speed"
+      ],
+      "properties": {
+        "shot_size": {
+          "type": "string",
+          "enum": [
+            "extreme_wide",
+            "wide",
+            "medium",
+            "close",
+            "insert"
+          ]
+        },
+        "angle": {
+          "type": "string",
+          "enum": [
+            "eye_level",
+            "high_angle",
+            "low_angle",
+            "overhead",
+            "side",
+            "back"
+          ]
+        },
+        "movement": {
+          "type": "string",
+          "enum": [
+            "static",
+            "slow_push_in",
+            "slow_pull_back",
+            "pan",
+            "tilt",
+            "tracking",
+            "lateral_slide",
+            "crane",
+            "rack_focus",
+            "montage_cut"
+          ]
+        },
+        "path": {
+          "$ref": "#/$defs/non_empty_string"
+        },
+        "speed": {
+          "type": "string",
+          "enum": [
+            "still",
+            "very_slow",
+            "slow",
+            "moderate"
+          ]
+        }
+      }
+    },
+    "sync": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "audio_start": {
+          "type": "number",
+          "minimum": 0
+        },
+        "audio_end": {
+          "type": "number",
+          "minimum": 0
+        },
+        "visual_key_moment": {
+          "type": "string"
+        },
+        "motion_key_moment": {
+          "type": "string"
+        }
+      }
+    },
+    "evaluation_hooks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "v1_text_planning",
+        "v2_video_quality",
+        "v3_av_sync"
+      ],
+      "properties": {
+        "v1_text_planning": {
+          "$ref": "#/$defs/evaluation_dimensions"
+        },
+        "v2_video_quality": {
+          "$ref": "#/$defs/evaluation_dimensions"
+        },
+        "v3_av_sync": {
+          "$ref": "#/$defs/evaluation_dimensions"
+        }
+      }
+    },
+    "evaluation_dimensions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "metaphor_correctness",
+          "causal_grounding",
+          "biography_poem_bridge",
+          "evidence_faithfulness",
+          "uncertainty_calibration",
+          "cultural_grounding",
+          "teaching_coherence",
+          "shot_decomposition",
+          "prompt_executability",
+          "semantic_alignment",
+          "asset_consistency",
+          "style_consistency",
+          "camera_reasonableness",
+          "transition_continuity",
+          "aesthetic_quality",
+          "audio_cue_alignment",
+          "duration_fit",
+          "semantic_key_moment_sync",
+          "narration_rhythm"
+        ]
+      }
+    }
+  }
+}

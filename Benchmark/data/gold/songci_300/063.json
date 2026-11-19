@@ -1,0 +1,903 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_063",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本作为北宋苏轼所作《水调歌头》，属词体，词牌为水调歌头。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：水调歌头 作者：苏轼 朝代：宋 体裁：词 词牌：水调歌头",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "苏轼（1037—1101）……北宋著名文学家……其词豪放洒脱，开宋词豪放派先河，代表作有《念奴娇·赤壁怀古》《水调歌头·明月几时有》等。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可明确该作品为宋代豪放词代表作之一",
+        "作者苏轼为北宋文坛核心人物"
+      ],
+      "forbidden_assertions": [
+        "该作品为唐代诗歌",
+        "作者为辛弃疾或其他宋代词人"
+      ]
+    },
+    {
+      "claim_id": "claim_02_context",
+      "claim": "词作于宋神宗熙宁九年（1076年）中秋密州任上，因与弟苏辙七年未聚，借醉后赏月抒发思念。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_original_3",
+          "text": "丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。",
+          "locator": "原文版本三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这首词是公元1076年（宋神宗熙宁九年）中秋作者在密州时所作……词人与胞弟苏辙分别之后，已七年未得团聚。",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "创作动机包含兄弟离别之思与政治外放的背景",
+        "小序是理解全词情感基调的关键线索"
+      ],
+      "forbidden_assertions": [
+        "该词作于黄州贬谪期间",
+        "创作背景与兄弟团聚无关"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical",
+      "claim": "“琼楼玉宇”指想象中的月宫；“婵娟”本指姿态美好，此处借指明月。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "琼楼玉宇：美玉砌成的楼宇，指想象中的月宫。……婵娟：本意指妇女姿态美好的样子，这里形容月亮。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中需明确“婵娟”在此处的借代用法",
+        "“琼楼玉宇”具有神话色彩与理想化特征"
+      ],
+      "forbidden_assertions": [
+        "“婵娟”指代嫦娥或仙女",
+        "“琼楼玉宇”指代人间皇宫"
+      ]
+    },
+    {
+      "claim_id": "claim_04_literal",
+      "claim": "全词上片写把酒问天、幻想乘风归去又恐高处寒冷，下片写月移照人、由月相盈亏推及人生聚散，终以美好祝愿收束。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_2",
+          "text": "我想凭借着风力回到天上去看一看，又担心美玉砌成的楼宇，太高了我经受不住寒冷。……人有悲欢离合的变迁，月有阴晴圆缺的转换，这事儿自古以来就很难周全。希望人们可以长长久久地在一起……",
+          "locator": "译文二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词是中秋望月怀人之作……词人运用形象描绘手法，勾勒出一种皓月当空、亲人千里、孤高旷远的境界氛围。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "上下片存在由“天上幻想”向“人间现实”的转折",
+        "情感脉络从迷惘、矛盾走向释然与旷达"
+      ],
+      "forbidden_assertions": [
+        "全词仅停留在写景层面",
+        "上下片情感基调完全一致无转折"
+      ]
+    },
+    {
+      "claim_id": "claim_05_philosophy",
+      "claim": "词人借自然规律（月之圆缺）宽慰人事缺憾（悲欢离合），体现儒释道思想交融下的超然豁达。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "苏轼一生，推崇儒学、讲究实务为主。但他也“龆龀好道”，中年以后，又曾表示过“归依佛僧”，经常处在儒释道的纠葛当中的。每当挫折失意之际，则老庄思想上升，借以帮助自己解释穷通进退的困惑。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "poem",
+          "text": "人有悲欢离合，月有阴晴圆缺，此事古难全。",
+          "locator": "l07",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“此事古难全”是对人生常态的理性接纳",
+        "词作展现了宋代士大夫在困境中的精神自救"
+      ],
+      "forbidden_assertions": [
+        "词人主张消极避世或彻底放弃现实",
+        "该哲理仅受单一思想流派影响"
+      ]
+    },
+    {
+      "claim_id": "claim_06_version",
+      "claim": "传世文本在第三句虚词上存在“惟恐”与“又恐”的异文，但不改变词意与情感逻辑。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "我欲乘风归去，惟恐琼楼玉宇，高处不胜寒。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "我欲乘风归去，又恐琼楼玉宇，高处不胜寒。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学时可说明版本差异属古籍流传常见现象",
+        "两词皆表达犹豫与顾虑，核心语义一致"
+      ],
+      "forbidden_assertions": [
+        "某一版本为绝对错误",
+        "虚词差异导致全词主旨改变"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_detail",
+      "claim": "词中“把酒”意为端起酒杯；“不胜”意为经不住、承受不了；“弄清影”指诗人在月光下起舞，影子也随之舞动。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "把酒：端起酒杯。把：执、持。……不胜：经不住，承受不了。胜：承担、承受。……弄清影：意思是诗人在月光下起舞，影子也随着舞动。弄：玩弄，欣赏。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“把”字在此处作动词，意为执、持",
+        "“弄”字带有欣赏、玩味的主观色彩"
+      ],
+      "forbidden_assertions": [
+        "“不胜”在此处表示非常、十分",
+        "“把酒”是指把酒洒在地上祭祀"
+      ]
+    },
+    {
+      "claim_id": "claim_08_disputed_hesi",
+      "claim": "词中“何似”一词的释义存在分歧，一说为“何如，哪里比得上”；另一说为“何时”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "何似：何如，哪里比得上。一说何时。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "若译为“哪里比得上”，则强调人间生活优于天上仙境",
+        "若译为“何时”，则改变了句意逻辑，教学中应予以说明"
+      ],
+      "forbidden_assertions": [
+        "“何似”在学术界仅有唯一确凿的解释"
+      ]
+    },
+    {
+      "claim_id": "claim_09_reception",
+      "claim": "此词艺术成就极高，清代先著《词洁》评其为“天仙化人之笔”，现代更被谱曲传唱，并由杨利伟在太空朗诵，成为中华文化传播的标志。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "作为中国词史上传播最广的作品，其\"婵娟\"意象被谱成《但愿人长久》传唱全球，清代先著《词洁》评：\"此词自是天仙化人之笔，凡俗岂能梦见？\"2003年杨利伟太空朗诵此词，成为中华文化宇宙传播的标志。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该词在古代与现代均享有极高的文学与社会声誉",
+        "“婵娟”意象已成为华人世界共同的文化符号"
+      ],
+      "forbidden_assertions": [
+        "该词在清代并未受到重视",
+        "该词的现代传播仅局限于学术界"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确掌握作品题名、作者、朝代、体裁及词牌信息。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋苏轼的《水调歌头》",
+        "宋代词人苏轼创作的词作"
+      ],
+      "forbidden_claims": [
+        "该作品为唐诗",
+        "作者为南宋词人"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解词作创作的具体时间、地点、政治背景及怀人动机。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "1076年中秋密州任上思念弟弟苏辙而作",
+        "丙辰中秋欢饮达旦后兼怀子由"
+      ],
+      "forbidden_claims": [
+        "作于黄州贬谪时期",
+        "为送别友人而作"
+      ],
+      "source_claim_ids": [
+        "claim_02_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确解释核心词汇“琼楼玉宇”“婵娟”的本义与语境义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "琼楼玉宇指神话中的月宫建筑",
+        "婵娟在此处代指明月"
+      ],
+      "forbidden_claims": [
+        "婵娟指代嫦娥",
+        "琼楼玉宇指代人间宫殿"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical"
+      ],
+      "line_ids": [
+        "l03",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "把握上下片由“问天幻想”到“怀人悟理”的叙事与情感脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片写天上奇想，下片写人间现实与哲理",
+        "情感由矛盾徘徊转向豁达释然"
+      ],
+      "forbidden_claims": [
+        "上下片内容割裂无关联",
+        "全词仅停留在写景层面"
+      ],
+      "source_claim_ids": [
+        "claim_04_literal"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "识别并解析“月之阴晴圆缺”与“人之悲欢离合”的映射关系。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以自然天象规律类比人生聚散无常",
+        "借月相变化宽慰人事缺憾"
+      ],
+      "forbidden_claims": [
+        "月相与人事毫无关联",
+        "词人抱怨月亮故意在离别时变圆"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical",
+        "claim_05_philosophy"
+      ],
+      "line_ids": [
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "界定词作思想内核：非消极避世，而是儒释道交融下的理性超脱与生命祝愿。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "体现宋代士大夫在逆境中的精神自救",
+        "以“古难全”接纳现实，以“共婵娟”寄托超越时空的祝愿"
+      ],
+      "forbidden_claims": [
+        "词人主张彻底放弃现实追求",
+        "全词基调为悲观绝望"
+      ],
+      "source_claim_ids": [
+        "claim_05_philosophy"
+      ],
+      "line_ids": [
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "综合概括全词主旨：中秋望月怀人，由宇宙之问转入人生之思，最终升华为对天下离人的美好祝愿。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "借月抒怀，由个人思念推及普世祝愿",
+        "融合神话想象、现实离愁与哲学旷达的中秋名篇"
+      ],
+      "forbidden_claims": [
+        "仅为一首单纯的写景咏物词",
+        "主旨局限于个人仕途失意"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_context",
+        "claim_04_literal",
+        "claim_05_philosophy"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_08_lexical_detail",
+      "category": "lexical",
+      "description": "掌握“把酒”、“不胜”、“弄清影”等词句的字词训诂与动作细节。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "把酒是端起酒杯，不胜是经受不住",
+        "弄清影是月下起舞、与影共舞"
+      ],
+      "forbidden_claims": [
+        "不胜解释为非常或胜利",
+        "把酒解释为把酒洒在地上"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_detail"
+      ],
+      "line_ids": [
+        "l01",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_09_disputed_hesi",
+      "category": "alternative_reading",
+      "description": "了解“何似”一词存在的“何如（哪里比得上）”与“何时”两说争议。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“何似”有“哪里比得上”和“何时”两种不同解释"
+      ],
+      "forbidden_claims": [
+        "“何似”在词中只有唯一确凿的含义"
+      ],
+      "source_claim_ids": [
+        "claim_08_disputed_hesi"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_10_reception",
+      "category": "historical_context",
+      "description": "了解该词在后世的极高艺术评价（如“天仙化人之笔”）及现代太空朗诵等文化传播史实。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "清代评其为天仙化人之笔，现代曾由杨利伟在太空朗诵"
+      ],
+      "forbidden_claims": [
+        "该词在古代评价极低",
+        "该词没有现代传播影响"
+      ],
+      "source_claim_ids": [
+        "claim_09_reception"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_palace",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "琼楼玉宇",
+        "高处不胜寒"
+      ],
+      "target_domain": [
+        "想象中的月宫",
+        "理想境界或朝廷高位",
+        "孤寒险恶的处境"
+      ],
+      "bridges": [
+        "注释一明确“琼楼玉宇”指月宫，结合苏轼外放背景，赏析一提及儒释道纠葛与政治失意，高处寒冷隐喻理想或仕途的孤绝与难以承受。"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical",
+        "claim_05_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为纯粹的神话仙境想象，不必然关联政治隐喻",
+        "反映道家“归去”思想与对超脱尘世的向往"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_phases",
+      "line_ids": [
+        "l07"
+      ],
+      "source_domain": [
+        "月有阴晴圆缺"
+      ],
+      "target_domain": [
+        "人生悲欢离合",
+        "世事无常与缺憾常态"
+      ],
+      "bridges": [
+        "词人将自然天象与人事变迁直接并列（l07），以月相盈亏的客观规律作为宽慰人事聚散无常的逻辑支点，得出“古难全”的释然结论。"
+      ],
+      "context_claim_ids": [
+        "claim_05_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可解读为对自然法则的客观陈述，弱化主观情感投射",
+        "体现老庄“顺应自然”的哲学观"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_chanjuan",
+      "line_ids": [
+        "l08"
+      ],
+      "source_domain": [
+        "婵娟"
+      ],
+      "target_domain": [
+        "明月",
+        "美好祝愿与情感纽带"
+      ],
+      "bridges": [
+        "注释一释“婵娟”本意为姿态美好，此处借代明月；结合“千里共”，将具象月光转化为跨越空间的情感共享载体。"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical",
+        "claim_05_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可引申为一切美好事物的象征",
+        "部分学者认为暗含对团圆的具体期盼"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening",
+      "description": "清晰呈现词牌、题名、作者及完整词文，配合小序点明创作缘起。",
+      "acceptable_realizations": [
+        "水墨题签渐显，旁白诵读小序与全词",
+        "分句浮现，关键字词（如丙辰、子由）高亮提示"
+      ],
+      "forbidden_realizations": [
+        "遗漏小序或篡改字词",
+        "背景画面与中秋/密州意境严重冲突"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_preface_introduction",
+      "semantic_role": "title_and_preface_introduction"
+    },
+    {
+      "requirement_id": "vis_02_fantasy",
+      "description": "视觉化上片把酒问天、乘风欲去、琼楼玉宇与月下独舞的奇幻意境。",
+      "acceptable_realizations": [
+        "仰拍举杯问天镜头，云层流转显出玉宇轮廓",
+        "清影随舞姿摇曳，冷暖色调对比表现“寒”与“暖”的犹豫"
+      ],
+      "forbidden_realizations": [
+        "直接具象化神仙或月宫人物",
+        "画面过于写实破坏空灵氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_palace"
+      ],
+      "expected_phase": "upper_stanza_celestial_fantasy",
+      "semantic_role": "upper_stanza_celestial_fantasy"
+    },
+    {
+      "requirement_id": "vis_03_transition",
+      "description": "展现月光流转（转朱阁、低绮户、照无眠）与月相盈亏的动态过程。",
+      "acceptable_realizations": [
+        "延时摄影表现月影移动与窗棂光影变化",
+        "月相由缺至圆再转缺的平滑过渡动画"
+      ],
+      "forbidden_realizations": [
+        "月相变化违背天文常识",
+        "无眠者形象过于具象或情绪化"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_phases"
+      ],
+      "expected_phase": "lower_stanza_moonlight_transition",
+      "semantic_role": "lower_stanza_moonlight_transition"
+    },
+    {
+      "requirement_id": "vis_04_blessing",
+      "description": "以开阔远景收束，呈现“千里共婵娟”的时空延展与豁达祝愿。",
+      "acceptable_realizations": [
+        "镜头拉远展现山河同沐月光，多地人物剪影共望明月",
+        "暖色调光晕扩散，字幕浮现哲理句与祝愿"
+      ],
+      "forbidden_realizations": [
+        "局限于单一室内场景",
+        "情绪渲染过度悲切或喧闹"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_chanjuan"
+      ],
+      "expected_phase": "philosophical_resolution_and_blessing",
+      "semantic_role": "philosophical_resolution_and_blessing"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_063_01",
+      "description": "通常认为，熙宁年间，苏轼因与当权的王安石等人政见不合，为避开汴京政争漩涡，自请外放，辗转各地为官。",
+      "audio_triggers": [
+        "政见不合",
+        "自求外放",
+        "避开汴京政争"
+      ],
+      "visual_evidence": [
+        "北宋时期官员服饰",
+        "苏轼辞行或乘车马离开京城的场景",
+        "禁止出现现代建筑及明清官服"
+      ],
+      "sound_evidence": [
+        "马车行驶的声音",
+        "沉重或失落的叹息声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_063_02",
+      "description": "熙宁七年，苏轼调任密州太守。由于身在异乡，至熙宁九年（1076年）时，他与胞弟苏辙（字子由）已有七年未得团聚，内心深切怀念。",
+      "audio_triggers": [
+        "密州太守",
+        "七年未得团聚",
+        "思念",
+        "子由"
+      ],
+      "visual_evidence": [
+        "苏轼在州衙内独自远眺",
+        "表现思念远方亲人的神态",
+        "案头摆放书信或公文",
+        "宋代衙署内景"
+      ],
+      "sound_evidence": [
+        "翻阅纸张的声音"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_063_03",
+      "description": "熙宁九年（丙辰年）中秋之夜，皓月当空，苏轼在密州通宵痛饮。大醉之际，乘兴挥笔写下千古名篇《水调歌头·明月几时有》，借月抒发对胞弟的思念与豁达的人生态度。",
+      "audio_triggers": [
+        "丙辰中秋",
+        "欢饮达旦",
+        "大醉",
+        "乘兴写下",
+        "水调歌头"
+      ],
+      "visual_evidence": [
+        "北宋中秋圆月",
+        "苏轼在月下举杯饮酒",
+        "大醉后在书案前挥毫泼墨",
+        "月光、酒樽、笔墨纸砚等道具"
+      ],
+      "sound_evidence": [
+        "倒酒与酒杯碰撞声",
+        "豪放的吟诵声",
+        "夜风声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "明月几时有，",
+      "pronunciation": "míng yuè jǐ shí yǒu，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "把酒问青天。",
+      "pronunciation": "bǎ jiǔ wèn qīng tiān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不知天上宫阙，",
+      "pronunciation": "bù zhī tiān shàng gōng què，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今夕是何年。",
+      "pronunciation": "jīn xī shì hé nián。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "我欲乘风归去，",
+      "pronunciation": "wǒ yù chéng fēng guī qù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "惟恐琼楼玉宇，",
+      "pronunciation": "wéi kǒng qióng lóu yù yǔ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "高处不胜寒。",
+      "pronunciation": "gāo chù bù shèng hán。",
+      "accepted_variants": [
+        "gāo chù bù shēng hán。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "起舞弄清影，",
+      "pronunciation": "qǐ wǔ nòng qīng yǐng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "何似在人间。",
+      "pronunciation": "hé sì zài rén jiān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "转朱阁，",
+      "pronunciation": "zhuǎn zhū gé，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "低绮户，",
+      "pronunciation": "dī qǐ hù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "照无眠。",
+      "pronunciation": "zhào wú mián。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不应有恨，",
+      "pronunciation": "bù yīng yǒu hèn，",
+      "accepted_variants": [
+        "bù yìng yǒu hèn，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "何事长向别时圆？",
+      "pronunciation": "hé shì cháng xiàng bié shí yuán？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "人有悲欢离合，",
+      "pronunciation": "rén yǒu bēi huān lí hé，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "月有阴晴圆缺，",
+      "pronunciation": "yuè yǒu yīn qíng yuán quē，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此事古难全。",
+      "pronunciation": "cǐ shì gǔ nán quán。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "但愿人长久，",
+      "pronunciation": "dàn yuàn rén cháng jiǔ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千里共婵娟。",
+      "pronunciation": "qiān lǐ gòng chán juān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "水调歌头",
+      "pronunciation": "shuǐ diào gē tóu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "苏轼",
+      "pronunciation": "sū shì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "苏辙",
+      "pronunciation": "sū zhé",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "子由",
+      "pronunciation": "zǐ yóu",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "王安石",
+      "pronunciation": "wáng ān shí",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "密州",
+      "pronunciation": "mì zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "熙宁",
+      "pronunciation": "xī níng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "丙辰",
+      "pronunciation": "bǐng chén",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "不胜寒",
+      "pronunciation": "bù shèng hán",
+      "accepted_variants": [
+        "bù shēng hán"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "转朱阁",
+      "pronunciation": "zhuǎn zhū gé",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "低绮户",
+      "pronunciation": "dī qǐ hù",
+      "category": "polyphone",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_063_01",
+      "source_event_id": "evt_063_01",
+      "target_event_id": "evt_063_02",
+      "relation_type": "CAUSES",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_063_02",
+      "source_event_id": "evt_063_02",
+      "target_event_id": "evt_063_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_063_03",
+      "source_event_id": "evt_063_01",
+      "target_event_id": "evt_063_03",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/063.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/063.json",
+      "event_gold": "gold_annotation/songci_300/063.json"
+    },
+    "original_sample_id": "063",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

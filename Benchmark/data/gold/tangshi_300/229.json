@@ -1,0 +1,727 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_229",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《登黄鹤楼》是唐代诗人崔颢创作的七言律诗，属于吊古怀乡题材的经典唐诗，是崔颢的传世代表作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "登黄鹤楼 作者崔颢 朝代唐 体裁七言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "昔人已乘黄鹤去，此地空余黄鹤楼。黄鹤一去不复返，白云千载空悠悠。晴川历历汉阳树，芳草萋萋鹦鹉洲。日暮乡关何处是，烟波江上使人愁。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "崔颢（704—754），唐代著名诗人，汴州（今河南开封）人。开元十一年进士，官至太仆寺丞。其诗风早年浮艳，后历边塞，转为雄浑。代表作《黄鹤楼》被誉为唐人七律之冠",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品作为崔颢最具代表性的诗作进行介绍",
+        "可将其归入盛唐吊古怀乡类七言律诗的经典序列"
+      ],
+      "forbidden_assertions": [
+        "声称该诗作者为李白",
+        "将该诗的创作年代归为宋代",
+        "错误将其判定为五言律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_legend_origin",
+      "claim": "黄鹤楼得名源自古代仙人乘鹤飞升的传说，一说为仙人子安乘黄鹤过此，另一说为费文伟（费祎）登仙驾鹤于此，诗歌开篇即依托该传说生发吊古感慨。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "黄鹤楼因其所在之武昌黄鹤山（又名蛇山）而得名。传说古代仙人子安乘黄鹤过此（见《齐谐志》）；又云费文伟登仙驾鹤于此（见《太平寰宇记》引《图经》）。诗即从楼的命名之由来着想，借传说落笔",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "黄鹤楼始建于三国吴黄武二年（223年），因传说费祎登仙乘黄鹤而得名。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可简要介绍仙人乘鹤的不同传说版本作为背景补充",
+        "可说明诗歌开篇的虚幻叙事是依托民间传说展开的"
+      ],
+      "forbidden_assertions": [
+        "声称黄鹤楼得名与仙人乘鹤的传说完全无关",
+        "将传说中的仙人事迹当作完全真实的历史事件进行宣讲"
+      ]
+    },
+    {
+      "claim_id": "claim_03_core_lexical_definition",
+      "claim": "诗中核心字词的通行释义为：昔人指传说中骑鹤飞去的仙人；悠悠有飘飘荡荡的样子或久远的样子两说；历历指清晰、分明的样子；萋萋指草木茂盛的样子；乡关指故乡；烟波指暮霭沉沉的江面。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "昔人：指传说中骑鹤飞去的仙人。悠悠：飘飘荡荡的样子。历历：分明的样子。萋萋：草木茂盛的样子。乡关：故乡。烟波：暮霭沉沉的江面。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "悠悠：久远的样子。历历：清晰、分明的样子。乡关：故乡。",
+          "locator": "注释三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合诗句语境对字词释义的细微侧重进行调整，如第二句的悠悠可同时兼顾飘荡和久远两层含义"
+      ],
+      "forbidden_assertions": [
+        "将乡关错误解释为边关、关卡",
+        "将萋萋解释为草木枯萎的状态"
+      ]
+    },
+    {
+      "claim_id": "claim_04_artistic_reputation",
+      "claim": "历代诗评多将此诗推举为唐人七律之首，流传有李白登黄鹤楼见此作后搁笔赞叹的典故，该典故存在一定争议，部分学者认为是后人附会。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "严沧浪也说唐人七言律诗，当以此为第一。传说李白登此楼，目睹此诗，大为折服。说：“眼前有景道不得，崔颢题诗在上头。”",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "元人辛文房《唐才子传》记李白登黄鹤楼本欲赋诗，因见崔颢此作，为之敛手说：“眼前有景道不得，崔颢题诗在上头。”有人说此说或出于后人附会，未必真有其事。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "唐人七言律诗，当以崔颢《黄鹤楼》为第一。",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可提及李白后续创作《登金陵凤凰台》等作品有仿崔诗格调的痕迹作为佐证",
+        "可说明该诗虽不完全协律但气韵流畅的艺术特点"
+      ],
+      "forbidden_assertions": [
+        "声称李白搁笔的典故是100%确凿的历史事实不存在任何争议",
+        "否定该诗在唐人七律中的经典地位"
+      ]
+    },
+    {
+      "claim_id": "claim_05_emotion_structure",
+      "claim": "诗歌前四句借仙人乘鹤的传说吊古，抒发岁月不再、世事茫茫的怅惘情绪，后四句转写登楼所见明丽江景，最终以日暮烟波生发浓烈的怀乡愁绪，景与情完全交融。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "首联写诗人怀着对黄鹤楼这一历史古迹的憧憬前往，可到达之后才发现如今的黄鹤楼已是鹤去楼空...颔联...暗含了一种岁月难再、世事茫茫的感慨...颈联...描写了远处的秀美景色...尾联...江上的雾霭一片朦胧...心中的惆怅之情油然而生。诗作以一“愁”字收篇",
+          "locator": "赏析三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将诗中三处出现的空字的表意差异与情感递进关联讲解",
+        "可说明该诗的愁绪既包含个人漂泊之感，也折射盛唐文人的普遍精神追寻"
+      ],
+      "forbidden_assertions": [
+        "声称整首诗只有纯粹的景物描写没有吊古怀乡的情感内核",
+        "认为尾联的愁绪与前文的吊古感慨完全无关"
+      ]
+    },
+    {
+      "claim_id": "claim_06_creation_date_dispute",
+      "claim": "关于《登黄鹤楼》的具体创作时间，一说已无从考证，另一说认为约作于开元十一年（723年）崔颢漫游荆楚、仕途失意之时。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首诗具体创作时间已无从考证。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此诗约作于开元十一年（723年）崔颢漫游荆楚时。...时年约30岁的崔颢仕途失意，登楼远眺触景生情。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将诗中的漂泊之感与崔颢早年漫游荆楚、仕途失意的背景相结合进行解读"
+      ],
+      "forbidden_assertions": [
+        "断言该诗的创作年份有绝对确凿的单一历史文献记载"
+      ]
+    },
+    {
+      "claim_id": "claim_07_metrical_irregularity",
+      "claim": "此诗在格律上存在“不协律”的特点，但音节浏亮而不拗口，体现了“诗贵自然”的艺术特色。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "诗虽不协律，但音节浏亮而不拗口。真是信手而就，一气呵成，成为历代所推崇的珍品。...足见诗贵自然，纵使格律诗也无不如此。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "诗虽不协律，但音节浏亮而不拗口。信手而就，一气呵成，成为历代所推崇的珍品。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以此诗为例，讲解盛唐律诗在格律尚未完全严密定型时，重气势与自然天成的美学追求"
+      ],
+      "forbidden_assertions": [
+        "声称《登黄鹤楼》是一首格律完全严丝合缝、毫无出格之处的典型晚唐七律"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《登黄鹤楼》的题名、作者、所属朝代、体裁属性与基本题材定位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "唐代诗人崔颢创作的七言律诗《登黄鹤楼》",
+        "崔颢的经典吊古怀乡诗作《黄鹤楼》"
+      ],
+      "forbidden_claims": [
+        "《登黄鹤楼》是李白的代表作",
+        "这是一首宋代的五言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_legend_background",
+      "category": "historical_context",
+      "description": "掌握黄鹤楼得名的仙人乘鹤传说，了解诗歌创作依托的文化背景与传说异说（子安说与费祎/费文伟说）。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "黄鹤楼因古代仙人驾鹤飞升的传说得名，崔颢借这个传说开篇写诗",
+        "关于黄鹤楼的起源有费祎（费文伟）或王子安乘鹤经过的民间传说"
+      ],
+      "forbidden_claims": [
+        "黄鹤楼的名字完全和仙人传说没有任何关系",
+        "仙人乘鹤是完全真实发生过的历史事件"
+      ],
+      "source_claim_ids": [
+        "claim_02_legend_origin"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_core_vocabulary",
+      "category": "lexical",
+      "description": "掌握诗中核心实词的通行准确释义，包括“昔人”、“悠悠”（飘荡/久远）、“历历”、“萋萋”、“乡关”、“烟波”等。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "乡关就是故乡的意思，萋萋是形容草木长得很茂盛，历历是景物清晰分明的样子"
+      ],
+      "forbidden_claims": [
+        "乡关指的是边关要塞",
+        "悠悠是形容白云飘得很快的样子"
+      ],
+      "source_claim_ids": [
+        "claim_03_core_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_artistic_status_boundary",
+      "category": "interpretive_boundary",
+      "description": "了解该诗被推为唐人七律第一的文学史地位，知晓李白搁笔典故的争议性。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "严羽在《沧浪诗话》里把这首诗评为唐人七律第一，李白搁笔的传说很有名但也有学者认为是后人附会"
+      ],
+      "forbidden_claims": [
+        "李白绝对没说过那句赞叹的话，这个故事完全是瞎编的",
+        "这首诗的艺术水平在所有唐诗里排第一没有任何争议"
+      ],
+      "source_claim_ids": [
+        "claim_04_artistic_reputation"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_05_full_text_paraphrase",
+      "category": "literal_meaning",
+      "description": "能够逐句准确翻译全诗的字面含义，没有错译漏译。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "过去的仙人已经驾着黄鹤飞走了，这里只留下空荡荡的黄鹤楼。黄鹤一去再也没有回来，千百年来只看见白云悠悠飘荡。晴日里汉阳的树木清晰可见，鹦鹉洲上芳草长得十分繁茂。暮色里哪里才是我的故乡？江上的浩渺烟波让人涌起无尽愁绪。"
+      ],
+      "forbidden_claims": [
+        "把鹦鹉洲翻译成北方沙漠里的绿洲",
+        "把日暮乡关翻译成天亮了我要回家"
+      ],
+      "source_claim_ids": [
+        "claim_05_emotion_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_emotion_structure",
+      "category": "structure",
+      "description": "梳理诗歌前半吊古、后半怀乡的情感递进脉络，理解景与情的对应关系。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗前四句写凭吊古迹生出岁月流逝的感慨，中间两句写眼前的明丽江景，最后落到日暮怀乡的愁绪上，一气呵成"
+      ],
+      "forbidden_claims": [
+        "这首诗的情感是完全割裂的，前面吊古和后面思乡一点关系都没有",
+        "整首诗从头到尾都在写快乐闲适的情绪"
+      ],
+      "source_claim_ids": [
+        "claim_05_emotion_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_creation_date_dispute",
+      "category": "alternative_reading",
+      "description": "了解该诗创作时间存在争议，一说具体时间无从考证，一说约作于开元十一年（723年）崔颢漫游荆楚、仕途失意之时。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "这首诗的创作时间有争议，可能作于开元十一年崔颢漫游荆楚时，也可能具体时间已无法考证"
+      ],
+      "forbidden_claims": [
+        "这首诗有绝对确凿的、毫无争议的创作年份记载"
+      ],
+      "source_claim_ids": [
+        "claim_06_creation_date_dispute"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_08_metrical_irregularity",
+      "category": "structure",
+      "description": "理解该诗在格律上“不协律”但“音节浏亮而不拗口”的自然美学特征。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗虽然不完全符合严密的格律，但读起来音节流畅，体现了自然天成的风格"
+      ],
+      "forbidden_claims": [
+        "这首诗是一首格律极其严密、完全符合后世律诗平仄规范的典型作品"
+      ],
+      "source_claim_ids": [
+        "claim_07_metrical_irregularity"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_eternal_cloud_symbol",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "千载以来独自在天际飘荡的悠悠白云"
+      ],
+      "target_domain": [
+        "世事茫茫、岁月悠长的永恒时空感",
+        "仙人黄鹤一去不返之后唯一留存的历史余痕"
+      ],
+      "bridges": [
+        "白云从古至今恒久存在，和黄鹤一去不复返的短暂易逝形成强烈对比",
+        "白云飘荡无定的状态和世事茫然的感受特征高度契合"
+      ],
+      "context_claim_ids": [
+        "claim_05_emotion_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "悠悠白云也可被解读为诗人自身漂泊无依状态的投射"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_misty_river_symbol",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "暮色里浩渺朦胧、无边无际的江上烟波"
+      ],
+      "target_domain": [
+        "游子无处归乡的浓重迷茫愁绪",
+        "盛唐文人普遍精神追寻的失落感"
+      ],
+      "bridges": [
+        "烟波的朦胧无边对应乡愁的绵长没有边界",
+        "烟波遮挡视线、看不清远方的特征对应乡关无处寻觅的迷茫状态"
+      ],
+      "context_claim_ids": [
+        "claim_05_emotion_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "江上烟波也可被解读为仕途失意、前路不明的人生困境的外化"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "开场清晰展示诗题、作者、朝代信息，同步呈现完整无错的全诗文本，配合朗读同步滚动字幕。",
+      "acceptable_realizations": [
+        "古风题签样式的开场画面，逐行弹出诗句字幕",
+        "黄鹤楼远景为背景叠加诗文信息"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏字的诗文内容",
+        "错误标注作者与朝代信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_poem_display",
+      "semantic_role": "opening_title_and_poem_display"
+    },
+    {
+      "requirement_id": "vis_02_immortal_legend_animation",
+      "description": "演示仙人乘黄鹤飞升远去的动画画面，对应首联颔联的吊古内容，突出人去楼空、白云悠悠的场景。",
+      "acceptable_realizations": [
+        "黄鹤载着仙人向天际飞远，画面逐渐聚焦到伫立江边的黄鹤楼和天上的白云",
+        "用淡墨风格的画面表现悠远的历史感"
+      ],
+      "forbidden_realizations": [
+        "把仙人形象刻画得过于现代浮夸",
+        "遗漏黄鹤楼主体建筑的呈现"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_eternal_cloud_symbol"
+      ],
+      "expected_phase": "archaic_legend_and_meditation",
+      "semantic_role": "archaic_legend_and_meditation"
+    },
+    {
+      "requirement_id": "vis_03_overlook_scene_panning",
+      "description": "镜头从黄鹤楼观景视角向外缓慢平移，依次展示晴日下清晰的汉阳林木、芳草繁茂的鹦鹉洲实景。",
+      "acceptable_realizations": [
+        "用高视角航拍风格的画面呈现开阔江景，色彩明亮饱满",
+        "依次标注汉阳、鹦鹉洲的地理位置提示"
+      ],
+      "forbidden_realizations": [
+        "把鹦鹉洲放到汉江里或者其他错误位置",
+        "把树木和芳草画成枯萎萧瑟的状态"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "sunny_river_scene_overlook",
+      "semantic_role": "sunny_river_scene_overlook"
+    },
+    {
+      "requirement_id": "vis_04_dusk_nostalgia_climax",
+      "description": "画面色调逐渐转暗，暮色笼罩江面，江上缓缓升起朦胧浩渺的烟波，呈现诗人伫立楼头远眺归乡方向的孤独背影。",
+      "acceptable_realizations": [
+        "暖黄的落日余晖逐渐消退，江面雾气慢慢扩散，最终整个画面笼罩在淡蓝的暮霭之中",
+        "用剪影效果突出诗人凭栏远望的姿态"
+      ],
+      "forbidden_realizations": [
+        "最后画面出现万家灯火、诗人和家人团聚的不符合诗意的场景",
+        "把烟波画成暴雨倾盆的恶劣天气状态"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_misty_river_symbol"
+      ],
+      "expected_phase": "dusk_misty_nostalgia_climax",
+      "semantic_role": "dusk_misty_nostalgia_climax"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_229_01",
+      "description": "三国吴黄武二年（223年）黄鹤楼始建。相传古代仙人（一说子安，一说费祎）曾乘黄鹤在此经过或登仙而去，此楼由此得名。这些神话传说为后世文人登临留下了丰富的想象空间。",
+      "audio_triggers": [
+        "黄鹤楼始建",
+        "乘黄鹤",
+        "费祎登仙"
+      ],
+      "visual_evidence": [
+        "古代木质楼阁建筑",
+        "仙人驾鹤腾空飞去",
+        "禁止出现现代武汉长江大桥等现代建筑及景观"
+      ],
+      "sound_evidence": [
+        "鹤鸣声",
+        "古风空灵的音乐"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_229_02",
+      "description": "唐开元十一年（723年）左右，通常认为三十岁左右的崔颢虽考中进士，但仕途失意，离开长安在荆楚一带漫游。",
+      "audio_triggers": [
+        "考中进士",
+        "仕途失意",
+        "漫游荆楚"
+      ],
+      "visual_evidence": [
+        "年轻的唐代文人",
+        "身着唐代士人服饰",
+        "乘舟或骑马在江汉平原跋涉",
+        "神情略显怅惘"
+      ],
+      "sound_evidence": [
+        "马蹄声",
+        "江水行舟声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_229_03",
+      "description": "崔颢漫游至武昌，登临古迹黄鹤楼。他触景生情，结合仙人乘鹤的传说与眼前日暮的长江烟波，抒发了浓浓的羁旅乡愁，写下《登黄鹤楼》一诗。该诗的具体创作时间不可确考，一说作于开元十一年（723年）。",
+      "audio_triggers": [
+        "登临黄鹤楼",
+        "触景生情",
+        "日暮乡关"
+      ],
+      "visual_evidence": [
+        "崔颢站在高楼上远眺",
+        "夕阳西下，江面起雾",
+        "江对岸清晰的树木和江中长满芳草的小洲",
+        "崔颢在书案前挥毫题诗"
+      ],
+      "sound_evidence": [
+        "江风声",
+        "悠远的钟声或笛声",
+        "书写时的笔触声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_229_04",
+      "description": "传说李白后来登临黄鹤楼，本欲赋诗，看到崔颢的题诗后大为折服，感叹“眼前有景道不得，崔颢题诗在上头”而搁笔。此事虽存在争议，或为后代附会，但在后世常作美谈流传。",
+      "audio_triggers": [
+        "李白",
+        "眼前有景道不得",
+        "搁笔"
+      ],
+      "visual_evidence": [
+        "李白登楼远眺",
+        "抬头看着墙上或柱子上的题诗",
+        "手持毛笔思索后停笔叹息"
+      ],
+      "sound_evidence": [
+        "文人叹息声"
+      ],
+      "importance": 1
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "昔人已乘黄鹤去，",
+      "pronunciation": "xí rén yǐ chéng huáng hè qù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此地空余黄鹤楼。",
+      "pronunciation": "cǐ dì kōng yú huáng hè lóu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黄鹤一去不复返，",
+      "pronunciation": "huáng hè yī qù bù fù fǎn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "白云千载空悠悠。",
+      "pronunciation": "bái yún qiān zǎi kōng yōu yōu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "晴川历历汉阳树，",
+      "pronunciation": "qíng chuān lì lì hàn yáng shù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "芳草萋萋鹦鹉洲。",
+      "pronunciation": "fāng cǎo qī qī yīng wǔ zhōu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "日暮乡关何处是，",
+      "pronunciation": "rì mù xiāng guān hé chù shì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "烟波江上使人愁。",
+      "pronunciation": "yān bō jiāng shàng shǐ rén chóu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "崔颢",
+      "pronunciation": "cuī hào",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "李白",
+      "pronunciation": "lǐ bái",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "费祎",
+      "pronunciation": "fèi yī",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "子安",
+      "pronunciation": "zǐ ān",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "黄鹤楼",
+      "pronunciation": "huáng hè lóu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "汉阳",
+      "pronunciation": "hàn yáng",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "鹦鹉洲",
+      "pronunciation": "yīng wǔ zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "武昌",
+      "pronunciation": "wǔ chāng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "荆楚",
+      "pronunciation": "jīng chǔ",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "开元",
+      "pronunciation": "kāi yuán",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "黄武",
+      "pronunciation": "huáng wǔ",
+      "category": "other",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_229_01",
+      "source_event_id": "evt_229_01",
+      "target_event_id": "evt_229_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_229_02",
+      "source_event_id": "evt_229_02",
+      "target_event_id": "evt_229_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_229_03",
+      "source_event_id": "evt_229_03",
+      "target_event_id": "evt_229_04",
+      "relation_type": "BEFORE",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/229.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/229.json",
+      "event_gold": "gold_annotation/tangshi_300/229.json"
+    },
+    "original_sample_id": "229",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

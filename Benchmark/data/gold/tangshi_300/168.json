@@ -1,0 +1,688 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_168",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《望月怀远》是唐代诗人张九龄创作的五言律诗，属于经典的月夜怀人题材作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据标注为唐张九龄所作，体裁五言律诗，题名望月怀远",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "公开古诗文库流传的《望月怀远》文本与给定原诗完全一致",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本诗归为张九龄的五言律诗代表作，纳入盛唐山水怀人诗序列"
+      ],
+      "forbidden_assertions": [
+        "声称本诗作者为李白、杜甫等其他唐代诗人",
+        "将本诗体裁判定为七言绝句、古体诗等非五言律诗类别"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "关于本诗的创作年份与背景存在两说：一说认为写于开元二十四年（736年）张九龄遭李林甫排挤罢相、贬荆州长史以后，与《感遇十二首》属同一时期；另一说认为约作于开元十五年（727年）张九龄外放洪州刺史期间。作品既抒发对远方亲友的思念，又暗含政治失意的幽怀。",
+      "status": "disputed",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "《望月怀远》这首诗应就写于开元二十四年张九龄遭贬荆州长史以后，同《感遇十二首》应该属于同一时期的作品。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《望月怀远》此诗约作于开元十五年（727年）张九龄外放洪州刺史期间。作为开元贤相，诗人因直言进谏渐失玄宗信任。作品以望月怀人的传统题材，既抒发对远方亲友的思念，又暗含政治失意的幽怀。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "《望月怀远》这首诗应写于开元二十四年张九龄遭贬荆州长史以后，同《感遇十二首》应该属于同一时期的作品。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合张九龄被李林甫排挤、罢相外放的人生经历，解读诗中深沉悠远的思念底色与政治失意幽怀"
+      ],
+      "forbidden_assertions": [
+        "声称本诗是张九龄在长安任宰相权位顶峰且仕途一帆风顺时所作",
+        "认定本诗完全没有个人身世感怀，只有普通男女相思的浅层次内涵"
+      ]
+    },
+    {
+      "claim_id": "claim_03_opening_lines_artistry",
+      "claim": "开篇“海上生明月，天涯共此时”是千古名句，意境雄浑阔大，自然具有一种高华浑融的气象。第二句由景入情，转入“怀远”。此联暗合或化用了谢庄《月赋》中的“隔千里兮共明月”之意，并对后世苏轼《水调歌头》“但愿人长久，千里共婵娟”等写月名句产生了深远影响。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "起句“海上生明月”意境雄浑阔大，是千古佳句。...看起来平淡无奇，没有一个奇特的字眼，没有一分点染的色彩，脱口而出，却自然具有一种高华浑融的气象。这一句完全是景，点明题中的“望月”。第二句“天涯共此时”，即由景入情，转入“怀远”。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "前乎此的有《月赋》中的“隔千里兮共明月”，后乎此的有《水调歌头·明月几时有》词中的“但愿人长久，千里共婵娟”，都是写月的名句，其旨意也大抵相同...这两句把诗题的情景，一起就全部收摄，却又毫不费力，仍是张九龄作古诗时浑成自然的风格。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "“海上生明月，天涯共此时”为千古佳句。前句写景...后句写情...情景结合，有虚有实，意境深远，给人留下了广阔的想象空间。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本句与苏轼《水调歌头》“千里共婵娟”等同类写月名句做跨文本对比"
+      ],
+      "forbidden_assertions": [
+        "声称这两句完全没有前代文学传承，是毫无借鉴的绝对原创"
+      ]
+    },
+    {
+      "claim_id": "claim_04_middle_ending_lines_detail",
+      "claim": "“灭烛怜光满，披衣觉露滋”细致刻画了诗人彻夜对月不眠的实情实景。末两句“不堪盈手赠，还寝梦佳期”构思奇妙，暗用晋代陆机（或《拟明月何皎皎》）“照之有余辉，揽之不盈手”的诗意，翻古为新，以寄愿梦中相会收束全诗，余韵悠长。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "末两句：月华虽好但是不能相赠，不如回入梦乡觅取佳期。《拟明月何皎皎》：“照之有余辉，揽之不盈手。”盈手：双手捧满之意。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“灭烛怜光满，披衣觉露滋”，两句细巧地写出了深夜对月不眠的实情实景。...这里诗人暗用晋“照之有余辉，揽之不盈手”两句诗意，翻古为新，悠悠托出不尽情思。诗至此戛而止，只觉余韵袅袅，令人回味不已。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "“灭烛怜光满，披衣觉露滋”，描绘了诗人彻夜难眠的情形。...“不堪盈手赠，还寝梦佳期”，这句从通宵难眠的无奈之中，情感为之一转...诗人以梦结尾安慰自己",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以梳理诗人从灭烛赏光、披衣徘徊到欲赠月光、寄愿梦境的完整动作动线"
+      ],
+      "forbidden_assertions": [
+        "声称诗人没有彻夜不眠，很早就安然入睡没有相思之苦"
+      ]
+    },
+    {
+      "claim_id": "claim_05_lover_definition_ambiguity",
+      "claim": "诗中“情人”的释义存在两种说法：一指多情的人，指作者自己；二指亲人（或远方的思念对象）。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "情人：多情的人，指作者自己；一说指亲人。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "情人：多情的人，指作者自己；一说指亲人。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "情人：多情的人，一说是指亲人，一说是指作者自己。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可以同时呈现两种解读方向，不强行要求学生接受唯一答案"
+      ],
+      "forbidden_assertions": [
+        "绝对认定“情人”就是现代语义的恋爱对象，否定其他所有合理解读"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_meanings",
+      "claim": "诗中“怀远”意为怀念远方的亲人；“遥夜”意为长夜；“竟夕”意为终夜、通宵，即一整夜；“滋”字不仅是润湿，而且含滋生不已的意思；“盈手”指双手捧满之意。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "怀远：怀念远方的亲人。遥夜：长夜。竟夕：终夜，通宵，即一整夜。滋：湿润。盈手：双手捧满之意。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "怀远：怀念远方的亲人。遥夜：长夜。竟夕：终宵，即一整夜。滋：湿润。盈手：双手捧满之意。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这里的“滋”字不仅是润湿，而且含滋生不已的意思。“露滋”二字写尽了“遥夜”、“竟夕”的精神。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“露滋”不仅写出了夜露打湿衣服的物理过程，也暗示了相思之情随夜深而不断滋长、无法断绝"
+      ],
+      "forbidden_assertions": [
+        "将“竟夕”解释为傍晚或黄昏",
+        "将“盈手”解释为满手抓着财物"
+      ]
+    },
+    {
+      "claim_id": "claim_07_structure_and_rhythm",
+      "claim": "本诗颔联“情人怨遥夜，竟夕起相思”采用流水对，自然流畅，具有古诗气韵。全诗从月出写到月落（“竟夕”），以“怨”字为中心，将“情人”与“相思”、“遥夜”与“竟夕”紧密呼应，一气呵成。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "从月出东斗直到月落鸟啼，是一段很长的时间，诗中说是“竟夕”，亦即通宵。...而远隔天涯的一对情人，因为对月相思而久不能寐，只觉得长夜漫漫，故而落出一个“怨”字。三四两句，就以怨字为中心，以“情人”与“相思”呼应，以“遥夜”与“竟夕”呼应，上承起首两句，一气呵成。这两句采用流水对，自然流畅，具有古诗气韵。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "本诗虽为律诗，但其颔联对仗不显雕琢，具有古诗般浑成自然的流动美"
+      ],
+      "forbidden_assertions": [
+        "声称本诗颔联对仗极其死板、生硬，割裂了全诗的抒情脉络"
+      ]
+    },
+    {
+      "claim_id": "claim_08_l03_psychology",
+      "claim": "“灭烛怜光满”中的“怜”字是爱惜之意，表达了诗人发自内心的感受。此时应在农历十五左右，月光直射充盈到屋内，因此熄灭烛火后，月光反而显得更加皎洁、洒满屋子，撩人心绪，使人更难以入睡。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "怜光满：爱惜满屋的月光。这里的灭烛怜光满，根据上下文，是个月明的时候，应该在农历十五左右。...光满自然就是月光照射充盈的样子，“满”描写了一个状态，应该是月光直射到屋内。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "竟夕相思不能入睡，或许是怪屋里烛光太耀眼，于是灭烛，披衣步出门庭，光线还是那么明亮。这天涯共对的一轮明月竟是这样撩人心绪，使人见到它那姣好圆满的光华，更难以入睡。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "灭烛这一动作，体现了诗人从嫌烛光碍眼到主动亲近、欣赏月光的心理转变"
+      ],
+      "forbidden_assertions": [
+        "认为“灭烛”是因为诗人要睡觉了，或者是因为蜡烛燃尽"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确掌握《望月怀远》的题名、作者、朝代、体裁核心属性",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《望月怀远》是唐代张九龄写的五言律诗",
+        "张九龄的《望月怀远》是盛唐经典的月夜怀人诗"
+      ],
+      "forbidden_claims": [
+        "《望月怀远》是宋代苏轼的作品",
+        "《望月怀远》是一首七言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "了解本诗的创作背景与张九龄的人生境遇的关联，掌握其创作年份的争议",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "本诗可能作于张九龄罢相贬荆州长史以后，或外放洪州刺史期间，借望月怀人暗含政治失意的幽怀",
+        "本诗诞生于盛唐开元年间，体现了当时士人开阔的宇宙意识"
+      ],
+      "forbidden_claims": [
+        "本诗是张九龄年少时科举及第后在长安游玩所作",
+        "本诗和张九龄的人生经历完全没有关联"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_key_lexical",
+      "category": "lexical",
+      "description": "掌握诗中重点字词如怀远、情人、遥夜、竟夕、盈手、滋的准确释义与多重解读",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "怀远就是怀念远方的亲人，竟夕指通宵一整夜",
+        "情人可以指多情的人（作者自己），也可以指亲人；滋不仅是润湿，还含有滋生不已的意思"
+      ],
+      "forbidden_claims": [
+        "盈手指手里装满了金银财宝",
+        "遥夜指遥远的夜晚，不是长夜"
+      ],
+      "source_claim_ids": [
+        "claim_05_lover_definition_ambiguity",
+        "claim_06_lexical_meanings"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_full_literal_meaning",
+      "category": "literal_meaning",
+      "description": "逐句准确理解全诗的字面含义，梳理诗人的行为与情感动线",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "茫茫海上升起明月，远隔天涯的亲人此刻共望同一轮月，多情的人怨恨长夜漫漫，通宵都在思念，熄灭烛火爱惜满屋月光，披衣起身察觉夜露湿润，不能捧满月光赠给远人，还是回到梦里赴佳期"
+      ],
+      "forbidden_claims": [
+        "诗人灭烛是因为蜡烛烧完了没钱买新的",
+        "诗人披衣出门是为了去海边看日出"
+      ],
+      "source_claim_ids": [
+        "claim_03_opening_lines_artistry",
+        "claim_04_middle_ending_lines_detail",
+        "claim_08_l03_psychology"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_feature",
+      "category": "structure",
+      "description": "掌握本诗由景入情、层层推进最后以梦境收束的整体结构特点，以及颔联流水对的章法特色",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "首联点题写望月怀远，颔联以流水对写通宵相思怨夜，颈联写月下徘徊的实景，尾联寄情感于梦境"
+      ],
+      "forbidden_claims": [
+        "这首诗的结构完全混乱，没有起承转合的章法"
+      ],
+      "source_claim_ids": [
+        "claim_03_opening_lines_artistry",
+        "claim_04_middle_ending_lines_detail",
+        "claim_07_structure_and_rhythm"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_moonlight_as_affection",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "可双手捧满的充盈月光"
+      ],
+      "target_domain": [
+        "诗人对远方亲人饱满深沉、无形却无处不在的思念之情"
+      ],
+      "bridges": [
+        "月光是望月怀远的核心意象，充盈的月光和饱满的思念都具备无形却充盈、遍洒天涯共通的属性，诗人想要把月光赠给远人本质是想要传递自己无法当面诉说的心意"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_04_middle_ending_lines_detail"
+      ],
+      "alternative_readings": [
+        "也可将盈手的月光解读为诗人自身高洁的人格品格，想要赠给远方亲友明志"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_moon_as_connection",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "海上升起的一轮共通明月"
+      ],
+      "target_domain": [
+        "分隔天涯两地的亲人之间跨越空间距离的情感连接纽带"
+      ],
+      "bridges": [
+        "远隔两地的人无法相见，却能同时望见同一轮明月，明月消解了地理的阻隔，成为双方情感共鸣的共同载体"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_03_opening_lines_artistry"
+      ],
+      "alternative_readings": [
+        "明月也可作为盛唐开阔宇宙意识的具象化载体，体现开元时期士人包容宏大的胸襟"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "开场清晰呈现诗题、作者、朝代、体裁信息，同步展示完整无错的原诗文本",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_intro",
+      "acceptable_realizations": [
+        "古风题签样式展示题名作者信息，逐行弹出原诗字幕配合名家朗读"
+      ],
+      "forbidden_realizations": [
+        "把作者名字打错，诗句出现错字漏字",
+        "擅自删减诗句不做任何说明"
+      ],
+      "semantic_role": "opening_poem_intro"
+    },
+    {
+      "requirement_id": "vis_02_sea_moon_rise",
+      "description": "动画展示辽阔海面之上一轮明月缓缓升起的阔大场景，对应首联的雄浑意境",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_moon_as_connection"
+      ],
+      "expected_phase": "seascape_moon_rise",
+      "acceptable_realizations": [
+        "远景级别的海面月夜场景，分屏同时展示两处天涯的人同时抬头望月的画面"
+      ],
+      "forbidden_realizations": [
+        "把明月画成残月，海面画成狭窄的小河沟",
+        "整体色调昏暗压抑完全没有高华浑融的气象"
+      ],
+      "semantic_role": "seascape_moon_rise"
+    },
+    {
+      "requirement_id": "vis_03_midnight_pacing",
+      "description": "展示诗人在室内灭烛，月光洒满屋中，随后披衣走到庭院，夜露沾湿衣衫的细节场景",
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "midnight_sleepless_pacing",
+      "acceptable_realizations": [
+        "暖黄烛火熄灭后银白月光瞬间充盈整个房间的光影变化，诗人披衣时衣摆上沾着细碎露光的细节"
+      ],
+      "forbidden_realizations": [
+        "诗人躺卧在床上呼呼大睡完全没有起身的动作",
+        "灭烛之后房间陷入完全黑暗没有月光"
+      ],
+      "semantic_role": "midnight_sleepless_pacing"
+    },
+    {
+      "requirement_id": "vis_04_dream_reunion",
+      "description": "展示诗人伸出手想要捧住满手月光，最后怅然松手，随后画面转入朦胧的梦境场景",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_moonlight_as_affection"
+      ],
+      "expected_phase": "moonlight_giveaway_and_dream",
+      "acceptable_realizations": [
+        "诗人掌心托着流动的月光，月光慢慢消散，随后画面柔化过渡到和亲友在月下相逢的朦胧梦境"
+      ],
+      "forbidden_realizations": [
+        "诗人真的把月光打包寄给了远方的人，出现不符合诗意的科幻情节"
+      ],
+      "semantic_role": "moonlight_giveaway_and_dream"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_168_01",
+      "description": "张九龄在唐玄宗开元年间曾担任中书令等要职，是著名的开元贤相。他直言敢谏，但逐渐失去唐玄宗信任。",
+      "audio_triggers": [
+        "开元",
+        "中书令",
+        "贤相",
+        "直言进谏"
+      ],
+      "visual_evidence": [
+        "盛唐时期",
+        "张九龄身穿唐代宰相朝服",
+        "在朝堂上进谏的大殿场景"
+      ],
+      "sound_evidence": [
+        "朝堂上的议论声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_168_02",
+      "description": "张九龄遭到李林甫等权臣排挤被贬。关于此诗的创作地点与时间存在多说，通常认为作于开元二十四年（736年）被贬荆州长史之后，也有一说认为作于开元十五年（727年）外放洪州刺史期间。",
+      "audio_triggers": [
+        "排挤",
+        "贬官",
+        "荆州长史",
+        "洪州刺史"
+      ],
+      "visual_evidence": [
+        "唐代官员离京赴任的场景",
+        "张九龄神情落寞",
+        "马车与随从",
+        "禁止出现权臣当面陷害的具体虚构画面"
+      ],
+      "sound_evidence": [
+        "马嘶声",
+        "车轮辘辘声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_168_03",
+      "description": "远离朝堂的张九龄身处异乡，政治上的失意与对远方亲友的深深思念相互交织，成为其心头挥之不去的愁绪。",
+      "audio_triggers": [
+        "异乡",
+        "失意",
+        "思念",
+        "远方亲友"
+      ],
+      "visual_evidence": [
+        "唐代官舍",
+        "夜间环境",
+        "张九龄孤单的背影"
+      ],
+      "sound_evidence": [
+        "夜晚凄清的风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_168_04",
+      "description": "在一个农历十五左右的明月之夜，张九龄因相思彻夜难眠，他吹灭蜡烛披衣徘徊，感受着沾衣的夜露，最终写下了名作《望月怀远》。",
+      "audio_triggers": [
+        "明月",
+        "彻夜难眠",
+        "吹灭蜡烛",
+        "披衣",
+        "写下",
+        "望月怀远"
+      ],
+      "visual_evidence": [
+        "皎洁的满月",
+        "张九龄吹灭室内烛火",
+        "披上外衣在月光下徘徊",
+        "在书案前挥毫作诗"
+      ],
+      "sound_evidence": [
+        "吹灭蜡烛的呼吸声",
+        "衣物摩擦声",
+        "提笔写字的沙沙声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "海上生明月，",
+      "pronunciation": "hǎi shàng shēng míng yuè ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天涯共此时。",
+      "pronunciation": "tiān yá gòng cǐ shí 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "情人怨遥夜，",
+      "pronunciation": "qíng rén yuàn yáo yè ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "竟夕起相思。",
+      "pronunciation": "jìng xī qǐ xiāng sī 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "灭烛怜光满，",
+      "pronunciation": "miè zhú lián guāng mǎn ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "披衣觉露滋。",
+      "pronunciation": "pī yī jué lù zī 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不堪盈手赠，",
+      "pronunciation": "bù kān yíng shǒu zèng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "还寝梦佳期。",
+      "pronunciation": "huán qǐn mèng jiā qī 。",
+      "accepted_variants": [
+        "hái qǐn mèng jiā qī 。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望月怀远",
+      "pronunciation": "wàng yuè huái yuǎn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "张九龄",
+      "pronunciation": "zhāng jiǔ líng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "李林甫",
+      "pronunciation": "lǐ lín fǔ",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "开元",
+      "pronunciation": "kāi yuán",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "中书令",
+      "pronunciation": "zhōng shū lìng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "荆州",
+      "pronunciation": "jīng zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "洪州",
+      "pronunciation": "hóng zhōu",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_168_01",
+      "source_event_id": "evt_168_01",
+      "target_event_id": "evt_168_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_168_02",
+      "source_event_id": "evt_168_02",
+      "target_event_id": "evt_168_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_168_03",
+      "source_event_id": "evt_168_03",
+      "target_event_id": "evt_168_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/168.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/168.json",
+      "event_gold": "gold_annotation/tangshi_300/168.json"
+    },
+    "original_sample_id": "168",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

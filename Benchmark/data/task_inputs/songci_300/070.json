@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "036_songci_070_4fa28f13f226",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "定风波",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "莫听穿林打叶声，何妨吟啸且徐行。\n竹杖芒鞋轻胜马，谁怕？\n一蓑烟雨任平生。\n料峭春风吹酒醒，微冷，山头斜照却相迎。\n回首向来萧瑟处，归去，也无风雨也无晴。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "莫听穿林打叶声，何妨吟啸且徐行。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "竹杖芒鞋轻胜马，谁怕？"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "一蓑烟雨任平生。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "料峭春风吹酒醒，微冷，山头斜照却相迎。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "回首向来萧瑟处，归去，也无风雨也无晴。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "4fa28f13f22652f1cf04ee24",
+    "global_index": 36
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_022",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人宋祁所作，词牌为《玉楼春》（又名《木兰花》），创作于其任工部尚书期间，具体创作时间不详。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：玉楼春 作者：宋祁 朝代：宋 词牌：玉楼春",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "公元1060年（宋仁宗嘉祐五年），和合撰的《新唐书》历时十余载终告完成，宋祁因撰书之功迁左丞，进工部尚书。此词应该是作于宋祁任尚书期间，但具体创作时间不详。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "⑴木兰花：原唐教坊曲名，后用为词牌名，调同“玉楼春”。",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可明确该词为北宋文人词代表作之一",
+        "创作时间可大致框定为嘉祐五年（1060）前后"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代作品",
+        "作者为欧阳修或其他宋代词人",
+        "创作于宋祁早年未仕时期"
+      ]
+    },
+    {
+      "claim_id": "claim_02_nickname",
+      "claim": "宋祁因词中“红杏枝头春意闹”一句名扬词坛，世称“红杏尚书”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "作者宋祁因词中“红杏枝头春意闹”一句而名扬词坛，被世人称作红杏尚书。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_2",
+          "text": "因《玉楼春》词中有“红杏枝头春意闹”句，世称“红杏尚书”。",
+          "locator": "作者简介二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该句在宋代及后世词评中具有极高知名度",
+        "“红杏尚书”为宋祁的文学别称"
+      ],
+      "forbidden_assertions": [
+        "宋祁因其他诗词得名",
+        "“红杏尚书”为官方正式封号"
+      ]
+    },
+    {
+      "claim_id": "claim_03_upper_scene",
+      "claim": "上片从游湖写起，通过水波、绿杨、红杏等意象勾勒出一幅色彩鲜明、生机盎然的早春图景。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "信步东城感到春光越来越好，皱纱般的水波上船儿慢摇。条条绿柳在霞光晨雾中轻摆曼舞，粉红的杏花开满枝头春意妖娆。",
+          "locator": "译文一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "此词上片从游湖写起，讴歌春色，描绘出一幅生机勃勃、色彩鲜明的早春图",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "上片侧重客观写景与主观游兴的结合",
+        "意象选取具有典型的初春物候特征"
+      ],
+      "forbidden_assertions": [
+        "上片描写的是深秋萧瑟之景",
+        "词人此时处于贬谪悲苦心境"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lower_theme",
+      "claim": "下片由景入情，感叹人生短暂欢娱少，主张及时行乐、珍惜春光，表现出对生命与光阴的珍视，并化用了“一笑倾人城”的典故抒写携妓游春时的心绪。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "下片则一反上片的明艳色彩、健朗意境，言人生如梦，虚无缥缈，匆匆即逝，因而应及时行乐，反映出“浮生若梦，为欢几何”的寻欢作乐思想。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "此处化用“一笑倾人城”的典故，抒写词人携妓游春时的心绪。结拍两句，写词人为使这次春游得以尽兴，要为同时冶游的朋友举杯挽留夕阳，请它在花丛间多陪伴些时候。这里，词人对于美好春光的留恋之情，溢于言表，跃然纸上。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "下片情感由外向内转折，体现士大夫对时光流逝的敏感",
+        "“及时行乐”在此语境中偏向积极的生命体验而非颓废放纵"
+      ],
+      "forbidden_assertions": [
+        "下片表达的是消极厌世与彻底虚无",
+        "词人主张放弃仕途归隐山林"
+      ]
+    },
+    {
+      "claim_id": "claim_05_keyword",
+      "claim": "“闹”字运用拟人手法，将烂漫的大好春光描绘得活灵活现，王国维在《人间词话》中评其“着一‘闹’字而境界全出”。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "词人以拟人手法，着一‘闹’字，将烂漫的大好春光描绘得活灵活现，呼之欲出……在《人间词话》中说：“着一‘闹’字而境界全出。”",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“闹”字是全词炼字的点睛之笔",
+        "该字打破了传统春景描写的静态局限"
+      ],
+      "forbidden_assertions": [
+        "“闹”字仅指声音嘈杂",
+        "该字为后人篡改非宋祁原笔"
+      ]
+    },
+    {
+      "claim_id": "claim_06_variant",
+      "claim": "词作第二句存在“晓云轻”与“晓寒轻”的版本异文，历代传本不一。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "绿杨烟外晓云轻",
+          "locator": "l02",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "绿杨烟外晓寒轻",
+          "locator": "原文版本二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "绿杨烟外晓寒轻",
+          "locator": "原文版本三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可提及版本差异以培养文献意识",
+        "“晓寒轻”更贴合初春清晨的体感特征"
+      ],
+      "forbidden_assertions": [
+        "两个版本必有一处为绝对错误",
+        "版本差异导致全词主旨改变"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_meanings",
+      "claim": "词中“东城”泛指城市之东；“縠皱”即皱纱，形容波纹细如皱纱；“棹”指船桨，代指船；“烟”指笼罩在杨柳梢的薄雾；“闹”意为浓盛；“浮生”指飘浮无定的短暂人生；“肯爱”意为岂肯吝惜，即不吝惜；“一笑”特指美人之笑；“晚照”指夕阳的余晖。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "东城：泛指城市之东。縠皱波纹：形容波纹细如皱纱。縠皱：即皱纱，有皱褶的纱。棹：船桨，此指船。烟：指笼罩在杨柳梢的薄雾。晓寒轻：早晨稍稍有点寒气。春意：春天的气象。闹：浓盛。浮生：指飘浮无定的短暂人生。肯爱：岂肯吝惜，即不吝惜。一笑：特指美人之笑。持酒：端起酒杯。晚照：夕阳的余晖。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "縠（hú）皱波纹：形容波纹细如皱纱。縠皱：即皱纱，有皱褶的纱。棹（zhào）：船桨，此指船。春意：的气象。闹：浓盛。浮生：指飘浮无定的短暂人生。语本《·刻意》：“其生若浮，其死若休。”肯爱：岂肯吝惜，即不吝惜。一笑：特指美人之笑。持酒：端起酒杯。《新唐书·庶人祐传》：“王毋忧，右手持酒啖，左手刀拂之。”晚照：夕阳的余晖。南朝宋武帝《》诗之一：“白日倾晚照，弦月升初光。”",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“浮生”一词带有道家或佛家对生命虚无、短暂的感悟色彩",
+        "“肯爱千金轻一笑”中的“一笑”与“千金”形成对比，突出欢娱的珍贵"
+      ],
+      "forbidden_assertions": [
+        "“肯爱”是指非常喜爱、舍不得",
+        "“棹”在词中仅指船桨本身，不代指船"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌（及异名木兰花）、作者、时代及创作大致时期。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋宋祁《玉楼春》（又名《木兰花》）",
+        "宋祁任尚书期间所作的春景词"
+      ],
+      "forbidden_claims": [
+        "该词为唐诗或五代词",
+        "作者为欧阳修或晏殊"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_upper_scene",
+      "category": "literal_meaning",
+      "description": "准确翻译上片写景句，把握水波、杨柳、杏花等意象的早春特征。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "东城春光渐好，水面如皱纱般泛起波纹迎接游船",
+        "晨雾轻笼绿柳，红杏枝头春意正浓"
+      ],
+      "forbidden_claims": [
+        "上片描写的是夏日荷塘",
+        "“縠皱”指丝绸衣物而非水波"
+      ],
+      "source_claim_ids": [
+        "claim_03_upper_scene"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "分析上下片“上景下情”的章法结构及由游春到惜春的情感转折逻辑。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上片铺陈春景，下片转入人生感慨与劝酒留春",
+        "全词遵循触景生情、情景交融的传统词体结构"
+      ],
+      "forbidden_claims": [
+        "上下片内容毫无关联",
+        "下片继续纯粹写景而无情感升华"
+      ],
+      "source_claim_ids": [
+        "claim_04_lower_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_keyword",
+      "category": "lexical",
+      "description": "解析“闹”字的修辞手法、通感效果及其在词史上的炼字地位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“闹”字以动写静，化视觉为听觉，极言春意之浓",
+        "一字点睛，使静态花枝充满生命张力"
+      ],
+      "forbidden_claims": [
+        "“闹”字仅表示声音吵闹",
+        "该字用法平淡无奇"
+      ],
+      "source_claim_ids": [
+        "claim_05_keyword"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_boundary",
+      "category": "interpretive_boundary",
+      "description": "辨析下片“浮生长恨欢娱少”与“及时行乐”思想，明确其是对生命短暂的积极珍视而非消极颓废。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "感叹人生苦短，故更应把握当下春光",
+        "宁弃千金换取片刻欢笑，体现对美好事物的执着"
+      ],
+      "forbidden_claims": [
+        "词人宣扬纵欲享乐与玩物丧志",
+        "该词主旨为怀才不遇的愤懑"
+      ],
+      "source_claim_ids": [
+        "claim_04_lower_theme"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_lexical_gloss",
+      "category": "lexical",
+      "description": "掌握词中“縠皱”、“棹”、“浮生”、“肯爱”、“晚照”等核心词汇的字词训诂与出处典故。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“縠皱”指皱纱，形容波纹细密",
+        "“浮生”指飘浮无定的短暂人生，语出《庄子·刻意》",
+        "“肯爱”表示岂肯吝惜"
+      ],
+      "forbidden_claims": [
+        "“肯爱”是肯去爱惜、非常珍惜的意思",
+        "“浮生”一词在词中指漂泊在水上的生活"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_meanings"
+      ],
+      "line_ids": [
+        "l01",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解第二句“晓云轻”与“晓寒轻”的版本异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "部分版本作“晓云轻”，部分版本作“晓寒轻”",
+        "两字之差在不同传本中均有保留"
+      ],
+      "forbidden_claims": [
+        "“晓云轻”是唯一的正确版本",
+        "“晓寒轻”是后人毫无依据的篡改"
+      ],
+      "source_claim_ids": [
+        "claim_06_variant"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_water",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "縠皱波纹（有皱褶的细纱）"
+      ],
+      "target_domain": [
+        "春水泛起的细密涟漪"
+      ],
+      "bridges": [
+        "形态相似性：水面微风吹拂产生的细密波纹与皱纱纹理高度吻合，赋予春水柔美、精致的质感。"
+      ],
+      "context_claim_ids": [
+        "claim_03_upper_scene",
+        "claim_07_lexical_meanings"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可视为对水面光影折射的写实白描，强调视觉上的细腻层次。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_willow_mist",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "烟（轻雾/云气）"
+      ],
+      "target_domain": [
+        "晨雾笼罩下的成片绿柳"
+      ],
+      "bridges": [
+        "视觉朦胧感：初春清晨水汽氤氲，柳色在薄雾中若隐若现，形态与色泽的轻盈缥缈与“烟”高度契合。"
+      ],
+      "context_claim_ids": [
+        "claim_03_upper_scene",
+        "claim_07_lexical_meanings"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "或指柳絮初飞、随风飘散如轻烟的物候动态。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_apricot_spring",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "闹（喧闹/浓盛/动态声响）"
+      ],
+      "target_domain": [
+        "红杏繁花盛开、生机勃发的春日气象"
+      ],
+      "bridges": [
+        "通感与拟人：以听觉/动态的“闹”字激活视觉静态的花枝，将无形的春意具象化为可感知的喧腾与热烈，凸显生命力之旺盛。"
+      ],
+      "context_claim_ids": [
+        "claim_05_keyword",
+        "claim_07_lexical_meanings"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "王国维评其“境界全出”，亦有学者认为“闹”字稍显雕琢，但整体公认其传神地捕捉了春意的浓度与张力。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_sunset_time",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "斜阳/晚照（夕阳余晖）"
+      ],
+      "target_domain": [
+        "易逝的春光与短暂的人生欢愉"
+      ],
+      "bridges": [
+        "时间属性隐喻：自然景象的日暮西沉隐喻美好时光的流逝，劝留斜阳实为挽留青春与当下的欢娱。"
+      ],
+      "context_claim_ids": [
+        "claim_04_lower_theme",
+        "claim_07_lexical_meanings"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "仅作为实景描写，表达游兴未尽、贪恋花间美景的直白诉求，未必承载深层生命隐喻。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_author",
+      "description": "清晰呈现词牌、作者、朝代及全词文本，配合舒缓古风配乐，奠定典雅基调。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现字幕",
+        "旁白朗读时同步显示原文与简体对照"
+      ],
+      "forbidden_realizations": [
+        "漏掉词牌或作者信息",
+        "擅自改动原诗词字而不加标注"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_author_intro",
+      "semantic_role": "title_and_author_intro"
+    },
+    {
+      "requirement_id": "vis_02_spring_scenery",
+      "description": "展现东城春水、绿杨、红杏的早春画卷，突出色彩对比与动态生机，配合上片朗读。",
+      "acceptable_realizations": [
+        "镜头由水面波纹推至岸边绿柳，最后聚焦枝头红杏",
+        "使用暖色调与柔光渲染初春明媚氛围"
+      ],
+      "forbidden_realizations": [
+        "画面呈现秋冬枯败景象",
+        "红杏画面暗淡无光或比例失调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_water",
+        "meta_02_willow_mist",
+        "meta_03_apricot_spring"
+      ],
+      "expected_phase": "spring_landscape_visualization",
+      "semantic_role": "spring_landscape_visualization"
+    },
+    {
+      "requirement_id": "vis_03_emotional_shift",
+      "description": "画面由明艳春景渐转为人物独酌或宴饮场景，光影微暗以烘托人生感慨与惜时情绪。",
+      "acceptable_realizations": [
+        "镜头拉远展现游春人群，随后聚焦词人举杯沉思",
+        "背景音加入轻微风声或更漏声暗示时光流逝"
+      ],
+      "forbidden_realizations": [
+        "画面持续保持高饱和度喧闹场景",
+        "人物表情呈现绝望或颓废状态"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "philosophical_transition_and_reflection",
+      "semantic_role": "philosophical_transition_and_reflection"
+    },
+    {
+      "requirement_id": "vis_04_sunset_retention",
+      "description": "视觉聚焦于花间斜阳余晖，配合举杯挽留的动作，强化惜时与珍视当下的主题。",
+      "acceptable_realizations": [
+        "逆光拍摄花枝与夕阳，人物举杯向天",
+        "字幕同步显示“且向花间留晚照”并渐隐"
+      ],
+      "forbidden_realizations": [
+        "斜阳画面突兀消失或转为黑夜",
+        "人物动作与词意“劝斜阳”完全脱节"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_04_sunset_time"
+      ],
+      "expected_phase": "urging_sunset_in_flower_grove",
+      "semantic_role": "urging_sunset_in_flower_grove"
+    },
+    {
+      "requirement_id": "vis_05_variant_note",
+      "description": "可选展示“晓云轻”与“晓寒轻”版本差异，辅助学术严谨性，以浮动注释形式呈现。",
+      "acceptable_realizations": [
+        "屏幕侧边以小字标注版本异文",
+        "教师口播简要说明文献流传情况"
+      ],
+      "forbidden_realizations": [
+        "将异文作为唯一正确版本强行替换原句",
+        "完全忽略版本差异导致学生认知单一"
+      ],
+      "importance": 1,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "textual_variant_annotation",
+      "semantic_role": "textual_variant_annotation"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_022_01",
+      "description": "宋祁与欧阳修等人合撰《新唐书》，历时十余载。",
+      "audio_triggers": [
+        "新唐书",
+        "合修",
+        "十余载"
+      ],
+      "visual_evidence": [
+        "宋代文臣在书案前查阅古籍、撰写史书的场景",
+        "桌案上的书简、毛笔、砚台等书写工具"
+      ],
+      "sound_evidence": [
+        "翻阅书页声",
+        "毛笔书写声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_022_02",
+      "description": "公元1060年（嘉祐五年），《新唐书》终告完成，宋祁因修书之功进工部尚书。",
+      "audio_triggers": [
+        "告成",
+        "工部尚书",
+        "嘉祐五年"
+      ],
+      "visual_evidence": [
+        "宋代朝廷颁布任命的场景",
+        "宋祁身着相应品级的宋代官服"
+      ],
+      "sound_evidence": [
+        "宣读诏书声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_022_03",
+      "description": "通常认为在宋祁任尚书期间（具体创作时间不可确考），他春日游湖，感叹浮生若梦，为挽留春光写下此词。因词中“红杏枝头春意闹”一句，后世称其为“红杏尚书”。",
+      "audio_triggers": [
+        "游湖",
+        "浮生",
+        "红杏尚书"
+      ],
+      "visual_evidence": [
+        "春日城东湖畔，绿杨繁茂、红杏盛开",
+        "水面波纹荡漾，停靠着迎客的船只",
+        "宋祁在花间举起酒杯，面向夕阳敬酒"
+      ],
+      "sound_evidence": [
+        "春鸟鸣叫声",
+        "水波拍岸声",
+        "斟酒声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "东城渐觉风光好，",
+      "pronunciation": "dōng chéng jiàn jué fēng guāng hǎo ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "縠皱波纹迎客棹。",
+      "pronunciation": "hú zhòu bō wén yíng kè zhào 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "绿杨烟外晓云轻，",
+      "pronunciation": "lǜ yáng yān wài xiǎo yún qīng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "红杏枝头春意闹。",
+      "pronunciation": "hóng xìng zhī tóu chūn yì nào 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "浮生长恨欢娱少，",
+      "pronunciation": "fú shēng cháng hèn huān yú shǎo ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "肯爱千金轻一笑？",
+      "pronunciation": "kěn ài qiān jīn qīng yī xiào ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "为君持酒劝斜阳，",
+      "pronunciation": "wèi jūn chí jiǔ quàn xié yáng ，",
+      "accepted_variants": [
+        "wèi jūn chí jiǔ quàn xiá yáng ，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "且向花间留晚照。",
+      "pronunciation": "qiě xiàng huā jiān liú wǎn zhào 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "玉楼春",
+      "pronunciation": "yù lóu chūn",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "宋祁",
+      "pronunciation": "sòng qí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "欧阳修",
+      "pronunciation": "ōu yáng xiū",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "红杏尚书",
+      "pronunciation": "hóng xìng shàng shū",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "新唐书",
+      "pronunciation": "xīn táng shū",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "嘉祐",
+      "pronunciation": "jiā yòu",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "縠皱",
+      "pronunciation": "hú zhòu",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "棹",
+      "pronunciation": "zhào",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_022_01",
+      "source_event_id": "evt_022_01",
+      "target_event_id": "evt_022_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_022_02",
+      "source_event_id": "evt_022_02",
+      "target_event_id": "evt_022_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/022.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/022.json",
+      "event_gold": "gold_annotation/songci_300/022.json"
+    },
+    "original_sample_id": "022",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

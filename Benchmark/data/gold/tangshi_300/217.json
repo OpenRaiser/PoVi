@@ -1,0 +1,693 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_217",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《登高》是唐代现实主义诗人杜甫创作的七言律诗，属于杜诗沉郁顿挫风格的代表性作品，被后世誉为\"七律之冠\"。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌基本信息标注为唐杜甫所作七言律诗《登高》",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "原文版本收录全诗八句，符合七言律诗格律",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "此诗被誉为\"七律之冠\"",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "也是最能代表杜甫沉郁顿挫风格的七律之一",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将此诗作为唐代七言律诗的典范案例进行格律讲解",
+        "可将其作为杜甫沉郁顿挫诗风的代表性篇目分析"
+      ],
+      "forbidden_assertions": [
+        "将此诗归为其他朝代作者的作品",
+        "否定此诗的七言律诗体裁属性"
+      ]
+    },
+    {
+      "claim_id": "claim_02_literal_paraphrase",
+      "claim": "诗中核心字词的公认释义为：猿啸哀指三峡中猿猴凄厉的叫声，渚指水中的小洲，落木指秋天飘落的树叶，万里指远离故乡，百年借指晚年，艰难兼指国运和自身命运，繁霜鬓指鬓边白发增多如覆霜雪，新停指杜甫因肺病新近戒酒。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "注释一对所有核心字词的含义逐一作出解释",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "注释二对核心字词释义与注释一基本吻合",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "注释三补充说明新停是杜甫因肺疾刚刚戒酒",
+          "locator": "注释三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可基于公认释义对全诗进行逐句白话翻译",
+        "可结合字词释义拆解诗句的多层含义"
+      ],
+      "forbidden_assertions": [
+        "将\"艰难\"仅解释为个人生活困苦而完全忽略国运层面的含义",
+        "将\"百年\"直接解释为人生整整一百年"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure_feature",
+      "claim": "全诗八句全部对仗，不仅上下句对，而且还有句中自对。前四句写登高所见的夔州秋江景色，后四句抒发长年漂泊、老病孤愁、忧国伤时的复杂情感，情景高度交融。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "赏析二指出此诗八句皆对，前半写景后半抒情，句中自对如天对风、高对急、沙对渚、白对清",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "赏析三评价全诗笔势雄骏奔放，前四句写景后四句承情对结",
+          "locator": "赏析三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将此诗作为全对仗七言律诗的典型案例讲解古典诗歌对仗技巧",
+        "可分析景与情的逐层递进关系"
+      ],
+      "forbidden_assertions": [
+        "声称此诗只有中间两联对仗首尾不对仗",
+        "将全诗内容判定为纯粹写景没有情感抒发"
+      ]
+    },
+    {
+      "claim_id": "claim_04_creation_context",
+      "claim": "该诗作于唐代宗大历二年（767年）重阳节，时杜甫56岁，漂泊居于夔州，贫病交加。当时安史之乱虽已结束四年，但地方军阀割据混战，杜甫因严武病逝失去依靠，买舟南下，生活困苦，个人悲剧与时代苦难高度统一。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "创作背景二说明诗作于大历二年重阳杜甫漂泊夔州身患肺病时，折射安史之乱后唐王朝衰败",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "创作背景三说明当时安史之乱结束四年但军阀混战，严武病逝杜甫失去依靠，生活困苦身体极差",
+          "locator": "创作背景三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "赏析四说明诗作于767年重阳节夔州登高之时",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合安史之乱后的时代背景理解杜甫的忧国伤时情怀",
+        "可联系杜甫晚年漂泊的人生轨迹解读诗中的悲愁情绪"
+      ],
+      "forbidden_assertions": [
+        "声称此诗作于杜甫青年漫游时期",
+        "将创作地点判定为长安或成都"
+      ]
+    },
+    {
+      "claim_id": "claim_05_image_implication",
+      "claim": "诗中无边落木、不尽长江的意象，不仅是实景描写，也暗含韶光易逝、壮志难酬的感怆，以及绵延不绝无法排遣的羁旅愁思。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "赏析二指出无边不尽无形中传达出韶光易逝壮志难酬的感怆，羁旅愁与孤独感就像落叶和江水一样推排不尽",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引导 student 结合自身生命体验理解意象背后的人生感慨",
+        "可对比其他唐诗中江水落叶意象的不同表达"
+      ],
+      "forbidden_assertions": [
+        "将落木长江的意象强行绑定某一具体历史事件的隐喻而无文本支撑"
+      ]
+    },
+    {
+      "claim_id": "claim_06_title_variant",
+      "claim": "《登高》一诗在部分版本中亦作《九日登高》，古代农历九月九日重阳节有登高的习俗。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "注释二指出：诗题一作《九日登高》。古代农历九月九日有登高习俗。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗歌的创作契机与重阳节登高避灾、思亲的传统习俗密切相关"
+      ],
+      "forbidden_assertions": [
+        "认为《九日登高》是另一首完全不同的诗作"
+      ]
+    },
+    {
+      "claim_id": "claim_07_rhyme_feature",
+      "claim": "此诗在格律上具有奇特之处，作为对起的首句，末字常用仄声，此诗首句末字“哀”却用平声入韵，被前人赞为“格奇而变”。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "赏析二引沈德潜或《唐诗别裁》赞语：起二句对举之中仍复用韵，格奇而变。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "杜甫在遵循严密格律的同时，展现了极高的艺术创造力和格律变化技巧"
+      ],
+      "forbidden_assertions": [
+        "认为此诗首句不入韵或不符合律诗格律"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《登高》的题名、作者、朝代、体裁以及后世定位",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《登高》是唐代杜甫创作的经典七言律诗，被称为七律之冠",
+        "杜甫的《登高》是代表其沉郁顿挫风格的经典唐诗"
+      ],
+      "forbidden_claims": [
+        "《登高》是李白的作品",
+        "《登高》是五言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "掌握《登高》的创作时间、地点以及杜甫当时的人生处境和对应的时代背景",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《登高》作于767年杜甫漂泊夔州之时，安史之乱后国运衰败，诗人贫病孤愁",
+        "杜甫晚年在夔州独自登高，触景生情写下这首诗"
+      ],
+      "forbidden_claims": [
+        "这首诗是杜甫在长安做官时写的",
+        "创作时安史之乱尚未爆发"
+      ],
+      "source_claim_ids": [
+        "claim_04_creation_context"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握诗中核心重点字词的准确含义，尤其是多义字词的语境义",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "艰难既指国家动荡也指个人命运坎坷",
+        "百年在这里指杜甫的晚年而非人的一生"
+      ],
+      "forbidden_claims": [
+        "新停指杜甫主动戒酒享乐",
+        "渚指江边的沙滩"
+      ],
+      "source_claim_ids": [
+        "claim_02_literal_paraphrase"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "理解全诗八句全对仗的结构特点，以及前半景后半情的逐层推进逻辑",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "首联颔联写登高所见秋景，颈联尾联抒发个人身世与家国之悲",
+        "全诗不仅句间对仗还有句中自对，格律极其严谨"
+      ],
+      "forbidden_claims": [
+        "这首诗只有颈联颔联是对仗的",
+        "全诗全部内容都是直接抒情没有写景"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_literal_meaning",
+      "category": "literal_meaning",
+      "description": "能够准确逐句翻译全诗的字面含义，把握表层写景与抒情内容",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "风急天高猿猴啼叫十分凄哀，水清沙白的洲渚上鸟儿在急风中盘旋",
+        "无边无际的落叶萧萧飘落，望不到头的长江滚滚奔腾而来"
+      ],
+      "forbidden_claims": [
+        "诗中描写的是春日登高的景色",
+        "杜甫登高时身边有亲友相伴一同宴饮"
+      ],
+      "source_claim_ids": [
+        "claim_02_literal_paraphrase"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解诗题的异名版本及其与重阳节登高习俗的关联",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "此诗又名《九日登高》，九日即农历九月九日重阳节，有登高的习俗"
+      ],
+      "forbidden_claims": [
+        "此诗与重阳节没有任何时间或习俗上的关联"
+      ],
+      "source_claim_ids": [
+        "claim_06_title_variant"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_frost_hair",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "霜雪"
+      ],
+      "target_domain": [
+        "鬓边生出的大量白发"
+      ],
+      "bridges": [
+        "霜雪的颜色为纯白色，与老年人生出的白发颜色高度相似",
+        "注释中明确标注繁霜鬓意为鬓边白发增多如覆霜雪"
+      ],
+      "context_claim_ids": [
+        "claim_02_literal_paraphrase"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "霜也可暗喻人生晚景的寒凉凄苦，对应杜甫晚年的困顿处境"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_river_leaf_sorrow",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "萧萧而下的无边落木",
+        "滚滚奔涌的不尽长江"
+      ],
+      "target_domain": [
+        "绵延无尽无法排遣的羁旅愁思",
+        "一去不复返的流逝时光与壮志难酬的生命怅惘"
+      ],
+      "bridges": [
+        "落木萧萧飘落没有尽头，对应愁绪源源不断无法停止",
+        "长江滚滚东流永不停歇，对应时光一去不返、人生悲感推排不尽"
+      ],
+      "context_claim_ids": [
+        "claim_05_image_implication"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "落木长江也可象征宇宙时空的浩茫，反衬个人身世的渺小孤绝"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "清晰呈现《登高》的诗题、作者、朝代信息，完整展示全诗无错字",
+      "acceptable_realizations": [
+        "开场以书法题签形式展示诗题与杜甫署名，随后逐行同步呈现全诗字幕配合朗读",
+        "背景搭配古雅的秋山远景，文字排版清晰醒目"
+      ],
+      "forbidden_realizations": [
+        "出现作者名、诗题错字",
+        "诗句顺序错乱或漏字"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_poem_recitation",
+      "semantic_role": "opening_title_and_poem_recitation"
+    },
+    {
+      "requirement_id": "vis_02_foreground_scene",
+      "description": "还原首联颔联的登高所见秋江实景，呈现风急、猿啸、渚清沙白、飞鸟盘旋、落木萧萧、长江滚滚的画面",
+      "acceptable_realizations": [
+        "镜头从高空俯瞰三峡秋景，依次扫过峡江两岸、洲渚飞鸟、漫山落叶、奔涌长江",
+        "搭配猿啸风声、落叶声、江水奔腾的背景音效"
+      ],
+      "forbidden_realizations": [
+        "将秋景渲染为暖色调的春日风光",
+        "画面中出现与三峡秋江无关的现代建筑元素"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_river_leaf_sorrow"
+      ],
+      "expected_phase": "autumn_river_scene_depiction",
+      "semantic_role": "autumn_river_scene_depiction"
+    },
+    {
+      "requirement_id": "vis_03_climb_and_express",
+      "description": "呈现杜甫独自登高的人物形象，呼应万里悲秋常作客、百年多病独登台的诗句意境",
+      "acceptable_realizations": [
+        "镜头聚焦身着旧衣、身形憔悴的老年杜甫独自站在高台之上，眺望远方江景",
+        "背景可叠加漂泊行舟、战乱残迹的淡入画面暗示身世与时代背景"
+      ],
+      "forbidden_realizations": [
+        "画面中出现多名亲友陪同杜甫登高宴饮的场景",
+        "将杜甫塑造为意气风发的青年形象"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "lone_poet_climb_and_mourn",
+      "semantic_role": "lone_poet_climb_and_mourn"
+    },
+    {
+      "requirement_id": "vis_04_final_emotion_resonance",
+      "description": "呈现繁霜鬓、新停浊酒杯的细节画面，呼应尾联忧国伤时的深沉悲感",
+      "acceptable_realizations": [
+        "特写杜甫鬓边斑白的头发，再转到他手边搁置的空酒杯，镜头缓缓拉远回到浩茫秋江远景",
+        "画面色调转为沉郁冷调，突出悲凉氛围"
+      ],
+      "forbidden_realizations": [
+        "画面最后呈现杜甫开怀畅饮的欢乐场景",
+        "强行添加不符合诗意的喜庆元素"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_frost_hair"
+      ],
+      "expected_phase": "sorrowful_emotion_climax",
+      "semantic_role": "sorrowful_emotion_climax"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_217_01",
+      "description": "安史之乱虽已结束数年，但地方军阀仍不断乘时而起相互争夺，唐朝国势衰败，社会持续动荡，这为杜甫晚年的漂泊生活奠定了时代背景。",
+      "audio_triggers": [
+        "安史之乱",
+        "军阀",
+        "争夺",
+        "国势衰败",
+        "动荡"
+      ],
+      "visual_evidence": [
+        "唐代衰败的城镇街道",
+        "流离失所的难民",
+        "破败的战旗与军事调动的景象"
+      ],
+      "sound_evidence": [
+        "沉重压抑的背景音乐",
+        "远处的战马嘶鸣声或风沙声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_217_02",
+      "description": "严武病逝后，杜甫在成都失去依托，被迫离开草堂买舟南下，经过数月辗转，最终客居于夔州（今重庆奉节）。",
+      "audio_triggers": [
+        "严武病逝",
+        "失去依靠",
+        "离开成都",
+        "买舟南下",
+        "夔州"
+      ],
+      "visual_evidence": [
+        "江面上漂泊的木船",
+        "唐代平民服饰的忧郁文人",
+        "随身携带的简陋行李"
+      ],
+      "sound_evidence": [
+        "江水拍打船体的声音",
+        "沉缓的划桨声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_217_03",
+      "description": "在夔州滞留的三年间，五十六岁的杜甫生活困苦，身患肺病等多种疾病，须发皆白，且因肺病新近停止了饮酒。",
+      "audio_triggers": [
+        "五十六岁",
+        "生活困苦",
+        "多病",
+        "须发皆白",
+        "停杯",
+        "戒酒"
+      ],
+      "visual_evidence": [
+        "满头白发、面容憔悴的老者",
+        "简陋的居所陈设",
+        "桌上放置的药碗与空酒杯"
+      ],
+      "sound_evidence": [
+        "断续的咳嗽声",
+        "叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_217_04",
+      "description": "通常认为在大历二年（767年）秋天的重阳节，杜甫独自登上夔州白帝城外的高台眺望远方。",
+      "audio_triggers": [
+        "大历二年",
+        "重阳节",
+        "登高",
+        "白帝城",
+        "独自登上"
+      ],
+      "visual_evidence": [
+        "秋日斑驳的落叶与树木",
+        "老者独自攀登石阶的背影",
+        "高台之上俯瞰峡江的视野"
+      ],
+      "sound_evidence": [
+        "拄杖点地的脚步声",
+        "秋风呼啸的声音"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_217_05",
+      "description": "面对无边落叶与滚滚长江的苍凉秋景，杜甫百感交集，将身世飘零的孤愁与国运衰退的感叹融为一体，写下了被誉为“七律之冠”的《登高》。",
+      "audio_triggers": [
+        "写下",
+        "登高",
+        "七律之冠",
+        "百感交集",
+        "千古绝唱"
+      ],
+      "visual_evidence": [
+        "高台上迎风伫立的诗人",
+        "奔腾不息的长江与盘旋的飞鸟（意象转化）",
+        "提笔挥毫写下诗句的特写"
+      ],
+      "sound_evidence": [
+        "江水滚滚奔腾的声音",
+        "猿猴凄厉的啼叫声",
+        "悲壮深沉的古琴或管弦乐"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "风急天高猿啸哀，",
+      "pronunciation": "fēng jí tiān gāo yuán xiào āi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渚清沙白鸟飞回。",
+      "pronunciation": "zhǔ qīng shā bái niǎo fēi huí。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无边落木萧萧下，",
+      "pronunciation": "wú biān luò mù xiāo xiāo xià，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不尽长江滚滚来。",
+      "pronunciation": "bù jìn cháng jiāng gǔn gǔn lái。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "万里悲秋常作客，",
+      "pronunciation": "wàn lǐ bēi qiū cháng zuò kè，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "百年多病独登台。",
+      "pronunciation": "bǎi nián duō bìng dú dēng tái。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "艰难苦恨繁霜鬓，",
+      "pronunciation": "jiān nán kǔ hèn fán shuāng bìn，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "潦倒新停浊酒杯。",
+      "pronunciation": "liáo dǎo xīn tíng zhuó jiǔ bēi。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杜甫",
+      "pronunciation": "dù fǔ",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "严武",
+      "pronunciation": "yán wǔ",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "夔州",
+      "pronunciation": "kuí zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "白帝城",
+      "pronunciation": "bái dì chéng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "大历",
+      "pronunciation": "dà lì",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_217_01",
+      "source_event_id": "evt_217_01",
+      "target_event_id": "evt_217_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_217_02",
+      "source_event_id": "evt_217_02",
+      "target_event_id": "evt_217_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_217_03",
+      "source_event_id": "evt_217_03",
+      "target_event_id": "evt_217_05",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_217_04",
+      "source_event_id": "evt_217_04",
+      "target_event_id": "evt_217_05",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/217.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/217.json",
+      "event_gold": "gold_annotation/tangshi_300/217.json"
+    },
+    "original_sample_id": "217",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

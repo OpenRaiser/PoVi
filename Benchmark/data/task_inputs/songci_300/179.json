@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "039_songci_179_db8565e2b2d1",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "青玉案",
+    "author": "辛弃疾",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "东风夜放花千树，更吹落、星如雨。\n宝马雕车香满路，凤箫声动，玉壶光转，一夜鱼龙舞。\n蛾儿雪柳黄金缕，笑语盈盈暗香去。\n众里寻他千百度；蓦然回首，那人却在，灯火阑珊处。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "东风夜放花千树，更吹落、星如雨。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "宝马雕车香满路，凤箫声动，玉壶光转，一夜鱼龙舞。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "蛾儿雪柳黄金缕，笑语盈盈暗香去。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "众里寻他千百度；蓦然回首，那人却在，灯火阑珊处。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "db8565e2b2d1a83e19f2ae40",
+    "global_index": 39
+  }
+}

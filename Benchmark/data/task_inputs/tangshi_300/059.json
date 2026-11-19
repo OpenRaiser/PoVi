@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "026_tangshi_059_128ca7de8038",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "登幽州台歌",
+    "author": "陈子昂",
+    "dynasty": "唐",
+    "form": "七言古诗",
+    "text": "前不见古人，后不见来者。\n念天地之悠悠，独怆然而涕下。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "前不见古人，后不见来者。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "念天地之悠悠，独怆然而涕下。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "128ca7de8038415a0d6e6b53",
+    "global_index": 26
+  }
+}

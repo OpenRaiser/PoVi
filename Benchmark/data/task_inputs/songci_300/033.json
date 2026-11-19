@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "042_songci_033_ad7f828d9269",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "雨霖铃",
+    "author": "柳永",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "寒蝉凄切，对长亭晚，骤雨初歇。\n都门帐饮无绪，留恋处、兰舟催发。\n执手相看泪眼，竟无语凝噎。\n念去去、千里烟波，暮霭沉沉楚天阔。\n多情自古伤离别，更那堪、冷落清秋节！\n今宵酒醒何处？\n杨柳岸、晓风残月。\n此去经年，应是良辰好景虚设。\n便纵有千种风情，更与何人说。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "寒蝉凄切，对长亭晚，骤雨初歇。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "都门帐饮无绪，留恋处、兰舟催发。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "执手相看泪眼，竟无语凝噎。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "念去去、千里烟波，暮霭沉沉楚天阔。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "多情自古伤离别，更那堪、冷落清秋节！"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "今宵酒醒何处？"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "杨柳岸、晓风残月。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "此去经年，应是良辰好景虚设。"
+      },
+      {
+        "line_id": "l09",
+        "order": 9,
+        "text": "便纵有千种风情，更与何人说。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "ad7f828d926984127285fb79",
+    "global_index": 42
+  }
+}

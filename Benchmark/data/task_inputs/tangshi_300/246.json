@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "061_tangshi_246_f5267d90a25c",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "鹿柴",
+    "author": "王维",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "text": "空山不见人，但闻人语响。\n返景入深林，复照青苔上。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "空山不见人，但闻人语响。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "返景入深林，复照青苔上。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "f5267d90a25c18945e16079e",
+    "global_index": 61
+  }
+}

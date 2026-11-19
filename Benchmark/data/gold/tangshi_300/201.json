@@ -1,0 +1,707 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_201",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《锦瑟》是晚唐诗人李商隐创作的七言律诗，为其最具代表性的经典诗作之一，约作于作者晚年。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据标注题名锦瑟、作者李商隐、朝代唐、体裁七言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "公开古诗文库收录的《锦瑟》标准文本与给定原诗完全一致",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "李商隐为晚唐杰出诗人，七律成就极高，《锦瑟》是其代表作",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将《锦瑟》作为李商隐朦胧诗风的典型案例引入",
+        "可说明该诗属于晚唐七律的经典作品"
+      ],
+      "forbidden_assertions": [
+        "声称《锦瑟》是宋代其他诗人的作品",
+        "将该诗体裁误判为五言绝句或古体诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_lexical_basics",
+      "claim": "诗中“无端”意为无缘无故、怨怪之辞，古瑟常规为二十五弦，诗中五十弦暗合断弦意象，奠定全诗追忆感伤的情感基调。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "无端：犹何故，怨怪之词；五十弦是托古之词，原意是说锦瑟本应是二十五弦",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "此诗创作于妻子死后，故五十弦有断弦之意",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将五十弦的意象与丧妻、人生残缺的感伤情绪关联讲解",
+        "可说明首句的怨怪语气是全诗情感的起点"
+      ],
+      "forbidden_assertions": [
+        "声称唐代瑟的常规形制就是五十弦，没有其他弦数",
+        "将“无端”解释为特意、有目的的含义"
+      ]
+    },
+    {
+      "claim_id": "claim_03_four_allusions",
+      "claim": "诗歌颔联、颈联共嵌入四个经典典故：庄周梦蝶、望帝化鹃、鲛人泣珠、蓝田玉生烟，分别承载不同的怅惘情绪维度。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "注释详细拆解四个典故的原始出处与诗中表意",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗人大量借用庄生梦蝶、杜鹃啼血、沧海珠泪、蓝田生烟等典故，组合成朦胧意境",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可分别梳理四个典故的原始含义与在本诗中的引申义差异",
+        "可说明四个典故共同构建了全诗幽约朦胧的审美特质"
+      ],
+      "forbidden_assertions": [
+        "声称诗中四个典故是李商隐原创，没有前代文献依据",
+        "随意删减其中任意一个典故的讲解"
+      ]
+    },
+    {
+      "claim_id": "claim_04_multi_interpretations",
+      "claim": "千年来学界对《锦瑟》的主旨解读众说纷纭，主流说法包括悼亡、自伤身世、咏音乐、自叙诗歌创作等，不存在唯一确定的权威定论。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "千百年来众说纷纭，莫衷一是，大体而言以悼亡和自伤说者为多",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "对《锦瑟》一诗的创作意旨历来众说纷纭，莫衷一是，有多种不同解读方向",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可向学生说明该诗的多义性特征，鼓励合理的个性化解读",
+        "可重点介绍流传最广的悼亡说与自伤身世说的核心依据"
+      ],
+      "forbidden_assertions": [
+        "声称某一种解读是绝对唯一的标准答案，否定其他合理解读的可能性",
+        "随意编造没有文献支撑的新奇主旨解读"
+      ]
+    },
+    {
+      "claim_id": "claim_05_structure_feature",
+      "claim": "全诗结构首尾呼应，首联以思华年总起，颔颈联铺陈四个典故意象，尾联以“惘然”收束全篇，形成完整的追忆抒情脉络。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "尾联拢束全篇，明白提出“此情”二字，与开端的“华年”相为呼应",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "尾联与首联的“思华年”呼应，收拢全篇",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可按照七言律诗起承转合的常规结构拆解本诗的行文逻辑",
+        "可说明首尾呼应的设计强化了全诗的怅惘情绪闭环"
+      ],
+      "forbidden_assertions": [
+        "声称本诗结构混乱没有章法，不符合七言律诗的结构规范"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_just_is",
+      "claim": "尾联中的“只是”犹“止是”、“仅是”，有“就是”、“正是”之意。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_just",
+          "text": "只是：犹“止是”、“仅是”，有“就是”、“正是”之意。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将“只是当时已惘然”理解为“正是当时就已经感到惘然了”"
+      ],
+      "forbidden_assertions": [
+        "将“只是”完全等同于现代汉语中表示转折的“但是”"
+      ]
+    },
+    {
+      "claim_id": "claim_07_political_struggle",
+      "claim": "李商隐因卷入“牛李党争”而仕途坎坷，一生困顿不得志，其诗作多抒写个人失意与时代苦闷。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_author_1",
+          "text": "因卷入“牛李党争”而仕途坎坷，终生潦倒。诗作多抒写个人失意与时代苦闷",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_2",
+          "text": "李商隐由于被卷入“牛李党争”的政治旋涡，备受排挤，一生困顿不得志。",
+          "locator": "作者简介二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "《锦瑟》中的怅惘与失落情绪，与其一生在牛李党争中受排挤的坎坷仕途密切相关"
+      ],
+      "forbidden_assertions": [
+        "声称李商隐在牛李党争中平步青云、仕途顺遂"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确传递《锦瑟》的基本身份信息：所属朝代、作者姓名、作品体裁、在李商隐诗作中的地位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《锦瑟》是唐代诗人李商隐创作的经典七言律诗",
+        "《锦瑟》是李商隐晚年最知名的代表作之一"
+      ],
+      "forbidden_claims": [
+        "《锦瑟》是杜牧的作品",
+        "《锦瑟》是初唐时期的边塞诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_key_lexical",
+      "category": "lexical",
+      "description": "讲解诗中重点疑难字词的含义：无端、五十弦、望帝、惘然等的准确释义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“无端”就是没来由、平白无故的怨怪语气",
+        "诗里的五十弦暗指断弦，对应丧妻的悲伤"
+      ],
+      "forbidden_claims": [
+        "“无端”是特意、故意的意思",
+        "古代所有的瑟都是五十弦"
+      ],
+      "source_claim_ids": [
+        "claim_02_lexical_basics"
+      ],
+      "line_ids": [
+        "l01",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_allusion_literal_meaning",
+      "category": "literal_meaning",
+      "description": "逐一讲解诗中四个典故的原始出处与字面表意，疏通全诗的表层含义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "庄周梦蝶的典故出自《庄子》，讲的是庄周做梦分不清自己是蝴蝶还是庄周",
+        "望帝死后魂灵化成了杜鹃鸟，日夜啼鸣寄托哀思"
+      ],
+      "forbidden_claims": [
+        "四个典故都是李商隐自己编的，没有任何历史文献记载",
+        "鲛人泣珠的故事是李商隐原创的"
+      ],
+      "source_claim_ids": [
+        "claim_03_four_allusions"
+      ],
+      "line_ids": [
+        "l02",
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_04_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确说明《锦瑟》主旨多解的特征，介绍主流的几派解读，不强行灌输唯一标准答案。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "《锦瑟》的主旨千百年来没有定论，悼亡和自伤身世是认可度最高的两种说法",
+        "我们可以结合自己的人生体验对这首诗做出合理的个性化解读"
+      ],
+      "forbidden_claims": [
+        "这首诗的唯一主题就是悼念亡妻，其他所有解读都是错的",
+        "这首诗完全没有任何情感内涵，只是文字游戏"
+      ],
+      "source_claim_ids": [
+        "claim_04_multi_interpretations"
+      ],
+      "line_ids": [
+        "l01-l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_analysis",
+      "category": "structure",
+      "description": "拆解全诗起承转合的结构逻辑，点明首联与尾联“思华年”“成追忆”的首尾呼应关系。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗开头从锦瑟起兴引出对华年的追忆，结尾又收束到追忆的惘然情绪上，前后扣合非常紧密",
+        "中间两联的四个典故是对首联“思华年”内容的具体展开"
+      ],
+      "forbidden_claims": [
+        "这首诗的句子之间完全没有逻辑关联，是随意堆砌的意象",
+        "尾联和首联没有任何呼应关系"
+      ],
+      "source_claim_ids": [
+        "claim_05_structure_feature"
+      ],
+      "line_ids": [
+        "l01-l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_lexical_just",
+      "category": "lexical",
+      "description": "讲解尾联中“只是”的特殊训诂含义，指出其并非现代汉语的转折连词，而是“止是”、“仅是”、“就是”之意。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“只是”在诗中意为“就是”或“正是”，表示当时就已经无比惘然了",
+        "此处的“只是”是“止是”的意思，用以加深怅惘的语气"
+      ],
+      "forbidden_claims": [
+        "此处的“只是”仅作现代汉语的转折词‘但是’解释"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_just_is"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_historical_context_struggle",
+      "category": "historical_context",
+      "description": "介绍李商隐所处的晚唐时代背景，尤其是他卷入“牛李党争”备受排挤、一生困顿的政治遭遇，作为理解其诗歌深层哀怨的背景。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "李商隐一生卷入牛李党争，仕途坎坷，这使得他的诗歌充满了失意与时代苦闷",
+        "诗人的坎坷身世和党争背景是其写出如此深沉怅惘诗作的重要原因"
+      ],
+      "forbidden_claims": [
+        "李商隐仕途一帆风顺，从未受到政治斗争的波及"
+      ],
+      "source_claim_ids": [
+        "claim_07_political_struggle"
+      ],
+      "line_ids": [
+        "l01-l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_zhuangsheng_dream",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "庄周拂晓做梦，恍惚间以为自己化为蝴蝶，醒后分不清是自己梦为蝴蝶还是蝴蝶梦为庄周的虚幻场景"
+      ],
+      "target_domain": [
+        "诗人追忆过往华年时，感受到的人生虚实难辨、往事缥缈如梦的迷惘状态"
+      ],
+      "bridges": [
+        "庄周梦蝶的典故本身就指向物我两忘、世事虚幻的哲学体验，与诗人回望半生时分不清过往是梦还是真实的心境完全契合"
+      ],
+      "context_claim_ids": [
+        "claim_03_four_allusions"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可解读为诗人对年少时自由无拘的美好时光的短暂追忆，梦醒后只剩失落怅然"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_wangdi_cuckoo",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "古蜀望帝杜宇死后魂灵化为杜鹃鸟，将自己的春心与幽恨全部寄托在凄切啼鸣中的传说意象"
+      ],
+      "target_domain": [
+        "诗人一生无法舒展的政治抱负、郁结的人生幽恨，以及对逝去人事的深切追怀"
+      ],
+      "bridges": [
+        "望帝禅位后身死化鹃、啼血寄恨的传说，恰好对应诗人有志难伸、只能将所有心事托于诗歌抒发的人生境遇"
+      ],
+      "context_claim_ids": [
+        "claim_03_four_allusions"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可解读为诗人将自己的春心全部寄托于锦瑟弹奏出的哀怨乐声之中"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_sea_pearl_tear",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "明月照耀下的苍茫大海里，鲛人哭泣时落下的眼泪全部化为圆润珍珠的奇幻场景"
+      ],
+      "target_domain": [
+        "诗人空有高洁才华却终生沦落、饱含血泪的孤寂悲苦身世"
+      ],
+      "bridges": [
+        "鲛人泣泪成珠的设定，将最珍贵的珍珠和最悲伤的眼泪直接绑定，暗合诗人的才华如珍珠般珍贵，承载的却全是人生的悲苦"
+      ],
+      "context_claim_ids": [
+        "claim_03_four_allusions"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可解读为诗人悼念亡妻时，泪落如珠的深切悲痛情绪"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_04_lantian_jade_smoke",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "蓝田产玉的名山在暖日映照下，蕴藏在山体中的良玉升腾起朦胧烟霭，远看存在近看却摸不到的景象"
+      ],
+      "target_domain": [
+        "诗人过往的美好年华、曾经追求的理想抱负，缥缈朦胧、只留存于记忆中再也无法触及的怅惘感"
+      ],
+      "bridges": [
+        "古人认为良玉生烟是宝物精气外溢、可望而不可即的状态，恰好对应美好往事只可在回忆中遥望、再也无法亲身把握的体验"
+      ],
+      "context_claim_ids": [
+        "claim_03_four_allusions"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可解读为李商隐诗歌本身朦胧空灵、美感丰沛却难以用语言精准描摹的艺术特质"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_poem_display",
+      "description": "视频开场清晰呈现《锦瑟》的题名、作者、朝代、体裁信息，完整展示全诗无错字漏字，同步配合朗读字幕。",
+      "acceptable_realizations": [
+        "古风题签样式开场，逐行弹出诗句文本",
+        "水墨背景下渐次浮现全诗文字"
+      ],
+      "forbidden_realizations": [
+        "出现诗句错字、漏句，把作者名字写错",
+        "直接跳过诗歌基本信息介绍进入内容讲解"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_basic_introduction",
+      "semantic_role": "opening_poem_basic_introduction"
+    },
+    {
+      "requirement_id": "vis_02_first_couplet_scene",
+      "description": "呈现绘有锦纹的古瑟实物画面，五十根弦清晰可见，搭配暮年李商隐独坐瑟前抚弦沉思的场景，呼应首联思华年的情绪。",
+      "acceptable_realizations": [
+        "镜头从瑟的弦柱慢慢摇到诗人满是皱纹的手上",
+        "瑟的琴弦微微震动，背景渐次浮现模糊的青春往事残影"
+      ],
+      "forbidden_realizations": [
+        "把瑟的弦数画成二十五根且不做任何说明",
+        "出现现代钢琴等不符合时代背景的乐器"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "first_couplet_emotion_setup",
+      "semantic_role": "first_couplet_emotion_setup"
+    },
+    {
+      "requirement_id": "vis_03_four_allusion_visualization",
+      "description": "按照诗句顺序依次呈现四个典故的对应画面：彩蝶在晓雾中翩飞、春山之间杜鹃啼鸣、沧海明月下鲛人浮于海面落泪、蓝田暖日下玉气缓缓升腾，每个画面对应诗句朗读同步切换。",
+      "acceptable_realizations": [
+        "四个典故画面采用统一的朦胧水墨风格，色调随情绪从迷幻到凄清再到暖昧渐变",
+        "每个典故画面停留3-5秒，配合对应的注释文字弹出"
+      ],
+      "forbidden_realizations": [
+        "出现与典故无关的现代元素",
+        "画面切换节奏过快，观众来不及看清意象细节"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_zhuangsheng_dream",
+        "meta_02_wangdi_cuckoo",
+        "meta_03_sea_pearl_tear",
+        "meta_04_lantian_jade_smoke"
+      ],
+      "expected_phase": "middle_couplets_allusion_presentation",
+      "semantic_role": "middle_couplets_allusion_presentation"
+    },
+    {
+      "requirement_id": "vis_04_ending_sentiment_resonance",
+      "description": "呈现暮色之中诗人独立于旷野回望远方的背影场景，画面色调朦胧柔和，呼应尾联“当时已惘然”的怅惘情绪。",
+      "acceptable_realizations": [
+        "画面慢慢拉远，最终定格为全诗最后两句的文字叠加在空茫的背景上",
+        "搭配轻柔的瑟乐音效慢慢淡去"
+      ],
+      "forbidden_realizations": [
+        "用非常明亮欢快的色调呈现结尾场景",
+        "强行给出明确的主旨结论字幕限定观众的情感体验"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "closing_wangran_emotion_closure",
+      "semantic_role": "closing_wangran_emotion_closure"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_201_01",
+      "description": "中晚唐时期，李商隐卷入“牛李党争”的政治旋涡。他一生备受排挤，仕途坎坷，才华与抱负无法施展，这成为他一生惆怅惘然的时代底色。",
+      "audio_triggers": [
+        "牛李党争",
+        "备受排挤",
+        "仕途坎坷",
+        "怀才不遇",
+        "政治旋涡"
+      ],
+      "visual_evidence": [
+        "晚唐时期，身着青衫的李商隐在官衙中受到冷落，形单影只，面露郁郁不得志的神情。"
+      ],
+      "sound_evidence": [
+        "沉闷的官场环境声",
+        "沉重的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_201_02",
+      "description": "李商隐中年丧妻，经历了深切的死别之痛。后世通常认为，对亡妻的追悼（即“悼亡说”）是诱发其晚年怅惘哀思的重要因素之一，但此事与诗作的直接因果关联不可确考，存在争议。",
+      "audio_triggers": [
+        "中年丧妻",
+        "妻子死后",
+        "悼亡说",
+        "死别之痛",
+        "王氏故去"
+      ],
+      "visual_evidence": [
+        "李商隐身着素服，在孤灯下默对亡妻的遗物（或一张断裂的古瑟）流泪，神情悲凄。"
+      ],
+      "sound_evidence": [
+        "凄凉的夜风声",
+        "断续哀婉的瑟声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_201_03",
+      "description": "约大中十二年（858年）前后，李商隐在晚年病逝前写下《锦瑟》。此诗的具体创作意旨历来存在多说（如悼亡、自伤、咏物等），不可确考。通常认为，诗人借五十弦的锦瑟起兴，融入庄周梦蝶、杜鹃啼血、鲛人泣珠等典故，追忆平生，完成了这首旷世之作。",
+      "audio_triggers": [
+        "晚年",
+        "大中十二年",
+        "病逝前",
+        "写下《锦瑟》",
+        "众说纷纭",
+        "追忆华年"
+      ],
+      "visual_evidence": [
+        "晚年苍老的李商隐在书案前挥毫作诗。画面可虚幻浮现锦瑟、蝴蝶、杜鹃、沧海明珠等意象，表现诗人沉浸在追忆与惘然之中。"
+      ],
+      "sound_evidence": [
+        "毛笔书写纸张的摩擦声",
+        "缥缈空灵的锦瑟弹奏声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "锦瑟无端五十弦，",
+      "pronunciation": "jǐn sè wú duān wǔ shí xián ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一弦一柱思华年。",
+      "pronunciation": "yī xián yī zhù sī huá nián 。",
+      "accepted_variants": [
+        "yī xián yī zhù sì huá nián 。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "庄生晓梦迷蝴蝶，",
+      "pronunciation": "zhuāng shēng xiǎo mèng mí hú dié ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望帝春心托杜鹃。",
+      "pronunciation": "wàng dì chūn xīn tuō dù juān 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "沧海月明珠有泪，",
+      "pronunciation": "cāng hǎi yuè míng zhū yǒu lèi ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "蓝田日暖玉生烟。",
+      "pronunciation": "lán tián rì nuǎn yù shēng yān 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此情可待成追忆，",
+      "pronunciation": "cǐ qíng kě dài chéng zhuī yì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "只是当时已惘然。",
+      "pronunciation": "zhǐ shì dāng shí yǐ wǎng rán 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "锦瑟",
+      "pronunciation": "jǐn sè",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "李商隐",
+      "pronunciation": "lǐ shāng yǐn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "牛李党争",
+      "pronunciation": "niú lǐ dǎng zhēng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "庄周",
+      "pronunciation": "zhuāng zhōu",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "杜宇",
+      "pronunciation": "dù yǔ",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "望帝",
+      "pronunciation": "wàng dì",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "沧海",
+      "pronunciation": "cāng hǎi",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "蓝田",
+      "pronunciation": "lán tián",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_201_01",
+      "source_event_id": "evt_201_01",
+      "target_event_id": "evt_201_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_201_02",
+      "source_event_id": "evt_201_02",
+      "target_event_id": "evt_201_03",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_201_03",
+      "source_event_id": "evt_201_01",
+      "target_event_id": "evt_201_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/201.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/201.json",
+      "event_gold": "gold_annotation/tangshi_300/201.json"
+    },
+    "original_sample_id": "201",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

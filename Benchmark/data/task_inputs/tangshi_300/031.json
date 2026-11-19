@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "081_tangshi_031_20431d030da3",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "感遇·孤鸿海上来",
+    "author": "张九龄",
+    "dynasty": "唐",
+    "form": "五言古诗",
+    "text": "孤鸿海上来，池潢不敢顾。\n侧见双翠鸟，巢在三珠树。\n矫矫珍木巅，得无金丸惧？\n美服患人指，高明逼神恶。\n今我游冥冥，弋者何所慕！",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "孤鸿海上来，池潢不敢顾。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "侧见双翠鸟，巢在三珠树。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "矫矫珍木巅，得无金丸惧？"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "美服患人指，高明逼神恶。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "今我游冥冥，弋者何所慕！"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "20431d030da380e7d9df2e4c",
+    "global_index": 81
+  }
+}

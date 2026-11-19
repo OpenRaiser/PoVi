@@ -1,0 +1,727 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_097",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《金缕衣》是中唐时期流行的歌词，后世多数唐诗选本将其作者归为杜秋娘，但现存早期史料并未明确记载该作品的确切作者，作者归属存在争议。",
+      "status": "disputed",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：金缕衣，作者：杜秋娘，朝代：唐，体裁：诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这是中唐时的一首流行歌词。据说元和时镇海节度使李锜酷爱此词，常命侍妾在酒宴上演唱（见《杜秋娘诗》及自注）。歌词的作者已不可考。有的唐诗选本径题为杜秋娘作或李锜作，是不确切的。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "诗中附了一段注：“劝君莫惜金缕衣，劝君惜取少年时。花开堪折直须折，莫待无花空折枝。李锜长唱此辞。”并没有说这首七绝是谁所作，但后世多归入杜秋娘的作品，包括《唐诗三百首》。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可以向学生说明该诗常见署名杜秋娘，同时补充作者归属的史料争议",
+        "可以提及该诗在唐代作为流行歌辞广泛传播的属性"
+      ],
+      "forbidden_assertions": [
+        "直接断言该诗作者百分之百为杜秋娘",
+        "直接断言该诗作者完全为李锜所作"
+      ]
+    },
+    {
+      "claim_id": "claim_02_core_theme",
+      "claim": "本诗核心主旨为劝人珍惜少年大好时光，不要沉迷荣华富贵虚度光阴，将其简单归为宣扬及时行乐的立意是较为肤浅的解读。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此诗含意很单纯，可以用“莫负好时光”一言以蔽之。……因此，若作“行乐及时”的宗旨看似乎低了，作“珍惜时光”看，便摇曳多姿，耐人寻味。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "即圣贤惜阴之意，言近皆远。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "因此，若作“行乐及时”的宗旨看似乎过于肤浅了，作“珍惜时光”看，便摇曳多姿，耐人寻味。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以引申联系中国传统“一寸光阴一寸金”的惜时文化观念",
+        "可以引导学生结合自身成长经验理解珍惜青春时光的现实意义"
+      ],
+      "forbidden_assertions": [
+        "将本诗核心主旨完全等同于宣扬及时行乐、放纵享乐的消极观念"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical_definition",
+      "claim": "诗中“金缕衣”指缀有金线的衣服，比喻荣华富贵；“堪”意为可以、能够；“直须”意为尽管，直：直接、爽快；“莫待”意为不要等到。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "⑴金缕衣：缀有金线的衣服，比喻荣华富贵。⑶堪：可以，能够。⑷直须：尽管。直：直接，爽快。⑸莫待：不要等到。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以举例说明古代金缕衣的工艺和贵重程度，帮助学生理解其象征意义"
+      ],
+      "forbidden_assertions": [
+        "将“直须”解释为“必须等待”等和注释相悖的含义"
+      ]
+    },
+    {
+      "claim_id": "claim_04_rhetoric_feature",
+      "claim": "本诗采用先赋后比的特殊结构，前两句直抒胸臆，是赋法；后两句以譬喻生发诗意，是比义。整体运用反复咏叹的回环结构，通过“莫-须”“有-无”的对立设计形成优美的旋律感。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "一、二句式相同，都以“劝君”开始，“惜”字也两次出现……上联直抒胸臆，是赋法；下联却用了譬喻方式，是比义。……此诗一反惯例，它赋中有兴，先赋后比 ，先情语后景语，殊属别致。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以引导学生通过反复诵读体会本诗回环往复的韵律美感"
+      ],
+      "forbidden_assertions": [
+        "声称本诗完全不符合古典诗歌的韵律规则"
+      ]
+    },
+    {
+      "claim_id": "claim_05_figurative_usage",
+      "claim": "诗中以盛开的花比喻少年好时光，以及时折花比喻莫负大好青春，以无花之后空折枝比喻错过青春后的无穷悔恨与徒劳状态。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "用花来比少年好时光，用折花来比莫负大好青春，既形象又优美，创造出一个意象世界。……错过青春便会导致无穷悔恨，这种意思，此诗本来可以用但却没有用“老大徒伤悲”一类成语来表达，而紧紧朝着折花的比喻向前走，继而造出“无花空折枝”这样闻所未闻的奇语。没有沾一个悔字恨字，而“空折枝”三字却耐人寻味，富有艺术感染力。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以联系古典诗词中以花喻青春的常见意象传统进行拓展讲解"
+      ],
+      "forbidden_assertions": [
+        "声称后两句的意象和珍惜时光的主旨完全无关"
+      ]
+    },
+    {
+      "claim_id": "claim_06_aesthetic_evaluation",
+      "claim": "有观点认为，虽然《金缕衣》是杜秋娘的创作极致，是她命途变更的契机，但因其目的性和功利性过重，削弱了诗本身的风骨。",
+      "status": "licensed_interpretation",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "虽然这首《金缕衣》是杜秋娘的创作极致，是她命途变更的契机，但因其目的性和功利性过重，削弱了诗本身的风骨。",
+          "locator": "赏析三",
+          "authority": "low"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以结合杜秋娘作为李锜侍妾在酒宴上演唱的背景来理解其“功利性”的评价"
+      ],
+      "forbidden_assertions": [
+        "将“功利性过重削弱风骨”作为所有文学评论家对该诗的唯一公认定论"
+      ]
+    },
+    {
+      "claim_id": "claim_07_historical_context_details",
+      "claim": "杜秋娘15岁时成为镇海节度使李锜的妾侍。李锜造反失败后，杜秋娘被纳入宫中并受到唐宪宗宠幸。唐穆宗即位后，任命她为儿子李凑的傅姆。后李凑被废，杜秋娘赐归故乡，晚景穷老。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_author_bio_1",
+          "text": "15岁时成了李锜的妾侍。元和二年（807年），李锜正式起兵造反。后来李锜造反失败，杜秋被纳入宫中。后受到唐宪宗宠幸。元和十五年（820年）唐穆宗即位，任命她为儿子李凑的傅姆。后来李凑被废去漳王之位，杜秋赐归故乡。杜牧经过金陵时，看见她又穷又老的景况，作了《杜秋娘诗》，其序简述了杜秋娘的身世。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "杜秋娘的一生经历了极大的起落，从节度使妾侍到皇宫宠妃，再到穷老归乡"
+      ],
+      "forbidden_assertions": [
+        "杜秋娘一生荣华富贵，晚年生活极为奢华"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《金缕衣》的题名、所属朝代、常见作者署名情况，以及作者归属的史料争议点。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《金缕衣》是唐代的一首七言诗，通常署名杜秋娘，不过其确切作者在史料中存在争议",
+        "中唐时期流行的歌辞《金缕衣》，后世多将其归入杜秋娘的作品"
+      ],
+      "forbidden_claims": [
+        "《金缕衣》是宋代的作品",
+        "《金缕衣》的作者毫无疑问是杜甫"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "介绍本诗作为中唐流行宴饮歌辞的流传背景，以及和杜秋娘、李锜相关的历史记载与杜秋娘的生平遭遇。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "《金缕衣》在唐代是可以配乐演唱的流行歌辞，曾被李锜命人在酒宴上演唱，杜秋娘曾为李锜妾侍，后入宫受宠，晚景凄凉"
+      ],
+      "forbidden_claims": [
+        "这首诗是宋代官方科举考试指定的应试诗作"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity",
+        "claim_07_historical_context_details"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_explanation",
+      "category": "lexical",
+      "description": "掌握诗中重点字词“金缕衣”“堪”“直须”“莫待”的准确含义和引申义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "金缕衣是用金线缝制的华贵衣服，在这里用来指代荣华富贵",
+        "“直须”的意思是只管、爽快地去做，而“莫待”是不要等到"
+      ],
+      "forbidden_claims": [
+        "“金缕衣”指用金属制作的铠甲",
+        "“堪”的意思是“难以忍受”"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确理解全诗字面含义，梳理前两句否定华贵外物、肯定少年时光的表意逻辑。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "我劝你不要爱惜贵重的金缕衣，我劝你一定要珍惜年少的大好时光"
+      ],
+      "forbidden_claims": [
+        "诗的前两句是劝人要把金缕衣看得比青春更重要"
+      ],
+      "source_claim_ids": [
+        "claim_02_core_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_analysis",
+      "category": "structure",
+      "description": "梳理本诗回环反复、先赋后比的结构特色，理解“莫-须”正反对立的设计效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗前两句直接抒情，后两句用比喻说理，前后反复咏叹同一个核心意思却不单调"
+      ],
+      "forbidden_claims": [
+        "这首诗的四句完全没有任何结构上的关联，是零散的句子拼接"
+      ],
+      "source_claim_ids": [
+        "claim_04_rhetoric_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_theme_interpretation",
+      "category": "interpretive_boundary",
+      "description": "明确本诗的核心正向主旨是珍惜大好时光，不能简单将其误读为宣扬及时行乐的消极观念。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗的核心是劝人珍惜青春，不要虚度光阴，把它当成鼓吹享乐的作品是理解得太浅了"
+      ],
+      "forbidden_claims": [
+        "这首诗就是教人趁着年轻及时行乐，不要努力奋斗"
+      ],
+      "source_claim_ids": [
+        "claim_02_core_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_metaphor_meaning",
+      "category": "metaphor_source",
+      "description": "掌握后两句中花、折花、空折枝三个意象的比喻内涵。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "盛开的花就像人的青春，花开的时候要及时采摘，就像青春的时候要把握好时光，等花谢了只能折到空树枝，就像青春过去了只剩悔恨"
+      ],
+      "forbidden_claims": [
+        "后两句的花就是指自然界的花，没有任何比喻含义"
+      ],
+      "source_claim_ids": [
+        "claim_05_figurative_usage"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_08_aesthetic_controversy",
+      "category": "alternative_reading",
+      "description": "了解对该诗艺术风骨的争议性评价，即部分评论认为其功利性过重削弱了诗歌风骨。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "有评论指出，这首诗虽然是杜秋娘的代表作，但由于其目的性和功利性较重，在一定程度上削弱了诗歌的风骨"
+      ],
+      "forbidden_claims": [
+        "所有文学家都一致认为《金缕衣》是唐代风骨最崇高的诗歌"
+      ],
+      "source_claim_ids": [
+        "claim_06_aesthetic_evaluation"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_gold_thread_robe",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "缀有金线的华贵金缕衣"
+      ],
+      "target_domain": [
+        "世俗层面的荣华富贵、贵重物质财富"
+      ],
+      "bridges": [
+        "金缕衣本身是工艺复杂、价值极高的华贵衣物，是古代世俗社会中顶级物质财富的典型代表"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical_definition"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可直接将金缕衣解读为指代珍贵的华美衣物，不做荣华富贵的引申比喻"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_flower_youth",
+      "line_ids": [
+        "l03",
+        "l04"
+      ],
+      "source_domain": [
+        "正值盛放期的鲜花"
+      ],
+      "target_domain": [
+        "人一生中短暂珍贵的少年青春时光"
+      ],
+      "bridges": [
+        "鲜花的盛放花期十分短暂，一旦错过就不再重来，和少年时光一去不返的属性高度相似"
+      ],
+      "context_claim_ids": [
+        "claim_05_figurative_usage"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将盛开的花解读为美好的爱情机缘，指代人生中值得把握的珍贵机遇"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_empty_branch_regret",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "春残花谢之后空剩下的无花枝条"
+      ],
+      "target_domain": [
+        "虚度青春、错过所有美好机遇之后只剩追悔的空虚状态"
+      ],
+      "bridges": [
+        "花谢之后再也没有花朵可以采摘，只能折下毫无用处的空枝，对应青春逝去之后再也没有机会重来，只剩徒劳悔恨的状态"
+      ],
+      "context_claim_ids": [
+        "claim_05_figurative_usage"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将空折枝解读为错过美好爱情之后的徒劳失落状态"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_title",
+      "description": "开场清晰展示诗题《金缕衣》、常见署名作者杜秋娘、所属朝代唐的基础信息，用小字标注作者归属的史料争议提示。",
+      "acceptable_realizations": [
+        "古风题签样式的开场画面，搭配简要的背景文字说明"
+      ],
+      "forbidden_realizations": [
+        "完全不展示作品基础身份信息，直接进入诗句讲解"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_presentation",
+      "semantic_role": "opening_title_presentation"
+    },
+    {
+      "requirement_id": "vis_02_full_poem_recitation",
+      "description": "逐句展示全诗文本，同步进行配乐朗读，高亮标注“莫惜”“须惜”“直须折”“莫待”等核心对比字词。",
+      "acceptable_realizations": [
+        "动态逐行浮现诗句字幕，朗读时对应字词高亮变色"
+      ],
+      "forbidden_realizations": [
+        "出现诗句文字错漏、句序颠倒的问题"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "full_poem_recitation",
+      "semantic_role": "full_poem_recitation"
+    },
+    {
+      "requirement_id": "vis_03_first_two_lines_explain",
+      "description": "展示华贵金缕衣的实物意象画面，对比充满活力的少年人活动场景，突出物质财富远不如青春时光珍贵的表意。",
+      "acceptable_realizations": [
+        "左右分屏对比金缕衣特写和少年人读书、游玩的鲜活画面"
+      ],
+      "forbidden_realizations": [
+        "刻意渲染金缕衣的奢华贵重，引导观众崇尚物质财富"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_gold_thread_robe"
+      ],
+      "expected_phase": "first_two_lines_annotation",
+      "semantic_role": "first_two_lines_annotation"
+    },
+    {
+      "requirement_id": "vis_04_last_two_lines_metaphor",
+      "description": "先后展示春日鲜花盛放时有人及时采摘花朵，春末花落之后只剩空荡花枝的对比动态画面，直观呈现比喻的完整内涵。",
+      "acceptable_realizations": [
+        "用连贯的动画演示从花开到花谢的完整过程，对应把握时光和虚度时光的不同结果"
+      ],
+      "forbidden_realizations": [
+        "把折花画面处理成破坏自然的负面行为，完全背离原诗意象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_flower_youth",
+        "meta_03_empty_branch_regret"
+      ],
+      "expected_phase": "last_two_lines_metaphor_demonstration",
+      "semantic_role": "last_two_lines_metaphor_demonstration"
+    },
+    {
+      "requirement_id": "vis_05_theme_summary",
+      "description": "展示全诗回环结构的示意图，点明珍惜时光的核心正向主旨，提示不要误读为及时行乐。",
+      "acceptable_realizations": [
+        "用环形箭头图示展示四句诗反复咏叹的逻辑关系，搭配惜时主题的总结文字"
+      ],
+      "forbidden_realizations": [
+        "将总结部分的核心主旨替换为及时行乐的错误解读"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "theme_summary_teaching",
+      "semantic_role": "theme_summary_teaching"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_097_01",
+      "description": "唐代金陵女子杜秋，约十五岁时成为镇海节度使李锜的侍妾。",
+      "audio_triggers": [
+        "15岁",
+        "侍妾",
+        "李锜"
+      ],
+      "visual_evidence": [
+        "唐代江南府邸环境，年轻的杜秋身着唐代侍妾服饰。",
+        "禁止出现皇宫或破败的场景。"
+      ],
+      "sound_evidence": [
+        "日常府邸的环境声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_097_02",
+      "description": "李锜酷爱中唐时期的一首流行歌曲《金缕衣》，通常认为杜秋娘常在酒宴上为他演唱此词。该词的真实作者已不可确考，后世多归于杜秋娘名下。",
+      "audio_triggers": [
+        "酷爱此词",
+        "演唱",
+        "金缕衣",
+        "不可考"
+      ],
+      "visual_evidence": [
+        "唐代酒宴场景，杜秋娘正在演唱歌曲，李锜在座欣赏。",
+        "画面可配合展现“金缕衣”或“折花”的意象作为文学转化提示。"
+      ],
+      "sound_evidence": [
+        "唐代宴乐声",
+        "女子婉转的歌唱声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_097_03",
+      "description": "元和二年，李锜起兵造反失败。杜秋被纳入宫中，后来受到唐宪宗的宠幸，身份发生改变。",
+      "audio_triggers": [
+        "造反失败",
+        "纳入宫中",
+        "宠幸"
+      ],
+      "visual_evidence": [
+        "兵乱平息后的场景或唐代皇宫背景，杜秋娘更换为宫廷妃嫔装束。"
+      ],
+      "sound_evidence": [
+        "初期的兵马兵器声，后转为宫廷庄重的音乐"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_097_04",
+      "description": "唐穆宗即位后，任命杜秋为皇子漳王李凑的傅姆。后来李凑被废去王位，杜秋被赐归故乡，晚年穷老无依。",
+      "audio_triggers": [
+        "傅姆",
+        "废去",
+        "赐归故乡",
+        "又穷又老"
+      ],
+      "visual_evidence": [
+        "老年的杜秋娘身着平民粗布衣裳，形容枯槁，身处金陵简陋的民居环境之中。"
+      ],
+      "sound_evidence": [
+        "萧瑟的风声",
+        "苍老的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_097_05",
+      "description": "诗人杜牧经过金陵时，见到了穷老的杜秋娘，作《杜秋娘诗》并在此诗的注中记录了李锜爱唱《金缕衣》一事，使得此诗及其身世流传后世。",
+      "audio_triggers": [
+        "杜牧",
+        "经过金陵",
+        "作了《杜秋娘诗》"
+      ],
+      "visual_evidence": [
+        "唐代文人杜牧在金陵城中见到老年的杜秋娘，随后挥毫写下诗篇。"
+      ],
+      "sound_evidence": [
+        "挥毫写字摩擦纸张的声音"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "劝君莫惜金缕衣，",
+      "pronunciation": "quàn jūn mò xī jīn lǚ yī，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "劝君惜取少年时。",
+      "pronunciation": "quàn jūn xī qǔ shào nián shí。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "花开堪折直须折，",
+      "pronunciation": "huā kāi kān zhé zhí xū zhé，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "莫待无花空折枝。",
+      "pronunciation": "mò dài wú huā kōng zhé zhī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "金缕衣",
+      "pronunciation": "jīn lǚ yī",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "杜秋娘",
+      "pronunciation": "dù qiū niáng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "杜仲阳",
+      "pronunciation": "dù zhòng yáng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "李锜",
+      "pronunciation": "lǐ qí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "镇海节度使",
+      "pronunciation": "zhèn hǎi jié dù shǐ",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "唐宪宗",
+      "pronunciation": "táng xiàn zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "唐穆宗",
+      "pronunciation": "táng mù zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "李凑",
+      "pronunciation": "lǐ còu",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "漳王",
+      "pronunciation": "zhāng wáng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "傅姆",
+      "pronunciation": "fù mǔ",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "杜牧",
+      "pronunciation": "dù mù",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "金陵",
+      "pronunciation": "jīn líng",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_097_01",
+      "source_event_id": "evt_097_01",
+      "target_event_id": "evt_097_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_097_02",
+      "source_event_id": "evt_097_02",
+      "target_event_id": "evt_097_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_097_03",
+      "source_event_id": "evt_097_03",
+      "target_event_id": "evt_097_04",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_097_04",
+      "source_event_id": "evt_097_04",
+      "target_event_id": "evt_097_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_097_05",
+      "source_event_id": "evt_097_02",
+      "target_event_id": "evt_097_05",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/097.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/097.json",
+      "event_gold": "gold_annotation/tangshi_300/097.json"
+    },
+    "original_sample_id": "097",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

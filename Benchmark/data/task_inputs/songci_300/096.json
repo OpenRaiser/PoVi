@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "037_songci_096_5a8cd87ed339",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "卜算子",
+    "author": "李之仪",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "我住长江头，君住长江尾；\n日日思君不见君，共饮长江水。\n此水几时休？\n此恨何时已？\n只愿君心似我心，定不负相思意。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "我住长江头，君住长江尾；"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "日日思君不见君，共饮长江水。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "此水几时休？"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "此恨何时已？"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "只愿君心似我心，定不负相思意。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "5a8cd87ed339612523fe2933",
+    "global_index": 37
+  }
+}

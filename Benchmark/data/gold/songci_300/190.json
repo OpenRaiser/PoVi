@@ -1,0 +1,816 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_190",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《扬州慢》为南宋词人姜夔自度曲，其词风以清空、清雅、空灵含蓄著称，千岩老人认为此词有《黍离》之悲。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：扬州慢；作者：姜夔；朝代：宋；词牌：扬州慢",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "其词清空峻拔，如野云孤飞，去留无迹。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "因自度此曲。千岩老人以为有《黍离》之悲也。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词充分体现了作者认为的诗歌要“含蓄”和“句中有余味，篇中有余意”的主张，也是历代词人抒发“黍离之悲”而富有余味的罕有佳作。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可在教学中明确该词为姜夔首创词调，并强调其清空含蓄的艺术风格。"
+      ],
+      "forbidden_assertions": [
+        "称该词为前人旧调填词",
+        "将作者误标为唐代或明代诗人",
+        "称其词风豪放或婉约浓艳"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词作于宋孝宗淳熙三年（1176）冬至，作者二十余岁初访扬州，目睹金兵劫掠后的萧条景象而作。金兵南侵事件包括绍兴三十一年（1161）金主完颜亮南侵。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首词当作于宋孝宗淳熙三年（1176）冬至日，时二十余岁。根据词前小序所说，其时作者初访扬州。这是经过最近两次战乱洗劫过的扬州。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "公元1161年（宋高宗绍兴三十一年），金主完颜亮南侵，江淮军败，中外震骇。完颜亮不久在瓜州为其臣下所杀。根据此前小序所说，淳熙三年，姜夔因路过扬州，目睹了战争洗劫后扬州的萧条景象，抚今追昔，有感而发。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "淳熙丙申至日，予过维扬。夜雪初霁，荠麦弥望。入其城，则四顾萧条。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "创作时间可精确到1176年冬至，历史背景为金兵南侵后的战后扬州。"
+      ],
+      "forbidden_assertions": [
+        "创作于北宋时期或明清时期",
+        "背景为太平盛世游历或单纯个人羁旅思乡"
+      ]
+    },
+    {
+      "claim_id": "claim_03_imagery_contrast",
+      "claim": "词中通过“春风十里”“名都”与“荠麦青青”“废池乔木”“空城”的强烈对比，展现扬州昔盛今衰。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全词分为上下两阕。但两阕的写作手法都是运用一种鲜明对比，用昔日扬州城的繁荣兴盛景象对比现时扬州城的凋残破败惨状。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "春风十里：指昔日繁华的扬州道上。废池乔木：废毁的池台，残存的古树。二者都是乱后余物，表明城中荒芜，人烟萧条。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "上阕以今昔景物并置形成视觉与心理反差，突出战争对城市的毁灭性破坏。"
+      ],
+      "forbidden_assertions": [
+        "认为全词仅客观记录扬州春日风光",
+        "否认词中存在今昔对比结构"
+      ]
+    },
+    {
+      "claim_id": "claim_04_allusion_theme",
+      "claim": "下阕化用杜牧扬州诗境，借“杜郎”“豆蔻”“青楼”“二十四桥”反衬今日荒凉，寄托“黍离之悲”。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "词的下阕，运用典故，进一步深化了“黍离之悲”的主题。……借“杜郎”史实，逗出和反衬“难赋”之苦。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "杜郎：即杜牧。豆蔻：形容少女美艳。青楼梦好：杜牧《遣怀》诗。二十四桥：扬州城内古桥。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "千岩老人认为这首词有《黍离》的悲凉意蕴。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "杜牧典故并非单纯怀古，而是作为昔日繁华的参照系，服务于家国残破的悲叹。"
+      ],
+      "forbidden_assertions": [
+        "认为下阕主旨为追慕杜牧风流艳事",
+        "将“黍离之悲”曲解为个人仕途失意或男女离愁"
+      ]
+    },
+    {
+      "claim_id": "claim_05_technique",
+      "claim": "全词运用移情入景与乐景写哀手法，如“废池乔木，犹厌言兵”“波心荡冷月无声”“年年知为谁生”，赋予景物以悲情。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "情景交融是这首词在写作表现手法上最显著的一个特点。移情入景，乐景写哀，都是词人经常使用的手法。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "废池乔木：废毁的池台，残存的古树。红药：红芍药花，是扬州繁华时期的名花。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "景物描写并非纯客观白描，而是词人主观悲怆情感的外化与投射。"
+      ],
+      "forbidden_assertions": [
+        "认为“犹厌言兵”仅为拟人修辞游戏，无深层历史痛感",
+        "认为结句红药仅为植物学记录"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "词中“淮左”指淮南东路，扬州为首府；“竹西”指竹西亭，为扬州名胜；“胡马窥江”指金兵侵略长江流域地区，洗劫扬州；“清角”指凄清的号角声；“红药”指红芍药花。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "淮左名都：指扬州。宋朝的行政区设有淮南东路和淮南西路，扬州是淮南东路的首府，故称淮左名都。竹西：竹西亭，扬州名胜之一。胡马窥江：指金兵侵略长江流域地区，洗劫扬州。清角：凄清的号角声。红药：红芍药花，是扬州繁华时期的名花。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中词汇多有特定历史地理指代，需结合宋代行政区划及战乱背景理解。"
+      ],
+      "forbidden_assertions": [
+        "将淮左解释为淮河以西",
+        "将红药解释为普通红色草药"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代及自度曲性质。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋姜夔自创词调《扬州慢》",
+        "白石道人清空词风代表作"
+      ],
+      "forbidden_claims": [
+        "非自度曲或他人代作",
+        "作者朝代或词风描述错误"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_background",
+      "category": "historical_context",
+      "description": "掌握1176年冬至创作时间节点、金兵南侵史实及作者初访扬州的触发情境。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "作于南宋淳熙三年冬至，背景为金兵劫掠后的扬州",
+        "作者二十余岁途经维扬，见战后萧条而作"
+      ],
+      "forbidden_claims": [
+        "创作于北宋太平时期",
+        "与金兵南侵或战乱无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确理解“淮左”“竹西”“胡马窥江”“废池乔木”“清角”“红药”等专有名词与典故词义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "淮左指淮南东路，竹西为扬州名胜",
+        "胡马窥江指金兵南侵洗劫扬州"
+      ],
+      "forbidden_claims": [
+        "将淮左误释为淮河以西",
+        "将胡马解释为游牧民族日常放牧"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal",
+      "category": "literal_meaning",
+      "description": "疏通上下阕字面意思，把握“昔盛今衰”的叙事脉络与空间转换。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上阕写初至扬州所见荒凉，下阕借杜牧典故抒今昔之叹",
+        "从解鞍驻足到黄昏空城，再到桥边冷月与红药"
+      ],
+      "forbidden_claims": [
+        "上下阕内容割裂无逻辑关联",
+        "将词意曲解为单纯的游记或艳情词"
+      ],
+      "source_claim_ids": [
+        "claim_03_imagery_contrast"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "识别“废池乔木”“冷月”“红药”等核心意象及其象征指向。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "废池乔木象征战乱创伤与民生凋敝",
+        "冷月无声与桥边红药象征繁华落尽后的孤寂"
+      ],
+      "forbidden_claims": [
+        "意象仅为自然景物堆砌，无象征意义",
+        "将红药解释为爱情信物"
+      ],
+      "source_claim_ids": [
+        "claim_05_technique"
+      ],
+      "line_ids": [
+        "l03",
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_06_mapping",
+      "category": "mapping_bridge",
+      "description": "理解“犹厌言兵”“难赋深情”“知为谁生”如何实现物我交融与情感投射。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "以物之“厌”映射人之“痛”，以花之“不知”反衬人之“深知”",
+        "借杜牧“难赋”点出今昔巨变已超越传统诗词的表达极限"
+      ],
+      "forbidden_claims": [
+        "认为“厌”“难”“知”仅为语法虚词或无实指",
+        "割裂景物与词人心理的映射关系"
+      ],
+      "source_claim_ids": [
+        "claim_05_technique"
+      ],
+      "line_ids": [
+        "l03",
+        "l06",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_07_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确“黍离之悲”为家国兴亡之叹，非单纯个人羁旅或艳情。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "主旨为伤时忧国，借扬州残破寄托对南宋国势的忧虑",
+        "超越个人身世之感，上升为时代悲剧的写照"
+      ],
+      "forbidden_claims": [
+        "将全词降格为文人伤春悲秋或怀才不遇",
+        "过度聚焦青楼艳情而忽略家国底色"
+      ],
+      "source_claim_ids": [
+        "claim_04_allusion_theme"
+      ],
+      "line_ids": [
+        "l05",
+        "l06",
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_08_summary",
+      "category": "summary",
+      "description": "概括全词“以乐景写哀、今昔对比、清空含蓄”的艺术成就与思想主旨。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以繁华旧梦反衬现实荒凉，情景交融，余味深长",
+        "南宋咏史怀古词中寄托黍离之悲的典范之作"
+      ],
+      "forbidden_claims": [
+        "认为全词直白说教缺乏含蓄",
+        "忽略对比手法与清空词风的结合"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_background",
+        "claim_03_imagery_contrast",
+        "claim_04_allusion_theme",
+        "claim_05_technique"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_feichi_qiaomu",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "废毁的池台与残存的高大乔木"
+      ],
+      "target_domain": [
+        "战乱后扬州城荒芜破败的实景与百姓对战争的深恶痛绝"
+      ],
+      "bridges": [
+        "以无情之物拟人化地“厌言兵”，借残存景物折射人事凋零与集体心理创伤"
+      ],
+      "context_claim_ids": [
+        "claim_03_imagery_contrast",
+        "claim_05_technique"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为纯粹白描的废墟景观，不必然带有拟人情感",
+        "或指代南宋朝廷偏安一隅、残局难挽的政治隐喻"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_lengyue",
+      "line_ids": [
+        "l07"
+      ],
+      "source_domain": [
+        "波心荡漾的凄冷月色"
+      ],
+      "target_domain": [
+        "二十四桥昔日繁华消逝后的死寂与词人内心的孤寒"
+      ],
+      "bridges": [
+        "以“冷”修饰月，以“无声”反衬昔日玉人吹箫的喧闹，动静对照中投射出物是人非的悲凉"
+      ],
+      "context_claim_ids": [
+        "claim_04_allusion_theme",
+        "claim_05_technique"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅作为自然夜景的客观记录，强调江南水乡的清幽特质",
+        "或象征南宋国势的阴冷沉寂与历史长河的无情"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_hongyao",
+      "line_ids": [
+        "l08"
+      ],
+      "source_domain": [
+        "年年如期盛开的红芍药花"
+      ],
+      "target_domain": [
+        "无人欣赏的繁华旧梦与词人对国运衰微、知音零落的深沉喟叹"
+      ],
+      "bridges": [
+        "以乐景（名花盛放）反衬哀情（无人问津），借花之“不知”反衬人之“深知”，强化黍离之悲的余韵"
+      ],
+      "context_claim_ids": [
+        "claim_04_allusion_theme",
+        "claim_05_technique"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "实写扬州特产花卉，寄托对自然生命力顽强的赞叹",
+        "或暗指词人自身漂泊无依、才华难展的身世之悲"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_preface_context",
+      "description": "呈现词前小序（或背景图文），点明1176年冬至、初访扬州、金兵劫掠后萧条景象及“黍离之悲”主旨。",
+      "acceptable_realizations": [
+        "水墨风扬州古城残破图配小序字幕",
+        "时间轴展示1161金兵南侵至1176词作诞生"
+      ],
+      "forbidden_realizations": [
+        "忽略小序直接入词",
+        "使用明清繁华扬州图代替南宋战后景象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "historical_context_and_preface",
+      "semantic_role": "historical_context_and_preface"
+    },
+    {
+      "requirement_id": "vis_02_upper_stanza_desolation",
+      "description": "视觉化上阕“解鞍少驻”至“都在空城”的行进路线，突出“春风十里”与“荠麦青青”、“名都”与“废池乔木”的今昔对比。",
+      "acceptable_realizations": [
+        "分屏或叠化手法：左侧昔日繁华街市淡出，右侧现实荒草废池淡入",
+        "黄昏清角声配合空城全景，色调由暖转冷"
+      ],
+      "forbidden_realizations": [
+        "仅展示春日踏青美景而忽略荒凉基调",
+        "画面色彩过于明艳或配乐欢快"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_feichi_qiaomu"
+      ],
+      "expected_phase": "arrival_and_desolation",
+      "semantic_role": "arrival_and_desolation"
+    },
+    {
+      "requirement_id": "vis_03_lower_stanza_allusion",
+      "description": "呈现下阕杜牧典故与二十四桥意象，通过“波心荡冷月无声”营造清冷空灵意境，体现化实为虚的手法。",
+      "acceptable_realizations": [
+        "桥影倒映水中，冷月随波微漾，画面大量留白",
+        "叠加杜牧诗句虚影后渐隐，突出历史纵深感"
+      ],
+      "forbidden_realizations": [
+        "具象化杜牧青楼艳遇场景",
+        "使用喧闹市井音效破坏“无声”意境"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_lengyue"
+      ],
+      "expected_phase": "allusion_and_reflection",
+      "semantic_role": "allusion_and_reflection"
+    },
+    {
+      "requirement_id": "vis_04_ending_red_peony",
+      "description": "聚焦结句“念桥边红药，年年知为谁生”，以特写镜头呈现红芍药在冷寂中独自盛开的画面，强化余韵。",
+      "acceptable_realizations": [
+        "镜头缓慢推近桥畔红药，背景虚化为空城暮色",
+        "字幕以问句形式停留，留白数秒配合余音"
+      ],
+      "forbidden_realizations": [
+        "将红药处理为热闹赏花场景",
+        "提前给出明确答案破坏悬念与悲情"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_hongyao"
+      ],
+      "expected_phase": "lingering_sorrow_and_red_peony",
+      "semantic_role": "lingering_sorrow_and_red_peony"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_190_01",
+      "description": "1161年（南宋绍兴三十一年），金主完颜亮率军南侵，江淮守军战败，扬州遭到严重洗劫，化为废墟。这一历史事件成为本词的时代背景。",
+      "audio_triggers": [
+        "完颜亮南侵",
+        "金兵进犯",
+        "洗劫扬州",
+        "胡马窥江去后"
+      ],
+      "visual_evidence": [
+        "宋代城池被战火破坏的惨状",
+        "金兵骑兵入侵掠夺",
+        "废毁的池台",
+        "残存的古树和荒凉的废墟"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "兵器交击声",
+        "大火燃烧声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_190_02",
+      "description": "1176年（宋孝宗淳熙三年）冬至日，二十多岁的姜夔路过扬州，在竹西亭稍作停留。他目睹了战乱后扬州城内外长满荠麦、一片萧条的景象。",
+      "audio_triggers": [
+        "冬至日",
+        "姜夔路过扬州",
+        "竹西佳处",
+        "解鞍少驻",
+        "荠麦青青"
+      ],
+      "visual_evidence": [
+        "宋代青年文士装束的姜夔",
+        "冬日雪后初晴的冷清环境",
+        "扬州城外生满荠草和麦子",
+        "荒芜的道路和萧条的城池"
+      ],
+      "sound_evidence": [
+        "马嘶声",
+        "马蹄声",
+        "呼啸的寒风声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_190_03",
+      "description": "黄昏时分，姜夔在扬州城听到凄清的号角声，内心悲怆，感慨扬州昔日繁华与今日荒凉的对比，联想到曾在此寻欢作乐的唐代诗人杜牧，于是自创曲调并写下此词。",
+      "audio_triggers": [
+        "黄昏",
+        "清角吹寒",
+        "感慨今昔",
+        "自度此曲",
+        "黍离之悲"
+      ],
+      "visual_evidence": [
+        "姜夔在清冷的月光和荒城背景下构思",
+        "二十四桥遗迹在冷月中水波荡漾",
+        "桥边的红芍药花",
+        "禁止出现繁华喧闹的现代扬州夜景或虚构杜牧与作者同时在场"
+      ],
+      "sound_evidence": [
+        "凄厉的号角声（清角）",
+        "冷风声",
+        "水波荡漾的声音"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "淮左名都，",
+      "pronunciation": "huái zuǒ míng dū,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "竹西佳处，",
+      "pronunciation": "zhú xī jiā chù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "解鞍少驻初程。",
+      "pronunciation": "jiě ān shǎo zhù chū chéng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "过春风十里，",
+      "pronunciation": "guò chūn fēng shí lǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "尽荠麦青青。",
+      "pronunciation": "jìn jì mài qīng qīng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自胡马窥江去后，",
+      "pronunciation": "zì hú mǎ kuī jiāng qù hòu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "废池乔木，",
+      "pronunciation": "fèi chí qiáo mù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "犹厌言兵。",
+      "pronunciation": "yóu yàn yán bīng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渐黄昏，",
+      "pronunciation": "jiàn huáng hūn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "清角吹寒，",
+      "pronunciation": "qīng jiǎo chuī hán,",
+      "accepted_variants": [
+        "qīng jué chuī hán,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "都在空城。",
+      "pronunciation": "dōu zài kōng chéng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杜郎俊赏，",
+      "pronunciation": "dù láng jùn shǎng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "算而今、",
+      "pronunciation": "suàn ér jīn、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "重到须惊。",
+      "pronunciation": "chóng dào xū jīng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "纵豆蔻词工，",
+      "pronunciation": "zòng dòu kòu cí gōng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青楼梦好，",
+      "pronunciation": "qīng lóu mèng hǎo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "难赋深情。",
+      "pronunciation": "nán fù shēn qíng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "二十四桥仍在，",
+      "pronunciation": "èr shí sì qiáo réng zài,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "波心荡冷月无声。",
+      "pronunciation": "bō xīn dàng lěng yuè wú shēng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念桥边红药，",
+      "pronunciation": "niàn qiáo biān hóng yào,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "年年知为谁生？",
+      "pronunciation": "nián nián zhī wèi shuí shēng？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "姜夔",
+      "pronunciation": "jiāng kuí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "扬州慢",
+      "pronunciation": "yáng zhōu màn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "完颜亮",
+      "pronunciation": "wán yán liàng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "萧德藻",
+      "pronunciation": "xiāo dé zǎo",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "千岩老人",
+      "pronunciation": "qiān yán lǎo rén",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "淳熙",
+      "pronunciation": "chún xī",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "杜牧",
+      "pronunciation": "dù mù",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "黍离",
+      "pronunciation": "shǔ lí",
+      "category": "allusion",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_190_01",
+      "source_event_id": "evt_190_01",
+      "target_event_id": "evt_190_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_190_02",
+      "source_event_id": "evt_190_01",
+      "target_event_id": "evt_190_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_190_03",
+      "source_event_id": "evt_190_02",
+      "target_event_id": "evt_190_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/190.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/190.json",
+      "event_gold": "gold_annotation/songci_300/190.json"
+    },
+    "original_sample_id": "190",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

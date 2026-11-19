@@ -1,0 +1,732 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_011",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "作品为北宋晏殊所作《浣溪沙》，体裁为词，词牌为浣溪沙。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：浣溪沙 作者：晏殊 朝代：宋 体裁：词 词牌：浣溪沙",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "晏殊（991—1055），字同叔，北宋著名词人、政治家...",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可称该作为北宋婉约词代表作之一",
+        "教学中可点明晏殊的宰相身份与其词风雍容典雅的关系"
+      ],
+      "forbidden_assertions": [
+        "该作品为唐代近体诗",
+        "作者为晏几道",
+        "词牌为蝶恋花"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词约作于宋仁宗天圣五年（1027）左右，是晏殊作为“太平宰相”的富贵闲愁之作，蕴含对时光流逝的哲思。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此诗一般认为是宋仁宗天圣五年（1027）晏殊知应天府时所作...",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此词约作于天圣五年（1027年）晏殊任枢密副使期间...作为'太平宰相'的富贵闲愁之作...",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "创作背景与宋代文人宴饮唱和风尚密切相关",
+        "词中闲愁并非个人仕途困顿，而是士大夫对生命哲理的普遍感悟"
+      ],
+      "forbidden_assertions": [
+        "作于晏殊被贬谪流放期间",
+        "反映的是战乱流离或民生疾苦",
+        "作于南宋偏安时期"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure_theme",
+      "claim": "词之上片绾合今昔重在思昔，下片借眼前景物重在伤今，全词于司空见惯的景物中寄寓宇宙人生之思。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "词之上片绾合今昔，叠印时空，重在思昔；下片则巧借眼前景物，重在伤今。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全词语言圆转流利...词中对宇宙人生的深思，给人以性的启迪和美的艺术享受。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "上片侧重时间对比与追忆，下片侧重空间徘徊与哲理升华",
+        "教学时应引导学生体会从具体景物到抽象哲思的递进结构"
+      ],
+      "forbidden_assertions": [
+        "上下片均为纯粹写景而无抒情议论",
+        "全词主旨仅为伤春悲秋而无哲理意味",
+        "下片重在回忆去年情景而非伤今"
+      ]
+    },
+    {
+      "claim_id": "claim_04_famous_couplets",
+      "claim": "“无可奈何花落去，似曾相识燕归来”为天然奇偶句，据传下句为王琪所对，蕴含消逝与重现交织的生活哲理。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "王应声曰：‘似曾相识燕归来。’自此辟置...",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“无可奈何花落去，似曾相识燕归来。”为天然奇偶句...惋惜与欣慰的交织中，蕴含着某种生活哲理...",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该联对仗工整且虚词运用巧妙，是宋词名句",
+        "可结合宋代文人唱和背景讲解其创作轶事"
+      ],
+      "forbidden_assertions": [
+        "该联为晏殊独立创作无他人参与",
+        "两句之间毫无逻辑关联仅为拼凑",
+        "此联出自晏殊的《蝶恋花》"
+      ]
+    },
+    {
+      "claim_id": "claim_05_imagery_philosophy",
+      "claim": "“夕阳西下”“花落去”“燕归来”等意象并非单纯写景，而是象征时光不可逆与美好事物循环再现的自然规律。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "带有美好事物的象征意味...生活不会因消逝而变得一片虚无。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "燕归来：燕子从南方飞回来。燕归来，春中常景，在有意无意之间。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "花落与燕归构成消逝与重现的辩证关系",
+        "夕阳意象触发对时光不可逆的怅惘"
+      ],
+      "forbidden_assertions": [
+        "燕子归来象征仕途升迁",
+        "花落去仅指自然现象无任何人生隐喻",
+        "香径徘徊表达的是欢快游玩之情"
+      ]
+    },
+    {
+      "claim_id": "claim_06_allusion_white",
+      "claim": "首句“一曲新词酒一杯”化用了唐代白居易《长安道》中的诗意“花枝缺入青楼开，艳歌一曲酒一杯”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "一曲新词酒一杯：此句化用白居易《长安道》诗意：“花枝缺入青楼开，艳歌一曲酒一杯”。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "一曲新词酒一杯：此句化用《长安道》诗意：“花枝缺入青楼开，艳歌一曲酒一杯”。",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "晏殊此句继承了唐人以歌侑酒的闲雅生活意趣"
+      ],
+      "forbidden_assertions": [
+        "此句完全由晏殊首创，无任何前人诗意借鉴"
+      ]
+    },
+    {
+      "claim_id": "claim_07_allusion_zheng",
+      "claim": "次句“去年天气旧亭台”化用了五代郑谷《和知己秋日伤怀》中的诗句“流水歌声共不回，去年天气旧池台”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "去年天气旧亭台：是说天气、亭台都和去年一样。此句化用五代郑谷《和知己秋日伤怀》诗：“流水歌声共不回，去年天气旧池台。”",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "去年天气旧亭台：是说天气、亭台都和去年一样。此句化用《和知己秋日伤怀》诗：“流水歌声共不回，去年天气旧池台。”",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "晏殊通过化用前人诗句，强化了今昔对比的惆怅感"
+      ],
+      "forbidden_assertions": [
+        "此句中的“旧亭台”在郑谷原诗中也是“旧亭台”"
+      ]
+    },
+    {
+      "claim_id": "claim_08_alternative_reading",
+      "claim": "关于“去年天气旧亭台”一句，晏殊词中的“亭台”在其他版本中亦写作“池台”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "晏词“亭台”一本作“池台”。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_version_2",
+          "text": "去年天气旧亭台。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“池台”版本更贴近郑谷原诗“去年天气旧池台”的字面"
+      ],
+      "forbidden_assertions": [
+        "“亭台”是该词唯一正确的历史版本"
+      ]
+    },
+    {
+      "claim_id": "claim_09_cipai_origin",
+      "claim": "词牌名“浣溪沙”本为唐玄宗时教坊曲名，其中“沙”字在某些文献中也写作“纱”。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "⑴浣溪沙：唐玄宗时教坊曲名，后用为词调。沙，一作“纱”。",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "浣溪沙亦可写作浣溪纱"
+      ],
+      "forbidden_assertions": [
+        "浣溪沙词牌是由晏殊首创的"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及体裁。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋晏殊的《浣溪沙》",
+        "宋代婉约词人晏殊的小令"
+      ],
+      "forbidden_claims": [
+        "该作品为唐诗",
+        "作者为晏几道",
+        "体裁为律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "结合宋代文人唱和风尚与晏殊仕宦背景，理解“富贵闲愁”的创作语境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "作于晏殊任枢密副使或知应天府时期的宴饮闲居之作",
+        "反映宋代士大夫阶层对生命哲理的普遍感悟"
+      ],
+      "forbidden_claims": [
+        "作于贬谪流放期间",
+        "反映战乱或民生疾苦"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "把握上片“绾合今昔、重在思昔”与下片“借景伤今、重在伤今”的章法布局。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上片叠印时空追忆往昔，下片融情于景抒发当下",
+        "全词由景入理，结构层层递进"
+      ],
+      "forbidden_claims": [
+        "上下片均为纯写景无情感递进",
+        "下片重在回忆去年情景"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal",
+      "category": "lexical",
+      "description": "准确理解“一曲新词”“去年天气”“无可奈何”“似曾相识”“香径”“徘徊”等核心词汇的字面义与典故化用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "新词指刚填好的词，化用白居易诗意；去年天气指与去年此日相同的天气，化用郑谷诗意",
+        "面对花落无法挽留的无奈，与春燕归来的熟悉感交织，独自在落花满径的小路上来回走"
+      ],
+      "forbidden_claims": [
+        "新词指现代流行歌词",
+        "香径指代繁华热闹的街道",
+        "徘徊表示犹豫不决的负面心理"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure_theme",
+        "claim_05_imagery_philosophy",
+        "claim_06_allusion_white",
+        "claim_07_allusion_zheng"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_interpret",
+      "category": "interpretive_boundary",
+      "description": "界定词中“伤春”与“哲理沉思”的边界，理解消逝与重现并存的生活哲理。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "超越单纯惜春，上升至对宇宙人生规律的理性观照",
+        "在淡淡哀愁中透出对生命循环的豁达与慰藉"
+      ],
+      "forbidden_claims": [
+        "全词仅为悲观厌世之作",
+        "哲理表达过于直白说教",
+        "燕归来象征仕途得意"
+      ],
+      "source_claim_ids": [
+        "claim_04_famous_couplets",
+        "claim_05_imagery_philosophy"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解“旧亭台”在不同版本中亦作“旧池台”的异文情况，以及词牌“浣溪沙”可作“浣溪纱”的别称。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“亭台”一本作“池台”，化用自郑谷的“旧池台”",
+        "词牌名中的“沙”字亦可写作“纱”"
+      ],
+      "forbidden_claims": [
+        "“池台”是后人抄写时毫无根据的篡改"
+      ],
+      "source_claim_ids": [
+        "claim_08_alternative_reading",
+        "claim_09_cipai_origin"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_sunset",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "夕阳西下"
+      ],
+      "target_domain": [
+        "时光不可逆的流逝",
+        "美好事物的消逝"
+      ],
+      "bridges": [
+        "落日向地平线沉没是不可抗拒的自然规律，词人借此触发对岁月流转、人事变迁无法挽回的怅惘"
+      ],
+      "context_claim_ids": [
+        "claim_03_structure_theme",
+        "claim_05_imagery_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅作为点明傍晚时分的实景描写，不具深层象征",
+        "暗示词人仕途或人生步入暮年"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_flower_swallow",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "花落去",
+        "燕归来"
+      ],
+      "target_domain": [
+        "必然消逝的美好事物",
+        "循环再现的生命力与希望"
+      ],
+      "bridges": [
+        "花落是暮春不可抗拒的衰败，燕归是春日周而复始的生机，两者对举揭示消逝与重现并存的生活哲理"
+      ],
+      "context_claim_ids": [
+        "claim_04_famous_couplets",
+        "claim_05_imagery_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "单纯记录暮春物候变化，无哲理寄托",
+        "燕归来暗指旧友重逢或人事更迭的常态"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_fragrant_path",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "小园香径"
+      ],
+      "target_domain": [
+        "词人孤寂徘徊的内心世界",
+        "对往昔与当下交织的沉思场域"
+      ],
+      "bridges": [
+        "落花满径散发幽香，词人独自在此踱步，外在的幽静小径映射内在无法平静、交织着眷恋与怅惘的心境"
+      ],
+      "context_claim_ids": [
+        "claim_03_structure_theme",
+        "claim_05_imagery_philosophy"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "实指花园中铺满花瓣的小路，仅交代人物活动场景",
+        "香径象征词人高雅脱俗的审美趣味"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰展示词牌、题名、作者及完整原文，确保标点与分行符合规范。",
+      "acceptable_realizations": [
+        "题签动画配合逐句浮现",
+        "旁白诵读同步高亮字幕"
+      ],
+      "forbidden_realizations": [
+        "错漏字词或擅自改动原文版本",
+        "标点符号与通行版本不符"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "poem_identity_introduction",
+      "semantic_role": "poem_identity_introduction"
+    },
+    {
+      "requirement_id": "vis_02_upper_stanza",
+      "description": "呈现“对酒听歌”与“旧亭台”的时空叠印，辅以夕阳西下的自然光影变化。",
+      "acceptable_realizations": [
+        "双屏对比展现今昔相似场景",
+        "暖色调转冷色调暗示时光流逝"
+      ],
+      "forbidden_realizations": [
+        "仅展示单一静态画面",
+        "使用喧闹市井或现代建筑背景"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_sunset"
+      ],
+      "expected_phase": "upper_stanza_temporal_overlay",
+      "semantic_role": "upper_stanza_temporal_overlay"
+    },
+    {
+      "requirement_id": "vis_03_couplets",
+      "description": "具象化“花落”与“燕归”的动态对比，突出消逝与重现的辩证关系。",
+      "acceptable_realizations": [
+        "慢镜头落花与飞燕归巢交替",
+        "虚字“无可奈何”“似曾相识”以书法特效强调"
+      ],
+      "forbidden_realizations": [
+        "将花落表现为狂风暴雨",
+        "燕子形象过于卡通化或拟人化"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_flower_swallow"
+      ],
+      "expected_phase": "lower_stanza_natural_couplet",
+      "semantic_role": "lower_stanza_natural_couplet"
+    },
+    {
+      "requirement_id": "vis_04_walking",
+      "description": "刻画词人独自在落花小径徘徊的孤寂背影，营造低沉含蓄的意境。",
+      "acceptable_realizations": [
+        "背影剪影配合幽香小径空镜",
+        "镜头缓慢拉远展现园林幽深"
+      ],
+      "forbidden_realizations": [
+        "人物表情夸张或情绪外放",
+        "添加无关的游人或喧闹元素"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_fragrant_path"
+      ],
+      "expected_phase": "concluding_solitary_contemplation",
+      "semantic_role": "concluding_solitary_contemplation"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_011_01",
+      "description": "晏殊少年得志，仕途顺遂，过着优裕的文人雅士生活。他常以歌侑酒，宴饮听歌，这种安享尊荣的生活状态为其词作奠定了雍容典雅、“富贵闲愁”的底色。",
+      "audio_triggers": [
+        "太平宰相",
+        "富贵闲愁",
+        "宴饮",
+        "听歌"
+      ],
+      "visual_evidence": [
+        "北宋高官府邸的华贵布置",
+        "晏殊身着符合北宋文官身份的服饰",
+        "席间有美酒佳肴与歌女献唱的宴乐场景",
+        "画面须避免出现颓废、破败或寒酸的元素"
+      ],
+      "sound_evidence": [
+        "悠扬的传统宴乐声",
+        "宾客谈笑饮酒的声音"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_011_02",
+      "description": "通常认为此词的创作背景为宋仁宗天圣五年（1027）前后的暮春时节。关于具体的创作地点存在多说：一说为晏殊知应天府任上，另一说为晏殊任枢密副使时所在的汴京宅邸花园。",
+      "audio_triggers": [
+        "天圣五年",
+        "应天府",
+        "汴京",
+        "暮春时节"
+      ],
+      "visual_evidence": [
+        "春末夏初的花园景色",
+        "旧有的亭台池榭建筑",
+        "自然环境中有落花凋零的景象"
+      ],
+      "sound_evidence": [
+        "春日微风吹过树叶的沙沙声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_011_03",
+      "description": "据《能改斋漫录》等笔记记载的文学轶事，晏殊曾偶得“无可奈何花落去”一句，但长久未能对出满意的下句；后经江都尉王琪对以“似曾相识燕归来”，晏殊大为赏识。此细节的发生时间及与本词完篇的先后关系存在争议，不可确考。",
+      "audio_triggers": [
+        "无可奈何花落去",
+        "似曾相识燕归来",
+        "王琪",
+        "对句",
+        "传说"
+      ],
+      "visual_evidence": [
+        "晏殊在墙壁或诗板前沉思题字",
+        "晏殊与另一文人（王琪）交谈讨论",
+        "晏殊露出赞赏和恍然大悟的神情"
+      ],
+      "sound_evidence": [
+        "两人互相吟诵诗句的声音",
+        "赞叹与笑声"
+      ],
+      "tolerance_seconds": 3,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_011_04",
+      "description": "晏殊在暮春的庭院中，一边品酒一边听新填的词曲。面对与去年相似的天气、旧亭台和西下的夕阳，结合落花与归燕的自然衰荣，感悟到时光流逝与人事变迁的哲理，写下名篇《浣溪沙·一曲新词酒一杯》。",
+      "audio_triggers": [
+        "一曲新词酒一杯",
+        "夕阳西下",
+        "伤今",
+        "写下"
+      ],
+      "visual_evidence": [
+        "夕阳西沉的余晖光影",
+        "落满残花的小园香径",
+        "晏殊独自在花间小路上踱步徘徊",
+        "天空中飞过归来的春燕",
+        "晏殊在书案前挥毫写下词句的特写"
+      ],
+      "sound_evidence": [
+        "燕子飞过的呢喃声",
+        "晏殊轻声的叹息与吟咏声",
+        "毛笔在纸上书写的沙沙声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "一曲新词酒一杯，",
+      "pronunciation": "yī qǔ xīn cí jiǔ yī bēi ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "去年天气旧池台，",
+      "pronunciation": "qù nián tiān qì jiù chí tái ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夕阳西下几时回？",
+      "pronunciation": "xī yáng xī xià jǐ shí huí ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无可奈何花落去，",
+      "pronunciation": "wú kě nài hé huā luò qù ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "似曾相识燕归来，",
+      "pronunciation": "sì céng xiāng shí yàn guī lái ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "小园香径独徘徊。",
+      "pronunciation": "xiǎo yuán xiāng jìng dú pái huái 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "浣溪沙",
+      "pronunciation": "huàn xī shā",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "晏殊",
+      "pronunciation": "yàn shū",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "王琪",
+      "pronunciation": "wáng qí",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "应天府",
+      "pronunciation": "yìng tiān fǔ",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "汴京",
+      "pronunciation": "biàn jīng",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_011_01",
+      "source_event_id": "evt_011_01",
+      "target_event_id": "evt_011_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_011_02",
+      "source_event_id": "evt_011_02",
+      "target_event_id": "evt_011_04",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_011_03",
+      "source_event_id": "evt_011_03",
+      "target_event_id": "evt_011_04",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/011.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/011.json",
+      "event_gold": "gold_annotation/songci_300/011.json"
+    },
+    "original_sample_id": "011",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

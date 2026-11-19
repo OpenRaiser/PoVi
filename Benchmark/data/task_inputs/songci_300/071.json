@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "045_songci_071_893091bde31d",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "江神子・江城子",
+    "author": "苏轼",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "十年生死两茫茫，不思量，自难忘。\n千里孤坟，无处话凄凉。\n纵使相逢应不识，尘满面、鬓如霜。\n夜来幽梦忽还乡，小轩窗，正梳妆。\n相顾无言，惟有泪千行。\n料得年年肠断处，明月夜、短松冈。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "十年生死两茫茫，不思量，自难忘。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "千里孤坟，无处话凄凉。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "纵使相逢应不识，尘满面、鬓如霜。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "夜来幽梦忽还乡，小轩窗，正梳妆。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "相顾无言，惟有泪千行。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "料得年年肠断处，明月夜、短松冈。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "893091bde31de90d219ffedc",
+    "global_index": 45
+  }
+}

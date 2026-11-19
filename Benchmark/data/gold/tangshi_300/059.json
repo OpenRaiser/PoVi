@@ -1,0 +1,724 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_059",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《登幽州台歌》为唐代诗人陈子昂所作的七言古诗，通行传世文本共四句，与公开主流古诗文库收录版本一致。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "登幽州台歌 陈子昂 唐 前不见古人，后不见来者。念天地之悠悠，独怆然而涕下。",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "前不见古人，后不见来者。念天地之悠悠，独怆然而涕下。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "陈子昂（659—700），字伯玉，唐代文学家……代表作《登幽州台歌》“前不见古人，后不见来者”被誉为“汉魏风骨”的复兴者。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确将该作品归属为初唐陈子昂的经典抒情诗作"
+      ],
+      "forbidden_assertions": [
+        "声称该诗为其他唐代诗人所作",
+        "擅自改动通行版本的诗句文字"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "该诗作于武周万岁通天元年（696年），陈子昂随武攸宜北征契丹时，因直言进谏、献奇策不被采纳，反而被降职为军曹，接连受挫之下登上蓟北楼（即幽州台，传为燕昭王招贤所建的黄金台遗址）慷慨悲吟而成。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首诗写于公元696年（万岁通天元年）。是一个具有政治见识和政治才能的文人。诗人接连受到挫折，眼看报国宏愿成为泡影，因此登上蓟北楼，慷慨悲吟，写下了《登幽州台歌》。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《登幽州台歌》此诗作于万岁通天元年（696年），陈子昂随武攸宜北征契丹时。时年35岁的诗人因献奇策被贬为军曹，登蓟北楼（即幽州台，传为燕昭王黄金台遗址）而作。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "万岁通天元年，契丹李尽忠、孙万荣等攻陷营州。武则天委派武攸宜率军征讨，陈子昂在武攸宜幕府担任参谋，随军出征。武攸宜为人轻率，少谋略。次年兵败，情况紧急，陈子昂请求遣万人作前驱以击敌，武不允。随后，陈子昂又向武进言，不听，反把他降为军曹。诗人接连受到挫折，眼看报国宏愿成为泡影，因此登上蓟北楼，慷慨悲吟，写下了《登幽州台歌》",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗人登台时的核心情绪是报国无门、怀才不遇的悲愤"
+      ],
+      "forbidden_assertions": [
+        "声称该诗是陈子昂早年隐居时所作",
+        "否定幽州台与燕昭王招贤典故的关联"
+      ]
+    },
+    {
+      "claim_id": "claim_03_core_lexical",
+      "claim": "诗中核心字词释义为：古人指古代那些能够礼贤下士的圣君；来者指后世那些重视人才的贤明君主；悠悠形容时间的久远和空间的广大；怆然指悲伤凄恻的样子；涕在古汉语中指眼泪。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "前：过去。古人：古代那些能够礼贤下士的圣君。后：未来。来者：后世那些重视人才的贤明君主。念：想到。悠悠：形容时间的久远和空间的广大。怆然：悲伤的样子。涕：古时指眼泪。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "⑴幽州：古十二州之一，现今北京市。幽州台：即黄金台，又称蓟北楼，故址在今北京市大兴，是燕昭王为招纳天下贤士而建。⑵前：过去。古人：古代那些能够礼贤下士的圣君。⑶后：未来。来者：后世那些重视人才的贤明君主。⑷念：想到。悠悠：形容时间的久远和空间的广大。⑸怆（chuàng）然：悲伤凄恻的样子。涕：古时指眼泪。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可对比现代“涕”的语义差异，讲解古今异义现象"
+      ],
+      "forbidden_assertions": [
+        "将“涕”解释为鼻涕",
+        "将“古人”泛泛解释为古代的普通人"
+      ]
+    },
+    {
+      "claim_id": "claim_04_artistic_feature",
+      "claim": "本诗在句式上采取了长短参错的楚辞体句法，前两句每句五字，音节比较急促，传达了诗人生不逢时、抑郁不平之气；后两句每句六字，各增加了一个虚字（“之”和“$而$”），多了一个停顿，音节比较舒徐流畅，表现了他无可奈何、曼声长叹的情景。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "同时，在句式方面，采取了长短参错的楚辞体句法。上两句每句五字，三个停顿……后两句每句六字，四个停顿……前两句音节比较急促，传达了诗人生不逢时、抑郁不平之气；后两句各增加了一个虚字（“之”和“而”），多了一个停顿，音节就比较舒徐流畅，表现了他无可奈何、曼声长叹的情景。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将本诗与齐梁宫体诗的风格做对比讲解，突出革新意义"
+      ],
+      "forbidden_assertions": [
+        "声称本诗完全承袭楚辞原作没有任何创新"
+      ]
+    },
+    {
+      "claim_id": "claim_05_theme_emotion",
+      "claim": "全诗深刻表现了诗人怀才不遇、寂寞无聊的情绪，通过对燕昭王等贤德君主的追慕，抒发了生不逢时的哀叹，同时暗含心怀天下、治国安邦的抱负，引起了历代怀才不遇人士的广泛共鸣。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "《登幽州台歌》这首短诗，深刻地表现了诗人怀才不遇、寂寞无聊的情绪。……因此以“山河依旧，人物不同”来抒发自己“生不逢辰”的哀叹。……这种悲哀常常为旧社会许多怀才不遇的人士所共有，因而获得广泛的共鸣。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "本诗思想境界较高。诗人不单抒发怀才求遇的感慨，而是通过这种感怀进一步表达治国安邦的抱负，蕴含了诗人心怀天下的高尚情怀。诗人以怀念燕昭王等贤德君主的形式抒发感慨，暗指当下文人深受压抑的境遇。",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引导学生理解个体失意背后的时代共性，体会诗歌的普世情感价值"
+      ],
+      "forbidden_assertions": [
+        "将全诗主旨片面解读为消极厌世、及时行乐的颓废思想"
+      ]
+    },
+    {
+      "claim_id": "claim_06_chici_influence",
+      "claim": "此诗在用辞造语方面深受《楚辞》特别是《远游》篇中“惟天地之无穷兮，哀人生之长勤。往者余弗及兮，来者吾不闻”的影响，语句从此化出，但意境更显苍茫遒劲。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "在用辞造语方面，此诗深受《楚辞》特别是其中《远游》篇的影响。《远游》有云：“惟天地之无穷兮，哀人生之长勤。往者余弗及兮，来者吾不闻。”此诗语句即从此化出，然而意境却更苍茫遒劲。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "陈子昂在创作时有意识地借鉴了楚辞的句式和词汇，以增强诗歌的抒情张力"
+      ],
+      "forbidden_assertions": [
+        "认为《登幽州台歌》完全是陈子昂凭空创作，没有受到任何前代文学作品的启发"
+      ]
+    },
+    {
+      "claim_id": "claim_07_poetic_reform",
+      "claim": "此诗风格明朗刚健、沉雄厚重，是具有“汉魏风骨”的先驱之作，一扫齐梁诗风的浮艳纤弱，开启了唐代诗歌的新气象。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗篇风格明朗刚健，是具有“汉魏风骨”的诗歌的先驱之作，对扫除齐梁浮艳纤弱的形式主义诗风具有拓疆开路之功。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "展现了一幅境界雄浑、空旷幽渺的艺术画面，烘托出高亢悲壮、气盖天地的思想外延，形成了一种沉雄刚健、厚重苍古的诗风。此诗在初唐诗坛上犹如一股劲风，一扫齐梁诗风的浮艳纤弱，开启了唐代诗歌的新气象。",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "陈子昂的诗歌理论与实践对盛唐诗歌的繁荣起到了奠基作用"
+      ],
+      "forbidden_assertions": [
+        "认为陈子昂的诗风与齐梁诗风无异"
+      ]
+    },
+    {
+      "claim_id": "claim_08_chuang_vs_qi",
+      "claim": "诗中使用的“怆”字声音宏高，给人一种广阔苍凉的感觉，与显得纤细的“凄”字不同，更符合诗人视觉上的辽阔感与生命状态。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "同样是写悲凄、悲惨，而陈子昂说的是悲怆。“凄”字显得纤细，而“怆”字声音宏高，给人一种广阔苍凉的感觉。陈子昂是在讲苍凉，讲历史上的苍凉时刻。可是彼时彼地，他讲的不是人，而是自己视觉上的辽阔。",
+          "locator": "赏析三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "炼字“怆”的选择极大地增强了全诗悲壮、雄浑的艺术效果"
+      ],
+      "forbidden_assertions": [
+        "认为“怆”与“凄”在诗中的艺术效果完全等同"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《登幽州台歌》的题名、作者、所属朝代与基本体裁属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "初唐陈子昂所作的经典七言古诗《登幽州台歌》",
+        "唐代诗人陈子昂的代表作《登幽州台歌》"
+      ],
+      "forbidden_claims": [
+        "该诗作者是李白",
+        "该诗是宋代词作"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "讲解本诗的创作时间、幽州台的历史渊源（燕昭王黄金台）、陈子昂随武攸宜北征契丹被降职的具体创作背景。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "696年陈子昂随武攸宜北征契丹被降为军曹后，登上燕昭王所建的招贤古台幽州台写下此诗",
+        "本诗诞生于武周时期，是诗人报国无门、接连受挫时的抒怀之作"
+      ],
+      "forbidden_claims": [
+        "幽州台是唐代新建的皇家园林",
+        "这首诗是陈子昂考中进士后春风得意时所作"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_explanation",
+      "category": "lexical",
+      "description": "讲解诗中“古人”、“来者”、“悠悠”、“怆然”、“涕”等核心字词的准确含义，明确古今异义现象。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "古人指古代礼贤下士的贤明君主，涕在古代指眼泪",
+        "悠悠同时涵盖时间的久远和空间的广阔两层含义"
+      ],
+      "forbidden_claims": [
+        "涕在诗中指鼻涕",
+        "古人指古代所有的普通人"
+      ],
+      "source_claim_ids": [
+        "claim_03_core_lexical"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_translation",
+      "category": "literal_meaning",
+      "description": "逐句准确翻译全诗的字面含义，做到语义通顺符合原诗表意。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "往前看不到古代礼贤下士的圣君，向后等不到后世求才的明君，想到天地无穷无尽，我独自悲伤流下眼泪",
+        "俯仰古今找不到赏识人才的君主，放眼苍茫宇宙，我满心悲怆难以自抑"
+      ],
+      "forbidden_claims": [
+        "翻译内容完全脱离原诗字词含义随意发挥"
+      ],
+      "source_claim_ids": [
+        "claim_03_core_lexical"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_analysis",
+      "category": "structure",
+      "description": "分析本诗前两句写古今时间绵长、第三句写空间辽阔、第四句收束个人悲绪的结构脉络，以及长短错落的句法节奏特点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "前两句从时间维度打通古今，第三句拓展到无限空间，最后聚焦到诗人独立高台的孤独形象，时空对照极具张力",
+        "全诗前急后缓的音节变化，配合情绪从压抑不平到曼声长叹的流动过程"
+      ],
+      "forbidden_claims": [
+        "声称本诗结构混乱没有章法"
+      ],
+      "source_claim_ids": [
+        "claim_04_artistic_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_theme_summary",
+      "category": "summary",
+      "description": "总结本诗雄浑意境下怀才不遇的悲怆内核，以及其初唐诗歌革新的历史地位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "短短四句诗以浩瀚宇宙为背景，抒发了千古士人共通的怀才不遇之叹，一扫齐梁浮艳诗风，为盛唐诗歌铺路",
+        "本诗不止是陈子昂个人的悲愤宣泄，更承载了初唐士人重建文化理想的集体诉求"
+      ],
+      "forbidden_claims": [
+        "本诗没有任何思想价值，只是无病呻吟的个人牢骚"
+      ],
+      "source_claim_ids": [
+        "claim_05_theme_emotion",
+        "claim_07_poetic_reform"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_chici_influence",
+      "category": "structure",
+      "description": "讲解本诗在用辞造语上受《楚辞·远游》的影响，以及长短参错的楚辞体句法特征。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "此诗化用了《楚辞·远游》的诗句，并采用了长短参错的楚辞体句法",
+        "前两句五字急促，后两句六字舒缓，通过虚词“之”和“而”舒缓音节"
+      ],
+      "forbidden_claims": [
+        "认为本诗句式与楚辞毫无关联"
+      ],
+      "source_claim_ids": [
+        "claim_04_artistic_feature",
+        "claim_06_chici_influence"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_word_choice_analysis",
+      "category": "lexical",
+      "description": "分析诗中“怆”字与“凄”字在声音和意境上的差异，体会其宏高、苍凉的艺术效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“怆”字声音宏高，比纤细的“凄”字更能传达出视觉上的辽阔感与历史的苍凉感"
+      ],
+      "forbidden_claims": [
+        "认为“怆”字与“凄”字在诗中可以任意替换而不影响意境"
+      ],
+      "source_claim_ids": [
+        "claim_08_chuang_vs_qi"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_golden_platform",
+      "line_ids": [
+        "l01",
+        "l02"
+      ],
+      "source_domain": [
+        "幽州台（黄金台、燕昭王招贤古台）实体遗迹"
+      ],
+      "target_domain": [
+        "古代礼贤下士的明君所代表的公平用才的政治理想",
+        "历代士人渴求被赏识、施展抱负的精神寄托"
+      ],
+      "bridges": [
+        "史料明确记载幽州台是燕昭王专门为招揽天下贤士修建的历史遗迹",
+        "陈子昂登台本身就是为了追慕燕昭王礼遇贤才的典故，抒发自己生不逢时的感慨"
+      ],
+      "context_claim_ids": [
+        "claim_02_creation_context",
+        "claim_05_theme_emotion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "幽州台也可被解读为连接古今士人共同失意体验的情感符号，承载了跨越时代的怀才不遇的集体记忆"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_universe_time",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "苍茫无穷、绵延不尽的天地宇宙"
+      ],
+      "target_domain": [
+        "跨越古今的无限时间长河",
+        "辽阔到没有边界的宏大空间",
+        "压抑人才的整个时代的宏大背景"
+      ],
+      "bridges": [
+        "注释明确说明“悠悠”同时指向时间的久远 and 空间的广大",
+        "以无限的时空反衬个体生命的短暂、个人力量的渺小和孤独感"
+      ],
+      "context_claim_ids": [
+        "claim_03_core_lexical",
+        "claim_05_theme_emotion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "天地悠悠的意象也可被解读为诗人心怀天下的广阔胸襟的外化，对应其治国安邦的宏大抱负"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_opening",
+      "description": "开场清晰展示诗题、作者、朝代信息，搭配陈子昂人物古风小像，完整呈现全诗无错字。",
+      "acceptable_realizations": [
+        "仿古题签样式渐显，旁白同步介绍作品基本身份，诗句随朗读逐行高亮"
+      ],
+      "forbidden_realizations": [
+        "错标作者和朝代，诗句出现错字漏字",
+        "用不符合初唐风格的现代元素装饰题面"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_basic_info_presentation",
+      "semantic_role": "opening_poem_basic_info_presentation"
+    },
+    {
+      "requirement_id": "vis_02_background_intro",
+      "description": "动态展示幽州台地理位置、燕昭王筑台招贤的历史场景、陈子昂随军北征被贬的相关画面。",
+      "acceptable_realizations": [
+        "古幽州区域地图动画配合燕昭王礼遇乐毅、郭隗的历史剪影，穿插陈子昂向武攸宜进言被拒的场景还原"
+      ],
+      "forbidden_realizations": [
+        "出现不符合史实的现代建筑、现代服饰元素",
+        "随意篡改历史事件细节"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_golden_platform"
+      ],
+      "expected_phase": "historical_background_context_introduction",
+      "semantic_role": "historical_background_context_introduction"
+    },
+    {
+      "requirement_id": "vis_03_poem_visualization",
+      "description": "配合诗句朗读依次呈现对应意象：前两句滚动古今贤君的历史时间轴，第三句镜头拉远展示浩瀚无垠的天地宇宙全景，第四句聚焦独立高台之上怆然落泪的诗人特写。",
+      "acceptable_realizations": [
+        "镜头从古今时间长河逐步向外拓展到浩瀚星空，再缓缓回落聚焦到幽州台顶端孤独的诗人身影，画面色调苍凉雄浑"
+      ],
+      "forbidden_realizations": [
+        "画面意境局促狭小，完全体现不出原诗雄浑开阔的风格",
+        "把诗人形象塑造成轻浮颓废的状态"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_golden_platform",
+        "meta_02_universe_time"
+      ],
+      "expected_phase": "poem_recitation_and_imagery_visualization",
+      "semantic_role": "poem_recitation_and_imagery_visualization"
+    },
+    {
+      "requirement_id": "vis_04_theme_summary",
+      "description": "展示汉魏风骨与齐梁浮艳诗风的对比示意，点明本诗在初唐诗歌革新中的历史地位，呈现历代读者共鸣的相关画面。",
+      "acceptable_realizations": [
+        "文字卡片对比齐梁宫体诗的纤弱风格与本诗的苍劲刚健风格，简要梳理初唐诗歌革新的脉络"
+      ],
+      "forbidden_realizations": [
+        "片面将本诗解读为消极厌世的作品，刻意消解其积极的精神内核"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "theme_and_artistic_value_summary",
+      "semantic_role": "theme_and_artistic_value_summary"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_059_01",
+      "description": "696年（万岁通天元年），契丹攻陷营州。武则天委派武攸宜率军征讨，陈子昂在武攸宜幕府担任参谋，随军出征。",
+      "audio_triggers": [
+        "万岁通天元年",
+        "契丹",
+        "委派",
+        "随军出征",
+        "参谋"
+      ],
+      "visual_evidence": [
+        "初唐时期的军营环境",
+        "武攸宜率领大军行进的宏大场面",
+        "陈子昂身穿唐代官服或戎装伴随军中"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "大军行进的脚步声",
+        "肃杀的军乐或号角声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_059_02",
+      "description": "唐军连受挫折，情况紧急。陈子昂屡次向主将武攸宜进言献策，均未被采纳，反被降职为军曹，其政治抱负遭到沉重打击。",
+      "audio_triggers": [
+        "受挫",
+        "进言",
+        "不听",
+        "降为军曹",
+        "打击"
+      ],
+      "visual_evidence": [
+        "军帐内",
+        "陈子昂神情急切地献策",
+        "主将武攸宜面露不悦并挥手拒绝",
+        "陈子昂显得极度失落与无奈"
+      ],
+      "sound_evidence": [
+        "军帐内争执或斥责的声音",
+        "陈子昂沉重的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_059_03",
+      "description": "陈子昂心情极其郁郁悲愤，独自登上幽州台（即蓟北楼，相传为燕昭王招纳天下贤士的黄金台遗址），吊古伤今。",
+      "audio_triggers": [
+        "登台",
+        "幽州台",
+        "蓟北楼",
+        "燕昭王",
+        "苦闷"
+      ],
+      "visual_evidence": [
+        "陈子昂独自登上一座古老苍凉的高台",
+        "远眺视野开阔",
+        "大风吹拂其衣摆",
+        "天地苍茫的旷野之景"
+      ],
+      "sound_evidence": [
+        "呼啸的旷野风声",
+        "登台时孤独沉重的脚步声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_059_04",
+      "description": "陈子昂追慕古代礼贤下士的明君，感叹自己生不逢时。面对辽阔天地，深感自身渺小孤单，悲从中来而落泪，最终写下名篇《登幽州台歌》。",
+      "audio_triggers": [
+        "前不见古人",
+        "后不见来者",
+        "悲吟",
+        "涕下",
+        "登幽州台歌"
+      ],
+      "visual_evidence": [
+        "陈子昂在高台上怆然落泪",
+        "无边无际的天空与大地作为深邃背景",
+        "呈现出沉雄苍古、慷慨悲壮的氛围"
+      ],
+      "sound_evidence": [
+        "低声抽泣或长叹声",
+        "慷慨苍凉的吟诵声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "前不见古人，",
+      "pronunciation": "qián bù jiàn gǔ rén，",
+      "accepted_variants": [
+        "qián bú jiàn gǔ rén，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "后不见来者。",
+      "pronunciation": "hòu bù jiàn lái zhě。",
+      "accepted_variants": [
+        "hòu bú jiàn lái zhě。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念天地之悠悠，",
+      "pronunciation": "niàn tiān dì zhī yōu yōu，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "独怆然而涕下。",
+      "pronunciation": "dú chuàng rán ér tì xià。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "陈子昂",
+      "pronunciation": "chén zǐ áng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "武攸宜",
+      "pronunciation": "wǔ yōu yí",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "燕昭王",
+      "pronunciation": "yān zhāo wáng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "武则天",
+      "pronunciation": "wǔ zé tiān",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "幽州台",
+      "pronunciation": "yōu zhōu tái",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "蓟北楼",
+      "pronunciation": "jì běi lóu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "契丹",
+      "pronunciation": "qì dān",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "万岁通天",
+      "pronunciation": "wàn suì tōng tiān",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "军曹",
+      "pronunciation": "jūn cáo",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "登幽州台歌",
+      "pronunciation": "dēng yōu zhōu tái gē",
+      "category": "other",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_059_01",
+      "source_event_id": "evt_059_01",
+      "target_event_id": "evt_059_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_059_02",
+      "source_event_id": "evt_059_02",
+      "target_event_id": "evt_059_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_059_03",
+      "source_event_id": "evt_059_03",
+      "target_event_id": "evt_059_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_059_04",
+      "source_event_id": "evt_059_02",
+      "target_event_id": "evt_059_04",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/059.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/059.json",
+      "event_gold": "gold_annotation/tangshi_300/059.json"
+    },
+    "original_sample_id": "059",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

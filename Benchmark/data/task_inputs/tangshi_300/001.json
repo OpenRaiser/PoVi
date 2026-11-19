@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "021_tangshi_001_0bee4b734842",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "贼退示官吏",
+    "author": "元结",
+    "dynasty": "唐",
+    "form": "五言古诗",
+    "text": "昔岁逢太平，山林二十年。\n泉源在庭户，洞壑当门前。\n井税有常期，日晏犹得眠。\n忽然遭世变，数岁亲戎旃。\n今来典斯郡，山夷又纷然。\n城小贼不屠，人贫伤可怜。\n是以陷邻境，此州独见全。\n使臣将王命，岂不如贼焉？\n今彼征敛者，迫之如火煎。\n谁能绝人命，以作时世贤！\n思欲委符节，引竿自刺船。\n将家就鱼麦，归老江湖边。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "昔岁逢太平，山林二十年。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "泉源在庭户，洞壑当门前。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "井税有常期，日晏犹得眠。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "忽然遭世变，数岁亲戎旃。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "今来典斯郡，山夷又纷然。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "城小贼不屠，人贫伤可怜。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "是以陷邻境，此州独见全。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "使臣将王命，岂不如贼焉？"
+      },
+      {
+        "line_id": "l09",
+        "order": 9,
+        "text": "今彼征敛者，迫之如火煎。"
+      },
+      {
+        "line_id": "l10",
+        "order": 10,
+        "text": "谁能绝人命，以作时世贤！"
+      },
+      {
+        "line_id": "l11",
+        "order": 11,
+        "text": "思欲委符节，引竿自刺船。"
+      },
+      {
+        "line_id": "l12",
+        "order": 12,
+        "text": "将家就鱼麦，归老江湖边。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "0bee4b734842864b9ee65c4a",
+    "global_index": 21
+  }
+}

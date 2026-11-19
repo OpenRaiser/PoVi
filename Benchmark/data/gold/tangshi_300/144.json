@@ -1,0 +1,807 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_144",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《春望》是唐代诗人杜甫创作的五言律诗，属于杜甫现实主义诗歌的经典代表作，被后世尊为“诗史”的典型代表。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "春望 杜甫 唐 五言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "杜甫代表作有《春望》等，风格沉郁顿挫",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "作品诞生于盛唐文明遭遇毁灭性打击的历史节点，其个人命运与家国情怀的高度统一，标志着中国诗歌史上现实主义创作的高峰，成为记录时代苦难的\"诗史\"。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确将《春望》归为杜甫安史之乱时期的经典现实主义作品"
+      ],
+      "forbidden_assertions": [
+        "声称《春望》作者为李白或其他唐代诗人",
+        "将体裁判定为七言律诗或绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "《春望》作于唐肃宗至德二载（757年）三月，当时杜甫身陷被安史叛军占领的长安，目睹国都残破景象百感交集而创作此诗。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此诗作于肃宗至德二载（757年）三月，杜甫被俘押送到沦陷后的长安已逾半载，暮春之际创作",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "这首五言律诗作于唐肃宗至德二年（757），当时安禄山和史思明起兵反唐，攻下京都长安，杜甫被叛军俘虏困居长安",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将本诗作为安史之乱时期记录时代苦难的代表性作品引入教学"
+      ],
+      "forbidden_assertions": [
+        "声称本诗作于安史之乱爆发之前",
+        "声称本诗是杜甫定居蜀地之后的作品"
+      ]
+    },
+    {
+      "claim_id": "claim_03_core_lexical_definition",
+      "claim": "诗中核心字词有明确释义：国指被叛军占领的国都长安，破指陷落，烽火借指战事，抵指值、相当，浑指简直，簪是古代男子束发的首饰。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "国：国都，指长安，破：陷落，烽火：古时边防报警的烟火，这里借指战事，抵：值，相当，浑：简直，簪：一种别住发髻的长条状首饰",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "胜：受不住，不能，簪：一种束发的首饰，古代男子蓄长发，成年后束发于头顶，用簪子横插住",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可结合唐代男子束发的习俗解释“不胜簪”的细节"
+      ],
+      "forbidden_assertions": [
+        "将“烽火”直接解释为普通的烟火",
+        "将“国”泛泛解释为整个唐朝疆域"
+      ]
+    },
+    {
+      "claim_id": "claim_04_structure_and_theme",
+      "claim": "全诗围绕“望”字展开，前四句写春日长安凄惨破败的景象，饱含兴衰感慨，后四句抒发诗人挂念亲人、心系国事的情怀，充溢凄苦哀思，情景交融，体现杜甫沉郁顿挫的典型风格。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此诗前四句写春日长安凄惨破败的景象，饱含着兴衰感慨；后四句写诗人挂念亲人、心系国事的情怀，充溢着凄苦哀思，全诗格律严整",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这首诗全篇情景交融，感情深沉，围绕“望”字展开，环环相生、层层递进，充分体现了“沉郁顿挫”的艺术风格",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可梳理本诗由远及近、由景入情的叙事抒情逻辑"
+      ],
+      "forbidden_assertions": [
+        "声称本诗的核心主题是赞美长安春日美景"
+      ]
+    },
+    {
+      "claim_id": "claim_05_artistic_expression",
+      "claim": "颔联“感时花溅泪，恨别鸟惊心”采用移情于物、以乐景写哀情的艺术手法，将诗人自身的家国悲愁投射到花鸟意象之上，强化了哀痛的表达效果。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "人内心痛苦，遇到乐景，反而引发更多的痛苦，杜甫继承了这种以乐景表现哀情的艺术手法，这联通过景物描写，借景生情，移情于物",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可对比《诗经·采薇》“昔我往矣，杨柳依依”的同类手法进行拓展讲解"
+      ],
+      "forbidden_assertions": [
+        "声称诗句描写的是花鸟本身在战乱中受惊落泪的客观场景"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "诗中“感时”指为国家的时局而感伤，“恨别”指怅恨离别，“不胜”指不能承受、禁不起，“草木深”指人烟稀少、荒芜破败。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "感时：为国家的时局而感伤。恨别：怅恨离别。草木深：指人烟稀少。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "胜：受不住，不能。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "不胜：不能承受。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“草木深”在诗中并非赞美春意盎然，而是反衬战乱后城市的荒凉"
+      ],
+      "forbidden_assertions": [
+        "将“草木深”解释为城市绿化建设良好"
+      ]
+    },
+    {
+      "claim_id": "claim_07_historical_details",
+      "claim": "杜甫在写此诗前，于至德元载（756年）八月将家属安顿在鄜州羌村，只身投奔肃宗朝廷途中被叛军俘获，解送至长安，因官职卑微未被囚禁，至写诗时已被困长安半年多。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "先一年八月，将妻子安置在鄜州羌村，于北赴灵武途中被俘，押送到沦陷后的长安，至此已逾半载。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "即将家属安顿在都州，只身一人投奔肃宗朝廷，结果不幸在途中被叛军俘获，解送至长安，后因官职卑微才未被囚禁。",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "杜甫在长安虽未被囚禁，但行动和消息传递仍深受战乱阻碍"
+      ],
+      "forbidden_assertions": [
+        "声称杜甫在长安期间被关押在监狱中"
+      ]
+    },
+    {
+      "claim_id": "claim_08_empathy_disputed",
+      "claim": "关于“感时花溅泪，恨别鸟惊心”的理解存在两说：一说为移情于物，花鸟因人而具有了怨恨之情；另一说为诗人感时恨别，看到花开而流泪，听到鸟鸣而心惊。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "花无情而有泪，鸟无恨而惊心，花鸟是因人而具有了怨恨之情。...这两句的含意可以这样理解：我感于战败的时局，看到花开而泪落潸然；我内心惆怅怨恨，听到鸟鸣而心惊胆战。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_3",
+          "text": "感伤国事，不禁涕泪四溅，鸟鸣惊心，徒增离愁别恨。",
+          "locator": "译文三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "两种解读均能体现诗人在战乱中极度悲痛、敏感的心境"
+      ],
+      "forbidden_assertions": [
+        "断言该句只有一种绝对正确的标准解释"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《春望》的题名、作者所属朝代、体裁属性，明确其在杜甫现实主义诗作中的定位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《春望》是唐代大诗人杜甫创作的经典五言律诗",
+        "杜甫的《春望》是安史之乱时期的代表性现实主义作品"
+      ],
+      "forbidden_claims": [
+        "《春望》是李白的作品",
+        "《春望》是宋代的七言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "讲解安史之乱的时代背景，以及杜甫身陷沦陷长安的具体创作处境，帮助学生理解作品的现实根基。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗是杜甫在被安史叛军扣押在长安时，目睹战乱后的残破景象写下的",
+        "《春望》诞生于盛唐文明被安史之乱摧毁的历史节点"
+      ],
+      "forbidden_claims": [
+        "这首诗创作于开元盛世的太平时期",
+        "杜甫写这首诗的时候已经收复了长安"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context",
+        "claim_07_historical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical_explanation",
+      "category": "lexical",
+      "description": "讲解全诗核心重点字词的准确含义，扫清字面理解障碍。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“烽火”在这里代指持续的安史之乱战事",
+        "“白头搔更短”里的“搔”就是用手指轻轻抓头发的动作"
+      ],
+      "forbidden_claims": [
+        "“国破”里的“国”指的是杜甫的家乡",
+        "“浑欲不胜簪”的“胜”是胜利的意思"
+      ],
+      "source_claim_ids": [
+        "claim_03_core_lexical_definition",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_translation",
+      "category": "literal_meaning",
+      "description": "逐句准确翻译全诗的字面含义，让学生掌握每一句的基本表意。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "国都沦陷只有山河依旧，春日的长安城里草木长得又深又密",
+        "连绵的战事已经持续了整整三个月，一封家信抵得上万两黄金"
+      ],
+      "forbidden_claims": [
+        "春天到来国家破碎，山河也都消失不见了",
+        "诗人看到花开高兴得流下眼泪"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity",
+        "claim_03_core_lexical_definition",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_analysis",
+      "category": "structure",
+      "description": "梳理全诗围绕“望”字由景及情、层层递进的结构脉络，明确情景交融的排布逻辑。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "从远望国都残破的景象，到近看花鸟触发愁情，再想到战事和家人，最后落到自己满头白发的衰老形象上",
+        "首联写大场景，颔联写近景抒情，颈联转到思家，尾联落到自身形象"
+      ],
+      "forbidden_claims": [
+        "全诗四句完全独立，没有逻辑关联",
+        "诗歌的核心线索是“归”字"
+      ],
+      "source_claim_ids": [
+        "claim_04_structure_and_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确本诗的核心情感边界是忧国伤时、念家悲己，不能脱离安史之乱的时代背景进行过度娱乐化、脱离史实的解读。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗里的所有愁绪都来自于国家破碎、家人离散的战乱现实",
+        "杜甫的个人悲苦和整个国家的苦难完全融合在了这首诗里"
+      ],
+      "forbidden_claims": [
+        "这首诗是杜甫在长安游春时写的写景游玩诗",
+        "“家书抵万金”说的是古代家书的收藏价值很高"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context",
+        "claim_04_structure_and_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading_empathy",
+      "category": "alternative_reading",
+      "description": "介绍颔联“花溅泪”、“鸟惊心”在主客体关系上的两种不同解读，引导学生体会古典诗歌的多义美感。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "一种理解是花鸟本身流泪惊心（移情于物），另一种理解是人看到花而流泪、听到鸟鸣而心惊",
+        "可以解释为诗人把自己的悲伤投射给花鸟，也可以解释为花鸟的美好反衬了人的痛苦"
+      ],
+      "forbidden_claims": [
+        "该句只能解释为花和鸟真的在哭泣和害怕"
+      ],
+      "source_claim_ids": [
+        "claim_08_empathy_disputed"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_feng_huo_metonymy",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "古代边防用来报警的烽火烟火"
+      ],
+      "target_domain": [
+        "安史之乱引发的持续战乱、战事"
+      ],
+      "bridges": [
+        "烽火是古代战争爆发的标志性信号，二者直接关联，用具体的战争标志物代指抽象的持续战事"
+      ],
+      "context_claim_ids": [
+        "claim_03_core_lexical_definition"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "该借代手法后来被广泛沿用，所有指代战乱场景的文学作品中的烽火意象都可以追溯到这类经典用法"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_flower_bird_empathy",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "春日里盛开的鲜花、啼鸣的飞鸟"
+      ],
+      "target_domain": [
+        "承载了诗人感时伤怀、恨别惊心的悲愁情绪的移情载体"
+      ],
+      "bridges": [
+        "花鸟本是春日愉悦的乐景意象，本身没有流泪、惊心的情绪，诗人将自身的国破家亡之悲投射到花鸟之上，让景物承载人的情感"
+      ],
+      "context_claim_ids": [
+        "claim_05_artistic_expression",
+        "claim_08_empathy_disputed"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将该句解读为拟人手法，认为连花鸟都因战乱的残酷而落泪惊心，进一步强化了整个天地都笼罩在战乱悲愁中的氛围"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_grass_wood_symbol",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "茂密疯长的草木"
+      ],
+      "target_domain": [
+        "人烟稀少、荒芜破败的国都惨状（黍离之悲）"
+      ],
+      "bridges": [
+        "春季本该是城市繁华、市容整洁的季节，如今却任由草木在城中疯长，以草木的繁盛反衬人烟的稀少和城池的荒凉"
+      ],
+      "context_claim_ids": [
+        "claim_04_structure_and_theme",
+        "claim_06_lexical_details"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "“城春”与“草木深”形成强烈反差，借助自然界的春意反托出国家衰败的凄凉气氛"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_title",
+      "description": "开场清晰呈现《春望》的诗题、作者、朝代、体裁基础信息，同步展示完整原文文本，无错字漏字。",
+      "acceptable_realizations": [
+        "古风题签动画搭配杜甫人物肖像，旁白朗读全诗时同步逐句弹出字幕"
+      ],
+      "forbidden_realizations": [
+        "错标作者、朝代信息，擅自改动原诗的字词顺序"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_presentation",
+      "semantic_role": "opening_poem_presentation"
+    },
+    {
+      "requirement_id": "vis_02_ruined_changan_scene",
+      "description": "呈现安史之乱后暮春长安城的整体破败景象，断壁残垣间荒草丛生，和昔日繁华长安春景形成对比。",
+      "acceptable_realizations": [
+        "分屏动画左侧展示开元年间长安春日游人如织、烟柳明媚的繁华画面，右侧切换为叛军占领后荒无人烟的残破街景"
+      ],
+      "forbidden_realizations": [
+        "将沦陷后的长安春景绘制为繁花似锦、游人赏春的太平景象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_grass_wood_symbol"
+      ],
+      "expected_phase": "first_scene_spring_wasteland_overview",
+      "semantic_role": "first_scene_spring_wasteland_overview"
+    },
+    {
+      "requirement_id": "vis_03_empathy_flower_bird",
+      "description": "呈现杜甫站在残垣边，望着枝头落花潸然泪下，听到城头鸟鸣眉头紧蹙的近景画面。",
+      "acceptable_realizations": [
+        "特写镜头落在花瓣上的泪珠，飞鸟掠过破败城楼的剪影，烘托悲凉氛围"
+      ],
+      "forbidden_realizations": [
+        "呈现诗人赏春游玩、面露愉悦神色的画面"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_flower_bird_empathy"
+      ],
+      "expected_phase": "second_scene_empathy_with_scenery",
+      "semantic_role": "second_scene_empathy_with_scenery"
+    },
+    {
+      "requirement_id": "vis_04_war_and_family_letter",
+      "description": "呈现远方战场烽火连绵、狼烟四起的远景，切换到杜甫攥着半张残破信纸遥望鄜州方向的画面，突出家书的珍贵。",
+      "acceptable_realizations": [
+        "烽火狼烟的动态特效，搭配“家书抵万金”的书法文字弹出动画"
+      ],
+      "forbidden_realizations": [
+        "呈现和平安定的驿站送信、家书轻易送达的场景"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_feng_huo_metonymy"
+      ],
+      "expected_phase": "third_scene_war_and_miss_family",
+      "semantic_role": "third_scene_war_and_miss_family"
+    },
+    {
+      "requirement_id": "vis_05_poet_sorrow_portrait",
+      "description": "特写杜甫满头稀疏花白的头发，抬手搔头，发簪几乎要从稀疏的发髻上滑落的细节，突出诗人因国愁家忧而衰老的形象。",
+      "acceptable_realizations": [
+        "镜头慢慢推近诗人布满皱纹、满是愁容的脸，背景是远处残破的长安城轮廓"
+      ],
+      "forbidden_realizations": [
+        "将诗人刻画为头发浓密、意气风发的年轻形象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "fourth_scene_poet_sorrow_closeup",
+      "semantic_role": "fourth_scene_poet_sorrow_closeup"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_144_01",
+      "description": "天宝十四年（755年），安史之乱爆发。次年六月叛军攻陷长安，唐玄宗逃往四川，太子李亨在灵武即位，是为唐肃宗。",
+      "audio_triggers": [
+        "安史之乱",
+        "安禄山起兵",
+        "攻陷长安",
+        "逃往四川",
+        "灵武即位"
+      ],
+      "visual_evidence": [
+        "唐代战乱场景",
+        "叛军攻入长安城门",
+        "城池烽烟四起",
+        "皇家仪仗仓皇逃亡",
+        "禁止出现现代建筑或明清服饰"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "兵器碰撞声",
+        "人群惊慌呼喊声",
+        "沉重的战鼓声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_144_02",
+      "description": "至德元年（756年）八月，杜甫将家属安顿在鄜州羌村后，只身北赴灵武投奔唐肃宗朝廷，不幸在途中被叛军俘获。",
+      "audio_triggers": [
+        "安顿在鄜州",
+        "北赴灵武",
+        "途中被俘"
+      ],
+      "visual_evidence": [
+        "唐代乡村环境",
+        "杜甫与妻儿告别的凄凉场景",
+        "杜甫穿着单薄，独行在荒凉道路上",
+        "被手持兵器的叛军士兵拦路抓捕"
+      ],
+      "sound_evidence": [
+        "凄凉的秋风声",
+        "杂乱的马蹄声",
+        "叛军士兵的呵斥声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_144_03",
+      "description": "杜甫被解送至沦陷后的长安，通常认为因其官职卑微而未被严密囚禁。他在残破的京城中困居大半年，与家人音信断绝，内心极度忧虑。",
+      "audio_triggers": [
+        "沦陷后的长安",
+        "官职卑微",
+        "困居",
+        "音信断绝"
+      ],
+      "visual_evidence": [
+        "破败的长安城街道",
+        "胡人骑兵在城中巡逻",
+        "杜甫穿着破旧的唐代文人服饰，神情落寞",
+        "愁苦地摸着自己稀疏的白发，身形消瘦"
+      ],
+      "sound_evidence": [
+        "战马巡逻的马蹄声",
+        "寒鸦啼叫声",
+        "沉重的叹息声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_144_04",
+      "description": "至德二载（757年）三月，杜甫目睹春日长安草木荒芜、破败萧条的惨状，感念国破家亡与自身境遇，写下千古名篇《春望》。",
+      "audio_triggers": [
+        "至德二年",
+        "暮春之际",
+        "百感交集",
+        "写下这首传诵千古的名作"
+      ],
+      "visual_evidence": [
+        "春天的长安，残垣断壁间长满茂盛的杂草",
+        "花开鸟鸣却衬托出荒凉凄厉",
+        "杜甫在简陋的居所内提笔写诗",
+        "案头有笔墨纸砚，诗人落笔写下悲壮的诗句"
+      ],
+      "sound_evidence": [
+        "春日带有凄凉感的鸟鸣声",
+        "衣袖摩擦声",
+        "毛笔在纸上书写的声音"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "国破山河在，",
+      "pronunciation": "guó pò shān hé zài，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "城春草木深。",
+      "pronunciation": "chéng chūn cǎo mù shēn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "感时花溅泪，",
+      "pronunciation": "gǎn shí huā jiàn lèi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "恨别鸟惊心。",
+      "pronunciation": "hèn bié niǎo jīng xīn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "烽火连三月，",
+      "pronunciation": "fēng huǒ lián sān yuè，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "家书抵万金。",
+      "pronunciation": "jiā shū dǐ wàn jīn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "白头搔更短，",
+      "pronunciation": "bái tóu sāo gèng duǎn，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "浑欲不胜簪。",
+      "pronunciation": "hún yù bù shēng zān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不胜",
+      "pronunciation": "bù shēng",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "杜甫",
+      "pronunciation": "dù fǔ",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "春望",
+      "pronunciation": "chūn wàng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "安禄山",
+      "pronunciation": "ān lù shān",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "史思明",
+      "pronunciation": "shǐ sī míng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "李亨",
+      "pronunciation": "lǐ hēng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "唐肃宗",
+      "pronunciation": "táng sù zōng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "长安",
+      "pronunciation": "cháng ān",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "灵武",
+      "pronunciation": "líng wǔ",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "鄜州",
+      "pronunciation": "fū zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "羌村",
+      "pronunciation": "qiāng cūn",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "安史之乱",
+      "pronunciation": "ān shǐ zhī luàn",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "至德",
+      "pronunciation": "zhì dé",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_144_01",
+      "source_event_id": "evt_144_01",
+      "target_event_id": "evt_144_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_144_02",
+      "source_event_id": "evt_144_02",
+      "target_event_id": "evt_144_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_144_03",
+      "source_event_id": "evt_144_03",
+      "target_event_id": "evt_144_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_144_04",
+      "source_event_id": "evt_144_01",
+      "target_event_id": "evt_144_04",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/144.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/144.json",
+      "event_gold": "gold_annotation/tangshi_300/144.json"
+    },
+    "original_sample_id": "144",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

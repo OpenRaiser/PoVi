@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "020_tangshi_236_9b85750a772a",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "西塞山怀古",
+    "author": "刘禹锡",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "text": "王濬楼船下益州，金陵王气黯然收。\n千寻铁锁沉江底，一片降幡出石头。\n人世几回伤往事，山形依旧枕寒流。\n今逢四海为家日，故垒萧萧芦荻秋。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "王濬楼船下益州，金陵王气黯然收。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "千寻铁锁沉江底，一片降幡出石头。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "人世几回伤往事，山形依旧枕寒流。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "今逢四海为家日，故垒萧萧芦荻秋。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "9b85750a772a65a619151a1f",
+    "global_index": 20
+  }
+}

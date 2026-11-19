@@ -1,0 +1,973 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_271",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为南宋词人王沂孙所作《齐天乐》，属咏物词，以蝉为吟咏对象。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：齐天乐，作者：王沂孙，朝代：宋，体裁：词，词牌：齐天乐",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "王沂孙……工词，风格接近周邦彦……尤以咏物为工，皆善于体会物象以寄托感慨。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可明确该词为宋代咏物词代表作之一",
+        "作者擅长以物象寄托个人感慨"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代或明代作品",
+        "作者非王沂孙",
+        "该词为山水田园诗而非咏物词"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "词作于宋末元初，作者亲历亡国之变，词中寒蝉哀吟实为寄托亡国之恨与遗民之悲。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "王沂孙生活于宋末元初，切身地经历南宋国之变……《齐天乐·蝉》该词即是在这种情况下写出，以寒蝉的哀吟写亡国之恨。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "元兵入会稽，杨琏真珈掘宋帝六陵，沂孙与唐珏、周密等结吟社，赋《乐府补题》，托意莲、蝉诸物，寄托亡国之恸。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中悲苦情绪与南宋灭亡的历史创伤直接相关",
+        "咏蝉是当时遗民词人结社寄托哀思的常见手法"
+      ],
+      "forbidden_assertions": [
+        "该词仅写个人失恋或日常闲愁",
+        "创作于北宋太平盛世",
+        "词中毫无政治或家国寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_03_allusion_gonghun",
+      "claim": "“宫魂断”化用齐后化蝉典故，将蝉拟作含恨而亡的宫妃，奠定全词哀怨凄楚的基调。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "宫魂断：用齐后化蝉典。宫魂：即齐后之魂。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "宫妃满怀离恨，忿然魂断，化作一只衰蝉，年年都在庭院的绿荫丛中哀呜。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "起句即赋予蝉以人格化的历史悲剧色彩",
+        "“余恨”指向的是无法消解的故国之思"
+      ],
+      "forbidden_assertions": [
+        "“宫魂”指代唐代宫廷乐师",
+        "该典故与蝉的生物学特征无关",
+        "起句仅为写景，无情感铺垫"
+      ]
+    },
+    {
+      "claim_id": "claim_04_allusion_tongxian",
+      "claim": "“铜仙铅泪似洗，叹移盘去远”借用汉武帝金铜仙人辞汉典故，暗喻宋室倾覆、故国难回。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "铜仙：用汉武帝金铜仙人典。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "金铜仙人铅泪如洗，去国辞乡，只可叹她携盘远去，不能再贮藏清露以供哀蝉了。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "承露盘去远象征故国文物与正统的流失",
+        "蝉因无露可饮而更显生存困境，映射遗民失所"
+      ],
+      "forbidden_assertions": [
+        "该句实写汉代宫廷实景",
+        "铜仙流泪与蝉的生存毫无关联",
+        "典故仅用于装饰辞藻，无现实指涉"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor_sound_appearance",
+      "claim": "“瑶佩流空，玉筝调柱”以玉声与筝音比喻蝉鸣之清脆；“娇鬓”借魏宫女莫琼树制蝉鬓典故喻蝉翼之美。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "瑶佩：以玉声喻蝉鸣声美妙，下“玉筝”同。镜暗妆残，为谁娇鬓尚如许：……魏文帝宫女莫琼树制蝉鬓，缥缈如蝉。娇鬓：美鬓，借喻蝉翼的美丽。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "听觉与视觉意象交织，突出蝉虽衰而声容犹美",
+        "以美衬悲，强化无人欣赏的孤寂感"
+      ],
+      "forbidden_assertions": [
+        "瑶佩、玉筝为实写窗外人物活动",
+        "娇鬓指代词人自身容貌",
+        "比喻手法在此处不成立"
+      ]
+    },
+    {
+      "claim_id": "claim_06_theme_lifecycle",
+      "claim": "“病翼惊秋”至“漫想薰风”写秋蝉衰病将死，追忆夏日繁盛，以物之生死荣枯映射人世沧桑与故国之思。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "秋蝉病弱的双翼惊恐清秋的到来……她只能徒然追忆当年自己欢笑在薰风中，柳丝万缕飘飞的美景。",
+          "locator": "译文一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "枯形：指蝉蜕。谩想：空想。熏风：南风，此指夏天。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "时间线由秋入夏，以虚景反衬现实之衰飒",
+        "“空想”二字点破繁华不可复得的绝望"
+      ],
+      "forbidden_assertions": [
+        "该段纯为自然物候记录，无情感投射",
+        "薰风与柳丝代表词人当下的真实处境",
+        "蝉的生命周期与朝代兴衰无关"
+      ]
+    },
+    {
+      "claim_id": "claim_07_textual_variants",
+      "claim": "传世版本存在“余/馀”、“移/携”、“清商/清高”、“谩/漫”等异文，但不影响核心意象与主旨。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_2",
+          "text": "一襟馀恨宫魂断……叹携盘去远……甚独抱清高……谩想薰风",
+          "locator": "原文版本二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "馀音更苦……谩想熏风",
+          "locator": "原文版本三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "异文属古籍传抄常见现象，教学时可择善而从或并注",
+        "核心词义与情感指向在诸版本中保持一致"
+      ],
+      "forbidden_assertions": [
+        "异文导致全词主旨发生根本改变",
+        "必须认定某一版本为绝对唯一正体",
+        "版本差异证明作者未定稿"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_details",
+      "claim": "词中“一襟”意为满腔，“凉柯”指秋天的树枝，“暗叶”指浓暗的树叶，“枯形”指蝉蜕，“消得”意为经受得住，“甚”意为正，“清商”指清商曲，为古乐府之一种，曲调凄楚，“谩想”指空想，“熏风”指南风，此指夏天。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "一襟：满腔。凉柯：秋天的树枝。暗叶：浓暗的树叶。枯形：指蝉蜕。消得：经受的住。甚：正。清商：清商曲，古乐府之一种，曲调凄楚。谩想：空想。熏风：南风，此指夏天。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人通过一系列极具秋意与悲凉色彩的词汇，层层铺垫寒蝉的悲剧命运",
+        "“谩想”与“熏风”的对比，加深了现实与往昔、秋凉与夏暖的落差"
+      ],
+      "forbidden_assertions": [
+        "凉柯指春天的嫩芽",
+        "枯形指枯萎的树枝",
+        "熏风指冬天的寒风"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代及咏物词体裁属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋王沂孙咏蝉词《齐天乐》",
+        "宋代词人王沂孙的咏物名篇"
+      ],
+      "forbidden_claims": [
+        "该作为诗而非词",
+        "作者为北宋或元代人士",
+        "非咏物题材"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解宋末元初时代变局与作者遗民身份对词作情感基调的决定性作用。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "词作诞生于南宋覆亡之际，寄托亡国之痛",
+        "作者借蝉鸣抒发流落异族之手的无奈与悲愤"
+      ],
+      "forbidden_claims": [
+        "该词创作于太平盛世",
+        "情感基调为闲适欢愉",
+        "与宋元鼎革历史无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握“宫魂”“铜仙”“清商”“谩想”等典故与核心词汇的准确释义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "宫魂指齐后化蝉之典，铜仙指金铜仙人辞汉",
+        "清商为古乐府凄楚曲调，谩想意为徒然空想"
+      ],
+      "forbidden_claims": [
+        "宫魂指代普通宫女",
+        "铜仙为佛教造像",
+        "谩想意为随意想象"
+      ],
+      "source_claim_ids": [
+        "claim_03_allusion_gonghun",
+        "claim_04_allusion_tongxian",
+        "claim_08_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l06",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_04_mapping",
+      "category": "mapping_bridge",
+      "description": "解析以玉佩、玉筝声喻蝉鸣，以蝉鬓喻蝉翼的修辞逻辑与审美效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "用清脆乐器声比拟蝉鸣，突出其凄美",
+        "借古代蝉鬓发饰反衬蝉翼之娇美与孤寂"
+      ],
+      "forbidden_claims": [
+        "瑶佩玉筝为实写人物",
+        "娇鬓指人而非蝉翼",
+        "此处无比喻或借代手法"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor_sound_appearance"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "把握上片摹写蝉之形声与下片借典抒怀、由秋及夏的章法脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片侧重蝉的哀鸣与形貌，下片转入历史典故与生命悲叹",
+        "全词由实入虚，以秋蝉衰病起，以夏日幻景结"
+      ],
+      "forbidden_claims": [
+        "上下片内容割裂无关联",
+        "全词平铺直叙无层次",
+        "结尾为实写当下秋景"
+      ],
+      "source_claim_ids": [
+        "claim_06_theme_lifecycle"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确本词“托物言志”的阐释边界，即咏蝉实为写亡国之痛，避免过度穿凿或仅停留于物态。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "咏物不滞于物，蝉即遗民，露即故国恩泽",
+        "解读需紧扣宋末遗民词人的集体心理，不可脱离历史语境"
+      ],
+      "forbidden_claims": [
+        "该词仅为生物学意义上的蝉的写照",
+        "可随意附会其他朝代或无关历史事件",
+        "词中意象与作者身世毫无关联"
+      ],
+      "source_claim_ids": [
+        "claim_02_background",
+        "claim_06_theme_lifecycle"
+      ],
+      "line_ids": [
+        "l06",
+        "l07",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "概括全词以寒蝉秋声起兴，以金铜仙辞汉深化，终以空想薰风作结的悲怆意境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "全词借秋蝉之衰飒与金仙之垂泪，抒发故国沦亡、繁华成空的无尽悲苦",
+        "以物喻人，以史证今，结于虚景，余韵凄绝"
+      ],
+      "forbidden_claims": [
+        "全词情感由悲转喜",
+        "主旨为歌颂自然生机",
+        "结尾表达乐观豁达之情"
+      ],
+      "source_claim_ids": [
+        "claim_06_theme_lifecycle"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解不同版本在“余/馀”、“移/携”、“清商/清高”、“谩/漫”等字词上的异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "版本二写作‘携盘去远’、‘独抱清高’、‘谩想薰风’",
+        "版本三写作‘馀音更苦’、‘谩想熏风’"
+      ],
+      "forbidden_claims": [
+        "所有版本文字完全一致，没有任何异文",
+        "异文彻底颠覆了词作的爱国主旨"
+      ],
+      "source_claim_ids": [
+        "claim_07_textual_variants"
+      ],
+      "line_ids": [
+        "l01",
+        "l06",
+        "l08",
+        "l09"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_gonghun",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "宫魂/齐后之魂"
+      ],
+      "target_domain": [
+        "秋蝉/含恨而亡的宫妃或南宋遗民"
+      ],
+      "bridges": [
+        "齐后化蝉典故赋予蝉人格化的历史悲剧色彩，将自然之蝉与亡国宫妃的命运重叠"
+      ],
+      "context_claim_ids": [
+        "claim_03_allusion_gonghun"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅指自然之蝉因秋凉而悲鸣，不涉人事隐喻"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_sound",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "瑶佩流空、玉筝调柱"
+      ],
+      "target_domain": [
+        "蝉鸣声"
+      ],
+      "bridges": [
+        "以清脆悦耳的玉器碰撞声与古筝调弦声，比拟蝉鸣的凄美动听，化听觉为通感意象"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor_sound_appearance"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "实写西窗过雨后，人佩玉、调筝的真实声响，非喻蝉鸣"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_hair_wing",
+      "line_ids": [
+        "l05"
+      ],
+      "source_domain": [
+        "娇鬓（魏文帝宫女莫琼树所制蝉鬓）"
+      ],
+      "target_domain": [
+        "蝉翼"
+      ],
+      "bridges": [
+        "借古代宫女仿蝉翼所制发饰之缥缈娇美，反衬蝉翼虽美却无人欣赏、镜暗妆残的孤寂处境"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor_sound_appearance"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "指词人自身容颜憔悴，借蝉翼自况年华老去"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_04_tongxian",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "铜仙铅泪/移盘去远"
+      ],
+      "target_domain": [
+        "宋室覆亡/故国文物南迁或遗民漂泊无依"
+      ],
+      "bridges": [
+        "金铜仙人辞汉典故象征朝代更迭的悲痛，承露盘去远暗喻故国难回、遗民失所，蝉因无露可饮而更显生存绝境"
+      ],
+      "context_claim_ids": [
+        "claim_04_allusion_tongxian"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅咏叹汉武帝旧事，无现实政治寄托"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_05_xunfeng",
+      "line_ids": [
+        "l09"
+      ],
+      "source_domain": [
+        "薰风/柳丝千万缕"
+      ],
+      "target_domain": [
+        "南宋昔日繁华/太平岁月"
+      ],
+      "bridges": [
+        "以夏日和暖南风与繁茂柳丝反衬秋蝉之衰飒，寄托对故国盛世的追忆与繁华不可复得的幻灭感"
+      ],
+      "context_claim_ids": [
+        "claim_06_theme_lifecycle"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "纯写季节更替的自然景象，表达对夏日生机的单纯向往"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening",
+      "description": "清晰呈现词牌、题名、作者及完整词文，标点与断句需符合词律规范。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现，配以古琴背景音",
+        "旁白诵读时同步显示竖排繁体字幕"
+      ],
+      "forbidden_realizations": [
+        "漏掉词牌或作者信息",
+        "擅自改动字词或打乱句序",
+        "使用现代白话标点替代传统词谱断句"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_text_display",
+      "semantic_role": "opening_title_and_text_display"
+    },
+    {
+      "requirement_id": "vis_02_autumn_cicada",
+      "description": "以幽暗庭院与秋树为背景，呈现衰蝉栖枝、余恨难平的意象。",
+      "acceptable_realizations": [
+        "水墨风格渲染翠阴庭树，蝉影若隐若现",
+        "画面色调偏冷，配合低沉弦乐烘托悲凉氛围"
+      ],
+      "forbidden_realizations": [
+        "使用明媚春日或盛夏场景",
+        "蝉的形象过于写实或卡通化",
+        "忽略“宫魂”典故的历史厚重感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_gonghun"
+      ],
+      "expected_phase": "cicada_mourning_in_autumn_tree",
+      "semantic_role": "cicada_mourning_in_autumn_tree"
+    },
+    {
+      "requirement_id": "vis_03_sound_wing",
+      "description": "通过通感手法，将玉佩清音、玉筝调弦与蝉翼娇美转化为视听交织的画面。",
+      "acceptable_realizations": [
+        "半透明玉佩与古筝虚影在空中流转，与蝉翼纹理叠化",
+        "音效突出清脆空灵，画面留白以显孤寂"
+      ],
+      "forbidden_realizations": [
+        "直接出现真实人物弹奏乐器",
+        "将蝉翼画得过于艳丽而失去凄美基调",
+        "忽略“镜暗妆残”的对比暗示"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_sound",
+        "meta_03_hair_wing"
+      ],
+      "expected_phase": "jade_sound_and_wing_metaphor",
+      "semantic_role": "jade_sound_and_wing_metaphor"
+    },
+    {
+      "requirement_id": "vis_04_bronze_immigrant",
+      "description": "以金铜仙人辞汉典故为核心，展现铅泪如洗、承露盘远去的沧桑画面。",
+      "acceptable_realizations": [
+        "青铜质感仙人像缓缓隐入迷雾，露盘渐行渐远",
+        "色调转为苍黄，配以沉重钟声或低音管乐"
+      ],
+      "forbidden_realizations": [
+        "将铜仙表现为佛教或道教神像",
+        "画面过于明亮欢快",
+        "割裂铜仙与蝉“难贮零露”的生存关联"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_04_tongxian"
+      ],
+      "expected_phase": "bronze_immigrant_tears",
+      "semantic_role": "bronze_immigrant_tears"
+    },
+    {
+      "requirement_id": "vis_05_withered_form",
+      "description": "刻画病翼惊秋、枯形阅世的衰微之态，斜阳余晖映照生命将尽的苍凉。",
+      "acceptable_realizations": [
+        "枯叶与残蝉特写，夕阳拉长阴影，光影渐暗",
+        "节奏放缓，突出“消得斜阳几度”的无力感"
+      ],
+      "forbidden_realizations": [
+        "使用生机勃勃的秋景",
+        "忽略“病翼”“枯形”的衰败特征",
+        "画面节奏过快导致悲情被稀释"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "withered_form_in_setting_sun",
+      "semantic_role": "withered_form_in_setting_sun"
+    },
+    {
+      "requirement_id": "vis_06_phantom_summer",
+      "description": "以虚景手法呈现薰风拂柳的夏日幻象，与现实的秋衰形成强烈反差。",
+      "acceptable_realizations": [
+        "暖色调柳丝轻摇的虚影一闪而过，随即被秋风卷散",
+        "配乐转为短暂悠扬后迅速归于沉寂，点明“漫想”之空"
+      ],
+      "forbidden_realizations": [
+        "将薰风柳丝处理为实景延续",
+        "画面停留在繁华景象而无反差收束",
+        "忽略“空想”带来的幻灭感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_05_xunfeng"
+      ],
+      "expected_phase": "phantom_summer_breeze",
+      "semantic_role": "phantom_summer_breeze"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_271_01",
+      "description": "南宋灭亡，王沂孙切身经历山河破碎的历史巨变，流落异族之手，心中留下难以抹去的亡国之痛。",
+      "audio_triggers": [
+        "南宋灭亡",
+        "亡国之痛",
+        "流落异族"
+      ],
+      "visual_evidence": [
+        "南宋城镇在战乱后的残破景象",
+        "百姓与文人面露忧愤与无奈悲痛",
+        "禁止出现清代发辫"
+      ],
+      "sound_evidence": [
+        "战火声",
+        "悲凉的风声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_271_02",
+      "description": "元军占领会稽后，元朝江南释教总统杨琏真珈带人肆意盗掘南宋宋帝六陵，此事极大刺激了江南的南宋遗民。",
+      "audio_triggers": [
+        "元兵入会稽",
+        "杨琏真珈",
+        "宋帝六陵"
+      ],
+      "visual_evidence": [
+        "元军士兵与异族僧侣破坏皇家陵寝",
+        "掘开坟墓的惨烈景象"
+      ],
+      "sound_evidence": [
+        "沉重的挖掘声",
+        "墓石、器物被破坏的碎裂声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_271_03",
+      "description": "出于对国家败亡和皇陵被毁的悲愤，王沂孙与唐珏、周密等人秘密结为吟社，共同赋写《乐府补题》，以咏物词隐晦地寄托亡国之恸。",
+      "audio_triggers": [
+        "结吟社",
+        "赋《乐府补题》",
+        "咏物寄托"
+      ],
+      "visual_evidence": [
+        "几位宋末文人在隐蔽的室内或山林中集会",
+        "展卷挥毫，面容沉痛悲郁"
+      ],
+      "sound_evidence": [
+        "沉重无奈的叹息声",
+        "毛笔在纸上书写的沙沙声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_271_04",
+      "description": "通常认为在此种故国沦亡的背景下，王沂孙创作了《齐天乐》一词。他借寒秋中哀鸣的衰蝉与金铜仙人辞汉的典故，幽曲地倾诉了遗民的故国之思与凄楚处境。",
+      "audio_triggers": [
+        "齐天乐",
+        "寒蝉哀吟",
+        "金铜仙人"
+      ],
+      "visual_evidence": [
+        "秋日西窗之下，王沂孙在书案前写词",
+        "窗外秋雨初歇，树木枝干凄清，树叶浓暗凋零"
+      ],
+      "sound_evidence": [
+        "秋风扫过树叶的沙沙声",
+        "微弱凄切的秋蝉哀鸣声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "一襟余恨宫魂断，",
+      "pronunciation": "yī jīn yú hèn gōng hún duàn ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "年年翠阴庭树。",
+      "pronunciation": "nián nián cuì yīn tíng shù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "乍咽凉柯，",
+      "pronunciation": "zhà yè liáng kē ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "还移暗叶，",
+      "pronunciation": "hái yí àn yè ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "重把离愁深诉。",
+      "pronunciation": "chóng bǎ lí chóu shēn sù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "西窗过雨。",
+      "pronunciation": "xī chuāng guò yǔ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "怪瑶佩流空，",
+      "pronunciation": "guài yáo pèi liú kōng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "玉筝调柱。",
+      "pronunciation": "yù zhēng tiáo zhù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "镜暗妆残，",
+      "pronunciation": "jìng àn zhuāng cán ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "为谁娇鬓尚如许？",
+      "pronunciation": "wèi shuí jiāo bìn shàng rú xǔ ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "铜仙铅泪似洗，",
+      "pronunciation": "tóng xiān qiān lèi sì xǐ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "叹移盘去远，",
+      "pronunciation": "tàn yí pán qù yuǎn ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "难贮零露。",
+      "pronunciation": "nán zhù líng lù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "病翼惊秋，",
+      "pronunciation": "bìng yì jīng qiū ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "枯形阅世，",
+      "pronunciation": "kū xíng yuè shì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "消得斜阳几度？",
+      "pronunciation": "xiāo dé xié yáng jǐ dù ？",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "余音更苦，",
+      "pronunciation": "yú yīn gèng kǔ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "甚独抱清商，",
+      "pronunciation": "shèn dú bào qīng shāng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "顿成凄楚。",
+      "pronunciation": "dùn chéng qī chǔ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "漫想薰风，",
+      "pronunciation": "màn xiǎng xūn fēng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "柳丝千万缕。",
+      "pronunciation": "liǔ sī qiān wàn lǚ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "齐天乐",
+      "pronunciation": "qí tiān lè",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "王沂孙",
+      "pronunciation": "wáng yí sūn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "会稽",
+      "pronunciation": "kuài jī",
+      "accepted_variants": [
+        "huì jī"
+      ],
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "杨琏真珈",
+      "pronunciation": "yáng liǎn zhēn jiā",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "唐珏",
+      "pronunciation": "táng jué",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "周密",
+      "pronunciation": "zhōu mì",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "乐府补题",
+      "pronunciation": "yuè fǔ bǔ tí",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "金铜仙人",
+      "pronunciation": "jīn tóng xiān rén",
+      "category": "allusion",
+      "importance": 3
+    },
+    {
+      "term": "清商",
+      "pronunciation": "qīng shāng",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_271_01",
+      "source_event_id": "evt_271_01",
+      "target_event_id": "evt_271_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_271_02",
+      "source_event_id": "evt_271_02",
+      "target_event_id": "evt_271_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_271_03",
+      "source_event_id": "evt_271_01",
+      "target_event_id": "evt_271_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_271_04",
+      "source_event_id": "evt_271_03",
+      "target_event_id": "evt_271_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/271.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/271.json",
+      "event_gold": "gold_annotation/songci_300/271.json"
+    },
+    "original_sample_id": "271",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

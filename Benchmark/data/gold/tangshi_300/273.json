@@ -1,0 +1,677 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_273",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《九月九日忆山东兄弟》是唐代诗人王维创作的七言绝句，现存通行文本为四句标准版本。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据明确标注题名、作者、朝代、体裁，正文为四句诗作",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "多个权威古诗文平台收录的本诗文本完全一致",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本诗作为王维盛唐时期的经典绝句作品进行讲解"
+      ],
+      "forbidden_assertions": [
+        "声称本诗作者为其他唐代诗人",
+        "擅自改动原诗固定字句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_background",
+      "claim": "本诗是王维十七岁游学长安谋取功名时所作，当时他独自漂泊在洛阳与长安之间，题中“山东”指华山以东的蒲州（今山西永济，王维故乡），并非当代的山东省。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "王维当时独自一人漂泊在洛阳与长安之间，他是蒲州人，蒲州在华山东面，所以称故乡的兄弟为山东兄弟",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此诗作于开元五年（717年）王维十七岁游学长安时，山东指华山以东的蒲州",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "山东：指华山以东的蒲州，今山西永济，是王维的故乡，并非指现在的山东省",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合少年游子初入帝都举目无亲的处境辅助理解诗歌情绪"
+      ],
+      "forbidden_assertions": [
+        "将“山东”直接解释为当代行政区划 of 山东省",
+        "声称本诗是王维晚年隐居辋川时期的作品"
+      ]
+    },
+    {
+      "claim_id": "claim_03_chongyang_custom",
+      "claim": "农历九月初九为重阳节，古代有重阳当日登高、佩戴茱萸以避灾驱邪的传统民俗。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "登高：古有重阳节登高的风俗。茱萸：一种香草，古时人们认为重阳节插戴茱萸可以避灾克邪",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "九月九日：农历的九月初九，为重阳节。登高：民间在九九重阳节这一天有登高避邪的习俗。古人有在重阳节时佩戴茱萸的习俗",
+          "locator": "注释三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "《太平御览》引《风土记》云：俗于此日，以茱萸气烈成熟，尚此日，折萸房以插头，言辟热气而御初寒",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合古代重阳阖家团聚过节的普遍场景辅助理解诗意"
+      ],
+      "forbidden_assertions": [
+        "声称插茱萸的习俗是宋代之后才出现的",
+        "将登高习俗解释为春日踏青游赏的活动"
+      ]
+    },
+    {
+      "claim_id": "claim_04_first_couplet_artistry",
+      "claim": "诗的前两句“独在异乡为异客，每逢佳节倍思亲”使用一个“独”字、两个“异”字，高度概括了所有异乡游子佳节思亲的共通情感，成为流传千古的经典警句。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "开篇一句写出了诗人在异乡的孤独之感，短短一句话中用了一个“独”、两个“异”字",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这种体验，可以说人人都有，但在王维之前，却没有任何诗人用这样朴素无华而又高度概括的诗句成功地表现过，一经道出就成了最能表现客中思乡感情的格言式的警句",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "王维用朴素却不失纯美的语言，替所有的游子说出了心声，“每逢”二字打破了九月初九的特定时间格局，使人体会到诗中思乡之情已经积聚了许久",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引导有异乡求学、务工经历的受众产生情感共鸣"
+      ],
+      "forbidden_assertions": [
+        "声称这两句表意晦涩、不具备跨时代的普遍共情力"
+      ]
+    },
+    {
+      "claim_id": "claim_05_second_couplet_technique",
+      "claim": "诗的后两句没有直接抒发自己思念兄弟的情绪，转而想象家乡兄弟登高遍插茱萸时发现少了自己的遗憾，采用从对方视角落笔的曲笔手法，比直接抒情更显深沉曲折。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "好像遗憾的不是自己未能和故乡的兄弟共度佳节，反倒是兄弟们佳节未能完全团聚，曲折有致，出乎常情",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "不说我想他，却说他想我，加一倍凄凉",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可拓展对比杜甫《月夜》“遥怜小儿女，未解忆长安”的同类反向落笔手法"
+      ],
+      "forbidden_assertions": [
+        "声称后两句描写的是王维亲眼目睹家乡兄弟登高的实景"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_yixiang_yike",
+      "claim": "“异乡”指他乡、外乡；“为异客”指作他乡的客人。这两个词语朴质而真切地道出了游子在风土人情、语言习惯不同的异地所产生的陌生与孤孑之感。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "异乡：他乡、外乡。为异客：作他乡的客人。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "在自然经济占主要地位的封建时代，不同地域之间的风土、人情、语言、生活习惯差别很大……“异乡”“异客”，正是朴质而真切地道出了这种感受。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可用于分析古代交通不便背景下，游子强烈的漂泊感"
+      ],
+      "forbidden_assertions": [
+        "将“异客”解释为行为怪异的客人"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_zhuyu_definition",
+      "claim": "关于“茱萸”的名物释义，资料中存在两种不同的记载：一说为“一种香草，即草决明”；另一说为“一种落叶乔木，香气浓烈，又名越椒”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "茱萸：一种香草，即草决明。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "茱萸：一种落叶乔木，香气浓烈，又名越椒。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "在教学中可以指出古籍对茱萸植物分类的不同见解，但其作为重阳避邪香气植物的文化功能是一致的"
+      ],
+      "forbidden_assertions": [
+        "断定茱萸在唐代只有单一的植物学定义"
+      ]
+    },
+    {
+      "claim_id": "claim_08_author_profile",
+      "claim": "王维字摩诘，号摩诘居士，是盛唐著名诗人、画家，被誉为“诗佛”，苏轼曾赞其“诗中有画，画中有诗”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_author_1",
+          "text": "王维（701—761），字摩诘，号摩诘居士，盛唐著名诗人、画家，被誉为“诗佛”……苏轼赞其“诗中有画，画中有诗”。",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_2",
+          "text": "苏轼评价其：“味摩诘之诗，诗中有画；观摩诘之画，画中有诗。”",
+          "locator": "作者简介二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "本诗虽写得非常朴素，但仍体现了王维极高的艺术概括力"
+      ],
+      "forbidden_assertions": [
+        "声称王维一生只作山水田园诗，不擅长抒情小诗"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明本诗的题名、作者、朝代、体裁和通行文本内容，无错字漏句。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "盛唐诗人王维所作的七言绝句《九月九日忆山东兄弟》",
+        "收录于《全唐诗》的经典思乡题材唐诗"
+      ],
+      "forbidden_claims": [
+        "本诗是宋代诗人的作品",
+        "本诗作者是孟浩然"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_02_creation_context",
+      "category": "historical_context",
+      "description": "掌握本诗的创作时间背景、王维写作时的人生处境，以及题中“山东”的特定地理含义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗是17岁的王维在长安游学求仕时写的，这里的山东指华山以东的蒲州，是王维的老家，不是现在的山东省"
+      ],
+      "forbidden_claims": [
+        "王维写这首诗的时候已经隐居辋川了",
+        "题中的山东就是现在的山东省"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_vocab_and_custom",
+      "category": "lexical",
+      "description": "掌握诗中重点词汇的释义，以及对应的重阳节传统民俗常识。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "异乡就是他乡，异客就是他乡的客人，重阳节有登高、插茱萸避邪的传统习俗"
+      ],
+      "forbidden_claims": [
+        "诗中的佳节指的是春节",
+        "茱萸是可以食用的普通蔬菜"
+      ],
+      "source_claim_ids": [
+        "claim_03_chongyang_custom",
+        "claim_06_lexical_yixiang_yike"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_paraphrase",
+      "category": "literal_meaning",
+      "description": "准确翻译全诗的字面含义，梳理每句的表意逻辑。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "独自漂泊在他乡做客，每到重阳佳节就格外思念亲人，遥想兄弟们登高时人人都插了茱萸，才发现少了我一个人"
+      ],
+      "forbidden_claims": [
+        "王维当时正和家乡的兄弟们一起登高插茱萸过节"
+      ],
+      "source_claim_ids": [
+        "claim_04_first_couplet_artistry",
+        "claim_05_second_couplet_technique"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_artistic_structure",
+      "category": "structure",
+      "description": "理解本诗前两句直抒胸臆打造警句、后两句转出新意使用反向曲笔的结构特点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "前两句直接把游子思亲的情绪推到高潮，后两句换从兄弟思念自己的角度落笔，让情感表达更深沉"
+      ],
+      "forbidden_claims": [
+        "整首诗平铺直叙没有任何表意上的转折"
+      ],
+      "source_claim_ids": [
+        "claim_04_first_couplet_artistry",
+        "claim_05_second_couplet_technique"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_zhuyu_dispute",
+      "category": "alternative_reading",
+      "description": "了解关于“茱萸”名物训诂上的异解，包括草决明说与落叶乔木（越椒）说。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "茱萸在注释中存在分歧，一说为草决明，另一说为落叶乔木越椒"
+      ],
+      "forbidden_claims": [
+        "所有古籍和注释都公认茱萸只有一种植物学定义"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_zhuyu_definition"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_author_background",
+      "category": "summary",
+      "description": "了解作者王维的生平艺术成就，包括其“诗佛”称号及苏轼对其“诗中有画”的评价。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "王维是盛唐著名的诗佛，精通诗书画乐，苏轼称赞他诗中有画、画中有诗"
+      ],
+      "forbidden_claims": [
+        "王维是中唐时期的诗人，不通音律和绘画"
+      ],
+      "source_claim_ids": [
+        "claim_08_author_profile"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_zhuyu_reunion",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "遍插茱萸的重阳登高场景"
+      ],
+      "target_domain": [
+        "兄弟亲友重阳团聚的圆满状态"
+      ],
+      "bridges": [
+        "古代重阳有全家共插茱萸登高避邪的习俗，所有在场人都佩戴茱萸就代表家庭成员全部到齐，是阖家团圆的标志性符号"
+      ],
+      "context_claim_ids": [
+        "claim_03_chongyang_custom",
+        "claim_05_second_couplet_technique"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将茱萸解读为王维对故乡少年生活记忆的情感载体，承载着他早年和兄弟们共度重阳佳节的全部美好回忆"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_background_intro",
+      "description": "开场清晰展示诗题、作者、朝代信息，同步呈现少年王维独自站在长安城郊眺望远方的远景画面，交代创作背景。",
+      "acceptable_realizations": [
+        "题签淡入后搭配古长安街景的动态画面，旁白同步介绍基本信息"
+      ],
+      "forbidden_realizations": [
+        "出现错误的作者头像、错误的朝代标识"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_background_intro",
+      "semantic_role": "opening_title_and_background_intro"
+    },
+    {
+      "requirement_id": "vis_02_first_couplet_portrayal",
+      "description": "展示少年王维独自站在长安街头，身边都是结伴出游、准备过节的路人，凸显他举目无亲的孤孑感，同步浮现l01的诗句字幕。",
+      "acceptable_realizations": [
+        "用暖色调渲染周围路人团聚过节的热闹场景，用冷色调单独突出王维的孤独身影"
+      ],
+      "forbidden_realizations": [
+        "把王维身边的场景画成他和亲友结伴同游的画面"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "first_couplet_solitude_portrayal",
+      "semantic_role": "first_couplet_solitude_portrayal"
+    },
+    {
+      "requirement_id": "vis_03_second_couplet_imagination",
+      "description": "画面从长安平滑切换到华山以东的蒲州乡野，兄弟们结伴登高，互相往对方头上插茱萸，最后清点人数时发现多出一个空位，同步浮现l02的诗句字幕。",
+      "acceptable_realizations": [
+        "用暖黄色调渲染故乡山间的秋景，兄弟们插茱萸的动作细节清晰呈现"
+      ],
+      "forbidden_realizations": [
+        "画面里所有兄弟都佩戴了茱萸，没有留出代表王维缺席的空位"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_zhuyu_reunion"
+      ],
+      "expected_phase": "second_couplet_reunion_imagination",
+      "semantic_role": "second_couplet_reunion_imagination"
+    },
+    {
+      "requirement_id": "vis_04_full_poem_resonance",
+      "description": "完整呈现全诗四句的同步字幕，搭配重阳菊花、茱萸枝、远山等传统元素，引导观众共情游子思亲的普遍情感。",
+      "acceptable_realizations": [
+        "诗句逐行淡入，背景搭配缓缓流动的秋山流水画面，配合全诗朗读"
+      ],
+      "forbidden_realizations": [
+        "擅自删减诗句内容，打乱诗句的原有顺序"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "full_poem_affective_resonance",
+      "semantic_role": "full_poem_affective_resonance"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_273_01",
+      "description": "王维家居于华山之东的蒲州（今山西永济），因此将故乡的兄弟称为“山东兄弟”，这是他早年与亲人共同生活的起点。",
+      "audio_triggers": [
+        "蒲州",
+        "华山之东",
+        "山东",
+        "故乡"
+      ],
+      "visual_evidence": [
+        "唐代中原地区的传统宅院外观或内景",
+        "表现家庭和睦的群像",
+        "禁止出现现代砖混建筑或现代家具"
+      ],
+      "sound_evidence": [
+        "宁静的乡村环境音",
+        "欢快的鸟鸣或温和的日常交谈声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_273_02",
+      "description": "通常认为开元五年（717年），十七岁的王维独自离开故乡，漂泊在洛阳与长安之间谋取功名，成为了繁华帝都中的“异客”。",
+      "audio_triggers": [
+        "十七岁",
+        "游学",
+        "长安",
+        "洛阳",
+        "谋取功名",
+        "漂泊"
+      ],
+      "visual_evidence": [
+        "盛唐时期的都城繁华街景",
+        "年轻的王维身着唐代士子服饰，背负行囊或形单影只地穿梭于茫茫人海中",
+        "禁止出现清代马褂、辫发及任何现代城市设施"
+      ],
+      "sound_evidence": [
+        "车马喧嚣声",
+        "街市繁华的人声与主角沉默的对比"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_273_03",
+      "description": "九月九日重阳佳节到来。按唐代民间习俗，人们在这一天登高避邪、饮菊花酒并佩戴茱萸囊。",
+      "audio_triggers": [
+        "重阳节",
+        "九月九日",
+        "登高",
+        "茱萸",
+        "习俗"
+      ],
+      "visual_evidence": [
+        "唐人结伴登高游玩的远景或群像",
+        "表现佩戴茱萸（一种带香气的植物）的特写动作",
+        "场景应具有秋季风貌"
+      ],
+      "sound_evidence": [
+        "呼朋引伴的欢声笑语",
+        "秋风拂过树叶的沙沙声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_273_04",
+      "description": "在重阳节欢乐气氛的衬托下，王维倍感异乡孤孑无亲，遥想故乡的兄弟们登高佩戴茱萸时发现少了他一人，于是写下《九月九日忆山东兄弟》。",
+      "audio_triggers": [
+        "倍思亲",
+        "写下",
+        "遥想",
+        "少一人",
+        "九月九日忆山东兄弟"
+      ],
+      "visual_evidence": [
+        "王维独坐于简朴的客舍书案前，神情孤独、思乡",
+        "可辅以画面过渡或虚景，展现其脑海中故乡兄弟登高独缺一人的画面",
+        "挥毫写下诗句",
+        "禁止将想象中的登高场景表现为王维本人的实际动作"
+      ],
+      "sound_evidence": [
+        "提笔书写在纸张上的摩擦声",
+        "带有淡淡哀愁与思念的舒缓古琴配乐"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "独在异乡为异客，",
+      "pronunciation": "dú zài yì xiāng wéi yì kè ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "每逢佳节倍思亲。",
+      "pronunciation": "měi féng jiā jié bèi sī qīn 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遥知兄弟登高处，",
+      "pronunciation": "yáo zhī xiōng dì dēng gāo chù ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遍插茱萸少一人。",
+      "pronunciation": "biàn chā zhū yú shǎo yī rén 。",
+      "accepted_variants": [
+        "biàn chā zhū yú shǎo yì rén 。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "王维",
+      "pronunciation": "wáng wéi",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "九月九日忆山东兄弟",
+      "pronunciation": "jiǔ yuè jiǔ rì yì shān dōng xiōng dì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "蒲州",
+      "pronunciation": "pú zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "华山",
+      "pronunciation": "huà shān",
+      "accepted_variants": [
+        "huá shān"
+      ],
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "长安",
+      "pronunciation": "cháng ān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "洛阳",
+      "pronunciation": "luò yáng",
+      "category": "place",
+      "importance": 1
+    },
+    {
+      "term": "重阳节",
+      "pronunciation": "chóng yáng jié",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "茱萸",
+      "pronunciation": "zhū yú",
+      "category": "other",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_273_01",
+      "source_event_id": "evt_273_01",
+      "target_event_id": "evt_273_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_273_02",
+      "source_event_id": "evt_273_02",
+      "target_event_id": "evt_273_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_273_03",
+      "source_event_id": "evt_273_03",
+      "target_event_id": "evt_273_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/273.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/273.json",
+      "event_gold": "gold_annotation/tangshi_300/273.json"
+    },
+    "original_sample_id": "273",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

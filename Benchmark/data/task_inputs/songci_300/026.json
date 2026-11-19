@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "093_songci_026_a7c2f00202f3",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "蝶恋花",
+    "author": "欧阳修",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "庭院深深深几许？\n杨柳堆烟，帘幕无重数。\n玉勒雕鞍游冶处，楼高不见章台路。\n雨横风狂三月暮，门掩黄昏，无计留春住。\n泪眼问花花不语，乱红飞过秋千去。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "庭院深深深几许？"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "杨柳堆烟，帘幕无重数。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "玉勒雕鞍游冶处，楼高不见章台路。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "雨横风狂三月暮，门掩黄昏，无计留春住。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "泪眼问花花不语，乱红飞过秋千去。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "a7c2f00202f3c327ca41c1a1",
+    "global_index": 93
+  }
+}

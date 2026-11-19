@@ -1,0 +1,885 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_138",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为南宋初词人陈与义（字去非，号简斋）所作，词牌为《临江仙》。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "临江仙",
+          "locator": "cipai",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "陈与义",
+          "locator": "author",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "宋",
+          "locator": "dynasty",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "陈与义（1090—1138），字去非，号简斋，北宋末南宋初洛阳人。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可称陈与义为北宋末南宋初词人，此词作于其避乱流寓期间。",
+        "词牌《临江仙》属宋代常见词调。"
+      ],
+      "forbidden_assertions": [
+        "称作者为唐代诗人或北宋太平时期人物。",
+        "将词牌误判为诗体或曲牌。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_context_theme",
+      "claim": "词作于端午节（午日），作者身处天涯避乱，感叹节令匆匆、年华老去，借凭吊屈原抒发家国之痛与身世之悲。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "午日：端午，即农历五月初五。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首《临江仙》所反映的是国家遭受兵乱时节，作者在节凭吊，旧怀伤时，借此来抒发自己的情怀。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "端午习俗与屈原投江的历史背景共同构成词作的情感基调。",
+        "“天涯节序匆匆”暗含战乱流离、时光飞逝的无奈。"
+      ],
+      "forbidden_assertions": [
+        "认为此词描写春日踏青或纯粹的个人闲愁。",
+        "将“楚词”误解为泛指一般诗词而非特指屈原作品。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_pomegranate_contrast",
+      "claim": "“榴花不似舞裙红”以异乡榴花与昔日京师舞裙作对比，暗含对往昔繁华与个人盛年的追忆。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "言舞裙比石榴更红更美。这是怀念昔时生平岁月之意。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "用鲜艳灿烂的榴花比鲜红的舞裙，回忆过去春风得意、声名籍籍时的情景。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "舞裙象征昔日汴京的繁华宴乐与作者春风得意之时。",
+        "榴花虽艳，却不及记忆中的舞裙，凸显今昔落差。"
+      ],
+      "forbidden_assertions": [
+        "认为榴花比舞裙更美，或此句仅写自然景物无怀旧之意。",
+        "将“舞裙”实指为某位具体歌女而非时代繁华的借代。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_sunflower_symbol",
+      "claim": "“戎葵凝笑墙东”借蜀葵向阳之性，象征词人虽年老流落他乡，但爱国忠贞之志始终不渝。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "戎葵：即蜀葵，夏日开花，花开五色，似木槿，有向阳特性。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "是借蜀葵向太阳的属性来喻自己始终如一的爱国思想。墙边五月的葵花，迎着东方的太阳开颜。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“凝笑”赋予植物人格化，映射作者旷达豪宕与坚贞不渝的爱国情怀。",
+        "戎葵与榴花同为五月意象，共同构建节令与心境的对照。"
+      ],
+      "forbidden_assertions": [
+        "认为戎葵仅指普通花草，或“凝笑”表达草木对作者的嘲讽。",
+        "将“墙东”坐实为具体建筑方位而忽略其象征意。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_wine_ritual",
+      "claim": "“试浇桥下水，今夕到湘中”通过酹酒江水的动作，寄托对屈原的深切凭吊与思远意长之情。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "湘中：湘江水中。这里指屈原殉难处。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "面对湘江作者祭酒的虔诚，加上这杯中之酒肯定会流到汨罗江的联想，因而滔滔江水之中，融合了词人心灵深处的感情。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "桥下水连通湘江，象征情感跨越时空抵达屈原殉难处。",
+        "“酒杯深浅去年同”以物是人非反衬时光流逝与悲愤之情。"
+      ],
+      "forbidden_assertions": [
+        "认为作者只是随意倒酒，或湘中指代其他无关地点。",
+        "将“试浇”理解为日常饮酒行为而非祭祀凭吊仪式。"
+      ]
+    },
+    {
+      "claim_id": "claim_06_creation_year_dispute",
+      "claim": "关于此词的创作年份与地点，资料存在两说：一说作于建炎三年（1129年），词人流寓湖南、湖北一带；另一说作于建炎四年（1130年），词人流寓邵州（湖南邵阳）时。",
+      "status": "disputed",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此词是在公元1129年（建炎三年）所作，这一年，陈与义流寓湖南、湖北一带",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "此词为作者流寓邵州（湖南邵阳）时作，时为建炎四年（1130年）。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "无论建炎三年或四年，此词均作于靖康之变后词人南渡避乱湖湘期间。"
+      ],
+      "forbidden_assertions": [
+        "断定此词仅有建炎四年唯一创作年份记载。"
+      ]
+    },
+    {
+      "claim_id": "claim_07_textual_variants",
+      "claim": "本词在不同版本中存在文字异同，如“戎葵”在部分版本中作“戌葵”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_version_1",
+          "text": "万事一身伤老矣，戎葵凝笑墙东。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_version_2",
+          "text": "万事一身伤老矣，戌葵凝笑墙东。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“戌葵”应为“戎葵”之传抄笔误或异体字。"
+      ],
+      "forbidden_assertions": [
+        "认为“戌葵”是一种与“戎葵（蜀葵）”完全不同的植物。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及创作年份争议。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋初陈与义所作的《临江仙》，有建炎三年与建炎四年两说",
+        "北宋末南宋初词人陈与义（简斋）的端午词"
+      ],
+      "forbidden_claims": [
+        "作者为唐代诗人",
+        "体裁为七言律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_06_creation_year_dispute"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解建炎年间避乱流寓背景与端午节令对词作情感的触发作用。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "金兵南下、作者流落湖湘之际逢端午所作",
+        "战乱漂泊中借端午凭吊屈原"
+      ],
+      "forbidden_claims": [
+        "作于北宋承平时期",
+        "与端午节令无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_context_theme",
+        "claim_06_creation_year_dispute"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握“楚词”“午日”“酬”“戎葵”“湘中”等核心词汇的准确释义，并了解“戎葵”与“戌葵”的异文。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "午日即端午，酬意为度过，戎葵即蜀葵，湘中指屈原殉难地",
+        "楚词特指屈原作品体系，戎葵在版本二中写作戌葵"
+      ],
+      "forbidden_claims": [
+        "将“酬”解释为酬谢",
+        "将“戎葵”误认为向日葵或普通杂草"
+      ],
+      "source_claim_ids": [
+        "claim_02_context_theme",
+        "claim_04_sunflower_symbol",
+        "claim_07_textual_variants"
+      ],
+      "line_ids": [
+        "l01",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal",
+      "category": "literal_meaning",
+      "description": "逐句疏通词意，把握上阕怀旧与下阕伤老、祭酒的情感递进。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "高声吟诵楚辞度过端午，感叹漂泊天涯时光飞逝",
+        "将酒浇入桥下流水，期盼今夜能流至湘江凭吊屈原"
+      ],
+      "forbidden_claims": [
+        "将“歌罢满帘风”理解为自然气象记录",
+        "认为“酒杯深浅”指酒量大小"
+      ],
+      "source_claim_ids": [
+        "claim_02_context_theme",
+        "claim_05_wine_ritual"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "识别词中核心意象（榴花、舞裙、戎葵、桥下水）及其承载的象征意义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "舞裙代指昔日汴京繁华，戎葵象征忠贞爱国之志",
+        "桥下水作为情感传递的媒介"
+      ],
+      "forbidden_claims": [
+        "认为全词无象征手法，仅为白描",
+        "将意象孤立看待而不联系作者身世"
+      ],
+      "source_claim_ids": [
+        "claim_03_pomegranate_contrast",
+        "claim_04_sunflower_symbol",
+        "claim_05_wine_ritual"
+      ],
+      "line_ids": [
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_mapping",
+      "category": "mapping_bridge",
+      "description": "阐释“戎葵凝笑”如何通过植物向阳特性映射词人坚贞不渝的爱国情怀。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借蜀葵向日之性，拟人化表达身处逆境仍心向故国的立场",
+        "“凝笑”二字将自然物态转化为精神写照"
+      ],
+      "forbidden_claims": [
+        "认为“凝笑”是客观写实而非主观投射",
+        "将映射关系局限于植物学特征"
+      ],
+      "source_claim_ids": [
+        "claim_04_sunflower_symbol"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_07_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确“无人知此意”与“凝笑”的解读边界，避免过度引申或曲解。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“无人知”指知音难觅与家国情怀不被时人理解",
+        "“凝笑”非嘲讽，而是旷达与坚守的复合情感"
+      ],
+      "forbidden_claims": [
+        "将“无人知”解读为作者孤傲自赏",
+        "认为“凝笑”是草木对老病之人的讥笑"
+      ],
+      "source_claim_ids": [
+        "claim_03_pomegranate_contrast",
+        "claim_04_sunflower_symbol"
+      ],
+      "line_ids": [
+        "l02",
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_08_summary",
+      "category": "summary",
+      "description": "概括全词主旨：以端午凭吊屈原为线索，交织今昔对比、伤老叹时与忠贞不渝的爱国悲歌。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借端午酹酒抒发流离之悲与家国之痛，格调沉郁悲壮",
+        "从个人身世之叹升华为对屈原精神的追慕与传承"
+      ],
+      "forbidden_claims": [
+        "概括为单纯的节令应景之作",
+        "忽略词中“悲壮”与“爱国”的核心基调"
+      ],
+      "source_claim_ids": [
+        "claim_02_context_theme",
+        "claim_04_sunflower_symbol",
+        "claim_05_wine_ritual"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_09_alternative_reading",
+      "category": "alternative_reading",
+      "description": "辨析“戎葵”在不同版本中的异文“戌葵”，以及创作年份建炎三年与建炎四年的分歧。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "了解版本一作“戎葵”，版本二作“戌葵”",
+        "了解赏析一认为作于建炎三年，而背景一、二认为作于建炎四年"
+      ],
+      "forbidden_claims": [
+        "认为“戌葵”是完全不同的植物意象",
+        "断言该词创作年份毫无争议"
+      ],
+      "source_claim_ids": [
+        "claim_06_creation_year_dispute",
+        "claim_07_textual_variants"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_pomegranate_skirt",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "异乡榴花",
+        "昔日舞裙"
+      ],
+      "target_domain": [
+        "当下流离的凄凉",
+        "往昔汴京的繁华与个人盛年"
+      ],
+      "bridges": [
+        "以物色对比映射时空变迁，舞裙之红艳反衬当下漂泊之黯淡，寄托怀旧之情"
+      ],
+      "context_claim_ids": [
+        "claim_03_pomegranate_contrast"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "或视为单纯节令景物描写，无强烈今昔对比",
+        "或解为作者对青春逝去的自然感伤"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_sunflower_patriotism",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "戎葵（蜀葵）",
+        "凝笑",
+        "向阳特性"
+      ],
+      "target_domain": [
+        "词人始终不渝的爱国忠贞之志",
+        "旷达豪宕的胸襟"
+      ],
+      "bridges": [
+        "借植物向阳的自然属性拟人化，映射词人虽处逆境流离，但心向朝廷/故国的坚定立场"
+      ],
+      "context_claim_ids": [
+        "claim_04_sunflower_symbol"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "或解为草木无情，反衬人之孤寂",
+        "或视为自然生机对老病之身的宽慰与陪伴"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_water_xiang",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "桥下水",
+        "湘中"
+      ],
+      "target_domain": [
+        "对屈原的追思与凭吊",
+        "跨越时空的家国情怀"
+      ],
+      "bridges": [
+        "以水流连通地理空间，将眼前酹酒动作与屈原殉难地湘水相连，实现情感寄托"
+      ],
+      "context_claim_ids": [
+        "claim_05_wine_ritual"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "或仅指地理上的湘江流域，无特定历史人物指向",
+        "或视为作者对南方水乡风物的客观记录"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰呈现词牌、题名、作者及朝代，配合宋代文人书卷或简斋印章元素，奠定古典基调。",
+      "acceptable_realizations": [
+        "开场题签后分句呈现，旁白同步朗读",
+        "水墨背景浮现作者小传与创作年份"
+      ],
+      "forbidden_realizations": [
+        "漏掉词牌或作者信息",
+        "使用现代字体或无关背景图"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_author_display",
+      "semantic_role": "title_and_author_display"
+    },
+    {
+      "requirement_id": "vis_02_chanting_wind",
+      "description": "表现“高咏楚词”与“满帘风”的声画结合，突出慷慨悲壮的吟诵氛围。",
+      "acceptable_realizations": [
+        "人物剪影临窗长吟，帘幕随风剧烈翻动",
+        "音效叠加楚辞吟诵声与风声，画面色调偏冷"
+      ],
+      "forbidden_realizations": [
+        "仅展示静态风景无吟诵动作",
+        "风声处理为轻柔微风而非激荡之风"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "chanting_and_wind_atmosphere",
+      "semantic_role": "chanting_and_wind_atmosphere"
+    },
+    {
+      "requirement_id": "vis_03_contrast",
+      "description": "通过视觉叠化或分屏对比，呈现“榴花”与“舞裙”的意象对照，暗示今昔落差。",
+      "acceptable_realizations": [
+        "前景鲜红榴花，后景虚化宋代仕女舞裙影像",
+        "色彩由明艳渐转为灰暗，配合“不似”字幕提示"
+      ],
+      "forbidden_realizations": [
+        "将两者并列展示为同等重要景物",
+        "使用现代舞台服装替代宋代舞裙"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_pomegranate_skirt"
+      ],
+      "expected_phase": "pomegranate_skirt_juxtaposition",
+      "semantic_role": "pomegranate_skirt_juxtaposition"
+    },
+    {
+      "requirement_id": "vis_04_sunflower",
+      "description": "刻画“戎葵凝笑墙东”的拟人化画面，突出植物向阳姿态与词人精神气质的同构。",
+      "acceptable_realizations": [
+        "特写墙东蜀葵迎着晨光绽放，花瓣微颤似含笑",
+        "光影从东方投射，葵影与人物侧影重叠"
+      ],
+      "forbidden_realizations": [
+        "将蜀葵画为低头或枯萎状态",
+        "忽略“墙东”方位与“向阳”光线的对应关系"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_sunflower_patriotism"
+      ],
+      "expected_phase": "sunflower_personification",
+      "semantic_role": "sunflower_personification"
+    },
+    {
+      "requirement_id": "vis_05_ritual",
+      "description": "呈现“试浇桥下水”的酹酒动作与水流意象，引导视线向远方延伸，象征情感抵达湘中。",
+      "acceptable_realizations": [
+        "手持酒盏倾入桥下流水，镜头顺水流推向远方江面",
+        "水面泛起涟漪，叠化出湘水或屈原祠的远景虚影"
+      ],
+      "forbidden_realizations": [
+        "将倒酒表现为随意泼洒或饮酒动作",
+        "水流画面戛然而止，无空间延伸感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_water_xiang"
+      ],
+      "expected_phase": "wine_pouring_and_river_flow",
+      "semantic_role": "wine_pouring_and_river_flow"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_138_01",
+      "description": "北宋宣和年间，陈与义因诗才受宋徽宗赏识，在都城汴京名震一时，交游广阔，常逢繁华的歌舞宴饮，春风得意。",
+      "audio_triggers": [
+        "宣和年间",
+        "徽宗赏识",
+        "名震一时",
+        "歌舞宴会"
+      ],
+      "visual_evidence": [
+        "宋代都城的繁华夜景",
+        "文人雅士聚会宴饮",
+        "身着鲜艳红裙的舞女翩翩起舞，与石榴花色泽相映"
+      ],
+      "sound_evidence": [
+        "欢快的丝竹管弦乐",
+        "宴席间的推杯换盏声与笑语"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_138_02",
+      "description": "靖康之变爆发，金兵攻破汴京，北宋灭亡，宋高宗被迫南渡，国家陷入战乱离散之中。",
+      "audio_triggers": [
+        "靖康之变",
+        "金兵入汴",
+        "北宋灭亡",
+        "高宗南迁"
+      ],
+      "visual_evidence": [
+        "战火蔓延的都城",
+        "仓皇逃难的宋朝宗室、官员与百姓",
+        "断垣残壁与残破的旗帜"
+      ],
+      "sound_evidence": [
+        "震天的战鼓与喊杀声",
+        "战马嘶鸣与百姓的哭喊悲号"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_138_03",
+      "description": "陈与义随之南下避乱，流转于襄汉、湖湘一带，历经颠沛流离，深感报国无门且身逢老病，陷入身世凄凉的境地。",
+      "audio_triggers": [
+        "避乱南下",
+        "流离湖湘",
+        "颠沛流离",
+        "身世凄凉"
+      ],
+      "visual_evidence": [
+        "荒凉的南方古道或水路",
+        "陈与义衣衫旧破，面容憔悴，背着简单的行囊跋涉",
+        "苍茫孤寂的江湖风景"
+      ],
+      "sound_evidence": [
+        "沉重的脚步声",
+        "萧瑟的秋风或冷雨声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_138_04",
+      "description": "建炎三年（1129年）或建炎四年（1130年）端午佳节，陈与义流寓湖湘一带（通常认为在岳阳或邵州），作为异乡孤客，面对匆匆更迭的节令与夏日草木，感慨万千。",
+      "audio_triggers": [
+        "建炎三年",
+        "建炎四年",
+        "流寓",
+        "端午",
+        "节序匆匆"
+      ],
+      "visual_evidence": [
+        "初夏的江南水乡风光",
+        "墙角向日盛开的蜀葵与枝头的红石榴花",
+        "陈与义独自一人面对节气风物，神情落寞"
+      ],
+      "sound_evidence": [
+        "远处的端午龙舟鼓声",
+        "初夏的虫鸣或微风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_138_05",
+      "description": "面对国破家亡，陈与义在端午时节高声吟诵《楚辞》，借酒浇江祭奠屈原以明始终不渝的爱国情怀，随后将满腔悲愤化作《临江仙》一词。",
+      "audio_triggers": [
+        "高咏楚词",
+        "祭奠屈原",
+        "临江仙",
+        "试浇桥下水"
+      ],
+      "visual_evidence": [
+        "陈与义手持酒杯立于江上桥头，神色慷慨悲壮",
+        "将杯中酒洒入江水之中",
+        "夜风吹动帘幕，陈与义在书案前挥毫写下词作"
+      ],
+      "sound_evidence": [
+        "高亢悲昂的吟诵声",
+        "酒水落入江面的水声",
+        "穿堂入帘的疾风声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "高咏《楚词》酬午日，",
+      "pronunciation": "gāo yǒng 《 chǔ cí 》 chóu wǔ rì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天涯节序匆匆。",
+      "pronunciation": "tiān yá jié xù cōng cōng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "榴花不似舞裙红，",
+      "pronunciation": "liú huā bù sì wǔ qún hóng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无人知此意，",
+      "pronunciation": "wú rén zhī cǐ yì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "歌罢满帘风。",
+      "pronunciation": "gē bà mǎn lián fēng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "万事一身伤老矣，",
+      "pronunciation": "wàn shì yī shēn shāng lǎo yǐ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "戎葵凝笑墙东。",
+      "pronunciation": "róng kuí níng xiào qiáng dōng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "酒杯深浅去年同，",
+      "pronunciation": "jiǔ bēi shēn qiǎn qù nián tóng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "试浇桥下水，",
+      "pronunciation": "shì jiāo qiáo xià shuǐ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今夕到湘中。",
+      "pronunciation": "jīn xī dào xiāng zhōng 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "临江仙",
+      "pronunciation": "lín jiāng xiān",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "陈与义",
+      "pronunciation": "chén yǔ yì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "宋徽宗",
+      "pronunciation": "sòng huī zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "汴京",
+      "pronunciation": "biàn jīng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "靖康",
+      "pronunciation": "jìng kāng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "宋高宗",
+      "pronunciation": "sòng gāo zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "湖湘",
+      "pronunciation": "hú xiāng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "岳阳",
+      "pronunciation": "yuè yáng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "邵州",
+      "pronunciation": "shào zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "屈原",
+      "pronunciation": "qū yuán",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "建炎",
+      "pronunciation": "jiàn yán",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "湘江",
+      "pronunciation": "xiāng jiāng",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_138_01",
+      "source_event_id": "evt_138_01",
+      "target_event_id": "evt_138_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_138_02",
+      "source_event_id": "evt_138_02",
+      "target_event_id": "evt_138_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_138_03",
+      "source_event_id": "evt_138_03",
+      "target_event_id": "evt_138_04",
+      "relation_type": "STATE_CHANGE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_138_04",
+      "source_event_id": "evt_138_04",
+      "target_event_id": "evt_138_05",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_138_05",
+      "source_event_id": "evt_138_01",
+      "target_event_id": "evt_138_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_138_06",
+      "source_event_id": "evt_138_03",
+      "target_event_id": "evt_138_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/138.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/138.json",
+      "event_gold": "gold_annotation/songci_300/138.json"
+    },
+    "original_sample_id": "138",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

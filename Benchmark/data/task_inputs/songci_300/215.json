@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "119_songci_215_938bdac62fc5",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "贺新郎",
+    "author": "刘克庄",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "深院榴花吐，画帘开、𦈌衣纨扇，午风清暑。\n儿女纷纷夸结束，新样钗符艾虎。\n早已有游人观渡。\n老大逢场慵作戏，任陌头、年少争旗鼓，溪雨急，浪花舞。\n灵均标致高如许，忆生平既纫兰佩，更怀椒醑。\n谁信骚魂千载后，波底垂涎角黍。\n又说是蛟馋龙怒。\n把似而今醒到了，料当年、醉死差无苦，聊一笑，吊千古。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "深院榴花吐，画帘开、𦈌衣纨扇，午风清暑。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "儿女纷纷夸结束，新样钗符艾虎。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "早已有游人观渡。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "老大逢场慵作戏，任陌头、年少争旗鼓，溪雨急，浪花舞。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "灵均标致高如许，忆生平既纫兰佩，更怀椒醑。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "谁信骚魂千载后，波底垂涎角黍。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "又说是蛟馋龙怒。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "把似而今醒到了，料当年、醉死差无苦，聊一笑，吊千古。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "938bdac62fc5e1e5febe4ece",
+    "global_index": 119
+  }
+}

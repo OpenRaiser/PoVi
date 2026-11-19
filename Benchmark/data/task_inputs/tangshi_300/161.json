@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "075_tangshi_161_98c0c7ae3de5",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "赋得暮雨送李曹",
+    "author": "韦应物",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "楚江微雨里，建业暮钟时。\n漠漠帆来重，冥冥鸟去迟。\n海门深不见，浦树远含滋。\n相送情无限，沾襟比散丝。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "楚江微雨里，建业暮钟时。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "漠漠帆来重，冥冥鸟去迟。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "海门深不见，浦树远含滋。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "相送情无限，沾襟比散丝。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "98c0c7ae3de50d3398c1ee6d",
+    "global_index": 75
+  }
+}

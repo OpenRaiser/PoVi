@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "060_songci_271_1ac3ce14b9a5",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "齐天乐",
+    "author": "王沂孙",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "一襟余恨宫魂断，年年翠阴庭树。\n乍咽凉柯，还移暗叶，重把离愁深诉。\n西窗过雨。\n怪瑶佩流空，玉筝调柱。\n镜暗妆残，为谁娇鬓尚如许？\n铜仙铅泪似洗，叹移盘去远，难贮零露。\n病翼惊秋，枯形阅世，消得斜阳几度？\n余音更苦，甚独抱清商，顿成凄楚。\n漫想薰风，柳丝千万缕。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "一襟余恨宫魂断，年年翠阴庭树。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "乍咽凉柯，还移暗叶，重把离愁深诉。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "西窗过雨。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "怪瑶佩流空，玉筝调柱。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "镜暗妆残，为谁娇鬓尚如许？"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "铜仙铅泪似洗，叹移盘去远，难贮零露。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "病翼惊秋，枯形阅世，消得斜阳几度？"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "余音更苦，甚独抱清商，顿成凄楚。"
+      },
+      {
+        "line_id": "l09",
+        "order": 9,
+        "text": "漫想薰风，柳丝千万缕。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "1ac3ce14b9a58f55cf57a0c3",
+    "global_index": 60
+  }
+}

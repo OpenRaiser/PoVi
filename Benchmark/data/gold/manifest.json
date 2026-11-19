@@ -1,0 +1,371 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-09-20T12:30:28.339323+00:00",
+  "source_manifest": "",
+  "source_review_package": "",
+  "count": 60,
+  "gold_status": "adjudicated_gold",
+  "layout": "<collection>/<source_sequence>.json",
+  "records": [
+    {
+      "sample_id": "songci_300_001",
+      "source": "",
+      "path": "songci_300/001.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_003",
+      "source": "",
+      "path": "songci_300/003.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_011",
+      "source": "",
+      "path": "songci_300/011.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_022",
+      "source": "",
+      "path": "songci_300/022.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_023",
+      "source": "",
+      "path": "songci_300/023.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_033",
+      "source": "",
+      "path": "songci_300/033.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_034",
+      "source": "",
+      "path": "songci_300/034.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_039",
+      "source": "",
+      "path": "songci_300/039.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_045",
+      "source": "",
+      "path": "songci_300/045.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_048",
+      "source": "",
+      "path": "songci_300/048.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_063",
+      "source": "",
+      "path": "songci_300/063.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_070",
+      "source": "",
+      "path": "songci_300/070.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_071",
+      "source": "",
+      "path": "songci_300/071.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_078",
+      "source": "",
+      "path": "songci_300/078.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_096",
+      "source": "",
+      "path": "songci_300/096.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_099",
+      "source": "",
+      "path": "songci_300/099.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_101",
+      "source": "",
+      "path": "songci_300/101.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_119",
+      "source": "",
+      "path": "songci_300/119.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_138",
+      "source": "",
+      "path": "songci_300/138.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_146",
+      "source": "",
+      "path": "songci_300/146.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_154",
+      "source": "",
+      "path": "songci_300/154.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_157",
+      "source": "",
+      "path": "songci_300/157.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_165",
+      "source": "",
+      "path": "songci_300/165.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_179",
+      "source": "",
+      "path": "songci_300/179.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_181",
+      "source": "",
+      "path": "songci_300/181.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_190",
+      "source": "",
+      "path": "songci_300/190.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_235",
+      "source": "",
+      "path": "songci_300/235.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_252",
+      "source": "",
+      "path": "songci_300/252.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_271",
+      "source": "",
+      "path": "songci_300/271.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "songci_300_280",
+      "source": "",
+      "path": "songci_300/280.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_001",
+      "source": "",
+      "path": "tangshi_300/001.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_032",
+      "source": "",
+      "path": "tangshi_300/032.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_038",
+      "source": "",
+      "path": "tangshi_300/038.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_041",
+      "source": "",
+      "path": "tangshi_300/041.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_043",
+      "source": "",
+      "path": "tangshi_300/043.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_059",
+      "source": "",
+      "path": "tangshi_300/059.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_079",
+      "source": "",
+      "path": "tangshi_300/079.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_093",
+      "source": "",
+      "path": "tangshi_300/093.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_097",
+      "source": "",
+      "path": "tangshi_300/097.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_101",
+      "source": "",
+      "path": "tangshi_300/101.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_108",
+      "source": "",
+      "path": "tangshi_300/108.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_116",
+      "source": "",
+      "path": "tangshi_300/116.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_122",
+      "source": "",
+      "path": "tangshi_300/122.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_144",
+      "source": "",
+      "path": "tangshi_300/144.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_154",
+      "source": "",
+      "path": "tangshi_300/154.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_167",
+      "source": "",
+      "path": "tangshi_300/167.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_168",
+      "source": "",
+      "path": "tangshi_300/168.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_201",
+      "source": "",
+      "path": "tangshi_300/201.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_217",
+      "source": "",
+      "path": "tangshi_300/217.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_229",
+      "source": "",
+      "path": "tangshi_300/229.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_236",
+      "source": "",
+      "path": "tangshi_300/236.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_242",
+      "source": "",
+      "path": "tangshi_300/242.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_244",
+      "source": "",
+      "path": "tangshi_300/244.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_251",
+      "source": "",
+      "path": "tangshi_300/251.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_258",
+      "source": "",
+      "path": "tangshi_300/258.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_260",
+      "source": "",
+      "path": "tangshi_300/260.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_270",
+      "source": "",
+      "path": "tangshi_300/270.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_273",
+      "source": "",
+      "path": "tangshi_300/273.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_297",
+      "source": "",
+      "path": "tangshi_300/297.json",
+      "gold_status": "adjudicated_gold"
+    },
+    {
+      "sample_id": "tangshi_300_308",
+      "source": "",
+      "path": "tangshi_300/308.json",
+      "gold_status": "adjudicated_gold"
+    }
+  ]
+}

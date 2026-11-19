@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "005_tangshi_258_1391d9c9b142",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "春晓",
+    "author": "孟浩然",
+    "dynasty": "唐",
+    "form": "五言绝句",
+    "text": "春眠不觉晓，处处闻啼鸟。\n夜来风雨声，花落知多少。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "春眠不觉晓，处处闻啼鸟。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "夜来风雨声，花落知多少。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "1391d9c9b142096bf3976bad",
+    "global_index": 5
+  }
+}

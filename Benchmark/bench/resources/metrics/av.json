@@ -1,0 +1,100 @@
+{
+  "version": "0.6.0",
+  "domain": {
+    "id": "av",
+    "name": "Cross-modal discourse & correspondence (D3–D4, R6–R7)",
+    "main": true
+  },
+  "families": [
+    {
+      "id": "D_cross",
+      "name": "Cross-modal discourse",
+      "description": "Paper D3–D4.",
+      "default_weight": 1.0
+    },
+    {
+      "id": "R_cross",
+      "name": "Cross-modal realization",
+      "description": "Paper R6–R7.",
+      "default_weight": 1.0
+    }
+  ],
+  "metrics": [
+    {
+      "id": "D3",
+      "family_id": "D_cross",
+      "name": "Modality Complementarity",
+      "name_zh": "模态互补",
+      "method": "human_mllm",
+      "scale": "1_5",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "av",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "多模态信息是否形成合理的互补、强化或对应，并避免无关和冲突。"
+    },
+    {
+      "id": "D4",
+      "family_id": "D_cross",
+      "name": "Audiovisual Pacing",
+      "name_zh": "视听节奏",
+      "method": "human_mllm",
+      "scale": "1_5",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "av",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "旁白推进、画面切换、信息密度、声音和画面是否形成连贯的整体节奏。"
+    },
+    {
+      "id": "R6",
+      "family_id": "R_cross",
+      "name": "Cross-modal Correspondence",
+      "name_zh": "跨模态对应",
+      "method": "mllm_human",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "av",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "旁白、画面、字幕和音效是否表达同一对象、动作与事件且无语义冲突。"
+    },
+    {
+      "id": "R7",
+      "family_id": "R_cross",
+      "name": "Narration-Event Synchrony",
+      "name_zh": "旁白—事件同步",
+      "method": "event_detection_human",
+      "scale": "0_1",
+      "direction": "higher",
+      "score_role": "main",
+      "stage": "av",
+      "formal_channel": "human",
+      "prelabel_channel": "mllm",
+      "human_policy": "required",
+      "routes": [
+        "audio_visual_generation/*",
+        "full_task_teaching/*"
+      ],
+      "rubric": "旁白与关键视觉事件的出现、起止和时间窗口是否匹配。"
+    }
+  ]
+}

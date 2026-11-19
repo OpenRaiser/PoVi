@@ -1,0 +1,795 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_003",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《苏幕遮》为北宋政治家、文学家范仲淹所作，体裁为词，词牌名为苏幕遮。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：苏幕遮 作者：范仲淹 朝代：宋 体裁：词 词牌：苏幕遮",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "范仲淹（989—1052），字希文，北宋著名政治家、文学家、军事家……",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "碧云天，黄叶地，秋色连波，波上寒烟翠。山映斜阳天接水，芳草无情，更在斜阳外。黯乡魂，追旅思，夜夜除非，好梦留人睡。明月楼高休独倚，酒入愁肠，化作相思泪。",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可明确该作品为宋代词作，作者为范仲淹",
+        "教学中可结合其政治家身份理解词中沉郁雄健之风"
+      ],
+      "forbidden_assertions": [
+        "该作品为唐代诗歌或散文",
+        "作者为其他宋代词人（如苏轼、柳永等）"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词创作于公元1040年至1043年间，时范仲淹任陕西四路宣抚使，主持西北边防军事。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首词作于公元1040年（宋仁宗康定元年）至公元1043年（庆历三年）间，当时正在西北边塞的军中任陕西四路宣抚使，主持防御西夏的军事。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《苏幕遮·怀旧》这首词作于公元1040年（宋仁宗康定元年）至公元1043年（庆历三年）间，当时范仲淹正在西北边塞的军中任陕西四路宣抚使，主持防御西夏的军事。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中羁旅愁思与作者戍边西北的军旅生涯密切相关",
+        "创作时期正值北宋与西夏对峙阶段"
+      ],
+      "forbidden_assertions": [
+        "该词作于范仲淹晚年退隐江南时期",
+        "创作背景与西北边防或军事职务无关"
+      ]
+    },
+    {
+      "claim_id": "claim_03_upper_scene",
+      "claim": "上片以“碧云天，黄叶地”起笔，由近及远铺陈辽阔苍茫的秋景，融情于景，境界宏大。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "上片描写秋景：湛湛蓝天，嵌缀朵朵湛青的碧云；茫茫大地，铺满片片枯萎的黄叶。无边的秋色绵延伸展，融汇进流动不已的江水……",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "上片描写秋景……这幅巨景，物象典型，境界宏大，空灵气象，画笔难描，因而不同凡响。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "上片写景为下片抒情作铺垫，景语皆情语",
+        "秋色之凄清寥廓与作者心境相契合"
+      ],
+      "forbidden_assertions": [
+        "上片主要描写春日生机或宫廷繁华",
+        "上片纯粹客观写景，毫无情感寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lower_emotion",
+      "claim": "下片直抒羁旅乡思，通过“梦”“酒”“泪”层层递进，以“酒入愁肠，化作相思泪”将抽象愁思具象化。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "下片直抒离愁……然而“举杯消愁愁更愁”，愁情之浓岂是杜康所能排解。“酒入愁肠，化作相思泪”，意新语工，设想奇特，比“愁更愁”更为形象生动。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "只有频频地将苦酒灌入愁肠，化作相思的眼泪。",
+          "locator": "译文二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人借酒浇愁反而加深了思乡之苦",
+        "结句实现了化虚为实的艺术升华"
+      ],
+      "forbidden_assertions": [
+        "下片表达的是建功立业的豪情壮志",
+        "“酒入愁肠”意指借酒庆功或欢聚"
+      ]
+    },
+    {
+      "claim_id": "claim_05_fangcao_metaphor",
+      "claim": "“芳草无情，更在斜阳外”以芳草暗指故乡，借其绵延无际反衬游子思归之切与归途渺茫。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "芳草无情，更在斜阳外：意思是，草地绵延到天涯，似乎比斜阳更遥远。“芳草”常暗指故乡，因此，这两句有感叹故乡遥远之意。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "芳草无情，更在斜阳外：草地延伸到天涯，所到之处比斜阳更遥远。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“无情”实为反语，以草木之无情衬人之深情",
+        "芳草意象承袭古典诗词怀远传统"
+      ],
+      "forbidden_assertions": [
+        "芳草仅指自然植物，无任何象征或情感指向",
+        "“斜阳外”指代敌军阵地或战场前线"
+      ]
+    },
+    {
+      "claim_id": "claim_06_cipai_origin",
+      "claim": "“苏幕遮”原为唐教坊曲名，来自西域，后用作词牌名，又名“云雾敛”“鬓云松令”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "苏幕遮：原唐教坊曲名，来自西域，后用作词牌名。又名“云雾敛”“鬓云松令”。双调六十二字，上下片各五句。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "苏幕遮:词牌名。此调为西域传入的唐教坊曲。词家用此调是另度新曲。又名《云雾敛》《鬓云松令》。双调，六十二字，上下片各五句。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "苏幕遮这一词牌具有外来音乐文化的背景",
+        "该词牌的格式为双调六十二字，上下片各五句"
+      ],
+      "forbidden_assertions": [
+        "苏幕遮是宋代本土原创的词牌，与唐代教坊无关",
+        "苏幕遮词牌只有单调，没有双调"
+      ]
+    },
+    {
+      "claim_id": "claim_07_han_yan_cui",
+      "claim": "“波上寒烟翠”中“翠”色是因为烟本呈白色，因其上连碧天，下接绿波，远望即与碧天同色。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "波上寒烟翠：江波之上笼罩着一层翠色的寒烟。烟本呈白色，因其上连碧天，下接绿波，远望即与碧天同色，正所谓“秋水共长天一色”。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“翠”字生动地表现了水天一色的视觉融合感",
+        "寒烟的翠色是由于环境色彩的折射与映衬"
+      ],
+      "forbidden_assertions": [
+        "“翠”字是指烟雾本身散发出的绿色化学气体",
+        "这里的“翠”与周围的碧天、绿波毫无色彩关联"
+      ]
+    },
+    {
+      "claim_id": "claim_08_xixiangji_borrow",
+      "claim": "王实甫《西厢记》《长亭送别》一折直接使用了这首词的起首两句“碧云天，黄叶地”，衍为曲子，成为千古绝唱。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "王实甫《西厢记》《长亭送别》一折，直接使用这首词的起首两句，衍为曲子，竟成千古绝唱。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "《西厢记》《长亭》一折，直接使用这首词的起首两句，衍为曲子，竟成千古绝唱。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "范仲淹此词的开篇意象对后世戏曲文学产生了深远影响",
+        "“碧云天，黄叶地”具有极高的审美价值，易于被后世借用"
+      ],
+      "forbidden_assertions": [
+        "《西厢记》的作者是范仲淹",
+        "“碧云天，黄叶地”是王实甫原创，范仲淹借用王实甫的句子"
+      ]
+    },
+    {
+      "claim_id": "claim_09_title_huaijiu",
+      "claim": "《全宋词》中将这首词题为“怀旧”，由此可以窥见词人创作此词的本意与命意。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这首《苏幕遮》，《全宋词》题为“怀旧”，可以窥见词的命意。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中的羁旅愁思不仅是思乡，也包含对故旧亲友的怀念",
+        "“怀旧”这一题目直接点明了词作的情感内核"
+      ],
+      "forbidden_assertions": [
+        "这首词在《全宋词》中没有题目",
+        "“怀旧”是指怀念古代的历史人物或历史事件"
+      ]
+    },
+    {
+      "claim_id": "claim_10_ye_ye_chu_fei",
+      "claim": "“夜夜除非，好梦留人睡”是“除非夜夜好梦留人睡”的倒装，意为每天夜里只有做返回故乡的好梦才能安睡。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "夜夜除非，好梦留人睡：每天夜里，只有做返回故乡的好梦才得以安睡。夜夜除非，即“除非夜夜”的倒装。按本文意应作“除非夜夜好梦留人睡”。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人夜间难以入眠，除非在梦中才能得到片刻的慰藉",
+        "倒装句式的使用是为了适应词律的平仄与节奏要求"
+      ],
+      "forbidden_assertions": [
+        "“除非”在词中表示转折，意为“但是夜夜都睡得很好”",
+        "词人每天晚上都能轻松入睡，不需要做梦"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、体裁及词牌名。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋范仲淹的词作《苏幕遮》",
+        "宋代词人范仲淹依苏幕遮词牌填词"
+      ],
+      "forbidden_claims": [
+        "该作品为唐诗或散文",
+        "作者为其他朝代或人物"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "明确该词创作于1040-1043年西北戍边期间，理解军旅背景与羁旅愁思的内在关联。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "作于范仲淹主持西北防务时期",
+        "康定至庆历年间戍边军旅之作"
+      ],
+      "forbidden_claims": [
+        "创作于江南退隐或朝堂任职时期",
+        "与西北边防或军事调动毫无关联"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "掌握词作上下片分工：上片铺写宏阔秋景，下片直抒羁旅乡思，景情交融。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上景下情，由景入情",
+        "上片绘秋景，下片诉乡愁"
+      ],
+      "forbidden_claims": [
+        "上下片内容割裂，无逻辑关联",
+        "全篇均为纯写景或纯抒情"
+      ],
+      "source_claim_ids": [
+        "claim_03_upper_scene",
+        "claim_04_lower_emotion"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_lexical",
+      "category": "lexical",
+      "description": "准确理解“黯”“追”“除非”“休”等关键字词在语境中的含义与语法功能。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“黯”指心情忧郁，“追”指愁思纠缠，“除非”表唯一条件",
+        "“休独倚”意为不要独自倚楼远望"
+      ],
+      "forbidden_claims": [
+        "“追”解释为追赶或追求",
+        "“除非”理解为现代汉语的转折连词"
+      ],
+      "source_claim_ids": [
+        "claim_04_lower_emotion",
+        "claim_10_ye_ye_chu_fei"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor_source",
+      "category": "metaphor_source",
+      "description": "识别“芳草”意象的古典象征传统及其在本词中暗指故乡、反衬离愁的作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "芳草象征故乡与绵长思念",
+        "借芳草无情反衬游子有情"
+      ],
+      "forbidden_claims": [
+        "芳草仅为写实植物，无文化隐喻",
+        "芳草指代边塞敌军或荒凉战场"
+      ],
+      "source_claim_ids": [
+        "claim_05_fangcao_metaphor"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_cipai_origin",
+      "category": "lexical",
+      "description": "了解词牌名“苏幕遮”的来源、别名及双调六十二字的体制特征。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "苏幕遮源自西域，又名云雾敛等",
+        "此调为双调六十二字，上下片各五句"
+      ],
+      "forbidden_claims": [
+        "苏幕遮是宋代本土词调",
+        "苏幕遮是单调词牌"
+      ],
+      "source_claim_ids": [
+        "claim_06_cipai_origin"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "理解“夜夜除非，好梦留人睡”的倒装句式结构及其在词中的实际含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“夜夜除非”是“除非夜夜”的倒装",
+        "意为除非每天夜里做回乡的好梦，否则无法安睡"
+      ],
+      "forbidden_claims": [
+        "“除非”是现代汉语的排除法，表示除了夜夜之外",
+        "此句表示词人每天晚上都睡得很香甜"
+      ],
+      "source_claim_ids": [
+        "claim_10_ye_ye_chu_fei"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_fangcao",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "芳草"
+      ],
+      "target_domain": [
+        "故乡/绵长的离愁与归途渺茫"
+      ],
+      "bridges": [
+        "注释明确指出“芳草”常暗指故乡，其绵延至斜阳之外的空间特征，与游子思归而不得的怅惘心理形成同构映射",
+        "以草木之“无情”反衬人之“有情”，强化情感张力"
+      ],
+      "context_claim_ids": [
+        "claim_05_fangcao_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "芳草亦可视为时光流逝与青春不再的象征，暗合词人年华老去、功业未成的隐忧",
+        "斜阳外的芳草可解读为朝廷或故都的遥望，寄托政治抱负受挫的失落"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_wine_tears",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "酒入愁肠，化作相思泪"
+      ],
+      "target_domain": [
+        "无法排遣的羁旅乡愁/抽象愁思的具象化"
+      ],
+      "bridges": [
+        "赏析指出此句“意新语工，设想奇特”，将无形的愁绪通过饮酒这一动作转化为有形的泪水，实现化虚为实",
+        "酒本为解忧之物，入肠反化为泪，形成强烈的心理反差与情感递进"
+      ],
+      "context_claim_ids": [
+        "claim_04_lower_emotion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为生理反应与心理痛苦的交织，酒力催动泪腺，实为情绪崩溃的外显",
+        "“相思泪”不仅指思乡，亦可涵盖对家国、亲友、故旧的多重眷恋"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_author",
+      "description": "清晰展示词牌、题名、作者及朝代信息，奠定宋代文人词的庄重基调。",
+      "acceptable_realizations": [
+        "水墨题签渐显，旁白同步诵读作者与词牌",
+        "背景衬以宋代书卷或边塞地图轮廓"
+      ],
+      "forbidden_realizations": [
+        "使用现代花哨字体或卡通风格",
+        "遗漏词牌名或作者信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_author_display",
+      "semantic_role": "title_and_author_display"
+    },
+    {
+      "requirement_id": "vis_02_autumn_landscape",
+      "description": "呈现上片由天至地、由近及远的秋景推移，突出“碧云、黄叶、寒烟、斜阳”的色彩对比与空间纵深。",
+      "acceptable_realizations": [
+        "广角镜头扫过高远蓝天与满地落叶，镜头缓缓推向江面寒烟与远山斜阳",
+        "色调以青、黄、翠、金为主，营造空灵苍茫之感"
+      ],
+      "forbidden_realizations": [
+        "画面拥挤杂乱，缺乏留白与意境",
+        "季节特征错乱（如出现春花或夏雨）"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "macro_autumn_panning",
+      "semantic_role": "macro_autumn_panning"
+    },
+    {
+      "requirement_id": "vis_03_night_longing",
+      "description": "转入下片夜景与心理空间，表现“夜夜好梦”与“明月独倚”的孤寂氛围。",
+      "acceptable_realizations": [
+        "画面由室外秋景渐暗，转入高楼孤影与冷月清辉",
+        "使用慢镜头与低饱和度光影，暗示梦境与现实的交替"
+      ],
+      "forbidden_realizations": [
+        "出现喧闹市井或欢聚宴饮场景",
+        "光影过于明亮温暖，破坏愁思基调"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "nighttime_emotional_transition",
+      "semantic_role": "nighttime_emotional_transition"
+    },
+    {
+      "requirement_id": "vis_04_sorrow_materialized",
+      "description": "视觉化呈现“酒入愁肠，化作相思泪”的隐喻转化过程，完成情感高潮的收束。",
+      "acceptable_realizations": [
+        "特写酒杯倾入，酒液在光影中渐变为晶莹泪滴滑落",
+        "配合旁白诵读，画面节奏放缓，留白处理以强化余韵"
+      ],
+      "forbidden_realizations": [
+        "直接展示夸张的痛哭或生理呕吐画面",
+        "使用特效过度炫技，破坏古典含蓄美学"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_wine_tears"
+      ],
+      "expected_phase": "sorrow_to_tears_climax",
+      "semantic_role": "sorrow_to_tears_climax"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_003_01",
+      "description": "公元1040年（康定元年）至1043年（庆历三年）间，北宋面临西夏的军事威胁，范仲淹受命前往西北边塞，出任陕西四路宣抚使等职，主持防御西夏的军务。",
+      "audio_triggers": [
+        "康定元年",
+        "庆历三年",
+        "西北边塞",
+        "防御西夏"
+      ],
+      "visual_evidence": [
+        "北宋时期的西北边关风貌",
+        "军营连绵，士兵巡逻",
+        "范仲淹身着宋代官员服饰或戎装在军营中视察",
+        "禁止出现明清风格的长城砖石建筑"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "苍凉的号角声",
+        "塞外凛冽的风声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_003_02",
+      "description": "范仲淹在西北戍边期间，长年远离故乡，军事生活艰苦紧张，其内心深处积压了深切的羁旅愁思与对家乡的思念。",
+      "audio_triggers": [
+        "远离故乡",
+        "羁旅愁思",
+        "思乡之苦"
+      ],
+      "visual_evidence": [
+        "夜晚或黄昏的边塞军帐内",
+        "油灯摇曳",
+        "范仲淹独自静坐，面容疲惫且带忧愁",
+        "案头放有兵书或地图"
+      ],
+      "sound_evidence": [
+        "帐外呼啸的风声",
+        "断续凄清的更鼓声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_003_03",
+      "description": "时值深秋，范仲淹眺望远方，眼前的碧云黄叶、秋水长天等凄清寥廓的秋景，触动并具象化了他内心的寥落悲怆。",
+      "audio_triggers": [
+        "深秋",
+        "眺望",
+        "秋景凄清",
+        "触景生情"
+      ],
+      "visual_evidence": [
+        "塞外深秋景致",
+        "天高云淡，黄叶满地，夕阳西下",
+        "范仲淹独自站在高处（如城楼或高坡）眺望天际"
+      ],
+      "sound_evidence": [
+        "秋风吹落叶的沙沙声",
+        "环境中的萧瑟感"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_003_04",
+      "description": "通常认为在这样的边塞秋日情境下，范仲淹借酒消愁，提笔写下《苏幕遮》一词，以沉郁雄健的笔力抒发乡思。",
+      "audio_triggers": [
+        "写下苏幕遮",
+        "借酒消愁",
+        "提笔"
+      ],
+      "visual_evidence": [
+        "范仲淹在室内独酌",
+        "桌上置有酒壶与酒杯",
+        "挥毫泼墨写下词句",
+        "画面可表现词人黯然神伤、潸然泪下的状态"
+      ],
+      "sound_evidence": [
+        "斟酒声",
+        "毛笔在纸上书写的摩擦声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "碧云天，",
+      "pronunciation": "bì yún tiān，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黄叶地，",
+      "pronunciation": "huáng yè dì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "秋色连波，",
+      "pronunciation": "qiū sè lián bō，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "波上寒烟翠。",
+      "pronunciation": "bō shàng hán yān cuì。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山映斜阳天接水，",
+      "pronunciation": "shān yìng xié yáng tiān jiē shuǐ，",
+      "accepted_variants": [
+        "shān yìng xiá yáng tiān jiē shuǐ，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "芳草无情，",
+      "pronunciation": "fāng cǎo wú qíng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更在斜阳外。",
+      "pronunciation": "gèng zài xié yáng wài。",
+      "accepted_variants": [
+        "gèng zài xiá yáng wài。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黯乡魂，",
+      "pronunciation": "àn xiāng hún，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "追旅思，",
+      "pronunciation": "zhuī lǚ sì，",
+      "accepted_variants": [
+        "zhuī lǚ sī，"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夜夜除非，",
+      "pronunciation": "yè yè chú fēi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "好梦留人睡。",
+      "pronunciation": "hǎo mèng liú rén shuì。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "明月楼高休独倚，",
+      "pronunciation": "míng yuè lóu gāo xiū dú yǐ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "酒入愁肠，",
+      "pronunciation": "jiǔ rù chóu cháng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "化作相思泪。",
+      "pronunciation": "huà zuò xiāng sī lèi。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "范仲淹",
+      "pronunciation": "fàn zhòng yān",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "苏幕遮",
+      "pronunciation": "sū mù zhē",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "西夏",
+      "pronunciation": "xī xià",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "康定",
+      "pronunciation": "kāng dìng",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "庆历",
+      "pronunciation": "qìng lì",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "陕西四路宣抚使",
+      "pronunciation": "shǎn xī sì lù xuān fǔ shǐ",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_003_01",
+      "source_event_id": "evt_003_01",
+      "target_event_id": "evt_003_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_003_02",
+      "source_event_id": "evt_003_02",
+      "target_event_id": "evt_003_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_003_03",
+      "source_event_id": "evt_003_03",
+      "target_event_id": "evt_003_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/003.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/003.json",
+      "event_gold": "gold_annotation/songci_300/003.json"
+    },
+    "original_sample_id": "003",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

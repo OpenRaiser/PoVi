@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "046_songci_078_6b830018bc6f",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "浣溪沙",
+    "author": "秦观",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "漠漠轻寒上小楼，晓阴无赖似穷秋，淡烟流水画屏幽。\n自在飞花轻似梦，无边丝雨细如愁，宝帘闲挂小银钩。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "漠漠轻寒上小楼，晓阴无赖似穷秋，淡烟流水画屏幽。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "自在飞花轻似梦，无边丝雨细如愁，宝帘闲挂小银钩。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "6b830018bc6f99a2da53fbb6",
+    "global_index": 46
+  }
+}

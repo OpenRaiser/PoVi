@@ -1,0 +1,737 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_119",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人贺铸晚年退隐苏州横塘期间所作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：青玉案·凌波不过横塘路；作者：贺铸；朝代：宋",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "此词为晚年退隐苏州期间的作品。龚明之《中吴纪闻》卷三载：‘（贺铸）有小筑在盘门之南十余里，地名横塘，方回往来其间，尝作《青玉案》词。’",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "贺铸（1052—1125），北宋词人……晚年退居苏州，杜门校书。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词创作于作者苏州隐居时期",
+        "横塘为词人实际往来与居住之地"
+      ],
+      "forbidden_assertions": [
+        "该词作于作者早年仕途顺遂时期",
+        "横塘位于其他城市"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme",
+      "claim": "全词表面写路遇佳人而生的相思怅惘，实则寄托作者沉沦下僚、怀才不遇的“闲愁”。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "上片写路遇佳人而不知所往的怅惘情景，也含蓄地流露其沉沦下僚、怀才不遇的感慨；下片写因思慕而引起的无限愁思……全词虚写相思之情，实抒悒悒不得志的‘闲愁’。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "将政治上的不得志隐曲地表达在诗文里，是封建文人的惯用手法……‘美人’、‘香草’历来又是高洁之士的象征，因此，作者很可能以此自比。居住在香草泽畔的美人清冷孤寂，不正是作者怀才不遇的形象写照吗？",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中‘闲愁’具有双重意蕴，既含儿女情长，亦含士人失意",
+        "可结合宋代文人以香草美人自喻的传统进行解读"
+      ],
+      "forbidden_assertions": [
+        "该词仅为单纯描写男女艳情，毫无政治寄托",
+        "‘闲愁’指代具体的经济贫困或战乱之苦"
+      ]
+    },
+    {
+      "claim_id": "claim_03_allusion",
+      "claim": "“凌波”化用曹植《洛神赋》典故，形容女子步态轻盈；“锦瑟华年”化用李商隐诗意，指代美好青春。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "凌波：形容女子步态轻盈。锦瑟华年：指美好的青春时期。锦瑟：饰有彩纹的瑟。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "凌波，出自《洛神赋》：‘凌波微步，罗袜生尘。’……‘锦瑟年华谁与度？’用‘锦瑟无端五十弦，一弦一柱思华年’诗意。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "作者借前人成句营造朦胧唯美的意境",
+        "典故的使用暗示了佳人的高洁与可望不可即"
+      ],
+      "forbidden_assertions": [
+        "凌波指代实际的江河波浪",
+        "锦瑟华年指代乐器演奏的场合"
+      ]
+    },
+    {
+      "claim_id": "claim_04_metaphor",
+      "claim": "结句以“一川烟草，满城风絮，梅子黄时雨”构成博喻，将无形愁绪化为江南暮春连绵弥漫之景。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "作者妙笔一点，用博喻的修辞手法将无形变有形，将抽象变形象，变无可捉摸为有形有质……宋·罗大经云：‘以三者比愁之多，尤为新奇，兼兴中有比，意味更长。’",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "梅子黄时雨：江南一带初夏梅熟时多连绵之雨，俗称‘梅雨’。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "就像烟雨一川青草，就像随风飘转的柳絮，梅子黄时的雨水，无边无际。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "三组意象分别从广度、密度、绵长度三个维度具象化愁绪",
+        "该结句奠定了贺铸‘贺梅子’的文学史地位"
+      ],
+      "forbidden_assertions": [
+        "三句仅为单纯写景，与愁绪无关",
+        "梅雨指代夏季暴雨，象征愁绪的猛烈爆发"
+      ]
+    },
+    {
+      "claim_id": "claim_05_textual",
+      "claim": "传世版本中“闲愁”或作“闲情”，“飞云”或作“碧云”，断句与标点存在差异。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_2",
+          "text": "飞云冉冉蘅皋暮。彩笔新题断肠句。试问闲情都几许。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "飞：一作‘碧’。试问：一说‘若问’。闲愁：一说‘闲情’。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可说明古籍流传过程中的文本异文现象",
+        "‘闲情’与‘闲愁’在语境中情感指向基本一致"
+      ],
+      "forbidden_assertions": [
+        "某一版本绝对正确，另一版本为伪作",
+        "异文导致全词主旨发生根本性改变"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "词中“月桥花院”一作“月台花榭”；“蘅皋”指长着香草的沼泽中的高地；“彩笔”比喻有写作的才华，典出南朝江淹梦中还郭璞五色笔的故事。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "月桥花院：一作“月台花榭”。月桥：像月亮似的小拱桥。花院：花木环绕的庭院。蘅皋：长着香草的沼泽中的高地。彩笔：比喻有写作的才华。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "月台：赏月的平台。花榭：花木环绕的房子。彩笔：比喻有写作的才华。事见南朝江淹故事。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“彩笔”，据《南史·江淹传》：‘（淹）尝宿于冶亭，梦一丈夫自称郭璞，谓淹曰：‘吾有笔在卿处多年，可以见还。’淹乃探怀中得五色笔一以授之。’这里用彩笔代指美人才情高妙。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“彩笔”典故在词中既可代指美人的才华，也可代指词人自己的写作才华",
+        "“月桥花院”与“月台花榭”均指代华美幽静的居所"
+      ],
+      "forbidden_assertions": [
+        "“彩笔”指代普通的彩色画笔",
+        "“蘅皋”指代高耸的荒山秃岭"
+      ]
+    },
+    {
+      "claim_id": "claim_07_nickname",
+      "claim": "贺铸因本词末句“梅子黄时雨”写得极为工妙，被士大夫及当时人称为“贺梅子”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "的美称“贺梅子”就是由这首词的末句引来的。据《竹坡诗话》载：“贺方回尝作《青玉案》词，有‘梅子黄时雨’之句，人皆服其工，士大夫谓之贺梅子。”",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "本词在当时及后世流传极广，影响深远",
+        "末句的博喻在宋代词坛被公认为神来之笔"
+      ],
+      "forbidden_assertions": [
+        "“贺梅子”是贺铸自封的雅号",
+        "贺铸因为喜欢吃梅子而被叫做“贺梅子”"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代及基本体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋贺铸所作的《青玉案·凌波不过横塘路》",
+        "宋代词人贺方回的代表词作"
+      ],
+      "forbidden_claims": [
+        "该作品为唐代诗歌",
+        "作者为苏轼或秦观"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "交代作者晚年退隐苏州横塘的生活背景及其仕途坎坷的处境。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "贺铸晚年隐居苏州盘门外横塘时所作",
+        "结合其沉沦下僚、不附权贵的生平理解创作动机"
+      ],
+      "forbidden_claims": [
+        "该词作于作者科举高中、春风得意之时",
+        "横塘位于北宋都城汴京"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "解析“凌波”“锦瑟华年”“蘅皋”“彩笔”等核心词汇的典故来源与字面含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "凌波出自《洛神赋》，形容女子步履轻盈",
+        "锦瑟华年借李商隐诗意指代青春韶华",
+        "彩笔典出南朝江淹梦中还郭璞五色笔的故事，比喻写作才华"
+      ],
+      "forbidden_claims": [
+        "凌波指代实际的水面波浪",
+        "彩笔指代绘画用的彩色毛笔"
+      ],
+      "source_claim_ids": [
+        "claim_03_allusion",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "把握词作上下片的叙事与抒情脉络：上片写偶遇与目送，下片写遥想与愁思。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片实写路遇佳人而不得近，下片虚写独处幽闺与愁绪",
+        "由实入虚，由景及情，层层递进"
+      ],
+      "forbidden_claims": [
+        "上下片内容完全割裂，无逻辑关联",
+        "全词为纯写景之作，无情感转折"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor",
+      "category": "metaphor_source",
+      "description": "分析结句“一川烟草，满城风絮，梅子黄时雨”的博喻手法及其艺术效果。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以江南暮春三种连绵弥漫的自然景象比喻无形之愁",
+        "化抽象为具象，展现愁绪的广度、密度与绵长"
+      ],
+      "forbidden_claims": [
+        "三句仅为客观气象记录，无修辞意图",
+        "梅雨象征愁绪的短暂易逝"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor"
+      ],
+      "line_ids": [
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "辨析“闲愁”与“闲情”的版本差异，明确爱情寄托与政治失意双重解读的合理边界。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "可作情词解，亦可结合士人怀才不遇作寄托解",
+        "版本异文不影响核心情感指向"
+      ],
+      "forbidden_claims": [
+        "必须唯一认定为政治讽喻诗",
+        "必须唯一认定为艳情词，排斥其他解读"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme",
+        "claim_05_textual"
+      ],
+      "line_ids": [
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "掌握词中“月桥花院”与“月台花榭”、“飞云”与“碧云”、“试问”与“若问”等异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "了解不同版本中词句的字词差异，如“飞云”在部分版本中作“碧云”",
+        "“试问”一说作“若问”"
+      ],
+      "forbidden_claims": [
+        "“月桥花院”与“月台花榭”在词意上完全对立",
+        "异文导致词作的韵脚发生根本性改变"
+      ],
+      "source_claim_ids": [
+        "claim_05_textual",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l03",
+        "l04",
+        "l05"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_lingbo",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "凌波",
+        "芳尘"
+      ],
+      "target_domain": [
+        "佳人轻盈的步态",
+        "美人远去的身影与踪迹"
+      ],
+      "bridges": [
+        "直接化用《洛神赋》‘凌波微步，罗袜生尘’，以水波微动与尘土轻扬的视觉意象代指女子步履与行踪。"
+      ],
+      "context_claim_ids": [
+        "claim_03_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可视为作者对高洁理想、美好事物或政治抱负可望而不可即的象征。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_sorrow",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "一川烟草",
+        "满城风絮",
+        "梅子黄时雨"
+      ],
+      "target_domain": [
+        "漫无边际的闲愁",
+        "挥之不去的怅惘与积郁"
+      ],
+      "bridges": [
+        "以江南暮春三种连绵、弥漫、细密的自然景象，具象化抽象愁绪的广度、密度与绵长感，实现‘无形变有形，抽象变形象’。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "既可指代对佳人的无尽相思，亦可隐喻作者仕途失意、年华虚度的政治苦闷；三者并列构成‘兴中有比’的复合意境。"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_hengtang_gaze",
+      "description": "呈现横塘水畔的远景，一位女子轻盈走过，词人驻足目送，画面需突出距离感与朦胧美。",
+      "acceptable_realizations": [
+        "水墨晕染风格的远景长镜头",
+        "水面微光与尘土轻扬的动态特效配合旁白"
+      ],
+      "forbidden_realizations": [
+        "女子面部特写过于清晰写实",
+        "词人与女子同框互动"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_lingbo"
+      ],
+      "expected_phase": "hengtang_encounter",
+      "semantic_role": "hengtang_encounter"
+    },
+    {
+      "requirement_id": "vis_02_courtyard_vision",
+      "description": "以虚化或叠影手法展现月桥、花院、琐窗、朱户等华美居所，暗示佳人幽居之境。",
+      "acceptable_realizations": [
+        "半透明建筑剪影随镜头推移浮现",
+        "春日光影透过雕花窗棂的局部特写"
+      ],
+      "forbidden_realizations": [
+        "实景搭建过于喧闹的庭院",
+        "出现明确的人物活动打破幽寂感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "imagined_dwellings",
+      "semantic_role": "imagined_dwellings"
+    },
+    {
+      "requirement_id": "vis_03_dusk_writing",
+      "description": "天色渐暗，飞云舒卷，蘅皋暮色笼罩，词人独坐案前挥毫题写断肠句。",
+      "acceptable_realizations": [
+        "暖色调暮光转为冷蓝调的渐变转场",
+        "毛笔落纸的微观镜头与云卷云舒的远景交替"
+      ],
+      "forbidden_realizations": [
+        "白天明亮光线持续不变",
+        "多人围坐吟诗作对"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "dusk_musings",
+      "semantic_role": "dusk_musings"
+    },
+    {
+      "requirement_id": "vis_04_sorrow_display",
+      "description": "将烟草、风絮、梅雨三组意象以蒙太奇或粒子特效融合，铺满画面，视觉化呈现愁绪的无边无际。",
+      "acceptable_realizations": [
+        "青绿色草浪、白色飞絮、细密雨丝三重叠加的动态背景",
+        "画面边缘逐渐虚化，中心留白浮现‘闲愁’二字"
+      ],
+      "forbidden_realizations": [
+        "仅展示单一气象现象（如仅下雨）",
+        "使用现代城市景观替代江南暮春意象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_sorrow"
+      ],
+      "expected_phase": "metaphor_sorrow_display",
+      "semantic_role": "metaphor_sorrow_display"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_119_01",
+      "description": "贺铸虽出身贵族，但一生仕途坎坷，多沉抑下僚，任低级官职。他为人耿直，不附权贵，怀才不遇的处境为其后来的词作奠定了情感基调。",
+      "audio_triggers": [
+        "出身贵族",
+        "仕途坎坷",
+        "沉抑下僚",
+        "怀才不遇",
+        "不附权贵"
+      ],
+      "visual_evidence": [
+        "北宋时期场景，贺铸身着品级较低的官服，面色铁青（史称其面色铁青、长身耸目），在官署中处理繁杂琐碎的公事，神情落寞或郁郁不得志。"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "翻阅公文或简牍的枯燥声",
+        "低沉压抑的背景音乐"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_119_02",
+      "description": "晚年时，贺铸退隐苏州，在盘门外十余里的横塘一带筑造小筑居住，闭门读书校勘古籍。",
+      "audio_triggers": [
+        "晚年退隐",
+        "苏州",
+        "横塘",
+        "小筑",
+        "杜门校书"
+      ],
+      "visual_evidence": [
+        "北宋江南水乡风貌，城外有小桥流水的静谧村落，一座简朴的院落（小筑）。贺铸身着便服（隐居服饰），在院中或书房内安静地整理、校对古籍。"
+      ],
+      "sound_evidence": [
+        "清脆的鸟鸣声",
+        "翻书页的声音",
+        "悠然宁静的琴声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_119_03",
+      "description": "通常认为，贺铸在横塘隐居期间漫步时，可能偶遇了一位步态轻盈的佳人（或结合自身境遇虚构想象），佳人匆匆远去，引动了他内心幽居寂寞与不得志的深重愁绪。",
+      "audio_triggers": [
+        "偶遇佳人",
+        "步态轻盈",
+        "目送",
+        "不知所往",
+        "引动愁绪"
+      ],
+      "visual_evidence": [
+        "暮春时节，水边长满香草的高地（蘅皋），天色渐晚，飞云流转。贺铸独立于路边，遥望远方。画面可以虚化处理女子的背影，以示现实与文学想象的交织。"
+      ],
+      "sound_evidence": [
+        "轻柔的脚步声渐行渐远",
+        "风吹拂草木的沙沙声",
+        "略带惆怅的丝竹乐声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_119_04",
+      "description": "贺铸提笔写下《青玉案·凌波不过横塘路》，以美人香草自比，借一川烟草、满城风絮和梅子黄时雨这三层意象，抒发无边无际的闲愁。此词广为传诵，后人因此称他为“贺梅子”。",
+      "audio_triggers": [
+        "写下",
+        "青玉案",
+        "美人香草自比",
+        "闲愁",
+        "贺梅子"
+      ],
+      "visual_evidence": [
+        "贺铸在书案前挥毫作词（彩笔新题）。窗外正值江南初夏梅子熟时，阴雨连绵，细雨打在庭院的花木上。禁止出现现代钢笔或现代装帧的书本。"
+      ],
+      "sound_evidence": [
+        "笔锋在纸上摩擦的声音",
+        "连绵不断的雨声",
+        "雨滴敲打窗棂的声音"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "凌波不过横塘路，",
+      "pronunciation": "líng bō bú guò héng táng lù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "但目送、",
+      "pronunciation": "dàn mù sòng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "芳尘去。",
+      "pronunciation": "fāng chén qù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "锦瑟华年谁与度？",
+      "pronunciation": "jǐn sè huá nián shuí yǔ dù?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "月桥花院，",
+      "pronunciation": "yuè qiáo huā yuàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "琐窗朱户，",
+      "pronunciation": "suǒ chuāng zhū hù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "只有春知处。",
+      "pronunciation": "zhǐ yǒu chūn zhī chù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "飞云冉冉蘅皋暮，",
+      "pronunciation": "fēi yún rǎn rǎn héng gāo mù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "彩笔新题断肠句。",
+      "pronunciation": "cǎi bǐ xīn tí duàn cháng jù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "试问闲愁都几许？",
+      "pronunciation": "shì wèn xián chóu dōu jǐ xǔ?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一川烟草，",
+      "pronunciation": "yì chuān yān cǎo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "满城风絮，",
+      "pronunciation": "mǎn chéng fēng xù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "梅子黄时雨。",
+      "pronunciation": "méi zi huáng shí yǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青玉案",
+      "pronunciation": "qīng yù wǎn",
+      "accepted_variants": [
+        "qīng yù àn"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "贺铸",
+      "pronunciation": "hè zhù",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "横塘",
+      "pronunciation": "héng táng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "蘅皋",
+      "pronunciation": "héng gāo",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "贺梅子",
+      "pronunciation": "hè méi zǐ",
+      "category": "person",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_119_01",
+      "source_event_id": "evt_119_01",
+      "target_event_id": "evt_119_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_119_02",
+      "source_event_id": "evt_119_02",
+      "target_event_id": "evt_119_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_119_03",
+      "source_event_id": "evt_119_03",
+      "target_event_id": "evt_119_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_119_04",
+      "source_event_id": "evt_119_01",
+      "target_event_id": "evt_119_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/119.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/119.json",
+      "event_gold": "gold_annotation/songci_300/119.json"
+    },
+    "original_sample_id": "119",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

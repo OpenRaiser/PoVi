@@ -1,0 +1,772 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_297",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《赤壁》是唐代诗人杜牧创作的一首七言绝句。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：赤壁；作者：杜牧；朝代：唐；体裁：七言绝句",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "杜牧（803—852），字牧之，号樊川居士，晚唐著名诗人、文学家...尤擅七绝与咏史诗",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可明确标注该诗为晚唐咏史七绝代表作",
+        "作者杜牧与李商隐并称'小李杜'"
+      ],
+      "forbidden_assertions": [
+        "该诗为五言律诗",
+        "作者为杜甫或李白"
+      ]
+    },
+    {
+      "claim_id": "claim_02_historical_context",
+      "claim": "诗歌核心涉及建安十三年（208年）十月的赤壁之战，周瑜借东风火攻曹军，以及曹操所建铜雀台与东吴二乔的典故。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "东风：指火烧赤壁事。周郎：即周瑜...曾利用东风之势火烧赤壁。铜雀：即铜雀台。曹操建于邺城。二乔：即江东乔公的两个女儿...大乔嫁孙策，小乔嫁周瑜。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "发生于汉献帝建安十三年（208年）十月的赤壁之战...三十四岁的孙吴军统帅周瑜，乃是这次战役中的头号风云人物。",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中'前朝'指三国时期",
+        "'东风'特指赤壁之战中助周瑜火攻的自然条件"
+      ],
+      "forbidden_assertions": [
+        "赤壁之战发生在唐代",
+        "二乔是曹操的女儿"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure",
+      "claim": "诗歌前两句（l01）以发现古战场遗物'折戟'起兴，后两句（l02）通过假设历史转折（东风不与周郎便）引发对战争结局的逆向推演。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "诗篇的开头借一件古物兴起对前朝人、事、物的慨叹...为后文抒怀作了很好的铺垫。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "可此处作者进行了逆向思维大胆地设想，提出了一个与历史事实相反的假设。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "前实后虚，由物及史，由史及论",
+        "后两句构成条件复句的假设关系"
+      ],
+      "forbidden_assertions": [
+        "全诗为纯写景诗",
+        "前后两句无逻辑关联"
+      ]
+    },
+    {
+      "claim_id": "claim_04_interpretive_theme",
+      "claim": "诗人借赤壁之战的偶然性（东风），抒发对历史成败的感慨，并暗含自身怀才不遇、渴望机遇的抑郁之情。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "借慨叹周瑜因有东风之便取得成功，抒发自己怀才不遇的心情。",
+          "locator": "赏析三",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "实际上，诗人作此诗并非是为了咏史论史，更主要的是以史喻今，抒发情感...表达了自己心中的抑郁不平和渴望得到重用、有所作为的情感。",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗歌具有咏史抒怀的双重性质",
+        "'东风'可解读为历史机遇的象征"
+      ],
+      "forbidden_assertions": [
+        "诗歌纯粹客观记录历史",
+        "作者对周瑜持完全否定态度"
+      ]
+    },
+    {
+      "claim_id": "claim_05_lexical_details",
+      "claim": "诗中“折戟”指折断的兵器戟；“销”指销蚀；“将”指拿、取；“磨洗”指磨光洗净；“前朝”指赤壁之战的时代（三国东吴破曹时期）。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_lex",
+          "text": "折戟：折断的戟。戟：古代兵器。销：销蚀。将：拿，取。磨洗：磨光洗净。认前朝：辨认出是前朝遗物。前朝：这里指赤壁之战的时代。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2_lex",
+          "text": "认前朝：认出戟是东吴破曹时的遗物。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“自将磨洗”说明诗人亲自参与了对文物的清理和辨认"
+      ],
+      "forbidden_assertions": [
+        "“将”在诗中是“将要”的意思",
+        "“前朝”指唐朝之前的隋朝"
+      ]
+    },
+    {
+      "claim_id": "claim_06_bronze_bird_details",
+      "claim": "“铜雀”指铜雀台，是曹操在邺城（今河北临漳西）建造的一座楼台，楼顶铸有大铜雀，台上住姬妾歌妓，是曹操暮年行乐处。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_bronze",
+          "text": "铜雀：即铜雀台。曹操建于邺城 （今河北临漳西），因楼顶铸有大铜雀而得名。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2_bronze",
+          "text": "铜雀：即铜雀台，曹操在今河北省临漳县建造的一座楼台，楼顶里有大铜雀，台上住姬妾歌妓，是曹操暮年行乐处。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "铜雀台在诗中代表了曹操胜利后享乐的象征"
+      ],
+      "forbidden_assertions": [
+        "铜雀台是周瑜建造的建筑",
+        "铜雀台位于东吴境内"
+      ]
+    },
+    {
+      "claim_id": "claim_07_creation_background",
+      "claim": "《赤壁》作于会昌二年（842年）杜牧任黄州刺史期间，时年40岁的诗人登临赤壁古战场（今湖北省武昌县西南赤矶山或蒲圻西北）有感而作。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2_detail",
+          "text": "《赤壁》此诗作于会昌二年（842年）杜牧任黄州刺史期间，时年40岁的诗人登临赤壁古战场而作。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1_detail",
+          "text": "这首诗是诗人经过赤壁（今湖北省武昌县西南赤矶山）这个著名的古战场，有感于三国时代的英雄成败而写下的。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1_loc",
+          "text": "“赤壁”，山名，在今湖北蒲圻西北，长江南岸，对岸为乌林",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "杜牧在黄州任职期间通过游历古战场触发了创作灵感"
+      ],
+      "forbidden_assertions": [
+        "此诗作于杜牧晚年居住在长安樊川别墅时期",
+        "杜牧创作此诗时正值赤壁之战发生当年"
+      ]
+    },
+    {
+      "claim_id": "claim_08_grammar_hypothesis",
+      "claim": "“东风不与周郎便”在唐诗语法中表达假定语气，即“倘若当年东风不帮助周瑜的话”。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3_grammar",
+          "text": "“东风不与周郎便”，从散文语法规律看，这是一种肯定语气...但在唐诗中，它可以表达为假定语气。",
+          "locator": "赏析三",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2_grammar",
+          "text": "意为倘若当年东风不帮助周瑜的话，那么铜雀台就会深深地锁住东吴二乔了。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "唐代诗歌为了精炼，常常省略“如果”、“倘若”等假设关联词"
+      ],
+      "forbidden_assertions": [
+        "此句在诗中是肯定语气，意为东风确实没有给周瑜方便"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代和诗体身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "晚唐诗人杜牧的七绝《赤壁》",
+        "杜牧咏史名篇《赤壁》"
+      ],
+      "forbidden_claims": [
+        "该诗为宋代作品",
+        "体裁为五言古诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "理解诗中涉及的赤壁之战、周瑜、东风、铜雀台、二乔等历史典故与人物关系。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "建安十三年赤壁之战，周瑜借东风火攻曹军",
+        "铜雀台为曹操所建，二乔指大乔（孙策妻）与小乔（周瑜妻）"
+      ],
+      "forbidden_claims": [
+        "赤壁之战发生在唐代",
+        "二乔是曹操的女儿"
+      ],
+      "source_claim_ids": [
+        "claim_02_historical_context",
+        "claim_06_bronze_bird_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "分析诗歌前两句借物起兴、后两句假设推演的结构特点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "前实后虚，由折戟引出历史联想",
+        "后两句以假设语气探讨历史偶然性"
+      ],
+      "forbidden_claims": [
+        "全诗为平铺直叙",
+        "前后句无因果或假设关系"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure",
+        "claim_08_grammar_hypothesis"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_interpretive_theme",
+      "category": "interpretive_boundary",
+      "description": "把握诗歌咏史抒怀的主旨，理解'东风'象征机遇及作者怀才不遇的情感投射。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借历史偶然性抒发个人抱负难展的感慨",
+        "以史喻今，表达对机遇的渴望"
+      ],
+      "forbidden_claims": [
+        "诗歌仅客观叙述历史事件",
+        "作者完全否定周瑜的才能"
+      ],
+      "source_claim_ids": [
+        "claim_04_interpretive_theme"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_summary",
+      "category": "summary",
+      "description": "综合概括全诗内容：由赤壁古战场遗物引发对历史转折的假设，抒发对机遇与个人命运的感慨。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "杜牧借赤壁之战遗物，假设东风不助周瑜，推演历史可能结局，暗含怀才不遇之叹",
+        "咏史抒怀，以历史偶然性反思个人际遇"
+      ],
+      "forbidden_claims": [
+        "诗歌主旨为赞美曹操",
+        "全诗无作者主观情感"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_historical_context",
+        "claim_03_structure",
+        "claim_04_interpretive_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_lexical",
+      "category": "lexical",
+      "description": "掌握诗中“折戟”、“销”、“将”、“磨洗”、“前朝”等词汇的字面含义与指代。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "折戟指折断的战戟，销指销蚀，将指拿、取，前朝指三国赤壁之战时期"
+      ],
+      "forbidden_claims": [
+        "将解释为将要",
+        "前朝指唐朝之前的隋朝"
+      ],
+      "source_claim_ids": [
+        "claim_05_lexical_details"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_07_historical_context_creation",
+      "category": "historical_context",
+      "description": "了解《赤壁》的创作背景，即杜牧在会昌二年任黄州刺史时登临赤壁古战场而作。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "杜牧40岁任黄州刺史时游历赤壁古战场写下此诗"
+      ],
+      "forbidden_claims": [
+        "此诗写于杜牧在长安任职期间"
+      ],
+      "source_claim_ids": [
+        "claim_07_creation_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_broken_halberd",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "折戟沉沙"
+      ],
+      "target_domain": [
+        "历史遗迹/岁月沧桑/战争记忆"
+      ],
+      "bridges": [
+        "折断的战戟深埋泥沙，历经岁月未销，是赤壁之战的实物见证，象征历史风云与物是人非"
+      ],
+      "context_claim_ids": [
+        "claim_02_historical_context",
+        "claim_03_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "折戟可视为历史偶然性的物质载体，暗示英雄业绩终被时间掩埋",
+        "沉沙未销的戟铁，隐喻历史真相虽被掩盖但终可被辨认"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_east_wind",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "东风"
+      ],
+      "target_domain": [
+        "历史机遇/偶然因素/外部条件"
+      ],
+      "bridges": [
+        "东风是赤壁之战火攻成功的关键自然条件，诗中将其抽象为决定历史走向的偶然机遇"
+      ],
+      "context_claim_ids": [
+        "claim_02_historical_context",
+        "claim_04_interpretive_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "东风可解读为时代潮流或命运眷顾",
+        "在晚唐语境下，东风暗指士人渴望的政治机遇"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_bronze_bird_tower",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "铜雀春深"
+      ],
+      "target_domain": [
+        "曹操的胜利/吴国的覆灭/历史另一种可能"
+      ],
+      "bridges": [
+        "铜雀台为曹操享乐之所，'春深锁二乔'以金屋藏娇的意象隐喻吴国战败、政权倾覆的假设结局"
+      ],
+      "context_claim_ids": [
+        "claim_02_historical_context",
+        "claim_04_interpretive_theme",
+        "claim_06_bronze_bird_details"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "铜雀台象征强权与征服，'锁'字暗示历史暴力的残酷性",
+        "春深意象反衬战争胜负的荒诞与风流背后的政治隐喻"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_04_two_qiaos",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "二乔"
+      ],
+      "target_domain": [
+        "东吴的命运/国家存亡/历史转折的缩影"
+      ],
+      "bridges": [
+        "二乔作为东吴核心人物（孙策、周瑜）的配偶，其命运被用作国家兴亡的象征性指标"
+      ],
+      "context_claim_ids": [
+        "claim_02_historical_context",
+        "claim_04_interpretive_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "二乔代表美好事物，其被锁暗示历史失败对文明与美的摧残",
+        "以女性命运折射政治格局，体现咏史诗的含蓄笔法"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_poem_identity",
+      "description": "清晰呈现诗题《赤壁》、作者杜牧及完整诗文，确保标点与句序准确。",
+      "acceptable_realizations": [
+        "开场题签配合书法字体展示",
+        "旁白朗读时同步逐句字幕"
+      ],
+      "forbidden_realizations": [
+        "遗漏'折戟沉沙铁未销'等关键诗句",
+        "擅自改动字词或调整句序"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_recitation",
+      "semantic_role": "opening_title_and_recitation"
+    },
+    {
+      "requirement_id": "vis_02_artifact_discovery",
+      "description": "视觉化呈现'折戟沉沙'场景，突出古战场遗物的历史厚重感与诗人磨洗辨认的动作。",
+      "acceptable_realizations": [
+        "泥沙中半掩锈蚀断戟的特写镜头",
+        "诗人俯身磨洗、凝视辨认的慢动作",
+        "叠化过渡至赤壁古战场全景"
+      ],
+      "forbidden_realizations": [
+        "展示崭新完整的兵器",
+        "忽略'沉沙''未销'的岁月痕迹"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_broken_halberd"
+      ],
+      "expected_phase": "discovering_the_halberd",
+      "semantic_role": "discovering_the_halberd"
+    },
+    {
+      "requirement_id": "vis_03_historical_hypothesis",
+      "description": "通过视觉对比或分屏手法，呈现'东风不与周郎便'的假设情境与历史事实的差异。",
+      "acceptable_realizations": [
+        "左侧：东风助火攻、曹军溃败的历史画面",
+        "right侧：无风状态下火攻失败、曹军压境的假设画面",
+        "使用色调冷暖区分现实与假设"
+      ],
+      "forbidden_realizations": [
+        "将假设情境表现为已发生史实",
+        "忽略'东风'的关键作用"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_east_wind"
+      ],
+      "expected_phase": "imagining_alternative_history",
+      "semantic_role": "imagining_alternative_history"
+    },
+    {
+      "requirement_id": "vis_04_metaphorical_imagery",
+      "description": "具象化'铜雀春深锁二乔'的隐喻，以建筑、人物、氛围传达历史转折的象征意义。",
+      "acceptable_realizations": [
+        "铜雀台楼阁春景与深锁门户的对比",
+        "二乔形象若隐若现于台阁深处",
+        "用光影变化暗示命运转折"
+      ],
+      "forbidden_realizations": [
+        "直接展示暴力或囚禁场景",
+        "将二乔表现为普通宫女而非历史人物"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_bronze_bird_tower",
+        "meta_04_two_qiaos"
+      ],
+      "expected_phase": "visualizing_metaphors",
+      "semantic_role": "visualizing_metaphors"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_297_01",
+      "description": "汉献帝建安十三年（208年）十月，发生赤壁之战。孙刘联军对抗曹军，周瑜借东风之便，用火攻大败曹操，奠定了三国鼎立的历史形势。",
+      "audio_triggers": [
+        "建安十三年",
+        "赤壁之战",
+        "周瑜",
+        "东风",
+        "火烧赤壁",
+        "大败曹军"
+      ],
+      "visual_evidence": [
+        "三国时期江面战场，战船相连起火，东风大作，周瑜身穿战袍指挥水军，曹操军队大溃败。",
+        "禁止出现明清以后形制的火器和现代船只。"
+      ],
+      "sound_evidence": [
+        "呼啸的风声",
+        "战船燃烧木头爆裂的声音",
+        "古战场厮杀声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_297_02",
+      "description": "晚唐时期，杜牧虽通晓政治军事、有经邦济世之才，但生不逢时，始终抱有怀才不遇、政治抱负难以施展的抑郁之情。",
+      "audio_triggers": [
+        "经邦济世",
+        "生不逢时",
+        "怀才不遇",
+        "抑郁不平"
+      ],
+      "visual_evidence": [
+        "唐代室内，杜牧身着唐代官服或常服，神情沉郁，在书房中独自翻阅兵书或沉思。"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "翻阅简牍或纸张的沙沙声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_297_03",
+      "description": "通常认为在会昌二年（842年），杜牧任黄州刺史期间，游览赤壁古战场遗址。他在江边泥沙中捡到一枚未锈尽的断戟，经亲自磨洗，认出是前朝赤壁之战的遗物。",
+      "audio_triggers": [
+        "会昌二年",
+        "黄州刺史",
+        "游览赤壁",
+        "断戟",
+        "磨洗",
+        "认出前朝遗物"
+      ],
+      "visual_evidence": [
+        "唐代江岸沙滩，四十岁左右的杜牧在泥沙中拾起一截折断的、锈迹斑斑的铁戟，用江水仔细摩擦洗涤。"
+      ],
+      "sound_evidence": [
+        "江水拍岸声",
+        "金属在沙石中摩擦洗涤的声音"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_297_04",
+      "description": "杜牧由断戟触发无限感慨，认为英雄成败包含机遇（东风）因素，借古喻今，抒发自己渴望重用却无机遇的慨叹，从而写下咏史绝句《赤壁》。",
+      "audio_triggers": [
+        "写下",
+        "赤壁",
+        "借史喻今",
+        "偶然性",
+        "抒发情感"
+      ],
+      "visual_evidence": [
+        "杜牧在案前挥毫泼墨书写诗句。画面可叠现曹操得胜、二乔被锁铜雀台的假设性文学想象幻境（需与真实历史场景有明显区分）。"
+      ],
+      "sound_evidence": [
+        "毛笔落纸声",
+        "浑厚的诗歌吟诵声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "折戟沉沙铁未销，",
+      "pronunciation": "zhé jǐ chén shā tiě wèi xiāo，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自将磨洗认前朝。",
+      "pronunciation": "zì jiāng mó xǐ rèn qián cháo。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "东风不与周郎便，",
+      "pronunciation": "dōng fēng bù yǔ zhōu láng biàn，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "铜雀春深锁二乔。",
+      "pronunciation": "tóng què chūn shēn suǒ èr qiáo。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杜牧",
+      "pronunciation": "dù mù",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "周郎",
+      "pronunciation": "zhōu láng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "周瑜",
+      "pronunciation": "zhōu yú",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "曹操",
+      "pronunciation": "cáo cāo",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "二乔",
+      "pronunciation": "èr qiáo",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "赤壁",
+      "pronunciation": "chì bì",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "铜雀台",
+      "pronunciation": "tóng què tái",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "黄州",
+      "pronunciation": "huáng zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "建安",
+      "pronunciation": "jiàn ān",
+      "category": "other",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_297_01",
+      "source_event_id": "evt_297_01",
+      "target_event_id": "evt_297_03",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_297_02",
+      "source_event_id": "evt_297_02",
+      "target_event_id": "evt_297_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_297_03",
+      "source_event_id": "evt_297_03",
+      "target_event_id": "evt_297_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_297_04",
+      "source_event_id": "evt_297_01",
+      "target_event_id": "evt_297_04",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/297.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/297.json",
+      "event_gold": "gold_annotation/tangshi_300/297.json"
+    },
+    "original_sample_id": "297",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

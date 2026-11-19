@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "008_tangshi_273_16d319d43130",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "九月九日忆山东兄弟",
+    "author": "王维",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "text": "独在异乡为异客，每逢佳节倍思亲。\n遥知兄弟登高处，遍插茱萸少一人。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "独在异乡为异客，每逢佳节倍思亲。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "遥知兄弟登高处，遍插茱萸少一人。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "16d319d43130a775918ee708",
+    "global_index": 8
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "051_songci_001_cb68e83afa7d",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "燕山亭",
+    "author": "赵佶",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "裁翦冰绡，轻叠数重，淡著燕脂匀注。\n新样靓妆，艳溢香融，羞杀蕊珠宫女。\n易得凋零，更多少、无情风雨。\n愁苦。\n问院落凄凉，几番春暮？\n凭寄离恨重重，者双燕何曾，会人言语？\n天遥地远，万水千山，知他故宫何处？\n怎不思量？\n除梦里、有时曾去。\n无据。\n和梦也、新来不做。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "裁翦冰绡，轻叠数重，淡著燕脂匀注。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "新样靓妆，艳溢香融，羞杀蕊珠宫女。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "易得凋零，更多少、无情风雨。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "愁苦。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "问院落凄凉，几番春暮？"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "凭寄离恨重重，者双燕何曾，会人言语？"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "天遥地远，万水千山，知他故宫何处？"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "怎不思量？"
+      },
+      {
+        "line_id": "l09",
+        "order": 9,
+        "text": "除梦里、有时曾去。"
+      },
+      {
+        "line_id": "l10",
+        "order": 10,
+        "text": "无据。"
+      },
+      {
+        "line_id": "l11",
+        "order": 11,
+        "text": "和梦也、新来不做。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "cb68e83afa7dd739bdbbe311",
+    "global_index": 51
+  }
+}

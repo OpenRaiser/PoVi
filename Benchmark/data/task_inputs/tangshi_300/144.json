@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "014_tangshi_144_ce4d3c4df929",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "春望",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "国破山河在，城春草木深。\n感时花溅泪，恨别鸟惊心。\n烽火连三月，家书抵万金。\n白头搔更短，浑欲不胜簪。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "国破山河在，城春草木深。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "感时花溅泪，恨别鸟惊心。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "烽火连三月，家书抵万金。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "白头搔更短，浑欲不胜簪。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "ce4d3c4df929c1e458ae6c0f",
+    "global_index": 14
+  }
+}

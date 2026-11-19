@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "judgment.schema.json",
+  "title": "Item-level Benchmark Judgments",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "judgments"],
+  "properties": {
+    "schema_version": {"const": "0.4"},
+    "judgments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "judgment_id",
+          "sample_id",
+          "system_id",
+          "track",
+          "setting",
+          "metric_id",
+          "unit_id",
+          "weight",
+          "not_applicable",
+          "critical",
+          "evidence",
+          "judge",
+          "needs_review"
+        ],
+        "properties": {
+          "judgment_id": {"type": "string", "minLength": 1},
+          "assignment_id": {"type": "string", "minLength": 1},
+          "adjudicates": {
+            "type": "array",
+            "items": {"type": "string", "minLength": 1}
+          },
+          "sample_id": {"type": "string"},
+          "system_id": {"type": "string"},
+          "track": {
+            "enum": [
+              "text_planning",
+              "visual_generation",
+              "audio_generation",
+              "audio_visual_generation",
+              "full_task_teaching"
+            ]
+          },
+          "setting": {
+            "enum": [
+              "standard",
+              "oracle_conditioned",
+              "system_conditioned",
+              "fixed_narration",
+              "structured_script",
+              "full_task"
+            ]
+          },
+          "metric_id": {"type": "string"},
+          "unit_id": {"type": "string"},
+          "score": {"type": ["number", "null"]},
+          "label": {"type": ["string", "null"]},
+          "weight": {"type": "number", "exclusiveMinimum": 0},
+          "not_applicable": {"type": "boolean"},
+          "critical": {"type": "boolean"},
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "text_spans": {
+                "type": "array",
+                "items": {"type": "string"}
+              },
+              "time_ranges": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "prefixItems": [
+                    {"type": "number"},
+                    {"type": "number"}
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              },
+              "gold_ids": {
+                "type": "array",
+                "items": {"type": "string"}
+              }
+            }
+          },
+          "judge": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "name", "version", "role"],
+            "properties": {
+              "type": {
+                "enum": [
+                  "rule",
+                  "llm",
+                  "mllm",
+                  "human",
+                  "learner",
+                  "learning_experiment",
+                  "model"
+                ]
+              },
+              "name": {"type": "string"},
+              "version": {"type": "string"},
+              "role": {"enum": ["primary", "adjudicator"]},
+              "prompt_version": {"type": "string"},
+              "annotator_id": {"type": "string"}
+            }
+          },
+          "confidence": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "needs_review": {"type": "boolean"},
+          "notes": {"type": "string"},
+          "source": {"type": ["string", "null"]},
+          "raw": {}
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "judge": {
+                  "properties": {
+                    "type": {"enum": ["human", "learner"]}
+                  },
+                  "required": ["type"]
+                }
+              }
+            },
+            "then": {"required": ["assignment_id"]}
+          },
+          {
+            "if": {
+              "properties": {
+                "judge": {
+                  "properties": {
+                    "role": {"const": "adjudicator"}
+                  },
+                  "required": ["role"]
+                }
+              }
+            },
+            "then": {
+              "required": ["adjudicates"],
+              "properties": {
+                "adjudicates": {"minItems": 1}
+              }
+            }
+          }
+        ],
+        "anyOf": [
+          {"required": ["score"]},
+          {"required": ["label"]}
+        ]
+      }
+    }
+  }
+}

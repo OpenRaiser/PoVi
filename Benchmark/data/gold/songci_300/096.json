@@ -1,0 +1,732 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_096",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人李之仪所作，词牌为《卜算子》，属双调小令，全词共四十四字。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：卜算子 作者：李之仪 朝代：宋 体裁：词 词牌：卜算子",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "李之仪（1048—1127），字端叔，号姑溪居士，北宋词人。",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "卜算子：词牌名。北宋时盛行此曲。万树《词律》以为取义于“卖卜算命之人”。双调，四十四字，上下片各两仄韵。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确标注该作为北宋文人词代表作之一",
+        "可指出其符合双调四十四字的词律规范"
+      ],
+      "forbidden_assertions": [
+        "将作者误标为唐代或明代诗人",
+        "将词牌误称为诗题或曲牌"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "该词创作于北宋崇宁二年（1103年）秋，作者仕途受挫被贬太平州，且连遭丧亲之痛（儿女相继去世、夫人胡淑修撒手人寰），后与歌伎杨姝同游长江边有感而作。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "北宋崇宁二年（1103年），仕途不顺的被贬到太平州。……这年秋天，李之仪携杨姝来到长江边……写下了这首词。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "公元1103年（北宋崇宁二年），仕途不顺的李之仪被贬到太平州。祸不单行，先是女儿及儿子相继去世，接着，与他相濡以沫四十年的夫人胡淑修也撒手人寰。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "杨姝与李之仪偶遇，又弹起这首《履霜操》，正触动李之仪心中的痛处，李之仪对杨姝一见倾心，把她当知音，接连写下几首听她弹琴的诗词。这年，李之仪携杨姝来到边，面对知冷知热的红颜知己，面对滚滚东逝奔流不息的江水，心中涌起万般柔情，写下了这首千古流传的词。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中深沉的离愁别恨与作者现实中的贬谪、丧亲遭遇存在情感共鸣",
+        "杨姝作为知音的出现是触发创作的重要契机"
+      ],
+      "forbidden_assertions": [
+        "断言该词为李之仪写给亡妻的悼亡之作",
+        "将杨姝直接等同于词中唯一的抒情对象而忽略艺术虚构性"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literal_structure",
+      "claim": "全词以长江头尾的空间阻隔起笔，以“共饮一江水”转折，通过“水几时休”“恨何时已”的设问层层推进，最终落脚于“君心似我心”的坚定誓言。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "我住在长江源头，君住在长江之尾。天天想念你总是见不到你，却共同饮着长江之水。悠悠不尽的江水什么时候枯竭，别离的苦恨，什么时候消止。只愿你的心，如我的心相守不移，就不会辜负了我一番痴恋情意。",
+          "locator": "译文一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "“我住长江头，君住长江尾。”开头两句，“我”“君”对起……见双方空间距离之悬隔……“日日思君不见君”这一全词的主干；而同住长江之滨，则引出了“共饮长江水”。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词作情感脉络遵循“空间阻隔—情感联结—无尽追问—坚定祈愿”的逻辑",
+        "上下片在句式上呈现明显的递进与回环特征"
+      ],
+      "forbidden_assertions": [
+        "认为上下片情感断裂或毫无关联",
+        "将“共饮长江水”解释为实际的生活场景而非情感纽带"
+      ]
+    },
+    {
+      "claim_id": "claim_04_style",
+      "claim": "该词深得民歌风味，语言明白如话，句式复叠回环，同时兼具文人词构思新巧、深婉含蓄的特点，以情语见长。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "李之仪这首《卜算子》深得民歌的神情风味，明白如话，复叠回环，同时又具有文人词构思新巧、深婉含蓄的特点，可以说是一种提高和净化了的通俗词。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "语极平常，感情却深沉真挚。设想很别致，深得民歌风味，以情语见长。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学可对比民间情歌与文人雅词的语言差异",
+        "复沓句式增强了咏叹与抒情效果"
+      ],
+      "forbidden_assertions": [
+        "将该词归类为辞藻堆砌的婉约派典型",
+        "认为其语言俚俗缺乏文学提炼"
+      ]
+    },
+    {
+      "claim_id": "claim_05_lexical",
+      "claim": "词中“思”意为想念、思念，“休”与“已”均指停止或完结，“定”在此处为衬字，用于调节音节与语气。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "思：想念，思念。休：停止。已：完结，停止。定：此处为衬字。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "已：完结,停止 休：停止 定：此处为衬字。思：想念，思念",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“定不负”中的“定”不改变核心语义，主要起舒缓语气作用",
+        "“休”与“已”在词中构成同义复现，强化追问语气"
+      ],
+      "forbidden_assertions": [
+        "将“定”解释为“一定、必定”的实义副词（忽略其衬字属性）",
+        "将“已”误解为“已经”的时间副词"
+      ]
+    },
+    {
+      "claim_id": "claim_06_metaphor_symbol",
+      "claim": "长江水在词中既是阻隔两人的天然障碍，又是遥寄情思的载体，更是悠悠相思与无穷别恨的象征物。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全词以长江水为线索。悠悠长江水，既是双方万里阻隔的天然障碍，又是一脉相通、遥寄情思的天然载体；既是悠悠相思、无穷别恨的触发物与象征，又是双方永恒友谊与期待的见证。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "暗寓相思之情的悠长。重叠复沓的句式，加强了咏叹的情味",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "水的物理流动性与情感的绵延性形成隐喻映射",
+        "“水”的意象贯穿全篇，起到结构串联与情感升华的双重作用"
+      ],
+      "forbidden_assertions": [
+        "将长江水仅视为单纯的地理背景而无视其象征功能",
+        "认为“水”的意象仅指代自然景物而不承载情感"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代和体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋李之仪的《卜算子·我住长江头》",
+        "宋代双调小令《卜算子》"
+      ],
+      "forbidden_claims": [
+        "误标为唐诗或元曲",
+        "混淆词牌与题目"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "结合崇宁二年贬谪与丧亲背景，理解词中深沉情感的现实触发点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "作于作者人生低谷期，借江水抒发知音难遇与聚散无常之叹",
+        "贬谪太平州期间与杨姝同游长江的感怀之作"
+      ],
+      "forbidden_claims": [
+        "脱离具体生平背景空谈情感",
+        "将背景直接等同于词中全部叙事"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确掌握“思”“休”“已”的词义及“定”作为衬字的语法功能。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“思”即思念，“休/已”皆为止息，“定”为调节音律的衬字",
+        "重点字词释义需符合宋代词律与注释规范"
+      ],
+      "forbidden_claims": [
+        "将“已”释为“已经”",
+        "将“定”释为“必定”实义副词"
+      ],
+      "source_claim_ids": [
+        "claim_05_lexical"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal",
+      "category": "literal_meaning",
+      "description": "逐句疏通词意，把握从空间阻隔到共饮江水，再到祈愿不负相思的情感脉络。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上片写地理相隔却同饮一水，下片借水问恨并许下同心之愿",
+        "全词以白话般的语言直抒胸臆，层层递进"
+      ],
+      "forbidden_claims": [
+        "曲解“共饮长江水”为实际生活记录",
+        "忽略“日日思君不见君”的主干地位"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "分析上下片复沓回环的民歌句式与以“水”贯穿全篇的线索作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "句式重叠增强咏叹感，江水意象串联起阻隔、联结与追问",
+        "结构上呈现“起（空间）—承（联结）—转（设问）—合（誓言）”的闭环"
+      ],
+      "forbidden_claims": [
+        "认为上下片结构松散无内在逻辑",
+        "将复沓句式视为简单的文字重复"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_structure",
+        "claim_04_style"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_06_metaphor",
+      "category": "metaphor_source",
+      "description": "识别“长江水”作为核心意象的表层指涉与深层象征。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "江水既是地理实体，也是相思与离恨的具象化载体",
+        "以水之不息喻情之不绝"
+      ],
+      "forbidden_claims": [
+        "将江水意象降格为纯风景描写",
+        "割裂水意象与情感表达的内在联系"
+      ],
+      "source_claim_ids": [
+        "claim_06_metaphor_symbol"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_07_bridge",
+      "category": "mapping_bridge",
+      "description": "阐释江水“阻隔”与“连通”的双重属性如何自然过渡到“恨”与“愿”的心理映射。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "物理距离的不可逾越转化为心理期盼的执着坚守",
+        "同饮一水消解了空间隔阂，使“恨”升华为“愿”"
+      ],
+      "forbidden_claims": [
+        "认为“阻隔”与“连通”在逻辑上矛盾",
+        "将心理映射过程解释为突兀的情感跳跃"
+      ],
+      "source_claim_ids": [
+        "claim_06_metaphor_symbol",
+        "claim_03_literal_structure"
+      ],
+      "line_ids": [
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_08_boundary",
+      "category": "interpretive_boundary",
+      "description": "区分词中抒情主人公的普遍情感与作者具体生平的关系，避免过度索隐。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "可结合生平理解创作动机，但词作本身具有超越具体人事的普适情感价值",
+        "教学应兼顾历史语境与文本自足性"
+      ],
+      "forbidden_claims": [
+        "将词中“君”严格限定为杨姝一人",
+        "完全剥离作者生平进行纯形式分析"
+      ],
+      "source_claim_ids": [
+        "claim_02_background",
+        "claim_04_style"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_river_water",
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03"
+      ],
+      "source_domain": [
+        "长江头尾的地理跨度",
+        "悠悠不尽的江水"
+      ],
+      "target_domain": [
+        "绵长不绝的相思之情",
+        "无穷无尽的别离苦恨",
+        "两地相隔的时空距离"
+      ],
+      "bridges": [
+        "江水东流不息的自然属性与相思之情的绵延不断形成同构",
+        "同饮一江水暗示空间虽远但情感相通，消解了物理阻隔",
+        "水流的不可控与离恨的难以排遣相对应，引发“几时休/何时已”的追问"
+      ],
+      "context_claim_ids": [
+        "claim_06_metaphor_symbol",
+        "claim_03_literal_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "结合杨姝知音背景，江水亦可视为对人生聚散无常与知音难觅的普遍性隐喻",
+        "江水作为时间流逝的象征，反衬出结尾誓言的永恒性"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_heart_mind",
+      "line_ids": [
+        "l05"
+      ],
+      "source_domain": [
+        "君心",
+        "我心"
+      ],
+      "target_domain": [
+        "双方的情感意志与忠诚承诺",
+        "理想化的情感契约"
+      ],
+      "bridges": [
+        "以‘心’的相似性比喻情感的同频共振，将抽象的相思具象化为可对照、可坚守的实体",
+        "‘似’字建立心理映射，将单向的思念转化为双向的期许"
+      ],
+      "context_claim_ids": [
+        "claim_03_literal_structure",
+        "claim_06_metaphor_symbol"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可解读为对超越现实阻隔的精神契合的向往，不局限于男女之情",
+        "‘不负’二字赋予心理映射以道德与承诺的重量"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_and_text",
+      "description": "清晰展示词牌、作者、朝代及完整原文，排版符合古典诗词规范，标点句序无误。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现，配合标准普通话旁白朗读",
+        "采用竖排或传统书法字体呈现，保留原词断句节奏"
+      ],
+      "forbidden_realizations": [
+        "擅自增删字词或改动标点",
+        "背景过于花哨干扰文字阅读"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_recitation",
+      "semantic_role": "opening_title_and_recitation"
+    },
+    {
+      "requirement_id": "vis_02_spatial_mapping",
+      "description": "以水墨或简笔地图动画呈现“长江头”与“长江尾”的地理跨度，并用一条连贯的水脉连接两端。",
+      "acceptable_realizations": [
+        "画面左右分置头尾意象，中间以流动水线贯穿",
+        "水线随朗读节奏缓慢延伸，暗示距离与联结并存"
+      ],
+      "forbidden_realizations": [
+        "使用现代卫星地图破坏古典意境",
+        "将头尾表现为完全割裂的孤立画面"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_river_water"
+      ],
+      "expected_phase": "spatial_distance_and_shared_water",
+      "semantic_role": "spatial_distance_and_shared_water"
+    },
+    {
+      "requirement_id": "vis_03_water_and_sorrow",
+      "description": "将“此水几时休”与“此恨何时已”的设问转化为水流不息与情绪波动的视觉叠化，避免具象化“恨”字。",
+      "acceptable_realizations": [
+        "水流速度加快或泛起涟漪，配合色调微转暗示情绪起伏",
+        "水面倒影中隐现朦胧人影，强化追问的绵长感"
+      ],
+      "forbidden_realizations": [
+        "直接出现哭泣或痛苦的人物面部特写",
+        "水流突然中断或干涸，违背原词“几时休”的设问逻辑"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_river_water"
+      ],
+      "expected_phase": "water_flow_and_emotional_inquiry",
+      "semantic_role": "water_flow_and_emotional_inquiry"
+    },
+    {
+      "requirement_id": "vis_04_vow_and_closure",
+      "description": "呈现“君心似我心”的意象时，采用光影交融或双心同频的抽象手法，突出情感共鸣而非人物写实。",
+      "acceptable_realizations": [
+        "两束暖光在江面交汇，逐渐融合为柔和的光晕",
+        "水面波纹呈现同心圆扩散，象征心意相通"
+      ],
+      "forbidden_realizations": [
+        "具象化描绘男女拥抱或现代恋爱场景",
+        "画面色调过于艳丽，破坏深婉含蓄的基调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_heart_mind"
+      ],
+      "expected_phase": "heart_alignment_and_vow",
+      "semantic_role": "heart_alignment_and_vow"
+    },
+    {
+      "requirement_id": "vis_05_contextual_atmosphere",
+      "description": "背景可融入宋代江畔秋景或文人泛舟元素，但需保持大面积留白，不喧宾夺主。",
+      "acceptable_realizations": [
+        "远景淡墨勾勒江岸与孤帆，近景聚焦水纹与文字",
+        "整体色调偏青灰或暖褐，契合秋日与深沉情感"
+      ],
+      "forbidden_realizations": [
+        "堆砌宋代服饰、器物等考据细节导致画面拥挤",
+        "使用高饱和度色彩或动态特效干扰诗词意境"
+      ],
+      "importance": 1,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "contextual_atmosphere_setting",
+      "semantic_role": "contextual_atmosphere_setting"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_096_01",
+      "description": "北宋崇宁二年（1103年），李之仪因仕途不顺被贬为太平州编管。祸不单行，其儿女与相濡以沫四十年的妻子胡淑修相继离世，事业与家庭的连遭打击使李之仪跌入了人生的谷底。",
+      "audio_triggers": [
+        "崇宁二年",
+        "被贬",
+        "太平州",
+        "祸不单行",
+        "相继去世",
+        "撒手人寰",
+        "人生谷底"
+      ],
+      "visual_evidence": [
+        "宋代服饰",
+        "简陋或萧条的居所",
+        "李之仪神情悲痛、苍老",
+        "丧葬或离别情景的暗示",
+        "禁止出现现代建筑或繁华喜庆场景"
+      ],
+      "sound_evidence": [
+        "悲凉的背景音乐",
+        "沉重的叹息声",
+        "风雨声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_096_02",
+      "description": "在人生低谷时期，李之仪结识了当地颇具正义感的绝色歌伎杨姝。杨姝曾为黄庭坚抱不平，此时她弹奏起古曲《履霜操》，触动了李之仪心中的痛处。李之仪对杨姝一见倾心，将其引为知音。",
+      "audio_triggers": [
+        "歌伎杨姝",
+        "履霜操",
+        "触动心中痛处",
+        "一见倾心",
+        "把她当知音"
+      ],
+      "visual_evidence": [
+        "宋代室内场景",
+        "年轻貌美的杨姝",
+        "抚琴弹奏的动作",
+        "古琴道具",
+        "李之仪专注聆听、神情动容"
+      ],
+      "sound_evidence": [
+        "古琴弹奏声",
+        "凄清婉转的琴音"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_096_03",
+      "description": "当年秋天，李之仪携红颜知己杨姝来到长江边。面对滚滚东逝、奔流不息的江水，李之仪心中涌起万般柔情，借江水寄托相思与永恒的期盼，创作了这首千古流传的爱情词《卜算子》。",
+      "audio_triggers": [
+        "这年秋天",
+        "携杨姝",
+        "长江边",
+        "滚滚东逝",
+        "万般柔情",
+        "写下了这首词"
+      ],
+      "visual_evidence": [
+        "秋季长江边的自然风貌",
+        "滔滔不绝的江水",
+        "李之仪与杨姝并肩或相对而立",
+        "李之仪吟咏或书写的姿态",
+        "水流不息的意象特写"
+      ],
+      "sound_evidence": [
+        "江水拍岸声",
+        "秋风声",
+        "抒情悠扬的背景音乐",
+        "吟诗声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "我住长江头，",
+      "pronunciation": "wǒ zhù cháng jiāng tóu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "君住长江尾；",
+      "pronunciation": "jūn zhù cháng jiāng wěi",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "日日思君不见君，",
+      "pronunciation": "rì rì sī jūn bù jiàn jūn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "共饮长江水。",
+      "pronunciation": "gòng yǐn cháng jiāng shuǐ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此水几时休？",
+      "pronunciation": "cǐ shuǐ jǐ shí xiū",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此恨何时已？",
+      "pronunciation": "cǐ hèn hé shí yǐ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "只愿君心似我心，",
+      "pronunciation": "zhǐ yuàn jūn xīn sì wǒ xīn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "定不负相思意。",
+      "pronunciation": "dìng bù fù xiāng sī yì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "卜算子",
+      "pronunciation": "bǔ suàn zǐ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "李之仪",
+      "pronunciation": "lǐ zhī yí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "杨姝",
+      "pronunciation": "yáng shū",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "黄庭坚",
+      "pronunciation": "huáng tíng jiān",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "胡淑修",
+      "pronunciation": "hú shū xiū",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "太平州",
+      "pronunciation": "tài píng zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "崇宁",
+      "pronunciation": "chóng níng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "履霜操",
+      "pronunciation": "lǚ shuāng cāo",
+      "category": "other",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_096_01",
+      "source_event_id": "evt_096_01",
+      "target_event_id": "evt_096_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_096_02",
+      "source_event_id": "evt_096_02",
+      "target_event_id": "evt_096_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_096_03",
+      "source_event_id": "evt_096_01",
+      "target_event_id": "evt_096_03",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/096.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/096.json",
+      "event_gold": "gold_annotation/songci_300/096.json"
+    },
+    "original_sample_id": "096",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

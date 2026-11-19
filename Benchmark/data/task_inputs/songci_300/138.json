@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "048_songci_138_633d3d5a61c2",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "临江仙",
+    "author": "陈与义",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "高咏《楚词》酬午日，天涯节序匆匆。\n榴花不似舞裙红，无人知此意，歌罢满帘风。\n万事一身伤老矣，戎葵凝笑墙东。\n酒杯深浅去年同，试浇桥下水，今夕到湘中。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "高咏《楚词》酬午日，天涯节序匆匆。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "榴花不似舞裙红，无人知此意，歌罢满帘风。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "万事一身伤老矣，戎葵凝笑墙东。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "酒杯深浅去年同，试浇桥下水，今夕到湘中。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "633d3d5a61c2af7505a89817",
+    "global_index": 48
+  }
+}

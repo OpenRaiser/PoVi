@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "score_report.schema.json",
+  "title": "Hierarchical Benchmark Score Report",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "systems",
+    "atoms",
+    "families",
+    "domains",
+    "gates",
+    "diagnostics",
+    "auxiliary",
+    "review_status",
+    "review_queue"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.4"},
+    "systems": {"type": "array", "items": {"type": "string"}},
+    "atoms": {"type": "object"},
+    "families": {"type": "object"},
+    "domains": {"type": "object"},
+    "gates": {"type": "object"},
+    "diagnostics": {"type": "object"},
+    "auxiliary": {"type": "object"},
+    "overall": {"type": "object"},
+    "review_status": {"type": "object"},
+    "review_queue": {"type": "array"},
+    "metadata": {"type": "object"}
+  }
+}

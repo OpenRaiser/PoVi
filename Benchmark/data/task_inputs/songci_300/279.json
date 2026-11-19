@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "108_songci_279_7ebd91467819",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "凤凰台上忆吹箫",
+    "author": "李清照",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "香冷金猊，被翻红浪，起来慵自梳头。\n任宝奁尘满，日上帘钩。\n生怕离怀别苦，多少事、欲说还休。\n新来瘦，非干病酒，不是悲秋。\n休休，者回去也，千万遍《阳关》，也则难留。\n念武陵人远，烟锁秦楼。\n惟有楼前流水，应念我、终日凝眸。\n凝眸处，从今又添，一段新愁。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "香冷金猊，被翻红浪，起来慵自梳头。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "任宝奁尘满，日上帘钩。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "生怕离怀别苦，多少事、欲说还休。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "新来瘦，非干病酒，不是悲秋。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "休休，者回去也，千万遍《阳关》，也则难留。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "念武陵人远，烟锁秦楼。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "惟有楼前流水，应念我、终日凝眸。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "凝眸处，从今又添，一段新愁。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "7ebd914678195efbfeb5bf15",
+    "global_index": 108
+  }
+}

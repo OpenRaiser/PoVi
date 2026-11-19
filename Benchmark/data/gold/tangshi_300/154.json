@@ -1,0 +1,872 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_154",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《过故人庄》是唐代诗人孟浩然创作的五言律诗，属于盛唐山水田园诗的代表性作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据标注为孟浩然所作唐五言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "公开古诗文库收录的《过故人庄》原文文本",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "孟浩然是盛唐山水田园诗派代表诗人，《过故人庄》为其代表作",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本诗作为孟浩然田园诗风格的典型案例讲解",
+        "可关联王孟诗派的整体创作特点做拓展"
+      ],
+      "forbidden_assertions": [
+        "声称本诗作者为王维或其他唐代诗人",
+        "错误将本诗归类为七言绝句或古体诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_lexical_basic",
+      "claim": "诗中重点字词释义：具为准备置办，鸡黍指农家待客的丰盛饭食，合为环绕，郭指村庄外墙，场圃指打谷场加菜园，话桑麻指闲谈农事，重阳日为夏历九月初九，就菊花指赏菊饮菊花酒。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "古诗文库收录的全诗字词注释",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "古诗集收录的全诗字词注释",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可补充重阳登高、饮菊花酒的传统民俗常识"
+      ],
+      "forbidden_assertions": [
+        "把“鸡黍”解释为普通家常便饭，忽略其指代农家待客最高规格饭食的含义"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literal_translation",
+      "claim": "全诗字面叙事脉络：首联写故人备好丰盛饭菜邀请诗人到田家做客，颔联写翠绿树林环绕村落、青山横斜在城郭外的村外风光，颈联推开窗户面对谷场菜园，主客举杯闲谈农事，尾联二人约定等到九九重阳节时再来相聚赏菊。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "古诗文网发布的全诗白话译文",
+          "locator": "译文一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "古诗文库发布的全诗白话译文",
+          "locator": "译文二",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "原诗四句完整文本",
+          "locator": "l01-l04",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以用生活化的语言转述诗人做客故人庄的完整流程，突出主客之间不拘虚礼的熟稔关系"
+      ],
+      "forbidden_assertions": [
+        "声称尾联是故人单方面邀请诗人重阳再来，并非诗人主动提出邀约",
+        "篡改诗句叙事顺序，打乱从受邀到赴约的逻辑"
+      ]
+    },
+    {
+      "claim_id": "claim_04_structure_feature",
+      "claim": "全诗叙事脉络由“邀”到“至”再到“望”最后到“约”，自然流畅毫无雕琢痕迹，以家常话的形式完整呈现从往访到临别再约的全过程，打破了五言律诗常见的形式束缚。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "古诗文网赏析提到全诗叙事自然流畅",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "古诗集赏析梳理了全诗从邀到约的完整脉络",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "五千言赏析提到全诗句句不见锤炼痕迹",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可对比普通律诗的严整规范，说明本诗形式完全服务于田园内容的特点"
+      ],
+      "forbidden_assertions": [
+        "声称本诗结构混乱、语句衔接生硬",
+        "认为本诗刻意使用生僻典故炫技"
+      ]
+    },
+    {
+      "claim_id": "claim_05_creation_context",
+      "claim": "本诗创作于开元年间孟浩然隐居鹿门山时期，是诗人受邀到相识的故人田庄做客之后写下的作品，反映了盛唐隐士群体之间的真挚日常交往。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "古诗文网创作背景说明诗作于孟浩然隐居鹿门山时",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "古诗文库标注本诗作于开元年间孟浩然隐居阶段",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以结合孟浩然终身未仕、长期隐居的人生经历，解释他对田园生活的认同感"
+      ],
+      "forbidden_assertions": [
+        "声称本诗是孟浩然在长安求仕做官期间创作的"
+      ]
+    },
+    {
+      "claim_id": "claim_06_aesthetic_feature",
+      "claim": "全诗意境清新隽永，情、景、事高度融合，具有“清水出芙蓉，天然去雕饰”的美学风格，把恬静秀美的农村风光和淳朴诚挚的朋友情谊完全融为一体，是盛唐田园诗的经典佳作。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "古诗集赏析给出的全诗美学评价",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "五千言赏析提到孟诗淡到看不见诗的独特风格",
+          "locator": "赏析三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以将本诗与王维《渭川田家》等同类田园诗作对比，分析二者风格的异同"
+      ],
+      "forbidden_assertions": [
+        "声称本诗艺术价值不高、内容空洞无真情实感",
+        "认为本诗只是简单记录做客事件没有任何审美价值"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_xie_dispute",
+      "claim": "关于“斜”字的读音与释义存在不同解读：读音上，因古诗需与上一句押韵，应读xiá；释义上，一说为“倾斜”，另一说为“向远方延伸，连绵不绝”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "注释一指出斜应读xiá，释为倾斜",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "注释三指出斜读xiá，释为向远方延伸，连绵不绝",
+          "locator": "注释三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可引导学生体会两种不同释义对画面空间感的影响"
+      ],
+      "forbidden_assertions": [
+        "否定“斜”字存在“向远方延伸”的释义可能性"
+      ]
+    },
+    {
+      "claim_id": "claim_08_friend_identity_dispute",
+      "claim": "关于诗中“故人”的具体身份，有观点认为或许是指乡贤张子容。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "创作背景二提到“故人”或指乡贤张子容",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可作为拓展背景介绍给学有余力的学生，增加历史探究趣味"
+      ],
+      "forbidden_assertions": [
+        "断定诗中“故人”必然是张子容，排除其他可能性"
+      ]
+    },
+    {
+      "claim_id": "claim_09_allusion_sangma",
+      "claim": "“话桑麻”在艺术手法上化用了陶渊明《归园田居》中“相见无杂言，但道桑麻长”的诗意，但本诗更侧重于现实农事。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "赏析二指出“话桑麻”被认为是“相见无杂言”",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "创作背景二指出“话桑麻”化用陶渊明“相见无杂言”，却更重现实农事",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将本诗与陶渊明《归园田居》进行对比阅读，体会盛唐田园诗对魏晋隐逸诗的继承与发展"
+      ],
+      "forbidden_assertions": [
+        "认为“话桑麻”是孟浩然完全原创、毫无文学渊源的表达"
+      ]
+    },
+    {
+      "claim_id": "claim_10_influence_wangwei",
+      "claim": "本诗自然流畅的艺术风格直接影响了盛唐另一位山水田园诗人王维的《渭川田家》创作。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "创作背景二指出其自然风格直接影响王维《渭川田家》",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "在讲解王维田园诗时，可引本诗作为其风格源流的例证"
+      ],
+      "forbidden_assertions": [
+        "声称王维的田园诗风格完全独立于孟浩然，未受其任何影响"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《过故人庄》的题名、作者、朝代、体裁核心属性，完成作品基础身份认知。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《过故人庄》是盛唐诗人孟浩然创作的五言律诗，属于经典田园诗作品",
+        "孟浩然的《过故人庄》是唐代山水田园诗派的代表性作品"
+      ],
+      "forbidden_claims": [
+        "《过故人庄》是王维的作品",
+        "《过故人庄》是宋代创作的古体诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_lexical_explanation",
+      "category": "lexical",
+      "description": "掌握全诗重点实词、传统民俗文化常识的准确含义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“话桑麻”就是闲谈农事相关的话题",
+        "“鸡黍”指农家待客的丰盛饭食"
+      ],
+      "forbidden_claims": [
+        "“郭”指的是现代的城市外墙",
+        "“就菊花”指的是诗人要在重阳日种植菊花"
+      ],
+      "source_claim_ids": [
+        "claim_02_lexical_basic"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确梳理每句诗的字面含义，完整还原诗人受邀到故人庄做客的全过程。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "老朋友准备了鸡和黄米饭这类农家丰盛饭食，邀请我到他的田庄做客",
+        "推开窗户正对着打谷场和菜园，我们端着酒杯聊种庄稼的日常"
+      ],
+      "forbidden_claims": [
+        "诗人是不请自来到故人庄做客的",
+        "主客喝酒的时候聊的都是官场升迁的话题"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_translation"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure_analysis",
+      "category": "structure",
+      "description": "梳理全诗从受邀启程、望村观景、临窗宴饮到临别再约的完整叙事脉络，体会其自然流畅的结构特点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "整首诗完全按照事件发生的先后顺序写，没有刻意的叙事跳转",
+        "本诗把律诗的严整形式写得像日常聊天一样自然"
+      ],
+      "forbidden_claims": [
+        "本诗是按照从远到近的空间顺序完全打乱时间线写的",
+        "全诗结构松散没有统一的核心线索"
+      ],
+      "source_claim_ids": [
+        "claim_04_structure_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_historical_context",
+      "category": "historical_context",
+      "description": "了解本诗的创作背景，关联孟浩然隐居鹿门山的人生阶段，理解盛唐田园诗的整体创作氛围。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗是孟浩然隐居鹿门山的时候去朋友家做客之后写的",
+        "盛唐时期很多隐士都有田园交往的日常活动"
+      ],
+      "forbidden_claims": [
+        "这首诗是孟浩然被贬谪到乡下的时候怀着悲愤心情写的",
+        "本诗创作于安史之乱之后的动荡时期"
+      ],
+      "source_claim_ids": [
+        "claim_05_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_06_summary",
+      "category": "summary",
+      "description": "总结本诗的艺术特色与情感内核，体会诗人对田园生活的喜爱和与故人之间的真挚情谊。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗用非常朴素的语言写出了田园生活的美好和老朋友之间不用客套的深厚感情",
+        "看似平淡的诗句里藏着孟浩然对隐居田园生活的由衷喜爱"
+      ],
+      "forbidden_claims": [
+        "这首诗通篇都是华丽辞藻的堆砌，没有真实情感",
+        "孟浩然写这首诗是为了向朋友求官走后门"
+      ],
+      "source_claim_ids": [
+        "claim_06_aesthetic_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading_xie",
+      "category": "alternative_reading",
+      "description": "掌握“斜”字在诗中的特殊读音xiá以求押韵，并理解其“倾斜”与“向远方延伸”两种不同的释义倾向。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“斜”字在此处为了押韵读作xiá，可以解释为山势倾斜，也可以解释为青山向远方连绵延伸"
+      ],
+      "forbidden_claims": [
+        "“斜”字在诗中只能读作xié，且只有倾斜一种解释"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_xie_dispute"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_interpretive_boundary_allusion",
+      "category": "interpretive_boundary",
+      "description": "理解“话桑麻”对陶渊明诗句的化用，并能区分其与陶诗在“更重现实农事”上的微妙差别。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“话桑麻”化用了陶渊明《归园田居》的典故，但孟浩然的诗句更具有现实生活和劳动生产的气息"
+      ],
+      "forbidden_claims": [
+        "孟浩然的“话桑麻”与陶渊明的诗句在思想寄托和写实程度上完全没有任何区别"
+      ],
+      "source_claim_ids": [
+        "claim_09_allusion_sangma"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_sangma_metonymy",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "桑树和麻两种古代农家最常见的种植作物"
+      ],
+      "target_domain": [
+        "所有农事活动、田园日常生产生活相关的全部话题"
+      ],
+      "bridges": [
+        "桑麻是古代农家日常生产最核心的两类作物，普通农户闲谈内容大多围绕桑麻的种植、收获展开，因此用具体的桑麻作物代指全部农事活动"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_02_lexical_basic",
+        "claim_03_literal_translation",
+        "claim_09_allusion_sangma"
+      ],
+      "alternative_readings": [
+        "该用法化用陶渊明《归园田居》中“相见无杂言，但道桑麻长”的典故，也可代指不涉及世俗官场的归隐者闲谈内容"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_chrysanthemum_symbol",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "重阳节的菊花这一具体植物意象"
+      ],
+      "target_domain": [
+        "重阳日田园隐士赏菊、饮菊花酒的传统聚会，代指闲适自在的归隐田园生活"
+      ],
+      "bridges": [
+        "唐代有重阳饮菊花酒、赏菊的民俗，菊花是田园隐逸文化的代表性符号，此处的菊花不只是单纯的观赏植物，更是代表故人庄惬意松弛的生活氛围"
+      ],
+      "status": "plausible",
+      "context_claim_ids": [
+        "claim_06_aesthetic_feature"
+      ],
+      "alternative_readings": [
+        "也可做最浅白的字面解读，仅指诗人邀约重阳再来观赏菊花，不附加额外的隐逸象征义"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_jishu_symbol",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "鸡和黄米饭（鸡黍）"
+      ],
+      "target_domain": [
+        "农家待客的简朴、真挚与特有风味"
+      ],
+      "bridges": [
+        "以“鸡黍”相邀，既显出田家特有的朴实风味，又见待客之简朴，是不讲虚礼的至交好友之间真挚情谊的象征"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_02_lexical_basic"
+      ],
+      "alternative_readings": [
+        "字面指代烧鸡和黄米饭，无特殊象征"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "开场清晰呈现《过故人庄》的题名、作者、朝代、体裁信息，同步展示完整原诗文本，标点、句序完全准确无错漏。",
+      "acceptable_realizations": [
+        "水墨风格题签缓缓展开，同步旁白介绍作品基础信息",
+        "诗句随朗读进度逐行弹出显示"
+      ],
+      "forbidden_realizations": [
+        "遗漏诗句内容，擅自改动原诗字词",
+        "错误标注作者和朝代信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_poem_display",
+      "semantic_role": "opening_title_and_poem_display"
+    },
+    {
+      "requirement_id": "vis_02_invitation_departure",
+      "description": "呈现故人在田家厨房准备鸡黍饭菜、手持请柬邀约诗人，诗人欣然动身前往田庄的场景，整体氛围朴素温馨，符合农家待客的特点。",
+      "acceptable_realizations": [
+        "农家小院里竹制餐桌上摆着烧鸡和黄米饭，故人笑着招呼来客",
+        "诗人沿着乡间土路往村庄方向行走的远景"
+      ],
+      "forbidden_realizations": [
+        "把田家布置成豪华贵族府邸的风格",
+        "主客之间表现得十分客套生疏"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "depict_invitation_and_journey",
+      "semantic_role": "depict_invitation_and_journey"
+    },
+    {
+      "requirement_id": "vis_03_village_scenery",
+      "description": "呈现绿树环绕整个村落、远处青山在城郭外连绵横斜的田园风光画面，整体色调清新淡雅，符合水墨画的审美风格。",
+      "acceptable_realizations": [
+        "镜头从村边绿树慢慢拉远，露出远处横卧的青山",
+        "整幅画面呈现淡绿色和青灰色的柔和色调"
+      ],
+      "forbidden_realizations": [
+        "把村庄周围画成高楼林立的现代场景",
+        "用浓艳的大红大紫色彩渲染景物"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "show_village_outdoor_landscape",
+      "semantic_role": "show_village_outdoor_landscape"
+    },
+    {
+      "requirement_id": "vis_04_window_banter_scene",
+      "description": "呈现主客推开轩窗，窗外就是打谷场和菜园，二人手持酒杯笑着闲谈农事的室内场景，自然松弛，突出桑麻代农事的生活化氛围。",
+      "acceptable_realizations": [
+        "窗户外可以看到晒着稻谷的场院和种着蔬菜的菜园",
+        "主客脸上都是放松的笑容，没有任何拘束感"
+      ],
+      "forbidden_realizations": [
+        "把二人聊天的场景设置在雕梁画栋的豪华厅堂里",
+        "二人表情严肃，仿佛在商议重要的官场事务"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_sangma_metonymy"
+      ],
+      "expected_phase": "depict_wine_and_farming_chat",
+      "semantic_role": "depict_wine_and_farming_chat"
+    },
+    {
+      "requirement_id": "vis_05_chongyang_appointment",
+      "description": "呈现主客站在田庄门口道别，二人笑着约定重阳再来赏菊的场景，院边篱墙下种着盛放的菊花，氛围温馨不舍。",
+      "acceptable_realizations": [
+        "画面角落露出几丛盛放的黄菊花，呼应“就菊花”的意象",
+        "远处秋高气爽的天空飘着淡淡的云"
+      ],
+      "forbidden_realizations": [
+        "二人道别时表现得十分冷漠，没有任何不舍的情绪",
+        "把菊花画成不符合秋季特征的春季花卉"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_chrysanthemum_symbol"
+      ],
+      "expected_phase": "show_chongyang_reunion_promise",
+      "semantic_role": "show_chongyang_reunion_promise"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_154_01",
+      "description": "开元年间，孟浩然早年有志用世但在仕途困顿后，退隐修道，隐居在襄阳鹿门山，过着清淡的田园隐逸生活。",
+      "audio_triggers": [
+        "仕途困顿",
+        "隐居鹿门山",
+        "孟山人"
+      ],
+      "visual_evidence": [
+        "唐代平民或隐士装扮的孟浩然",
+        "清静淡泊的山林与居所环境",
+        "表现出闲适或些许失意但超脱的神情"
+      ],
+      "sound_evidence": [
+        "清幽的山林环境声",
+        "舒缓平和的古琴音乐"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_154_02",
+      "description": "通常认为在孟浩然隐居期间，他的一位老朋友（存在多说，有认为指乡贤张子容，不可确考）备办了黄米饭和烧鸡等丰盛的农家饭菜，邀请他到田庄做客。",
+      "audio_triggers": [
+        "老朋友",
+        "丰盛的饭菜",
+        "邀请",
+        "田家"
+      ],
+      "visual_evidence": [
+        "唐代农家小院",
+        "主人家准备烧鸡和黍米饭（黄米饭）等食材",
+        "传递邀请的场景（如信件或口信）"
+      ],
+      "sound_evidence": [
+        "农家院落中的鸡叫声",
+        "生火做饭的生活音"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_154_03",
+      "description": "孟浩然应邀前往故人庄，沿途与步入村内时，看到绿树环绕着村落，城外连绵起伏的青山若隐若现，感受到恬静的田园风光。",
+      "audio_triggers": [
+        "翠绿的树林",
+        "围绕着村落",
+        "青山"
+      ],
+      "visual_evidence": [
+        "孟浩然漫步在乡间土路上",
+        "四周是繁茂的绿树掩映着村庄",
+        "远景是蜿蜒横斜的青山",
+        "禁止出现现代砖石建筑和柏油路"
+      ],
+      "sound_evidence": [
+        "行走在乡间的脚步声",
+        "风吹树叶的沙沙声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_154_04",
+      "description": "宾主二人在屋内落座，推开面对打谷场和菜园的窗户，端起酒杯开怀畅饮，并在酒席间闲谈农事与庄稼生长情况。",
+      "audio_triggers": [
+        "推开窗户",
+        "面对谷场菜园",
+        "共饮美酒",
+        "闲谈农事"
+      ],
+      "visual_evidence": [
+        "两人临窗对坐",
+        "窗外可见平整的打谷场和种满蔬菜的圃园",
+        "桌上有酒壶、酒杯与农家饭菜",
+        "人物举杯交谈，神态轻松亲切"
+      ],
+      "sound_evidence": [
+        "推开木窗的吱呀声",
+        "倒酒和碰杯声",
+        "亲切随和的交谈声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_154_05",
+      "description": "孟浩然深深沉醉于纯朴的田园生活和深厚的友情中，临别时与友人相约重阳节再来饮酒赏菊，并以此番经历为背景创作了千古名篇《过故人庄》。",
+      "audio_triggers": [
+        "九九重阳节",
+        "观赏菊花",
+        "写下",
+        "过故人庄"
+      ],
+      "visual_evidence": [
+        "孟浩然与友人拱手相约或道别的场景",
+        "秋日菊花的意象画面穿插",
+        "孟浩然在书案前挥毫写下诗句的景象"
+      ],
+      "sound_evidence": [
+        "情感升华的悠扬背景音乐",
+        "吟诵诗句的人声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "故人具鸡黍，",
+      "pronunciation": "gù rén jù jī shǔ ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "邀我至田家。",
+      "pronunciation": "yāo wǒ zhì tián jiā .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "绿树村边合，",
+      "pronunciation": "lǜ shù cūn biān hé ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青山郭外斜。",
+      "pronunciation": "qīng shān guō wài xiá .",
+      "accepted_variants": [
+        "qīng shān guō wài xié ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "开轩面场圃，",
+      "pronunciation": "kāi xuān miàn cháng pǔ ,",
+      "accepted_variants": [
+        "kāi xuān miàn chǎng pǔ ,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "把酒话桑麻。",
+      "pronunciation": "bǎ jiǔ huà sāng má .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "待到重阳日，",
+      "pronunciation": "dài dào chóng yáng rì ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "还来就菊花。",
+      "pronunciation": "huán lái jiù jú huā .",
+      "accepted_variants": [
+        "hái lái jiù jú huā ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "孟浩然",
+      "pronunciation": "mèng hào rán",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "过故人庄",
+      "pronunciation": "guò gù rén zhuāng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "张子容",
+      "pronunciation": "zhāng zǐ róng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "鹿门山",
+      "pronunciation": "lù mén shān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "开元",
+      "pronunciation": "kāi yuán",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_154_01",
+      "source_event_id": "evt_154_01",
+      "target_event_id": "evt_154_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_154_02",
+      "source_event_id": "evt_154_02",
+      "target_event_id": "evt_154_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_154_03",
+      "source_event_id": "evt_154_03",
+      "target_event_id": "evt_154_04",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_154_04",
+      "source_event_id": "evt_154_04",
+      "target_event_id": "evt_154_05",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_154_05",
+      "source_event_id": "evt_154_02",
+      "target_event_id": "evt_154_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_154_06",
+      "source_event_id": "evt_154_03",
+      "target_event_id": "evt_154_05",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_154_07",
+      "source_event_id": "evt_154_04",
+      "target_event_id": "evt_154_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/154.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/154.json",
+      "event_gold": "gold_annotation/tangshi_300/154.json"
+    },
+    "original_sample_id": "154",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

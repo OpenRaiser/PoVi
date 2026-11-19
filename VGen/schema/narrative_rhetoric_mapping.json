@@ -1,0 +1,112 @@
+{
+  "version": "0.2",
+  "section_definition": "A narration section is one coherent spoken passage with setup, development and a motivated handoff to the next passage.",
+  "event_unit_definition": "An event unit is a visual coverage point inside a section; it is not a separately spoken micro-sentence.",
+  "principles": [
+    "Enter through a concrete pressure, action, sound, object, or consequence rather than a biography label.",
+    "Let each section develop through concrete event units and observable consequences.",
+    "Vary sentence subject and focalization; do not chain sentences that all begin with the same pronoun or character name.",
+    "Withhold a result only when a later event actually pays it off.",
+    "Use observable behavior for inferred emotion and preserve uncertainty where evidence is limited."
+  ],
+  "techniques": [
+    {
+      "id": "scene_entry",
+      "use_when": "A new time, place, or pressure must become immediately concrete.",
+      "narration_move": "Open on weather, sound, movement, an object under pressure, or a public condition before naming the person.",
+      "visual_move": "Establish geography and pressure, then reveal the acting subject.",
+      "avoid": ["date-card summary", "character resume", "generic atmosphere without action"]
+    },
+    {
+      "id": "action_chain",
+      "use_when": "A decision matters because it creates an irreversible sequence.",
+      "narration_move": "Use specific verbs and causal succession; omit a repeated subject when Chinese syntax remains clear.",
+      "visual_move": "Use match-on-action or directional continuity across one or more shots.",
+      "avoid": ["repeating he then he", "listing achievements", "announcing bravery"]
+    },
+    {
+      "id": "pressure_escalation",
+      "use_when": "External conditions narrow the available choices.",
+      "narration_move": "Move from a concrete loss or obstacle to the next forced choice; delay the result.",
+      "visual_move": "Reduce space, increase occlusion, or move from wide context toward constrained action.",
+      "avoid": ["saying tension increased", "unsupported danger details", "melodramatic adjectives"]
+    },
+    {
+      "id": "withheld_result",
+      "use_when": "The outcome can be delayed within or across sections and then clearly paid off.",
+      "narration_move": "End before the decisive result; begin the next event with the changed situation rather than a filler connector.",
+      "visual_move": "Hold on preparation or threshold crossing, then cut to the consequence.",
+      "avoid": ["false cliffhanger", "withholding established facts for too long", "question with no payoff"]
+    },
+    {
+      "id": "reversal",
+      "use_when": "A success, expectation, or stable condition is overturned.",
+      "narration_move": "State the expected direction briefly, then let one event alter what is possible.",
+      "visual_move": "Use a motivated cut, change in movement direction, or changed spatial relationship.",
+      "avoid": ["but repeatedly", "abstract turning-point labels", "invented surprise"]
+    },
+    {
+      "id": "consequence_reveal",
+      "use_when": "The meaning of an earlier action becomes visible only through a later consequence.",
+      "narration_move": "Begin with the consequence and name the earlier cause only after the audience feels the change.",
+      "visual_move": "Return to an object, composition, or place in a changed state.",
+      "avoid": ["explaining cause and consequence in the same flat sentence", "symbolic labels"]
+    },
+    {
+      "id": "temporal_compression",
+      "use_when": "A long period contains repetition rather than a new event for every year.",
+      "narration_move": "Use one repeated action and one accumulating consequence instead of a chronological list.",
+      "visual_move": "Repeat a prop, route, gesture, or composition with controlled changes.",
+      "avoid": ["year-by-year timeline", "several unrelated events in one section", "empty many years passed"]
+    },
+    {
+      "id": "behavioral_interiority",
+      "use_when": "A psychological change is plausible but not directly documented.",
+      "narration_move": "Describe what the person keeps doing, stops doing, notices, or chooses; qualify the inference.",
+      "visual_move": "Let posture, distance, repetition, or hesitation carry the feeling.",
+      "avoid": ["invented inner monologue", "generic sadness", "claiming certainty"]
+    },
+    {
+      "id": "motif_callback",
+      "use_when": "A present poetic moment gains force by recalling an earlier concrete event.",
+      "narration_move": "Name only the minimum link after the recalled image appears.",
+      "visual_move": "Reuse a short earlier shot, prop, sound, or composition in the edit group.",
+      "avoid": ["retelling the full biography", "verbal explanation before the callback", "unmotivated flashback"]
+    },
+    {
+      "id": "open_bridge",
+      "use_when": "The context story is ready to hand attention to the poem.",
+      "narration_move": "Carry forward one unresolved pressure or question without declaring a single interpretation.",
+      "visual_move": "Preserve a direction, object, sound, or spatial relation that the poem can transform.",
+      "avoid": ["now let us appreciate", "announcing the theme", "pre-explaining the poem"]
+    }
+  ],
+  "tension_deltas": ["rise", "hold", "turn", "release", "bridge"],
+  "rhythm_profiles": {
+    "rise": {
+      "narration_cadence": "Prefer a concrete pressure followed by a choice or irreversible action; clauses may shorten as options narrow.",
+      "visual_cadence": "Move from readable geography toward constrained space, stronger occlusion, or faster subject motion.",
+      "duration_bias": "medium_or_short"
+    },
+    "hold": {
+      "narration_cadence": "Sustain one action, condition, or repeated behavior without inventing a new crisis.",
+      "visual_cadence": "Keep direction and composition stable while one prop, gesture, or environmental process accumulates meaning.",
+      "duration_bias": "medium"
+    },
+    "turn": {
+      "narration_cadence": "Place the changed fact or consequence early and allow a brief pause around the reversal.",
+      "visual_cadence": "Use one motivated change in direction, focus, scale, or spatial relationship.",
+      "duration_bias": "short_then_hold"
+    },
+    "release": {
+      "narration_cadence": "Name the immediate result in a complete, uncluttered sentence, then leave room for its consequence.",
+      "visual_cadence": "Open space, settle movement, or hold on the changed state instead of adding another event.",
+      "duration_bias": "medium_with_tail"
+    },
+    "bridge": {
+      "narration_cadence": "Carry one unresolved object, action, pressure, or question forward without summarizing the theme.",
+      "visual_cadence": "Preserve a direction, sound, prop, or spatial relation that the poem card or poem scene can inherit.",
+      "duration_bias": "short_or_medium"
+    }
+  }
+}

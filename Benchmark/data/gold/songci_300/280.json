@@ -1,0 +1,697 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_280",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《醉花阴》为宋代女词人李清照所作，属婉约派前期代表作，词牌为《醉花阴》，又名“九日”。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：醉花阴 作者：李清照 朝代：宋 体裁：词 词牌：醉花阴",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "李清照（1084—1151），号易安居士，宋代婉约派代表词人……其词分前后两期：前期清新婉丽，多写闺阁闲情",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "醉花阴：词牌名，又名“九日”，双调小令，仄韵格，五十二字，上下阕各五句三仄韵。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为李清照前期婉约词风典型作品",
+        "可结合宋代词体发展背景讲解该词牌格律"
+      ],
+      "forbidden_assertions": [
+        "该词为豪放派作品",
+        "作者为唐代或明代词人",
+        "词牌名非《醉花阴》"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词作于公元1103年（崇宁二年）重阳节，系李清照婚后不久丈夫赵明诚负笈远游时，为寄托相思而作并寄赠对方。传说赵明诚得词后曾闭门谢客三夜作词数阕以求比试，最终仍未胜过此词。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "公元1103年（崇宁二年），时届重九，人逢佳节倍思亲，便写了这首词寄给赵明诚。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "婚后不久，丈夫便“负笈远游”，深闺寂寞，她深深思念着远行的丈夫。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "传说将此词寄给赵明诚后，惹得明诚比试之心大起，遂三夜未眼，作词数阕，然终未胜过清照的这首《醉花阴》。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "重阳节传统习俗（登高、佩茱萸、饮菊酒）反衬了词人独处的孤寂",
+        "寄词行为本身是夫妻情感交流的载体"
+      ],
+      "forbidden_assertions": [
+        "该词作于李清照晚年流寓江南时期",
+        "创作动机为抒发家国之痛",
+        "丈夫当时在朝为官并未远游"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical",
+      "claim": "“瑞脑”指龙脑香，“金兽”为兽形铜香炉，“永昼”并非实指白昼长，而是愁苦心境下的主观时间延宕感。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "瑞脑：一种薰香名。又称龙脑，即冰片。消金兽：香炉里香料逐渐燃尽。金兽：兽形的铜香炉。愁永昼：愁难排遣觉得白天太长。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "永昼，一般用来形容夏天的白昼，这首词写的是重阳……还说“永昼”，这只是词人的一种心理感觉。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "香尽暗示词人独坐凝望时间之久，侧面烘托百无聊赖",
+        "天气阴沉与心理时间缓慢相互交织，奠定全词愁闷基调"
+      ],
+      "forbidden_assertions": [
+        "瑞脑指代某种食物或药材",
+        "金兽指真实的活体动物",
+        "永昼指宋代历法中重阳节实际白昼长度"
+      ]
+    },
+    {
+      "claim_id": "claim_04_metaphor_ending",
+      "claim": "结句“帘卷西风，人比黄花瘦”以秋菊之纤瘦比拟词人因相思而憔悴的形貌与心境，是全词情感与意境的高潮。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "以花木之“瘦”，比人之瘦……“莫道不消魂，帘卷西风，人比黄花瘦”这三句，才共同创造出一个凄清寂寥的深秋怀人的境界。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "秋风乍起，卷帘而入，帘内的人儿因过度思念身形竟比那黄花还要瘦弱。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“西风”不仅为自然景物，更是渲染凄清氛围、推动情感爆发的关键意象",
+        "“瘦”字将无形的离愁别绪具象化，实现物我交融"
+      ],
+      "forbidden_assertions": [
+        "黄花指油菜花或迎春花",
+        "人比黄花瘦是形容体态丰腴",
+        "该句仅为写景，无情感寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_05_textual_variants",
+      "claim": "该词流传版本存在“消/销”（消金兽/销金兽）、“厨/窗”（纱厨/纱窗）、“比/似”（人比黄花瘦/人似黄花瘦）、“洒/酒”（把洒/把酒）、“云/雰/阴”（薄雾浓云/薄雾浓雰/薄雾浓阴）等异文。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_2",
+          "text": "东篱把洒黄昏后……人似黄花瘦。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "薄雾浓云愁永昼，瑞脑销金兽。佳节又重阳，玉枕纱厨，半夜凉初透。东篱把酒黄昏后，有暗香盈袖。莫道不销魂，帘卷西风，人比黄花瘦。",
+          "locator": "原文版本三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "云：一作“雰”，一作“阴”。消：一作“销”，一作“喷”。厨：一作“窗”。比：一作“似”。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "异文不影响核心词意与情感表达，可作为版本学拓展素材",
+        "课堂讲授应以权威通行本为准，避免字词混淆"
+      ],
+      "forbidden_assertions": [
+        "断言某一异文为唯一正确版本并全盘否定其他版本",
+        "将异文混用导致诗句格律或语义不通"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "词中“纱厨”指防蚊蝇的纱帐；“东篱”泛指采菊之地；“暗香”指菊花的幽香；“盈袖”指满袖；“西风”指秋风；“黄花”指菊花。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "纱厨：即防蚊蝇的纱帐。东篱：泛指采菊之地。暗香：这里指菊花的幽香。盈袖：满袖。西风：秋风。黄花：指菊花。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“东篱”化用了陶渊明“采菊东篱下”的典故，暗示高洁的情操",
+        "“暗香”在词中特指菊花香气，而非梅花香气"
+      ],
+      "forbidden_assertions": [
+        "纱厨指厨房里的纱窗",
+        "东篱指东边普通的篱笆，无文化典故关联",
+        "暗香在词中指梅花香气"
+      ]
+    },
+    {
+      "claim_id": "claim_07_allusion_use",
+      "claim": "“有暗香盈袖”一句化用了《古诗十九首》中“馨香盈怀袖，路远莫致之”的句意，暗写词人无法将满怀的菊花香气与深情送达远方丈夫的遗憾。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“有暗香盈袖”一句，化用了《古诗十九首》“馨香盈怀袖，路远莫致之”句意。……同时也流露出“馨香满怀袖，路远莫致之”的深深遗憾。这是暗写她无法排遣的对丈夫的思念。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "化用古典诗歌意象使词作情感更为深厚、含蓄",
+        "“盈袖”不仅是花香，更是满溢的相思之情"
+      ],
+      "forbidden_assertions": [
+        "该句纯属写实，与《古诗十九首》无任何文学渊源",
+        "词人在此处表达的是对大自然的热爱，而非对丈夫的思念"
+      ]
+    },
+    {
+      "claim_id": "claim_08_artistic_features",
+      "claim": "本词在艺术上具有“物皆著我之色彩”的特点，将愁苦心情涂抹于天气、瑞脑、玉枕、纱厨、菊花等一切景物上；结构上上片至下片前中期为铺叙，结拍三句如高峰突起，创造出凄清寂寥的深秋怀人境界。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "此词在艺术上的一个特点是“物皆著我之色彩”，从天气到瑞脑金兽、玉枕纱厨、帘外菊花，词人用她愁苦的心情来看这一切，无不涂上一层愁苦的感情色彩。在结构上自起句至“有暗香盈袖”，都是铺叙笔法；而把离索的刻挚深情留在结拍，使它如高峰突起。“莫道不消魂，帘卷西风，人比黄花瘦”，成为全篇最精彩之笔。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人通过情景交融的手法，使客观景物完全主观化",
+        "起承转合自然，结句的爆发力得益于前文的层层铺垫"
+      ],
+      "forbidden_assertions": [
+        "该词景物描写与词人主观情感完全剥离",
+        "全词结构平铺直叙，无任何起伏与高潮"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌（及别名“九日”）、作者、时代及流派归属。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "宋代婉约派词人李清照的《醉花阴》",
+        "李清照前期闺怨词代表作，词牌又名九日"
+      ],
+      "forbidden_claims": [
+        "该词为豪放派作品",
+        "作者为唐代诗人"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_background",
+      "category": "historical_context",
+      "description": "交代创作的具体时间、节令背景、作者处境及寄赠对象，以及赵明诚得词比试的轶事。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "作于1103年重阳，丈夫远游时寄赠怀人",
+        "李清照婚后独守空房，逢佳节倍思亲之作，曾引得赵明诚闭门作词比试"
+      ],
+      "forbidden_claims": [
+        "作于南渡流亡时期",
+        "为应酬唱和或咏物言志而作"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确解释上片核心意象“瑞脑”、“金兽”、“纱厨”的字面义，以及“永昼”的主观时间延宕感。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "瑞脑即龙脑香，金兽为兽形铜香炉，纱厨为防蚊蝇的纱帐",
+        "永昼是愁苦心理导致的时间漫长感"
+      ],
+      "forbidden_claims": [
+        "金兽指活兽或瑞脑指食物",
+        "永昼指重阳节实际日照时间"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_mapping",
+      "category": "mapping_bridge",
+      "description": "解析结句“人比黄花瘦”的喻体、本体及情感连接逻辑，以及“暗香盈袖”化用古诗的深意。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以秋菊之瘦拟人之憔悴，化无形相思为有形体态",
+        "化用《古诗十九首》句意，将满袖花香转化为无法寄达的相思遗憾"
+      ],
+      "forbidden_claims": [
+        "黄花指代其他花卉",
+        "该句仅为客观景物白描，无比喻或象征关系"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor_ending",
+        "claim_07_allusion_use"
+      ],
+      "line_ids": [
+        "l03",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "把握全词“物皆著我之色彩”的艺术特色，以及上片铺叙、结拍突起的结构脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片写白昼愁闷至半夜凉透，下片写黄昏把酒至西风卷帘，景物皆染上愁苦色彩",
+        "前段层层铺叙，最后三句如高峰突起，创造凄清寂寥的怀人境界"
+      ],
+      "forbidden_claims": [
+        "上下片时空跳跃无序",
+        "全词情感始终平淡无起伏"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical",
+        "claim_04_metaphor_ending",
+        "claim_08_artistic_features"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解本词在流传过程中的版本异文情况，如“消/销”、“比/似”、“厨/窗”等。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "了解“消金兽”亦作“销金兽”，“人比黄花瘦”亦作“人似黄花瘦”",
+        "掌握不同版本在字词上的细微差异"
+      ],
+      "forbidden_claims": [
+        "断言某一异文为唯一正确版本"
+      ],
+      "source_claim_ids": [
+        "claim_05_textual_variants"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l05"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_yellow_flower",
+      "line_ids": [
+        "l05"
+      ],
+      "source_domain": [
+        "黄花（秋菊）经霜不凋、枝瓣纤长瘦弱的自然形态"
+      ],
+      "target_domain": [
+        "词人因深切思念丈夫而日渐憔悴消瘦的身形与孤寂心境"
+      ],
+      "bridges": [
+        "重阳赏菊触景生情，菊之瘦与人之瘦在形态上形成直观对应",
+        "“西风”渲染深秋萧瑟氛围，使物象与心象在凄清基调中同构"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_ending"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "黄花之瘦亦象征词人高洁脱俗、傲霜独立的精神品格"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_dark_fragrance",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "东篱菊花散发的幽暗香气盈满衣袖"
+      ],
+      "target_domain": [
+        "词人满怀无法寄达、无法排遣的深切相思之情"
+      ],
+      "bridges": [
+        "化用《古诗十九首》“馨香盈怀袖，路远莫致之”的典故，将花香转化为相思的载体"
+      ],
+      "context_claim_ids": [
+        "claim_07_allusion_use"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "暗示词人高洁的胸襟和脱俗的情趣"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_text",
+      "description": "清晰展示词牌、题名、作者及完整词文，确保标点与句序准确无误。",
+      "acceptable_realizations": [
+        "开场题签配合水墨背景逐句浮现",
+        "旁白诵读时同步显示规范字幕"
+      ],
+      "forbidden_realizations": [
+        "遗漏词牌或作者信息",
+        "擅自替换异文而不作学术说明"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_recitation",
+      "semantic_role": "opening_title_and_recitation"
+    },
+    {
+      "requirement_id": "vis_02_upper_mood",
+      "description": "视觉化呈现上片阴云密布、香炉烟尽、玉枕孤眠的室内愁闷氛围。",
+      "acceptable_realizations": [
+        "灰蓝色调渲染窗外薄雾浓云，镜头缓慢推移至室内铜香炉与纱帐",
+        "光影由明转暗，配合更漏声暗示时间流逝与夜半凉意"
+      ],
+      "forbidden_realizations": [
+        "使用明媚暖色调或喧闹场景",
+        "忽略“半夜凉初透”的时空转换提示"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "daytime_to_midnight_solitude",
+      "semantic_role": "daytime_to_midnight_solitude"
+    },
+    {
+      "requirement_id": "vis_03_lower_action",
+      "description": "展现下片黄昏东篱把酒、暗香浮动、西风卷帘的动态过程。",
+      "acceptable_realizations": [
+        "暖黄夕照下词人独坐篱畔举杯，微风吹动衣袖与珠帘",
+        "特写菊花丛与飘散的花瓣，配合衣袖微动的细节暗示“盈袖”"
+      ],
+      "forbidden_realizations": [
+        "出现多人宴饮欢聚场面",
+        "将“西风”表现为狂风暴雨破坏意境"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_dark_fragrance"
+      ],
+      "expected_phase": "dusk_drinking_and_curtain_rolling",
+      "semantic_role": "dusk_drinking_and_curtain_rolling"
+    },
+    {
+      "requirement_id": "vis_04_metaphor_focus",
+      "description": "聚焦结句“人比黄花瘦”的意象对照，强化物我交融的视觉隐喻。",
+      "acceptable_realizations": [
+        "画面分屏或叠化：左侧为风中摇曳的瘦菊，右侧为词人清瘦侧影",
+        "镜头由菊瓣特写缓缓拉远至人物全身，配合字幕点题"
+      ],
+      "forbidden_realizations": [
+        "将黄花替换为牡丹、桃花等繁茂花卉",
+        "人物形象丰腴饱满，与“瘦”字意境相悖"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_yellow_flower"
+      ],
+      "expected_phase": "metaphorical_climax_comparison",
+      "semantic_role": "metaphorical_climax_comparison"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_280_01",
+      "description": "公元1101年，十八岁的李清照与太学生赵明诚结为夫妻。两人志趣相投，生活美满。",
+      "audio_triggers": [
+        "建中靖国元年",
+        "十八岁",
+        "嫁给",
+        "赵明诚"
+      ],
+      "visual_evidence": [
+        "北宋时期婚庆或生活场景",
+        "青年时期的李清照与赵明诚",
+        "北宋士人阶层服饰与家居布置"
+      ],
+      "sound_evidence": [
+        "喜庆的氛围声",
+        "欢快的古风音乐"
+      ],
+      "importance": 1
+    },
+    {
+      "event_id": "evt_280_02",
+      "description": "婚后不久，赵明诚负笈远游，李清照独守空房，饱尝分隔两地之苦与深闺寂寞。",
+      "audio_triggers": [
+        "负笈远游",
+        "深闺寂寞",
+        "分离两地",
+        "远行的丈夫"
+      ],
+      "visual_evidence": [
+        "赵明诚背负行囊或书箱远行",
+        "李清照在庭院或依门相送，神情不舍",
+        "空荡的庭院或闺房"
+      ],
+      "sound_evidence": [
+        "马蹄声",
+        "轻微的脚步声",
+        "萧瑟的风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_280_03",
+      "description": "通常认为公元1103年重阳佳节，李清照独自把酒赏菊。阴沉的天气与入夜的凉意加重了她对远方丈夫的深深思念。",
+      "audio_triggers": [
+        "重阳佳节",
+        "人逢佳节倍思亲",
+        "东篱把酒",
+        "赏菊"
+      ],
+      "visual_evidence": [
+        "秋季阴云密布的黄昏",
+        "李清照独自在东篱旁饮酒赏菊",
+        "室内有金兽香炉、玉枕纱帐等物件",
+        "禁止出现现代物品与现代旅游景观"
+      ],
+      "sound_evidence": [
+        "呼啸的秋风声",
+        "倒酒的细微水声",
+        "凄凉婉转的背景音乐"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_280_04",
+      "description": "李清照将满腔愁绪与思念化诸笔端，写下《醉花阴》一词，并将其寄给远方的丈夫赵明诚。",
+      "audio_triggers": [
+        "写下了这首词",
+        "寄给赵明诚",
+        "人比黄花瘦"
+      ],
+      "visual_evidence": [
+        "李清照在书案前挥毫泼墨",
+        "神情忧郁憔悴",
+        "画面可适度表现秋风卷动珠帘、菊花瘦骨的情景作为文学意象的转化"
+      ],
+      "sound_evidence": [
+        "毛笔在纸张上的摩擦声",
+        "风吹卷帘声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "薄雾浓云愁永昼，",
+      "pronunciation": "bó wù nóng yún chóu yǒng zhòu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "瑞脑消金兽。",
+      "pronunciation": "ruì nǎo xiāo jīn shòu.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "佳节又重阳，",
+      "pronunciation": "jiā jié yòu chóng yáng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "玉枕纱厨，",
+      "pronunciation": "yù zhěn shā chú,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "半夜凉初透。",
+      "pronunciation": "bàn yè liáng chū tòu.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "东篱把酒黄昏后，",
+      "pronunciation": "dōng lí bǎ jiǔ huáng hūn hòu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "有暗香盈袖。",
+      "pronunciation": "yǒu àn xiāng yíng xiù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "莫道不消魂？",
+      "pronunciation": "mò dào bù xiāo hún?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "帘卷西风，",
+      "pronunciation": "lián juǎn xī fēng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "人比黄花瘦。",
+      "pronunciation": "rén bǐ huáng huā shòu.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "醉花阴",
+      "pronunciation": "zuì huā yīn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "李清照",
+      "pronunciation": "lǐ qīng zhào",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "赵明诚",
+      "pronunciation": "zhào míng chéng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "瑞脑",
+      "pronunciation": "ruì nǎo",
+      "category": "other",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_280_01",
+      "source_event_id": "evt_280_01",
+      "target_event_id": "evt_280_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_280_02",
+      "source_event_id": "evt_280_02",
+      "target_event_id": "evt_280_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_280_03",
+      "source_event_id": "evt_280_03",
+      "target_event_id": "evt_280_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/280.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/280.json",
+      "event_gold": "gold_annotation/songci_300/280.json"
+    },
+    "original_sample_id": "280",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

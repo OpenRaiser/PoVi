@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "103_songci_075_c1fdc7efeee7",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "满庭芳",
+    "author": "秦观",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "山抹微云，天黏衰草，画角声断谯门。\n暂停征棹，聊共引离樽。\n多少蓬莱旧事，空回首、烟霭纷纷。\n斜阳外，寒鸦万点，流水绕孤村。\n销魂，当此际，香囊暗解，罗带轻分。\n漫赢得青楼，薄幸名存。\n此去何时见也？\n襟袖上、空惹啼痕。\n伤情处，高城望断，灯火已黄昏。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "山抹微云，天黏衰草，画角声断谯门。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "暂停征棹，聊共引离樽。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "多少蓬莱旧事，空回首、烟霭纷纷。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "斜阳外，寒鸦万点，流水绕孤村。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "销魂，当此际，香囊暗解，罗带轻分。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "漫赢得青楼，薄幸名存。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "此去何时见也？"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "襟袖上、空惹啼痕。"
+      },
+      {
+        "line_id": "l09",
+        "order": 9,
+        "text": "伤情处，高城望断，灯火已黄昏。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "c1fdc7efeee714e436216871",
+    "global_index": 103
+  }
+}

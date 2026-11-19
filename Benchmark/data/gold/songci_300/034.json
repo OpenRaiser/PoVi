@@ -1,0 +1,755 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_034",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人柳永所作的词，词牌为《凤栖梧》（又名《蝶恋花》），是一首怀人之作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：凤栖梧・蝶恋花 作者：柳永 朝代：宋 体裁：词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "柳永（约984—1053）……北宋著名词人",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这是一首怀人之作",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确标注该词为宋代婉约派词的代表作",
+        "可结合柳永生平说明其词多写市井情思与羁旅漂泊"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代作品",
+        "作者为苏轼或晏殊等其他词人",
+        "体裁为近体诗或绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme_structure",
+      "claim": "全词仅首句叙事，余皆抒情；上片登楼望远引出“春愁”，下片借酒遣愁未果，最终揭示“春愁”实为坚贞相思，采用“曲径通幽”的结构手法。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "全词只此一句叙事，便把主人公的外形像一幅剪纸那样突现出来了……采用“曲径通幽”的表现方式",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "下片作者把笔宕开，写他如何苦中求乐……至此，作者才透露这种“春愁”是一种坚贞不渝的感情",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出该词上景下情、层层递进的章法特点",
+        "可强调“春愁”为全词情感线索"
+      ],
+      "forbidden_assertions": [
+        "全词以叙事为主",
+        "上下片情感毫无关联",
+        "词人直接点明愁绪而无铺垫"
+      ]
+    },
+    {
+      "claim_id": "claim_03_imagery_grass",
+      "claim": "“草色烟光残照里”以黄昏春草与迷蒙烟光烘托孤寂凄凉，芳草意象暗喻愁恨连绵与倦游思归。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "芳草萋萋，刬尽还生，很容易使人联想到愁恨的连绵无尽。借用春草，表示自己已经倦游思归",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "烟光：飘忽缭绕的云霭雾气。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可说明景物描写为抒情定下凄美基调",
+        "可指出“残照”暗示时间流逝与主人公久久伫立"
+      ],
+      "forbidden_assertions": [
+        "草色象征生机勃勃的喜悦",
+        "烟光指代清晨的雾气",
+        "该句为纯客观写景无情感寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_04_famous_line",
+      "claim": "“衣带渐宽终不悔，为伊消得人憔悴”化用《古诗十九首》，直抒胸臆，表明甘愿为所爱之人（或人生理想）憔悴消瘦而无悔的执着情感。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "衣带渐宽：指人逐渐消瘦。语本《古诗十九首》：“相去日已远，衣带日已缓”。消得：值得。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "即使渐渐形容憔悴、瘦骨伶仃，也决不后悔。“为伊消得人憔悴”才一语破的：词人的所谓“春愁”，不外是“相思”二字",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "“伊人”，可能指其红颜知己……暗含了词人自身功业无成、人生困顿的悲凉",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出该句为全词情感高潮与主旨句",
+        "可引申为后世治学、追求理想的励志名句"
+      ],
+      "forbidden_assertions": [
+        "“消得”意为消耗殆尽",
+        "该句表达的是对饮酒的后悔",
+        "“伊”仅指代词人自己"
+      ]
+    },
+    {
+      "claim_id": "claim_05_background",
+      "claim": "此词具体创作时间不详，一般认为作于柳永仕途失意、漂泊江湖期间，融合了个人身世之感与男女恋情。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "具体创作时间不详。当时漂泊异乡，因怀念意中人而作此词。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "一般认为作于柳永仕途失意、漂泊江湖期间……是柳永将个人身世之感与男女恋情融为一体的典范之作",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合柳永屡试不第的经历理解词中“落魄感受”",
+        "可说明宋代文人常将仕途失意寄托于儿女情长"
+      ],
+      "forbidden_assertions": [
+        "该词作于柳永高中进士之后",
+        "词中毫无身世之叹仅写风月",
+        "创作于南宋时期"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "词中“伫倚危楼”意为长时间倚靠在高楼的栏杆上，其中“伫”为久立，“危楼”指高楼；“黯黯”形容神情沮丧、情绪低落或迷蒙不明；“会”意为理解；“阑”通“栏”；“拟把”意为打算；“疏狂”指狂放不羁；“强乐”指勉强欢笑，“强”读qiǎng，意为勉强；“消得”意为值得或能忍受得了。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "伫倚危楼：长时间倚靠在高楼的栏杆上。伫，长时间站立。危楼，高楼。黯黯：神情沮丧，情绪低落。会：理解。阑：同“栏”。拟把：打算。疏狂：狂放不羁。强乐：勉强欢笑。强，勉强。消得：值得。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "伫，久立。黯黯：迷蒙不明，形容心情沮丧忧愁。强（qiǎng）乐：勉强欢笑。消得：值得，能忍受得了。",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“危楼”在古汉语中并非指危险、快要倒塌的楼房，而是指高耸之楼"
+      ],
+      "forbidden_assertions": [
+        "危楼指危险的破楼",
+        "强乐指强烈的快乐",
+        "消得指消耗殆尽"
+      ]
+    },
+    {
+      "claim_id": "claim_07_alternative_reading_text",
+      "claim": "本词在不同版本中存在标点断句的差异，如“伫倚危楼风细细”后，版本一用逗号，版本二用句号；且版本二明确指出“阑”通“栏”。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_version_1",
+          "text": "伫倚危楼风细细，望极春愁，黯黯生天际。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_version_2",
+          "text": "伫倚危楼风细细。望极春愁，黯黯生天际。草色烟光残照里。无言谁会凭阑意。(阑 通 栏)",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "不同版本的断句差异不影响词作整体抒情脉络"
+      ],
+      "forbidden_assertions": [
+        "所有古籍版本中本词的标点和字形完全一致"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代及体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋词人柳永的《凤栖梧・蝶恋花》",
+        "宋代婉约派词作"
+      ],
+      "forbidden_claims": [
+        "唐代诗歌",
+        "作者为晏几道",
+        "体裁为七言律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_structure",
+      "category": "structure",
+      "description": "分析全词“曲径通幽”的章法：上片借景生愁，下片借酒遣愁，末句点破主旨。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上景下情，层层铺垫至结尾",
+        "仅首句叙事，余者皆抒情"
+      ],
+      "forbidden_claims": [
+        "全篇平铺直叙无转折",
+        "上下片情感割裂",
+        "首句即点明相思主题"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握核心字词释义：伫倚、危楼、黯黯、会、阑、拟把、疏狂、强乐、消得等。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "伫倚：长时间倚靠",
+        "强乐：勉强欢笑",
+        "消得：值得，能忍受得了"
+      ],
+      "forbidden_claims": [
+        "危楼指危险的破楼",
+        "强乐指强烈的快乐",
+        "消得指消耗殆尽"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "解析“草色烟光”与“春草”意象的象征意义及其与愁绪的关联。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "芳草萋萋象征愁恨连绵",
+        "残照烘托孤寂凄凉之感"
+      ],
+      "forbidden_claims": [
+        "草色代表春意盎然与喜悦",
+        "烟光指代战火硝烟",
+        "意象与情感毫无关联"
+      ],
+      "source_claim_ids": [
+        "claim_03_imagery_grass"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_boundary",
+      "category": "interpretive_boundary",
+      "description": "探讨“伊”的双重指向：既可指深爱的女子，亦可引申为人生理想或仕途抱负。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“伊”指红颜知己",
+        "“伊”暗含对功名理想的执着追求"
+      ],
+      "forbidden_claims": [
+        "“伊”仅指词人自己",
+        "该词毫无身世寄托仅写艳情",
+        "“伊”指代朝廷皇帝"
+      ],
+      "source_claim_ids": [
+        "claim_04_famous_line",
+        "claim_05_background"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解不同版本在标点断句上的差异，以及“阑”字通假字情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "版本一与版本二在首句及部分句末的断句标点有所不同",
+        "“阑”通“栏”"
+      ],
+      "forbidden_claims": [
+        "本词在流传过程中没有任何文字或标点异同"
+      ],
+      "source_claim_ids": [
+        "claim_07_alternative_reading_text"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_grass",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "草色烟光/春草/残照"
+      ],
+      "target_domain": [
+        "愁恨连绵/倦游思归/孤寂凄凉"
+      ],
+      "bridges": [
+        "芳草萋萋、刬尽还生的自然特性与愁绪的绵延不绝、难以排遣相通",
+        "夕阳余晖下的迷蒙光色强化了时光流逝与主人公久久伫立的凄美氛围"
+      ],
+      "context_claim_ids": [
+        "claim_03_imagery_grass"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "春草亦可视为词人漂泊异乡、羁旅无依的自身写照",
+        "残照暗喻词人仕途失意、人生暮景的悲凉心境"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_clothing",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "衣带渐宽"
+      ],
+      "target_domain": [
+        "身体消瘦/相思煎熬/执着无悔"
+      ],
+      "bridges": [
+        "化用《古诗十九首》，以衣物日渐变宽直观映射人体因思念而日渐消瘦",
+        "外在形体的消损反衬内在情感的坚贞与不可动摇"
+      ],
+      "context_claim_ids": [
+        "claim_04_famous_line"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可引申为对学问或事业的刻苦钻研与不懈追求",
+        "亦可视为词人对自我价值坚守的隐喻"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_wine",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "疏狂/对酒当歌/图一醉"
+      ],
+      "target_domain": [
+        "借酒浇愁/排遣苦闷/强颜欢笑"
+      ],
+      "bridges": [
+        "以狂放饮酒与高歌的行为试图麻痹自我，映射内心无法排解的深沉春愁",
+        "“强乐还无味”揭示借酒逃避的徒劳，反衬愁绪之深重"
+      ],
+      "context_claim_ids": [
+        "claim_02_theme_structure"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "疏狂亦可解读为词人对抗世俗礼法、追求精神自由的姿态",
+        "对酒当歌暗含对人生苦短的无奈与及时行乐的自我宽慰"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_text",
+      "description": "清晰呈现词牌、题名、作者及完整原文，标点与分行须严格遵循古籍定本。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现原文",
+        "旁白吟诵时同步显示规范字幕"
+      ],
+      "forbidden_realizations": [
+        "擅自改动字词或标点",
+        "漏掉任何一句原文",
+        "词牌与题名混淆排版"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_recitation",
+      "semantic_role": "opening_title_and_recitation"
+    },
+    {
+      "requirement_id": "vis_02_upper_scenery",
+      "description": "视觉化上片登楼望远之景：高楼、微风、天际、春草、烟光与落日残照，营造凄美孤寂氛围。",
+      "acceptable_realizations": [
+        "水墨晕染呈现黄昏草色与迷蒙烟霭",
+        "镜头由近及远推向天际线，配合风声与鸟鸣"
+      ],
+      "forbidden_realizations": [
+        "使用明亮欢快的春日色调",
+        "画面中无高楼凭栏人物剪影",
+        "残照表现为正午烈日"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_grass"
+      ],
+      "expected_phase": "upper_stanza_scenic_depiction",
+      "semantic_role": "upper_stanza_scenic_depiction"
+    },
+    {
+      "requirement_id": "vis_03_lower_emotion",
+      "description": "表现下片借酒遣愁的心理转折：举杯高歌的疏狂姿态与强颜欢笑的落寞神情形成对比。",
+      "acceptable_realizations": [
+        "人物独酌画面，酒杯特写与面部微表情交替",
+        "背景音由激昂歌声渐弱为无声叹息"
+      ],
+      "forbidden_realizations": [
+        "多人宴饮喧闹场景",
+        "人物表情始终愉悦无愁",
+        "完全省略饮酒动作"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_wine"
+      ],
+      "expected_phase": "lower_stanza_emotional_turn",
+      "semantic_role": "lower_stanza_emotional_turn"
+    },
+    {
+      "requirement_id": "vis_04_climax_line",
+      "description": "重点突出末两句，通过视觉隐喻（如衣带松弛、身形渐瘦、光影淡化）强化“终不悔”的执着。",
+      "acceptable_realizations": [
+        "特写腰间渐宽的衣带与清瘦侧影",
+        "文字逐字放大并配以沉稳有力的诵读"
+      ],
+      "forbidden_realizations": [
+        "使用夸张病态或恐怖消瘦画面",
+        "文字排版错乱或遮挡关键句",
+        "配乐轻浮削弱庄重感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_clothing"
+      ],
+      "expected_phase": "climax_famous_line_reveal",
+      "semantic_role": "climax_famous_line_reveal"
+    },
+    {
+      "requirement_id": "vis_05_dual_interpretation",
+      "description": "在总结阶段以分屏或叠影手法，提示“伊”可指向红颜知己与人生理想的双重解读空间。",
+      "acceptable_realizations": [
+        "左侧仕途羁旅意象，右侧闺阁相思意象",
+        "字幕标注“爱情/理想”双关提示"
+      ],
+      "forbidden_realizations": [
+        "武断否定其中一种解读",
+        "画面与词意完全脱节",
+        "使用现代职场或网络梗图"
+      ],
+      "importance": 1,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "thematic_dual_interpretation",
+      "semantic_role": "thematic_dual_interpretation"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_034_01",
+      "description": "宋真宗咸平五年（1002年）之后，柳永离开家乡，长期流寓杭州、苏州等地，沉醉于听歌买笑的浪漫生活，与歌妓交往密切。",
+      "audio_triggers": [
+        "咸平五年",
+        "离开家乡",
+        "流寓",
+        "听歌买笑",
+        "与歌妓交往"
+      ],
+      "visual_evidence": [
+        "北宋初年江南市井繁华风貌",
+        "青年柳永的文人装束",
+        "青楼画坊的饮酒听曲场景",
+        "禁止出现现代江南旅游景点画面"
+      ],
+      "sound_evidence": [
+        "江南水乡的市井喧闹声",
+        "丝竹管弦等传统乐器声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_034_02",
+      "description": "大中祥符元年（1008年）起，柳永进京参加科举，却屡试不中。仕途的连番挫折使他深感失意，人生陷入困顿，遂一心填词。",
+      "audio_triggers": [
+        "进京参加科举",
+        "屡试不中",
+        "屡试不第",
+        "仕途失意",
+        "一心填词"
+      ],
+      "visual_evidence": [
+        "北宋汴京贡院环境",
+        "发榜处柳永失落沮丧的神情",
+        "书案前孤独奋笔疾书填词的场景"
+      ],
+      "sound_evidence": [
+        "人群看榜的喧哗声",
+        "失落的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_034_03",
+      "description": "在仕途失意与长期漂泊异乡的过程中，柳永深感功业无成，心中充满了对意中人（通常认为指其红颜知己）的相思与愁苦，悲凉心境渐深。",
+      "audio_triggers": [
+        "漂泊江湖",
+        "漂泊异乡",
+        "功业无成",
+        "怀念意中人"
+      ],
+      "visual_evidence": [
+        "柳永孤身漂泊在异乡的客栈或孤舟中",
+        "面容逐渐显得憔悴失意",
+        "回忆与红颜知己交往的虚化画面"
+      ],
+      "sound_evidence": [
+        "孤寂的脚步声",
+        "萧瑟的秋风或水波声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_034_04",
+      "description": "柳永久立高楼极目远眺，见春草连天、残照如烟，本欲借酒排遣，却觉勉强欢笑更无意味，遂写下《凤栖梧·蝶恋花》。具体创作时间不可确考，通常认为作于其仕途失意、漂泊江湖期间。词中表达了为伊人（亦暗指人生理想）憔悴而终不悔的深情。",
+      "audio_triggers": [
+        "伫倚危楼",
+        "春愁",
+        "残照",
+        "强乐还无味",
+        "衣带渐宽终不悔",
+        "为伊消得人憔悴"
+      ],
+      "visual_evidence": [
+        "北宋木结构高楼建筑",
+        "黄昏时分的夕阳残照",
+        "如烟似雾的广阔春草",
+        "柳永倚靠栏杆，持酒杯饮酒却神色痛苦",
+        "因消瘦而显得宽大的衣带",
+        "柳永挥毫写下词句的特写"
+      ],
+      "sound_evidence": [
+        "高处微风拂面的声音",
+        "沉重放下酒杯的声音",
+        "吟诵词句的声音"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "伫倚危楼风细细，",
+      "pronunciation": "zhù yǐ wēi lóu fēng xì xì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望极春愁，",
+      "pronunciation": "wàng jí chūn chóu，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黯黯生天际。",
+      "pronunciation": "àn àn shēng tiān jì。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "草色烟光残照里，",
+      "pronunciation": "cǎo sè yān guāng cán zhào lǐ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无言谁会凭阑意？",
+      "pronunciation": "wú yán shuí huì píng lán yì？",
+      "accepted_variants": [
+        "wú yán shéi huì píng lán yì？"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "拟把疏狂图一醉，",
+      "pronunciation": "nǐ bǎ shū kuáng tú yī zuì，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "对酒当歌，",
+      "pronunciation": "duì jiǔ dāng gē，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "强乐还无味。",
+      "pronunciation": "qiǎng lè hái wú wèi。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "衣带渐宽终不悔。",
+      "pronunciation": "yī dài jiàn kuān zhōng bù huǐ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "为伊消得人憔悴。",
+      "pronunciation": "wèi yī xiāo dé rén qiáo cuì。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "柳永",
+      "pronunciation": "liǔ yǒng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "柳三变",
+      "pronunciation": "liǔ sān biàn",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "柳屯田",
+      "pronunciation": "liǔ tún tián",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "强乐",
+      "pronunciation": "qiǎng lè",
+      "category": "polyphone",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_034_01",
+      "source_event_id": "evt_034_01",
+      "target_event_id": "evt_034_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_034_02",
+      "source_event_id": "evt_034_02",
+      "target_event_id": "evt_034_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_034_03",
+      "source_event_id": "evt_034_03",
+      "target_event_id": "evt_034_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_034_04",
+      "source_event_id": "evt_034_02",
+      "target_event_id": "evt_034_04",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/034.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/034.json",
+      "event_gold": "gold_annotation/songci_300/034.json"
+    },
+    "original_sample_id": "034",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

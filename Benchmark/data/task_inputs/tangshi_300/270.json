@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "007_tangshi_270_766b4c328078",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "芙蓉楼送辛渐",
+    "author": "王昌龄",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "text": "寒雨连江夜入吴，平明送客楚山孤。\n洛阳亲友如相问，一片冰心在玉壶。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "寒雨连江夜入吴，平明送客楚山孤。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "洛阳亲友如相问，一片冰心在玉壶。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "766b4c328078d6c6e6fa9d6b",
+    "global_index": 7
+  }
+}

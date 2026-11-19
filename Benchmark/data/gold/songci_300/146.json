@@ -1,0 +1,1002 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_146",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为宋代词人万俟咏所作，词牌为《三台》，系宋徽宗时期作者任大晟府乐官时奉诏创作的应制词。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：三台 作者：万俟咏 朝代：宋 体裁：词 词牌：三台",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这首词是宋徽宗时任大晟府乐官时奉皇帝之命所作。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "徽宗政和初年，召试补官，授大晟府制撰。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为宫廷应制之作，具有官方礼仪与颂圣性质。",
+        "作者身份为专业乐官，精通音律，故词作格律严谨。"
+      ],
+      "forbidden_assertions": [
+        "该词为万俟咏贬谪或隐居时期的个人抒情之作。",
+        "词牌《三台》为万俟咏自创。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_structure",
+      "claim": "全词采用赋体铺陈手法，分上、中、下三片，依次描写宫苑春景、市井游冶与清明赐火休务。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "全词用赋的铺张扬厉之笔法极力铺叙京城清明时节的节序风光……词分上、中、下三片，上片写宫苑中的春景，由内及外；中片写郊外之游……下片写贵族宅院中的喜庆景象。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "统观全篇，是一种竭力罗列铺陈的赋体写法。全词铺叙勾勒，脉络清晰，层次分明，处处照应。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学时应按三片结构划分讲解层次，突出空间由宫廷向民间再向朝堂的推移。",
+        "铺陈手法是理解本词艺术特色的核心切入点。"
+      ],
+      "forbidden_assertions": [
+        "该词为上下两阕结构。",
+        "全词以抒情为主，缺乏叙事与写景的层次。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_theme",
+      "claim": "词作主旨为颂扬清明时节的太平盛世与朝野同乐，但赏析指出其带有应制体粉饰太平的程式化特征。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "粉饰出一片虚假的太平繁荣景象。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "就当时文学现象中不可缺少的一种诗词体式“应制体”来看，也还是写得比较成功的……全词也在这样一片太平祥和的氛围中戛然而止。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "解读时应结合“应制”背景，理解其颂圣意图与文学史定位。",
+        "可探讨“虚假太平”评价背后的文学批评视角。"
+      ],
+      "forbidden_assertions": [
+        "该词纯粹是作者对民间疾苦的隐晦批判。",
+        "词中毫无政治颂扬色彩，仅为纯自然写景。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_imagery_auspicious",
+      "claim": "“非烟非雾”（l03）并非单纯写景，而是指代祥瑞之气，用以烘托宫阙的尊贵与盛世气象。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "非烟非雾：指祥瑞之气。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "非烟非雾：指祥瑞之气。《汉书·天文志》：“若烟非烟，若云非云……是谓庆云。”",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "烘托出帝王之家的祥和与高贵。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "该意象是连接自然春景与政治祥瑞的关键符号。",
+        "可结合汉代典籍理解古人对天象的政治化解读。"
+      ],
+      "forbidden_assertions": [
+        "“非烟非雾”仅指春日清晨的普通水汽或雾霾。",
+        "该词暗示宫廷内部存在阴谋或动荡。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_customs_qingming",
+      "claim": "下片集中描写寒食清明习俗，包括禁火、试新妆、传蜡炬、休务等，展现节令更迭与朝廷恩典。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "禁火：古俗寒食日禁火三天。住传宣：停止传旨、宣官员上殿。休务：停止公务。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "下片借清明习俗禁火，宫中以蜡烛分赐近臣，及弛禁开门，住宣休务等事，写皇上降恩，与百僚同乐，以此颂圣。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "清明赐火是宋代重要的宫廷礼仪，象征皇恩浩荡。",
+        "休务与敛兵卫共同构成“太平”的具体政治表征。"
+      ],
+      "forbidden_assertions": [
+        "禁火习俗源于唐代宫廷独创。",
+        "休务指官员因战乱被迫停止办公。"
+      ]
+    },
+    {
+      "claim_id": "claim_06_metonymy_nobility",
+      "claim": "“槐府”（l11）借指朝廷权贵或重臣的府邸，源于古代贵宅门前植槐的传统。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "槐府：贵人宅第，门前植槐。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "槐府：贵人宅第，门前植槐。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该词运用了典型的借代修辞，以植物特征代指社会阶层。",
+        "翠烟飞入槐府暗示恩泽直达权臣之家。"
+      ],
+      "forbidden_assertions": [
+        "“槐府”指代普通的乡村农舍。",
+        "槐树在此处仅作为清明时令植物出现，无社会阶层指涉。"
+      ]
+    },
+    {
+      "claim_id": "claim_07_textual_variants",
+      "claim": "关于l11，不同版本存在异文，版本一作“清明看、汉蜡传宫炬”，版本二、三作“清明看、汉宫传蜡炬”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_ver_1",
+          "text": "清明看、汉蜡传宫炬，散翠烟、飞入槐府。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_ver_2",
+          "text": "清明看、汉宫传蜡炬。散翠烟、飞入槐府。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "两处异文均指向清明时节宫廷向臣下传赐蜡烛的典故。",
+        "“汉宫传蜡炬”与唐代韩翃《寒食》诗句“日暮汉宫传蜡烛”更为接近。"
+      ],
+      "forbidden_assertions": [
+        "“汉蜡传宫炬”是万俟咏唯一的原始手稿写法，其他版本均为伪造。"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_qingmen",
+      "claim": "“青门”（l02）原指汉长安东南门，后泛指京城城门。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "青门：汉长安东南门，后泛指京城城门。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "此处用“青门”代指宋代汴京的城门，体现了古典诗词用汉代典故代指当朝事物的习惯。"
+      ],
+      "forbidden_assertions": [
+        "“青门”在词中特指某扇漆成青绿色的普通民居大门。"
+      ]
+    },
+    {
+      "claim_id": "claim_09_lexical_yaotao",
+      "claim": "“夭桃”（l07）意为茂盛而艳丽的桃花，语出《诗经·周南·桃夭》。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "夭桃：茂盛而艳丽的桃花。语出《诗·周南·桃夭》：“桃之夭夭，灼灼甚华。”",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“夭桃朱户”借用人面桃花的意象，暗示踏青路上青年男女的爱恋与邂逅。"
+      ],
+      "forbidden_assertions": [
+        "“夭桃”是指夭折、枯萎的桃树。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代及应制创作背景。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "宋徽宗时期大晟府乐官万俟咏奉诏所作的《三台》",
+        "宋代应制词代表作之一"
+      ],
+      "forbidden_claims": [
+        "作者为唐代诗人",
+        "该词为民间自发创作的俚曲"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_structure",
+      "category": "structure",
+      "description": "掌握全词上、中、下三片的赋体铺陈结构与空间叙事脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "三片递进：宫苑春景→市井游冶→清明赐火",
+        "由内及外、由景及事、由民及朝的层次安排"
+      ],
+      "forbidden_claims": [
+        "全词为上下两阕结构",
+        "三片内容杂乱无逻辑关联"
+      ],
+      "source_claim_ids": [
+        "claim_02_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确理解“非烟非雾”“禁火”“槐府”“青门”“夭桃”等核心词汇的典故与制度内涵。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "祥瑞云气、寒食禁火习俗、权贵府邸的代称、京城城门及茂盛桃花的典故",
+        "结合汉代天文志、诗经与宋代宫廷礼仪的专有名词"
+      ],
+      "forbidden_claims": [
+        "将“非烟非雾”解释为环境污染",
+        "将“槐府”理解为普通民居"
+      ],
+      "source_claim_ids": [
+        "claim_04_imagery_auspicious",
+        "claim_05_customs_qingming",
+        "claim_06_metonymy_nobility",
+        "claim_08_lexical_qingmen",
+        "claim_09_lexical_yaotao"
+      ],
+      "line_ids": [
+        "l02",
+        "l03",
+        "l07",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "能够流畅翻译并还原上中片清明踏青、游女斗草、宝马飞絮的生动画面。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "春景由宫廷蔓延至民间，游人如织，节日气氛浓厚",
+        "莺燕啼鸣、秋千绿水、少年醉归的市井风俗画"
+      ],
+      "forbidden_claims": [
+        "词中描写的是秋日萧瑟景象",
+        "游女与少年处于悲苦哀怨的情绪中"
+      ],
+      "source_claim_ids": [
+        "claim_02_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_05_mapping_bridge",
+      "category": "mapping_bridge",
+      "description": "解析自然意象与政治祥瑞、植物特征与社会阶层之间的映射逻辑。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "以天象之瑞喻帝王之德，以宅前之槐代朝廷重臣",
+        "借物象特征完成从自然景观到社会等级的符号转换"
+      ],
+      "forbidden_claims": [
+        "意象之间仅为随意拼凑，无内在逻辑",
+        "映射关系属于现代人的过度解读"
+      ],
+      "source_claim_ids": [
+        "claim_04_imagery_auspicious",
+        "claim_06_metonymy_nobility"
+      ],
+      "line_ids": [
+        "l03",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "客观认识“应制体”的颂圣功能与“粉饰太平”的文学批评视角，避免单一化解读。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "应制词需兼顾音律、礼仪与政治表达，其“太平”书写具有时代文体特征",
+        "可在肯定其艺术铺陈的同时，指出其缺乏个人真情实感的局限"
+      ],
+      "forbidden_claims": [
+        "该词完全脱离历史语境，纯属无病呻吟",
+        "作者刻意隐瞒社会矛盾，属于政治欺骗"
+      ],
+      "source_claim_ids": [
+        "claim_03_theme"
+      ],
+      "line_ids": [
+        "l04",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "综合概括全词以赋笔铺叙清明风光、颂扬朝野同乐的应制主题。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "一幅宋代清明盛世风俗长卷，兼具音律美与铺陈美",
+        "通过节序风光与宫廷恩典的交织，展现承平气象"
+      ],
+      "forbidden_claims": [
+        "全词主旨为伤春悲秋",
+        "作品毫无文学价值，仅为歌功颂德的公文"
+      ],
+      "source_claim_ids": [
+        "claim_03_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解清明看“汉蜡传宫炬”与“汉宫传蜡炬”的版本异文，并能结合唐诗典故进行对比。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "掌握“汉蜡传宫炬”与“汉宫传蜡炬”的异文存在",
+        "了解其化用了唐代韩翃《寒食》中“日暮汉宫传蜡烛”的典故"
+      ],
+      "forbidden_claims": [
+        "认为两个版本字面完全一致，没有任何异文"
+      ],
+      "source_claim_ids": [
+        "claim_07_textual_variants"
+      ],
+      "line_ids": [
+        "l11"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_auspicious",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "非烟非雾的朦胧云气"
+      ],
+      "target_domain": [
+        "祥瑞之气与帝王宫阙的尊贵祥和"
+      ],
+      "bridges": [
+        "注释引《汉书·天文志》明确其为“庆云”祥瑞；赏析指出其用于烘托帝王之家的祥和与高贵，将自然气象转化为政治吉兆。"
+      ],
+      "context_claim_ids": [
+        "claim_04_imagery_auspicious"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为对春日清晨自然雾气的写实白描，未必全为政治祥瑞的刻意附会，仅作为宫廷春景的视觉点缀。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_locust",
+      "line_ids": [
+        "l11"
+      ],
+      "source_domain": [
+        "槐府（门前植槐的宅院）"
+      ],
+      "target_domain": [
+        "朝廷权贵或重臣的府邸"
+      ],
+      "bridges": [
+        "注释一、二均指出古人有在贵宅前植槐的传统，此处借植物特征与建筑空间代指达官显贵居所，完成从植物到社会阶层的借代。"
+      ],
+      "context_claim_ids": [
+        "claim_06_metonymy_nobility"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可实指清明时节槐树新绿掩映的普通官宦院落，侧重节令景物与赐火仪式的空间落点，而非特指权贵阶层。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text_display",
+      "description": "准确呈现词题、作者、词牌及完整原文，保持句读规范，必要时标注版本异文（如“汉蜡传宫炬”与“汉宫传蜡炬”）。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现，异文以小字批注形式呈现",
+        "旁白朗读时同步高亮当前诵读句段"
+      ],
+      "forbidden_realizations": [
+        "漏掉关键诗句或擅自改动字词而不加说明",
+        "混淆上下片断句位置"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "title_and_author_introduction",
+      "semantic_role": "title_and_author_introduction"
+    },
+    {
+      "requirement_id": "vis_02_palace_scenery",
+      "description": "展现上片宫苑春景由内及外的空间推移，突出梨花、海棠、御沟、凤阙及祥瑞云气的视觉层次。",
+      "acceptable_realizations": [
+        "镜头从近景花卉缓缓推至远景宫阙，配合淡金色光晕表现“非烟非雾”",
+        "使用水墨晕染过渡宫廷建筑与春水绿柳"
+      ],
+      "forbidden_realizations": [
+        "画面杂乱无空间层次或色调过于阴郁",
+        "将祥瑞云气表现为现代工业雾霾"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_auspicious"
+      ],
+      "expected_phase": "palace_spring_scenery",
+      "semantic_role": "palace_spring_scenery"
+    },
+    {
+      "requirement_id": "vis_03_festival_outing",
+      "description": "呈现中片市井游冶与青年男女踏青场景，动态还原莺燕、秋千、斗草、宝马飞絮的民俗画面。",
+      "acceptable_realizations": [
+        "多机位切换展现游女嬉戏与少年纵马，衣襟飞絮采用慢动作特写",
+        "背景音融入断续莺啼与太平箫鼓的市井混响"
+      ],
+      "forbidden_realizations": [
+        "静态摆拍或人物服饰脱离宋代形制",
+        "渲染悲苦、肃杀或战乱氛围"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "suburban_festival_outing",
+      "semantic_role": "suburban_festival_outing"
+    },
+    {
+      "requirement_id": "vis_04_imperial_customs",
+      "description": "描绘下片清明赐火与朝廷休务的安宁气象，表现宫烛传递、翠烟飘入宅院、宫门大开无兵卫的仪式感。",
+      "acceptable_realizations": [
+        "长镜头跟随宫炬队伍穿过城门，翠烟袅袅融入植槐院落",
+        "宫门缓缓敞开，撤去甲胄兵卫，展现“休务”的松弛感"
+      ],
+      "forbidden_realizations": [
+        "赐火场景火光冲天、渲染危险",
+        "宫门紧闭或兵卫森严，与“敛兵卫”文本相悖"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_locust"
+      ],
+      "expected_phase": "imperial_grace_and_court_rest",
+      "semantic_role": "imperial_grace_and_court_rest"
+    },
+    {
+      "requirement_id": "vis_05_theme_analysis",
+      "description": "点明“应制体”铺陈手法与“太平气象”的文本意图，图文对照解析赋体结构与颂圣主旨。",
+      "acceptable_realizations": [
+        "分屏展示三片结构脉络图，配合关键词高亮（如“朝野多欢”“休务”）",
+        "引用赏析原文“粉饰出一片虚假的太平繁荣景象”作为学术讨论引子"
+      ],
+      "forbidden_realizations": [
+        "过度引申为现代政治批判或完全忽略应制背景",
+        "将铺陈手法简单等同于流水账记录"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "thematic_and_stylistic_analysis",
+      "semantic_role": "thematic_and_stylistic_analysis"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_146_01",
+      "description": "通常认为，万俟咏早年屡试不第，绝意仕进，纵情歌酒，自号“大梁词隐”，在北宋都城汴京（大梁）生活。",
+      "audio_triggers": [
+        "屡试不第",
+        "大梁词隐",
+        "纵情歌酒"
+      ],
+      "visual_evidence": [
+        "宋代市井酒肆",
+        "落榜文人装束",
+        "饮酒作词的场景"
+      ],
+      "sound_evidence": [
+        "市井喧闹声",
+        "斟酒声",
+        "叹息声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_146_02",
+      "description": "宋徽宗政和初年，朝廷设立音乐机构大晟府。万俟咏因精通音律被召试补官，授大晟府制撰，政治处境与人生发生转变。",
+      "audio_triggers": [
+        "宋徽宗",
+        "政和初年",
+        "大晟府",
+        "乐官"
+      ],
+      "visual_evidence": [
+        "宋代宫廷乐府机构",
+        "编钟、古琴等乐器",
+        "万俟咏换上宋代低阶官服"
+      ],
+      "sound_evidence": [
+        "宫廷雅乐弹奏声",
+        "官员宣读政令声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_146_03",
+      "description": "清明时节，宋徽宗为了展现国家繁荣，与百僚同乐，下令词臣作词歌颂太平盛世。",
+      "audio_triggers": [
+        "清明时节",
+        "粉饰太平",
+        "应制",
+        "皇帝降恩"
+      ],
+      "visual_evidence": [
+        "北宋皇宫巍峨的凤阙",
+        "春日宫廷内外繁花似锦",
+        "皇帝下旨的场景"
+      ],
+      "sound_evidence": [
+        "宫廷钟鼓声",
+        "肃穆的朝会氛围"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_146_04",
+      "description": "万俟咏奉皇帝之命，以赋的铺叙手法写成《三台》，极力描绘京城大梁清明节序的春景、游人踏青以及宫廷传蜡炬、休务的太平气象。",
+      "audio_triggers": [
+        "奉命写成",
+        "《三台》",
+        "铺陈",
+        "太平气象"
+      ],
+      "visual_evidence": [
+        "万俟咏在书案前挥毫作词",
+        "画面隐现游女斗草、宝马雕鞍、宫廷传赐蜡烛、百官休务的盛世长卷"
+      ],
+      "sound_evidence": [
+        "毛笔写字声",
+        "隐约的箫鼓乐声和黄莺啼鸣"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "见梨花初带夜月，",
+      "pronunciation": "jiàn lí huā chū dài yè yuè,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "海棠半含朝雨。",
+      "pronunciation": "hǎi táng bàn hán zhāo yǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "内苑春、",
+      "pronunciation": "nèi yuàn chūn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "不禁过青门，",
+      "pronunciation": "bù jīn guò qīng mén,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "御沟涨、",
+      "pronunciation": "yù gōu zhǎng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "潜通南浦。",
+      "pronunciation": "qián tōng nán pǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "东风静，",
+      "pronunciation": "dōng fēng jìng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "细柳垂金缕，",
+      "pronunciation": "xì liǔ chuí jīn lǚ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望凤阙非烟非雾。",
+      "pronunciation": "wàng fèng què fēi yān fēi wù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "好时代、",
+      "pronunciation": "hǎo shí dài,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "朝野多欢，",
+      "pronunciation": "cháo yě duō huān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遍九陌、",
+      "pronunciation": "biàn jiǔ mò,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "太平箫鼓。",
+      "pronunciation": "tài píng xiāo gǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "乍莺儿百啭断续，",
+      "pronunciation": "zhà yīng ér bǎi zhuàn duàn xù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "燕子飞来飞去。",
+      "pronunciation": "yàn zi fēi lái fēi qù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "近绿水、",
+      "pronunciation": "jìn lǜ shuǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "台榭映秋千，",
+      "pronunciation": "tái xiè yìng qiū qiān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "斗草聚、",
+      "pronunciation": "dòu cǎo jù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "双双游女。",
+      "pronunciation": "shuāng shuāng yóu nǚ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "饧香更、",
+      "pronunciation": "xíng xiāng gèng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "酒冷踏青路，",
+      "pronunciation": "jiǔ lěng tà qīng lù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "会暗识、",
+      "pronunciation": "huì àn shí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夭桃朱户。",
+      "pronunciation": "yāo táo zhū hù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "向晚骤、",
+      "pronunciation": "xiàng wǎn zhòu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "宝马雕鞍，",
+      "pronunciation": "bǎo mǎ diāo ān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "醉襟惹、",
+      "pronunciation": "zuì jīn rě,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "乱花飞絮。",
+      "pronunciation": "luàn huā fēi xù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "正轻寒轻暖漏永，",
+      "pronunciation": "zhèng qīng hán qīng nuǎn lòu yǒng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "半阴半晴云暮。",
+      "pronunciation": "bàn yīn bàn qíng yún mù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "禁火天、",
+      "pronunciation": "jìn huǒ tiān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "已是试新妆，",
+      "pronunciation": "yǐ shì shì xīn zhuāng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "岁华到、",
+      "pronunciation": "suì huá dào,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "三分佳处。",
+      "pronunciation": "sān fēn jiā chù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "清明看、",
+      "pronunciation": "qīng míng kàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "汉蜡传宫炬，",
+      "pronunciation": "hàn là chuán gōng jù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "散翠烟、",
+      "pronunciation": "sàn cuì yān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "飞入槐府。",
+      "pronunciation": "fēi rù huái fǔ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "敛兵卫、",
+      "pronunciation": "liǎn bīng wèi,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "阊阖门开，",
+      "pronunciation": "chāng hé mén kāi,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "住传宣、",
+      "pronunciation": "zhù chuán xuān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "又还休务。",
+      "pronunciation": "yòu hái xiū wù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "三台",
+      "pronunciation": "sān tái",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "万俟咏",
+      "pronunciation": "mò qí yǒng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "大晟府",
+      "pronunciation": "dà shèng fǔ",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "应制",
+      "pronunciation": "yìng zhì",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "大梁词隐",
+      "pronunciation": "dà liáng cí yǐn",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "宋徽宗",
+      "pronunciation": "sòng huī zōng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "政和",
+      "pronunciation": "zhèng hé",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_146_01",
+      "source_event_id": "evt_146_01",
+      "target_event_id": "evt_146_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_146_02",
+      "source_event_id": "evt_146_02",
+      "target_event_id": "evt_146_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_146_03",
+      "source_event_id": "evt_146_03",
+      "target_event_id": "evt_146_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/146.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/146.json",
+      "event_gold": "gold_annotation/songci_300/146.json"
+    },
+    "original_sample_id": "146",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

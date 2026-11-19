@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gold_annotation.schema.json",
+  "title": "Private Benchmark Gold Annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sample_id",
+    "gold_status",
+    "evidence_claims",
+    "required_information",
+    "metaphor_maps",
+    "visual_requirements",
+    "key_events",
+    "pronunciation_lexicon",
+    "learning_items"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.2"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "gold_status": {
+      "enum": [
+        "draft_system_derived",
+        "draft_llm_source_grounded",
+        "draft_human",
+        "adjudicated_gold"
+      ]
+    },
+    "evidence_claims": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidence_claim"}
+    },
+    "required_information": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/required_information"}
+    },
+    "metaphor_maps": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/metaphor_map"}
+    },
+    "visual_requirements": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/visual_requirement"}
+    },
+    "key_events": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/key_event"}
+    },
+    "pronunciation_lexicon": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/pronunciation_item"}
+    },
+    "learning_items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/learning_item"}
+    },
+    "consistency_groups": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/consistency_group"}
+    },
+    "event_relations": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/event_relation"}
+    },
+    "generation_requirements": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/generation_requirement"}
+    },
+    "alignment_relations": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/alignment_relation"}
+    },
+    "annotation_metadata": {"type": "object"}
+  },
+  "$defs": {
+    "consistency_group": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["group_id", "entity", "slot", "items", "importance"],
+      "properties": {
+        "group_id": {"type": "string"},
+        "entity": {"type": "string"},
+        "slot": {"type": "string"},
+        "scope": {"type": "string"},
+        "items": {"type": "array", "minItems": 2, "items": {"type": "string"}},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    },
+    "event_relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relation_id", "source_event_id", "target_event_id", "relation_type", "importance"],
+      "properties": {
+        "relation_id": {"type": "string"},
+        "source_event_id": {"type": "string"},
+        "target_event_id": {"type": "string"},
+        "relation_type": {
+          "enum": ["BEFORE", "DEPENDS_ON", "INPUT_OF", "OUTPUT_OF", "CAUSES", "STATE_CHANGE", "ALIGNS_WITH", "RECALL_OF", "VALIDATES"]
+        },
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    },
+    "generation_requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requirement_id", "modality", "description", "importance"],
+      "properties": {
+        "requirement_id": {"type": "string"},
+        "modality": {"enum": ["asset", "image", "video", "speech", "audio", "subtitle", "editing"]},
+        "description": {"type": "string"},
+        "acceptable_realizations": {"type": "array", "items": {"type": "string"}},
+        "forbidden_realizations": {"type": "array", "items": {"type": "string"}},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3},
+        "applicable": {"type": "boolean"}
+      }
+    },
+    "alignment_relation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relation_id", "left_artifact", "right_artifact", "relation_type", "importance"],
+      "properties": {
+        "relation_id": {"type": "string"},
+        "left_artifact": {"type": "string"},
+        "right_artifact": {"type": "string"},
+        "relation_type": {"enum": ["identity", "text", "semantic", "temporal", "spatial", "reference"]},
+        "unit_id": {"type": "string"},
+        "tolerance_seconds": {"type": "number", "minimum": 0},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    },
+    "evidence_claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim_id", "claim", "status", "importance", "evidence"],
+      "properties": {
+        "claim_id": {"type": "string"},
+        "claim": {"type": "string"},
+        "status": {
+          "enum": [
+            "documented",
+            "consensus",
+            "licensed_interpretation",
+            "disputed",
+            "unknown"
+          ]
+        },
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3},
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source_id", "text"],
+            "properties": {
+              "source_id": {"type": "string"},
+              "text": {"type": "string"},
+              "locator": {"type": "string"},
+              "authority": {"enum": ["high", "medium", "low"]}
+            }
+          }
+        },
+        "acceptable_inferences": {"type": "array", "items": {"type": "string"}},
+        "forbidden_assertions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "required_information": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit_id", "category", "description", "importance"],
+      "properties": {
+        "unit_id": {"type": "string"},
+        "category": {"type": "string"},
+        "description": {"type": "string"},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3},
+        "acceptable_paraphrases": {"type": "array", "items": {"type": "string"}},
+        "forbidden_claims": {"type": "array", "items": {"type": "string"}},
+        "source_claim_ids": {"type": "array", "items": {"type": "string"}},
+        "line_ids": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "metaphor_map": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metaphor_id",
+        "source_domain",
+        "target_domain",
+        "bridges",
+        "status",
+        "importance"
+      ],
+      "properties": {
+        "metaphor_id": {"type": "string"},
+        "line_ids": {"type": "array", "items": {"type": "string"}},
+        "source_domain": {"type": "array", "items": {"type": "string"}},
+        "target_domain": {"type": "array", "items": {"type": "string"}},
+        "bridges": {"type": "array", "items": {"type": "string"}},
+        "context_claim_ids": {"type": "array", "items": {"type": "string"}},
+        "status": {"enum": ["consensus", "plausible", "disputed", "unknown"]},
+        "alternative_readings": {"type": "array", "items": {"type": "string"}},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    },
+    "visual_requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["requirement_id", "semantic_role", "description", "importance"],
+      "properties": {
+        "requirement_id": {"type": "string"},
+        "semantic_role": {"type": "string"},
+        "description": {"type": "string"},
+        "acceptable_realizations": {"type": "array", "items": {"type": "string"}},
+        "forbidden_realizations": {"type": "array", "items": {"type": "string"}},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3},
+        "required_visibility": {"type": "boolean"},
+        "metaphor_ids": {"type": "array", "items": {"type": "string"}},
+        "expected_phase": {"type": "string"}
+      }
+    },
+    "key_event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["event_id", "description", "importance"],
+      "properties": {
+        "event_id": {"type": "string"},
+        "description": {"type": "string"},
+        "audio_triggers": {"type": "array", "items": {"type": "string"}},
+        "visual_evidence": {"type": "array", "items": {"type": "string"}},
+        "sound_evidence": {"type": "array", "items": {"type": "string"}},
+        "tolerance_seconds": {"type": "number", "minimum": 0},
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    },
+    "pronunciation_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["term", "pronunciation", "category", "importance"],
+      "properties": {
+        "term": {"type": "string"},
+        "pronunciation": {"type": "string"},
+        "accepted_variants": {"type": "array", "items": {"type": "string"}},
+        "category": {
+          "enum": ["poem", "person", "place", "allusion", "polyphone", "other"]
+        },
+        "importance": {"type": "integer", "minimum": 1, "maximum": 3}
+      }
+    },
+    "learning_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["item_id", "construct", "format", "prompt", "max_score"],
+      "properties": {
+        "item_id": {"type": "string"},
+        "construct": {
+          "enum": [
+            "literal",
+            "metaphor_source",
+            "metaphor_target",
+            "mapping",
+            "context",
+            "uncertainty",
+            "transfer"
+          ]
+        },
+        "format": {
+          "enum": ["multiple_choice", "short_answer", "true_false", "ordering"]
+        },
+        "prompt": {"type": "string"},
+        "choices": {"type": "array", "items": {"type": "string"}},
+        "answer": {},
+        "rubric": {"type": "array", "items": {"type": "string"}},
+        "max_score": {"type": "number", "minimum": 0}
+      }
+    }
+  }
+}

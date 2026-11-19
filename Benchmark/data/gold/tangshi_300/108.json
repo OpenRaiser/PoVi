@@ -1,0 +1,755 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_108",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《送杜少府之任蜀州》是唐代诗人王勃创作的五言律诗，属于经典送别题材作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "送杜少府之任蜀州 王勃 唐 五言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "城阙辅三秦，风烟望五津。与君离别意，同是宦游人。海内存知己，天涯若比邻。无为在歧路，儿女共沾巾。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "王勃（650—676），字子安，初唐杰出诗人...代表作《送杜少府之任蜀州》",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该作品是初唐五言律诗的代表性篇目",
+        "可将其归入初唐送别诗经典序列"
+      ],
+      "forbidden_assertions": [
+        "该诗为其他唐代诗人所作",
+        "该诗体裁为七言绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "该诗是王勃在长安任职时期，为即将赴蜀州（今四川崇州）上任的友人杜少府所作的赠别诗，创作于初唐文学革新阶段。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "《送杜少府之任蜀州》是作者在长安时所写。这位姓杜的少府将到四川去上任，在长安相送，临别时赠送给他这首送别诗。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此诗作于干封元年（666年），王勃17岁在长安任职时。时值唐高宗经营西南，友人杜少府（名不详）赴蜀州（今四川崇州）任职。...作品诞生于初唐文学革新期",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "创作时王勃年少锐气十足，作品体现了初唐刚健的诗风转向",
+        "杜少府的具体名姓在现存公开资料中没有明确记载"
+      ],
+      "forbidden_assertions": [
+        "该诗是王勃在蜀地送别友人时所作",
+        "该诗创作于盛唐时期"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical_explanation",
+      "claim": "诗中核心字词释义为：少府指官名（唐时县尉也称少府）；城阙指京师长安城楼；辅指护卫、拱卫；三秦指长安城附近的关中之地；五津指岷江的五个渡口，泛指蜀川；风烟指风尘烟霭苍茫无际；君指对人的尊称；宦游指出外做官；海内指四海之内（全国各地）；天涯比喻极远的地方；比邻指近邻；无为是不必、无须；歧路指大路分岔处；沾巾指泪水沾湿衣服和腰带，意思是挥泪告别。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "风烟望五津：「风烟」两字名词用作状语...遥望蜀州。君：对人的尊称...海内：四海之内...天涯：天边...比邻：并邻，近邻。无为：无须、不必。沾巾：泪水沾湿衣服和腰带。意思是挥泪告别。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "少府：官名。之：到、往。蜀州：今四川崇州。城阙...指京师长安城。辅，护卫。三秦，指长安城附近的关中之地...五津：指岷江的五个渡口...泛指蜀川。宦游：出外做官。歧路：岔路。古人送行常在大路分岔处告别。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "少府：官职，管理山海地泽收入及手工制造，唐时县尉也称少府。蜀州：即今天的四川崇州，有的诗集版本中也作“蜀川”。城阙：皇宫门前的望楼。指唐都长安。辅：拱卫。五津：指岷江上的五个渡口，这里泛指蜀川一带。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“五津”在诗中并非实指某一个渡口，而是作为蜀地的代称"
+      ],
+      "forbidden_assertions": [
+        "将“城阙”解释为蜀地的城楼",
+        "将“无为”解释为道家的无为而治"
+      ]
+    },
+    {
+      "claim_id": "claim_04_famous_line_origin",
+      "claim": "名句“海内存知己，天涯若比邻”并非王勃完全凭空创造，而是从曹植的诗句“丈夫志四海，万里犹比邻”变化化用而来，并配上“海内存知己”使诗意产生全新升华。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "这两句（海内存知己，天涯若比邻）是作者的名句...但这两句并非王勃的创造，他是从曹植的诗“丈夫志四海，万里犹比邻”变化而成，他利用“万里犹比邻”这个概念，配上“海内存知己”，诗意就与曹植不同。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "王勃的化用提升了原句的传播度，使其成为后世表达友情不受空间阻隔的通用名句"
+      ],
+      "forbidden_assertions": [
+        "该名句完全照搬曹植诗句，没有任何创新",
+        "该名句是后世其他诗人改写后嫁接到王勃名下的"
+      ]
+    },
+    {
+      "claim_id": "claim_05_theme_style",
+      "claim": "该诗一洗往昔送别诗中悲苦缠绵之态，意境旷达，音调明快爽朗，语言清新高远，体现出诗人高远的志向、豁达的情趣和宽广的胸襟，预示了盛唐之音的到来。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此诗是送别诗的名作，诗意在慰勉友人勿在离别之时悲哀。...此诗开合顿挫，气脉流通，意境旷达，堪称送别诗中的不世经典",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "此诗一洗往昔送别诗中悲苦缠绵之态，体现出诗人高远的志向、豁达的情趣和旷达的胸怀。...送别诗中的悲凉凄怆之气，音调明快爽朗，语言清新高远，内容独树碑石。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "将六朝\"儿女共沾巾\"的柔媚，转化为\"无为在歧路\"的洒脱。作品诞生于初唐文学革新期，其昂扬格调预示了即将到来的盛唐之音。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该诗的昂扬格调是初唐诗歌革新的代表性成果之一"
+      ],
+      "forbidden_assertions": [
+        "该诗整体基调悲苦凄切，和传统送别诗没有区别",
+        "该诗是初唐送别诗中艺术水准平庸的作品"
+      ]
+    },
+    {
+      "claim_id": "claim_06_alternative_readings",
+      "claim": "本诗在流传过程中存在异文与版本差异：“同是宦游人”中的“同”一作“俱”；“辅三秦”一作“俯西秦”；“蜀州”在有的诗集版本中也作“蜀川”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_alt",
+          "text": "同：一作「俱」。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2_alt",
+          "text": "辅三秦：一作“辅西秦”（注：原文为“俯西秦”）。同：一作“俱”。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3_alt",
+          "text": "蜀州：即今天的四川崇州，有的诗集版本中也作“蜀川”。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这些异文的存在反映了手抄本时代诗歌流传的常态，但不影响全诗的整体意境"
+      ],
+      "forbidden_assertions": [
+        "“同”字是唯一正确的版本，其他版本皆为后人伪造"
+      ]
+    },
+    {
+      "claim_id": "claim_07_rhetoric_structure",
+      "claim": "本诗在章法上开合顿挫，首联运用夸张与想象手法展开壮阔境界，且属“工对”中的“地名对”；颔联以散调相承，以实转虚；颈联奇峰突起，将感情升华；尾联于极高峻处忽然落入舒缓，戛然而止或留有尾声。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1_struct",
+          "text": "首联描画出送别地与友人出发地的形势和风貌...严整对仗；颔联为宽慰之辞...以散调相承，以实转虚，文情跌宕；颈联奇峰突起...尾联点出“送”的主题...此诗开合顿挫，气脉流通",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2_struct",
+          "text": "“城阙辅三秦，风烟望五津”属“工对”中的“地名对”...该诗运用夸张手法，开头就展开壮阔的境界...超越常人的视力所及，用想象的眼睛看世界...与君离别意，同是宦游人...对偶不求工整，疏散...结尾两句...于极高峻处忽然又落入舒缓，然后终止。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "首联的“望”字并非实写肉眼所见，而是诗人的想象之景"
+      ],
+      "forbidden_assertions": [
+        "本诗首联是写实，诗人在长安城楼上用肉眼直接看清了四川的五个渡口"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确识记本诗的题名、作者、所属朝代、体裁属性，明确其送别诗的题材定位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《送杜少府之任蜀州》是初唐四杰之一王勃创作的五言律诗",
+        "这是一首经典的唐代送别诗"
+      ],
+      "forbidden_claims": [
+        "本诗作者是盛唐的李白",
+        "本诗是一首七言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "掌握本诗的创作背景：王勃在长安送别赴蜀州任职的友人杜少府，创作于初唐文学革新阶段。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗是王勃在长安送别即将去四川做官的朋友时写的赠别作品",
+        "作品诞生于初唐诗风从绮靡转向刚健的革新时期"
+      ],
+      "forbidden_claims": [
+        "王勃是在蜀地送别杜少府返回长安时写下的这首诗",
+        "这首诗创作于安史之乱之后的盛唐晚期"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_core",
+      "category": "lexical",
+      "description": "掌握全诗核心文言字词的准确释义，包括“少府”、“城阙”、“辅”、“三秦”、“五津”、“宦游”、“海内”、“天涯”、“比邻”、“无为”、“歧路”、“沾巾”等。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“五津”泛指蜀川一带，并非实指某一个具体的渡口",
+        "“海内”在古代指全国各地，因古人认为我国疆土四周环海"
+      ],
+      "forbidden_claims": [
+        "“无为”的意思是没有作为，指无所事事",
+        "“沾巾”指的是用毛巾擦手"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical_explanation"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "能够准确逐句翻译全诗的字面含义，做到语义通顺符合原诗意。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "雄伟的长安城由三秦之地拱卫，透过那风云烟雾遥望着蜀川的五津",
+        "不要在即将分手的岔路口，像小儿女那样悲伤得泪湿衣巾"
+      ],
+      "forbidden_claims": [
+        "海内存知己的意思是大海里藏着我的好朋友",
+        "与君离别意的意思是我和你告别之后就忘记了情谊"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical_explanation"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor_origin",
+      "category": "metaphor_source",
+      "description": "了解千古名句“海内存知己，天涯若比邻”的化用来源，明确王勃对曹植原句的意境拓展。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "王勃化用了曹植的诗句，把友情不受空间阻隔的意境表达得更有感染力"
+      ],
+      "forbidden_claims": [
+        "这句诗完全是王勃凭空原创，没有任何前代文学的借鉴",
+        "这句诗和曹植原句的意境完全一致没有区别"
+      ],
+      "source_claim_ids": [
+        "claim_04_famous_line_origin"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_06_theme_summary",
+      "category": "summary",
+      "description": "概括全诗的核心主旨，理解其一改传统送别诗悲苦基调的旷达风格。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗表达了真正的友情不受空间限制的豁达理念，劝慰友人不必为离别悲伤",
+        "作品体现了初唐诗人昂扬开阔的胸襟"
+      ],
+      "forbidden_claims": [
+        "这首诗通篇都在抒发送别时的悲痛欲绝之情",
+        "这首诗的主题是批判友人去偏远地方做官的选择"
+      ],
+      "source_claim_ids": [
+        "claim_05_theme_style"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解本诗流传中的异文版本，如“同是宦游人”的“同”一作“俱”，“辅三秦”一作“俯西秦”，“蜀州”一作“蜀川”。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“同是宦游人”在某些版本中也写作“俱是宦游人”",
+        "“辅三秦”在有的版本中记录为“俯西秦”"
+      ],
+      "forbidden_claims": [
+        "“同是宦游人”中的“同”字在所有古籍版本中均无任何异文"
+      ],
+      "source_claim_ids": [
+        "claim_06_alternative_readings"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_structure_rhetoric",
+      "category": "structure",
+      "description": "理解本诗首联运用夸张与想象手法展开壮阔境界，以及全诗开合顿挫、以实转虚的章法结构。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "首联通过想象的眼睛超越常人视力，将长安与千里的蜀地联系起来，展开宏大境界",
+        "全诗在章法上起伏跌宕，颔联由高昂转为凄恻，颈联又转为豪迈，尾联舒缓终止"
+      ],
+      "forbidden_claims": [
+        "首联是写实之景，诗人在长安城头确实亲眼看到了四川的五津"
+      ],
+      "source_claim_ids": [
+        "claim_07_rhetoric_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_tianya_metaphor",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "天边、肉眼可见的地平线尽头"
+      ],
+      "target_domain": [
+        "极遥远的地理距离、相隔万里的空间阻隔"
+      ],
+      "bridges": [
+        "注释明确标注“天涯：天边，这里比喻极远的地方”，用常人认知里视线的尽头代指无法轻易抵达的遥远地域"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical_explanation"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "后世语境中也可用来代指人生路途上的遥远终点"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_hai_nei_metaphor",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "四海之内、被海洋环绕的陆地范围"
+      ],
+      "target_domain": [
+        "古代认知中的整个华夏疆域、普天之下的全国范围"
+      ],
+      "bridges": [
+        "古人认为中国疆土四周被大海环绕，因此用“四海之内”的具象地理意象代指整个国家的范围"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical_explanation"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "在后世传播中也可引申为全球所有地域的泛指"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_huan_hai_metaphor",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "大海、起伏不定的水面"
+      ],
+      "target_domain": [
+        "起伏漂泊、身不由己的仕途生涯"
+      ],
+      "bridges": [
+        "多个译文将“同是宦游人”的宦游状态解释为“在宦海中浮沉”，用大海的漂泊属性比喻出外做官之人身不由己、远离故土的状态"
+      ],
+      "context_claim_ids": [
+        "claim_05_theme_style"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "也可直接将“宦游人”解释为出外做官的人，不额外引申出海的比喻义"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_04_feng_yan_metaphor",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "风尘烟霭、迷茫的烟雾"
+      ],
+      "target_domain": [
+        "远望时迷茫如啼眼、离别时迷茫不舍的心境"
+      ],
+      "bridges": [
+        "注释一与注释二指出“风烟望五津”意为“江边因远望而显得迷茫如啼眼”，用风烟迷茫的自然景象比喻离别时泪眼朦胧、依依不舍的迷茫心境"
+      ],
+      "context_claim_ids": [
+        "claim_03_lexical_explanation"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "也可单纯理解为写实或想象中的自然界风沙烟雾，不作心境层面的引申"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_intro",
+      "description": "视频开场清晰展示本诗的题名、作者、朝代、体裁信息，同步呈现完整无错的原诗文本。",
+      "acceptable_realizations": [
+        "古风题签样式展示基础信息，旁白朗读时同步逐行显示诗文字幕"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏字，错误标注作者和朝代信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_introduction",
+      "semantic_role": "opening_poem_introduction"
+    },
+    {
+      "requirement_id": "vis_02_first_couplet_landscape",
+      "description": "呈现首联对应的壮阔场景：三秦之地拱卫长安城的雄浑风貌，远方蜀地岷江渡口笼罩在苍茫风烟中的远景。",
+      "acceptable_realizations": [
+        "镜头从长安城楼缓缓拉远，越过秦岭云雾，定格在蜀地的苍茫烟霭中"
+      ],
+      "forbidden_realizations": [
+        "把场景设置在江南水乡，完全丢失北方关中与蜀地的地域特征"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_04_feng_yan_metaphor"
+      ],
+      "expected_phase": "first_couplet_landscape_presentation",
+      "semantic_role": "first_couplet_landscape_presentation"
+    },
+    {
+      "requirement_id": "vis_03_second_couplet_parting",
+      "description": "呈现颔联对应的送别场景：两位同为出外做官的友人在长安城外的岔路口执手话别，神态自然真挚。",
+      "acceptable_realizations": [
+        "画面中二人身着唐代官服，站在岔路口交谈，背景是送行的酒盏"
+      ],
+      "forbidden_realizations": [
+        "二人穿着现代服饰，场景设置在火车站台"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_huan_hai_metaphor"
+      ],
+      "expected_phase": "second_couplet_parting_dialogue",
+      "semantic_role": "second_couplet_parting_dialogue"
+    },
+    {
+      "requirement_id": "vis_04_third_couplet_famous_line",
+      "description": "呈现颈联名句的意境：广阔的天地之间，相隔千山万水的两位友人仿佛近在咫尺，打破空间距离的限制互动。",
+      "acceptable_realizations": [
+        "分屏展示长安和蜀地的两处场景，中间用光带连接，二人隔空举杯如同近邻对饮"
+      ],
+      "forbidden_realizations": [
+        "画面只放两个小人站在一起，完全没有体现天涯相隔的空间感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_tianya_metaphor",
+        "meta_02_hai_nei_metaphor"
+      ],
+      "expected_phase": "third_couplet_famous_line_visualization",
+      "semantic_role": "third_couplet_famous_line_visualization"
+    },
+    {
+      "requirement_id": "vis_05_ending_exhortation",
+      "description": "呈现尾联的场景：二人洒脱拱手作别，没有小儿女哭哭啼啼泪湿衣襟的状态，尽显旷达气度。",
+      "acceptable_realizations": [
+        "友人翻身上马向蜀地出发，王勃站在路口挥手送别，二人脸上都带着释然的笑意"
+      ],
+      "forbidden_realizations": [
+        "二人抱在一起痛哭流涕，完全违背原诗的旷达基调"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "fourth_couplet_exhortation_ending",
+      "semantic_role": "fourth_couplet_exhortation_ending"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_108_01",
+      "description": "通常认为在唐朝乾封元年（666年），年仅十七岁的王勃在京城长安任职。此时唐朝正经营西南，王勃作为早慧天才，初展文学抱负。",
+      "audio_triggers": [
+        "乾封元年",
+        "王勃",
+        "长安",
+        "任职"
+      ],
+      "visual_evidence": [
+        "初唐时期长安都城的繁华景貌，年轻的王勃身着唐代官员常服，精神昂扬。",
+        "切忌出现晚唐或宋代建筑风格。"
+      ],
+      "sound_evidence": [
+        "古都长安的市井白昼环境声",
+        "悠扬从容的传统宫廷乐器背景音"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_108_02",
+      "description": "王勃的友人杜少府（具体名字不可确考）接到朝廷任命，即将离开长安，前往蜀州（今四川崇州）赴任。",
+      "audio_triggers": [
+        "杜少府",
+        "蜀州",
+        "赴任"
+      ],
+      "visual_evidence": [
+        "表现唐代官员交接文书或打理行装的场景，远景可隐隐呈现西南蜀地的险峻山川。",
+        "禁止出现现代交通工具或地图。"
+      ],
+      "sound_evidence": [
+        "整理行装的动作声",
+        "马匹的嘶鸣声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_108_03",
+      "description": "王勃在长安城外送别杜少府，因两人同为客居他乡的“宦游人”而产生共鸣。王勃以旷达的胸襟宽慰友人，在岔路口作下《送杜少府之任蜀州》，打破了传统送别诗儿女情长、掩泣离别的悲凉基调。",
+      "audio_triggers": [
+        "送别",
+        "同是宦游人",
+        "海内存知己",
+        "写下",
+        "送杜少府之任蜀州"
+      ],
+      "visual_evidence": [
+        "长安城外的岔路口，王勃与杜少府拱手告别，两人神情旷达爽朗，未有悲泣之态。随后可表现王勃在书案前挥毫写下该诗的场景。",
+        "切忌虚构夸张的哭泣、相拥画面。"
+      ],
+      "sound_evidence": [
+        "明快、充满力量感的古琴音乐，取代传统哀婉凄凉的离别曲"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "城阙辅三秦，",
+      "pronunciation": "chéng què fǔ sān qín,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "风烟望五津。",
+      "pronunciation": "fēng yān wàng wǔ jīn.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "与君离别意，",
+      "pronunciation": "yǔ jūn lí bié yì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "同是宦游人。",
+      "pronunciation": "tóng shì huàn yóu rén.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "海内存知己，",
+      "pronunciation": "hǎi nèi cún zhī jǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天涯若比邻。",
+      "pronunciation": "tiān yá ruò bǐ lín.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无为在歧路，",
+      "pronunciation": "wú wéi zài qí lù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "儿女共沾巾。",
+      "pronunciation": "ér nǚ gòng zhān jīn.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "送杜少府之任蜀州",
+      "pronunciation": "sòng dù shào fǔ zhī rèn shǔ zhōu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "王勃",
+      "pronunciation": "wáng bó",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "杜少府",
+      "pronunciation": "dù shào fǔ",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "长安",
+      "pronunciation": "cháng ān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "蜀州",
+      "pronunciation": "shǔ zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "三秦",
+      "pronunciation": "sān qín",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "五津",
+      "pronunciation": "wǔ jīn",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "乾封",
+      "pronunciation": "qián fēng",
+      "category": "other",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_108_01",
+      "source_event_id": "evt_108_01",
+      "target_event_id": "evt_108_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_108_02",
+      "source_event_id": "evt_108_01",
+      "target_event_id": "evt_108_03",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_108_03",
+      "source_event_id": "evt_108_02",
+      "target_event_id": "evt_108_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/108.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/108.json",
+      "event_gold": "gold_annotation/tangshi_300/108.json"
+    },
+    "original_sample_id": "108",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

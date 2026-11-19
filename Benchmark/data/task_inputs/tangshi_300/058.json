@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "085_tangshi_058_ceec73c1974e",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "渔翁",
+    "author": "柳宗元",
+    "dynasty": "唐",
+    "form": "七言古诗",
+    "text": "渔翁夜傍西岩宿，晓汲清湘燃楚竹。\n烟销日出不见人，欸乃一声山水绿。\n回看天际下中流，岩上无心云相逐。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "渔翁夜傍西岩宿，晓汲清湘燃楚竹。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "烟销日出不见人，欸乃一声山水绿。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "回看天际下中流，岩上无心云相逐。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "ceec73c1974e5f76ba293950",
+    "global_index": 85
+  }
+}

@@ -1,0 +1,707 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_122",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《赋得古原草送别》是唐代诗人白居易创作的五言律诗，属于古代科举应试类的赋得体诗歌。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：赋得古原草送别 作者：白居易 朝代：唐 体裁：五言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "离离原上草，一岁一枯荣。野火烧不尽，春风吹又生。远芳侵古道，晴翠接荒城。又送王孙去，萋萋满别情。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "此诗是应考习作，按科考规矩，凡限定的诗题，题目前必须加“赋得”二字",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该作品是白居易早年的经典应试诗作，突破了普通赋得体诗的局限"
+      ],
+      "forbidden_assertions": [
+        "将该诗归为其他作者的作品",
+        "否认该诗属于赋得体应试诗范畴"
+      ]
+    },
+    {
+      "claim_id": "claim_02_core_lexical_definition",
+      "claim": "诗中重点字词释义：离离指青草茂盛的样子，枯荣指野草秋冬枯萎春日繁茂的循环，远芳指草香远播，侵指草长满、侵占，晴翠指草原明丽翠绿，王孙此处指远行的友人，萋萋形容草木长势繁茂。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "离离：青草茂盛的样子。枯荣：野草每年都会茂盛一次，枯萎一次。远芳：草香远播。侵：侵占，长满。晴翠：草原明丽翠绿。王孙：本指贵族后代，此指远方的友人。萋萋：形容草木长得茂盛的样子。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "赋得：借古人诗句或成语命题作诗，是古代学习作诗或科举考试时命题作诗的方式",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中所有意象都围绕古原春草的繁茂特征展开，没有偏离题旨"
+      ],
+      "forbidden_assertions": [
+        "将“王孙”直接解释为贵族而不说明此处代指友人",
+        "将“离离”解释为草木稀疏的状态"
+      ]
+    },
+    {
+      "claim_id": "claim_03_famous_line_connotation",
+      "claim": "“野火烧不尽，春风吹又生”两句精准刻画了古原野草即便地上部分被野火焚烧，深埋地底的根须仍能在来年春风吹拂下重新复苏的顽强生命力，是对仗工稳的流水对，具备高度比兴意义。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "烈火再猛，也无奈那深藏地底的根须，一旦春风化雨，野草的生命便会复苏，以迅猛的长势，重新铺盖大地",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "这两句诗确是佳句，好在它是一副对仗极其工稳的流水对。既刻画了原头春草顽强的生机，又可以用作各种比喻。这是有高度比兴意义的诗句。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这两句诗可以用来比喻所有历经毁灭性打击后仍能复苏的事物，比如精神传承、抗争力量等"
+      ],
+      "forbidden_assertions": [
+        "否定这两句的比兴价值，认为其仅为普通写景没有余味"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lyric_technique",
+      "claim": "全诗前六句集中笔墨铺陈古原春草的繁茂与生命力，最后化用《楚辞·招隐士》“王孙游兮不归，春草生兮萋萋”的典故，将送别友人的不舍离情完全融入萋萋芳草的意象中，实现写草与送别主题的高度融合。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_4",
+          "text": "言草的部分实则为抒情作铺垫，借景抒情，以草示人，用枯荣交替的野草暗示自己和友人之间的聚散",
+          "locator": "赏析四",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "将友人之间惜别之情化为触手可及的萋草形象，意象运用极其自然",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该诗突破了传统送别诗直接抒发愁情的写法，用春草意象承载离情更有感染力"
+      ],
+      "forbidden_assertions": [
+        "认为前六句写草和最后送别主题完全无关，是生硬拼接"
+      ]
+    },
+    {
+      "claim_id": "claim_05_creation_background",
+      "claim": "这首诗作于唐德宗贞元年间，当时白居易年仅十六岁，作为应试习作却获得广泛认可，被传为经典。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "《赋得古原草送别》作于唐德宗贞元三年（公元788年），作者当时只有十六岁",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "据载为应考习作，按科场赋得体体例命题而作，却超越了应试诗的局限",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "白居易年少时就具备极高的诗歌创作天赋，这首诗也得到了当时文坛前辈的赏识"
+      ],
+      "forbidden_assertions": [
+        "声称这首诗是白居易晚年被贬之后创作的作品"
+      ]
+    },
+    {
+      "claim_id": "claim_06_disputed_year",
+      "claim": "关于本诗创作年份唐德宗贞元三年所对应的公历年份，资料中存在公元787年与公元788年两说。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "《赋得古原草送别》作于唐德宗贞元三年（公元788年）",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此诗作于贞元三年（787年）白居易十六岁时。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "《赋得古原草》作于公元788年（唐德宗贞元三年）",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "古代纪年与公历换算在不同文献记载中可能存在微小偏差"
+      ],
+      "forbidden_assertions": [
+        "断言该诗的创作公历年份毫无争议"
+      ]
+    },
+    {
+      "claim_id": "claim_07_anecdote_gu_kuang",
+      "claim": "白居易十六岁作此诗时，因诗中“春风吹又生”的哲思，受到了当时名士顾况“长安米贵，居大不易”的激赏。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "诗中\"春风吹又生\"的哲思，既受顾况\"长安米贵，居大不易\"的激赏",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "白居易凭借此诗在长安文坛初露头角，并获得了前辈的提携与认可"
+      ],
+      "forbidden_assertions": [
+        "认为顾况对白居易的才华持否定态度"
+      ]
+    },
+    {
+      "claim_id": "claim_08_structure_contrast",
+      "claim": "首联中“一岁一枯荣”写作“枯──荣”而非“荣──枯”，是为了强调春草再生的力量，从而自然生发出三、四句“野火烧不尽，春风吹又生”的生机画面；若写成“荣──枯”则成了秋草，无法引出后文的壮烈意境。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "然而写作“枯──荣”，与作“荣──枯”就大不一样。如作后者，便是秋草，便不能生发出三、四的好句",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "然而写作“枯──荣”，与作“荣──枯”就大不一样。如作后者，便是秋草，便不能生发出三、四的好句来。两个“一”字复叠，形成咏叹，又先状出一种生生不已的情味，三、四句就水到渠成了。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗歌的字序安排经过了精妙的艺术构思，直接影响了全诗的情感走向和意境塑造"
+      ],
+      "forbidden_assertions": [
+        "认为“枯荣”与“荣枯”在诗中可以任意互换且不影响后文意境"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确掌握本诗的基本属性信息，包括题名、作者、朝代、体裁与创作体例。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "唐代白居易的五言律诗《赋得古原草送别》是典型的赋得体应试诗"
+      ],
+      "forbidden_claims": [
+        "将作者错认为其他唐代诗人",
+        "将体裁误判为七言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_key_lexical_explanation",
+      "category": "lexical",
+      "description": "掌握诗中“离离”“远芳”“侵”“王孙”等重点字词的准确含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“王孙”在本诗里不是指贵族，而是指代即将远行的友人"
+      ],
+      "forbidden_claims": [
+        "对核心字词的释义与公认注释相悖"
+      ],
+      "source_claim_ids": [
+        "claim_02_core_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_historical_context",
+      "category": "historical_context",
+      "description": "了解本诗的创作背景，知晓这是白居易十六岁时所作的应试习作。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗是白居易早年参加科举考试的练习作品，却成为了流传千古的经典"
+      ],
+      "forbidden_claims": [
+        "编造不符合史料的创作时间与作者年龄"
+      ],
+      "source_claim_ids": [
+        "claim_05_creation_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "能够准确逐句翻译全诗的字面含义，理解每句的写景与表意内容。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "古原上长满茂盛的青草，每年都要经历一次枯萎又重新繁茂的循环，野火烧也烧不尽，春风一吹就又长出新草"
+      ],
+      "forbidden_claims": [
+        "翻译诗句时出现严重的语义偏差，违背原诗表意"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity",
+        "claim_02_core_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor_source",
+      "category": "metaphor_source",
+      "description": "理解古原春草意象的比兴传统，以及“野火烧不尽，春风吹又生”的象征内涵。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "春草意象从楚辞时代就和怀人、送别主题绑定，白居易进一步拓展了它的生命力象征内涵"
+      ],
+      "forbidden_claims": [
+        "否认春草意象和生命力、离别情的关联"
+      ],
+      "source_claim_ids": [
+        "claim_03_famous_line_connotation",
+        "claim_04_lyric_technique"
+      ],
+      "line_ids": [
+        "l02",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_structure_summary",
+      "category": "summary",
+      "description": "梳理全诗从破题写古原草、突出草的生命力、铺陈古原场景最后点出送别主题的完整结构脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "全诗前半部分全力写草，最后自然带出送别之情，结构层层递进浑然一体"
+      ],
+      "forbidden_claims": [
+        "认为全诗结构混乱，写草和送别完全脱节"
+      ],
+      "source_claim_ids": [
+        "claim_04_lyric_technique"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "知晓关于本诗创作年份（唐德宗贞元三年）对应的公历年份，在不同文献资料中存在787年与788年两种记载。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "关于白居易写下此诗的公历年份，有787年和788年两种说法"
+      ],
+      "forbidden_claims": [
+        "断言该诗的创作年份在公历上只有唯一确凿的记录"
+      ],
+      "source_claim_ids": [
+        "claim_06_disputed_year"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_08_historical_context",
+      "category": "historical_context",
+      "description": "了解白居易因本诗受到顾况激赏的著名文坛轶事。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "白居易十六岁时所作的这首诗，因其精妙哲思得到了顾况“居大不易”的极高评价"
+      ],
+      "forbidden_claims": [
+        "认为这首诗在白居易生前并未获得同时代名士的认可"
+      ],
+      "source_claim_ids": [
+        "claim_07_anecdote_gu_kuang"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_09_structure",
+      "category": "structure",
+      "description": "理解首联中“枯荣”字序对全诗章法结构的决定性作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“一岁一枯荣”采用“枯-荣”的顺序，是为了引出后文野火烧后春风吹生的生机，若写成“荣-枯”则意境完全不同"
+      ],
+      "forbidden_claims": [
+        "认为“枯荣”的字序只是为了押韵，对全诗意境和结构没有任何影响"
+      ],
+      "source_claim_ids": [
+        "claim_08_structure_contrast"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_grass_vitality",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "被野火焚烧过的古原春草，春风一吹就重新生长蔓延"
+      ],
+      "target_domain": [
+        "历经毁灭性打击后仍无法被彻底消灭的顽强生命力"
+      ],
+      "bridges": [
+        "野草地上部分即便被野火完全烧尽，深埋地底的根须仍能存活，来年春风化雨就会重新长出新草，蔓延整片古原，完全符合生命力顽强、不可被彻底摧毁的特征"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_03_famous_line_connotation"
+      ],
+      "alternative_readings": [
+        "该意象也可以用来比喻历经劫难仍能传承延续的文化精神、百折不挠的抗争力量等多种正向内涵"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_grass_parting_feeling",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "古原上无边无际、繁茂生长、不断向远方延伸的萋萋春草"
+      ],
+      "target_domain": [
+        "送别友人时绵延不尽、越行越远越浓重的不舍离情"
+      ],
+      "bridges": [
+        "春草铺满整个古原、没有边际、不断向友人离去的路径延伸的状态，和送别时绵长无尽、随友人远去不断滋长的离愁别绪高度契合"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_04_lyric_technique"
+      ],
+      "alternative_readings": [
+        "该意象化用楚辞怀人思归的传统，将原本的怀人情绪转化为当下送别的情绪，实现了典故的活用与创新"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_poem_presentation",
+      "description": "清晰展示本诗的题名、作者、朝代、体裁信息，同步呈现完整无错的全诗文本。",
+      "acceptable_realizations": [
+        "开场以古卷题签样式展示诗题与作者信息，随后分句同步展示诗文字幕配合朗读"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏字，错误标注作者与朝代信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_introduction",
+      "semantic_role": "opening_poem_introduction"
+    },
+    {
+      "requirement_id": "vis_02_ancient_plain_grass_scene",
+      "description": "呈现辽阔古原上离离春草繁茂生长，岁岁经历枯荣交替的春日原野场景。",
+      "acceptable_realizations": [
+        "镜头从高空俯瞰整片古原，满眼都是连绵的青草，穿插秋冬草枯春日返青的时间转场画面"
+      ],
+      "forbidden_realizations": [
+        "将场景设置为狭窄庭院，古原空间感完全缺失"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "ancient_plain_grass_overview",
+      "semantic_role": "ancient_plain_grass_overview"
+    },
+    {
+      "requirement_id": "vis_03_wildfire_burn_and_revival",
+      "description": "呈现野火燎原焚烧整片古原枯草，之后春风吹拂绿草重新铺满大地的对比画面。",
+      "acceptable_realizations": [
+        "先展示烈焰焚烧枯草的壮烈场景，再转场春风拂过，草芽快速生长，很快恢复成连片绿原的画面"
+      ],
+      "forbidden_realizations": [
+        "弱化野火的破坏力，或者省略春风吹又生的复苏画面"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_grass_vitality"
+      ],
+      "expected_phase": "wildfire_burn_grass_rebirth",
+      "semantic_role": "wildfire_burn_grass_rebirth"
+    },
+    {
+      "requirement_id": "vis_04_grass_spread_landscape",
+      "description": "呈现春草蔓延侵占古老驿道，阳光下翠绿草色连接远处荒城的开阔古原景观。",
+      "acceptable_realizations": [
+        "镜头沿着古老驿道向前推进，两侧青草不断向道路中间蔓延，远处荒城的轮廓在晴光下被绿草环绕"
+      ],
+      "forbidden_realizations": [
+        "将古道、荒城设置为崭新繁华的样貌，不符合古原的沧桑感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "grass_spread_over_road_city",
+      "semantic_role": "grass_spread_over_road_city"
+    },
+    {
+      "requirement_id": "vis_05_farewell_scene",
+      "description": "呈现古原芳草萋萋的背景下，两位友人拱手作别，友人踏上古道远行的送别场景。",
+      "acceptable_realizations": [
+        "送行者伫立在萋萋芳草间，望着友人的身影沿着长满青草的古道逐渐远去，画面里满眼都是繁茂的春草"
+      ],
+      "forbidden_realizations": [
+        "将送别场景设置在酒馆高楼等非古原的环境里，脱离诗歌设定的场景"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_grass_parting_feeling"
+      ],
+      "expected_phase": "ancient_plain_farewell_moment",
+      "semantic_role": "ancient_plain_farewell_moment"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_122_01",
+      "description": "唐代科举考试及文人作诗常有限定命题的规矩，按体例须在题目前加上“赋得”二字。青年白居易正处于积极准备科考的时期。",
+      "audio_triggers": [
+        "科考规矩",
+        "赋得",
+        "命题作诗",
+        "试帖诗"
+      ],
+      "visual_evidence": [
+        "唐代书房或考场环境",
+        "案头摆放着文房四宝和书籍",
+        "身着唐代士子服饰的年轻书生正在苦读或研习诗文"
+      ],
+      "sound_evidence": [
+        "翻阅书简的沙沙声",
+        "安静的室内环境声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_122_02",
+      "description": "存在多说，通常认为在唐德宗贞元三年（788年）或787年，年仅十六岁的白居易以“古原草送别”为题，开始构思这篇应考习作。",
+      "audio_triggers": [
+        "十六岁",
+        "贞元三年",
+        "古原草送别",
+        "应考习作"
+      ],
+      "visual_evidence": [
+        "年轻的白居易端坐在书案前深思",
+        "书案上铺展开带有“赋得古原草送别”题目的空白画卷或纸张"
+      ],
+      "sound_evidence": [
+        "研墨的声音",
+        "笔锋蘸墨的声音"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_122_03",
+      "description": "白居易完成《赋得古原草送别》，巧妙地将春草岁岁枯荣、野火烧不尽的坚韧生命力，与送别友人时的离情别意完美结合，并借用《楚辞》中“王孙”之典故，留下了千古绝唱。",
+      "audio_triggers": [
+        "野火烧不尽",
+        "春风吹又生",
+        "王孙",
+        "千古绝唱"
+      ],
+      "visual_evidence": [
+        "白居易挥毫落笔写下诗句",
+        "墨迹未干的完整诗稿",
+        "画面可转场虚实结合，表现春风吹拂下绿草如茵的古原及友人远行的背影"
+      ],
+      "sound_evidence": [
+        "连贯的毛笔写字声",
+        "呼啸的风声过渡为悠扬空灵的古琴送别曲"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "离离原上草，",
+      "pronunciation": "lí lí yuán shàng cǎo，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一岁一枯荣。",
+      "pronunciation": "yī suì yī kū róng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "野火烧不尽，",
+      "pronunciation": "yě huǒ shāo bù jìn，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "春风吹又生。",
+      "pronunciation": "chūn fēng chuī yòu shēng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "远芳侵古道，",
+      "pronunciation": "yuǎn fāng qīn gǔ dào，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "晴翠接荒城。",
+      "pronunciation": "qíng cuì jiē huāng chéng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "又送王孙去，",
+      "pronunciation": "yòu sòng wáng sūn qù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "萋萋满别情。",
+      "pronunciation": "qī qī mǎn bié qíng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "白居易",
+      "pronunciation": "bái jū yì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "赋得古原草送别",
+      "pronunciation": "fù dé gǔ yuán cǎo sòng bié",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "赋得",
+      "pronunciation": "fù dé",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "唐德宗",
+      "pronunciation": "táng dé zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "贞元",
+      "pronunciation": "zhēn yuán",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "楚辞",
+      "pronunciation": "chǔ cí",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "王孙",
+      "pronunciation": "wáng sūn",
+      "category": "allusion",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_122_01",
+      "source_event_id": "evt_122_01",
+      "target_event_id": "evt_122_02",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_122_02",
+      "source_event_id": "evt_122_02",
+      "target_event_id": "evt_122_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/122.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/122.json",
+      "event_gold": "gold_annotation/tangshi_300/122.json"
+    },
+    "original_sample_id": "122",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

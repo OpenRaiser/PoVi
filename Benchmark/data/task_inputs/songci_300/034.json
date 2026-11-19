@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "034_songci_034_f425c1053b64",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "凤栖梧・蝶恋花",
+    "author": "柳永",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "伫倚危楼风细细，望极春愁，黯黯生天际。\n草色烟光残照里，无言谁会凭阑意？\n拟把疏狂图一醉，对酒当歌，强乐还无味。\n衣带渐宽终不悔。\n为伊消得人憔悴。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "伫倚危楼风细细，望极春愁，黯黯生天际。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "草色烟光残照里，无言谁会凭阑意？"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "拟把疏狂图一醉，对酒当歌，强乐还无味。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "衣带渐宽终不悔。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "为伊消得人憔悴。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "f425c1053b64a1e407a75af9",
+    "global_index": 34
+  }
+}

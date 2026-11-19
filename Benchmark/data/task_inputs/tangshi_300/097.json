@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "001_tangshi_097_6316274b5870",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "金缕衣",
+    "author": "杜秋娘",
+    "dynasty": "唐",
+    "form": "诗",
+    "text": "劝君莫惜金缕衣，\n劝君惜取少年时。\n花开堪折直须折，\n莫待无花空折枝。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "劝君莫惜金缕衣，"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "劝君惜取少年时。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "花开堪折直须折，"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "莫待无花空折枝。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "6316274b58705e5b4674a0c3",
+    "global_index": 1
+  }
+}

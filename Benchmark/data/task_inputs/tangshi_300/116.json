@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "012_tangshi_116_1517278dc795",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "山居秋暝",
+    "author": "王维",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "空山新雨后，天气晚来秋。\n明月松间照，清泉石上流。\n竹喧归浣女，莲动下渔舟。\n随意春芳歇，王孙自可留。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "空山新雨后，天气晚来秋。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "明月松间照，清泉石上流。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "竹喧归浣女，莲动下渔舟。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "随意春芳歇，王孙自可留。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "1517278dc795241be94d7dba",
+    "global_index": 12
+  }
+}

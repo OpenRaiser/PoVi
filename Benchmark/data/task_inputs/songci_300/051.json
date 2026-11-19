@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "095_songci_051_0d6ef9554c75",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "鹧鸪天",
+    "author": "晏几道",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "彩袖殷勤捧玉钟，当年拚却醉颜红。\n舞低杨柳楼心月，歌尽桃花扇底风。\n从别后，忆相逢，几回魂梦与君同。\n今宵剩把银釭照，犹恐相逢是梦中。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "彩袖殷勤捧玉钟，当年拚却醉颜红。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "舞低杨柳楼心月，歌尽桃花扇底风。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "从别后，忆相逢，几回魂梦与君同。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "今宵剩把银釭照，犹恐相逢是梦中。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "0d6ef9554c757bb2ec853941",
+    "global_index": 95
+  }
+}

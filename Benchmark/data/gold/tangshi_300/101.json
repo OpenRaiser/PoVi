@@ -1,0 +1,1114 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_101",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《燕歌行》是唐代边塞诗人高适创作的乐府旧题边塞诗，属于高适的代表作，也是盛唐边塞诗的经典作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据明确标注题名为燕歌行，作者高适，朝代唐，体裁乐府。",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "高适是唐代著名边塞诗人，代表作包含《燕歌行》。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "《燕歌行》是高适的第一大篇，也是整个唐代边塞诗中的杰作。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品归入盛唐边塞诗派核心代表作范畴"
+      ],
+      "forbidden_assertions": [
+        "将该作品误认为是曹丕所作的同题闺怨诗",
+        "将该作品归为普通男女相思题材"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_background",
+      "claim": "该诗作于开元二十六年，高适因有感于东北边塞多次战败、军中苦乐不均的现实而作，创作缘起是应和一位从塞外归来的友人所作的同题作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_original_2",
+          "text": "开元二十六年，客有从元戎出塞而还者，作《燕歌行》以示，适感征戍之事，因而和焉。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《燕歌行》此诗作于开元二十六年（738年），高适35岁漫游燕赵时，序言明示为感戍边将领张守珪军中事而作，实糅合诗人多年边塞见闻。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "高适本人有长期东北边塞游历经历，对军中实际情况十分了解，创作有现实基础"
+      ],
+      "forbidden_assertions": [
+        "声称这首诗是高适完全脱离现实凭空虚构的作品"
+      ]
+    },
+    {
+      "claim_id": "claim_03_irony_contrast",
+      "claim": "“战士军前半死生，美人帐下犹歌舞”两句运用强烈对比，揭露了军中主将荒淫失职、不恤士卒的现实，是全诗最具批判性的名句。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_4",
+          "text": "“战士军前半死生，美人帐下犹歌舞”二句最为沉至，诗既赞战士为国奋战，又讥将领之贪恋歌舞。",
+          "locator": "赏析四",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“战士”两句用对比方法写出了主将骄惰轻敌，不恤士卒，一面是拚死苦战，一面仍恣意逸乐，这是诗中最有揭露性的描写。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引申说明盛唐边塞军中存在的阶级苦乐不均的现实矛盾"
+      ],
+      "forbidden_assertions": [
+        "将这两句解读为描写军民同乐的和谐场景"
+      ]
+    },
+    {
+      "claim_id": "claim_04_li_general_reference",
+      "claim": "诗末“至今犹忆李将军”中的李将军指代汉代名将李广，他以爱护士卒、骁勇善战著称，诗人借此表达对体恤士兵的良将的向往。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "李将军：指李广。善用兵，爱惜士卒，守右北平，匈奴畏之不敢南侵，称为飞将军。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "李将军：指汉朝李广，他能捍御强敌，爱抚士卒，匈奴称他为汉之飞将军。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以对比李广和诗中失职主将的形象差异，凸显作者的批判立场"
+      ],
+      "forbidden_assertions": [
+        "将此处李将军误认为是唐代的其他名将"
+      ]
+    },
+    {
+      "claim_id": "claim_05_parallel_narrative",
+      "claim": "全诗“铁衣远戍辛勤久”到“寒声一夜传刁斗”段落采用征人、思妇双线并行的叙事结构，同时描写前线士兵和后方家属的两地相思之苦。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "第三段八句对举征人、思妇两地相隔，两处相思的情景，突出双方思念而不知何时再见的愁绪。",
+          "locator": "赏析三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "第三段八句写征人，思妇两地相望，重会无期。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这种双线结构强化了战争给普通民众带来的全方位苦难"
+      ],
+      "forbidden_assertions": [
+        "声称这段内容只描写了前线士兵的思乡情绪"
+      ]
+    },
+    {
+      "claim_id": "claim_06_ironic_target_dispute",
+      "claim": "关于本诗具体讽刺的军中主将身份，历来存在争议，部分注家认为是讽刺张守珪，也有观点认为讽刺的是安禄山等其他将领，不能简单将其坐实为某一个人。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "历来注家未对序文史事详加考核，都以为是讽张守珪而作。其实，这是不符史实的。此诗所刺对象应是受张守珪派遣、前往征讨奚、契丹的平卢讨击使、左骁卫将军安禄山。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "历来注家都以为是讽张守珪而作，但也有不少人认为所讽对象是安禄山、赵堪与白真陁罗等人，此诗并非仅限定于写张守珪之事。",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可以说明该诗的批判是针对普遍的军中骄奢轻敌现象而非单一特定人物"
+      ],
+      "forbidden_assertions": [
+        "绝对断言本诗唯一的讽刺对象就是张守珪"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_hanjia",
+      "claim": "“汉家”在诗中借指唐朝，唐代诗歌中经常采用“借汉说唐”的修辞手法。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_hanjia",
+          "text": "汉家：借指唐朝。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2_hanjia",
+          "text": "汉家：汉朝，唐人诗中经常借汉说唐。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中的“汉将”同样借指唐朝的将领"
+      ],
+      "forbidden_assertions": [
+        "认为这首诗描写的是汉代的历史事件而非唐代时事"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_yuguan",
+      "claim": "“榆关”指山海关，是通往东北的军事要隘。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_yuguan",
+          "text": "榆关：山海关。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2_yuguan",
+          "text": "榆关：山海关，通往东北的要隘。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“下榆关”意指军队开赴山海关外的东北战场"
+      ],
+      "forbidden_assertions": [
+        "将榆关解释为玉门关或阳关等西北关隘"
+      ]
+    },
+    {
+      "claim_id": "claim_09_alternative_reading_blood",
+      "claim": "“相看白刃血纷纷”中的“血”字存在异文，在其他版本中亦作“雪”或“徒”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1_blood",
+          "text": "血纷纷：一作「雪纷纷」、一作「徒纷纷」。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2_blood",
+          "text": "血：一作“雪”",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "若作“雪纷纷”，则可与前文“大漠穷秋”的寒冷气候相呼应，形容刀光如雪或大雪纷飞中厮杀"
+      ],
+      "forbidden_assertions": [
+        "断定“血纷纷”是唯一的历史记载版本"
+      ]
+    },
+    {
+      "claim_id": "claim_10_genre_history",
+      "claim": "《燕歌行》是乐府旧题，属于《相和歌》中的《平调曲》，曹丕首创此调写妇女秋思，而高适是第一个用此调写将士边塞生活的诗人。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_3_genre",
+          "text": "燕歌行：乐府旧题。自曹丕的《燕歌行》首创以妇女秋思入题始，后人多学他用此曲调写作闺怨诗。",
+          "locator": "注释三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2_genre",
+          "text": "《燕歌行》是一个乐府题目，属于《相和歌》中的《平调曲》……曹丕的《燕歌行》有两首，是写妇女秋思，由他首创……高适的《燕歌行》是写将士生活，用燕歌行曲调写此题材他是第一个。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "高适此作既继承了乐府旧题的音调，又在题材上进行了极具开创性的拓展"
+      ],
+      "forbidden_assertions": [
+        "认为高适是《燕歌行》这一乐府曲调的音乐首创者"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确掌握《燕歌行》的作者、朝代、体裁、文学地位基本信息。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《燕歌行》是盛唐高适创作的经典边塞乐府诗",
+        "高适的《燕歌行》是唐代边塞诗的代表作"
+      ],
+      "forbidden_claims": [
+        "《燕歌行》是曹丕创作的闺怨诗",
+        "《燕歌行》是中唐诗人的作品"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "掌握本诗的创作年代、缘起以及对应的盛唐东北边境战事背景。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗是高适开元二十六年有感于边塞军中现实而作的应和作品"
+      ],
+      "forbidden_claims": [
+        "这首诗是高适完全没有边塞经历凭空写出来的"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical_yuzhu",
+      "category": "lexical",
+      "description": "掌握“玉箸”作为借代指思妇眼泪的词义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "玉箸在这里是比喻思妇流下的像玉筷一样的泪水"
+      ],
+      "forbidden_claims": [
+        "玉箸在这里指的是吃饭用的玉制筷子"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": [
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning_contrast",
+      "category": "literal_meaning",
+      "description": "准确理解“战士军前半死生，美人帐下犹歌舞”的字面含义和表层对比关系。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "战士们在前线拼杀伤亡惨重，主将却在军帐中欣赏美人歌舞享乐"
+      ],
+      "forbidden_claims": [
+        "战士们打仗之余和美人一起在帐下歌舞"
+      ],
+      "source_claim_ids": [
+        "claim_03_irony_contrast"
+      ],
+      "line_ids": [
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_narrative",
+      "category": "structure",
+      "description": "掌握全诗四段式的叙事结构：出师、战败被围、两地相思、感慨抒怀。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "全诗按照战事发展顺序依次写出师、战斗、征人思妇相隔、怀念良将四个部分"
+      ],
+      "forbidden_claims": [
+        "全诗的叙事顺序是混乱没有逻辑的"
+      ],
+      "source_claim_ids": [
+        "claim_05_parallel_narrative"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确本诗讽刺的具体主将身份存在争议，不能将其唯一坐实为某一历史人物。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "本诗的批判指向普遍的军中骄奢轻敌现象，不必强行绑定单一历史人物"
+      ],
+      "forbidden_claims": [
+        "这首诗百分百就是讽刺张守珪一个人的"
+      ],
+      "source_claim_ids": [
+        "claim_06_ironic_target_dispute"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "掌握全诗的核心主旨：谴责军中主将荒淫失职，同情普通士兵的苦难，向往体恤士卒的良将。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗通过描写边塞战事的全过程，批判军中不公，表达对士兵的同情 and 对良将的渴望"
+      ],
+      "forbidden_claims": [
+        "这首诗的主旨是歌颂盛唐开边的伟大功绩"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_03_irony_contrast",
+        "claim_04_li_general_reference"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14"
+      ]
+    },
+    {
+      "unit_id": "req_08_lexical_hanjia",
+      "category": "lexical",
+      "description": "掌握“汉家”在唐诗中借指唐朝的修辞习惯。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "汉家在诗中是借汉喻唐，指代唐朝"
+      ],
+      "forbidden_claims": [
+        "汉家在诗中实指汉朝朝廷"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_hanjia"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_09_lexical_yuguan",
+      "category": "lexical",
+      "description": "掌握“榆关”指代山海关的地理常识。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "榆关即山海关，是出塞的要道"
+      ],
+      "forbidden_claims": [
+        "榆关是西北的玉门关"
+      ],
+      "source_claim_ids": [
+        "claim_08_lexical_yuguan"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_10_alternative_reading_blood",
+      "category": "alternative_reading",
+      "description": "了解“相看白刃血纷纷”中“血”字存在“雪”或“徒”等异文版本。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“血纷纷”在其他版本中也写作“雪纷纷”或“徒纷纷”"
+      ],
+      "forbidden_claims": [
+        "该句在所有古籍版本中字句完全一致，没有任何异文"
+      ],
+      "source_claim_ids": [
+        "claim_09_alternative_reading_blood"
+      ],
+      "line_ids": [
+        "l13"
+      ]
+    },
+    {
+      "unit_id": "req_11_genre_history",
+      "category": "structure",
+      "description": "理解高适在乐府旧题《燕歌行》题材上的开拓性贡献，即首次将写妇女秋思的曲调用于写将士边塞生活。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "高适是第一个用《燕歌行》乐府旧题来写将士边塞生活的诗人"
+      ],
+      "forbidden_claims": [
+        "高适是第一个写《燕歌行》这一曲调的诗人"
+      ],
+      "source_claim_ids": [
+        "claim_10_genre_history"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_yuzhu_tears",
+      "line_ids": [
+        "l09"
+      ],
+      "source_domain": [
+        "白色长条状的玉制筷子（玉箸）"
+      ],
+      "target_domain": [
+        "思妇接连不断垂落的绵长泪水"
+      ],
+      "bridges": [
+        "二者形态都是白色长条状，接连不断垂落的视觉特征高度相似"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_01_identity"
+      ],
+      "alternative_readings": [
+        "部分小众解读中该词也可直接指代思妇本人，但主流注释均将其解读为喻指泪水"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_smoke_war",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "边境燃起的烽烟与战场扬起的尘土（烟尘）"
+      ],
+      "target_domain": [
+        "边境发生的战争、战事警报"
+      ],
+      "bridges": [
+        "古代边境有战事时会点燃烽烟报警，战场之上必然尘土飞扬，二者是战争发生的典型伴随意象"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_02_creation_background"
+      ],
+      "alternative_readings": [
+        "脱离上下文可实指边境的自然烟尘，结合全诗战事背景可知其代指战争"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_li_general_paradigm",
+      "line_ids": [
+        "l14"
+      ],
+      "source_domain": [
+        "汉代名将李广爱护士卒、威慑匈奴的经典事迹形象"
+      ],
+      "target_domain": [
+        "诗人理想中体恤士卒、骁勇善战的优秀边塞将领范式"
+      ],
+      "bridges": [
+        "李广的史实形象和诗中骄奢轻敌的主将形成鲜明反差，承载了作者对理想边将的全部期待"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_04_li_general_reference"
+      ],
+      "alternative_readings": [
+        "也有观点认为此处“忆李将军”暗含对当下所有边将无能的尖锐讽刺，并非单纯的向往"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_hanjia_tang",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "汉朝（汉家）"
+      ],
+      "target_domain": [
+        "唐朝"
+      ],
+      "bridges": [
+        "唐代诗歌中常用“借汉说唐”的修辞手法，以汉朝指代当朝"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_07_lexical_hanjia"
+      ],
+      "alternative_readings": [],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "开场清晰呈现《燕歌行》题名、作者高适、朝代、体裁信息，同步展示全诗完整文本，无错字漏句。",
+      "acceptable_realizations": [
+        "古风题签样式展示标题作者，逐行滚动呈现全诗文本，背景搭配盛唐东北边塞地图"
+      ],
+      "forbidden_realizations": [
+        "错写作者名字，遗漏诗句，把作者标为曹丕"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_poem_overview",
+      "semantic_role": "opening_title_and_poem_overview"
+    },
+    {
+      "requirement_id": "vis_02_march_to_battlefield",
+      "description": "可视化展示出师行军的场景：唐军鸣金击鼓、旌旗连绵开出榆关向碣石、狼山进发的宏大场面。",
+      "acceptable_realizations": [
+        "动态行军画面，鼓点音效配合旌旗飘动，远处烽烟升起的远景"
+      ],
+      "forbidden_realizations": [
+        "把行军场景设置在江南水乡，不符合东北边塞地理特征"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_smoke_war"
+      ],
+      "expected_phase": "troops_marching_to_frontier",
+      "semantic_role": "troops_marching_to_frontier"
+    },
+    {
+      "requirement_id": "vis_03_battlefield_carnage_contrast",
+      "description": "可视化呈现战斗惨烈场景，重点突出前线战士死伤遍地和军帐内主将享乐歌舞的强烈对比。",
+      "acceptable_realizations": [
+        "分屏左右展示，左半部分是荒漠中浴血奋战的士兵，右半部分是军帐内饮酒观舞的将领"
+      ],
+      "forbidden_realizations": [
+        "美化主将的享乐行为，弱化战争的残酷性"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "fierce_battle_and_sharp_contrast",
+      "semantic_role": "fierce_battle_and_sharp_contrast"
+    },
+    {
+      "requirement_id": "vis_04_separated_love_scene",
+      "description": "可视化同步呈现蓟北前线士兵遥望家乡，和长安城南思妇落泪的双线场景，重点体现玉箸般泪水的意象。",
+      "acceptable_realizations": [
+        "蒙太奇镜头在边塞孤城和长安城南民居之间切换，特写思妇脸上接连滑落的泪水"
+      ],
+      "forbidden_realizations": [
+        "把思妇的场景设置在边塞军营附近，不符合原诗设定"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_yuzhu_tears"
+      ],
+      "expected_phase": "separated_longing_between_front_and_rear",
+      "semantic_role": "separated_longing_between_front_and_rear"
+    },
+    {
+      "requirement_id": "vis_05_final_elegy_for_general",
+      "description": "可视化呈现最后短兵相接的惨烈战斗，最后画面定格在李广率军巡边的经典形象，呼应诗末忆李将军的主旨。",
+      "acceptable_realizations": [
+        "白刃染血的短兵相接画面之后，渐变为李广骑马持弓巡边的远景，背景是安宁的边塞"
+      ],
+      "forbidden_realizations": [
+        "把最后李将军的形象替换成唐代的其他将领，不符合诗意"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_li_general_paradigm"
+      ],
+      "expected_phase": "final_combat_and_yearning_for_general",
+      "semantic_role": "final_combat_and_yearning_for_general"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_101_01",
+      "description": "唐玄宗开元十八年起，契丹及奚族多次侵犯唐朝东北边境，此后唐军与契丹、奚之间战事不断，大批将士奉命出征戍守边关。",
+      "audio_triggers": [
+        "战事不断",
+        "契丹叛乱",
+        "大批将士奉命出征"
+      ],
+      "visual_evidence": [
+        "唐代边塞风光",
+        "连天烽火狼烟",
+        "唐军将士集结出征",
+        "旌旗遮蔽天空"
+      ],
+      "sound_evidence": [
+        "苍凉的号角声",
+        "战马嘶鸣",
+        "军队行进的脚步声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_101_02",
+      "description": "开元十五年至二十一年间，高适曾北上幽燕一带，试图在信安王等军中效力建功，虽未能如愿，却因此对东北边塞军旅生活及将士的辛劳有了深刻细致的了解。",
+      "audio_triggers": [
+        "高适北上幽燕",
+        "试图在军中效力",
+        "深刻了解边塞"
+      ],
+      "visual_evidence": [
+        "盛唐时期的幽燕边地",
+        "青年高适穿着唐代文人服饰或戎装游历边塞",
+        "高适观察驻守营帐的基层士兵"
+      ],
+      "sound_evidence": [
+        "呼啸的风声",
+        "军营中隐约的操练声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_101_03",
+      "description": "开元二十四年至二十六年间，唐军部分将领恃勇轻敌，导致对阵契丹与奚族时先胜后败，伤亡惨重。主将张守珪等人隐瞒败状妄奏战功。后世通常认为此诗讽刺对象包含张守珪部将或安禄山，但史学界对此“存在多说”。",
+      "audio_triggers": [
+        "将领骄傲轻敌",
+        "伤亡惨重",
+        "谎报战功"
+      ],
+      "visual_evidence": [
+        "边塞将领在营帐内欣赏歌舞、饮酒作乐",
+        "营帐外唐军士兵在风雨大漠中苦战死伤，形成强烈对比",
+        "禁止出现虚构的某具体历史权臣当面陷害的画面"
+      ],
+      "sound_evidence": [
+        "营帐内管弦乐与欢笑声",
+        "营帐外风雨声交织惨烈的兵器碰撞与哀嚎声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_101_04",
+      "description": "开元二十六年（738年），高适的客中有随从主帅出塞归来者，作了一首《燕歌行》给高适看，触发了高适的情感。",
+      "audio_triggers": [
+        "客有从元戎出塞而还者",
+        "作燕歌行以示适",
+        "随从主帅出塞归来"
+      ],
+      "visual_evidence": [
+        "唐代室内场景",
+        "一位风尘仆仆的客人将一卷诗稿递给高适",
+        "高适展开卷轴认真阅读"
+      ],
+      "sound_evidence": [
+        "展卷的纸张摩擦声",
+        "两人交谈的低语声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_101_05",
+      "description": "高适深感边防戍守将士的痛苦，愤恨将领骄奢轻敌与草菅人命，于是奋笔写下这首著名的边塞诗作《燕歌行》相和，借古将李广呼唤良将。",
+      "audio_triggers": [
+        "高适写下",
+        "因而和焉",
+        "感征戍之事"
+      ],
+      "visual_evidence": [
+        "高适在书案前神情愤慨而沉重地奋笔疾书",
+        "伴随诗句画面可穿插大漠孤城、少妇落泪、将士死战及汉代李广的文学意象转化"
+      ],
+      "sound_evidence": [
+        "笔墨接触纸张的书写声",
+        "雄浑悲壮的背景音乐推向高潮"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "汉家烟尘在东北，",
+      "pronunciation": "hàn jiā yān chén zài dōng běi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "汉将辞家破残贼。",
+      "pronunciation": "hàn jiàng cí jiā pò cán zéi。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "男儿本自重横行，",
+      "pronunciation": "nán ér běn zì zhòng héng xíng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天子非常赐颜色。",
+      "pronunciation": "tiān zǐ fēi cháng cì yán sè。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "𪭢金伐鼓下榆关，",
+      "pronunciation": "chuāng jīn fá gǔ xià yú guān，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "旌旆逶迤碣石间。",
+      "pronunciation": "jīng pèi wēi yí jié shí jiān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "校尉羽书飞瀚海，",
+      "pronunciation": "xiào wèi yǔ shū fēi hàn hǎi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "单于猎火照狼山。",
+      "pronunciation": "chán yú liè huǒ zhào láng shān。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山川萧条极边土，",
+      "pronunciation": "shān chuān xiāo tiáo jí biān tǔ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "胡骑凭陵杂风雨。",
+      "pronunciation": "hú jì píng líng zá fēng yǔ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "战士军前半死生，",
+      "pronunciation": "zhàn shì jūn qián bàn sǐ shēng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "美人帐下犹歌舞。",
+      "pronunciation": "měi rén zhàng xià yóu gē wǔ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "大漠穷秋塞草腓，",
+      "pronunciation": "dà mò qióng qiū sài cǎo féi，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "孤城落日斗兵稀。",
+      "pronunciation": "gū chéng luò rì dòu bīng xī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "身当恩遇恒轻敌，",
+      "pronunciation": "shēn dāng ēn yù héng qīng dí，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "力尽关山未解围。",
+      "pronunciation": "lì jìn guān shān wèi jiě wéi。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "铁衣远戍辛勤久，",
+      "pronunciation": "tiě yī yuǎn shù xīn qín jiǔ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "玉箸应啼别离后。",
+      "pronunciation": "yù zhù yīng tí bié lí hòu。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "少妇城南欲断肠，",
+      "pronunciation": "shào fù chéng nán yù duàn cháng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "征人蓟北空回首。",
+      "pronunciation": "zhēng rén jì běi kōng huí shǒu。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "边庭飘飖那可度，",
+      "pronunciation": "biān tíng piāo yáo nǎ kě dù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "绝域苍茫更何有。",
+      "pronunciation": "jué yù cāng máng gèng hé yǒu。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杀气三时作阵云，",
+      "pronunciation": "shā qì sān shí zuò zhèn yún，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "寒声一夜传刁斗。",
+      "pronunciation": "hán shēng yī yè chuán diāo dǒu。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "相看白刃血纷纷，",
+      "pronunciation": "xiāng kàn bái rèn xuè fēn fēn，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "死节从来岂顾勋。",
+      "pronunciation": "sǐ jié cóng lái qǐ gù xūn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "君不见沙场征战苦，",
+      "pronunciation": "jūn bú jiàn shā chǎng zhēng zhàn kǔ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "至今犹忆李将军。",
+      "pronunciation": "zhì jīn yóu yì lǐ jiāng jūn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "燕歌行",
+      "pronunciation": "yān gē xíng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "高适",
+      "pronunciation": "gāo shì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "张守珪",
+      "pronunciation": "zhāng shǒu guī",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "安禄山",
+      "pronunciation": "ān lù shān",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "李将军",
+      "pronunciation": "lǐ jiāng jūn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "李广",
+      "pronunciation": "lǐ guǎng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "胡骑",
+      "pronunciation": "hú jì",
+      "accepted_variants": [
+        "hú qí"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "单于",
+      "pronunciation": "chán yú",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "𪭢金",
+      "pronunciation": "chuāng jīn",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "玉箸",
+      "pronunciation": "yù zhù",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "刁斗",
+      "pronunciation": "diāo dǒu",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "蓟北",
+      "pronunciation": "jì běi",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "碣石",
+      "pronunciation": "jié shí",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_101_01",
+      "source_event_id": "evt_101_01",
+      "target_event_id": "evt_101_02",
+      "relation_type": "BEFORE",
+      "importance": 1
+    },
+    {
+      "relation_id": "rel_101_02",
+      "source_event_id": "evt_101_02",
+      "target_event_id": "evt_101_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_101_03",
+      "source_event_id": "evt_101_03",
+      "target_event_id": "evt_101_05",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_101_04",
+      "source_event_id": "evt_101_04",
+      "target_event_id": "evt_101_05",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/101.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/101.json",
+      "event_gold": "gold_annotation/tangshi_300/101.json"
+    },
+    "original_sample_id": "101",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

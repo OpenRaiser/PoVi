@@ -1,0 +1,673 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_242",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《登鹳雀楼》为唐代五言绝句，是盛唐著名边塞诗人王之涣仅存的六首绝句之一，也是其代表作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "白日依山尽，黄河入海流。欲穷千里目，更上一层楼。",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这首诗是唐代诗人王之涣仅存的六首绝句之一。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "王之涣（688—742），字季凌，盛唐著名边塞诗人……虽仅存诗六首，却篇篇经典。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "王之涣存世诗作极少，但《登鹳雀楼》在唐代及后世流传极广，具有极高的文学地位。"
+      ],
+      "forbidden_assertions": [
+        "王之涣存世诗作有数百首之多。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_lexical_definition",
+      "claim": "本诗核心字词的通行释义为：白日指太阳；依指依傍；尽指消失；欲指想要；穷指尽，使达到极点；千里目指眼界宽阔；更指再。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "白日依山尽：这句话是说太阳依傍山峦沉落。白日：太阳。依：依傍。尽：消失。欲：想要。穷：尽，使达到极点。千里目：眼界宽阔。更：再。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "通行的字词释义是理解全诗字面意思和深层哲理的基础。"
+      ],
+      "forbidden_assertions": [
+        "“白日”在诗中指白天的日光。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_alternative_reading_geng",
+      "claim": "关于“更”字的解释存在异解：通行解释为“再”；另有一说解释为“替、换”，而非通常理解的“再”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "8．更：替、换。（不是通常理解的“再”的意思）",
+          "locator": "注释二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "若将“更”解释为“替换”，则“更上一层楼”可能含有更替、变换登楼视角的动态意味。"
+      ],
+      "forbidden_assertions": [
+        "学术界一致公认“更”字只有“再”这一种解释。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_scene_description",
+      "claim": "诗的前两句写登楼所见。首句写遥望落日向群山西沉，是天空景、远方景、西望景；次句写目送黄河奔流，是由地面望到天边，由近望到远，由西望到东。两句合起来容纳了上下、远近、东西的景物，画面宽广辽远。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "“白日依山尽”写远景，写山，写的是登楼望见的景色，“黄河入海流”写近景，写水写得景象壮观，气势磅礴……首句写遥望一轮落日向着楼前一望无际、连绵起伏的群山西沉，在视野的尽头冉冉而没。这是天空景、远方景、西望景。次句写目送流经楼前下方的黄河奔腾咆哮、滚滚南来，又在远处折而东向，流归大海。这是由地面望到天边，由近望到远，由西望到东。这两句诗合起来，就把上下、远近、东西的景物，全都容纳进诗笔之下，使画面显得特别宽广，特别辽远。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "前两句通过极其简练的十个字，高度概括了万里河山的壮丽景象。"
+      ],
+      "forbidden_assertions": [
+        "前两句诗仅仅描写了楼前局部的微观景色，没有宏观的空间感。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_imagined_scenery",
+      "claim": "次句“黄河入海流”中，诗人身在鹳雀楼上不可能亲眼望见黄河入海，此处写的是目送黄河远去天边而产生的意中景，是当前景与意中景溶合为一的虚实结合写法。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗人身在鹳雀楼上，不可能望见黄河入海，句中写的是诗人目送黄河远去天边而产生的意中景，是把当前景与意中景溶合为一的写法。这样写，更增加了画面的广度和深度。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "盛唐诗人在写景时，常借助宏大的想象来突破肉眼视力的物理极限，从而开拓诗歌的意境。"
+      ],
+      "forbidden_assertions": [
+        "王之涣在鹳雀楼上凭借极佳的视力，真实地看到了黄河流入大海的物理画面。"
+      ]
+    },
+    {
+      "claim_id": "claim_06_dynamic_beauty",
+      "claim": "前两句所呈现的画面是一幅溢光流彩、金碧交辉的壮丽图画，且处于瞬息多变的动态之中：白日依山而尽是短暂的过程，黄河向海而流是永恒的运动，展现了充满无限生机的动态美。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗人眼前所呈现的，是一幅溢光流彩、金碧交辉的壮丽图画。这幅图画还处于瞬息多变的动态之中。白日依山而尽，这仅仅是一个极短暂的过程；黄河向海而流，却是一种永恒的运动。如果说．这种景色很美，那么，它便是一种动态的美，充满了无限生机的活泼的美。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "短暂的落日与永恒的流水在时间维度上形成对比，增强了画面的哲学深度。"
+      ],
+      "forbidden_assertions": [
+        "诗中所描绘的景色是静止、孤立、毫无生机的定格画面。"
+      ]
+    },
+    {
+      "claim_id": "claim_07_theme_and_philosophy",
+      "claim": "后两句“欲穷千里目，更上一层楼”表现了诗人无止境探求的愿望，蕴含着“站得高才看得远”的生活哲理，体现了盛唐时期人们积极向上的进取精神与高瞻远瞩的胸襟。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首诗写诗人在登高望远中表现出来的不凡的胸襟抱负，反映了盛唐时期人们积极向上的进取精神。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“欲穷千里目”，写诗人一种无止境探求的愿望……唯一的办法就是要站得更高些，“更上一层楼”……也道出了要站得高才看得远的。这里有诗人的向上进取的精神、高瞻远瞩的胸襟，也道出了要站得高才看得远的。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "后两句诗不仅是登楼过程的写实，更是对人生不断追求更高境界的象征。"
+      ],
+      "forbidden_assertions": [
+        "后两句诗仅仅是机械地记录登楼动作，没有任何思想寄托或哲理启发。"
+      ]
+    },
+    {
+      "claim_id": "claim_08_scenery_reason_integration",
+      "claim": "本诗在艺术上是“景入理势”的典范，将深刻的哲理与雄浑的景物、情事自然融合，毫无生硬枯燥的说教痕迹。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "就全诗的写作特点而言，这首诗是日僧空海在《文镜秘府论》中所说的“景入理势”……把道理与景物、情事溶化得天衣无缝，使读者并不觉得它在说理，而理自在其中。这是根据诗歌特点、运用形象思维来显示生活哲理的典范。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "优秀的哲理诗往往通过生动的形象思维来传达哲理，而非抽象说教。"
+      ],
+      "forbidden_assertions": [
+        "本诗说理生硬、枯燥，破坏了诗歌的艺术美感。"
+      ]
+    },
+    {
+      "claim_id": "claim_09_poetic_form_antithesis",
+      "claim": "本诗是一首全篇用对仗的绝句。前两句“白日”对“黄河”，“白”对“黄”，“依”对“入”；后两句亦构成对仗。沈德潜评价其“四语皆对，读来不嫌其排，骨高故也”，展现了极其成熟的对仗技巧。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这首诗在写法上还有一个特点：它是一首全篇用对仗的绝句。前两句“白日”和“黄河”两个名词相对，“白”与“黄”两个色彩相对，“依”与“入”两个动词相对。后两句也如此，构成了形式上的完美。沈德在《唐诗别》中选录这首诗时曾指出：“四语皆对，读来不嫌其排，骨高故也。”",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "全诗两联皆对仗，但因气势充沛、一意贯连，故读来流畅自然，毫无雕琢呆板之感。"
+      ],
+      "forbidden_assertions": [
+        "本诗只有前两句使用了对仗，后两句是散句。"
+      ]
+    },
+    {
+      "claim_id": "claim_10_creation_background_dispute",
+      "claim": "关于王之涣创作本诗时的年龄与背景存在分歧：一说王之涣早年及第任衡水主簿，不久遭诬陷罢官，在35岁漫游时写下此诗；另一说根据墓志铭，王之涣开元十四年前后才罢官悠游，此时已年近四十。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "一说，作者王之涣早年及第，曾任过冀州衡水（今属河北）县主薄，不久因遭人诬陷而罢官，不到三十岁的王之涣从此过上了访友漫游的生活。写这首诗的时候，王之涣只有三十五岁。但是，根据王之涣及其夫人的墓志铭，则王之涣系垂拱四年（688）生人……在开元十年（722）与夫人李氏成婚时仍在衡水主簿任上，且任职时间一直持续到开元十四年（726）前后，此后才罢官悠游，而此时王之涣已经年近四十",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "由于历史文献记载的差异，王之涣的具体创作年份和当时的确切年龄仍有待考证。"
+      ],
+      "forbidden_assertions": [
+        "历史文献确凿证实王之涣写此诗时恰好是三十五岁，绝无其他可能。"
+      ]
+    },
+    {
+      "claim_id": "claim_11_guanque_tower_location",
+      "claim": "鹳雀楼旧址位于山西永济县（古蒲州城外），楼高三层，前对中条山，下临黄河，因传说常有鹳雀在此停留而得名。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "1．鹳雀楼：旧址在山西永济县，楼高三层，前对中条山，下临黄河。传说常有鹳雀在此停留，故有此名。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "学者李希泌推测，鹳雀楼在平阳府蒲州（今山西省永济市境内古蒲州城外）",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "鹳雀楼独特的地理位置（前对中条山，下临黄河）为诗人提供了极其雄浑壮阔的自然视野。"
+      ],
+      "forbidden_assertions": [
+        "鹳雀楼位于江南地区，是一座临江的江南名楼。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《登鹳雀楼》的题名、作者王之涣、所属朝代唐代以及五言绝句的体裁属性，并了解其为王之涣仅存的六首绝句之一。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《登鹳雀楼》是唐代诗人王之涣创作的一首五言绝句",
+        "这是盛唐边塞诗人王之涣仅存的六首名作之一"
+      ],
+      "forbidden_claims": [
+        "《登鹳雀楼》是李白或王昌龄的作品",
+        "该诗是一首七言律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_lexical",
+      "category": "lexical",
+      "description": "掌握本诗核心字词的通行释义，包括“白日”、“依”、“尽”、“欲”、“穷”、“千里目”及“更”字。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“白日”指太阳，“穷”指使达到极点，“千里目”指眼界宽阔",
+        "“更”字在诗中通常解释为“再”"
+      ],
+      "forbidden_claims": [
+        "“白日”指白天的日光",
+        "“穷”在诗中是贫穷的意思"
+      ],
+      "source_claim_ids": [
+        "claim_02_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解“更”字除了通行的“再”之意，在注释中还有“替、换”的异解。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "有注本认为“更”字在这里是“替换、更换”的意思，而不是通常理解的“再”"
+      ],
+      "forbidden_claims": [
+        "“更”字在诗中只有唯一的一种解释，即“更加”"
+      ],
+      "source_claim_ids": [
+        "claim_03_alternative_reading_geng"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确理解前两句诗的字面含义，并区分其中的实景（落日、群山、黄河）与想象中的虚景（黄河入海）。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "夕阳依傍着西山慢慢沉没，滔滔黄河朝着大海的方向汹涌奔流",
+        "诗人将眼前的黄河奔流实景与黄河最终入海的想象画面融合在一起"
+      ],
+      "forbidden_claims": [
+        "王之涣在鹳雀楼上亲眼看到了黄河流入东海的真实物理场景"
+      ],
+      "source_claim_ids": [
+        "claim_04_scene_description",
+        "claim_05_imagined_scenery"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "掌握本诗全篇两联皆用对仗的写作特点，理解其工整而不板滞、气势充沛的艺术效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首绝句四句皆成对仗，但读起来流畅自然，毫无雕琢痕迹",
+        "前两句是正名对，后两句对仗不露痕迹，体现了成熟的对仗技巧"
+      ],
+      "forbidden_claims": [
+        "这首诗是一首自由诗，完全没有使用对仗手法"
+      ],
+      "source_claim_ids": [
+        "claim_09_poetic_form_antithesis"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "理解本诗“景入理势”的艺术特色，明确其哲理是从登高望远的具体情景中自然生发，而非生硬说教。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "本诗将深刻的人生哲理与雄浑的自然景观天衣无缝地融合在一起",
+        "诗中的哲理完全依托于登楼这一具体的形象思维"
+      ],
+      "forbidden_claims": [
+        "这首诗是一篇纯粹的哲学说理文，没有任何写景和抒情的成分"
+      ],
+      "source_claim_ids": [
+        "claim_08_scenery_reason_integration"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "整体把握全诗所展现的盛唐时期人们积极向上、高瞻远瞩的进取精神与开阔胸襟。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《登鹳雀楼》通过壮阔的画面和“更上一层楼”的哲理，集中展现了盛唐文人昂扬向上的精神风貌"
+      ],
+      "forbidden_claims": [
+        "这首诗表达了诗人罢官后的消极颓废与悲观厌世情绪"
+      ],
+      "source_claim_ids": [
+        "claim_07_theme_and_philosophy"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_thousand_li",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "虚指的“千里”物理空间距离"
+      ],
+      "target_domain": [
+        "无限广阔的视野、认知边界、人生格局"
+      ],
+      "bridges": [
+        "“千里”在诗中是虚数，代表想象中纵横极广的空间。通过“欲穷千里目”的渴望，映射出人类对未知世界、更高认知和更广阔人生格局的无止境探求愿望。"
+      ],
+      "context_claim_ids": [
+        "claim_07_theme_and_philosophy"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也有观点认为“千里目”仅是夸张的写实，指登高后目力所能达到的极远距离，无须过度阐释其精神象征。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_one_layer",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "鹳雀楼更高的一层楼台"
+      ],
+      "target_domain": [
+        "更高的人生境界、思想高度、实践平台"
+      ],
+      "bridges": [
+        "物理上“站得高才能看得远”的常识，完美映射到精神层面上“只有提升自己的高度，才能拓展认知和胸襟”的普遍哲理。登楼的动作成为提升人生境界的象征。"
+      ],
+      "context_claim_ids": [
+        "claim_07_theme_and_philosophy",
+        "claim_08_scenery_reason_integration"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "部分写实派解读认为“更上一层楼”就是指诗人从鹳雀楼的第二层迈步登上第三层顶层的具体动作，是纯粹的叙事写实。"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "清晰呈现《登鹳雀楼》的题名、作者王之涣、朝代唐代，以及完整无误的诗句，配合朗读同步展示分句字幕。",
+      "acceptable_realizations": [
+        "开场以古风画卷或石碑拓片形式呈现诗名与作者，随着诵读声，诗句逐字浮现"
+      ],
+      "forbidden_realizations": [
+        "字幕出现错别字，或将作者、朝代信息标注错误"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_and_author_intro",
+      "semantic_role": "opening_poem_and_author_intro"
+    },
+    {
+      "requirement_id": "vis_02_first_two_lines_scenery",
+      "description": "还原鹳雀楼周边的壮阔场景：一轮落日向着连绵起伏的中条群山西沉，楼下黄河奔腾咆哮，折而向东流向天际，画面呈现金碧交辉的动态美。",
+      "acceptable_realizations": [
+        "采用大远景镜头，画面左侧为连绵的群山与缓缓下沉的夕阳，右侧为奔腾的黄河，黄河在落日余晖下宛如金色飘带，画面充满流动的生机"
+      ],
+      "forbidden_realizations": [
+        "将黄河画成江南平缓清澈的小溪，或者落日方向没有群山遮挡，画面静止无风"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "depict_sunset_and_yellow_river_scenery",
+      "semantic_role": "depict_sunset_and_yellow_river_scenery"
+    },
+    {
+      "requirement_id": "vis_03_climbing_action",
+      "description": "呈现诗人拾级登上更高一层楼的动态过程，体现从低层到高层的空间过渡。",
+      "acceptable_realizations": [
+        "镜头跟随诗人的步伐，沿着木质楼梯一步步向上攀登，随后推开顶层窗户，视野瞬间豁然开朗"
+      ],
+      "forbidden_realizations": [
+        "诗人全程站在原地，没有任何登楼或移动的动作表现"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_one_layer"
+      ],
+      "expected_phase": "depict_the_action_of_climbing_upstairs",
+      "semantic_role": "depict_the_action_of_climbing_upstairs"
+    },
+    {
+      "requirement_id": "vis_04_philosophy_illustration",
+      "description": "可视化呈现登高后视野骤然拓展、山河尽收眼底的震撼效果，自然点出“站得高看得远”的哲理。",
+      "acceptable_realizations": [
+        "通过分镜头对比：先展示在低层时受限的视野，再切换到顶层时纵横千里的壮阔全景，并在画面边缘淡入“欲穷千里目，更上一层楼”的哲理字幕"
+      ],
+      "forbidden_realizations": [
+        "登楼前后的视野画面完全一样，没有任何视觉上的对比和拓展效果"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_thousand_li",
+        "meta_02_one_layer"
+      ],
+      "expected_phase": "reveal_the_implied_life_philosophy",
+      "semantic_role": "reveal_the_implied_life_philosophy"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_242_01",
+      "description": "盛唐时期，王之涣曾任冀州衡水主簿，后因遭人诬陷而罢官或拂衣辞官。关于其辞官的具体时间存在多说，部分学者考证认为在开元十四年（726年）前后。",
+      "audio_triggers": [
+        "冀州衡水",
+        "主簿",
+        "遭人诬陷",
+        "罢官"
+      ],
+      "visual_evidence": [
+        "唐代北方衙署场景。年轻或中年的王之涣身着唐代低品级文官服饰（如青色或绿色圆领袍，避免紫、红等高官服色），面露无奈或愤懑之色，收拾书简行囊准备离开。"
+      ],
+      "sound_evidence": [
+        "书简整理碰撞声",
+        "沉重的叹息声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_242_02",
+      "description": "辞官后的王之涣开始了长达十余年的漫游生活。他放情山水，寻仙访友，足迹遍布黄河两岸，形成了豪放不羁的性格与开阔的胸襟。",
+      "audio_triggers": [
+        "访友漫游",
+        "放情山水",
+        "在家十五年"
+      ],
+      "visual_evidence": [
+        "唐代北方自然风光。王之涣换上唐代文人常服，骑马或背着行囊行走在广袤的平原与山水之间，神态豁达从容。"
+      ],
+      "sound_evidence": [
+        "马蹄声",
+        "风吹过旷野的环境声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_242_03",
+      "description": "漫游期间，王之涣来到蒲州（今山西永济），登上了黄河岸边前对中条山、下临黄河的名胜鹳雀楼。此次登楼的具体时间不可确考，通常认为发生在其辞官漫游期间。",
+      "audio_triggers": [
+        "蒲州",
+        "鹳雀楼",
+        "登临此楼"
+      ],
+      "visual_evidence": [
+        "一座符合唐代建筑风格的三层木结构高楼（鹳雀楼）。王之涣拾阶而上，来到楼上凭栏远眺。背景中必须有连绵的山脉与宽阔的河流，不得出现现代旅游景观或设施。"
+      ],
+      "sound_evidence": [
+        "木质楼梯的脚步声",
+        "远处的波涛声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_242_04",
+      "description": "王之涣在鹳雀楼上极目远眺，看到夕阳依傍着群山西沉，黄河滚滚奔流入海，壮阔的自然景观激发了他积极向上的进取精神与豪情，于是创作了千古名篇《登鹳雀楼》。",
+      "audio_triggers": [
+        "触景生情",
+        "壮阔的自然景象",
+        "胸中豪情",
+        "写下"
+      ],
+      "visual_evidence": [
+        "王之涣站在鹳雀楼高处，视线方向是一轮落日正没入远处的连绵群山，下方是金光闪耀、奔腾远去的黄河。王之涣神情激昂，挥毫写下诗句。画面禁止将“千里目”具象为特异功能式的视觉特效。"
+      ],
+      "sound_evidence": [
+        "黄河水流奔腾的轰鸣声",
+        "呼啸的风声",
+        "吟诵诗句的声音"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "白日依山尽，",
+      "pronunciation": "bái rì yī shān jìn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黄河入海流。",
+      "pronunciation": "huáng hé rù hǎi liú。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "欲穷千里目，",
+      "pronunciation": "yù qióng qiān lǐ mù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更上一层楼。",
+      "pronunciation": "gèng shàng yī céng lóu。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "王之涣",
+      "pronunciation": "wáng zhī huàn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "登鹳雀楼",
+      "pronunciation": "dēng guàn què lóu",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "主簿",
+      "pronunciation": "zhǔ bù",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "蒲州",
+      "pronunciation": "pú zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "冀州",
+      "pronunciation": "jì zhōu",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_242_01",
+      "source_event_id": "evt_242_01",
+      "target_event_id": "evt_242_02",
+      "relation_type": "CAUSES",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_242_02",
+      "source_event_id": "evt_242_02",
+      "target_event_id": "evt_242_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_242_03",
+      "source_event_id": "evt_242_03",
+      "target_event_id": "evt_242_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/242.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/242.json",
+      "event_gold": "gold_annotation/tangshi_300/242.json"
+    },
+    "original_sample_id": "242",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

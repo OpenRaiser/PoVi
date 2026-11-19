@@ -1,0 +1,858 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_179",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "作品为南宋词人辛弃疾所作，词牌名为《青玉案》，属宋代词体。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：青玉案 作者：辛弃疾 朝代：宋 体裁：词 词牌：青玉案",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "辛弃疾（1140—1207），字幼安，号稼轩，南宋豪放派词人、爱国将领",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确标注为南宋豪放派代表词作",
+        "可结合辛弃疾生平介绍其词风背景"
+      ],
+      "forbidden_assertions": [
+        "作品为唐代诗歌",
+        "作者为苏轼或其他宋代词人"
+      ]
+    },
+    {
+      "claim_id": "claim_02_festival",
+      "claim": "词作描写的是夏历正月十五上元节（元宵节）观灯习俗与市井盛况。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "元夕：夏历正月十五日为上元节，即元宵节，此夜称元夕或元夜。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "东风吹开了元宵夜的火树银花，花灯灿烂，就像千树花开。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合宋代元宵民俗（赏灯、舞龙、戴闹蛾）进行文化拓展",
+        "词中场景具有明确的节令指向性"
+      ],
+      "forbidden_assertions": [
+        "将场景误判为中秋赏月或端午竞渡",
+        "认为词作无具体节令背景"
+      ]
+    },
+    {
+      "claim_id": "claim_03_background",
+      "claim": "词作具体创作年份学界有争议（乾道至淳熙年间多种说法），但共识背景为南宋强敌压境、朝廷偏安享乐，作者借此抒发报国无门之怨与幽独情怀。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "《青玉案·元夕》此词创作时间不可确考，学界有多种说法……但不论是哪一种说法，辛弃疾强烈的报国心和对外疲软、主和派占上风的政治背景都是相同的。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这是一首别有寄托的词作。词人假借对一位厌恶热闹、自甘寂寞的女子的寻求，含蓄地表达了自己的高洁志向和情怀．",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可联系南宋主和派政治环境与辛弃疾抗金经历解读",
+        "年份争议不影响对词作核心政治寄托的把握"
+      ],
+      "forbidden_assertions": [
+        "断言具体创作年份为绝对定论",
+        "脱离南宋偏安背景将词作纯作艳情词解读"
+      ]
+    },
+    {
+      "claim_id": "claim_04_imagery",
+      "claim": "花千树星如雨玉壶以自然繁花、星雨、玉壶比喻元宵灯火、漫天焰火与明月（或华灯）。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "花千树，花灯之多如千树开花。星如雨：指焰火纷纷，乱落如雨。玉壶：比喻明月。亦可解释为指灯。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "作者把花树写成与固定的灯彩，把星雨写成流动的烟火。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可讲解比喻与夸张修辞如何将静态灯彩转化为动态视觉奇观",
+        "玉壶意象兼具写实（灯）与象征（月/高洁）双重功能"
+      ],
+      "forbidden_assertions": [
+        "将星如雨解为真实自然降雨",
+        "将玉壶解为饮酒器皿"
+      ]
+    },
+    {
+      "claim_id": "claim_05_theme",
+      "claim": "众里寻他千百度……灯火阑珊处表面写寻觅意中人，实则寄托作者不慕荣华、自甘寂寞的高洁志向与政治失意后的幽独情怀。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "词人假借对一位厌恶热闹、自甘寂寞的女子的寻求，含蓄地表达了自己的高洁志向和情怀．梁启超《艺蘅馆胡词选》云：自怜幽独，伤心人别有怀抱。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "忽然，眼光一亮，在那一角残灯旁侧，分明看见了她，她原来在这冷落的地方，还未归去，似有所待。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引申为对理想人格、人生境界或政治抱负的执着追寻",
+        "那人是词人精神自况的投射"
+      ],
+      "forbidden_assertions": [
+        "仅停留在男女相思的表层叙事",
+        "否定词作具有政治与人格寄托"
+      ]
+    },
+    {
+      "claim_id": "claim_06_structure",
+      "claim": "上阕极写热闹繁华，下阕转入寻觅与顿悟，以乐景反衬孤高，末句为全词警策，形成强烈的情感与意境反差。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "上片也不过渲染那一片热闹景况，并无特异独出之处……其精彩之笔，全在后半始见。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "那上片的灯、月、烟火、笙笛、社舞、交织成的元夕欢腾……原来都只是为了那一个意中之人而设，而写，倘无此人在，那一切都没有意义与趣味。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可分析以闹写静反衬手法在古典诗词中的运用",
+        "上下阕结构呈现铺陈—转折—升华的递进逻辑"
+      ],
+      "forbidden_assertions": [
+        "认为上下阕情感基调一致",
+        "将末句视为单纯的叙事收尾而非全词主旨"
+      ]
+    },
+    {
+      "claim_id": "claim_07_cipai_origin",
+      "claim": "词牌青玉案调名取自东汉张衡《四愁诗》美人赠我锦绣段，何以报之青玉案，又名横塘路西湖路，双调六十七字。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "青玉案：词牌名，调名取于东汉张衡《四愁诗》美人赠我锦绣段，何以报之青玉案诗句。又名横塘路西湖路，双调六十七字，上下阕各五仄韵，上去通押。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合词牌来源讲解词调命名传统"
+      ],
+      "forbidden_assertions": [
+        "词牌为辛弃疾自创",
+        "青玉案指青玉做成的桌案以外的无关解释"
+      ]
+    },
+    {
+      "claim_id": "claim_08_imagery_dispute",
+      "claim": "玉壶有两说（比喻明月 / 指灯），星如雨有两说（指焰火纷纷 / 形容灯多），均为资料中明确记录的歧解。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "玉壶：比喻明月。亦可解释为指灯。星如雨：指焰火纷纷，乱落如雨。星：指焰火。形容满天的烟花。一说形容灯多。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "玉壶：比喻明月。亦可解释为指灯。星如雨：指焰火纷纷，乱落如雨。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可并列呈现两种解释，说明诗歌意象的多义性",
+        "玉壶两解皆有其合理性，不必强求唯一答案"
+      ],
+      "forbidden_assertions": [
+        "断言玉壶仅为明月或仅为灯，排除另一种解释",
+        "要求学生在考试中唯一确定星如雨的单一定义"
+      ]
+    },
+    {
+      "claim_id": "claim_09_censhen_allusion",
+      "claim": "花千树的意象构思化用了唐代诗人岑参忽如一夜春风来，千树万树梨花开的句式与想象方式。",
+      "status": "consensus",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这是化用唐朝人岑参的忽如一夜春风来，千树万树梨花开。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可对比辛弃疾与岑参在意象化用上的继承与翻新",
+        "花千树以喻灯彩而非雪景，体现了辛词的创造性转化"
+      ],
+      "forbidden_assertions": [
+        "花千树是辛弃疾完全原创、与前人无关的意象",
+        "认为辛弃疾抄袭岑参而不加变化"
+      ]
+    },
+    {
+      "claim_id": "claim_10_wang_guowei",
+      "claim": "王国维《人间词话》将众里寻他千百度……灯火阑珊处引申为古今成大事业、大学问者必经的第三重境界，此属借词喻事，与原文文学赏析有本质区别。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "王静安《人间词话》曾举此词，以为人之成大事业者，必皆经历三个境界，而稼轩此词之境界为第三即最终最高境。此特借词喻事，与文学赏析已无交涉，王先生早已先自表明。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可在课堂拓展中介绍王国维三境界说，但须区分文学赏析与人生借喻"
+      ],
+      "forbidden_assertions": [
+        "王国维的解读就是辛弃疾创作本意",
+        "将三境界说当作词作本身的文学主题"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代与体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋辛弃疾《青玉案·元夕》",
+        "宋代豪放派词人辛弃疾的词作"
+      ],
+      "forbidden_claims": [
+        "唐代诗歌作品",
+        "作者为苏轼或李清照"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解南宋偏安享乐的政治背景与词人报国无门的现实处境。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "创作于南宋主和派当权、朝廷沉湎享乐时期",
+        "反映辛弃疾壮志难酬的时代困境"
+      ],
+      "forbidden_claims": [
+        "断言具体创作年份为唯一确论",
+        "脱离南宋抗金历史背景孤立解读"
+      ],
+      "source_claim_ids": [
+        "claim_03_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握元夕蛾儿雪柳阑珊玉壶等核心词汇的准确释义与文化指涉。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "元夕即正月十五元宵节",
+        "阑珊指灯火零落稀疏的样子"
+      ],
+      "forbidden_claims": [
+        "将阑珊解释为灯火通明",
+        "将玉壶解释为酒器"
+      ],
+      "source_claim_ids": [
+        "claim_02_festival",
+        "claim_04_imagery",
+        "claim_07_cipai_origin"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal",
+      "category": "literal_meaning",
+      "description": "准确翻译上下阕字面意思，理清灯月交辉、游女如云、苦苦寻觅的表层叙事。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上阕写元宵夜灯火烟花与车马鼓乐的繁华",
+        "下阕写在人群中寻找意中人，最终在冷清处发现"
+      ],
+      "forbidden_claims": [
+        "将星如雨译为真实下雨",
+        "遗漏一夜鱼龙舞的民俗活动描写"
+      ],
+      "source_claim_ids": [
+        "claim_04_imagery",
+        "claim_05_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "分析上阕铺陈热闹与下阕寻觅顿悟的对比结构，理解以闹衬静的艺术手法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片极写繁华，下片转入寻觅，末句点题",
+        "全词采用反衬手法，热闹为孤高作铺垫"
+      ],
+      "forbidden_claims": [
+        "上下阕情感基调无差别",
+        "末句仅为情节交代而非结构重心"
+      ],
+      "source_claim_ids": [
+        "claim_06_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive",
+      "category": "interpretive_boundary",
+      "description": "辨析表层爱情叙事与深层政治/人格寄托的界限，把握别有怀抱的解读尺度。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借寻觅女子表达不慕荣华、自甘寂寞的高洁志向",
+        "表层写情，实则寄托词人幽独情怀与政治理想"
+      ],
+      "forbidden_claims": [
+        "完全否定寄托说，仅作艳词处理",
+        "过度引申为具体历史事件影射"
+      ],
+      "source_claim_ids": [
+        "claim_05_theme"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative",
+      "category": "alternative_reading",
+      "description": "呈现玉壶星如雨那人等意象的多种解读可能，理解诗歌意象的多义性与开放性。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "玉壶可解为明月或华灯，星如雨可指焰火或灯多",
+        "那人身份有爱情对象、自我投射、政治寄托等多种读法"
+      ],
+      "forbidden_claims": [
+        "否定多义性的存在，要求学生记忆唯一标准答案",
+        "将王国维三境界说等同于辛弃疾原意"
+      ],
+      "source_claim_ids": [
+        "claim_08_imagery_dispute",
+        "claim_10_wang_guowei"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_08_cipai",
+      "category": "lexical",
+      "description": "讲解词牌青玉案的名称来源（张衡《四愁诗》）、别名及基本格律结构。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "青玉案调名来自张衡诗何以报之青玉案，又名横塘路"
+      ],
+      "forbidden_claims": [
+        "词牌名与张衡《四愁诗》无关",
+        "案读àn（第四声），排除wǎn的读音可能"
+      ],
+      "source_claim_ids": [
+        "claim_07_cipai_origin"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_lights",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "花千树",
+        "星如雨"
+      ],
+      "target_domain": [
+        "元宵繁灯",
+        "漫天焰火"
+      ],
+      "bridges": [
+        "视觉形态与数量特征高度相似，以自然繁花喻静态灯彩，以陨星雨喻动态烟火，强化节日视觉奇观"
+      ],
+      "context_claim_ids": [
+        "claim_04_imagery"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "部分赏析认为星如雨亦可直接形容灯多如星，非专指焰火"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_jade_pot",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "玉壶"
+      ],
+      "target_domain": [
+        "明月",
+        "华灯"
+      ],
+      "bridges": [
+        "注释明确指出比喻明月或指灯，取其晶莹澄澈、高悬夜空的物理特征，营造人间仙境般的清辉氛围"
+      ],
+      "context_claim_ids": [
+        "claim_04_imagery"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "有观点认为玉壶特指宋代一种精美的琉璃灯或走马灯"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_allegory",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "那人",
+        "灯火阑珊处"
+      ],
+      "target_domain": [
+        "词人高洁人格",
+        "政治理想",
+        "不随流俗的自我"
+      ],
+      "bridges": [
+        "赏析指出别有寄托，以自甘寂寞、远离喧嚣的女子自况，灯火阑珊的冷清空间象征不慕荣华、坚守初心的精神高地"
+      ],
+      "context_claim_ids": [
+        "claim_05_theme"
+      ],
+      "status": "disputed",
+      "alternative_readings": [
+        "保留字面叙事：元宵夜寻找意中人",
+        "王国维《人间词话》将其引申为古今之成大事业、大学问者必经的第三重人生境界",
+        "可解读为对理想君主或政治知音的期待"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text",
+      "description": "清晰呈现词牌、题名、作者及完整四句词文，标点与分行需严格遵循原词格律。",
+      "acceptable_realizations": [
+        "开场题签配合书法字体逐行浮现",
+        "旁白吟诵时同步显示规范字幕"
+      ],
+      "forbidden_realizations": [
+        "遗漏词牌或作者信息",
+        "擅自改动字词或打乱句序"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_text_display",
+      "semantic_role": "opening_title_and_text_display"
+    },
+    {
+      "requirement_id": "vis_02_upper",
+      "description": "动态还原上阕灯火如树、焰火如雨、车马笙箫交织的元宵盛景，突出繁华喧闹的视觉张力。",
+      "acceptable_realizations": [
+        "全景镜头展现宋代街市灯会，烟火特效模拟星雨坠落",
+        "镜头随凤箫声与鱼龙舞移动，色调暖金明亮"
+      ],
+      "forbidden_realizations": [
+        "画面冷清萧条，与词意相悖",
+        "缺失鱼龙舞民俗元素"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_lights",
+        "meta_02_jade_pot"
+      ],
+      "expected_phase": "upper_stanza_lantern_spectacle",
+      "semantic_role": "upper_stanza_lantern_spectacle"
+    },
+    {
+      "requirement_id": "vis_03_lower",
+      "description": "刻画下阕游女盛装穿行、笑语暗香与主人公在人群中焦急寻觅的动态过程。",
+      "acceptable_realizations": [
+        "中景跟拍佩戴蛾儿雪柳的女子群像，衣香鬓影掠过",
+        "主观视角穿梭于拥挤人群，节奏加快"
+      ],
+      "forbidden_realizations": [
+        "游女形象模糊或服饰不符合宋代元宵习俗",
+        "寻觅过程缺乏焦灼感与时间流逝暗示"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "lower_stanza_crowd_wandering",
+      "semantic_role": "lower_stanza_crowd_wandering"
+    },
+    {
+      "requirement_id": "vis_04_climax",
+      "description": "聚焦蓦然回首的瞬间转折，通过光影对比凸显灯火阑珊处的孤清与那人的静立。",
+      "acceptable_realizations": [
+        "镜头急转，喧闹背景虚化，冷色调聚光灯打向角落",
+        "人物剪影独立于残灯旁，与繁华形成强烈反差"
+      ],
+      "forbidden_realizations": [
+        "灯火依然通明，无法体现阑珊意境",
+        "那人形象过于具象化或带有艳俗色彩"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_allegory"
+      ],
+      "expected_phase": "climax_sudden_revelation",
+      "semantic_role": "climax_sudden_revelation"
+    },
+    {
+      "requirement_id": "vis_05_theme",
+      "description": "以图文或画外音形式呈现词作寄托说与王国维第三境界的学术延伸，完成教学升华。",
+      "acceptable_realizations": [
+        "画面淡出至留白，浮现梁启超评语与《人间词话》引文",
+        "旁白总结热闹与孤高的辩证关系"
+      ],
+      "forbidden_realizations": [
+        "过度演绎具体历史人物对应",
+        "脱离文本空谈人生哲理"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "thematic_resolution_and_scholarly_extension",
+      "semantic_role": "thematic_resolution_and_scholarly_extension"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_179_01",
+      "description": "辛弃疾早年生于金国，青年时期参加抗金义军，后率领部众南归南宋，立志恢复中原失地。",
+      "audio_triggers": [
+        "少年抗金归宋",
+        "参加义军",
+        "南归"
+      ],
+      "visual_evidence": [
+        "青年辛弃疾身穿宋代铠甲，骑马驰骋，率领义军队伍向南行进",
+        "背景为北方山河或战场残迹"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "兵器碰撞声",
+        "大军行进的脚步声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_179_02",
+      "description": "南宋朝廷偏安江左，主和派占据上风，统治阶层不思恢复失地，而是沉湎于歌舞享乐，以粉饰太平。",
+      "audio_triggers": [
+        "偏安江左",
+        "沉湎于歌舞享乐",
+        "粉饰太平"
+      ],
+      "visual_evidence": [
+        "南宋临安城内豪华的楼阁",
+        "衣着华贵的官员与贵族饮酒作乐，欣赏歌舞",
+        "禁止出现积极备战、皇帝锐意进取的画面"
+      ],
+      "sound_evidence": [
+        "柔和靡靡的丝竹管弦乐声",
+        "酒杯碰撞与欢笑声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_179_03",
+      "description": "辛弃疾南归后，虽怀抱满腔热血和报国之志，却因与主和派政见不合而屡遭排挤，被频繁调任或落职，壮志难酬。",
+      "audio_triggers": [
+        "屡遭排挤",
+        "壮志难酬",
+        "欲补天穹",
+        "无路请缨"
+      ],
+      "visual_evidence": [
+        "中年的辛弃疾身着宋代官服或常服，独自站立于庭院或公堂前",
+        "神情忧愤孤独，手中可能握着未被理睬的奏折"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "秋风或冷清的环境声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_179_04",
+      "description": "创作时间不可确考，通常认为在南宋乾道或淳熙年间。在上元节（元夕）的满城喧闹灯火中，辛弃疾感念自身处境，写下《青玉案》，借寻找灯火阑珊处的孤高之人，表达自己不愿同流合污的高洁志向。",
+      "audio_triggers": [
+        "写下青玉案",
+        "不可确考",
+        "元夕",
+        "高洁志向"
+      ],
+      "visual_evidence": [
+        "夜晚繁华的都城街道，挂满元宵彩灯，烟花绽放，游人如织",
+        "辛弃疾在书案前或远离喧嚣的暗处，执笔写下词作",
+        "画面可以虚化表现灯火阑珊处独自孑立的人影作为意象暗示"
+      ],
+      "sound_evidence": [
+        "远处的烟花爆竹声与喧闹声",
+        "毛笔在纸上的书写声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "东风夜放花千树，",
+      "pronunciation": "dōng fēng yè fàng huā qiān shù ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更吹落、",
+      "pronunciation": "gèng chuī luò 、",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "星如雨。",
+      "pronunciation": "xīng rú yǔ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "宝马雕车香满路，",
+      "pronunciation": "bǎo mǎ diāo chē xiāng mǎn lù ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凤箫声动，",
+      "pronunciation": "fèng xiāo shēng dòng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "玉壶光转，",
+      "pronunciation": "yù hú guāng zhuǎn ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一夜鱼龙舞。",
+      "pronunciation": "yí yè yú lóng wǔ 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "蛾儿雪柳黄金缕，",
+      "pronunciation": "é ér xuě liǔ huáng jīn lǚ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "笑语盈盈暗香去。",
+      "pronunciation": "xiào yǔ yíng yíng àn xiāng qù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "众里寻他千百度；",
+      "pronunciation": "zhòng lǐ xún tā qiān bǎi dù ；",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "蓦然回首，",
+      "pronunciation": "mò rán huí shǒu ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "那人却在，",
+      "pronunciation": "nà rén què zài ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "灯火阑珊处。",
+      "pronunciation": "dēng huǒ lán shān chù 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青玉案",
+      "pronunciation": "qīng yù wǎn",
+      "accepted_variants": [
+        "qīng yù àn"
+      ],
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "辛弃疾",
+      "pronunciation": "xīn qì jí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "稼轩",
+      "pronunciation": "jià xuān",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "上元节",
+      "pronunciation": "shàng yuán jié",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "元夕",
+      "pronunciation": "yuán xī",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "乾道",
+      "pronunciation": "qián dào",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "淳熙",
+      "pronunciation": "chún xī",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_179_01",
+      "source_event_id": "evt_179_01",
+      "target_event_id": "evt_179_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_179_02",
+      "source_event_id": "evt_179_02",
+      "target_event_id": "evt_179_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_179_03",
+      "source_event_id": "evt_179_03",
+      "target_event_id": "evt_179_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_179_04",
+      "source_event_id": "evt_179_02",
+      "target_event_id": "evt_179_04",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/179.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/179.json",
+      "event_gold": "gold_annotation/songci_300/179.json"
+    },
+    "original_sample_id": "179",
+    "original_gold_status": "llm_extracted_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

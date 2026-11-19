@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "submission.schema.json",
+  "title": "Benchmark Submission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "system_id",
+    "sample_id",
+    "track",
+    "setting",
+    "evaluation_scope",
+    "artifacts"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.4"},
+    "system_id": {"type": "string", "minLength": 1},
+    "system_name": {"type": "string"},
+    "sample_id": {"type": "string", "minLength": 1},
+    "track": {
+      "enum": [
+        "text_planning",
+        "visual_generation",
+        "audio_generation",
+        "audio_visual_generation",
+        "full_task_teaching"
+      ]
+    },
+    "setting": {
+      "enum": [
+        "standard",
+        "oracle_conditioned",
+        "system_conditioned",
+        "fixed_narration",
+        "structured_script",
+        "full_task"
+      ]
+    },
+    "system_architecture": {
+      "enum": [
+        "multi_agent_pipeline",
+        "modular_pipeline",
+        "native_av_model",
+        "monolithic_multimodal_model",
+        "other"
+      ]
+    },
+    "evaluation_scope": {
+      "enum": [
+        "full_system",
+        "knowledge_planner",
+        "downstream_realizer",
+        "media_generator",
+        "text_planner"
+      ]
+    },
+    "artifacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "planning_output": {"type": "string"},
+        "final_video": {"type": "string"},
+        "audio": {"type": "string"},
+        "narration": {"type": "string"},
+        "asr_transcript": {"type": "string"},
+        "subtitles": {"type": "string"},
+        "storyboard": {"type": "string"},
+        "prompts": {"type": "string"},
+        "timeline": {"type": "string"},
+        "character_assets": {"type": "array", "items": {"type": "string"}},
+        "evidence_citations": {"type": "string"},
+        "system_input_snapshot": {"type": "string"},
+        "timed_narration": {"type": "string"},
+        "deterministic_report": {"type": "string"},
+        "intermediate_outputs": {"type": "array", "items": {"type": "string"}},
+        "prompt_media_pairs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["pair_id", "modality", "prompt", "media"],
+            "properties": {
+              "pair_id": {"type": "string", "minLength": 1},
+              "modality": {"enum": ["image", "video", "audio"]},
+              "prompt": {"type": "string", "minLength": 1},
+              "media": {"type": "string", "minLength": 1}
+            }
+          }
+        }
+      }
+    },
+    "generation_metadata": {
+      "type": "object",
+      "properties": {
+        "model_names": {"type": "array", "items": {"type": "string"}},
+        "random_seed": {},
+        "generation_time_seconds": {"type": "number", "minimum": 0},
+        "hardware": {"type": "string"},
+        "external_retrieval_used": {"type": "boolean"}
+      }
+    }
+  }
+}

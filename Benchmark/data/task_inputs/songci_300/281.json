@@ -1,0 +1,64 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "113_songci_281_82e1afad0931",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "声声慢",
+    "author": "李清照",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。\n乍暖还寒时候，最难将息。\n三杯两盏淡酒，怎敌他、晚来风急？\n雁过也，正伤心，却是旧时相识。\n满地黄花堆积。\n憔悴损，如今有谁堪摘？\n守着窗儿，独自怎生得黑？\n梧桐更兼细雨，到黄昏、点点滴滴。\n这次第，怎一个愁字了得！",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "寻寻觅觅，冷冷清清，凄凄惨惨戚戚。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "乍暖还寒时候，最难将息。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "三杯两盏淡酒，怎敌他、晚来风急？"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "雁过也，正伤心，却是旧时相识。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "满地黄花堆积。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "憔悴损，如今有谁堪摘？"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "守着窗儿，独自怎生得黑？"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "梧桐更兼细雨，到黄昏、点点滴滴。"
+      },
+      {
+        "line_id": "l09",
+        "order": 9,
+        "text": "这次第，怎一个愁字了得！"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "82e1afad09316fd13607226e",
+    "global_index": 113
+  }
+}

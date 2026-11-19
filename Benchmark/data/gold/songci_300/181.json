@@ -1,0 +1,832 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_181",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为南宋词人辛弃疾所作，词牌为《菩萨蛮》，创作于淳熙二至三年（1175-1176年）作者任江西提点刑狱期间，途经造口时所作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "菩萨蛮",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此词作于宋孝宗淳熙三年（1176年），辛弃疾任江西提点刑狱期间，经常巡回往复于湖南、江西等地。来到造口……于是写下了《菩萨蛮·书江西造口壁》这首词。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "辛弃疾（1140—1207），字幼安，号稼轩，南宋豪放派词人、爱国将领……",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可在教学中明确此词为辛弃疾南渡后任职江西时的纪行抒怀之作。",
+        "可结合其“爱国将领”身份理解词中抗金复国的情感基调。"
+      ],
+      "forbidden_assertions": [
+        "此词为北宋或唐代作品。",
+        "作者为苏轼、李清照或其他宋代词人。",
+        "创作时间与江西任职经历无关。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_historical_context",
+      "claim": "词中“中间多少行人泪”暗指建炎三年（1129年）金兵南侵、隆祐太后仓皇逃至造口时的国难与百姓流离之苦。罗大经在《鹤林玉露》中指出“幼安自此起兴”。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "盖南渡之初，虏人追隆祐太后御舟至造口，不及而还。幼安自此起兴。……太后乘舟夜行……舍舟而陆，遂幸虔州。",
+          "locator": "创作背景三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "行人泪三字，直点造口当年事。词人身临隆祐太后被追之地，痛感建炎国脉如缕之危，愤金兵之猖狂，羞国耻之未雪，乃将满怀之悲愤，化为此悲凉之句。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“行人”不仅指逃难百姓，亦包含词人自身的家国之悲与历史沧桑感。",
+        "清江水在此处被赋予了承载民族苦难记忆的象征功能。"
+      ],
+      "forbidden_assertions": [
+        "“行人泪”仅指普通旅人思乡之泪，与南宋初年战乱无关。",
+        "造口事件纯属虚构或无史料依据。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literal_geography",
+      "claim": "“西北是长安”中的“长安”并非实指唐代都城，而是借指北宋故都汴京，表达对中原故土的深切怀念。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "长安：今陕西省西安市，为汉唐故都。此处代指宋都汴京。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "我举头眺望西北的长安，可惜只看到无数青山。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人借古称代指现实政治中心，体现古典诗词中常见的借代与用典传统。",
+        "“可怜无数山”既写实景，又暗示视线与归路被现实政治力量阻隔。"
+      ],
+      "forbidden_assertions": [
+        "词人此时身在陕西西安。",
+        "“长安”仅指唐代实际都城且无任何现实政治寄托。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_metaphor_river_mountain",
+      "claim": "“青山遮不住，毕竟江流去”以江水冲破群山阻碍东流，象征抗金复国的正义力量与词人百折不回的意志；“无数山”暗喻投降派或抗金阻力。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "但浩浩荡荡的江水冲破重重阻碍，奔腾向前。这既是眼前实景，又暗喻自己百折不回的意志……其所喻当指敌人。在词人潜意识中，当并指投降派。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "若言有寄托，则换头托意，当以江水东流喻正义所向也。……无数青山，词人既叹其遮住长安，更道出其遮不住东流，则其所喻当指敌人。在词人潜意识中，当并指投降派。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "江水东流符合自然规律，被赋予“天行健”与历史必然性的哲学意味。",
+        "“遮不住”与“毕竟”形成强烈语气转折，凸显词人坚定的政治信念。"
+      ],
+      "forbidden_assertions": [
+        "江水仅描写自然风景，毫无政治寓意。",
+        "青山实指江西某座具体山峰且无象征意义。",
+        "词人认为抗金事业已彻底失败且毫无希望。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_imagery_partridge",
+      "claim": "“山深闻鹧鸪”借鹧鸪啼声“行不得也哥哥”，渲染暮色苍茫中的愁苦氛围，暗示北伐受阻、壮志难酬的悲愤与无奈。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "鹧鸪：鸟名。传说其叫声如云“行不得也哥哥”，啼声凄苦。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "更哪堪闻乱山深处鹧鸪声声：“行不得也哥哥”。……鹧鸪声声，是呼唤词人莫忘南归之怀抱，还是勾起其志业未就之忠愤……但结笔写出一怀愁苦则可断言。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "鹧鸪意象将听觉感受与心理愁绪结合，深化了全词沉郁顿挫的基调。",
+        "“江晚”与“山深”共同构成封闭式意境，暗合词人内心的孤闷与压抑。"
+      ],
+      "forbidden_assertions": [
+        "鹧鸪叫声代表欢快喜悦或田园闲适。",
+        "词人此时心情轻松愉悦，毫无政治愁绪。",
+        "鹧鸪仅作为南方常见鸟类出现，无文化隐喻。"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_yugutai",
+      "claim": "“郁孤台”位于今江西省赣州市城区西北部贺兰山顶，又称望阙台，因“隆阜郁然，孤起平地数丈”得名。唐代李勉曾登临北望并改名“望阙”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "郁孤台：今江西省赣州市城区西北部贺兰山顶，又称望阙台，因“隆阜郁然，孤起平地数丈”得名。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“唐李勉为虔州（即赣州）剌史时，登临北望，慨然曰：‘余虽不及子牟 ，而心在魏阙一也。’改郁孤为望阙。”",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“郁孤台”三字在字面上具有“沉郁”、“孤峙”的审美特质，契合词人满腔磅礴之激愤。"
+      ],
+      "forbidden_assertions": [
+        "郁孤台是虚构的地名。",
+        "郁孤台得名于其周围长满忧郁的孤树。"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_qingjiang",
+      "claim": "“清江”旧指赣江与袁江合流处，在词中即指赣江。章、贡二水汇为赣江北流，经造口等地注入长江。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "清江：赣江与袁江合流处旧称清江。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "清江即赣江。章、贡二水抱赣州城而流 ，至郁孤台下汇为赣江北流，经造口、万安、太和、吉州……入鄱阳湖注入。清江长江",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人将眼前的赣江水称为清江水，既是写实，也借其清澈与奔流不息寄托情怀。"
+      ],
+      "forbidden_assertions": [
+        "清江是指一条完全独立于赣江之外的北方河流。"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_chouyu",
+      "claim": "“愁余”意为“使我发愁”，语本《楚辞·九歌·湘夫人》“目眇眇兮愁予”。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "愁余：使我发愁。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“正愁余”，语本《楚辞·九歌·湘夫人 》：“目眇眇兮愁予。”楚骚哀怨要眇之色调，愈添意境沉郁凄迷之氛围。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人化用楚辞经典句式，使词作带上了楚骚深沉哀怨的文学色彩。"
+      ],
+      "forbidden_assertions": [
+        "“愁余”意为“我多余的忧愁”。"
+      ]
+    },
+    {
+      "claim_id": "claim_09_alternative_reading_west_east",
+      "claim": "关于“西北是长安”和“毕竟江流去”，不同版本存在异文。版本三作“西北望长安”和“毕竟东流去”。赣江实际向北流，词中写“东流去”或“江流去”重在抒发胸怀，不必拘泥于实际地理方向。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_version_3",
+          "text": "西北望长安……毕竟东流去",
+          "locator": "原文版本三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "赣江北流，此言东流，词人写胸怀，正不必拘泥。……“西北望长安，可怜无数山。”长安指汴京，西北望犹言直北望。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“东流去”符合中国文化中“百川东到海”的传统象征，比喻正义所向与不可阻挡的历史潮流。"
+      ],
+      "forbidden_assertions": [
+        "赣江在地理上是完全向东流淌的。",
+        "“西北是长安”与“西北望长安”在所有古籍版本中完全一致。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明词牌、作者、朝代及创作时间地点，建立作品基本认知框架。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋辛弃疾任职江西时所作《菩萨蛮》",
+        "淳熙年间辛弃疾途经造口题壁之词"
+      ],
+      "forbidden_claims": [
+        "此词为北宋作品",
+        "作者非辛弃疾"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解“行人泪”背后的建炎南渡史实与隆祐太后造口之难，把握词作历史纵深。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借清江水隐喻南渡百姓与朝廷的苦难血泪",
+        "由造口旧事引发对国势危殆的沉痛追怀"
+      ],
+      "forbidden_claims": [
+        "“行人泪”仅指个人离愁别绪",
+        "与南宋初年金兵南侵史实无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_historical_context"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "掌握“长安”“愁余”“郁孤台”“清江”等词的古义、借代用法及地理背景。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“长安”借指北宋故都汴京",
+        "“愁余”即“使我发愁”，源自楚辞",
+        "“郁孤台”因地势隆阜郁然、孤起平地而得名"
+      ],
+      "forbidden_claims": [
+        "“长安”实指唐代都城西安",
+        "“愁余”意为“余愁”（我的忧愁）",
+        "“郁孤台”是虚构的文学意象"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_geography",
+        "claim_06_lexical_yugutai",
+        "claim_07_lexical_qingjiang",
+        "claim_08_lexical_chouyu"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "识别“清江水”“无数山”“江流去”作为核心比兴意象，明确其物理属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以自然山水为比兴载体",
+        "江水与青山构成视觉与心理的双重对照"
+      ],
+      "forbidden_claims": [
+        "意象仅为白描风景，无深层寄托",
+        "混淆江水与青山的象征指向"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor_river_mountain"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_05_bridge",
+      "category": "mapping_bridge",
+      "description": "阐明江水冲破群山与抗金复国意志、投降派阻力之间的映射逻辑与情感张力。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“遮不住”与“毕竟”凸显历史必然性与词人坚定信念",
+        "青山象征现实政治阻碍，江水象征不可阻挡的正义潮流"
+      ],
+      "forbidden_claims": [
+        "江水东流仅表示时光流逝",
+        "青山象征祖国大好河山"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor_river_mountain"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_06_boundary",
+      "category": "interpretive_boundary",
+      "description": "把握“鹧鸪”啼声的愁苦象征，理解其寄托的多义性与情感表达边界。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "鹧鸪鸣声谐音“行不得也哥哥”，强化北伐受阻的无奈",
+        "暮色江晚与深山鹧鸪共同营造沉郁凄迷的意境"
+      ],
+      "forbidden_claims": [
+        "鹧鸪叫声代表欢快喜悦",
+        "词人此时心境轻松，毫无愁苦"
+      ],
+      "source_claim_ids": [
+        "claim_05_imagery_partridge"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "概括全词以景寓情、比兴寄托的爱国主旨与沉郁顿挫的艺术风格。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借眼前景道心上事，将家国之悲融入山水意象",
+        "全词一波三折，兼具神理高绝与沉郁顿挫之美"
+      ],
+      "forbidden_claims": [
+        "全词主旨为儿女情长或田园闲适",
+        "艺术手法直白浅露，无比兴寄托"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_historical_context",
+        "claim_04_metaphor_river_mountain",
+        "claim_05_imagery_partridge"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解不同版本中“是长安/望长安”及“江流去/东流去”的异文，并理解其地理与文学寄托的合理性。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "版本三中作‘西北望长安’与‘毕竟东流去’",
+        "赣江虽北流，词中写‘东流’或‘江流’重在抒发历史必然性的胸怀，不必拘泥于实际流向"
+      ],
+      "forbidden_claims": [
+        "所有古籍版本均无异文",
+        "词中的‘东流去’在地理上完全写实"
+      ],
+      "source_claim_ids": [
+        "claim_09_alternative_reading_west_east"
+      ],
+      "line_ids": [
+        "l02",
+        "l03"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_river",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "冲破群山阻碍、浩荡东流的江水"
+      ],
+      "target_domain": [
+        "抗金复国的正义力量与词人百折不回的坚定意志"
+      ],
+      "bridges": [
+        "江水东流符合自然规律，契合“天行健”与历史必然性；“遮不住”与“毕竟”凸显不可阻挡之势，暗喻收复中原的信念终将实现。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_river_mountain"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅指时光流逝或人生愁绪的自然流淌，无明确政治指向。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_mountain",
+      "line_ids": [
+        "l02",
+        "l03"
+      ],
+      "source_domain": [
+        "重重叠叠、遮挡视线的无数青山"
+      ],
+      "target_domain": [
+        "抗金复国的现实阻力、投降派势力或朝廷妥协政策"
+      ],
+      "bridges": [
+        "青山物理上遮蔽了眺望长安（汴京）的视线，转化为政治与心理上的阻碍投射；“遮不住”的反衬强化了阻力虽大却终将被突破的寓意。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_river_mountain"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "实指赣南群山地貌，仅作为地理屏障与自然景观存在。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_partridge",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "深山暮色中啼鸣的鹧鸪鸟"
+      ],
+      "target_domain": [
+        "北伐受阻、壮志难酬的悲愤与朝廷妥协带来的无奈愁绪"
+      ],
+      "bridges": [
+        "鹧鸪鸣声谐音“行不得也哥哥”，在江晚山深的封闭意境中触发听觉联想，将自然鸟鸣转化为对时局艰难、恢复无望的深沉叹息。"
+      ],
+      "context_claim_ids": [
+        "claim_05_imagery_partridge"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅渲染南方山林自然氛围，或表达羁旅思归之情，无特定政治隐喻。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰展示词牌、题目、作者及朝代，配合书法字体逐句呈现原词，确保标点与句序准确。",
+      "acceptable_realizations": [
+        "开场题签后分句淡入呈现",
+        "旁白朗读时同步显示标准字幕"
+      ],
+      "forbidden_realizations": [
+        "漏掉词牌或作者信息",
+        "擅自改动字词（如将“是长安”改为“望长安”）而不作版本说明"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_text_reveal",
+      "semantic_role": "opening_title_and_text_reveal"
+    },
+    {
+      "requirement_id": "vis_02_historical_context",
+      "description": "以水墨动画或历史画卷形式展现建炎南渡、隆祐太后仓皇南逃至造口的场景，与“清江水”“行人泪”意象叠化。",
+      "acceptable_realizations": [
+        "江水波纹中隐现逃难舟船与百姓剪影",
+        "画面色调转为沉郁灰蓝，配合低沉弦乐"
+      ],
+      "forbidden_realizations": [
+        "呈现繁华太平的江南市井景象",
+        "将“行人泪”具象化为现代人物哭泣"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "historical_flashback_and_tears",
+      "semantic_role": "historical_flashback_and_tears"
+    },
+    {
+      "requirement_id": "vis_03_metaphor_visualization",
+      "description": "动态呈现群山连绵遮挡视线，而江水奔涌冲破山峦向东流去的画面，突出“遮不住”与“毕竟”的视觉张力。",
+      "acceptable_realizations": [
+        "镜头由仰视群山转为俯视江流，水流以强劲笔触冲破画面构图",
+        "使用冷暖色调对比：青山偏冷暗，江水偏亮白"
+      ],
+      "forbidden_realizations": [
+        "江水静止无波，群山低矮平缓",
+        "画面呈现江水倒流或停滞状态"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_river",
+        "meta_02_mountain"
+      ],
+      "expected_phase": "river_breaking_mountains",
+      "semantic_role": "river_breaking_mountains"
+    },
+    {
+      "requirement_id": "vis_04_partridge_sorrow",
+      "description": "画面转入江畔暮色，深山林木幽暗，配合鹧鸪啼鸣音效与字幕提示，营造沉郁凄迷的收束氛围。",
+      "acceptable_realizations": [
+        "夕阳余晖渐暗，林间飞鸟掠过，音效突出“行不得也哥哥”的凄切",
+        "镜头缓慢拉远，人物剪影融入苍茫暮色"
+      ],
+      "forbidden_realizations": [
+        "画面明亮欢快，鸟鸣清脆悦耳",
+        "鹧鸪形象卡通化或拟人化搞笑处理"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_partridge"
+      ],
+      "expected_phase": "dusk_partridge_and_sorrow",
+      "semantic_role": "dusk_partridge_and_sorrow"
+    },
+    {
+      "requirement_id": "vis_05_thematic_synthesis",
+      "description": "全词意境收束，以辛弃疾登高远眺的剪影与奔流江水融合，点明爱国主旨与比兴手法，作为教学总结。",
+      "acceptable_realizations": [
+        "画面叠加核心意象（江水、青山、鹧鸪）的半透明图层",
+        "屏幕侧边浮现“比兴寄托”“沉郁顿挫”等关键词"
+      ],
+      "forbidden_realizations": [
+        "直接播放现代战争画面或无关历史影像",
+        "使用过度煽情或娱乐化的背景音乐"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [
+        "meta_01_river",
+        "meta_02_mountain",
+        "meta_03_partridge"
+      ],
+      "expected_phase": "thematic_synthesis",
+      "semantic_role": "thematic_synthesis"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_181_01",
+      "description": "公元1129年（建炎三年），金兵分两路大举南侵，西路金兵一路追击隆祐太后。通常认为太后被追击至造口一带（具体追击地点史书所载存在多说），情势危急，被迫弃舟登岸逃往虔州。这一历史事件成为词人后来创作的起兴背景。",
+      "audio_triggers": [
+        "建炎三年",
+        "金兵南侵",
+        "隆祐太后",
+        "造口",
+        "弃舟"
+      ],
+      "visual_evidence": [
+        "宋代兵马追击的紧张画面",
+        "太后乘农夫肩舆狼狈逃难的场景",
+        "江边惊恐的随从与难民",
+        "禁止出现现代建筑或非宋代服饰"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣声",
+        "人群惊慌呼喊声",
+        "杂乱的脚步声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_181_02",
+      "description": "辛弃疾早年曾在北方起义抗金，南归后却屡遭主和派排挤，未能实现恢复中原的毕生抱负，政治处境长期被边缘化，壮志难酬。",
+      "audio_triggers": [
+        "南归",
+        "排挤",
+        "壮志难酬",
+        "主和派"
+      ],
+      "visual_evidence": [
+        "南宋朝廷内的文官争论场面",
+        "辛弃疾面容严肃、无奈的神情",
+        "孤灯下查看地图的画面"
+      ],
+      "sound_evidence": [
+        "朝堂上的争论声",
+        "沉重的叹息声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_181_03",
+      "description": "公元1175至1176年间（淳熙二、三年），辛弃疾任江西提点刑狱，在巡回视察途中驻节赣州，途经造口，俯瞰昼夜奔腾的赣江（清江）之水，触景生情。",
+      "audio_triggers": [
+        "提点刑狱",
+        "巡回往复",
+        "途经造口",
+        "俯瞰"
+      ],
+      "visual_evidence": [
+        "身着南宋官员服饰的辛弃疾",
+        "伫立在造口江畔",
+        "俯瞰滔滔江水，周围重峦叠嶂"
+      ],
+      "sound_evidence": [
+        "滔滔奔流的江水声",
+        "江风声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_181_04",
+      "description": "辛弃疾回想起四十七年前金兵肆虐的历史，结合自己壮志难酬的处境与中原未复的现实，在愁苦与孤愤中于造口壁上写下《菩萨蛮》一词，以江水东流比喻不屈的意志，以鹧鸪啼声烘托无尽的愁思。",
+      "audio_triggers": [
+        "写下这首词",
+        "题词于壁",
+        "菩萨蛮",
+        "鹧鸪"
+      ],
+      "visual_evidence": [
+        "辛弃疾在墙壁上挥毫题词",
+        "书法字体苍劲有力",
+        "画面拉远，江晚时分暮色苍茫",
+        "切忌将词中的鹧鸪等意象拟人化为具体历史人物"
+      ],
+      "sound_evidence": [
+        "毛笔在墙壁上的书写声",
+        "鹧鸪凄苦的叫声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "郁孤台下清江水，",
+      "pronunciation": "yù gū tái xià qīng jiāng shuǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "中间多少行人泪。",
+      "pronunciation": "zhōng jiān duō shǎo xíng rén lèi.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "西北是长安，",
+      "pronunciation": "xī běi shì cháng ān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "可怜无数山。",
+      "pronunciation": "kě lián wú shù shān.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青山遮不住，",
+      "pronunciation": "qīng shān zhē bù zhù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "毕竟江流去。",
+      "pronunciation": "bì jìng jiāng liú qù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "江晚正愁余，",
+      "pronunciation": "jiāng wǎn zhèng chóu yú,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山深闻鹧鸪。",
+      "pronunciation": "shān shēn wén zhè gū.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "菩萨蛮",
+      "pronunciation": "pú sà mán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "辛弃疾",
+      "pronunciation": "xīn qì jí",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "隆祐太后",
+      "pronunciation": "lóng yòu tài hòu",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "造口",
+      "pronunciation": "zào kǒu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "郁孤台",
+      "pronunciation": "yù gū tái",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "虔州",
+      "pronunciation": "qián zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "鹧鸪",
+      "pronunciation": "zhè gū",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_181_01",
+      "source_event_id": "evt_181_01",
+      "target_event_id": "evt_181_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_181_02",
+      "source_event_id": "evt_181_02",
+      "target_event_id": "evt_181_04",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_181_03",
+      "source_event_id": "evt_181_03",
+      "target_event_id": "evt_181_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_181_04",
+      "source_event_id": "evt_181_01",
+      "target_event_id": "evt_181_03",
+      "relation_type": "BEFORE",
+      "importance": 1
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/181.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/181.json",
+      "event_gold": "gold_annotation/songci_300/181.json"
+    },
+    "original_sample_id": "181",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "035_songci_048_2a82bd7af664",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "临江仙",
+    "author": "晏几道",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "梦后楼台高锁，酒醒帘幕低垂。\n去年春恨却来时，落花人独立，微雨燕双飞。\n记得小苹初见，两重心字罗衣。\n琵琶弦上说相思，当时明月在，曾照彩云归。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "梦后楼台高锁，酒醒帘幕低垂。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "去年春恨却来时，落花人独立，微雨燕双飞。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "记得小苹初见，两重心字罗衣。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "琵琶弦上说相思，当时明月在，曾照彩云归。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "2a82bd7af664648d6b945eef",
+    "global_index": 35
+  }
+}

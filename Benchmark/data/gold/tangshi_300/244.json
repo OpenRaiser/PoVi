@@ -1,0 +1,630 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_244",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《相思》为唐代诗人王维所作的五言绝句，该诗另有版本题名《相思子》《江上赠李龟年》，是眷怀友人的作品，创作于天宝年间。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "相思 王维 唐 五言绝句",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "红豆生南国，春来发几枝。愿君多采撷，此物最相思。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "⑴相思：题一作“相思子”，又作“江上赠李龟年”。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "此诗一作《江上赠李龟年》，可见为怀念友人之作。据载，天宝末年安史之乱时，李龟年流落江南时曾演唱此诗，由此可以证明此诗为天宝年间所作。",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该诗是王维写给友人李龟年的赠诗",
+        "该诗属于盛唐天宝时期的作品"
+      ],
+      "forbidden_assertions": [
+        "将该诗作者误记为其他唐代诗人",
+        "将该诗体裁判定为律诗或七言绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_text_variants",
+      "claim": "该诗存在多处异文：“春来发几枝”一作“秋来发故枝”；“愿君多采撷”一作“劝君休采撷”或“劝君多采撷”；宋人编《万首唐人绝句》中“多”字作“休”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "春来发几枝：一作“秋来发故枝”。愿君多采撷：一作“劝君休采撷”。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "⑶“春来”句：一作“秋来发故枝”。⑷“愿君”句：一作“劝君休采撷”。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "宋人编《万首唐人绝句》，此句“多”字作“休”。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "不同版本的异文各有其情感表达逻辑，“休采撷”版本侧重因怕相思而回避的情绪",
+        "通行本采用“春来发几枝”“愿君多采撷”的表述更符合全诗热情饱满的基调"
+      ],
+      "forbidden_assertions": [
+        "将异文直接当作唯一正确原文不加说明",
+        "否定“多采撷”版本的正统性"
+      ]
+    },
+    {
+      "claim_id": "claim_03_theme_interpretation",
+      "claim": "该诗借咏红豆寄寓相思之情，这里的相思不限于男女情爱，也包含朋友之间的深挚眷念。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "而“相思”不限于男女情爱范围，朋友之间也有相思的，如苏李诗“行人难久留，各言长相思”即著例。此诗题一作《江上赠李龟年》，可见诗中抒写的是眷念朋友的情绪。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "所谓“相思”，不仅局限于男女情爱，亦可以用在朋友之间。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该诗的相思主题具有普适性，可用来表达各类真挚的思念情绪",
+        "诗人没有直接说自己思念友人，而是嘱友人多采红豆，婉曲表达自身的相思之重"
+      ],
+      "forbidden_assertions": [
+        "认定该诗只能解读为男女爱情相思，完全排除友人情谊的指向",
+        "直接点明王维对李龟年的具体思念事件细节"
+      ]
+    },
+    {
+      "claim_id": "claim_04_red_bean_allusion",
+      "claim": "红豆又名相思子，是生长在江南地区的植物，果实鲜红浑圆，传说源自丈夫战死边疆的女子哭死于树下化为红豆的典故，因此被古人赋予相思的文化含义。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "红豆：又名相思子，一种生在江南地区的植物，结出的籽像豌豆而稍扁，呈鲜红色。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "红豆产于南方，结实鲜红浑圆，晶莹如珊瑚，南方人常用以镶嵌饰物。传说古代有一位女子，因丈夫死在边地，哭于树下而死，化为红豆，于是人们又称呼它为“相思子”。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "红豆在唐代已经是公认的相思意象载体",
+        "南国既是红豆的产地，也是友人李龟年流落的地方"
+      ],
+      "forbidden_assertions": [
+        "将红豆的传说典故当作完全真实的历史事件进行科普",
+        "错误说明红豆的产地为北方地区"
+      ]
+    },
+    {
+      "claim_id": "claim_05_artistic_feature",
+      "claim": "全诗以红豆为核心意象，句句不离红豆，语浅情深，朴素自然，是唐代五言绝句的上乘佳作。起句因物起兴，次句设问寄语，第三句暗示珍重友谊，末句一语双关。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这是借咏物而寄相思的诗，是眷怀友人之作。起句因物起兴，语虽单纯，却富于想象；接着以设问寄语，意味深长地寄托情思；第三句暗示珍重友谊，表面似乎嘱人相思，背面却深寓自身相思之重；最后一语双关，既切中题意，又关合情思，妙笔生花，婉曲动人。全诗情调健美高雅，怀思饱满奔放，语言朴素无华，韵律和谐柔美。可谓绝句的上乘佳品。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全诗洋溢着的热情，青春的气息，满腹情思始终未曾直接表白，句句话儿不离红豆，而又“超以象外，得其圜中”，把相思之情表达得入木三分。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "王维擅长用朴素的日常意象表达深厚情感，符合其诗风特点",
+        "该诗双关手法的运用极为精妙，末句“此物最相思”同时切红豆别名和相思之情两层含义"
+      ],
+      "forbidden_assertions": [
+        "贬低该诗的艺术价值，认为其语言过于浅白没有韵味"
+      ]
+    },
+    {
+      "claim_id": "claim_06_author_profile",
+      "claim": "作者王维，字摩诘，号摩诘居士，盛唐著名诗人、画家，被誉为“诗佛”，精通音律，苏轼赞其“诗中有画，画中有诗”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_author_1",
+          "text": "王维（701—761），字摩诘，号摩诘居士，盛唐著名诗人、画家，被誉为“诗佛”。...精通音律...苏轼赞其“诗中有画，画中有诗”。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "王维精通音律的背景与其诗作被李龟年等乐工演唱、流传有密切关系"
+      ],
+      "forbidden_assertions": [
+        "认为王维只写山水田园诗，不写咏物寄情诗"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《相思》的题名、作者、朝代、体裁、别名与基本创作背景属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《相思》是盛唐诗人王维创作的一首著名五言绝句，也叫《江上赠李龟年》",
+        "这首诗是王维天宝年间写给友人李龟年的赠诗"
+      ],
+      "forbidden_claims": [
+        "《相思》是李白所作的七言律诗",
+        "该诗是宋代的作品"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_lexical",
+      "category": "lexical",
+      "description": "掌握诗中重点字词“红豆”“采撷”“相思”的含义，以及全诗现存的异文情况。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "采撷的意思就是采摘",
+        "红豆又叫相思子，是江南特产的植物"
+      ],
+      "forbidden_claims": [
+        "“采撷”读作xié以外的读音",
+        "“红豆”指红色的豆子的泛称"
+      ],
+      "source_claim_ids": [
+        "claim_02_text_variants",
+        "claim_04_red_bean_allusion"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_historical_context",
+      "category": "historical_context",
+      "description": "了解该诗的创作相关背景，安史之乱时李龟年流落江南演唱此诗的史实。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "安史之乱中李龟年流落到江南，曾经演唱过王维的这首《相思》",
+        "这首诗是王维写给音乐家友人李龟年的赠别思念之作"
+      ],
+      "forbidden_claims": [
+        "该诗是王维晚年隐居辋川时期创作的山水诗",
+        "该诗是王维写给自己妻子的爱情诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_04_metaphor_source",
+      "category": "metaphor_source",
+      "description": "掌握红豆被赋予相思含义的典故来源与文化背景。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "古代传说中思念丈夫而死的女子化为红豆，所以红豆就被叫做相思子",
+        "从唐代开始红豆就成为了中国人表达思念的经典意象"
+      ],
+      "forbidden_claims": [
+        "红豆的相思含义是近代才被赋予的",
+        "红豆的传说完全是真实发生的历史事件"
+      ],
+      "source_claim_ids": [
+        "claim_04_red_bean_allusion"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_05_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确理解全诗两句的字面翻译含义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "红豆生长在南方，春天来了不知道长出多少新枝。希望你多多采摘它，因为它最能寄托相思之情。"
+      ],
+      "forbidden_claims": [
+        "红豆生长在北方的土地上",
+        "希望你不要采摘红豆，免得勾起相思"
+      ],
+      "source_claim_ids": [
+        "claim_02_text_variants"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确该诗的相思主题不限于男女情爱，也包含友人间的深挚情谊。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "王维这首诗里的相思是朋友之间互相惦念的真挚感情，不只是爱情",
+        "中国古典诗歌里的相思本来就包含多种人与人之间的真挚思念"
+      ],
+      "forbidden_claims": [
+        "这首诗只能用来表达男女之间的爱情思念，不能用来表达友情",
+        "王维写这首诗的时候心里完全没有想念自己的友人"
+      ],
+      "source_claim_ids": [
+        "claim_03_theme_interpretation"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "掌握全诗语浅情深、借咏物寄情思的整体艺术特色。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "整首诗没有直接说我多么想你，但是每一句都在表达对友人的思念，非常委婉动人",
+        "王维用最朴素的语言写出了最深沉的感情，所以这首诗流传了一千多年"
+      ],
+      "forbidden_claims": [
+        "这首诗语言太简单了，没有什么艺术价值",
+        "这首诗把所有的思念都直白说出来了，没有余味"
+      ],
+      "source_claim_ids": [
+        "claim_05_artistic_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解“多采撷”与“休采撷”在情感表达上的不同艺术效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“多”字表现出热情饱满、一往情深的情调；“休”字则反衬离情之苦，因相思转怕相思。"
+      ],
+      "forbidden_claims": [
+        "“休采撷”是后人抄写错误，没有任何文学欣赏价值"
+      ],
+      "source_claim_ids": [
+        "claim_02_text_variants"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_red_bean_as_affection",
+      "line_ids": [
+        "l01",
+        "l02"
+      ],
+      "source_domain": [
+        "红豆（相思子），生长于南国、果实鲜红浑圆的植物籽粒"
+      ],
+      "target_domain": [
+        "人与人之间深挚、纯粹的相思情谊，包括友人眷念、男女情爱等各类真挚思念情绪"
+      ],
+      "bridges": [
+        "红豆的别名直接为“相思子”，名称上与相思直接关联",
+        "古代女子思念亡夫哭死于树下化为红豆的典故，赋予了红豆承载思念的文化属性",
+        "唐代诗歌创作中已经形成用红豆关合相思之情的通用创作传统"
+      ],
+      "context_claim_ids": [
+        "claim_03_theme_interpretation",
+        "claim_04_red_bean_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "该意象也可被解读为赤诚纯粹的友情的象征，对应诗中赠李龟年的友人主题",
+        "也可将红豆解读为爱情相思的专属载体，适配后世很多爱情场景下的诗歌使用"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_poem_show",
+      "description": "开场清晰呈现《相思》的题名、作者、朝代信息与完整全诗文本，无错字漏字。",
+      "acceptable_realizations": [
+        "古风题签样式展示标题作者，随后逐行弹出全诗字幕配合朗读",
+        "水墨风格背景上逐步浮现完整诗文"
+      ],
+      "forbidden_realizations": [
+        "出现错字，比如把红豆写成红小豆，把采撷写成采摘",
+        "漏掉诗句，打乱诗句顺序"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_recitation",
+      "semantic_role": "opening_poem_recitation"
+    },
+    {
+      "requirement_id": "vis_02_southern_red_bean_growth",
+      "description": "展示南国春日红豆树生长的场景，特写鲜红浑圆的红豆果实。",
+      "acceptable_realizations": [
+        "江南春日烟雨中的红豆林镜头，特写枝头上挂着的鲜红色红豆",
+        "动画演示红豆从发芽到结果的生长过程"
+      ],
+      "forbidden_realizations": [
+        "把红豆树画成北方的针叶林",
+        "把红豆果实画成大颗的红色苹果"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_red_bean_as_affection"
+      ],
+      "expected_phase": "red_bean_origin_scene",
+      "semantic_role": "red_bean_origin_scene"
+    },
+    {
+      "requirement_id": "vis_03_allusion_storytelling",
+      "description": "简要展示红豆相思子的典故传说画面，说明红豆被赋予相思含义的由来。",
+      "acceptable_realizations": [
+        "淡彩风格的小动画演示古代女子思念丈夫的场景，随后红豆树发芽结果",
+        "配文字说明红豆别名相思子的文化背景"
+      ],
+      "forbidden_realizations": [
+        "过度渲染恐怖悲情的画面，不符合全诗雅致的基调",
+        "把传说当作真实历史事件进行严肃科普"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_red_bean_as_affection"
+      ],
+      "expected_phase": "allusion_introduction",
+      "semantic_role": "allusion_introduction"
+    },
+    {
+      "requirement_id": "vis_04_friendship_miss_scene",
+      "description": "展示王维思念流落江南的友人李龟年的场景，呼应赠友人的创作背景。",
+      "acceptable_realizations": [
+        "王维在北方遥望南方的画面，手中拿着红豆，托人带给远方的友人",
+        "李龟年在江南演唱这首诗的历史场景还原"
+      ],
+      "forbidden_realizations": [
+        "出现不符合唐代历史的服饰、器物",
+        "直接把场景画成男女情人送红豆的爱情场景，完全忽略友人主题"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_red_bean_as_affection"
+      ],
+      "expected_phase": "affection_expression_scene",
+      "semantic_role": "affection_expression_scene"
+    },
+    {
+      "requirement_id": "vis_05_artistic_summary",
+      "description": "最后总结全诗语浅情深的艺术特色，点明其作为千古名诗的地位。",
+      "acceptable_realizations": [
+        "水墨山水背景上滚动核心赏析文字，搭配轻柔的古典音乐",
+        "展示后世不同版本的《相思》书法作品"
+      ],
+      "forbidden_realizations": [
+        "出现和王维诗风完全不符的现代流行元素",
+        "错误引用苏轼评价王维的其他诗句来介绍这首诗"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "artistic_feature_summary",
+      "semantic_role": "artistic_feature_summary"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_244_01",
+      "description": "盛唐天宝年间，王维与友人（通常认为是著名乐师李龟年）交情深厚。友人可能身在江南或即将前往南国，王维对其心怀牵挂。",
+      "audio_triggers": [
+        "天宝年间",
+        "李龟年",
+        "交情深厚",
+        "前往江南"
+      ],
+      "visual_evidence": [
+        "唐代服饰",
+        "文人交往",
+        "送别或思念场景",
+        "避免出现战乱萧条的景象"
+      ],
+      "sound_evidence": [
+        "交谈声",
+        "古琴或琵琶等唐代乐器声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_244_02",
+      "description": "王维写下绝句《相思》（一作《江上赠李龟年》）。通常认为此诗作于天宝年间，诗人借南方特产红豆及其蕴含的相思意象，委婉表达对远方友人的深挚眷念与珍重之意。",
+      "audio_triggers": [
+        "写下相思",
+        "江上赠李龟年",
+        "借物抒情",
+        "红豆"
+      ],
+      "visual_evidence": [
+        "唐代书案",
+        "王维挥毫书写诗卷",
+        "案头或画中可暗示红豆的形象",
+        "室内安静的环境"
+      ],
+      "sound_evidence": [
+        "毛笔书写摩擦声",
+        "低声吟咏"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_244_03",
+      "description": "据历史记载，天宝末年爆发安史之乱，李龟年流落江南，期间曾多次凄然演唱此诗。此事侧面印证了该诗为天宝年间所作，且在当时具有极高的流传度。",
+      "audio_triggers": [
+        "安史之乱",
+        "流落江南",
+        "演唱此诗",
+        "印证"
+      ],
+      "visual_evidence": [
+        "战乱荒凉的时代背景暗示",
+        "流落江南的老年乐师",
+        "悲凉凄清的弹唱场景"
+      ],
+      "sound_evidence": [
+        "悲凉凄楚的歌声",
+        "丝竹伴奏声"
+      ],
+      "importance": 2
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "红豆生南国，",
+      "pronunciation": "hóng dòu shēng nán guó，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "春来发几枝。",
+      "pronunciation": "chūn lái fā jǐ zhī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "愿君多采撷，",
+      "pronunciation": "yuàn jūn duō cǎi xié，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此物最相思。",
+      "pronunciation": "cǐ wù zuì xiāng sī。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "相思",
+      "pronunciation": "xiāng sī",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "王维",
+      "pronunciation": "wáng wéi",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "李龟年",
+      "pronunciation": "lǐ guī nián",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "江上赠李龟年",
+      "pronunciation": "jiāng shàng zèng lǐ guī nián",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "相思子",
+      "pronunciation": "xiāng sī zǐ",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "天宝",
+      "pronunciation": "tiān bǎo",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "安史之乱",
+      "pronunciation": "ān shǐ zhī luàn",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_244_01",
+      "source_event_id": "evt_244_01",
+      "target_event_id": "evt_244_02",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_244_02",
+      "source_event_id": "evt_244_02",
+      "target_event_id": "evt_244_03",
+      "relation_type": "VALIDATES",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/244.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/244.json",
+      "event_gold": "gold_annotation/tangshi_300/244.json"
+    },
+    "original_sample_id": "244",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

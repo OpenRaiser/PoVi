@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "086_tangshi_057_e4a240ecc449",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "夜归鹿门山歌",
+    "author": "孟浩然",
+    "dynasty": "唐",
+    "form": "七言古诗",
+    "text": "山寺鸣钟昼已昏，渔梁渡头争渡喧。\n人随沙岸向江村，余亦乘舟归鹿门。\n鹿门月照开烟树，忽到庞公栖隐处。\n岩扉松径长寂寥，唯有幽人自来去。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "山寺鸣钟昼已昏，渔梁渡头争渡喧。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "人随沙岸向江村，余亦乘舟归鹿门。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "鹿门月照开烟树，忽到庞公栖隐处。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "岩扉松径长寂寥，唯有幽人自来去。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "e4a240ecc449ca84bb2292b3",
+    "global_index": 86
+  }
+}

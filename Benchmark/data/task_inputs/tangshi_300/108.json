@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "011_tangshi_108_30f72dc176b1",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "送杜少府之任蜀州",
+    "author": "王勃",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "城阙辅三秦，风烟望五津。\n与君离别意，同是宦游人。\n海内存知己，天涯若比邻。\n无为在歧路，儿女共沾巾。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "城阙辅三秦，风烟望五津。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "与君离别意，同是宦游人。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "海内存知己，天涯若比邻。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "无为在歧路，儿女共沾巾。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "30f72dc176b16b465448f529",
+    "global_index": 11
+  }
+}

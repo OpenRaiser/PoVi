@@ -1,0 +1,54 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "100_songci_202_ed3fb5ae9678",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "风入松",
+    "author": "俞国宝",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "一春长费买花钱，日日醉湖边。\n玉骢惯识西湖路，骄嘶过、沽酒楼前。\n红杏香中箫鼓，绿杨影里秋千。\n暖风十里丽人天。\n花压鬓云偏。\n画船载取春归去，余情寄湖水湖烟。\n明日重扶残醉，来寻陌上花钿。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "一春长费买花钱，日日醉湖边。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "玉骢惯识西湖路，骄嘶过、沽酒楼前。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "红杏香中箫鼓，绿杨影里秋千。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "暖风十里丽人天。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "花压鬓云偏。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "画船载取春归去，余情寄湖水湖烟。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "明日重扶残醉，来寻陌上花钿。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "ed3fb5ae9678397c35e66760",
+    "global_index": 100
+  }
+}

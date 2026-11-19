@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "041_songci_003_c44e373fcd51",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "苏幕遮",
+    "author": "范仲淹",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "碧云天，黄叶地，秋色连波，波上寒烟翠。\n山映斜阳天接水，芳草无情，更在斜阳外。\n黯乡魂，追旅思，夜夜除非，好梦留人睡。\n明月楼高休独倚，酒入愁肠，化作相思泪。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "碧云天，黄叶地，秋色连波，波上寒烟翠。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "山映斜阳天接水，芳草无情，更在斜阳外。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "黯乡魂，追旅思，夜夜除非，好梦留人睡。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "明月楼高休独倚，酒入愁肠，化作相思泪。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "c44e373fcd51d14dedcf71b9",
+    "global_index": 41
+  }
+}

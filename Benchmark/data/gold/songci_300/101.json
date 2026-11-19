@@ -1,0 +1,934 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_101",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人周邦彦所作，词牌为《六丑》，属婉约派长调，作者精通音律并创制此调。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：六丑\n作者：周邦彦\n朝代：宋\n体裁：词\n词牌：六丑",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "周邦彦（1056—1121）...北宋著名词人...婉约派集大成者...其创制的《六丑》《花犯》等新调丰富了词牌形式。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确标注本词为北宋婉约词代表作，作者为格律派宗师。",
+        "可提及《六丑》词牌为周邦彦自度曲，音律极难。"
+      ],
+      "forbidden_assertions": [
+        "将作者误标为唐代或豪放派词人。",
+        "称《六丑》为前人旧调或民间俗曲。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme",
+      "claim": "全词借蔷薇凋谢之景，抒发客居他乡、光阴虚掷的怅惘，核心主旨为“惜花即惜人”的物我交融之情。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词并非泛泛咏落花，而是抒发对花落后的“追惜”之情，更是对自己“光阴虚掷”的“追惜”之情。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "正是换单衣的时节，只恨客居异地，光阴白白地 流逝。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出词人将个人羁旅漂泊之感投射于落花，形成身世之叹。",
+        "教学可强调“追惜”二字贯穿全篇情感脉络。"
+      ],
+      "forbidden_assertions": [
+        "认为本词仅为单纯写景咏物，毫无个人身世寄托。",
+        "将“光阴虚掷”曲解为对具体政事或战事的感慨。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_metaphor_allusion",
+      "claim": "词中以“楚宫倾国”“钗钿”比喻蔷薇与落花，并化用唐代“红叶题诗”典故寄托落花之相思与眷恋。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "楚宫倾国：楚王宫里的美女，喻蔷薇花。倾国：美人，这里以之比落花。...钗钿堕处：花落处。...恐断红、尚有相思字：意指红花飘零时，对人间充满了依恋之情。用唐人卢渥和宫女在红叶上题诗的典故。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这里活用红叶题诗故事，借指飘零的花瓣。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可说明比喻将落花女性化、人格化，增强凄美与哀婉意境。",
+        "可指出典故的运用使自然景物承载了人文情感与历史联想。"
+      ],
+      "forbidden_assertions": [
+        "将“楚宫倾国”解释为实指楚王宫历史事件或政治隐喻。",
+        "认为“断红”仅指物理上的红色花瓣，完全剥离典故内涵。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lexical",
+      "claim": "“试酒”为宋代风俗，指农历三月末或四月初尝新酒，用以点明暮春初夏的时令背景。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "试酒：宋代风俗，农历三月末或四月初偿新酒。...这里用以指时令。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合宋代民俗讲解时令转换与词人心理变化的关联。",
+        "可说明“正”字点出节令更迭的当下性。"
+      ],
+      "forbidden_assertions": [
+        "将“试酒”解释为饮酒作乐、试剑或无关的祭祀活动。",
+        "忽略该词对全词时间背景的锚定作用。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_structure",
+      "claim": "词作上片侧重春归花谢之景与追问，下片转入东园寻花、人花互动及劝花莫去的深情，结构回环曲折。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "词作上片抒写春归花谢之景象。...词作下片着意刻画人惜花、花恋人的生动情景。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学可按上下片划分讲解层次，突出慢词铺叙展衍的特点。",
+        "可指出下片“长条惹客”“残英强簪”“漂流断红”构成情感递进的三叹。"
+      ],
+      "forbidden_assertions": [
+        "认为上下片内容割裂或叙事顺序颠倒。",
+        "忽略词中“问语”与“逆挽”手法的结构功能。"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_details",
+      "claim": "词中“过翼”指飞过的鸟；“桃蹊”指桃树下的路；“柳陌”指绿柳成荫的路；“巾帻”指头巾；“颤袅”指摇曳；“欹侧”指偏向一旁、向人表示依恋媚态。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "过翼：飞过的鸟。...桃蹊：桃树下的路。...柳陌：绿柳成荫的路。...强簪巾帻：勉强插戴在头巾上。巾帻：头巾。颤袅：摇曳。向人欹侧：向人表示依恋媚态。欹侧：偏向一旁。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这些词汇的精细训诂有助于还原词作中微观景物的动态美与拟人化神态。"
+      ],
+      "forbidden_assertions": [
+        "将“过翼”解释为飞机的机翼，或将“巾帻”解释为金属头盔。"
+      ]
+    },
+    {
+      "claim_id": "claim_07_allusion_chugong",
+      "claim": "“葬楚宫倾国”句中，本应说“吴宫”（化用《哭花》诗“夜来风雨葬西施”），但因格律所限，故借用“楚宫”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "《哭花》诗：“若是有情争不哭，夜来风雨葬西施。”这里本应说吴宫，但为律所限，故借用“楚宫”。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人在格律限制与典故借用之间进行了艺术妥协，以“楚宫”代指美女葬身之所。"
+      ],
+      "forbidden_assertions": [
+        "认为“楚宫倾国”是实指楚国历史上的某位特定王后。"
+      ]
+    },
+    {
+      "claim_id": "claim_08_six_chou_origin",
+      "claim": "关于词牌《六丑》的命名，周邦彦曾对宋徽宗解释为：此调犯六个宫调，皆声之美者，但极难歌唱；古时高阳氏有子六人，才华出众但相貌丑陋，故以此为比喻。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "问《六丑》之义，莫能对，急召邦彦问之。对曰：“此犯六调，皆声之美者，然绝难歌。昔高阳氏有子六人，才而丑，故以比。”",
+          "locator": "创作背景一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "《六丑》这一词牌名蕴含了音律上的复杂性与美学上的独特寄托。"
+      ],
+      "forbidden_assertions": [
+        "认为《六丑》是指六个长相丑陋的普通人，与音乐格律无关。"
+      ]
+    },
+    {
+      "claim_id": "claim_09_textual_variants",
+      "claim": "本词在不同版本中存在异文，如“怅客里”在版本二、版本五中作“恨客里”；“时叩窗槅”的“槅”在部分版本中写作“隔”；“渐朦胧暗碧”在版本二、三、四、五中作“渐蒙笼暗碧”。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_version_1",
+          "text": "怅客里、光阴虚掷...时叩窗槅...渐朦胧暗碧",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_version_2",
+          "text": "恨客里、光阴虚掷...时叩窗隔...渐蒙笼暗碧",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“怅”与“恨”在情感表达上略有深浅之别，“朦胧”与“蒙笼”在视觉意境上各有侧重。"
+      ],
+      "forbidden_assertions": [
+        "断定只有某一个版本是唯一正确的，全盘否定其他版本的异文。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋周邦彦自度曲《六丑》",
+        "宋代婉约派词人周邦彦的长调词作"
+      ],
+      "forbidden_claims": [
+        "作者为唐代诗人",
+        "词牌为前人旧调或豪放派作品"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_lexical",
+      "category": "lexical",
+      "description": "准确理解“试酒”“过翼”“窗槅”“巾帻”“桃蹊”“柳陌”等核心词汇的宋代民俗与字面义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“试酒”指暮春尝新酒习俗",
+        "“过翼”喻春去如飞鸟般迅速",
+        "“桃蹊柳陌”指桃柳夹道的路径"
+      ],
+      "forbidden_claims": [
+        "“试酒”为饮酒狂欢",
+        "“巾帻”指代官帽或兵器"
+      ],
+      "source_claim_ids": [
+        "claim_04_lexical",
+        "claim_06_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l05",
+        "l07",
+        "l10"
+      ]
+    },
+    {
+      "unit_id": "req_03_literal",
+      "category": "literal_meaning",
+      "description": "把握词人客居惜春、寻花叹息、强簪残英、劝花留字的字面叙事脉络。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "词人因春去花落而客居生愁，绕园寻花，拾残花簪巾，并祈愿落花勿随潮水远去。",
+        "全词按“问春-问花-寻花-惜花-劝花”顺序展开。"
+      ],
+      "forbidden_claims": [
+        "词人主动折花游玩或欢庆春景",
+        "叙事跳跃无序，无明确情感线索"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "识别“楚宫倾国”“钗钿”“断红”作为喻体/典故意象的出处与本义。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“楚宫倾国”化用美人意象，“钗钿”出自白居易《长恨歌》，“断红”源自红叶题诗典故。"
+      ],
+      "forbidden_claims": [
+        "“楚宫倾国”指代真实历史战役",
+        "“钗钿”为普通农具或无关饰物"
+      ],
+      "source_claim_ids": [
+        "claim_03_metaphor_allusion"
+      ],
+      "line_ids": [
+        "l04",
+        "l05",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_05_mapping",
+      "category": "mapping_bridge",
+      "description": "阐明喻体（美人/首饰/红叶）如何映射本体（蔷薇/落花/飘零之思），建立物我同构的桥梁。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以美人之绝色喻花之繁盛，以首饰委地喻花瓣凋零，以红叶题诗喻落花含情。"
+      ],
+      "forbidden_claims": [
+        "喻体与本体之间毫无逻辑或情感关联",
+        "将比喻解释为纯粹的写实白描"
+      ],
+      "source_claim_ids": [
+        "claim_03_metaphor_allusion"
+      ],
+      "line_ids": [
+        "l04",
+        "l05",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_06_structure",
+      "category": "structure",
+      "description": "理清上片“问春问花”与下片“园中寻花、人花对话”的铺叙结构及回环手法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片写春归花谢之景，下片写人花互动之情，结句逆挽收束。"
+      ],
+      "forbidden_claims": [
+        "上下片主题完全割裂",
+        "结构为单线直叙，无曲折回环"
+      ],
+      "source_claim_ids": [
+        "claim_05_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解不同版本中“怅客里”与“恨客里”、“朦胧”与“蒙笼”的异文情况。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "版本一作“怅客里”，版本二作“恨客里”；版本一作“朦胧暗碧”，其他版本多作“蒙笼暗碧”。"
+      ],
+      "forbidden_claims": [
+        "认为所有版本文字完全一致，毫无异文。"
+      ],
+      "source_claim_ids": [
+        "claim_09_textual_variants"
+      ],
+      "line_ids": [
+        "l01",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_08_cipai_origin",
+      "category": "historical_context",
+      "description": "掌握词牌《六丑》的命名由来，即“犯六调”且“才而丑”的典故比喻。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "《六丑》因犯六调、极难歌唱，周邦彦借高阳氏六才子虽有才但貌丑的典故来命名。"
+      ],
+      "forbidden_claims": [
+        "《六丑》是指六个丑陋的妇人"
+      ],
+      "source_claim_ids": [
+        "claim_08_six_chou_origin"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_beauty_flower",
+      "line_ids": [
+        "l04",
+        "l05"
+      ],
+      "source_domain": [
+        "楚宫倾国（绝色美人）",
+        "钗钿（女子首饰）"
+      ],
+      "target_domain": [
+        "盛开的蔷薇花",
+        "凋零飘落的花瓣"
+      ],
+      "bridges": [
+        "以美人之倾国姿容比拟蔷薇之繁盛艳丽，以首饰委地无人收比拟花瓣散落之凄美，化用白居易《长恨歌》诗意，赋予落花人格化与女性化特质。"
+      ],
+      "context_claim_ids": [
+        "claim_03_metaphor_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "或视为借代手法，以宫廷华美意象代指名贵花卉的凋零，侧重渲染繁华落尽的视觉反差。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_red_leaf_longing",
+      "line_ids": [
+        "l11"
+      ],
+      "source_domain": [
+        "断红（红叶题诗）",
+        "相思字"
+      ],
+      "target_domain": [
+        "随水漂流的花瓣",
+        "词人对春光与人事的眷恋不舍"
+      ],
+      "bridges": [
+        "借用唐代卢渥拾红叶得宫女题诗的典故，将流水落花拟作载有相思信笺的红叶，寄托落花对人间的不舍与词人自身的羁旅愁思。"
+      ],
+      "context_claim_ids": [
+        "claim_03_metaphor_allusion"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "“断红”仅指残破的红色花瓣，未必实指红叶典故，而是词人主观情感投射，强调花谢后的残存情意。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_bee_butterfly_messenger",
+      "line_ids": [
+        "l07"
+      ],
+      "source_domain": [
+        "蜂媒蝶使（昆虫）"
+      ],
+      "target_domain": [
+        "传递春信/惜花之情的媒介",
+        "唤醒人去追惜落花的自然使者"
+      ],
+      "bridges": [
+        "蜂蝶本为采花昆虫，词中赋予其“媒使”身份，以“时叩窗槅”的拟人动作，连接室内孤寂之人与室外凋零之景，暗示春意未尽、惜花之情犹存。"
+      ],
+      "context_claim_ids": [
+        "claim_02_theme",
+        "claim_03_metaphor_allusion"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "仅写实景，蜂蝶因花谢而徘徊叩窗，无特殊象征，仅为衬托东园岑寂与词人孤独。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰呈现词牌《六丑》、作者周邦彦及完整词文，保持原句标点与分行顺序，辅以北宋文人背景视觉元素。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现，旁白同步朗读",
+        "背景配以宋代水墨庭院或古籍书页纹理"
+      ],
+      "forbidden_realizations": [
+        "擅自改动字词或打乱句序",
+        "使用明清服饰或现代元素作为背景"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_author",
+      "semantic_role": "opening_title_and_author"
+    },
+    {
+      "requirement_id": "vis_02_spring_fall",
+      "description": "展现暮春时节风雨过后蔷薇凋零、花瓣散落桃蹊柳陌的画面，配合“楚宫倾国”“钗钿”意象的视觉转化。",
+      "acceptable_realizations": [
+        "慢镜头呈现花瓣如雨飘落，叠化美人首饰委地意象",
+        "色调由明转暗，突出“夜来风雨”后的残景"
+      ],
+      "forbidden_realizations": [
+        "呈现繁花盛开、春意盎然的景象",
+        "将“钗钿”具象化为现代珠宝或无关器物"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_beauty_flower"
+      ],
+      "expected_phase": "spring_departure_and_flower_fall",
+      "semantic_role": "spring_departure_and_flower_fall"
+    },
+    {
+      "requirement_id": "vis_03_garden_personification",
+      "description": "刻画词人独绕东园、长条牵衣、蜂蝶叩窗的拟人化互动场景，突出孤寂与物我交融的氛围。",
+      "acceptable_realizations": [
+        "镜头跟随词人步履，蔷薇枝条轻拂衣襟，蜂蝶在窗棂处停留",
+        "光影柔和，强调“岑寂”与“暗碧”的园林空间感"
+      ],
+      "forbidden_realizations": [
+        "出现多人喧闹或繁华市井场景",
+        "将“长条惹客”表现为物理缠绕或攻击性动作"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_bee_butterfly_messenger"
+      ],
+      "expected_phase": "garden_wandering_and_flower_personification",
+      "semantic_role": "garden_wandering_and_flower_personification"
+    },
+    {
+      "requirement_id": "vis_04_drifting_allusion",
+      "description": "表现残花随水漂流、词人强簪残英、祈愿“莫趁潮汐”的画面，融入红叶题诗典故的隐喻视觉。",
+      "acceptable_realizations": [
+        "水面漂浮残瓣，叠化半透明红叶与隐约字迹",
+        "词人手持小残花轻触头巾，眼神流露不舍与怅惘"
+      ],
+      "forbidden_realizations": [
+        "呈现落花被清扫或焚烧的结局",
+        "将“相思字”直接显示为现代情书或直白文字"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_red_leaf_longing"
+      ],
+      "expected_phase": "drifting_petals_and_red_leaf_allusion",
+      "semantic_role": "drifting_petals_and_red_leaf_allusion"
+    },
+    {
+      "requirement_id": "vis_05_synthesis",
+      "description": "收束全词情感，以“惜花即惜人”“光阴虚掷”为主题进行视觉与文本的总结呼应。",
+      "acceptable_realizations": [
+        "画面渐隐至空镜，浮现核心主旨字幕与词人背影",
+        "配以低沉婉转的宋代词乐，强化余韵"
+      ],
+      "forbidden_realizations": [
+        "添加现代励志标语或强行升华",
+        "画面突兀切换至无关风景或人物"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "thematic_synthesis_and_emotional_resonance",
+      "semantic_role": "thematic_synthesis_and_emotional_resonance"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_101_01",
+      "description": "周邦彦精通音律，任职大晟府期间创制了大量新词调。通常认为，他取古代高阳氏六子才高而貌丑之典故，将六种优美但极难演唱的声调融为一体，创制了新调《六丑》。",
+      "audio_triggers": [
+        "精通音律",
+        "大晟府",
+        "新词调",
+        "高阳氏",
+        "六丑"
+      ],
+      "visual_evidence": [
+        "北宋时期官署环境",
+        "周邦彦身穿宋代官服",
+        "研读乐谱、拨弄古乐器（如琴、瑟或编钟）",
+        "案头摆放着乐府律吕的相关书简"
+      ],
+      "sound_evidence": [
+        "古代乐器的弹奏声",
+        "婉转复杂的传统乐曲旋律"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_101_02",
+      "description": "周邦彦一生长期在异乡为官，随着年岁渐长，羁旅漂泊的孤寂与光阴虚掷的自伤之感常常萦绕心头。",
+      "audio_triggers": [
+        "羁旅在外",
+        "异地为官",
+        "光阴虚掷",
+        "年老远宦"
+      ],
+      "visual_evidence": [
+        "北宋行旅场景或驿站",
+        "中年或老年的周邦彦，神情落寞",
+        "孤单的背影、车马或船只"
+      ],
+      "sound_evidence": [
+        "车马劳顿声",
+        "孤独的江水声或风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_101_03",
+      "description": "四月暮春时节，江南按风俗试尝新酒。夜里一阵风雨打落了园中娇艳的蔷薇花。周邦彦在园中绕花长叹，借惜花残春之情，抒发自己飘零无依的羁愁，写下了《六丑》这首名作。",
+      "audio_triggers": [
+        "四月初",
+        "试酒",
+        "暮春",
+        "夜来风雨",
+        "落花",
+        "写下",
+        "这首词"
+      ],
+      "visual_evidence": [
+        "宋代园林环境",
+        "初夏单衣服饰",
+        "桌上放着新酿的酒",
+        "满地被风雨打落的蔷薇花瓣（断红）",
+        "周邦彦在花丛前叹息，随后在书案前挥毫作词"
+      ],
+      "sound_evidence": [
+        "夜间的风雨声",
+        "倒酒声",
+        "蜂蝶飞舞的细微声响",
+        "沉重的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_101_04",
+      "description": "据宋人笔记记载，宋徽宗赐酺时，名妓李师师在御前演唱了《六丑》。徽宗因不知词牌含义，急召周邦彦面圣询问，周邦彦详细解释了曲调名的由来。",
+      "audio_triggers": [
+        "李师师",
+        "宋徽宗",
+        "赐酺",
+        "御前演唱",
+        "召问"
+      ],
+      "visual_evidence": [
+        "北宋皇家宫廷宴会场景",
+        "身披华服的李师师在席间歌舞",
+        "宋徽宗身穿帝王常服",
+        "周邦彦觐见并恭敬答话"
+      ],
+      "sound_evidence": [
+        "宫廷宴乐声",
+        "女子清脆的歌唱声",
+        "君臣问答的人声"
+      ],
+      "importance": 2
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "正单衣试酒，",
+      "pronunciation": "zhèng dān yī shì jiǔ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "怅客里、",
+      "pronunciation": "chàng kè lǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "光阴虚掷。",
+      "pronunciation": "guāng yīn xū zhì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "愿春暂留，",
+      "pronunciation": "yuàn chūn zàn liú,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "春归如过翼，",
+      "pronunciation": "chūn guī rú guò yì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一去无迹。",
+      "pronunciation": "yí qù wú jì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "为问花何在？",
+      "pronunciation": "wèi wèn huā hé zài?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夜来风雨，",
+      "pronunciation": "yè lái fēng yǔ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "葬楚宫倾国。",
+      "pronunciation": "zàng chǔ gōng qīng guó.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "钗钿堕处遗香泽，",
+      "pronunciation": "chāi diàn duò chù yí xiāng zé,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "乱点桃蹊，",
+      "pronunciation": "luàn diǎn táo xī,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "轻翻柳陌。",
+      "pronunciation": "qīng fān liǔ mò.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "多情为谁追惜？",
+      "pronunciation": "duō qíng wèi shuí zhuī xī?",
+      "accepted_variants": [
+        "duō qíng wèi shéi zhuī xī?"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "但蜂媒蝶使，",
+      "pronunciation": "dàn fēng méi dié shǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "时叩窗槅。",
+      "pronunciation": "shí kòu chuāng gé.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "东园岑寂，",
+      "pronunciation": "dōng yuán cén jì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渐朦胧暗碧，",
+      "pronunciation": "jiàn méng lóng àn bì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "静绕珍丛底。",
+      "pronunciation": "jìng rào zhēn cóng dǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "成叹息：长条故惹行客，",
+      "pronunciation": "chéng tàn xī: cháng tiáo gù rě xíng kè,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "似牵衣待话，",
+      "pronunciation": "sì qiān yī dài huà,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "别情无极。",
+      "pronunciation": "bié qíng wú jí.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "残英小、",
+      "pronunciation": "cán yīng xiǎo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "强簪巾帻，",
+      "pronunciation": "qiǎng zān jīn zé,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "终不似、",
+      "pronunciation": "zhōng bù sì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一朵钗头颤袅，",
+      "pronunciation": "yì duǒ chāi tóu chàn niǎo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "向人欹侧。",
+      "pronunciation": "xiàng rén qī cè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "漂流处、",
+      "pronunciation": "piāo liú chù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "莫趁潮汐，",
+      "pronunciation": "mò chèn cháo xī,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "恐断红、",
+      "pronunciation": "kǒng duàn hóng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "尚有相思字，",
+      "pronunciation": "shàng yǒu xiāng sī zì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "何由见得？",
+      "pronunciation": "hé yóu jiàn dé?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "六丑",
+      "pronunciation": "liù chǒu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "周邦彦",
+      "pronunciation": "zhōu bāng yàn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "大晟府",
+      "pronunciation": "dà shèng fǔ",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "李师师",
+      "pronunciation": "lǐ shī shī",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "宋徽宗",
+      "pronunciation": "sòng huī zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "高阳氏",
+      "pronunciation": "gāo yáng shì",
+      "category": "allusion",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_101_01",
+      "source_event_id": "evt_101_01",
+      "target_event_id": "evt_101_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_101_02",
+      "source_event_id": "evt_101_02",
+      "target_event_id": "evt_101_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_101_03",
+      "source_event_id": "evt_101_03",
+      "target_event_id": "evt_101_04",
+      "relation_type": "BEFORE",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/101.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/101.json",
+      "event_gold": "gold_annotation/songci_300/101.json"
+    },
+    "original_sample_id": "101",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

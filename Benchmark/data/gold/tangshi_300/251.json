@@ -1,0 +1,676 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_251",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《静夜思》是唐代诗人李白创作的五言绝句，为广为流传的经典唐诗作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：静夜思，作者：李白，朝代：唐，体裁：五言绝句",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "床前明月光，疑是地上霜，举头望明月，低头思故乡",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "李白代表作有《将进酒》《蜀道难》《静夜思》等",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品作为李白五言绝句的代表性篇目讲解",
+        "该诗属于盛唐时期的经典思乡主题诗作"
+      ],
+      "forbidden_assertions": [
+        "声称《静夜思》是其他唐代诗人的作品",
+        "将该诗体裁误判为七言绝句或律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "《静夜思》创作于公元726年（唐玄宗开元十四年）九月十五日左右，时年26岁的李白漫游旅居扬州旅舍，在月明星稀的秋夜触发乡愁写下此诗。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "李白的《静夜思》创作于公元726年（唐玄宗开元十四年）九月十五日的扬州旅舍，当时李白26岁",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此诗作于开元十四年（726年），李白26岁漫游扬州时，病旅扬州的孤独中，寻常月夜触发乡愁",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "《静夜思》一诗的写作时间是公元726年（唐玄宗开元之治十四年）旧历九月十五日左右。李白时年26岁，写作地点在当时扬州旅舍。",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "创作时李白正处于青年漫游、远离蜀地家乡的人生阶段",
+        "诗作诞生于盛唐文化开放、诗歌雅俗共赏的发展阶段"
+      ],
+      "forbidden_assertions": [
+        "声称该诗创作于李白晚年流放夜郎时期",
+        "认定诗作是李白在蜀地家乡时所作"
+      ]
+    },
+    {
+      "claim_id": "claim_03_character_bed",
+      "claim": "《静夜思》首句中“床”字的释义目前存在五种不同的主流说法，学界尚未形成统一结论。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "床：此字意思多有异议，今传五种说法。一说指井台；一说指井栏；一说是“窗”的通假字；一说坐卧的器具。此文本义，指胡床，古时一种可以折叠的轻便坐具，即“马扎”",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "床：今传五种说法。一指井台。已经有学者撰文考证过...二指井栏...三“床”即“窗”的通假字...四取本义，即坐卧的器具...五马未都等认为，床应解释为胡床。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "床：一般有五种说法。或说指井台；或说指井栏；或说“床”为“窗”的通假字；或取本义，指坐卧的器具；或说为胡床，即古时候一种轻便的坐具，可以折叠，类似现在的小板凳。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可向学生介绍“床”字的五种不同释义，引导学生结合诗意自主判断",
+        "不同释义会影响对诗人所处场景是室内还是室外的理解"
+      ],
+      "forbidden_assertions": [
+        "强行指定某一种“床”的释义为唯一正确标准答案",
+        "完全忽略“床”字的争议性直接按日常“床铺”义默认解读"
+      ]
+    },
+    {
+      "claim_id": "claim_04_literal_meaning",
+      "claim": "全诗前两句写诗人睡梦初醒、迷离恍惚中将照射在床前的清冷月光误认作地面铺着的白霜，后两句通过“举头”“低头”的动作刻画，写出诗人仰望明月时陷入对故乡的深切思念。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "明亮的月光洒在床前，好像地上泛起了一层白霜。我抬起头来，看那天窗外空中的明月，不由得低头沉思，想起远方的家乡",
+          "locator": "译文一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“疑是地上霜”中的“疑”字，生动地表达了诗人睡梦初醒，迷离恍惚中将照射在床前的清冷月光误作铺在地面的浓霜。从“疑”到“举头”，从“举头”到“低头”，形象地揭示了诗人内心活动",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“霜”字既形容月光的皎洁，也烘托出秋夜的寒冷和诗人漂泊的孤寂感",
+        "诗人抬头望月时会联想到故乡此刻也沐浴在同一轮明月的光照之下"
+      ],
+      "forbidden_assertions": [
+        "声称诗中“疑是地上霜”是诗人看到真实秋霜而非错觉",
+        "认为诗人低头只是身体疲惫而非陷入思乡沉思"
+      ]
+    },
+    {
+      "claim_id": "claim_05_artistic_feature",
+      "claim": "《静夜思》语言清新朴素、明白如话，没有精工华美的辞藻，以简单的动作和心理变化刻画远客思乡之情，是李白绝句“无意于工而无不工”的代表性作品，千百年来引发广泛共鸣。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这首小诗，既没有奇特新颖的想象，更没有精工华美的辞藻；它只是用叙述的语气，写远客思乡之情，然而它却意味深长，耐人寻味",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "全诗语言简单质朴，意蕴丰富，朗朗上口，一气痕成，是李白诗歌“无意于工而无不工”的代表作",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中“思”字留下了极大的想象空间，读者可以代入自身的思乡体验拓展诗意",
+        "该诗的天籁之美保留了乐府民歌的质朴特质"
+      ],
+      "forbidden_assertions": [
+        "认为该诗语言过于浅白、艺术价值不高",
+        "声称该诗刻意使用了复杂的修辞技巧炫示文采"
+      ]
+    },
+    {
+      "claim_id": "claim_06_title_variant",
+      "claim": "《静夜思》在某些版本中题一作《夜思》。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_4",
+          "text": "这首《静夜思》脍炙人口，题一作《夜思》。",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该诗在流传过程中存在不同的题目版本"
+      ],
+      "forbidden_assertions": [
+        "声称《静夜思》是该诗唯一的历史题名"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_yishe",
+      "claim": "诗中“疑”字释义为“好像”；“举头”释义为“抬头”。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "疑：好像。举头：抬头。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "疑：好像。 举头：抬头。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“疑”字在诗中并非表示怀疑，而是表达一种视觉上的错觉与恍惚"
+      ],
+      "forbidden_assertions": [
+        "将“疑”字解释为“怀疑”或“不相信”"
+      ]
+    },
+    {
+      "claim_id": "claim_08_related_poem",
+      "claim": "李白的《秋夕旅怀》诗被认为是《静夜思》的续篇，亦是同时同地（公元726年旧历九月十五日左右于扬州旅舍）所作。",
+      "status": "consensus",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "其《秋夕旅怀》诗当为《静夜思》的续篇，亦同时同地所作。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "研究《静夜思》的创作心境时，可以结合《秋夕旅怀》进行联读"
+      ],
+      "forbidden_assertions": [
+        "认为《静夜思》与《秋夕旅怀》在创作背景上毫无关联"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确掌握《静夜思》的题名、作者、所属朝代和诗歌体裁属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《静夜思》是唐代诗人李白创作的一首经典五言绝句",
+        "李白的《静夜思》是流传极广的思乡主题唐诗"
+      ],
+      "forbidden_claims": [
+        "《静夜思》是杜甫的作品",
+        "《静夜思》是宋代创作的诗歌"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "了解《静夜思》的创作时间、地点和诗人当时的人生处境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗是26岁的李白漫游旅居扬州时，在秋夜旅舍中写下的思乡作品",
+        "诗作诞生于盛唐开元年间，是李白青年漫游阶段的作品"
+      ],
+      "forbidden_claims": [
+        "这首诗是李白晚年被流放时写的",
+        "这首诗是李白在自己四川的老家写的"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_bed",
+      "category": "lexical",
+      "description": "掌握诗中核心争议字“床”的五种主流释义，理解不同释义对应的场景差异。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“床”在这首诗里可以指井台、井栏、窗的通假字、卧具或者胡床（马扎）",
+        "不同的“床”的释义会让诗人所处的场景是室内或者室外产生不同理解"
+      ],
+      "forbidden_claims": [
+        "“床”就只能指睡觉的床铺，其他说法都是错的",
+        "“床”的含义没有任何争议"
+      ],
+      "source_claim_ids": [
+        "claim_03_character_bed"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确理解全诗每一句的字面含义，梳理从“生疑”到“抬头望月”再到“低头思乡”的完整动作心理链条。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "诗人刚睡醒恍惚间把床前的月光当成了地上的霜，定神后抬头看天上的明月，不由得低下头想念远方的家乡",
+        "“疑”字写出了诗人睡梦初醒的迷离状态，“思”字承载了丰富的思乡内涵"
+      ],
+      "forbidden_claims": [
+        "诗人看到的地上真的结了霜",
+        "诗人抬头看月之后没有产生思乡情绪"
+      ],
+      "source_claim_ids": [
+        "claim_04_literal_meaning"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor_source",
+      "category": "metaphor_source",
+      "description": "理解“月光如霜”这一经典比喻的意象来源和修辞效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "以霜喻月光是古典诗歌常见的修辞，既写出月光的洁白，也写出月光带来的清冷寒意",
+        "诗中的“疑是地上霜”不是刻意的修辞，是诗人客居恍惚间的真实瞬时错觉"
+      ],
+      "forbidden_claims": [
+        "把月光比作霜是李白完全原创的修辞，之前从来没有人用过",
+        "霜的意象在这里完全没有烘托情绪的作用，只是单纯写颜色"
+      ],
+      "source_claim_ids": [
+        "claim_04_literal_meaning"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_06_artistic_summary",
+      "category": "summary",
+      "description": "掌握《静夜思》的整体艺术特色和后世评价，理解其千百年来引发广泛共鸣的原因。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗语言朴素自然，没有华丽辞藻，用最平实的语言写出了所有游子共通的思乡体验",
+        "《静夜思》是李白绝句“无意于工而无不工”风格的典型代表"
+      ],
+      "forbidden_claims": [
+        "这首诗写得太简单了，没有什么艺术价值",
+        "只有李白这样的大诗人才能感受到诗里写的思乡情绪"
+      ],
+      "source_claim_ids": [
+        "claim_05_artistic_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_title_variant",
+      "category": "alternative_reading",
+      "description": "了解《静夜思》的别名或异名版本。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "该诗在某些版本中也被题作《夜思》"
+      ],
+      "forbidden_claims": [
+        "该诗在古代没有任何其他题目版本"
+      ],
+      "source_claim_ids": [
+        "claim_06_title_variant"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_08_lexical_yishe",
+      "category": "lexical",
+      "description": "掌握诗中“疑”与“举头”的字词释义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“疑”的意思是好像，“举头”的意思是抬头"
+      ],
+      "forbidden_claims": [
+        "“疑”在诗中是怀疑、不信任的意思"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_yishe"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_moonlight_as_frost",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "秋夜地面铺洒的白霜"
+      ],
+      "target_domain": [
+        "床前洒落的明亮清冷的明月光"
+      ],
+      "bridges": [
+        "二者视觉上都呈现出洁白的色泽",
+        "二者都能给人带来秋夜的清冷寒意",
+        "诗人睡梦初醒视线模糊时二者难以立刻区分"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_04_literal_meaning",
+        "claim_05_artistic_feature"
+      ],
+      "alternative_readings": [
+        "该比喻并非诗人刻意使用的书面修辞，而是客居游子恍惚间产生的真实瞬时错觉，更具感染力",
+        "霜的意象同时烘托出诗人漂泊他乡的孤寂凄凉心境，不止是对月光外形的描摹"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_poem_presentation",
+      "description": "清晰展示《静夜思》的题名、作者、朝代信息和完整全诗文本，标点句序准确无误。",
+      "acceptable_realizations": [
+        "开场以古风题签样式呈现标题作者信息，随后随朗读逐行弹出诗句字幕",
+        "背景搭配淡墨山水秋夜底色，文字清晰醒目"
+      ],
+      "forbidden_realizations": [
+        "诗句出现错字漏字，把作者信息标注错误",
+        "擅自调整原诗的句序"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_introduction",
+      "semantic_role": "opening_poem_introduction"
+    },
+    {
+      "requirement_id": "vis_02_moonlight_frost_illusion",
+      "description": "呈现秋夜月光洒落地面，诗人睡梦初醒迷离恍惚间将月光错认成白霜的场景。",
+      "acceptable_realizations": [
+        "先拍摄清冷月光铺地的画面，视觉效果上逐渐将月光过渡成白霜质感，再切回清晰的月光明亮效果",
+        "搭配诗人睡眼惺忪的半朦胧视角镜头"
+      ],
+      "forbidden_realizations": [
+        "直接拍摄地面上真实的厚霜，完全没有体现错觉的转换过程",
+        "场景设置成盛夏夜晚的暖色调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_moonlight_as_frost"
+      ],
+      "expected_phase": "misty_illusion_of_moonlight",
+      "semantic_role": "misty_illusion_of_moonlight"
+    },
+    {
+      "requirement_id": "vis_03_gaze_at_moon",
+      "description": "刻画诗人从迷离状态清醒，缓缓抬起头仰望空中一轮明月的动作神态。",
+      "acceptable_realizations": [
+        "镜头跟随诗人的视线向上移动，最终定格在夜空中明亮的满月上",
+        "可以展现月光下诗人孑然一身的客居身影"
+      ],
+      "forbidden_realizations": [
+        "诗人抬头之后看到的不是明月而是其他景物",
+        "人物动作夸张不符合沉静月夜的氛围"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "raise_head_gaze_at_moon",
+      "semantic_role": "raise_head_gaze_at_moon"
+    },
+    {
+      "requirement_id": "vis_04_dwell_on_hometown",
+      "description": "呈现诗人低下头陷入沉思，脑海中浮现故乡相关画面的状态，烘托深切的思乡情绪。",
+      "acceptable_realizations": [
+        "诗人低头的近景之后，画面渐次闪回故乡的亲人、旧居、山水等暖色调回忆片段",
+        "最终画面落回夜空中的明月，呼应前文望月的动作"
+      ],
+      "forbidden_realizations": [
+        "诗人低头之后露出嬉笑打闹的神态，完全没有沉思感",
+        "场景跳转到和思乡无关的内容"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "lower_head_think_of_hometown",
+      "semantic_role": "lower_head_think_of_hometown"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_251_01",
+      "description": "青年时期的李白离开故乡蜀地，开始漫游天下，追求政治抱负与人生理想。",
+      "audio_triggers": [
+        "初离蜀地",
+        "漫游天下"
+      ],
+      "visual_evidence": [
+        "青年李白形象",
+        "唐代平民或士人服饰",
+        "辞亲远游的行装",
+        "禁止出现现代交通工具或清代服饰"
+      ],
+      "sound_evidence": [
+        "马蹄声",
+        "风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_251_02",
+      "description": "公元726年（唐玄宗开元十四年），26岁的李白漫游至扬州。他客居在当地旅舍，且身患疾病，在独处中感到孤寂与凄凉。",
+      "audio_triggers": [
+        "开元十四年",
+        "扬州旅舍",
+        "病旅扬州",
+        "孤寂凄凉"
+      ],
+      "visual_evidence": [
+        "唐代扬州城夜景",
+        "简朴的旅舍内部",
+        "李白面带病容",
+        "孤身一人的状态"
+      ],
+      "sound_evidence": [
+        "秋虫鸣叫",
+        "微弱的咳嗽声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_251_03",
+      "description": "旧历九月十五日左右的一个澄明秋夜，月光照在“床”前（“床”的具体所指存在多说，通常认为是胡床等坐卧器具，亦有井台、井栏或窗户等说法）。在半梦半醒或凝神之间，李白因秋夜冷森森的寒意，将清冷的月光错觉为铺在地面的白霜。",
+      "audio_triggers": [
+        "明月夜",
+        "床前",
+        "疑是地上霜",
+        "错觉"
+      ],
+      "visual_evidence": [
+        "夜深人静的庭院或室内",
+        "皎洁的月光透过窗户洒在地面",
+        "李白坐在胡床（马扎）或床榻边",
+        "画面可以表现月光如霜的视觉转化",
+        "避免出现现代玻璃窗"
+      ],
+      "sound_evidence": [
+        "夜风声",
+        "表现清冷氛围的环境音"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_251_04",
+      "description": "李白清醒后，抬头凝望窗外天空中的一轮明月，不由得低下头陷入沉思，深切思念远方的故乡与亲人，脱口吟成（或写下）千古绝唱《静夜思》。",
+      "audio_triggers": [
+        "举头望明月",
+        "低头思故乡",
+        "写下",
+        "静夜思"
+      ],
+      "visual_evidence": [
+        "李白抬头望月的动作",
+        "夜空中的一轮圆月",
+        "李白低头沉思的神态",
+        "书案前的笔墨纸砚（若表现书写）"
+      ],
+      "sound_evidence": [
+        "悠远的古琴或箫声",
+        "人物叹息声",
+        "吟诵声"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "床前明月光，",
+      "pronunciation": "chuáng qián míng yuè guāng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "疑是地上霜，",
+      "pronunciation": "yí shì dì shàng shuāng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "举头望明月，",
+      "pronunciation": "jǔ tóu wàng míng yuè，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "低头思故乡。",
+      "pronunciation": "dī tóu sī gù xiāng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "静夜思",
+      "pronunciation": "jìng yè sī",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "李白",
+      "pronunciation": "lǐ bái",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "扬州",
+      "pronunciation": "yáng zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "蜀地",
+      "pronunciation": "shǔ dì",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "开元",
+      "pronunciation": "kāi yuán",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "胡床",
+      "pronunciation": "hú chuáng",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_251_01",
+      "source_event_id": "evt_251_01",
+      "target_event_id": "evt_251_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_251_02",
+      "source_event_id": "evt_251_02",
+      "target_event_id": "evt_251_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_251_03",
+      "source_event_id": "evt_251_03",
+      "target_event_id": "evt_251_04",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/251.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/251.json",
+      "event_gold": "gold_annotation/tangshi_300/251.json"
+    },
+    "original_sample_id": "251",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

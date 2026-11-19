@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "092_songci_013_23e3998639bf",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "清平乐",
+    "author": "晏殊",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "红笺小字，说尽平生意，\n鸿雁在云鱼在水，惆怅此情难寄。\n斜阳独倚西楼，遥山恰对帘钩。\n人面不知何处，绿波依旧东流。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "红笺小字，说尽平生意，"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "鸿雁在云鱼在水，惆怅此情难寄。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "斜阳独倚西楼，遥山恰对帘钩。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "人面不知何处，绿波依旧东流。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "23e3998639bfe7cde4fd1495",
+    "global_index": 92
+  }
+}

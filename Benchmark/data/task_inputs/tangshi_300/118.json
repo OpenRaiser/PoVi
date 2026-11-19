@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "072_tangshi_118_5fd3e9a1d9ce",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "次北固山下",
+    "author": "王湾",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "客路青山外，行舟绿水前。\n(青山外 一作：青山下)\n潮平两岸阔，风正一帆悬。\n海日生残夜，江春入旧年。\n乡书何处达？\n归雁洛阳边。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "客路青山外，行舟绿水前。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "(青山外 一作：青山下)"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "潮平两岸阔，风正一帆悬。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "海日生残夜，江春入旧年。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "乡书何处达？"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "归雁洛阳边。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "5fd3e9a1d9ce5a11f7e8aecf",
+    "global_index": 72
+  }
+}

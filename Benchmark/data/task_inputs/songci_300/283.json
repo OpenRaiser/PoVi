@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "114_songci_283_afa3d09eddaf",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "永遇乐",
+    "author": "李清照",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "落日熔金，暮云合璧，人在何处？\n染柳烟浓，吹梅笛怨，春意知几许？\n元宵佳节，融和天气，次第岂无风雨。\n来相召、香车宝马，谢他酒朋诗侣。\n中州盛日，闺门多暇，记得偏重三五。\n铺翠冠儿，撚金雪柳，簇带争济楚。\n如今憔悴，风鬟霜鬓，怕见夜间出去。\n不如向帘儿底下，听人笑语。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "落日熔金，暮云合璧，人在何处？"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "染柳烟浓，吹梅笛怨，春意知几许？"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "元宵佳节，融和天气，次第岂无风雨。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "来相召、香车宝马，谢他酒朋诗侣。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "中州盛日，闺门多暇，记得偏重三五。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "铺翠冠儿，撚金雪柳，簇带争济楚。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "如今憔悴，风鬟霜鬓，怕见夜间出去。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "不如向帘儿底下，听人笑语。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "afa3d09eddaf5c348901a00c",
+    "global_index": 114
+  }
+}

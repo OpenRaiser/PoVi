@@ -1,0 +1,665 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_167",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《题破山寺后禅院》是唐代诗人常建创作的五言律诗，属于盛唐山水禅意诗的代表性作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：题破山寺后禅院，作者：常建，朝代：唐，体裁：五言律诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "常建（708—765），唐代诗人...其诗以山水田园见长，风格清幽淡远...与王维、孟浩然等共同开创盛唐山水诗派。",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品归入盛唐山水诗派的经典篇目序列"
+      ],
+      "forbidden_assertions": [
+        "将该诗作者误判为王维、孟浩然等其他唐代山水诗人",
+        "将该诗体裁误判为七言绝句或七言律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_variant_text",
+      "claim": "本诗在流传过程中存在多处公认异文，常见异文包括“曲径”一作“竹径”或“一径”，“通”一作“遇”，“万籁此俱寂”一作“万籁此都寂”，“唯闻钟磬音”一作“但余钟磬音”或“惟闻钟磬音”、“惟余钟磬音”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "清晨入古寺，初日照高林。曲径通幽处，禅房花木深。山光悦鸟性，潭影空人心。万籁此俱寂，唯闻钟磬音。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "清晨入古寺，初日照高林。竹径通幽处，禅房花木深。山光悦鸟性，潭影空人心。万籁此都寂，但余钟磬音。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "曲径：一作“竹径”，又作“一径”。通：一作“遇”。都：一作“俱”。但余：只留下。一作“惟余”，又作“唯闻”。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "不同版本的异文均有公开流传依据，教学中可向学生说明常见异文的差异"
+      ],
+      "forbidden_assertions": [
+        "强行认定某一版本为唯一绝对正确版本，否定其他异文的流传合理性"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical_usages",
+      "claim": "诗中颈联的“悦”“空”二字均为使动用法，“悦”意为“使……欢悦”，“空”意为“使……（俗念）消尽、使……空明”。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "悦：此处为使动用法，使高兴。空：此处为使动用法，使空。潭影空人心：此句意思是，潭水空明清澈，临潭照影，令人俗念全消。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "悦：此处为使动用法，使高兴。空：此处为使动用法，使空。此句意思是，潭水空明清澈，临潭照影，令人俗念全消。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这两处使动用法是颈联炼字的核心亮点，实现了景物、禽鸟、心境三者的联动"
+      ],
+      "forbidden_assertions": [
+        "将“悦”直接解释为鸟性本身的欢悦（主动用法），将“空”直接解释为人的本性原本空无"
+      ]
+    },
+    {
+      "claim_id": "claim_04_core_artistic_feature",
+      "claim": "全诗以“幽”字贯穿始终，尾联采用以声衬静的手法，用钟磬音的有声反衬万籁俱寂的禅院氛围，寄托了诗人忘却世俗、寄情山水的隐逸禅意情怀。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "尾联两句以声衬静，营造一个万籁俱寂的境界，这与的\"蝉噪林逾静，鸟鸣山更幽。\"有异曲同工之妙。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "这首五律笔法古朴，遣词清幽，意境深邃空灵，以“幽”贯穿全篇，意境与心境交融。",
+          "locator": "赏析四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该诗以声衬静的写法和王维“蝉噪林逾静，鸟鸣山更幽”的创作手法有异曲同工之妙"
+      ],
+      "forbidden_assertions": [
+        "认为尾联的钟磬音打破了全诗的幽静氛围，消解了禅院的空寂意境"
+      ]
+    },
+    {
+      "claim_id": "claim_05_influence",
+      "claim": "诗中“曲径通幽处，禅房花木深”为传世名句，宋代欧阳修曾自述喜爱该联，想要效仿其造意创作同类诗句却久久不能得，该联的美学理念也对后世中国古典园林设计产生了广泛影响。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "宋代欧阳修曾言：“吾尝喜诵常建'竹径通幽处，禅房花木深'，欲效其语作一联，久不可得。”",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“曲径通幽”之美学在中国古典园林上有广泛运用。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该联的造意精妙得到了历代文人（如欧阳修）的普遍公认，是体现中国传统幽美意境的典型名句"
+      ],
+      "forbidden_assertions": [
+        "声称欧阳修的相关评价是后人杜撰的，否定该联的美学价值与后世影响力"
+      ]
+    },
+    {
+      "claim_id": "claim_06_temple_location",
+      "claim": "诗中的“破山寺”即兴福寺，位于今江苏常熟市西北虞山上，始建于南朝齐代。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "破山寺：即兴福寺，在今江苏常熟市西北虞山上。南朝齐邑人郴州刺史倪德光舍宅所建。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "破山寺为南朝齐代古刹",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中的“古寺”和“破山寺”在历史地理上均指向常熟兴福寺"
+      ],
+      "forbidden_assertions": [
+        "将破山寺定位在江苏常熟以外的其他地区"
+      ]
+    },
+    {
+      "claim_id": "claim_07_creation_time",
+      "claim": "关于此诗的具体创作时间，一说未得确证，另一说认为作于天宝十二载（753年）常建游历常熟破山寺时。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此诗是诗人游览破山寺后禅院时所作，具体创作时间未得确证。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "此诗作于天宝十二载（753年）常建游历江苏常熟破山寺（今兴福寺）时。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "学术界对该诗的具体创作年份存在不同看法，教学中可作两说并存介绍"
+      ],
+      "forbidden_assertions": [
+        "断言天宝十二载是唯一毫无争议的创作年份"
+      ]
+    },
+    {
+      "claim_id": "claim_08_high_forest_zen",
+      "claim": "首联中“高林”一词充满禅意，暗颂禅院，烘托了充满禅意的玄妙而又深沉的意境，而非普通的“深林”。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "诗人没有说“深林”，而是说“高林”这个充满禅意的词语，暗颂禅院，烘托了充满禅意的玄妙而又深沉的意境。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“高林”的选用体现了诗人独特的炼字与禅学审美"
+      ],
+      "forbidden_assertions": [
+        "认为“高林”与“深林”在诗歌意境上完全等同，毫无区别"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确掌握本诗的题名、作者、朝代、体裁等基础身份信息。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《题破山寺后禅院》是唐代诗人常建创作的五言律诗，属于盛唐山水禅意诗代表作"
+      ],
+      "forbidden_claims": [
+        "将作者误记为王维、孟浩然等其他唐代诗人",
+        "将体裁误判为绝句或七言律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_variant_text",
+      "category": "alternative_reading",
+      "description": "了解本诗流传过程中的常见异文情况，知晓不同版本的字词差异。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "不同版本中“曲径”也写作“竹径”或“一径”，“通”也写作“遇”，“万籁此俱寂”也写作“万籁此都寂”，“唯闻钟磬音”也写作“但余钟磬音”或“惟闻钟磬音”"
+      ],
+      "forbidden_claims": [
+        "随意否定某一异文的流传合理性，强行要求所有学习者统一背诵某一版本字词"
+      ],
+      "source_claim_ids": [
+        "claim_02_variant_text"
+      ],
+      "line_ids": [
+        "l02",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical_points",
+      "category": "lexical",
+      "description": "掌握诗中“悦”“空”两处特殊使动用法的准确含义，以及“破山寺”的历史地理方位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "“悦鸟性”就是让飞鸟的性情变得欢悦自在，“空人心”就是让人们心中的世俗杂念全部消尽；破山寺即今江苏常熟的兴福寺。"
+      ],
+      "forbidden_claims": [
+        "把“悦”和“空”按常规主动动词释义，忽略其使动用法的炼字妙处",
+        "误认为破山寺在常熟以外的其他地方"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical_usages",
+        "claim_06_temple_location"
+      ],
+      "line_ids": [
+        "l01",
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确理解全诗每句的字面含义，梳理诗人游寺的行进路线。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "诗人清晨进入古老的破山寺，初升的太阳照在高处的树林，沿着弯曲小路走到幽深处，禅房藏在繁茂花木里，山光让飞鸟欢悦，潭影让人杂念全消，所有声响此刻都沉寂，只听到钟磬的声音"
+      ],
+      "forbidden_claims": [
+        "随意增删诗句含义，错误解释破山寺、钟磬等专有名词的所指"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_03_lexical_usages"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_artistic_feature",
+      "category": "interpretive_boundary",
+      "description": "理解全诗以“幽”为核心的意境脉络，以及尾联以声衬静手法的表达效果。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "全诗从入寺到走到后禅院，景色氛围越来越幽，最后用钟磬音反衬出环境的极致安静，烘托出清净超脱的禅意氛围"
+      ],
+      "forbidden_claims": [
+        "认为钟磬音破坏了幽静氛围，全诗没有统一的意境主线"
+      ],
+      "source_claim_ids": [
+        "claim_04_core_artistic_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_creation_background",
+      "category": "historical_context",
+      "description": "了解本诗的创作背景争议，即具体创作时间存在“未得确证”与“天宝十二载”两说。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "此诗的具体创作时间有争议，一说未得确证，一说作于天宝十二载常建游历常熟破山寺时"
+      ],
+      "forbidden_claims": [
+        "将天宝十二载视为唯一毫无争议的创作时间"
+      ],
+      "source_claim_ids": [
+        "claim_07_creation_time"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_sound_as_symbol",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "佛寺钟磬音"
+      ],
+      "target_domain": [
+        "佛门超拔脱俗的世外禅音，涤荡世俗尘心的精神象征"
+      ],
+      "bridges": [
+        "钟磬是佛寺召集僧众的专属打击乐器，其声响超脱日常世俗声响，能在万籁俱寂的环境中凸显禅意，引导人进入清净忘俗的精神境界"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_04_core_artistic_feature"
+      ],
+      "alternative_readings": [
+        "也可将钟磬音单纯理解为佛寺报时的普通声响，不赋予额外的禅意象征意义"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_emptiness_as_purification",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "清澈空明的潭水倒影"
+      ],
+      "target_domain": [
+        "人在禅院氛围熏陶下，世俗杂念全部消尽的空灵纯净心境"
+      ],
+      "bridges": [
+        "清澈潭水倒映万物、空明无染的物理属性，恰好对应人在禅院环境中被净化后毫无尘俗挂碍的心理状态"
+      ],
+      "status": "consensus",
+      "context_claim_ids": [
+        "claim_03_lexical_usages"
+      ],
+      "alternative_readings": [
+        "也可仅将潭影理解为普通的景物描写，不做心境层面的象征引申"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_poem_show",
+      "description": "开场清晰展示诗题、作者、朝代、体裁基础信息，同步呈现完整全诗文本，标点句序准确无错漏。",
+      "acceptable_realizations": [
+        "开场题签动画后分句同步呈现诗文，配合旁白朗读逐行高亮字幕"
+      ],
+      "forbidden_realizations": [
+        "漏掉关键诗句，擅自改动字词而不标注异文说明"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_basic_introduction",
+      "semantic_role": "opening_poem_basic_introduction"
+    },
+    {
+      "requirement_id": "vis_02_morning_enter_temple",
+      "description": "呈现清晨古寺外景，初升的金色阳光洒落在高大茂密林木上的画面，对应首联的开阔远景。",
+      "acceptable_realizations": [
+        "薄雾未散的清晨古寺山门镜头，阳光穿过树叶缝隙形成丁达尔光效"
+      ],
+      "forbidden_realizations": [
+        "将场景设置为黄昏或者正午，破坏全诗清幽的时间基调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "first_scene_morning_enter_ancient_temple",
+      "semantic_role": "first_scene_morning_enter_ancient_temple"
+    },
+    {
+      "requirement_id": "vis_03_path_to_secluded_chamber",
+      "description": "呈现蜿蜒曲折的小路通向花木深处禅房的画面，体现曲径通幽的幽深美感。",
+      "acceptable_realizations": [
+        "第一视角跟随诗人脚步沿小路前行，两侧花木逐渐茂密，禅房在花木掩映中露出飞檐"
+      ],
+      "forbidden_realizations": [
+        "将小路设置为宽阔平直的大道，禅房直接暴露在开阔场地中"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "second_scene_walk_toward_secluded_chamber",
+      "semantic_role": "second_scene_walk_toward_secluded_chamber"
+    },
+    {
+      "requirement_id": "vis_04_mountain_light_pool_view",
+      "description": "呈现山光明媚飞鸟自由欢飞，清澈水潭倒映蓝天白云茂林的画面，体现潭影空人心的净化感。",
+      "acceptable_realizations": [
+        "镜头从山光飞鸟缓缓下移到水面，潭水倒影逐渐清晰，配合淡蓝色光晕烘托空明氛围"
+      ],
+      "forbidden_realizations": [
+        "将潭水设置为浑浊状态，画面色调昏暗压抑"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_emptiness_as_purification"
+      ],
+      "expected_phase": "third_scene_mountain_light_and_pool_reflection",
+      "semantic_role": "third_scene_mountain_light_and_pool_reflection"
+    },
+    {
+      "requirement_id": "vis_05_silent_bell_sound",
+      "description": "呈现万籁俱寂的禅院环境，用声波扩散的淡金色特效可视化钟磬音，烘托以声衬静的禅境。",
+      "acceptable_realizations": [
+        "所有动态景物全部定格静止，只有钟磬音的波纹特效从禅房方向向四周缓缓扩散"
+      ],
+      "forbidden_realizations": [
+        "在画面中加入大量世俗嘈杂的人物活动，破坏万籁俱寂的氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_sound_as_symbol"
+      ],
+      "expected_phase": "fourth_scene_all_silent_except_bell_sound",
+      "semantic_role": "fourth_scene_all_silent_except_bell_sound"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_167_01",
+      "description": "唐代诗人常建于开元十五年进士及第，但仕途长久不得意，过着漫游山水名胜的生活，常借隐逸与禅理排遣心境。",
+      "audio_triggers": [
+        "常建",
+        "进士及第",
+        "仕宦不得意",
+        "漫游生活"
+      ],
+      "visual_evidence": [
+        "唐代文人常服",
+        "孤身在山水间漫游的场景",
+        "人物略带失意但超然的神态"
+      ],
+      "sound_evidence": [
+        "悠远的古琴声",
+        "野外自然的风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_167_02",
+      "description": "通常认为在天宝十二载（753年）前后（具体时间不可确考），常建游历了位于江苏常熟虞山的古刹破山寺（即兴福寺）。",
+      "audio_triggers": [
+        "天宝",
+        "游历",
+        "破山寺",
+        "兴福寺"
+      ],
+      "visual_evidence": [
+        "唐代南方山林地貌",
+        "带有古刹特征的山门",
+        "寺庙坐落于高林之中"
+      ],
+      "sound_evidence": [
+        "远处的梵音",
+        "山林鸟鸣声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_167_03",
+      "description": "清晨时分，常建步入古寺，穿过曲折幽静的小径来到花木掩映的后禅院。山光鸟性与空明潭影使他俗念顿消，在万籁俱寂中聆听钟磬之音，写下《题破山寺后禅院》。",
+      "audio_triggers": [
+        "清晨入古寺",
+        "曲径通幽处",
+        "空人心",
+        "钟磬音",
+        "写下"
+      ],
+      "visual_evidence": [
+        "初升旭日照耀高耸的树林",
+        "曲折的竹林或石板小径",
+        "掩映在茂密花木中的禅房居所",
+        "清澈的水潭倒影天光树影",
+        "诗人在静谧中沉思或提笔书写的场景",
+        "不可出现现代旅游景区设施与现代园林护栏"
+      ],
+      "sound_evidence": [
+        "清晨欢悦的鸟鸣声",
+        "空灵悠扬的敲钟击磬声",
+        "万籁俱寂的极静环境音"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "清晨入古寺，",
+      "pronunciation": "qīng chén rù gǔ sì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "初日照高林。",
+      "pronunciation": "chū rì zhào gāo lín 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曲径通幽处，",
+      "pronunciation": "qū jìng tōng yōu chù ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "禅房花木深。",
+      "pronunciation": "chán fáng huā mù shēn 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山光悦鸟性，",
+      "pronunciation": "shān guāng yuè niǎo xìng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "潭影空人心。",
+      "pronunciation": "tán yǐng kōng rén xīn 。",
+      "accepted_variants": [
+        "tán yǐng kòng rén xīn 。"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "万籁此俱寂，",
+      "pronunciation": "wàn lài cǐ jù jì ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "唯闻钟磬音。",
+      "pronunciation": "wéi wén zhōng qìng yīn 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "题破山寺后禅院",
+      "pronunciation": "tí pò shān sì hòu chán yuàn",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "常建",
+      "pronunciation": "cháng jiàn",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "破山寺",
+      "pronunciation": "pò shān sì",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "兴福寺",
+      "pronunciation": "xīng fú sì",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "虞山",
+      "pronunciation": "yú shān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "曲径",
+      "pronunciation": "qū jìng",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "钟磬",
+      "pronunciation": "zhōng qìng",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_167_01",
+      "source_event_id": "evt_167_01",
+      "target_event_id": "evt_167_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_167_02",
+      "source_event_id": "evt_167_01",
+      "target_event_id": "evt_167_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_167_03",
+      "source_event_id": "evt_167_02",
+      "target_event_id": "evt_167_03",
+      "relation_type": "BEFORE",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/167.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/167.json",
+      "event_gold": "gold_annotation/tangshi_300/167.json"
+    },
+    "original_sample_id": "167",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

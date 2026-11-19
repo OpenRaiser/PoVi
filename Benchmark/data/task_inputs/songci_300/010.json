@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "099_songci_010_cc168d39975c",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "青门引・青门饮",
+    "author": "张先",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "乍暖还轻冷，风雨晚来方定。\n庭轩寂寞近清明，残花中酒，又是去年病。\n楼头画角风吹醒，入夜重门静。\n那堪更被明月，隔墙送过秋千影。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "乍暖还轻冷，风雨晚来方定。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "庭轩寂寞近清明，残花中酒，又是去年病。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "楼头画角风吹醒，入夜重门静。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "那堪更被明月，隔墙送过秋千影。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "cc168d39975c0bc3805ea0ce",
+    "global_index": 99
+  }
+}

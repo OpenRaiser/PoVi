@@ -1,0 +1,745 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_079",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《长相思·其一》是唐代浪漫主义诗人李白所作的乐府旧题诗，属于李白组诗《长相思二首》的第一篇，宋人郭茂倩将其收归于《杂曲歌辞》。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "长相思·其一，作者李白，朝代唐，体裁乐府",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "长相思：乐府旧题，宋人郭茂倩将其收归于《杂曲歌辞》。汉至六朝文人所作多表达羁旅、征戍的相思之苦。李白作有组诗《长相思二首》，此为第一首。",
+          "locator": "注释三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "李白（701—762），字太白，号青莲居士。是屈原之后最具个性特色、最伟大的浪漫主义诗人。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品归为李白乐府诗的代表性篇目",
+        "可关联李白浪漫主义诗风的整体特征进行讲解"
+      ],
+      "forbidden_assertions": [
+        "声称该诗为其他唐代诗人所作",
+        "将该诗体裁错误归类为宋词或律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "这首诗的创作时间一般认为是李白被“赐金还山”、遭排挤离开长安之后，在沉思中回忆过往情绪所作。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "这首《长相思·其一》的创作时间一般认为是在被“赐金还山”之后，大约是他被排挤离开长安后于沉思中回忆过往情绪之作。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这首诗是离开长安后回忆往日情绪时所作，飘逸中兼有含蓄。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可关联李白供奉翰林时期遭谗离职的人生经历辅助理解诗作",
+        "可说明长安作为唐代政治中心的特殊背景对诗作内涵的影响"
+      ],
+      "forbidden_assertions": [
+        "断言该诗是李白在长安宫廷中创作的应制作品",
+        "将创作时间明确标注为某一具体年份而不说明是学界普遍推定"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literary_explanation",
+      "claim": "该诗表层写男女相思之苦，同时自楚辞以来的比兴传统下，存在以“美人”托寓政治理想，抒发追求理想而不得的郁闷之情的经典解读。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“美人如花隔云端”是全诗的中心句，其中含有托兴意味。我国古代经常用“美人”比喻所追求的理想。“长安”这个特定的地点更加暗示“美人”在这里是个政治托寓，表明此诗目的在于抒发诗人追求政治理想而不能的郁闷之情。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "在思想内容上，自《楚辞》始，诗人常借美人比喻所追求的理想，故而这首诗常被解读为诗人对于政治理想的执着追求。但诗中并没有直接地表达出来，而是含于象外，隐而不露。",
+          "locator": "赏析三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_4",
+          "text": "有人认为它实质上是写对理想的追求及理想不能实现的苦闷和悲哀心情，不为无见。",
+          "locator": "赏析四",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可以同时呈现男女相思和政治托寓两种合法解读",
+        "可说明两种解读并不互斥，可以共存"
+      ],
+      "forbidden_assertions": [
+        "断言该诗完全没有男女相思的表层内涵，仅为政治抒怀之作",
+        "断言托寓解读完全是后人附会，诗作仅写世俗爱情没有任何言外之意"
+      ]
+    },
+    {
+      "claim_id": "claim_04_text_variant",
+      "claim": "现存该诗的不同传世版本中，存在“天长路远”与“天长地远”、末句标点有无叹号的异文情况，异文不影响全诗核心表意。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "天长路远魂飞苦，梦魂不到关山难。长相思，摧心肝！",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "天长地远魂飞苦，梦魂不到关山难。长相思，摧心肝。",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可说明异文属于古典诗歌传抄过程中的正常现象",
+        "不同主流版本的字句差异不改变全诗的情感基调"
+      ],
+      "forbidden_assertions": [
+        "声称某一版本是唯一绝对正确的古本，其他所有版本都是后人恶意篡改的讹误"
+      ]
+    },
+    {
+      "claim_id": "claim_05_structural_feature",
+      "claim": "全诗以“美人如花隔云端”为中心句，前后两部分结构对称，首尾两次以“长相思”呼应，形成回环的艺术效果。前半部分由“长相思”开始铺叙情势，后半部分用“长相思”收尾。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "这首诗以“美人如花隔云端”一句分前后两个部分。前部分由“长相思”开始铺叙情势，中间辅以四句七言；后半部先以四句七言诗开始，用“长相思”收尾，前后形式对称，富有艺术美感。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可点明该结构设计强化了相思情感的冲击力",
+        "可说明首尾呼应对诗歌韵律感的提升作用"
+      ],
+      "forbidden_assertions": [
+        "声称该诗结构混乱没有章法，是李白未完成的草稿"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_definition",
+      "claim": "诗中核心字词释义：络纬即纺织娘，金井阑指精美的井栏，簟指竹席，青冥指青云（高空），渌水指清水，关山难指关山难渡，摧指伤。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "络纬：昆虫名，又名莎鸡，俗称纺织娘。金井阑：精美的井阑。簟色寒：指竹席 learnings。簟，凉席。青冥：青云。渌水：清水。关山难：关山难渡。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "1、长安：今陕西省西安市。2、络纬：昆虫名，又名莎鸡，俗称纺织娘。3、金井阑：精美的井阑。4、簟色寒：指竹席的凉意。簟，凉席。5、帷：窗帘。6、青冥：青云。7、渌水：清水。8、关山难：关山难渡。9、摧：伤。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "簟（diàn）：竹席。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合秋夜场景讲解这些意象共同烘托的凄清氛围"
+      ],
+      "forbidden_assertions": [
+        "将“络纬”错误解释为织布的女子，将“簟”错误解释为床榻"
+      ]
+    },
+    {
+      "claim_id": "claim_07_scenery_atmosphere",
+      "claim": "诗歌通过环境气氛层层渲染，先写所闻（阶下纺织娘凄切鸣叫），再写肌肤所感（微霜凄凄、簟色寒），最后写所见（孤灯不明、卷帷望月），层层烘托出孤栖幽独者的落寞与寂寞空虚。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "作者是通过环境气氛层层渲染的手法，来表现这一人物的感情的。先写所闻──阶下纺织娘凄切地鸣叫。虫鸣则岁时将晚，孤栖者的落寞之感可知。其次写肌肤所感，正是“霜送晓寒侵被”时候，他更不能成眠了。“微霜凄凄”当是通过逼人寒气感觉到的。而“簟色寒”更暗示出其人已不眠而起。眼前是“罗帐灯昏”，益增愁思。一个“孤”字不仅写灯，也是人物心理写照，从而引起一番思念。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引导学生体会“以动衬静”和“视听触觉结合”的艺术手法"
+      ],
+      "forbidden_assertions": [
+        "声称诗中的秋夜环境是欢快、明朗的"
+      ]
+    },
+    {
+      "claim_id": "claim_08_cosmic_quest",
+      "claim": "诗歌第二部分类似于《离骚》中的“求女”一段，诗人以饱满的感情上天入地（上有青冥之长天，下有渌水之波澜），寻求令他魂牵梦绕的人儿，但因天高地远、关山重重而不可得，最终发出“摧心肝”的沉重叹息。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_3",
+          "text": "第二部分，类似于《离骚》中的“求女”一段，诗人以饱满的感情上天入地，寻求令他魂牵梦绕的人儿，奈何茫茫苍苍天高地远，纵上下求索皆不见芳踪。最终只得沉重一叹：“长相思，摧心肝！”以短促的句子结尾，铿锵有力，情感执着，相思悲痛，形式上首尾呼应。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将此诗与屈原《离骚》的求索精神进行对比阅读"
+      ],
+      "forbidden_assertions": [
+        "断言诗中“上有青冥之长天，下有渌水之波澜”只是写实景，不含任何想象与求索意味"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《长相思·其一》的题名、作者、所属朝代、乐府旧题的体裁属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "唐代李白创作的乐府诗《长相思·其一》",
+        "李白《长相思》组诗的第一首"
+      ],
+      "forbidden_claims": [
+        "该诗是宋代李白的作品",
+        "该诗属于七言律诗体裁"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "说明该诗的推定创作背景，关联李白离开长安后回忆过往的人生阶段特征。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗是李白被唐玄宗赐金放还、离开长安之后创作的",
+        "诗作融入了李白政治失意后的人生感慨"
+      ],
+      "forbidden_claims": [
+        "这首诗是李白在长安做翰林时为杨贵妃写的爱情诗",
+        "该诗创作于李白晚年流放夜郎的途中"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确掌握诗中络纬、金井阑、簟、青冥、渌水、关山难、摧等核心字词的含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "络纬就是秋天鸣叫的纺织娘",
+        "金井阑是装饰精美的井边栏杆",
+        "摧是伤、痛断的意思"
+      ],
+      "forbidden_claims": [
+        "簟是古代的瓷制枕头",
+        "渌水是指浑浊的江水"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_definition"
+      ],
+      "line_ids": [
+        "l02",
+        "l05",
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "梳理全诗从秋夜闻虫、感霜寒、对孤灯、望月长叹，到梦魂求索不得的表层相思叙事脉络。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "全诗先渲染秋夜凄清的环境，再写主人公的相思之苦，最后点出相隔遥远、相思摧心的情感",
+        "诗歌前半部分写现实中的秋夜相思，后半部分写想象中上天入地求索而不得的状态"
+      ],
+      "forbidden_claims": [
+        "这首诗写的是春日长安的游乐场景",
+        "诗的主人公是在长安和友人欢聚宴饮"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_05_structural_feature",
+        "claim_07_scenery_atmosphere",
+        "claim_08_cosmic_quest"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_05_metaphor_source",
+      "category": "metaphor_source",
+      "description": "了解中国古典诗歌自楚辞以来以美人喻所追求理想的比兴传统。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "从屈原的《离骚》开始，诗人就常用美人来比喻自己的政治理想",
+        "这种托寓是中国古典诗歌含蓄表意的常见手法"
+      ],
+      "forbidden_claims": [
+        "中国古代诗歌从来不会用美人来比喻理想，所有写美人的诗都是写真实的女性",
+        "以美人喻理想是李白自己独创的写作手法"
+      ],
+      "source_claim_ids": [
+        "claim_03_literary_explanation"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确本诗的政治托寓是基于传统比兴的合理引申，诗作本身并未直接点明政治指向，不得强行坐实具体所指。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "我们可以从比兴传统的角度理解这首诗的托寓义，但不能说李白写的美人就是特指某一个唐代后妃",
+        "两种解读并行不悖，不需要否定其中一种"
+      ],
+      "forbidden_claims": [
+        "这首诗百分之百是李白写给杨贵妃的求官诗，美人就是指杨贵妃",
+        "这首诗完全没有政治内涵，托寓解读都是过度解读"
+      ],
+      "source_claim_ids": [
+        "claim_03_literary_explanation"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "概括本诗以秋景烘托相思，意境开阔飘逸、兼具豪迈与沉郁的整体艺术风格。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首诗写儿女相思却没有柔靡之气，反而有李白一贯的飘逸豪迈风格",
+        "全诗把凄清的相思情绪放到天地长天的开阔背景下，意境格外深远"
+      ],
+      "forbidden_claims": [
+        "这首诗是典型的婉约派爱情诗，风格柔靡无力",
+        "这首诗的风格和李白其他作品完全不一样，不是李白所作"
+      ],
+      "source_claim_ids": [
+        "claim_03_literary_explanation",
+        "claim_05_structural_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_08_structure",
+      "category": "structure",
+      "description": "掌握本诗前后对称、首尾呼应的结构特征，以及通过环境气氛层层渲染的章法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "诗歌以“美人如花隔云端”为界分为前后两部分，前后形式对称",
+        "诗歌通过听觉、触觉、视觉层层渲染秋夜的凄清氛围"
+      ],
+      "forbidden_claims": [
+        "该诗结构散乱，前后毫无关联"
+      ],
+      "source_claim_ids": [
+        "claim_05_structural_feature",
+        "claim_07_scenery_atmosphere"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_beauty_as_ideal",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "容貌如花、相隔在云端的美人"
+      ],
+      "target_domain": [
+        "诗人思慕的俗世恋人",
+        "诗人毕生追求的政治理想"
+      ],
+      "bridges": [
+        "中国古典诗歌自楚辞就形成了以美人喻理想的比兴传统",
+        "美人所处的长安是唐代政治中心，符合托寓的语境设定"
+      ],
+      "context_claim_ids": [
+        "claim_03_literary_explanation"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅将美人解读为诗人思念的俗世恋人，不做任何政治层面的引申"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_barrier_as_obstacle",
+      "line_ids": [
+        "l04",
+        "l06"
+      ],
+      "source_domain": [
+        "阻隔在美人和主人公之间的云端",
+        "难以逾越的重重关山"
+      ],
+      "target_domain": [
+        "恋人之间无法跨越的遥远空间距离",
+        "诗人追求政治理想过程中遇到的重重阻碍"
+      ],
+      "bridges": [
+        "云端和关山都具备隔绝两端、难以抵达的共同属性",
+        "物理上的阻隔感和情感/理想层面的阻隔感高度相似"
+      ],
+      "context_claim_ids": [
+        "claim_03_literary_explanation"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "仅将关山解读为现实旅途里的关隘山川，不做任何引申层面的解读"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "开场清晰呈现诗题、作者、朝代、体裁信息，同步展示完整原诗文本，简要说明异文情况。",
+      "acceptable_realizations": [
+        "古风题签样式的开场画面，逐行弹出原诗文本",
+        "旁白朗读全诗时同步对应字幕"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏字，擅自改动原诗经典字句",
+        "遗漏诗题、作者等核心元信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_full_poem_display",
+      "semantic_role": "opening_title_and_full_poem_display"
+    },
+    {
+      "requirement_id": "vis_02_autumn_scene_building",
+      "description": "还原秋夜长安庭院的场景：纺织娘在精美井栏边鸣叫，阶前微霜泛着冷光，竹席生寒，昏暗孤灯之下主人公卷帘望月的画面。",
+      "acceptable_realizations": [
+        "冷色调的秋夜庭院全景，镜头从阶下虫鸣慢慢摇到窗边望月的人物",
+        "搭配轻微的秋虫鸣叫声效烘托氛围"
+      ],
+      "forbidden_realizations": [
+        "把场景设置成春日繁花盛开的庭院",
+        "出现不符合唐代建筑特征的现代元素"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "first_part_autumn_sorrow_atmosphere_buildup",
+      "semantic_role": "first_part_autumn_sorrow_atmosphere_buildup"
+    },
+    {
+      "requirement_id": "vis_03_central_line_visualization",
+      "description": "呈现美人衣袂飘飘立于云端的画面，同步引出比兴托寓的相关讲解。",
+      "acceptable_realizations": [
+        "镜头从地面望月的主人公视角向上抬升，云端缓缓出现美人的朦胧身影",
+        "弹出楚辞以美人喻理想的相关知识点卡片"
+      ],
+      "forbidden_realizations": [
+        "把美人形象刻画成完全写实的宫廷后妃样貌强行坐实身份",
+        "画面完全不体现云端的缥缈感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_beauty_as_ideal"
+      ],
+      "expected_phase": "central_line_beauty_across_clouds",
+      "semantic_role": "central_line_beauty_across_clouds"
+    },
+    {
+      "requirement_id": "vis_04_cosmic_quest_sequence",
+      "description": "呈现上接青冥长天、下临渌水波澜的开阔场景，梦魂飞越重重关山却被阻隔的动画效果。",
+      "acceptable_realizations": [
+        "第一视角跟随梦魂从高空飞向地面，穿越层叠山峦却始终无法抵达美人所在的云端",
+        "用流动的云雾 and 翻涌的水波强化天地辽阔的空间感"
+      ],
+      "forbidden_realizations": [
+        "把场景局限在狭小的室内空间，完全不体现天地开阔的意境",
+        "梦魂轻易就飞到了美人身边，完全没有阻隔感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_barrier_as_obstacle"
+      ],
+      "expected_phase": "second_part_cosmic_quest_sequence",
+      "semantic_role": "second_part_cosmic_quest_sequence"
+    },
+    {
+      "requirement_id": "vis_05_emotional_closing",
+      "description": "收尾落回诗人抚胸长叹的近景画面，呼应开篇“长相思”的主题，点出“摧心肝”的情感重量。",
+      "acceptable_realizations": [
+        "画面渐暗后重新弹出首尾两句“长相思”的大字，强化回环的结构感",
+        "搭配沉郁的收尾音效烘托情感"
+      ],
+      "forbidden_realizations": [
+        "收尾用欢快的音乐和画面，消解全诗相思痛苦的核心情感",
+        "最后落点到无关的其他诗人诗作上"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "final_emotional_climax_ending",
+      "semantic_role": "final_emotional_climax_ending"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_079_01",
+      "description": "李白曾供奉翰林，在长安度过了一段岁月，怀抱远大的政治理想。",
+      "audio_triggers": [
+        "长安",
+        "供奉翰林",
+        "政治理想"
+      ],
+      "visual_evidence": [
+        "盛唐长安城的繁华景象",
+        "李白身穿唐代官服或翰林服饰，意气风发"
+      ],
+      "sound_evidence": [
+        "繁华都市的喧闹声",
+        "宴饮或朝堂的雅乐"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_079_02",
+      "description": "李白在长安遭到排挤，最终被唐玄宗“赐金还山”，被迫离开长安，政治理想受挫。",
+      "audio_triggers": [
+        "遭谗",
+        "赐金还山",
+        "离开长安",
+        "排挤"
+      ],
+      "visual_evidence": [
+        "李白脱下官服，神情落寞",
+        "乘车马离开长安城，背影孤单"
+      ],
+      "sound_evidence": [
+        "沉重缓慢的马蹄声",
+        "萧瑟的风声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_079_03",
+      "description": "通常认为，李白离开长安后，在秋夜孤栖中回忆往事，以“美人”托寓政治理想，创作了《长相思·其一》，抒发追求政治理想而不能的郁闷之情。",
+      "audio_triggers": [
+        "秋夜",
+        "沉思",
+        "回忆往事",
+        "美人",
+        "创作"
+      ],
+      "visual_evidence": [
+        "秋夜环境，微霜降临",
+        "李白在孤灯下沉思，神情痛苦而思念",
+        "提笔在书案前写下诗篇"
+      ],
+      "sound_evidence": [
+        "秋虫（纺织娘）凄切的鸣叫声",
+        "夜风吹动窗帘的声音",
+        "长叹声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "长相思，",
+      "pronunciation": "cháng xiāng sī ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "在长安。",
+      "pronunciation": "zài cháng ān 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "络纬秋啼金井阑，",
+      "pronunciation": "luò wěi qiū tí jīn jǐng lán ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "微霜凄凄簟色寒。",
+      "pronunciation": "wēi shuāng qī qī diàn sè hán 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "孤灯不明思欲绝，",
+      "pronunciation": "gū dēng bù míng sī yù jué ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "卷帷望月空长叹。",
+      "pronunciation": "juǎn wéi wàng yuè kōng cháng tàn 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "美人如花隔云端！",
+      "pronunciation": "měi rén rú huā gé yún duān ！",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "上有青冥之长天，",
+      "pronunciation": "shàng yǒu qīng míng zhī cháng tiān ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "下有渌水之波澜。",
+      "pronunciation": "xià yǒu lù shuǐ zhī bō lán 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天长路远魂飞苦，",
+      "pronunciation": "tiān cháng lù yuǎn hún fēi kǔ ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "梦魂不到关山难。",
+      "pronunciation": "mèng hún bú dào guān shān nán 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "长相思，",
+      "pronunciation": "cháng xiāng sī ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "摧心肝！",
+      "pronunciation": "cuī xīn gān ！",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "李白",
+      "pronunciation": "lǐ bái",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "长安",
+      "pronunciation": "cháng ān",
+      "category": "place",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_079_01",
+      "source_event_id": "evt_079_01",
+      "target_event_id": "evt_079_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_079_02",
+      "source_event_id": "evt_079_02",
+      "target_event_id": "evt_079_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_079_03",
+      "source_event_id": "evt_079_01",
+      "target_event_id": "evt_079_03",
+      "relation_type": "RECALL_OF",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/079.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/079.json",
+      "event_gold": "gold_annotation/tangshi_300/079.json"
+    },
+    "original_sample_id": "079",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

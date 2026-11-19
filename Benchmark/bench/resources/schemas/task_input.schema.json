@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "task_input.schema.json",
+  "title": "Public Benchmark Task Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sample_id",
+    "track",
+    "setting",
+    "poem",
+    "task"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.5"},
+    "sample_id": {"type": "string"},
+    "track": {
+      "enum": [
+        "text_planning",
+        "visual_generation",
+        "audio_generation",
+        "audio_visual_generation",
+        "full_task_teaching"
+      ]
+    },
+    "setting": {
+      "enum": [
+        "standard",
+        "oracle_conditioned",
+        "system_conditioned",
+        "fixed_narration",
+        "structured_script",
+        "full_task"
+      ]
+    },
+    "poem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "author", "dynasty", "text", "lines"],
+      "properties": {
+        "title": {"type": "string"},
+        "author": {"type": "string"},
+        "dynasty": {"type": "string"},
+        "form": {"type": "string"},
+        "text": {"type": "string"},
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["line_id", "order", "text"],
+            "properties": {
+              "line_id": {"type": "string"},
+              "order": {"type": "integer", "minimum": 1},
+              "text": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language", "target_audience", "target_duration_seconds"],
+      "properties": {
+        "language": {"type": "string"},
+        "target_audience": {"type": "string"},
+        "target_duration_seconds": {
+          "oneOf": [
+            {"type": "number", "minimum": 1},
+            {
+              "type": "array",
+              "prefixItems": [
+                {"type": "number", "minimum": 1},
+                {"type": "number", "minimum": 1}
+              ],
+              "minItems": 2,
+              "maxItems": 2
+            }
+          ]
+        },
+        "required_modalities": {"type": "array", "items": {"type": "string"}},
+        "instructions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "condition_inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "visual_prompt": {"type": "string", "minLength": 1},
+        "narration_text": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"track": {"const": "visual_generation"}}},
+      "then": {
+        "required": ["condition_inputs"],
+        "properties": {"condition_inputs": {"required": ["visual_prompt"]}}
+      }
+    },
+    {
+      "if": {"properties": {"track": {"const": "audio_generation"}}},
+      "then": {
+        "required": ["condition_inputs"],
+        "properties": {"condition_inputs": {"required": ["narration_text"]}}
+      }
+    },
+    {
+      "if": {"properties": {"track": {"const": "audio_visual_generation"}}},
+      "then": {
+        "required": ["condition_inputs"],
+        "properties": {"condition_inputs": {"required": ["visual_prompt", "narration_text"]}}
+      }
+    },
+    {
+      "if": {"properties": {"track": {"enum": ["text_planning", "full_task_teaching"]}}},
+      "then": {"not": {"required": ["condition_inputs"]}}
+    }
+  ]
+}

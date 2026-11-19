@@ -1,0 +1,921 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_041",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《白雪歌送武判官归京》是唐代诗人岑参创作的七言古诗，属于盛唐边塞诗的代表性作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据标注为唐·岑参作，体裁七言古诗，题名《白雪歌送武判官归京》",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "岑参是唐代著名边塞诗人，代表作包含《白雪歌送武判官归京》",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此诗堪称盛世大唐边塞诗的压卷之作",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本诗作为岑参边塞诗浪漫奇崛风格的典型案例",
+        "可将本诗纳入盛唐边塞诗核心代表作序列进行讲解"
+      ],
+      "forbidden_assertions": [
+        "声称本诗作者是高适或其他唐代诗人",
+        "将本诗归类为山水田园诗或婉约送别诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "本诗作于唐玄宗天宝十三载（754年），是岑参第二次出塞任安西北庭节度判官时，在轮台送别归京的前任武判官所作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "天宝十三载是岑参第二次出塞，充任安西北庭节度使封常清的判官，武判官即其前任，诗人在轮台送他归京而写下此诗",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "岑参怀着到塞外建功立业的志向，两度出塞，久佐戎幕，对塞外风光有长期观察体会，此诗即作于第二次出塞北庭时期",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合岑参两度出塞的人生经历解读诗中对边地风光的熟悉感",
+        "可关联盛唐时期西北边疆的开拓背景理解诗中的豪迈气质"
+      ],
+      "forbidden_assertions": [
+        "声称本诗作于岑参第一次出塞时期",
+        "认定送别对象是岑参的亲属而非同僚武判官"
+      ]
+    },
+    {
+      "claim_id": "claim_03_core_famous_line_metaphor",
+      "claim": "名句“忽如一夜春风来，千树万树梨花开”以春日梨花盛开的盛景比喻塞外大雪压覆枝头的壮丽雪景，是千古传诵的经典咏雪诗句。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "梨花：春天开放，花作白色。这里比喻雪花积在树枝上，像梨花开了一样",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗人以“春风”使梨花盛开，比拟“北风”使雪花飞舞，极为新颖贴切，千树万树梨花开的壮美意境颇富浪漫色彩",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可分析该比喻将南方春景与北国冬景打通的新奇艺术效果",
+        "可对比其他古代以花喻雪的诗句凸显本诗的独特性"
+      ],
+      "forbidden_assertions": [
+        "声称该诗句描写的是塞外八月真实出现梨花盛开的春景",
+        "认为该句是化用他人诗句没有原创性"
+      ]
+    },
+    {
+      "claim_id": "claim_04_structure_feature",
+      "claim": "全诗以一天之内的雪景变化为核心线索，依次铺陈送别前、饯别时、临别、送别后四个阶段的雪景，将咏雪与送别两大主题完全融合。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_4",
+          "text": "全诗关键在四个“雪”字，第一个雪是送别以前的雪景，第二个是饯别时候的雪景，第三个是临别时候的雪景，第四个是送别之后的雪景",
+          "locator": "赏析四",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全诗以一天雪景的变化为线索，记叙送别归京使臣的过程，文思开阔，结构缜密",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可按场景从帐外到帐内再到旷野、辕门、路口的移动顺序拆分全诗层次",
+        "可梳理每部分雪景对送别情绪的烘托作用"
+      ],
+      "forbidden_assertions": [
+        "认为全诗写景 and 送别内容完全割裂没有关联",
+        "声称全诗没有清晰的场景转换逻辑"
+      ]
+    },
+    {
+      "claim_id": "claim_05_artistic_feature",
+      "claim": "本诗充分体现岑参边塞诗“好奇”的创作个性，善用夸张、反常细节勾勒等手法，格调高亢浪漫，没有传统送别诗的沉郁伤感，充满盛唐边塞的豪迈意气。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "充满奇情妙思是此诗主要特色，再现边地瑰丽自然风光，融合真挚送别情谊，没有沉溺于苦寒的悲叹",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "诗歌内里充满激扬的热情，展现出边塞军人不屈的意志和豪迈的意气，读来令人振奋欢欣",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合杜甫“岑参兄弟皆好奇”的评价解读诗中多处反常奇景的设计",
+        "可分析“风掣红旗冻不翻”这类冷暖色彩对比细节的表现力"
+      ],
+      "forbidden_assertions": [
+        "认为本诗通篇表达了对边塞苦寒生活的强烈不满和厌弃",
+        "将本诗的整体基调判定为悲苦哀伤"
+      ]
+    },
+    {
+      "claim_id": "claim_06_alternative_text_version",
+      "claim": "本诗流传过程中存在多处异文，比如“都护铁衣冷难着”一作“犹著”，“瀚海阑干百丈冰”的“百丈”一作“百尺”“千尺”。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "原诗标注“难着 一作：犹著”",
+          "locator": "l05",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "难着：一作“犹着”，一作“犹著”；百丈：一作“百尺”，一作“千尺”",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可适当说明不同异文的表达差异，供学生对比体会",
+        "可说明古代诗歌在传抄过程中出现异文是普遍现象"
+      ],
+      "forbidden_assertions": [
+        "认定某一个异文是绝对唯一的原作正确文本，其他版本都是错误的",
+        "在正式教学中随意改动通行版本的文字而不做说明"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_baicao",
+      "claim": "“白草”是西北地区的一种牧草，晒干或秋天干枯时会变成白色，其性至坚韧，经霜变脆故能被狂风吹折。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "白草：西北的一种牧草，晒干后变白。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“白草”，据《汉书·西域传》注，乃西北一种草名，王先谦补注谓其性至坚韧。然经霜草脆，故能断折",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“白草折”不仅交代了物候，更通过草折反衬出北风的猛烈势头"
+      ],
+      "forbidden_assertions": [
+        "将“白草”误解为南方春季随风俯仰的普通青草"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_hanhai_langan",
+      "claim": "“瀚海”在诗中指大沙漠，而非海洋；“阑干”形容冰雪纵横交错的样子。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "瀚海：沙漠。这句说大沙漠里到处都结着很厚的冰。阑干：纵横交错的样子。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“瀚海阑干”描绘了无边沙漠中冰雪纵横、坚冻百丈的壮阔奇观"
+      ],
+      "forbidden_assertions": [
+        "将“瀚海”解释为波涛汹涌的真实海洋"
+      ]
+    },
+    {
+      "claim_id": "claim_09_lexical_feng_che",
+      "claim": "“风掣”指红旗因雪冻结，风都吹不动了；一说指红旗被风往一个方向拉扯，给人以冻住之感。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "风掣：红旗因雪而冻结，风都吹不动了。一言旗被风往一个方向吹，给人以冻住之感。掣：拉，扯。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“风掣红旗冻不翻”通过红旗冻僵、风吹不动的反常细节，传神地表现了边地的极度奇寒"
+      ],
+      "forbidden_assertions": [
+        "认为红旗在风中自由舒展、大幅飘扬"
+      ]
+    },
+    {
+      "claim_id": "claim_10_lexical_huwen",
+      "claim": "诗中“将军角弓不得控，都护铁衣冷难着”两句中的“将军”与“都护”是互文见义，兼指边防将士。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "都护：镇守边镇的长官此为泛指，与上文的“将军”是互文。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "二句兼都护（镇边都护府的长官）将军言之，互文见义。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "这两句并非特指某一位将军或都护，而是通过他们的极寒体验来概括边地将士共同的艰苦生活"
+      ],
+      "forbidden_assertions": [
+        "将“将军”和“都护”割裂为两个完全不相干的独立个体进行机械解读"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明本诗的题名、作者、朝代、体裁和边塞诗代表作的定位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "盛唐诗人岑参创作的七言古诗《白雪歌送武判官归京》是唐代边塞诗的压卷之作"
+      ],
+      "forbidden_claims": [
+        "本诗是宋代高适所作的山水诗",
+        "本诗是婉约派的送别词作"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "掌握本诗的创作时间、地点、送别对象以及岑参第二次出塞的相关背景信息。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "754年岑参在新疆轮台送别同僚武判官返回长安时写下这首诗"
+      ],
+      "forbidden_claims": [
+        "本诗作于岑参被贬江南的时期",
+        "本诗是岑参在长安送别友人所作"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_lexical_explanation",
+      "category": "lexical",
+      "description": "掌握诗中重点实词、文化专有名词的准确含义，如白草、胡天、瀚海、阑干、掣、都护、辕门等。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“瀚海”在本诗里指西北沙漠，不是海洋；“都护”是唐代镇守边疆的长官，和“将军”是互文"
+      ],
+      "forbidden_claims": [
+        "“梨花”指塞外真实开放的春季梨花",
+        "“辕门”是普通民居的大门"
+      ],
+      "source_claim_ids": [
+        "claim_03_core_famous_line_metaphor",
+        "claim_07_lexical_baicao",
+        "claim_08_lexical_hanhai_langan",
+        "claim_09_lexical_feng_che",
+        "claim_10_lexical_huwen"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l04",
+        "l06",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_04_literal_meaning",
+      "category": "literal_meaning",
+      "description": "准确理解全诗每一句的字面含义，梳理清楚写景、叙事的完整脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "北风席卷大地吹折了坚韧的白草，塞北的八月就已经下起了漫天大雪"
+      ],
+      "forbidden_claims": [
+        "八月飞雪是江南地区的常见自然现象",
+        "胡琴琵琶与羌笛都是中原传统乐器"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity",
+        "claim_02_creation_context"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure_analysis",
+      "category": "structure",
+      "description": "梳理全诗以四次雪景变化串联送别全过程的四层结构逻辑。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "全诗按照送别前雪景、饯别宴雪景、临别雪景、送别后雪景的顺序逐层推进"
+      ],
+      "forbidden_claims": [
+        "全诗没有清晰的场景转换，写景和送别内容完全脱节"
+      ],
+      "source_claim_ids": [
+        "claim_04_structure_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10"
+      ]
+    },
+    {
+      "unit_id": "req_06_artistic_interpretation",
+      "category": "interpretive_boundary",
+      "description": "理解本诗奇崛浪漫的整体风格，避免将其误读为充满悲苦厌世情绪的作品。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "这首送别诗没有沉溺于儿女情长的伤感，反而充满盛唐边塞将士的豪迈气概"
+      ],
+      "forbidden_claims": [
+        "这首诗通篇表达了边塞将士对守边生活的强烈不满"
+      ],
+      "source_claim_ids": [
+        "claim_05_artistic_feature"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_version",
+      "category": "alternative_reading",
+      "description": "了解本诗流传过程中存在的异文情况，理解不同版本的表达差异。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“都护铁衣冷难着”也有版本写作“都护铁衣冷犹著”，两种表述各有不同的表现力"
+      ],
+      "forbidden_claims": [
+        "所有异文都是后人胡乱篡改的，完全没有参考价值"
+      ],
+      "source_claim_ids": [
+        "claim_06_alternative_text_version"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_snow_as_pear_blossom",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "一夜春风吹开的千树万树连片梨花"
+      ],
+      "target_domain": [
+        "塞外一夜之间积满所有枝头的连片大雪"
+      ],
+      "bridges": [
+        "二者视觉上都呈现出大片洁白、团簇压枝的盛景",
+        "用中原人熟悉的春日烂漫春景类比塞外罕见的壮丽冬雪，消解苦寒感带来新奇浪漫的体验"
+      ],
+      "context_claim_ids": [
+        "claim_03_core_famous_line_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "后世东方虬“春雪满空来，触处似花开”也以花喻雪，但本诗的豪情奇趣远超同类作品"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_cloud_as_condensed_sadness",
+      "line_ids": [
+        "l06"
+      ],
+      "source_domain": [
+        "被外力凝固住的厚重实体"
+      ],
+      "target_domain": [
+        "漫天密布、昏暗无光、凝滞不动的厚重愁云"
+      ],
+      "bridges": [
+        "愁云被赋予了和瀚海坚冰一致的凝固质感，形成天地间冷色调的统一视觉氛围",
+        "将抽象的送别离愁外化为可见的凝滞云团，暗喻前路的艰难和离别的沉重"
+      ],
+      "context_claim_ids": [
+        "claim_04_structure_feature"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "此处的“愁云”也可解读为所有边地将士共同的乡思离愁的外化投射"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_presentation",
+      "description": "清晰展示诗题、作者、朝代、体裁信息，同步呈现完整无错的全诗文本，标点句序准确。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_poem_intro",
+      "acceptable_realizations": [
+        "古风题签样式展示诗题作者，逐行滚动呈现全诗字幕配合专业朗读"
+      ],
+      "forbidden_realizations": [
+        "错写作者名字，遗漏诗句，擅自改动通行版本文字不做异文说明"
+      ],
+      "semantic_role": "opening_title_and_poem_intro"
+    },
+    {
+      "requirement_id": "vis_02_wind_and_first_snow",
+      "description": "呈现北风卷地吹折白草、胡天八月飞雪的开篇奇景，突出边地风雪来势的迅猛。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_wind_and_snow_arrival",
+      "acceptable_realizations": [
+        "动态展示狂风席卷西北草原，坚韧的白草成片折断，鹅毛大雪瞬间铺满天地的画面"
+      ],
+      "forbidden_realizations": [
+        "把场景设置成江南水乡，把白草画成春季柔软的青草"
+      ],
+      "semantic_role": "opening_wind_and_snow_arrival"
+    },
+    {
+      "requirement_id": "vis_03_pear_blossom_snowscape",
+      "description": "呈现“千树万树梨花开”的奇幻雪景，突出雪压枝头的洁白盛景，体现春日梨花和冬雪的视觉关联。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_snow_as_pear_blossom"
+      ],
+      "expected_phase": "spring_like_snow_visualization",
+      "acceptable_realizations": [
+        "先展示春日江南千树梨花连片盛开的画面，再自然过渡到雪压冬林的边地实景，形成直观的视觉类比"
+      ],
+      "forbidden_realizations": [
+        "直接在塞外雪景场景里绘制真实的梨树开花，不做比喻提示"
+      ],
+      "semantic_role": "spring_like_snow_visualization"
+    },
+    {
+      "requirement_id": "vis_04_barracks_cold_scene",
+      "description": "呈现帐内帐外的奇寒场景：雪花散入珠帘沾湿罗幕、狐裘不暖、角弓冻得拉不开、铁衣难以穿上的细节。",
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "barracks_extreme_cold_depiction",
+      "acceptable_realizations": [
+        "镜头从帐外飘雪慢慢推进到帐内，依次扫过狐裘、锦衾、角弓、铁衣等细节，突出寒意"
+      ],
+      "forbidden_realizations": [
+        "把边地军营画得温暖如春，将士们身着单衣活动"
+      ],
+      "semantic_role": "barracks_extreme_cold_depiction"
+    },
+    {
+      "requirement_id": "vis_05_ice_field_and_cloud",
+      "description": "呈现瀚海百丈冰、万里凝愁云的壮阔场景，突出天地的辽远和奇寒氛围。",
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_cloud_as_condensed_sadness"
+      ],
+      "expected_phase": "vast_icy_desert_scene",
+      "acceptable_realizations": [
+        "大远景展示纵横开裂的冰封沙漠，天空布满厚重凝滞的暗灰色云层，天地连成一片"
+      ],
+      "forbidden_realizations": [
+        "把瀚海画成波涛汹涌的大海，完全没有冰雪元素"
+      ],
+      "semantic_role": "vast_icy_desert_scene"
+    },
+    {
+      "requirement_id": "vis_06_farewell_banquet",
+      "description": "呈现中军帐内设酒饯别，胡琴琵琶羌笛合奏，辕门外红旗被冻住纹丝不动的标志性细节。",
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "farewell_banquet_at_military_camp",
+      "acceptable_realizations": [
+        "先展示帐内众人宴饮奏乐的热闹场景，再切到帐外辕门处被冻得硬挺、在漫天白雪背景下格外醒目的鲜红红旗"
+      ],
+      "forbidden_realizations": [
+        "把辕门画成普通民居大门，红旗被风吹得大幅飘动"
+      ],
+      "semantic_role": "farewell_banquet_at_military_camp"
+    },
+    {
+      "requirement_id": "vis_07_final_departure",
+      "description": "呈现轮台东门送别，友人身影消失在山路转弯处，雪地上只留下一行马蹄印的收尾场景。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "final_departure_and_remaining_tracks",
+      "acceptable_realizations": [
+        "镜头跟着友人的背影逐渐远去，山回路转之后人影彻底消失，最后定格在雪地上延伸向天山深处的马蹄印迹"
+      ],
+      "forbidden_realizations": [
+        "直接把友人送到长安，完全破坏原诗结尾留下的艺术空白"
+      ],
+      "semantic_role": "final_departure_and_remaining_tracks"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_041_01",
+      "description": "唐玄宗天宝十三载，岑参第二次出塞，充任安西北庭节度使封常清的判官。",
+      "audio_triggers": [
+        "天宝十三载",
+        "第二次出塞",
+        "安西北庭",
+        "节度使",
+        "封常清",
+        "判官"
+      ],
+      "visual_evidence": [
+        "盛唐时期",
+        "西北边塞环境",
+        "身穿唐代官服或戎装的岑参在行军",
+        "唐代军营或衙署"
+      ],
+      "sound_evidence": [
+        "马蹄声",
+        "风沙声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_041_02",
+      "description": "边塞八月突降大雪，天气奇寒，积雪覆盖野草。此时岑参的同僚或前任武判官即将启程返回京城长安。",
+      "audio_triggers": [
+        "八月即飞雪",
+        "武判官",
+        "归京"
+      ],
+      "visual_evidence": [
+        "唐代边塞军营",
+        "帐外大雪纷飞",
+        "枯白的野草被冰雪压折",
+        "武判官收拾行装准备返京"
+      ],
+      "sound_evidence": [
+        "呼啸的风雪声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_041_03",
+      "description": "主帅帐中摆设酒宴为武判官饯行，将士们奏起胡琴、琵琶与羌笛。帐外冰天雪地，红旗因结冰而无法随风飘动。",
+      "audio_triggers": [
+        "中军置酒",
+        "饯行",
+        "胡琴琵琶与羌笛",
+        "风掣红旗"
+      ],
+      "visual_evidence": [
+        "唐代军帐内",
+        "丰盛的饯行酒席",
+        "将领们穿着厚重的铠甲或皮裘饮酒",
+        "乐师弹奏胡琴、琵琶、吹奏羌笛",
+        "帐外飘雪",
+        "辕门外被冰雪冻结不动的红旗"
+      ],
+      "sound_evidence": [
+        "饮酒交谈声",
+        "胡琴、琵琶、羌笛的合奏声",
+        "帐外的风雪声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_041_04",
+      "description": "岑参在轮台东门外送别武判官，目送他远去，直到他的身影消失在漫天大雪的天山路中。岑参有感于奇丽雪景与离别之情，写下《白雪歌送武判官归京》。",
+      "audio_triggers": [
+        "轮台东门",
+        "送君去",
+        "雪上空留马行处",
+        "写下",
+        "白雪歌送武判官归京"
+      ],
+      "visual_evidence": [
+        "轮台古城东门",
+        "漫天大雪",
+        "武判官骑马远去的背影",
+        "蜿蜒雪道上一行深深的马蹄印",
+        "岑参在风雪中驻足怅望",
+        "岑参回到书案前挥毫作诗"
+      ],
+      "sound_evidence": [
+        "马嘶叫声",
+        "渐渐远去的马蹄声",
+        "风雪声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "北风卷地白草折，",
+      "pronunciation": "běi fēng juǎn dì bái cǎo zhé,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "胡天八月即飞雪。",
+      "pronunciation": "hú tiān bā yuè jí fēi xuě.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "忽如一夜春风来，",
+      "pronunciation": "hū rú yī yè chūn fēng lái,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千树万树梨花开。",
+      "pronunciation": "qiān shù wàn shù lí huā kāi.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "散入珠帘湿罗幕，",
+      "pronunciation": "sàn rù zhū lián shī luó mù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "狐裘不暖锦衾薄。",
+      "pronunciation": "hú qiú bù nuǎn jǐn qīn bó.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "将军角弓不得控，",
+      "pronunciation": "jiāng jūn jiǎo gōng bù dé kòng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "都护铁衣冷难着。",
+      "pronunciation": "dū hù tiě yī lěng nán zhuó.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "(难着 一作：犹著)",
+      "pronunciation": "(nán zhuó yī zuò：yóu zhuó)",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "瀚海阑干百丈冰，",
+      "pronunciation": "hàn hǎi lán gān bǎi zhàng bīng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "愁云惨淡万里凝。",
+      "pronunciation": "chóu yún cǎn dàn wàn lǐ níng.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "中军置酒饮归客，",
+      "pronunciation": "zhōng jūn zhì jiǔ yǐn guī kè,",
+      "accepted_variants": [
+        "zhōng jūn zhì jiǔ yìn guī kè,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "胡琴琵琶与羌笛。",
+      "pronunciation": "hú qín pí pá yǔ qiāng dí.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "纷纷暮雪下辕门，",
+      "pronunciation": "fēn fēn mù xuě xià yuán mén,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "风掣红旗冻不翻。",
+      "pronunciation": "fēng chè hóng qí dòng bù fān.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "轮台东门送君去，",
+      "pronunciation": "lún tái dōng mén sòng jūn qù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "去时雪满天山路。",
+      "pronunciation": "qù shí xuě mǎn tiān shān lù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山回路转不见君，",
+      "pronunciation": "shān huí lù zhuǎn bù jiàn jūn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "雪上空留马行处。",
+      "pronunciation": "xuě shàng kōng liú mǎ xíng chù.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "岑参",
+      "pronunciation": "cén shēn",
+      "accepted_variants": [
+        "cén cān"
+      ],
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "武判官",
+      "pronunciation": "wǔ pàn guān",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "封常清",
+      "pronunciation": "fēng cháng qīng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "白雪歌送武判官归京",
+      "pronunciation": "bái xuě gē sòng wǔ pàn guān guī jīng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "轮台",
+      "pronunciation": "lún tái",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "天山",
+      "pronunciation": "tiān shān",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "安西北庭",
+      "pronunciation": "ān xī běi tíng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "天宝",
+      "pronunciation": "tiān bǎo",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "判官",
+      "pronunciation": "pàn guān",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_041_01",
+      "source_event_id": "evt_041_01",
+      "target_event_id": "evt_041_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_041_02",
+      "source_event_id": "evt_041_02",
+      "target_event_id": "evt_041_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_041_03",
+      "source_event_id": "evt_041_03",
+      "target_event_id": "evt_041_04",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_041_04",
+      "source_event_id": "evt_041_02",
+      "target_event_id": "evt_041_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_041_05",
+      "source_event_id": "evt_041_03",
+      "target_event_id": "evt_041_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/041.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/041.json",
+      "event_gold": "gold_annotation/tangshi_300/041.json"
+    },
+    "original_sample_id": "041",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

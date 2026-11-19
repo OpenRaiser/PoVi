@@ -1,0 +1,701 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_165",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为南宋诗人陆游所作，词牌为卜算子，体裁为词。此词选自吴氏双照楼影宋本《渭南词》卷二，词牌名又名《百尺楼》《眉峰碧》《楚天遥》《缺月挂疏桐》等。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：卜算子 作者：陆游 朝代：宋 体裁：词 词牌：卜算子",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "①卜（bǔ）算子·咏梅：选自吴氏双照楼影宋本《渭南词》卷二。“卜算子”是词牌名。又名《百尺楼》《眉峰碧》《楚天遥》《缺月挂疏桐》等。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为南宋咏物词代表作，作者为陆游，出自其词集《渭南词》。"
+      ],
+      "forbidden_assertions": [
+        "作者为其他朝代诗人",
+        "体裁误判为诗或曲",
+        "词牌卜算子没有其他别名"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词作于淳熙二年（1175年）陆游51岁闲居山阴时，正值其因力主抗金遭弹劾罢官后。词中'驿外断桥'暗喻政治边缘处境，'群芳妒'影射主和派排挤。其一生政治生涯屡遭投降派、小人排挤，此词是其身世的缩影。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "此词作于淳熙二年（1175年）陆游51岁闲居山阴时，正值其因力主抗金遭弹劾罢官后。词中\"驿外断桥\"暗喻政治边缘处境，\"群芳妒\"影射主和派排挤。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "陆游一生的政治生涯：早年参加考试被荐送第一，为秦桧所嫉；孝宗时又为龙大渊、一群小人所排挤；在四川王炎幕府时要经略中原，又见扼于统治集团，不得遂其志；晚年赞成韩侂胄北伐，韩侂胄失败后被诬陷。我们读他这首词，联系他的政治遭遇，可以看出它是他的身世的缩影。",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中环境描写与作者仕途受挫、遭主和派排挤的经历密切相关。"
+      ],
+      "forbidden_assertions": [
+        "创作于陆游仕途顺遂时期",
+        "词作与南宋抗金政治背景无关"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literal_setting",
+      "claim": "上阕描绘梅花在荒僻驿站外、残破断桥边，于黄昏风雨中独自开放、无人照管的凄凉景象。其中“驿外”指荒僻、冷清之地；“断桥”指残破的桥，一说通“簖”，指古时拦河捕鱼蟹处所建之桥；“无主”指自生自灭，无人照管和玩赏；“著”同“着”，指遭受、承受。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "驿站外的断桥边，梅花孤单冷清的绽放着，无人过问。已是日落黄昏，她正独自忧愁感伤，却又遭到了风雨的摧残。",
+          "locator": "译文一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "驿外：指荒僻、冷清之地。断桥：残破的桥。一说“断”通“簖”，簖桥乃是古时在为拦河捕鱼蟹而设簖之处所建之桥。无主：自生自灭，无人照管和玩赏。著：同“着”，遭受，承受。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "上阕通过荒凉环境与恶劣天气渲染梅花的孤寂与磨难。"
+      ],
+      "forbidden_assertions": [
+        "梅花生长于繁华庭院",
+        "天气晴朗温暖且有人精心照料"
+      ]
+    },
+    {
+      "claim_id": "claim_04_allegory",
+      "claim": "全词以梅自况，托物言志，梅花的高洁品格与坚贞气节是陆游自身人格与爱国操守的投射。末句“零落成泥碾作尘，只有香如故”表达了虽历经摧残而高洁志行、忠贞不渝的情怀与抱负，具有“抗鼎之力”，振起全篇。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此词以梅花自况，咏梅的凄苦以泄胸中抑郁……赞梅的精神又表达了青春无悔的信念以及对自己爱国情操及高洁人格的自许。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "末句具有扛鼎之力，它振起全篇……词人借梅言志，曲折地写出险恶仕途中坚持高沽志行。不媚俗．不屈邪．清真绝俗，忠贞不渝的情怀与抱负。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "梅花的高洁品格是陆游自身人格与政治操守的投射。"
+      ],
+      "forbidden_assertions": [
+        "词作仅为客观咏物，无作者个人寄托",
+        "梅花象征富贵荣华或世俗成功"
+      ]
+    },
+    {
+      "claim_id": "claim_05_qunfang",
+      "claim": "词中“群芳”借指苟且偷安的主和派或朝中政敌，其“妒”映射政治排挤与打压。在字面上，“群芳”指群花、百花，“一任”指全任，完全听凭。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "一任：全任，完全听凭。群芳：群花，这里借指苟且偷安的主和派。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "群芳：群花、百花。百花，这里借指诗人政敌──苟且偷安的主和派。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“群芳妒”暗指朝中主和派对主战派的嫉妒与排挤。"
+      ],
+      "forbidden_assertions": [
+        "“群芳”仅指自然界的其他花卉",
+        "“群芳”指代忠臣义士或正面形象"
+      ]
+    },
+    {
+      "claim_id": "claim_06_duanqiao_dispute",
+      "claim": "关于“断桥”的解释存在两说：一说指残破的桥；另一说认为“断”通“簖”，“簖桥”是古时在为拦河捕鱼蟹而设簖之处所建之桥。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "断桥：残破的桥。一说“断”通“簖”，簖桥乃是古时在为拦河捕鱼蟹而设簖之处所建之桥。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "③断桥：残破的桥。一说“断”通“簖”，簖桥乃是古时在为拦河捕鱼蟹而设簖之处所建之桥。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“断桥”的字面含义在学术和注释界存在不同理解，但均不影响其荒凉冷清的意境表达。"
+      ],
+      "forbidden_assertions": [
+        "“断桥”在词中只有“残破的桥”这一种解释"
+      ]
+    },
+    {
+      "claim_id": "claim_07_rhetoric_structure",
+      "claim": "上阕“已是黄昏独自愁”采用拟人手法写梅花的精神状态，且上阕写愁没有用常用的比喻，而是用环境、时光和自然现象（黄昏、风雨）来烘托，属于“情景双绘”。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“已是黄昏独自愁”是拟人手法，写梅花的精神状态……从艺术手法说，写愁时作者没有用诗人、词人们那套惯用的比喻手法，把愁写得像这像那，而是用环境、时光和自然现象来烘托……上阕四句可说是“情景双绘”。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人通过拟人与环境烘托，使客观景物与主观情感高度融合。"
+      ],
+      "forbidden_assertions": [
+        "上阕写愁采用了直接的比喻修辞",
+        "上阕纯属写景，毫无抒情成分"
+      ]
+    },
+    {
+      "claim_id": "claim_08_intertextuality",
+      "claim": "本词末两句“零落成泥碾作尘，只有香如故”在精神上继承了屈原《离骚》中“不吾知其亦已兮，苟余情其信芳”与“虽体解吾犹未变兮，岂余心之可惩”的精神；其用意比王安石咏杏诗“纵被东风吹作雪，绝胜南陌碾成尘”更为深沉。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "末两句即是《离骚》“不吾知其亦已兮，苟余情其信芳”，“虽体解吾犹未变兮，岂余心之可惩”的精神。比王安石咏杏：“纵被东风吹作雪，绝胜南陌碾成尘”之句用意更深沉。",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "陆游的咏梅词承袭了中国古典文学中“香草美人”的寄托传统，具有深厚的文学史渊源。"
+      ],
+      "forbidden_assertions": [
+        "本词的生死观与屈原《离骚》毫无关联",
+        "本词末句直接抄袭了王安石的咏杏诗"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、词牌、作者、时代和词体身份，以及词牌别名与出处。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋陆游的《卜算子·咏梅》，选自《渭南词》",
+        "陆游所作的咏物词，词牌卜算子又名百尺楼等"
+      ],
+      "forbidden_claims": [
+        "作者为其他朝代诗人",
+        "体裁误判为近体诗或散曲"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "结合南宋主战与主和之争的背景，理解词人因力主抗金遭弹劾罢官、闲居山阴时的政治处境与心境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "陆游因力主抗金遭排挤罢官后所作",
+        "反映南宋朝廷内部政治斗争及作者一生屡遭排挤的身世缩影"
+      ],
+      "forbidden_claims": [
+        "创作于太平盛世或作者仕途得意期",
+        "词作与南宋抗金历史背景无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_03_literal",
+      "category": "literal_meaning",
+      "description": "准确翻译并理解上下阕字面描绘的梅花生长环境与自然状态，掌握“驿外”、“无主”、“著”、“一任”等词的训诂释义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "荒郊断桥边，梅花在黄昏风雨中孤独开放",
+        "梅花不与其他花争春，任凭凋零也保持清香"
+      ],
+      "forbidden_claims": [
+        "梅花生长于皇家园林或繁华闹市",
+        "词中描写的是春日晴好、百花齐放的景象"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_setting",
+        "claim_05_qunfang"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "识别词中核心意象（梅花、群芳、断桥风雨、香如故）及其象征指向。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "梅花象征诗人自身的高洁与不屈",
+        "群芳暗喻朝中排挤主战派的政敌"
+      ],
+      "forbidden_claims": [
+        "全词仅为写景咏物，无深层寄托",
+        "香如故指代物质财富的留存"
+      ],
+      "source_claim_ids": [
+        "claim_04_allegory",
+        "claim_05_qunfang"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_boundary",
+      "category": "interpretive_boundary",
+      "description": "把握“托物言志”的解读边界，避免脱离文本过度引申或混淆历史指涉。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "解读需紧扣词中“自况”与“言志”的文本依据",
+        "政治隐喻应限定于南宋主战派与主和派的斗争语境"
+      ],
+      "forbidden_claims": [
+        "将“群芳”泛化为所有女性或普通百姓",
+        "将“香如故”引申为宗教轮回或神秘主义"
+      ],
+      "source_claim_ids": [
+        "claim_04_allegory"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "掌握“断桥”一词的两种不同注释，理解其在词境中的具体指向。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "断桥可指残破的桥，也可指通‘簖’的捕鱼蟹设簖之桥",
+        "了解断桥存在‘残破之桥’与‘簖桥’两说"
+      ],
+      "forbidden_claims": [
+        "断桥在词中只有唯一确凿的解释"
+      ],
+      "source_claim_ids": [
+        "claim_06_duanqiao_dispute"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_07_structure",
+      "category": "structure",
+      "description": "理解上阕通过环境、时光和自然现象（黄昏、风雨）进行拟人与烘托的“情景双绘”章法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上阕不直接用比喻写愁，而是通过黄昏风雨等环境烘托",
+        "利用拟人手法将梅花人格化，达到情景交融的效果"
+      ],
+      "forbidden_claims": [
+        "上阕写愁使用了直接的比喻修辞",
+        "上阕纯属写景，毫无抒情成分"
+      ],
+      "source_claim_ids": [
+        "claim_07_rhetoric_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_env",
+      "line_ids": [
+        "l01",
+        "l02"
+      ],
+      "source_domain": [
+        "驿外断桥",
+        "黄昏风雨"
+      ],
+      "target_domain": [
+        "政治边缘处境",
+        "人生坎坷与仕途打压"
+      ],
+      "bridges": [
+        "荒僻残破的自然环境与恶劣气候，隐喻作者遭弹劾罢官后的冷落处境与政治风雨。"
+      ],
+      "context_claim_ids": [
+        "claim_02_background",
+        "claim_04_allegory"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为普遍意义上怀才不遇者的孤独写照，不限于特定政治派系。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_qunfang",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "群芳"
+      ],
+      "target_domain": [
+        "主和派",
+        "朝中政敌"
+      ],
+      "bridges": [
+        "注释与赏析明确指出群芳借指苟且偷安的主和派，其排斥与嫉妒映射政敌对主战派的排挤与打压。"
+      ],
+      "context_claim_ids": [
+        "claim_05_qunfang",
+        "claim_04_allegory"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "泛指世俗中趋炎附势、争名逐利之徒。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_fragrance",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "香如故"
+      ],
+      "target_domain": [
+        "高洁人格",
+        "爱国信念"
+      ],
+      "bridges": [
+        "梅花凋零成尘而香气不改，象征诗人虽历经磨难、身死名裂，但忠贞气节与报国初心永不磨灭。"
+      ],
+      "context_claim_ids": [
+        "claim_04_allegory"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可理解为对理想主义精神超越物质毁灭的哲学赞颂。"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text",
+      "description": "清晰呈现完整词作原文、词牌名、作者及朝代，标点与分行需严格对照原版本。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现字幕",
+        "旁白诵读时同步显示竖排/横排原文"
+      ],
+      "forbidden_realizations": [
+        "漏掉关键诗句或擅自改动字词",
+        "词牌与作者信息错位或缺失"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_recitation",
+      "semantic_role": "opening_title_and_recitation"
+    },
+    {
+      "requirement_id": "vis_02_scene",
+      "description": "视觉化上阕荒凉环境，呈现断桥残垣、暮色苍茫与风雨交加的自然景象。",
+      "acceptable_realizations": [
+        "水墨风格渲染荒郊驿站与残桥",
+        "动态风雨特效叠加孤寂梅花特写"
+      ],
+      "forbidden_realizations": [
+        "画面呈现繁华市井或春日暖阳",
+        "梅花被置于金碧辉煌的庭院中"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_env"
+      ],
+      "expected_phase": "depicting_desolate_environment",
+      "semantic_role": "depicting_desolate_environment"
+    },
+    {
+      "requirement_id": "vis_03_contrast",
+      "description": "通过视觉对比展现下阕“不争春”与“任群芳妒”的孤高姿态。",
+      "acceptable_realizations": [
+        "画面一侧百花争艳喧闹，另一侧梅花静立冰雪",
+        "使用冷暖色调对比突出梅花的独立与清冷"
+      ],
+      "forbidden_realizations": [
+        "将群芳描绘为正面或和谐共处的形象",
+        "梅花表现出迎合或攀附的姿态"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_qunfang"
+      ],
+      "expected_phase": "contrasting_spring_and_integrity",
+      "semantic_role": "contrasting_spring_and_integrity"
+    },
+    {
+      "requirement_id": "vis_04_spirit",
+      "description": "具象化末句“零落成泥碾作尘，只有香如故”的精神升华，强调毁灭与不朽的张力。",
+      "acceptable_realizations": [
+        "花瓣飘落化为尘土，但画面保留一缕幽香或光晕的视觉暗示",
+        "结合陆游生平剪影或历史文献叠影，点明托物言志主旨"
+      ],
+      "forbidden_realizations": [
+        "仅展示物理层面的花瓣腐烂而无精神意象",
+        "过度渲染悲情而忽略坚贞不屈的内核"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_fragrance"
+      ],
+      "expected_phase": "culminating_in_unyielding_spirit",
+      "semantic_role": "culminating_in_unyielding_spirit"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_165_01",
+      "description": "陆游一生力主抗金、收复中原，但屡遭南宋统治集团中苟且偷安的主和派排挤与打击，政治生涯充满坎坷。",
+      "audio_triggers": [
+        "力主抗金",
+        "屡遭排挤",
+        "主和派"
+      ],
+      "visual_evidence": [
+        "南宋朝堂场景",
+        "陆游身着南宋官员服饰，慷慨陈词",
+        "主和派官员在旁冷笑或出言阻挠",
+        "禁止出现清代或明代服饰与发式"
+      ],
+      "sound_evidence": [
+        "朝堂上的争辩声",
+        "沉重的叹息声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_165_02",
+      "description": "淳熙二年（1175年），通常认为陆游因坚持抗金主张遭弹劾罢官，闲居故里越州山阴，处于人生的低谷与政治的边缘地带。",
+      "audio_triggers": [
+        "淳熙二年",
+        "弹劾罢官",
+        "闲居山阴",
+        "低谷"
+      ],
+      "visual_evidence": [
+        "江南水乡山阴的自然环境",
+        "陆游身着平民便服，神色孤寂忧愤",
+        "简朴的乡间居所"
+      ],
+      "sound_evidence": [
+        "孤单的脚步声",
+        "自然环境的鸟鸣或风雨声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_165_03",
+      "description": "陆游在闲居期间，借荒郊野外饱受风雨摧残的野梅自况，暗喻自己遭排挤的处境与决不与恶势力同流合污的高洁品格，写下《卜算子·咏梅》。",
+      "audio_triggers": [
+        "以梅自况",
+        "创作背景",
+        "写下",
+        "卜算子·咏梅"
+      ],
+      "visual_evidence": [
+        "黄昏时分，窗外风雨交加",
+        "陆游在昏暗的书案前挥毫作词",
+        "可穿插驿站外断桥边傲然挺立的野梅作为文学转化提示"
+      ],
+      "sound_evidence": [
+        "提笔写字的纸笔摩擦声",
+        "窗外的凄风苦雨声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "驿外断桥边，",
+      "pronunciation": "yì wài duàn qiáo biān，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "寂寞开无主。",
+      "pronunciation": "jì mò kāi wú zhǔ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "已是黄昏独自愁，",
+      "pronunciation": "yǐ shì huáng hūn dú zì chóu，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更著风和雨。",
+      "pronunciation": "gèng zhuó fēng hé yǔ。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无意苦争春，",
+      "pronunciation": "wú yì kǔ zhēng chūn，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一任群芳妒。",
+      "pronunciation": "yī rèn qún fāng dù。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "零落成泥碾作尘，",
+      "pronunciation": "líng luò chéng ní niǎn zuò chén，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "只有香如故。",
+      "pronunciation": "zhǐ yǒu xiāng rú gù。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "卜算子",
+      "pronunciation": "bǔ suàn zǐ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "陆游",
+      "pronunciation": "lù yóu",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "山阴",
+      "pronunciation": "shān yīn",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "秦桧",
+      "pronunciation": "qín huì",
+      "category": "person",
+      "importance": 1
+    },
+    {
+      "term": "韩侂胄",
+      "pronunciation": "hán tuō zhòu",
+      "category": "person",
+      "importance": 1
+    },
+    {
+      "term": "著",
+      "pronunciation": "zhuó",
+      "accepted_variants": [
+        "zhù",
+        "zhe",
+        "zhāo"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_165_01",
+      "source_event_id": "evt_165_01",
+      "target_event_id": "evt_165_02",
+      "relation_type": "CAUSES",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_165_02",
+      "source_event_id": "evt_165_02",
+      "target_event_id": "evt_165_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/165.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/165.json",
+      "event_gold": "gold_annotation/songci_300/165.json"
+    },
+    "original_sample_id": "165",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

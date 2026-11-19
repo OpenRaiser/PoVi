@@ -1,0 +1,921 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_154",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "作品为南宋岳飞所作《满江红》，词牌为满江红。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：满江红；作者：岳飞；朝代：宋；词牌：满江红",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "岳飞（1103—1142）……其词《满江红·怒发冲冠》慷慨激昂，千古传诵。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词作者为南宋抗金名将岳飞",
+        "可指出该词属于宋词中的豪放派代表作"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代或明代诗人所作",
+        "体裁为律诗或绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_historical",
+      "claim": "“靖康耻”指宋钦宗靖康二年（1127）金兵攻陷汴京、掳走徽钦二帝的历史国耻。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "靖康耻：宋钦宗靖康二年（1127），金兵攻陷汴京，虏走徽、钦二帝。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“靖康耻”，指宋钦宗靖康二年（1127），京城汴京和中原地区沦陷，徽宗、钦宗两个皇帝被金人俘虏北去的奇耻大辱。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "该词创作背景与北宋灭亡、二帝被俘直接相关",
+        "词中“犹未雪”“何时灭”反映的是未报此国耻的愤懑"
+      ],
+      "forbidden_assertions": [
+        "靖康耻指南宋后期的某次战败",
+        "该词与北宋灭亡历史无关"
+      ]
+    },
+    {
+      "claim_id": "claim_03_creation",
+      "claim": "该词具体创作时间存在争议（有绍兴六年北伐说、三十岁出头说、入狱前不久说等），且学术界曾对其真伪有过讨论。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "第一种说法：第一次北伐……第二种说法：公元1136年（绍兴六年）……第三种说法：《满江红》创作的具体时间应该是在岳飞入狱前不久。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《满江红·怒发冲冠》此词具体创作时间存在争议……值得注意的是，此词真伪在学术界曾有讨论，但作为民族精神象征已深入人心。",
+          "locator": "创作背景二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可说明该词创作年代尚无定论，但不影响其文学与历史价值",
+        "可提及学术界对“三十”“八千”等词的不同考证视角"
+      ],
+      "forbidden_assertions": [
+        "该词确凿作于绍兴六年或三十岁出头",
+        "该词已被学术界完全证伪为伪作"
+      ]
+    },
+    {
+      "claim_id": "claim_04_lexical",
+      "claim": "“三十功名尘与土，八千里路云和月”中“三十”“八千”为概数，分别喻指过往功名微不足道与南征北战路途遥远艰辛。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "三十功名尘与土：谓自己年已三十，得到的功名如同尘土一样微不足道。三十，是概数。八千里路云和月：形容南征北战，路途遥远，披星戴月。八千，是概数。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "三十多年来虽已建立一些功名，但如同尘土微不足道，南北转战八千里，经过多少风云人生。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“尘与土”象征功名的轻贱与易逝",
+        "“云和月”象征军旅生涯的漫长与艰苦"
+      ],
+      "forbidden_assertions": [
+        "“三十”“八千”为精确的年龄与里程数字",
+        "该句表达作者对功名的极度渴望与炫耀"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor",
+      "claim": "“贺兰山缺”“胡虏”“匈奴”为借代与用典，实指金国入侵者及北方军事重镇，非实指宁夏贺兰山或汉代匈奴。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "贺兰山：贺兰山脉，位于宁夏回族自治区与内蒙古自治区交界处，当时被金兵占领。一说是位于河北省邯郸市磁县境内的贺兰山。胡虏：对女真贵族入侵者的蔑称。匈奴：古代北方民族之一，这里指金入侵者。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "原来这是用典。《西清诗话》载姚嗣宗《崆峒山》诗……岳飞借用这个典故，借用他要打败西夏的壮志来表达他要打败金兵的豪情……这里所谓的“胡虏”、“匈奴”，皆代指金贵族掠夺者。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中地理与民族名称具有强烈的象征与借代功能",
+        "用典手法增强了词作的历史厚重感与战斗气势"
+      ],
+      "forbidden_assertions": [
+        "岳飞实际进军路线是向西北宁夏贺兰山",
+        "“匈奴”指代汉代北方民族"
+      ]
+    },
+    {
+      "claim_id": "claim_06_structure",
+      "claim": "上片侧重抒发报国壮志与时光易逝之叹，下片转向雪耻复仇与收复山河的誓言，全词情感激荡、一气呵成。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "上片写作者悲愤中原重陷敌手，痛惜前功尽弃的局面，也表达自己继续努力，争取壮年立功的心愿。下片写了三层意思：对金贵族掠夺者的深仇大恨；统一祖国的殷切愿望；忠于朝廷即忠于祖国的赤诚之心。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "上片写作者要为国家建立功业的急切心情……下片写了三层意思……从艺术上看，这首词感情激荡，气势磅礴，风格豪放，结构严谨，一气成。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "全词遵循“起-承-转-合”的情感递进逻辑",
+        "上下片在情绪上由内省悲愤转向外向征伐"
+      ],
+      "forbidden_assertions": [
+        "上下片内容毫无关联或情绪断裂",
+        "该词结构松散、缺乏内在逻辑"
+      ]
+    },
+    {
+      "claim_id": "claim_07_alternative_readings",
+      "claim": "本词在不同版本中存在异文，如“臣子憾”与“臣子恨”、“凭阑处”与“凭栏处”、“驾长车踏破、贺兰山缺”与“驾长车，踏破贺兰山缺”等断句差异。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "version_1",
+          "text": "凭阑处……臣子憾……驾长车踏破、贺兰山缺。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "version_2",
+          "text": "凭阑处……臣子恨……驾长车踏破，贺兰山缺。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "version_3",
+          "text": "凭栏处……臣子恨……驾长车，踏破贺兰山缺。(栏 通：阑)",
+          "locator": "原文版本三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“憾”与“恨”在词意上相通，皆表达未雪国耻的深切痛惜与愤恨",
+        "“栏”与“阑”为通假字，不影响词义理解"
+      ],
+      "forbidden_assertions": [
+        "“臣子憾”与“臣子恨”存在根本性的语义对立",
+        "版本三的断句是唯一正确的标准断句"
+      ]
+    },
+    {
+      "claim_id": "claim_08_shao_shuo",
+      "claim": "有学者（如邓广铭）认为该词作于岳飞第一次北伐，即岳飞30岁出头时。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "关于此词的创作时间，有人认为是第一次北伐，即岳飞30岁出头时所作。如邓广铭先生就持此说。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "若此说成立，“三十功名”恰好对应岳飞当时的实际年龄"
+      ],
+      "forbidden_assertions": [
+        "邓广铭的观点是学术界唯一公认的定论"
+      ]
+    },
+    {
+      "claim_id": "claim_09_ru_yu_shuo",
+      "claim": "有观点认为该词作于岳飞入狱前不久，其理由包括“三十”指“三十年”而非“三十岁”，“等闲”反映其无权被迫闲散的处境，且“潇潇雨歇”暗示秋雨时节。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "还有一种说法，认为《满江红》创作的具体时间应该是在岳飞入狱前不久。……实际上这里是指“三十年”……唯独到快四十岁时却成为一个无职无权之人而被迫闲散在野……“潇雨”一词诗人总是用来形容的冷雨……秋雨绵绵时断时续。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "此说将“尘与土”解释为岳飞入狱前对功名毫无价值的清醒认识",
+        "此说认为“八千里路云和月”指十年征战功毁一旦、竹篮打水"
+      ],
+      "forbidden_assertions": [
+        "“三十”在词中绝对不能解释为三十岁"
+      ]
+    },
+    {
+      "claim_id": "claim_10_dong_lin_si",
+      "claim": "有考证认为《满江红》诞生于庐山东林寺，其开篇“怒发冲冠”及“长啸”暗合东林寺“虎溪三笑”典故中的石虎，且词作步韵了李白的《庐山东林寺夜怀》。",
+      "status": "licensed_interpretation",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "岳飞创作《满江红》的具体地点是在庐山东林寺……岳飞看着秋雨中威武不屈的石虎触景生情，利用情景交融的手法把自己比作了护国看家的神虎……而且《满江红》正是步了《庐山东林寺夜怀》的韵，特别是“阙”、“月”和“歇”这三个押韵的字都是来自李白的诗。",
+          "locator": "创作背景三",
+          "authority": "low"
+        }
+      ],
+      "acceptable_inferences": [
+        "“朝天阙”在东林寺背景下可引申为朝拜东林寺的“神运宝殿”",
+        "“朝天阙”与“朝金阙”的异文可能与佛寺“金仙”或避讳金国有关"
+      ],
+      "forbidden_assertions": [
+        "《满江红》作于东林寺是无可争议的历史事实",
+        "“天阙”在词中仅指东林寺神运宝殿，绝无朝见朝廷之意"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及基本体裁身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋岳飞所作的豪放词《满江红》",
+        "宋代抗金名将岳飞的代表词作"
+      ],
+      "forbidden_claims": [
+        "该词为唐代诗歌或明清小说",
+        "作者非岳飞或朝代标注错误"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解“靖康耻”的历史指涉，并客观认知该词创作时间与真伪的学术争议。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "词中“靖康耻”指1127年北宋灭亡、二帝被掳的国耻",
+        "该词具体作年尚无定论，但文学与精神价值已获公认"
+      ],
+      "forbidden_claims": [
+        "靖康耻指南宋末年的某次战役",
+        "该词创作时间已确证为某一年份"
+      ],
+      "source_claim_ids": [
+        "claim_02_historical",
+        "claim_03_creation"
+      ],
+      "line_ids": [
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确解析“三十”“八千”“尘与土”“云和月”的字面义与概数用法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“三十”“八千”为虚指概数，非精确统计",
+        "以尘土喻功名微贱，以云月伴征途漫长"
+      ],
+      "forbidden_claims": [
+        "“三十”指作者恰好三十岁整",
+        "“八千”为实际行军里程的精确记录"
+      ],
+      "source_claim_ids": [
+        "claim_04_lexical"
+      ],
+      "line_ids": [
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "辨析“贺兰山”“胡虏”“匈奴”的借代与用典性质，明确其现实指向。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "贺兰山与匈奴为借古喻今的文学意象，实指金兵与北方关隘",
+        "借用前人诗句以抒发抗金豪情，非地理实录"
+      ],
+      "forbidden_claims": [
+        "岳飞实际率军进攻宁夏贺兰山",
+        "词中匈奴指代汉代北方民族"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor"
+      ],
+      "line_ids": [
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_05_structure",
+      "category": "structure",
+      "description": "把握全词上下片的情感脉络与结构布局，理解由悲愤到誓言的递进关系。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上片叹时光与功名，下片誓雪耻与收复，一气呵成",
+        "全词以“怒”起笔，以“朝天阙”收束，结构严谨"
+      ],
+      "forbidden_claims": [
+        "上下片主题割裂或情绪无逻辑关联",
+        "该词为拼凑之作缺乏整体构思"
+      ],
+      "source_claim_ids": [
+        "claim_06_structure"
+      ],
+      "line_ids": [
+        "l01-l08"
+      ]
+    },
+    {
+      "unit_id": "req_06_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解本词在“臣子憾/恨”、“凭阑/栏”等处的版本异文及断句差异。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "本词存在‘臣子憾’与‘臣子恨’等字词异文",
+        "不同版本在‘驾长车踏破贺兰山缺’处断句有所不同"
+      ],
+      "forbidden_claims": [
+        "该词在流传过程中没有任何文字或断句异文"
+      ],
+      "source_claim_ids": [
+        "claim_07_alternative_readings"
+      ],
+      "line_ids": [
+        "l01",
+        "l05",
+        "l06"
+      ]
+    },
+    {
+      "unit_id": "req_07_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "理解关于该词创作于庐山东林寺、自比神虎并步韵李白诗作的寄托说与学术边界。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "有学者提出东林寺神虎典故与步韵李白诗的解读视角",
+        "东林寺说属于一种文学寄托与考证假说，非绝对历史定论"
+      ],
+      "forbidden_claims": [
+        "岳飞在词中写‘仰天长啸’确凿是为了模仿东林寺的石虎"
+      ],
+      "source_claim_ids": [
+        "claim_10_dong_lin_si"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l08"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_dust_moon",
+      "line_ids": [
+        "l03"
+      ],
+      "source_domain": [
+        "尘与土",
+        "云和月"
+      ],
+      "target_domain": [
+        "过往功名的微不足道",
+        "漫长艰辛的征战岁月"
+      ],
+      "bridges": [
+        "尘土轻贱易散，喻指功名如浮云般不值一提",
+        "云月高远恒常且伴随行旅，象征披星戴月、南征北战的军旅生涯"
+      ],
+      "context_claim_ids": [
+        "claim_04_lexical"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "有观点认为“尘与土”亦暗指作者视个人荣辱如尘土，唯以国家大义为重",
+        "“云和月”可解读为作者将自然天地视为唯一知己与精神寄托",
+        "在入狱前不久说中，“尘与土”指功名毫无价值，“云和月”指十年征战功毁一旦、竹篮打水"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_enemy_mountain",
+      "line_ids": [
+        "l06",
+        "l07"
+      ],
+      "source_domain": [
+        "贺兰山缺",
+        "胡虏肉",
+        "匈奴血"
+      ],
+      "target_domain": [
+        "金国军事重镇与防线",
+        "金国侵略者及其统治集团"
+      ],
+      "bridges": [
+        "借用北宋姚嗣宗诗句典故，以西北险关代指北方敌国要塞",
+        "以古代异族称谓“胡虏”“匈奴”借代现实中的金兵，强化同仇敌忾与雪耻决心"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "部分学者认为“贺兰山”实指河北磁县贺兰山，为岳家军实际作战区域",
+        "“饥餐肉”“渴饮血”为极度夸张的修辞，旨在渲染对侵略者的刻骨仇恨而非写实"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_old_rivers",
+      "line_ids": [
+        "l08"
+      ],
+      "source_domain": [
+        "旧山河"
+      ],
+      "target_domain": [
+        "沦陷的中原故土与北宋完整疆域"
+      ],
+      "bridges": [
+        "“旧”字特指北宋时期未被金兵侵占的国家版图，寄托重整乾坤的政治理想",
+        "与“收拾”“朝天阙”连用，构成从军事收复到政治归顺的完整叙事闭环"
+      ],
+      "context_claim_ids": [
+        "claim_06_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "“旧山河”亦可理解为作者心中理想的太平盛世与儒家正统秩序",
+        "结合创作背景三，此句暗含岳飞对朝廷主和派妥协政策的隐晦批判与对正统的坚守"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_tiger_shout",
+      "line_ids": [
+        "l01",
+        "l02"
+      ],
+      "source_domain": [
+        "怒发冲冠",
+        "仰天长啸"
+      ],
+      "target_domain": [
+        "护国看家的神虎形象与不屈斗志"
+      ],
+      "bridges": [
+        "借用东林寺虎溪桥畔“石虎怒目而视凭栏而踞”的形象，将词人自比为守卫疆土的神虎"
+      ],
+      "context_claim_ids": [
+        "claim_10_dong_lin_si"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "传统观点认为“怒发冲冠”纯属艺术夸张，形容愤怒至极，与石虎典故无关"
+      ],
+      "importance": 1
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text_display",
+      "description": "清晰、准确地呈现全词原文，确保标点、断句与版本差异得到合理说明或统一。",
+      "acceptable_realizations": [
+        "开篇以书法题签形式逐句浮现，旁白同步诵读",
+        "画面底部保留标准字幕，关键异文（如“臣子恨/憾”）以小字标注"
+      ],
+      "forbidden_realizations": [
+        "擅自删改原词字句或打乱上下片顺序",
+        "字幕与旁白发音严重脱节"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_storm_and_anger",
+      "semantic_role": "opening_storm_and_anger"
+    },
+    {
+      "requirement_id": "vis_02_emotion_arc",
+      "description": "通过视觉节奏与意象叠加，呈现上片由凭栏听雨到仰天长啸的情感爆发，以及“尘与土”“云和月”的时空对照。",
+      "acceptable_realizations": [
+        "雨势渐歇、栏杆特写，镜头拉远展现苍茫天地与行军剪影",
+        "以尘土飘散与云月流转的蒙太奇手法，具象化功名与征途的对比"
+      ],
+      "forbidden_realizations": [
+        "画面过于喧闹掩盖“潇潇雨歇”的沉静铺垫",
+        "将“尘与土”具象为现代垃圾或无关杂物"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_dust_moon"
+      ],
+      "expected_phase": "reflection_on_career",
+      "semantic_role": "reflection_on_career"
+    },
+    {
+      "requirement_id": "vis_03_historical_imagery",
+      "description": "以历史画卷与象征性战场意象，表现“靖康耻”的沉重与“贺兰山”“匈奴”的借代指涉。",
+      "acceptable_realizations": [
+        "以暗色调历史影像或水墨渲染汴京陷落场景，过渡至北方关隘的雄浑轮廓",
+        "用抽象的铠甲、战旗与风雪元素替代直白的血腥画面，突出“借古喻今”的文学性"
+      ],
+      "forbidden_realizations": [
+        "直接展示宁夏贺兰山实景并误导为实际进军路线",
+        "过度渲染暴力细节，偏离诗词的豪放悲壮基调"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_enemy_mountain"
+      ],
+      "expected_phase": "historical_shame_and_oath",
+      "semantic_role": "historical_shame_and_oath"
+    },
+    {
+      "requirement_id": "vis_04_resolution",
+      "description": "以开阔明亮的视觉语言收束全词，表现“收拾旧山河”的宏愿与“朝天阙”的忠贞归旨。",
+      "acceptable_realizations": [
+        "镜头由残破山河渐变为完整疆域图卷，最终定格于庄严宫阙或朝堂意象",
+        "配合“待从头”的旁白，画面色调由沉郁转为明朗，象征希望与重整"
+      ],
+      "forbidden_realizations": [
+        "以现代城市景观替代古代宫阙与山河意象",
+        "结尾仓促切断，未体现“一气呵成”的结构完整性"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_old_rivers"
+      ],
+      "expected_phase": "final_victory_and_audience",
+      "semantic_role": "final_victory_and_audience"
+    },
+    {
+      "requirement_id": "vis_05_dong_lin_tiger",
+      "description": "在展现开篇“凭栏处”与“仰天长啸”时，可隐喻性地融入东林寺虎溪桥畔石虎凭栏的视觉元素，呼应自比神虎的文学假说。",
+      "acceptable_realizations": [
+        "在风雨交加的背景中，叠印一尊威武不屈、怒目而视的石虎雕像，与词人凭栏远眺的身影重合"
+      ],
+      "forbidden_realizations": [
+        "直接插入写实的现代动物老虎画面，破坏古典诗词意境"
+      ],
+      "importance": 1,
+      "required_visibility": false,
+      "metaphor_ids": [
+        "meta_04_tiger_shout"
+      ],
+      "expected_phase": "opening_storm_and_anger",
+      "semantic_role": "opening_storm_and_anger"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_154_01",
+      "description": "靖康之耻：宋钦宗靖康二年（1127年），金兵攻陷汴京，俘虏徽、钦二帝，北宋灭亡。这一历史事件成为南宋军民和岳飞心中无法洗雪的奇耻大辱。",
+      "audio_triggers": [
+        "靖康耻",
+        "金兵攻陷汴京",
+        "虏走徽钦二帝"
+      ],
+      "visual_evidence": [
+        "表现宋代都城汴京城破的凄惨景象，金兵（女真族服饰）肆虐，大火焚城，宋廷皇室被押解北上。",
+        "禁止出现明清风格的城墙或近代兵器。"
+      ],
+      "sound_evidence": [
+        "城门被攻破的巨响，战马嘶鸣，兵器碰撞声，百姓与俘虏的哭喊声。"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_154_02",
+      "description": "投军征战与岳家军抗金：岳飞自北宋末年投军，十余年间转战南北，披星戴月，率领纪律严明的“岳家军”屡败金兵，建立赫赫战功，结下深厚的报国壮志。",
+      "audio_triggers": [
+        "三十功名",
+        "八千里路",
+        "岳家军",
+        "南征北战"
+      ],
+      "visual_evidence": [
+        "宋代北方战场环境，岳飞披甲执锐（宋代将领铠甲），率领骑兵在风雨交加或星月之下行军、冲锋。",
+        "画面需体现出征战路途的遥远与艰辛。"
+      ],
+      "sound_evidence": [
+        "急促的马蹄声，风雨交加的环境声，战鼓声和将士的呐喊。"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_154_03",
+      "description": "壮志受挫与朝廷主和：南宋偏安一隅，朝廷中主和派势力强大。岳飞虽主张积极进取、直捣黄龙，却屡受朝廷掣肘，甚至在孤立无援或遭到构陷时被迫退兵，面临政治与人生的巨大困境。",
+      "audio_triggers": [
+        "主和派掣肘",
+        "孤军深入",
+        "被迫班师",
+        "遭到陷害"
+      ],
+      "visual_evidence": [
+        "南宋朝堂或军帐内，岳飞接到退兵诏令或面临文官阻挠时表现出极度愤慨与无奈的表情。",
+        "出现宋代文官服饰与圣旨道具。"
+      ],
+      "sound_evidence": [
+        "沉闷的击案声，无可奈何的叹息声或压抑的雷声。"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_154_04",
+      "description": "词作写成：岳飞写下《满江红》。关于此词的具体创作时间存在极大争议，通常认为作于绍兴六年（1136年）第二次北伐退守鄂州期间；但也有作于首次北伐或入狱前不久在庐山东林寺写成的多说。词人借此抒发收复旧山河的壮志与壮志未酬的悲愤。",
+      "audio_triggers": [
+        "怒发冲冠",
+        "仰天长啸",
+        "写下这首千古绝唱",
+        "满江红的创作"
+      ],
+      "visual_evidence": [
+        "岳飞（未戴头盔，宋代常服或戎装）独自在高楼或寺院凭栏远眺，天降潇潇秋雨。",
+        "雨停后，岳飞抬头仰望，神情激愤，随后在书案前挥毫泼墨写下词句。",
+        "禁止出现现代旅游景区的石碑或护栏。"
+      ],
+      "sound_evidence": [
+        "秋雨淅沥声渐渐停歇，一声长啸，以及提笔在纸上疾书的摩擦声。"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "怒发冲冠，",
+      "pronunciation": "nù fà chōng guān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凭阑处、",
+      "pronunciation": "píng lán chù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "潇潇雨歇。",
+      "pronunciation": "xiāo xiāo yǔ xiē.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "抬望眼、",
+      "pronunciation": "tái wàng yǎn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "仰天长啸，",
+      "pronunciation": "yǎng tiān cháng xiào,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "壮怀激烈。",
+      "pronunciation": "zhuàng huái jī liè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "三十功名尘与土，",
+      "pronunciation": "sān shí gōng míng chén yǔ tǔ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "八千里路云和月。",
+      "pronunciation": "bā qiān lǐ lù yún hé yuè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "莫等闲、",
+      "pronunciation": "mò děng xián,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "白了少年头，",
+      "pronunciation": "bái le shào nián tóu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "空悲切。",
+      "pronunciation": "kōng bēi qiè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "靖康耻，",
+      "pronunciation": "jìng kāng chǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "犹未雪，",
+      "pronunciation": "yóu wèi xuě,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "臣子憾，",
+      "pronunciation": "chén zǐ hàn,",
+      "accepted_variants": [
+        "chén zǐ hèn,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "何时灭。",
+      "pronunciation": "hé shí miè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "驾长车踏破、",
+      "pronunciation": "jià cháng chē tà pò,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "贺兰山缺。",
+      "pronunciation": "hè lán shān quē.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "壮志饥餐胡虏肉，",
+      "pronunciation": "zhuàng zhì jī cān hú lǔ ròu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "笑谈渴饮匈奴血。",
+      "pronunciation": "xiào tán kě yǐn xiōng nú xuè.",
+      "accepted_variants": [
+        "xiào tán kě yǐn xiōng nú xiě."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "待从头、",
+      "pronunciation": "dài cóng tóu,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "收拾旧山河，",
+      "pronunciation": "shōu shí jiù shān hé,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "朝天阙。",
+      "pronunciation": "cháo tiān què.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "满江红",
+      "pronunciation": "mǎn jiāng hóng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "岳飞",
+      "pronunciation": "yuè fēi",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "靖康",
+      "pronunciation": "jìng kāng",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "贺兰山",
+      "pronunciation": "hè lán shān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "匈奴",
+      "pronunciation": "xiōng nú",
+      "category": "allusion",
+      "importance": 2
+    },
+    {
+      "term": "胡虏",
+      "pronunciation": "hú lǔ",
+      "category": "allusion",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_154_01",
+      "source_event_id": "evt_154_01",
+      "target_event_id": "evt_154_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_154_02",
+      "source_event_id": "evt_154_02",
+      "target_event_id": "evt_154_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_154_03",
+      "source_event_id": "evt_154_01",
+      "target_event_id": "evt_154_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_154_04",
+      "source_event_id": "evt_154_02",
+      "target_event_id": "evt_154_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_154_05",
+      "source_event_id": "evt_154_03",
+      "target_event_id": "evt_154_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/154.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/154.json",
+      "event_gold": "gold_annotation/songci_300/154.json"
+    },
+    "original_sample_id": "154",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

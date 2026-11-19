@@ -1,0 +1,730 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_308",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《枫桥夜泊》为唐代诗人张继所作的七言绝句。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：枫桥夜泊\n作者：张继\n朝代：唐\n体裁：七言绝句",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "张继（约715—779），字懿孙，唐代诗人...以《枫桥夜泊》闻名千古",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "月落乌啼霜满天，江枫渔火对愁眠。姑苏城外寒山寺，夜半钟声到客船。",
+          "locator": "原文版本一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该诗为唐代七绝体裁",
+        "作者张继生平以羁旅诗见长"
+      ],
+      "forbidden_assertions": [
+        "该诗为宋代作品",
+        "体裁为五言律诗或词",
+        "作者为其他唐代诗人"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此诗作于安史之乱（天宝十四载/755年）爆发后，诗人避乱江南、夜泊苏州枫桥时。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "天宝十四载一月爆发了安史之乱。因为当时江南政局比较安定，所以不少文士纷纷逃到今江苏、浙江一带避乱，其中也包括张继。一个秋天的夜晚，诗人泊舟苏州城外的枫桥。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "天宝十四年一月爆发了安史之乱...一个秋天的夜晚，诗人泊舟苏州城外的枫桥。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "诗中愁字与战乱漂泊的羁旅处境密切相关",
+        "江南相对安定的政局为诗人停泊创作提供了客观条件"
+      ],
+      "forbidden_assertions": [
+        "该诗作于太平盛世游历时期",
+        "创作背景与安史之乱及避乱无关"
+      ]
+    },
+    {
+      "claim_id": "claim_03_imagery_l01",
+      "claim": "首句月落乌啼霜满天通过视觉（月落）、听觉（乌啼）与触觉/心理感受（霜满天）交织，渲染秋夜幽寂清冷的氛围。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "霜满天的描写，并不符合自然景观的实际（霜华在地而不在天），却完全切合诗人的感受：深夜侵肌砭骨的寒意...月落写所见，乌啼写所闻，霜满天写所感",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "霜满天：霜，不可能满天，这个「霜」字应当体会作严寒；霜满天，是空气极冷的形象语。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "霜满天是主观寒意的形象化表达，非客观写实",
+        "该句按时间先后与感官层次递进展开"
+      ],
+      "forbidden_assertions": [
+        "霜满天是写实描写天空结满白霜",
+        "该句仅描写单一视觉画面"
+      ]
+    },
+    {
+      "claim_id": "claim_04_personification_mood",
+      "claim": "江枫渔火对愁眠将江枫与渔火拟人化，陪伴羁旅愁人难以入眠，体现情景交融。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "对愁眠：伴愁眠之意，此句把江枫和渔火二词拟人化。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "对愁眠的对字包含了伴的意蕴...这里确有孤孑的旅人面对霜夜江枫渔火时萦绕的缕缕轻愁",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "对字暗含陪伴之意，强化旅人孤孑清寥之感",
+        "景物与人物心情达到高度默契与交融"
+      ],
+      "forbidden_assertions": [
+        "愁眠是寒山寺对面的山名（此为后世附会）",
+        "江枫与渔火仅为客观并列，无拟人色彩"
+      ]
+    },
+    {
+      "claim_id": "claim_05_auditory_structure",
+      "claim": "后两句以夜半钟声打破静谧，由密转疏，以声衬静，深化空灵旷远的意境。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "后两句意象疏宕：城、寺、船、钟声，是一种空灵旷远的意境。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "夜半钟声：当今的佛寺（春节）半夜敲钟，但当时有半夜敲钟的习惯，也叫「无常钟」或「分夜钟」。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "唐代苏州一带确有半夜敲钟的风俗，非诗人虚构",
+        "听觉在暗夜中升居首位，钟声揭示夜的深永与清寥"
+      ],
+      "forbidden_assertions": [
+        "夜半敲钟纯属诗人艺术夸张，唐代无此习俗",
+        "后两句仅为地名罗列，无结构上的疏密转换"
+      ]
+    },
+    {
+      "claim_id": "claim_06_word_disputes",
+      "claim": "乌啼有两说（乌鸦啼鸣 / 乌啼镇），江枫有两说（江边枫树 / 江村桥和枫桥），渔火有两说（渔船灯火 / 打渔的伙伴），寒山寺有两说（僧人名寒山 / 泛指肃寒之山），均为注释一中明确记载的歧解。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "乌啼：一说为乌鸦啼鸣，一说为乌啼镇。江枫：一般解释作江边枫树...另外有人认为指江村桥和枫桥。渔火：通常解释，鱼火就是渔船上的灯火；也有说法指渔火实际上就是一同打渔的伙伴。寒山寺：...相传因唐代僧人寒山、拾得曾住此而得名...另一种说法，寒山乃泛指肃寒之山，非寺名。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "乌啼：一说为乌鸦啼鸣，一说为乌啼镇。江枫：一般解释作江边枫树...另外有人认为指江村桥和枫桥。枫桥本名封桥，因张继此诗而改为枫桥。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可借此讲解古典诗歌流传中因地名附会的文化现象",
+        "枫桥因本诗由封桥改名，体现了文学对地名的反向塑造"
+      ],
+      "forbidden_assertions": [
+        "宣称每词只有唯一正确解释、排斥其他合理说法",
+        "认为枫桥的命名与张继此诗无关"
+      ]
+    },
+    {
+      "claim_id": "claim_07_choumian_dispute",
+      "claim": "愁眠在诗中原意为伴愁而眠，但后世有人附会为寒山寺对面山名，此说虽流传但非诗中原意。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "对愁眠：伴愁眠之意...后世有不解诗的人，怀疑江枫渔火怎么能对愁眠，于是附会出一种讲法，说愁眠是寒山寺对面的山名。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可作为以讹传讹的典型案例，提醒学生读诗不可望文生义"
+      ],
+      "forbidden_assertions": [
+        "愁眠确实是一座山的名字",
+        "张继创作本诗时即有意以山名入诗"
+      ]
+    },
+    {
+      "claim_id": "claim_08_ouyangxiu_doubt",
+      "claim": "北宋欧阳修曾质疑夜半钟声到客船不合常理（三更半夜哪有敲钟的道理），后经多人实地查访，证实苏州及邻近地区佛寺确有打半夜钟的风俗（无常钟/分夜钟）。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "宋朝大文豪欧阳修曾提出疑问表示：诗人为了贪求好句，以至于道理说不通...如张继诗句'夜半钟声到客船'...可是经过许多人的实地查访，才知苏州和邻近地区的佛寺，有打半夜钟的风俗。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "此争议说明文学创作中的艺术真实有时比生活常理更需在特定文化脉络中理解",
+        "可作为诗歌考据传统（以实地调查印证文本）的经典案例"
+      ],
+      "forbidden_assertions": [
+        "欧阳修的质疑是正确的，张继确实犯了常理错误",
+        "唐代所有佛寺都有半夜敲钟习俗"
+      ]
+    },
+    {
+      "claim_id": "claim_09_maple_imagery_tradition",
+      "claim": "江枫作为诗学意象有深厚的文学传统，楚辞湛湛江水兮上有枫，目极千里伤春心及青枫浦上不胜愁等前代诗句赋予了江枫离别羁思的情感沉积。",
+      "status": "consensus",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "湛湛江水兮上有枫，目极千里伤春心，青枫浦上不胜愁，这些前人的诗句可以说明江枫这个词语中所沉积的感情内容和它给予人的联想。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可借此讲解中国古典诗歌意象的互文性与传统积淀"
+      ],
+      "forbidden_assertions": [
+        "江枫只是随意选取的景物，没有文学传统依托"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代和诗体身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "唐代张继的七言绝句《枫桥夜泊》",
+        "张继所作唐诗"
+      ],
+      "forbidden_claims": [
+        "宋代作品",
+        "五言律诗或词体"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_background",
+      "category": "historical_context",
+      "description": "结合安史之乱背景理解诗人羁旅江南、夜泊枫桥的漂泊处境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "作于安史之乱后避乱江南时期",
+        "战乱导致诗人漂泊苏州"
+      ],
+      "forbidden_claims": [
+        "作于太平盛世游历",
+        "与战乱避祸无关"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_literal_l01",
+      "category": "literal_meaning",
+      "description": "准确翻译并解析首句月落乌啼霜满天的多感官描写与霜满天的修辞实质。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "月亮落下、乌鸦啼叫、寒气弥漫夜空",
+        "通过视觉听觉与体感交织渲染秋夜清冷"
+      ],
+      "forbidden_claims": [
+        "天空真的结满了白霜",
+        "仅描写单一视觉画面"
+      ],
+      "source_claim_ids": [
+        "claim_03_imagery_l01"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "分析全诗前密后疏的意象布局，以及夜半钟声以动衬静、深化意境的结构作用。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "前两句意象密集，后两句意象疏朗",
+        "以钟声打破静谧，形成空灵旷远之境"
+      ],
+      "forbidden_claims": [
+        "全诗意象均匀分布无变化",
+        "钟声仅为写实记录无结构作用"
+      ],
+      "source_claim_ids": [
+        "claim_05_auditory_structure",
+        "claim_09_maple_imagery_tradition"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_05_interpretive",
+      "category": "interpretive_boundary",
+      "description": "明确对愁眠的拟人手法与愁眠非山名的正解，划定合理解读边界。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "江枫渔火陪伴愁人入眠",
+        "愁指旅愁，非地名"
+      ],
+      "forbidden_claims": [
+        "愁眠是寒山寺对面的山名",
+        "江枫渔火是实指两物相对无情感投射"
+      ],
+      "source_claim_ids": [
+        "claim_04_personification_mood"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_06_lexical",
+      "category": "lexical",
+      "description": "掌握乌啼江枫渔火寒山寺姑苏等名物的训诂与多义解释，理解地名背后的地名沿革（如封桥→枫桥）。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "乌啼可指乌鸦叫或乌啼镇，江枫可指枫树或江村桥与枫桥",
+        "封桥因张继此诗改称枫桥"
+      ],
+      "forbidden_claims": [
+        "每词只有一种解释",
+        "枫桥之名与张继无关"
+      ],
+      "source_claim_ids": [
+        "claim_06_word_disputes",
+        "claim_07_choumian_dispute"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative",
+      "category": "alternative_reading",
+      "description": "介绍欧阳修对夜半钟声的质疑及其被后人实地查访证实的学术公案，理解诗歌真实性与艺术真实的关系。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "欧阳修曾质疑半夜不可能敲钟，后来证实苏州确有此时敲钟的习俗",
+        "夜半钟声是写实而非虚构"
+      ],
+      "forbidden_claims": [
+        "欧阳修的质疑被证明是正确的",
+        "张继为求诗句优美而牺牲了真实性"
+      ],
+      "source_claim_ids": [
+        "claim_08_ouyangxiu_doubt"
+      ],
+      "line_ids": [
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_frost_cold",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "霜满天"
+      ],
+      "target_domain": [
+        "极寒的空气与心理感受"
+      ],
+      "bridges": [
+        "霜本在地，言满天是以视觉形象夸张表达深夜侵肌砭骨的寒意，符合诗人主观感受而非自然实景。"
+      ],
+      "context_claim_ids": [
+        "claim_03_imagery_l01"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "有观点认为第一句描写的是清晨景象：乌臼鸟叫，月亮下山，天亮后满地白霜（见赏析二提及的清晨倒叙说）"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_river_maple",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "江枫",
+        "渔火"
+      ],
+      "target_domain": [
+        "孤孑旅人的愁绪与秋夜羁旅氛围"
+      ],
+      "bridges": [
+        "将自然景物拟人化，对字赋予其陪伴之意，一静一动、一暗一明，与不眠旅人形成情感共鸣。"
+      ],
+      "context_claim_ids": [
+        "claim_04_personification_mood"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "江枫或指江村桥和枫桥两座桥名；渔火或指一同打渔的伙伴（见注释一）"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_bell_resonance",
+      "line_ids": [
+        "l03",
+        "l04"
+      ],
+      "source_domain": [
+        "夜半钟声",
+        "从寒山寺传出的钟鸣"
+      ],
+      "target_domain": [
+        "历史的回声",
+        "宗教情思",
+        "古雅庄严的文化意境"
+      ],
+      "bridges": [
+        "寒山寺初建于梁代，枫桥的诗意因古刹而带上历史文化色泽；静夜钟声在暗夜中升居感受首位，给予人古雅庄严之感（赏析二）"
+      ],
+      "context_claim_ids": [
+        "claim_05_auditory_structure",
+        "claim_09_maple_imagery_tradition"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "钟声仅为写实的声音描写，不必赋予历史文化象征",
+        "夜半钟声是唐代佛寺无常钟制度的真实反映"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_text_display",
+      "description": "完整准确呈现原诗四句，标注作者与朝代，保持句读清晰。",
+      "acceptable_realizations": [
+        "逐句浮现配合标准朗诵",
+        "题签式静态展示配合书法字体"
+      ],
+      "forbidden_realizations": [
+        "错漏字词或标点",
+        "打乱原诗句序"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_text_presentation",
+      "semantic_role": "opening_text_presentation"
+    },
+    {
+      "requirement_id": "vis_02_sensory_scene",
+      "description": "视觉化呈现月落、乌啼、霜气、江枫、渔火的密集意象，突出幽暗清冷的水乡秋夜氛围。",
+      "acceptable_realizations": [
+        "水墨风格渲染月落与寒霜弥漫",
+        "暗调画面中点缀暖色渔火形成明暗对比",
+        "加入乌鸦啼鸣与风声环境音效"
+      ],
+      "forbidden_realizations": [
+        "明亮喧闹的市井画面",
+        "忽略光影明暗与动静对比"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_frost_cold",
+        "meta_02_river_maple"
+      ],
+      "expected_phase": "dense_imagery_mooring",
+      "semantic_role": "dense_imagery_mooring"
+    },
+    {
+      "requirement_id": "vis_03_bell_resonance",
+      "description": "表现夜半钟声由远及近传至客船的听觉空间感，体现以声衬静的空灵意境。",
+      "acceptable_realizations": [
+        "声波涟漪动画自寒山寺方向扩散至客船",
+        "画面由密转疏，大量留白处理",
+        "钟声悠长回荡的音效设计配合旁白解析"
+      ],
+      "forbidden_realizations": [
+        "钟声急促喧闹破坏静谧感",
+        "画面堆砌过多景物掩盖听觉主体"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "midnight_bell_echo",
+      "semantic_role": "midnight_bell_echo"
+    },
+    {
+      "requirement_id": "vis_04_cultural_context",
+      "description": "补充寒山寺地理位置、唐代夜半敲钟习俗及安史之乱背景，辅助理解愁的深层来源。",
+      "acceptable_realizations": [
+        "地图标注苏州/枫桥/寒山寺位置关系",
+        "唐代寺庙夜钟（无常钟）风俗图文说明",
+        "战乱南迁背景简述字幕"
+      ],
+      "forbidden_realizations": [
+        "脱离诗歌文本过度演绎历史细节",
+        "将寒山寺直接描绘为现代重建样貌而不加说明"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "historical_contextualization",
+      "semantic_role": "historical_contextualization"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_308_01",
+      "description": "天宝十二载（753年）左右，张继考中进士。但好景不长，天宝十四载（755年）安史之乱爆发，次年唐玄宗逃往蜀地，北方陷入严重战乱。",
+      "audio_triggers": [
+        "考取进士",
+        "安史之乱",
+        "天宝十四年",
+        "爆发"
+      ],
+      "visual_evidence": [
+        "早期展现唐代士子登第的喜悦景象",
+        "随后迅速转入战乱画面：唐朝军队与叛军交战，城池起火烽烟连天",
+        "百姓拖家带口仓皇逃难"
+      ],
+      "sound_evidence": [
+        "繁华市井的喧闹声",
+        "战马嘶鸣",
+        "兵器碰撞交战声",
+        "人群惊呼奔逃声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_308_02",
+      "description": "由于当时江南政局相对安定，张继等大批北方文士纷纷逃往今江苏、浙江一带避乱，张继由此开始了颠沛流离的羁旅生涯。",
+      "audio_triggers": [
+        "避乱江南",
+        "逃往",
+        "浙江一带",
+        "羁旅"
+      ],
+      "visual_evidence": [
+        "身着唐代服饰的文人带着行囊仓促赶路",
+        "乘船南下，周围逐渐显现江南水乡风貌",
+        "人物神情疲惫且充满忧愁"
+      ],
+      "sound_evidence": [
+        "水波划动声",
+        "沉重杂乱的脚步声",
+        "深沉的叹息声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_308_03",
+      "description": "通常认为，在避乱江南期间的一个秋夜，张继将客船停泊在姑苏城（今苏州市）外的枫桥。眼见残月沉落、乌鸦啼叫、江岸枫树与点点渔火，耳听半夜寒山古寺敲响的无常钟声，满怀家国之忧与羁愁的张继夜不能寐，写下了千古绝唱《枫桥夜泊》。",
+      "audio_triggers": [
+        "秋天的夜晚",
+        "泊舟",
+        "苏州城外",
+        "枫桥",
+        "写下了",
+        "枫桥夜泊"
+      ],
+      "visual_evidence": [
+        "江南水乡秋夜，残月沉没，夜色昏暗迷蒙，气温寒冷",
+        "一叶孤舟停靠在江岸，岸边有模糊的枫树轮廓",
+        "江面点缀着几处微弱闪烁的渔船灯火",
+        "远处寒山寺的古建筑模糊剪影",
+        "船舱内张继披衣而坐，因愁绪无眠，挑灯挥笔作诗",
+        "禁止出现现代的苏州城市景观、现代寒山寺游览区，不得将“霜满天”具象化为大面积白霜铺满地面的错误画面"
+      ],
+      "sound_evidence": [
+        "江水拍岸声",
+        "几声栖鸟惊啼",
+        "萧瑟的秋风声",
+        "悠远、深沉且空灵的佛寺敲钟声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "月落乌啼霜满天，",
+      "pronunciation": "yuè luò wū tí shuāng mǎn tiān",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "江枫渔火对愁眠。",
+      "pronunciation": "jiāng fēng yú huǒ duì chóu mián",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "姑苏城外寒山寺，",
+      "pronunciation": "gū sū chéng wài hán shān sì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夜半钟声到客船。",
+      "pronunciation": "yè bàn zhōng shēng dào kè chuán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "枫桥夜泊",
+      "pronunciation": "fēng qiáo yè bó",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "张继",
+      "pronunciation": "zhāng jì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "安史之乱",
+      "pronunciation": "ān shǐ zhī luàn",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "姑苏",
+      "pronunciation": "gū sū",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "寒山寺",
+      "pronunciation": "hán shān sì",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "枫桥",
+      "pronunciation": "fēng qiáo",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "拾得",
+      "pronunciation": "shí dé",
+      "accepted_variants": [
+        "shí de"
+      ],
+      "category": "person",
+      "importance": 1
+    },
+    {
+      "term": "吴淞江",
+      "pronunciation": "wú sōng jiāng",
+      "category": "place",
+      "importance": 1
+    },
+    {
+      "term": "懿孙",
+      "pronunciation": "yì sūn",
+      "category": "person",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_308_01",
+      "source_event_id": "evt_308_01",
+      "target_event_id": "evt_308_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_308_02",
+      "source_event_id": "evt_308_02",
+      "target_event_id": "evt_308_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/308.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/308.json",
+      "event_gold": "gold_annotation/tangshi_300/308.json"
+    },
+    "original_sample_id": "308",
+    "original_gold_status": "llm_extracted_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

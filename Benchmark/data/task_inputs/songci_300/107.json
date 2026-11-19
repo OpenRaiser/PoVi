@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "118_songci_107_e3253bb7b790",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "解语花",
+    "author": "周邦彦",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "风消焰蜡，露浥红莲，花市光相射。\n桂华流瓦，纤云散、耿耿素娥欲下。\n衣裳淡雅，看楚女纤腰一把。\n箫鼓喧、人影参差，满路飘香麝。\n因念都城放夜，望千门如昼，嬉笑游冶。\n钿车罗帕，相逢处、自有暗尘随马。\n年光是也，惟只见、旧情衰谢。\n清漏移、飞盖归来，从舞休歌罢。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "风消焰蜡，露浥红莲，花市光相射。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "桂华流瓦，纤云散、耿耿素娥欲下。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "衣裳淡雅，看楚女纤腰一把。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "箫鼓喧、人影参差，满路飘香麝。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "因念都城放夜，望千门如昼，嬉笑游冶。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "钿车罗帕，相逢处、自有暗尘随马。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "年光是也，惟只见、旧情衰谢。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "清漏移、飞盖归来，从舞休歌罢。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "e3253bb7b790a24241ebf497",
+    "global_index": 118
+  }
+}

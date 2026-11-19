@@ -1,0 +1,1021 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_001",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《贼退示官吏》是唐代诗人元结创作的五言古诗，属于元结反映社会现实、同情民生疾苦的代表性作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "昔岁逢太平，山林二十年。",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "元结（719—772），唐代文学家。曾任道州刺史等职。为官清廉体恤民瘼，反对绮靡文风，主张诗歌应“救时劝俗”。其诗注重反映现实",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "此诗和《舂陵行》都是作者反映社会现实，同情人民疾苦的代表作",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将本诗作为元结现实主义创作风格的典型案例讲解",
+        "可关联新乐府运动先驱的创作定位介绍作品价值"
+      ],
+      "forbidden_assertions": [
+        "将本诗归为其他朝代作者的作品",
+        "将本诗体裁误判为七言律诗或绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "本诗作于唐代宗广德二年（764年），元结时任道州刺史。癸卯岁（763年）西原贼攻入道州焚烧杀掠，次年贼又攻破永、邵二州，却因哀怜道州百姓贫穷而未侵犯道州边境。而朝廷派来的征敛官吏仍不顾百姓死活横征暴敛，故作此诗警示官吏。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此诗作于唐代宗广德二年（764年），时元结任道州刺史。此诗的小序交待了作诗的原委。……作者写下了这首诗以警示征敛租税的官吏。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "癸卯岁，西原贼入道县，焚烧杀掠，几尽而去。明年，贼又攻永破邵，不犯此州边鄙而退。岂力能制敌与？盖蒙其伤怜而已。诸使何为忍苦征敛，故作诗一篇以示官吏。",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "癸卯年十二月，广西境内被称作“西原蛮”的一群强盗发动了武装暴乱，曾攻占道州（州治在今湖南道县）达一月余……第二年五月，元结任道州刺史，七月“西原蛮”又攻破了邻近的永州和邵州，却没有再攻道州。诗人认为，这并不是官府“力能制敌”，而是出于“西原蛮”对战乱中道州人民的“伤怜”",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合元结同期作品《舂陵行》中百姓食不果腹的背景补充讲解民生惨状",
+        "可说明诗中称起义民众为“贼”是作者所处时代的历史局限性"
+      ],
+      "forbidden_assertions": [
+        "声称本诗创作目的是歌颂朝廷官吏的治理功绩",
+        "否定西原贼乱中道州百姓因贫困免遭二次屠戮的史实基础"
+      ]
+    },
+    {
+      "claim_id": "claim_03_text_structure",
+      "claim": "全诗可分为四个逻辑层次：第一段（l01-l03）追忆安史之乱前的太平隐居生活，第二段（l04-l07）叙述贼乱中道州得以保全的经过，第三段（l08-l10）斥责征敛官吏比贼还残暴的恶行，第四段（l11-l12）表明作者宁可弃官归隐也不愿残害百姓的心志。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全诗共分四段。第一段由“昔年”句至“日晏”句，先写“昔”……第二段从“忽然”句到“此州”句，写“今”，写“贼”……第三段从“使臣”句至“以作”句，写“今”，写“官”……第四段由“思欲”句至“归老”句，向官吏们坦露自己的心志。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "首句到“日晏犹得眠”为第一部分……“忽然遭世变”到“此州独见全”为第二部分……“使臣将王命”到“以作时世贤”为第三部分……“思欲委符节”到尾句为第四部分",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可按照四段的叙事逻辑逐层拆解内容，对比昔与今、贼与官的反差",
+        "可指出前半段的太平叙事为后半段的愤激批判做铺垫"
+      ],
+      "forbidden_assertions": [
+        "随意打乱诗歌的叙事顺序，将归隐段落放在征敛批判段落之前讲解",
+        "否定昔与今、贼与官的对比是本诗的核心表达手法"
+      ]
+    },
+    {
+      "claim_id": "claim_04_fire_metaphor",
+      "claim": "诗句“今彼征敛者，迫之如火煎”使用了比喻修辞，将官吏催逼赋税的状态比作用火煎烤，凸显百姓被逼到绝境的惨状。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_2",
+          "text": "现在那横征暴敛的官吏，催赋逼税恰如火烧油煎",
+          "locator": "译文二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "今彼征敛者，迫之如火煎，更活画出一幅虎狼官吏陷民于水火的真实情景",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可引申说明该比喻将抽象的生存压迫转化为极具画面感的感官体验",
+        "可关联前文“日晏犹得眠”的太平状态形成强烈反差"
+      ],
+      "forbidden_assertions": [
+        "将该句解读为诗人赞美官吏征税效率高",
+        "否认该句使用了比喻修辞"
+      ]
+    },
+    {
+      "claim_id": "claim_05_author_position",
+      "claim": "元结在诗中明确表明自己不愿靠残害百姓来换取“贤能官吏”的名声，宁可丢弃符节辞去官职，携家归隐江湖，也绝不执行残民的征敛命令。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "诗人对待这一矛盾的处境的办法是：宁愿弃官，归隐江湖，也绝不去做那种残民邀功、取媚于上的所谓贤臣",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_3",
+          "text": "我想辞去官职丢弃符节，拿起竹篙自己动手撑船。带领全家回到鱼米之乡，告老归隐住在那江湖边",
+          "locator": "译文三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可说明这一表态是元结仁政爱民思想的直接体现",
+        "可关联元结“救时劝俗”的文学主张解读创作动机"
+      ],
+      "forbidden_assertions": [
+        "声称元结的归隐表态只是故作姿态，没有实际行动支撑",
+        "将“归老江湖边”解读为诗人对百姓疾苦完全漠不关心"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_definition",
+      "claim": "诗中核心字词如“昔岁”指从前；“庭户”指庭院；“洞壑”指山洞、沟壑；“井税”借指唐代的赋税；“晏”指晚；“世变”指安史之乱所带来的社会动荡；“戎旃”指战旗或军帐，代指军事；“典”指治理、掌管；“山夷”指聚集山中的武装力量；“见全”指被保全；“将王命”指奉皇上的旨意；“委符节”指辞官；“引竿”代指隐居；“刺船”指撑船；“将”指带着；“就”指靠近。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "昔岁：从前。庭户：庭院。洞壑：山洞，沟壑。井税：田赋……此处借以指唐代的赋税。晏：晚。世变：指安史之乱所带来的社会动荡。戎旃：战旗。一说为军帐。典：治理、掌管。山夷：古代对聚集山中的武装力量的贬称。见全：被保全。将王命：奉皇上的旨意。委符节：指辞官。引竿：拿钓竿，代指隐居。刺船：撑船。将：带着。就：靠近。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "西原贼：又称“西原蛮”……“西原贼”是唐朝时对广西少数民族带有歧视和蔑视意味的称呼，类似“蛮夷戎狄”之说。戎旃（zhān）：军旗，代指军事。",
+          "locator": "注释三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可结合古代井田制的背景讲解“井税”一词的词义来源",
+        "可说明部分字词存在异文版本差异，不影响核心语义理解"
+      ],
+      "forbidden_assertions": [
+        "将“井税”错误解读为井水的赋税",
+        "将“戎旃”错误解读为普通百姓的帐篷"
+      ]
+    },
+    {
+      "claim_id": "claim_07_textual_variants",
+      "claim": "本诗在不同版本中存在异文：l01中的“昔岁”在版本四中作“昔年”；l09中的“彼”在版本四中作“被”，注释中指出“彼”一作“被”；l12中的“湖”一作“海”。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "昔岁：从前。岁，一作“年”。彼：一作“被”。湖：一作“海”。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_4",
+          "text": "昔年逢太平……今被征敛者，迫之如火煎。",
+          "locator": "原文版本四",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "异文的存在不影响诗歌整体的批判主题和艺术价值"
+      ],
+      "forbidden_assertions": [
+        "断言只有某一个版本是绝对正确的，排斥其他异文的存在"
+      ]
+    },
+    {
+      "claim_id": "claim_08_contrast_method",
+      "claim": "本诗运用了强烈的对比手法，包括“昔”之太平（井税有常期、日晏犹得眠）与“今”之乱世（迫之如火煎）的对比，以及“贼”之“伤怜”不屠与“官”之“横征暴敛”的对比，以此突出官吏的残暴。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "他把“诸使”和“贼”对比起来写，通过对“贼”的有所肯定，来衬托官吏的残暴",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "作者把人民没有额外负担看作是年岁太平的主要标志……便为后面揭露“今”时统治者肆意勒索人民设下了伏笔。……和前面“井税”两句相照应，与“昔”形成鲜明对比",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "对比手法的运用使诗歌的批判力度更加深沉、感情更加愤激"
+      ],
+      "forbidden_assertions": [
+        "认为诗中对“昔”的描写与后文的批判毫无关联"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《贼退示官吏》的题名、作者、所属朝代和五言古诗的体裁属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "唐代元结创作的五言古诗《贼退示官吏》",
+        "元结反映民生疾苦的现实主义代表作《贼退示官吏》"
+      ],
+      "forbidden_claims": [
+        "《贼退示官吏》是宋代杜甫的作品",
+        "本诗是元结创作的七言绝句"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "讲解本诗创作的时代背景，包括安史之乱后的社会动荡、西原贼乱的经过、道州战后的民生惨状和元结任道州刺史的经历。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "本诗是元结在西原贼退之后，面对官吏横征暴敛的现实，为警示同僚而作",
+        "广德二年道州百姓刚遭兵灾，又面临朝廷重税的双重压迫"
+      ],
+      "forbidden_claims": [
+        "本诗是元结在太平盛世歌颂朝廷政绩的作品",
+        "西原贼乱完全是百姓无端造谣的虚构事件"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": [
+        "l04",
+        "l05",
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "讲解诗中昔岁、庭户、洞壑、井税、晏、世变、戎旃、典、山夷、见全、将王命、委符节、引竿、刺船等重点文言字词的准确含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“井税”原本指井田制下的赋税，这里代指唐代的租庸调赋税",
+        "“委符节”就是丢弃朝廷颁发的任职凭证，代指辞去官职"
+      ],
+      "forbidden_claims": [
+        "“井税”是指向百姓征收的井水使用税",
+        "“戎旃”指普通百姓居住的军帐"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l07",
+        "l08",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "梳理全诗四段式的叙事抒情结构，明确昔与今、贼与官的对比逻辑。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "全诗从回忆太平生活写起，再讲贼乱经过，再批判官吏暴行，最后表明归隐心志，层层递进",
+        "用贼尚且怜悯百姓的事实，反衬官吏征敛比贼更残暴"
+      ],
+      "forbidden_claims": [
+        "全诗没有任何结构逻辑，是诗人随意拼凑的作品",
+        "贼和官的对比不是本诗的核心表达手法"
+      ],
+      "source_claim_ids": [
+        "claim_03_text_structure",
+        "claim_08_contrast_method"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_05_literal_meaning",
+      "category": "literal_meaning",
+      "description": "逐句准确讲解全诗的字面含义，不得偏离文本原意。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "早年太平时期我在山林隐居二十年，百姓赋税有固定期限，日子过得安稳",
+        "现在征敛的官吏拿着王命催税，难道还不如贼人心地善良吗"
+      ],
+      "forbidden_claims": [
+        "全诗内容是元结幻想出来的完全没有现实依据的故事",
+        "元结非常支持官吏对百姓征收重税"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_02_creation_context"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_06_metaphor_meaning",
+      "category": "metaphor_source",
+      "description": "讲解“迫之如火煎”比喻的本体和喻体，明确修辞的表达效果。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "用火煎烤的极端痛苦，来比喻百姓被官吏催逼赋税走投无路的状态",
+        "这个比喻把抽象的压迫感转化为极具冲击力的感官体验"
+      ],
+      "forbidden_claims": [
+        "“迫之如火煎”是说官吏用真的火来煎烤百姓做饭",
+        "这句诗没有使用任何修辞手法"
+      ],
+      "source_claim_ids": [
+        "claim_04_fire_metaphor"
+      ],
+      "line_ids": [
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_07_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确本诗的解读边界：元结称起义民众为“贼”是时代局限性，不能因此否定全诗同情民生疾苦、批判横征暴敛的核心价值。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "元结作为封建官吏，对民众起义的认知有时代局限，但他反对残民征敛的立场是进步的",
+        "本诗的核心价值是对官吏横征暴敛的批判，不能用现代标准苛责作者的历史局限"
+      ],
+      "forbidden_claims": [
+        "元结是完全站在起义民众立场创作本诗的",
+        "因为元结称起义者为贼，所以本诗完全没有进步价值"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context",
+        "claim_05_author_position"
+      ],
+      "line_ids": [
+        "l05",
+        "l08"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_reading",
+      "category": "alternative_reading",
+      "description": "指出本诗在不同版本中的异文情况，如“昔岁”与“昔年”、“彼”与“被”、“湖”与“海”的差异。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "“昔岁”在部分版本中也写作“昔年”",
+        "“今彼征敛者”中的“彼”字，在有的版本中写作“被”"
+      ],
+      "forbidden_claims": [
+        "“昔岁”和“昔年”在诗中的意思有本质上的对立"
+      ],
+      "source_claim_ids": [
+        "claim_07_textual_variants"
+      ],
+      "line_ids": [
+        "l01",
+        "l09",
+        "l12"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_fire_punishment",
+      "line_ids": [
+        "l09"
+      ],
+      "source_domain": [
+        "火烧、油煎的极端酷刑"
+      ],
+      "target_domain": [
+        "官吏横征暴敛给百姓带来的走投无路的生存压迫"
+      ],
+      "bridges": [
+        "火烧油煎会给人带来无法忍受的极端痛苦，和百姓被重税逼迫、朝不保夕的生存状态高度相似",
+        "该比喻承接前文“日晏犹得眠”的太平状态，形成强烈的苦乐反差"
+      ],
+      "context_claim_ids": [
+        "claim_04_fire_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可解读为诗人目睹百姓惨状后内心愤急情绪的外化，用火烧油煎形容自己的焦灼与愤怒"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_symbol_official_post",
+      "line_ids": [
+        "l11"
+      ],
+      "source_domain": [
+        "朝廷颁发的用于传达命令、征调兵将的符节凭证"
+      ],
+      "target_domain": [
+        "元结所担任的道州刺史的官职与行政权力"
+      ],
+      "bridges": [
+        "符节是古代官员行使官方权力的核心凭证，丢弃符节就代表主动放弃所有公职身份与权力",
+        "用具体的物品代指抽象的官职，符合古典诗歌常用的借代表达习惯"
+      ],
+      "context_claim_ids": [
+        "claim_05_author_position",
+        "claim_06_lexical_definition"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "符节也可泛指所有朝廷授予的官吏身份，“委符节”代表彻底与残民的官僚体系切割"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_symbol_retreat",
+      "line_ids": [
+        "l11"
+      ],
+      "source_domain": [
+        "引竿（拿钓竿）"
+      ],
+      "target_domain": [
+        "隐居生活"
+      ],
+      "bridges": [
+        "拿钓竿垂钓是古代隐士的典型生活方式，因此“引竿”常作为隐居的代称"
+      ],
+      "context_claim_ids": [
+        "claim_05_author_position",
+        "claim_06_lexical_definition"
+      ],
+      "status": "consensus",
+      "alternative_readings": [],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_poem_intro",
+      "description": "视频开场清晰呈现诗题、作者、朝代信息，同步展示完整无错的全诗文本，配合朗读逐句弹出字幕。",
+      "acceptable_realizations": [
+        "古风题签样式展示诗题作者，旁白朗读时逐行高亮对应诗句",
+        "背景搭配唐代道州山水的古地图作为底衬"
+      ],
+      "forbidden_realizations": [
+        "出现错字漏句，擅自修改原诗文本内容",
+        "遗漏作者、朝代等核心元信息"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_presentation",
+      "semantic_role": "opening_poem_presentation"
+    },
+    {
+      "requirement_id": "vis_02_recall_peaceful_life",
+      "description": "对应诗歌第一段内容，展示安史之乱前太平年间，诗人隐居山林、百姓安居乐业的祥和画面。",
+      "acceptable_realizations": [
+        "画面呈现山泉水流经庭院，百姓日出而作日落而息的田园场景",
+        "搭配舒缓的传统民乐烘托太平氛围"
+      ],
+      "forbidden_realizations": [
+        "在该段落提前出现战乱、兵戈等破坏祥和氛围的元素",
+        "将太平场景设置为都市繁华的宫廷环境"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "recall_prewar_peace",
+      "semantic_role": "recall_prewar_peace"
+    },
+    {
+      "requirement_id": "vis_03_depict_war_turmoil",
+      "description": "对应诗歌第二段内容，展示安史之乱、西原贼乱后道州城残破、百姓流离失所的战后景象。",
+      "acceptable_realizations": [
+        "画面呈现被焚毁的房屋、荒芜的田地，百姓面有菜色的萧条场景",
+        "穿插西原贼攻破邻州却绕过道州的叙事画面"
+      ],
+      "forbidden_realizations": [
+        "刻意美化贼乱的暴行，将贼军塑造为救民于水火的正义军队",
+        "完全不展示战后道州的残破景象"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "depict_postwar_misery",
+      "semantic_role": "depict_postwar_misery"
+    },
+    {
+      "requirement_id": "vis_04_condemn_cruel_exploitation",
+      "description": "对应诗歌第三段内容，展示官吏手持文书催逼赋税，百姓被逼得走投无路的画面，突出“迫之如火煎”的火烧意象。",
+      "acceptable_realizations": [
+        "画面中用隐约的火焰光晕笼罩被催逼的百姓，直观呈现如火煎烤的压迫感",
+        "用官吏和贼的行为对比分屏展示，凸显“吏不如贼”的批判主题"
+      ],
+      "forbidden_realizations": [
+        "将征敛官吏塑造为勤政爱民的正面形象",
+        "完全不体现“如火煎”的核心比喻视觉元素"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_fire_punishment"
+      ],
+      "expected_phase": "condemn_corrupt_exploitation",
+      "semantic_role": "condemn_corrupt_exploitation"
+    },
+    {
+      "requirement_id": "vis_05_show_retreat_aspiration",
+      "description": "对应诗歌第四段内容，展示元结丢弃符节，手持竹篙撑船，携全家向山水深处行去的归隐画面。",
+      "acceptable_realizations": [
+        "画面中符节被轻轻放在岸边的石头上，诗人手持钓竿或竹篙，乘船逐渐驶向开阔的江面",
+        "背景是开阔的湖光山色，烘托诗人远离官场的释然心境"
+      ],
+      "forbidden_realizations": [
+        "将诗人归隐的画面设置为返回繁华的京城继续做官",
+        "丢弃符节的核心象征元素完全不出现"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_symbol_official_post",
+        "meta_03_symbol_retreat"
+      ],
+      "expected_phase": "express_retreat_resolution",
+      "semantic_role": "express_retreat_resolution"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_001_01",
+      "description": "安史之乱爆发前，元结曾在山林中隐居了约二十年，度过了一段井田赋税有常规、生活安稳平静的太平岁月。",
+      "audio_triggers": [
+        "昔岁逢太平",
+        "山林二十年",
+        "井税有常期"
+      ],
+      "visual_evidence": [
+        "唐代早期服饰",
+        "隐士山林",
+        "清幽的庭院",
+        "自然山水环境"
+      ],
+      "sound_evidence": [
+        "清泉流水声",
+        "自然鸟鸣",
+        "静谧的氛围音"
+      ],
+      "importance": 1
+    },
+    {
+      "event_id": "evt_001_02",
+      "description": "随着安史之乱爆发，遭遇世道突变，元结离开山林，亲自参加平叛的军事行动长达数年。",
+      "audio_triggers": [
+        "忽然遭世变",
+        "数岁亲戎旃",
+        "从军"
+      ],
+      "visual_evidence": [
+        "唐代军装战袍",
+        "飘扬的战旗",
+        "军营或行军景象"
+      ],
+      "sound_evidence": [
+        "战马嘶鸣",
+        "沉闷的战鼓声",
+        "兵戈相交的音效"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_001_03",
+      "description": "通常认为在广德元年（763年，癸卯年），被称为“西原蛮”的武装力量攻入道州，大肆焚烧杀掠，导致城池遭到严重破坏。",
+      "audio_triggers": [
+        "西原贼",
+        "癸卯岁",
+        "入道州"
+      ],
+      "visual_evidence": [
+        "残破的城郭",
+        "燃烧的建筑",
+        "逃难的平民",
+        "武装劫掠场面"
+      ],
+      "sound_evidence": [
+        "大火燃烧的噼啪声",
+        "民众惊恐的哭喊声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_001_04",
+      "description": "广德二年（764年），元结被朝廷任命为道州刺史，接手治理战后残破的道州郡。",
+      "audio_triggers": [
+        "今来典斯郡",
+        "道州刺史",
+        "上任"
+      ],
+      "visual_evidence": [
+        "唐代刺史级别官服",
+        "残破的州衙官署",
+        "堆积的公文文书"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "翻阅简牍纸张的声音"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_001_05",
+      "description": "同年，“西原蛮”再次发难，攻破相邻的永州和邵州。道州因城小人贫，出于同情未被再次侵犯而独得保全。",
+      "audio_triggers": [
+        "山夷又纷然",
+        "城小贼不屠",
+        "人贫伤可怜",
+        "独见全"
+      ],
+      "visual_evidence": [
+        "远方邻县的烽火战乱",
+        "道州百姓贫苦无依的面貌",
+        "贼寇大军过境但不入城"
+      ],
+      "sound_evidence": [
+        "远处的兵马响动",
+        "逐渐远去的行军声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_001_06",
+      "description": "相比盗贼的退避，朝廷派出的催收租庸赋税的使臣却不顾百姓死活，奉命来到道州横征暴敛，逼税如火煎。",
+      "audio_triggers": [
+        "使臣将王命",
+        "征敛者",
+        "迫之如火煎"
+      ],
+      "visual_evidence": [
+        "唐代使臣服饰",
+        "官吏严酷呵斥的表情",
+        "跪地哀求的贫苦百姓",
+        "被迫上缴的粮食财物"
+      ],
+      "sound_evidence": [
+        "官吏厉声呵斥",
+        "百姓凄厉的哭诉声",
+        "打砸抢夺的声音"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_001_07",
+      "description": "元结对官吏残民邀功的行为极度愤慨，深感宁可弃官归隐江湖，也不愿断绝百姓生路去作“时世贤”，由此写成《贼退示官吏》警示同僚。",
+      "audio_triggers": [
+        "谁能绝人命",
+        "思欲委符节",
+        "归老江湖边",
+        "作诗"
+      ],
+      "visual_evidence": [
+        "元结在书案前愤怒地奋笔疾书",
+        "手旁的刺史符节",
+        "决绝而悲悯的神情",
+        "隐现的一叶扁舟画面"
+      ],
+      "sound_evidence": [
+        "毛笔在纸张上的疾书声",
+        "悲壮苍凉的背景乐"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "昔岁逢太平，",
+      "pronunciation": "xī suì féng tài píng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山林二十年。",
+      "pronunciation": "shān lín èr shí nián.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "泉源在庭户，",
+      "pronunciation": "quán yuán zài tíng hù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "洞壑当门前。",
+      "pronunciation": "dòng hè dāng mén qián.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "井税有常期，",
+      "pronunciation": "jǐng shuì yǒu cháng qī,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "日晏犹得眠。",
+      "pronunciation": "rì yàn yóu dé mián.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "忽然遭世变，",
+      "pronunciation": "hū rán zāo shì biàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "数岁亲戎旃。",
+      "pronunciation": "shù suì qīn róng zhān.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今来典斯郡，",
+      "pronunciation": "jīn lái diǎn sī jùn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "山夷又纷然。",
+      "pronunciation": "shān yí yòu fēn rán.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "城小贼不屠，",
+      "pronunciation": "chéng xiǎo zéi bù tú,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "人贫伤可怜。",
+      "pronunciation": "rén pín shāng kě lián.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "是以陷邻境，",
+      "pronunciation": "shì yǐ xiàn lín jìng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此州独见全。",
+      "pronunciation": "cǐ zhōu dú jiàn quán.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "使臣将王命，",
+      "pronunciation": "shǐ chén jiāng wáng mìng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "岂不如贼焉？",
+      "pronunciation": "qǐ bù rú zéi yān?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今彼征敛者，",
+      "pronunciation": "jīn bǐ zhēng liǎn zhě,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "迫之如火煎。",
+      "pronunciation": "pò zhī rú huǒ jiān.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "谁能绝人命，",
+      "pronunciation": "shuí néng jué rén mìng,",
+      "accepted_variants": [
+        "shéi néng jué rén mìng,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "以作时世贤！",
+      "pronunciation": "yǐ zuò shí shì xián!",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "思欲委符节，",
+      "pronunciation": "sī yù wěi fú jié,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "引竿自刺船。",
+      "pronunciation": "yǐn gān zì cì chuán.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "将家就鱼麦，",
+      "pronunciation": "jiāng jiā jiù yú mài,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "归老江湖边。",
+      "pronunciation": "guī lǎo jiāng hú biān.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "贼退示官吏",
+      "pronunciation": "zéi tuì shì guān lì",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "元结",
+      "pronunciation": "yuán jié",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "道州",
+      "pronunciation": "dào zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "永州",
+      "pronunciation": "yǒng zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "邵州",
+      "pronunciation": "shào zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "西原蛮",
+      "pronunciation": "xī yuán mán",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "癸卯",
+      "pronunciation": "guǐ mǎo",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "广德",
+      "pronunciation": "guǎng dé",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "将",
+      "pronunciation": "jiāng",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "刺船",
+      "pronunciation": "cì chuán",
+      "category": "polyphone",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_001_01",
+      "source_event_id": "evt_001_01",
+      "target_event_id": "evt_001_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_001_02",
+      "source_event_id": "evt_001_02",
+      "target_event_id": "evt_001_04",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_001_03",
+      "source_event_id": "evt_001_03",
+      "target_event_id": "evt_001_04",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_001_04",
+      "source_event_id": "evt_001_04",
+      "target_event_id": "evt_001_05",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_001_05",
+      "source_event_id": "evt_001_05",
+      "target_event_id": "evt_001_06",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_001_06",
+      "source_event_id": "evt_001_06",
+      "target_event_id": "evt_001_07",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_001_07",
+      "source_event_id": "evt_001_05",
+      "target_event_id": "evt_001_07",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/001.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/001.json",
+      "event_gold": "gold_annotation/tangshi_300/001.json"
+    },
+    "original_sample_id": "001",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

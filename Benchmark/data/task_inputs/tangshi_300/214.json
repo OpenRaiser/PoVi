@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "079_tangshi_214_3cb4855245a4",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "闻官军收河南河北",
+    "author": "杜甫",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "text": "剑外忽传收蓟北，初闻涕泪满衣裳。\n却看妻子愁何在，漫卷诗书喜欲狂。\n白日放歌须纵酒，青春作伴好还乡。\n即从巴峡穿巫峡，便下襄阳向洛阳。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "剑外忽传收蓟北，初闻涕泪满衣裳。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "却看妻子愁何在，漫卷诗书喜欲狂。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "白日放歌须纵酒，青春作伴好还乡。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "即从巴峡穿巫峡，便下襄阳向洛阳。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "3cb4855245a4a457d9e8029c",
+    "global_index": 79
+  }
+}

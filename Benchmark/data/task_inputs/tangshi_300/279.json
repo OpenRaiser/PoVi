@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "066_tangshi_279_8d7657482554",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "黄鹤楼送孟浩然之广陵",
+    "author": "李白",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "text": "故人西辞黄鹤楼，烟花三月下扬州。\n孤帆远影碧空尽，唯见长江天际流。\n(唯 通：惟)",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "故人西辞黄鹤楼，烟花三月下扬州。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "孤帆远影碧空尽，唯见长江天际流。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "(唯 通：惟)"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "8d7657482554df58ec7440b1",
+    "global_index": 66
+  }
+}

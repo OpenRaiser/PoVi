@@ -1,0 +1,806 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_033",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本作为北宋词人柳永所作的慢词，词牌为《雨霖铃》，也写作“雨淋铃”，调见《乐章集》。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "雨霖铃 柳永 宋 词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "柳永（约984—1053）...北宋著名词人...开创“慢词”长调体裁，代表作《雨霖铃》",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_note_1",
+          "text": "雨霖铃：词牌名，也写作“雨淋铃”，调见《乐章集》。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词为宋代婉约派慢词代表作",
+        "可指出作者柳永对宋词长调发展有重要贡献"
+      ],
+      "forbidden_assertions": [
+        "该作品为唐代诗歌或豪放派词作",
+        "作者为其他宋代词人"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词创作于柳永仕途失意、屡试不第后，离开汴京南下时与恋人惜别之际。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "因作词忤仁宗，屡试不第，所以心中失意忧愤...此词当为柳永从汴京南下时与一位恋人的惜别之作。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词是词人在仕途失意，不得不离京都（汴京，今河南开封）时写的",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中离愁与作者个人宦途挫折密切相关",
+        "离别地点为北宋都城汴京郊外"
+      ],
+      "forbidden_assertions": [
+        "此词作于作者高中状元或仕途得意之时",
+        "离别对象为同僚或友人而非恋人"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure",
+      "claim": "全词分上下两阕，上阕实写饯行别情，下阕虚写别后想象，以“念”字实现由实转虚的过渡。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "全词分上下两阕。上阕主要写饯行时难舍难分的惜别场面...下阕着重写想象中别后的凄楚情景。",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "从词的结构看,这两句由上阕实写转向下阕虚写，具有承上启下的作用。",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“念去去”标志着叙事视角从当下转向未来",
+        "词作遵循“先实后虚、情景交融”的章法"
+      ],
+      "forbidden_assertions": [
+        "全词均为实景描写，无想象成分",
+        "上下阕之间缺乏逻辑关联或转折"
+      ]
+    },
+    {
+      "claim_id": "claim_04_imagery_l07",
+      "claim": "“杨柳岸、晓风残月”以景写情，通过谐音与意象组合，深刻传达别后孤寂与难圆之憾。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "“柳”、“留”谐音，写难留的离情；晓风凄冷，写别后的寒心；残月破碎，写此后难圆之意。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "怕是只有杨柳岸边，面对凄厉的晨风 and 黎明的残月了。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "该句为千古名句，以清冷画面高度浓缩羁旅愁思",
+        "景物选择服务于情感表达，非单纯写景"
+      ],
+      "forbidden_assertions": [
+        "该句仅描写春日清晨的明媚风光",
+        "意象之间无内在情感逻辑关联"
+      ]
+    },
+    {
+      "claim_id": "claim_05_theme_tone",
+      "claim": "全词以冷落凄凉的秋景为衬托，交织宦途失意与恋人离别的痛苦，奠定低沉伤感的情感基调。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "词的主要内容是以冷落凄凉的秋景作为衬托来表达和情人难以割舍的离情。宦途的失意 and 与恋人的离别，两种痛苦交织在一起,使词人更加感到前途的暗淡和渺茫。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“清秋节”不仅是时令，更是心理氛围的投射",
+        "词作情感具有从个人际遇向普遍离愁升华的特点"
+      ],
+      "forbidden_assertions": [
+        "全词情感基调为欢快明朗或豁达超脱",
+        "词中未涉及仕途失意的背景"
+      ]
+    },
+    {
+      "claim_id": "claim_06_cipai_origin",
+      "claim": "《雨霖铃》曲调相传为唐玄宗入蜀避难时，在雨中听到铃声想起杨贵妃而作，曲调本身即具有哀伤成分。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_note_1",
+          "text": "相传唐玄宗入蜀时在雨中听到铃声而想起杨贵妃，故作此曲。曲调自身就具有哀伤的成分。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_5",
+          "text": "据《明皇杂录》云，安史之乱时，唐玄宗避地蜀中，于栈道雨中闻铃音，起悼念杨贵妃之思，“采其声为《雨霖铃》曲，以寄恨焉”。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "柳永选用此调，在声情上天然契合其哀怨的离情别绪"
+      ],
+      "forbidden_assertions": [
+        "《雨霖铃》是由柳永完全原创的全新词牌，此前无此曲调"
+      ]
+    },
+    {
+      "claim_id": "claim_07_textual_variants",
+      "claim": "本词在流传过程中存在多处异文，如“留恋处”一作“方留恋处”，“良辰好景”一作“良辰美景”，“风情”中“情”一作“流”，“更与”中“更”一作“待”。",
+      "status": "disputed",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_note_1",
+          "text": "留恋处：一作“方留恋处”。良辰好景：一作“良辰美景”。风情：...情：一作“流”。更与：更：一作“待”。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "不同版本的异文反映了词作在民间歌伎间口头传唱、流传广泛的特征"
+      ],
+      "forbidden_assertions": [
+        "“方留恋处”和“良辰美景”是现代学者编造的，古代文献中绝无此说"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及体裁特征。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋柳永的慢词代表作《雨霖铃》",
+        "宋代婉约派词人柳永所作的长调词"
+      ],
+      "forbidden_claims": [
+        "唐代近体诗或豪放派作品",
+        "作者非柳永或词牌名错误"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "交代创作背景为仕途受挫后离京南下，与恋人长亭惜别。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "柳永屡试不第、离开汴京时与恋人分别之作",
+        "结合宦途失意与儿女离情的送别词"
+      ],
+      "forbidden_claims": [
+        "作于科举高中或仕途顺遂时期",
+        "送别对象为朝廷官员或普通友人"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "掌握上下阕“上实下虚”的章法布局及“念”字的转折枢纽作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片写实景别情，下片写虚景想象，以“念”字过渡",
+        "全词由实入虚，层层推进离愁别绪"
+      ],
+      "forbidden_claims": [
+        "上下阕均为实写或均为虚写",
+        "词作缺乏明确的时空转换节点"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "mapping_bridge",
+      "description": "解析“杨柳岸、晓风残月”中自然景物与离愁别绪的映射机制及双关手法。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借柳留谐音、晓风寒意、残月破碎映射别后孤寂与难圆",
+        "以清冷秋晨之景具象化漂泊无依的愁绪"
+      ],
+      "forbidden_claims": [
+        "该句仅为客观天气与植物记录，无情感寄托",
+        "“柳”与“留”无语音或文化关联"
+      ],
+      "source_claim_ids": [
+        "claim_04_imagery_l07"
+      ],
+      "line_ids": [
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_05_theme",
+      "category": "summary",
+      "description": "概括全词以秋景衬离情、交织个人失意与普遍伤别的主旨。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "借冷落秋景抒发仕途与情场双重失意的深沉离愁",
+        "将个人别恨升华为“多情自古伤离别”的普遍共鸣"
+      ],
+      "forbidden_claims": [
+        "主旨为歌颂秋日美景或表达归隐之志",
+        "情感基调积极昂扬或超然物外"
+      ],
+      "source_claim_ids": [
+        "claim_05_theme_tone"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_06_lexical_notes",
+      "category": "lexical",
+      "description": "掌握词中核心字词的训诂释义，如“凄切”（凄凉急促）、“都门”（国都之门，代指汴京）、“帐饮”（郊外设帐饯行）、“凝噎”（喉咙哽塞，欲语不出）等。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "理解凄切、都门、帐饮、凝噎等词在特定语境下的字面含义与修辞效果"
+      ],
+      "forbidden_claims": [
+        "将“都门”解释为普通的都市之门，或将“凝噎”解释为大声哭泣"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03"
+      ]
+    },
+    {
+      "unit_id": "req_07_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解本词在流传版本中存在的异文，如“留恋处”与“方留恋处”、“良辰好景”与“良辰美景”等异解。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "知晓本词存在“留恋处/方留恋处”、“良辰好景/良辰美景”等不同版本字词"
+      ],
+      "forbidden_claims": [
+        "认为本词在历史上仅有单一绝对版本，不存在任何异文"
+      ],
+      "source_claim_ids": [
+        "claim_07_textual_variants"
+      ],
+      "line_ids": [
+        "l02",
+        "l08"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_willow_wind_moon",
+      "line_ids": [
+        "l07"
+      ],
+      "source_domain": [
+        "杨柳",
+        "晓风",
+        "残月"
+      ],
+      "target_domain": [
+        "难留的离情",
+        "别后的寒心与孤寂",
+        "此后团圆无望的境况"
+      ],
+      "bridges": [
+        "“柳”与“留”谐音，暗含挽留不得的无奈；晨风凄冷映射别后心境的凄凉；残月形态破碎象征情感与生活的残缺难圆。"
+      ],
+      "context_claim_ids": [
+        "claim_04_imagery_l07"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为羁旅漂泊的纯实景白描，不刻意强调双关，仅以清冷画面客观烘托孤独氛围。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_autumn_cicada",
+      "line_ids": [
+        "l01"
+      ],
+      "source_domain": [
+        "寒蝉"
+      ],
+      "target_domain": [
+        "萧瑟凄冷的离别氛围与悲凉心境"
+      ],
+      "bridges": [
+        "秋蝉鸣声凄切急促，古典诗词中常以秋蝉悲鸣渲染悲秋与离愁，此处借物起兴，为全词定下伤感基调。"
+      ],
+      "context_claim_ids": [
+        "claim_05_theme_tone",
+        "claim_03_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "仅作为点明深秋时令的自然物候描写，侧重环境交代而非强烈主观情感投射。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_southern_sky",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "暮霭沉沉楚天阔"
+      ],
+      "target_domain": [
+        "前途渺茫与离愁深重"
+      ],
+      "bridges": [
+        "暮云深厚、楚地天空辽阔无边，以空间的浩渺反衬个体的渺小与漂泊无依，暗示南下前路黯淡未知。"
+      ],
+      "context_claim_ids": [
+        "claim_03_structure"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "实写南下舟行所见的江南水乡秋暮实景，侧重地理方位的客观交代与行程遥远的暗示。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening",
+      "description": "呈现词牌、作者及深秋长亭骤雨初歇的环境画面，配合寒蝉音效奠定凄清基调。",
+      "acceptable_realizations": [
+        "水墨晕染秋林长亭，雨滴残叶特写",
+        "字幕逐句浮现，旁白低沉起诵"
+      ],
+      "forbidden_realizations": [
+        "使用明媚春日或喧闹市井背景",
+        "画面色彩饱和度过高破坏悲凉氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_autumn_cicada"
+      ],
+      "expected_phase": "opening_autumn_pavilion",
+      "semantic_role": "opening_autumn_pavilion"
+    },
+    {
+      "requirement_id": "vis_02_farewell",
+      "description": "动态展现都门帐饮、执手泪眼、无语凝噎的实景，突出人物神态与兰舟催发的冲突。",
+      "acceptable_realizations": [
+        "中景双人执手对视，眼眶含泪特写",
+        "背景虚化中船夫摇橹催促的剪影"
+      ],
+      "forbidden_realizations": [
+        "人物表情欢快或动作夸张",
+        "省略“无语凝噎”的静默张力表现"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "pavilion_farewell_departure",
+      "semantic_role": "pavilion_farewell_departure"
+    },
+    {
+      "requirement_id": "vis_03_transition",
+      "description": "镜头随“念”字由实景渐变为浩渺烟波与沉沉暮霭，实现时空向虚境的转换。",
+      "acceptable_realizations": [
+        "水面雾气升腾，画面色调转暗转冷",
+        "广角展现楚天辽阔，孤舟渐行渐远"
+      ],
+      "forbidden_realizations": [
+        "画面突兀切换无过渡",
+        "空间感狭窄无法体现“阔”字意境"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_southern_sky"
+      ],
+      "expected_phase": "imagined_journey_mist_transition",
+      "semantic_role": "imagined_journey_mist_transition"
+    },
+    {
+      "requirement_id": "vis_04_dawn_vision",
+      "description": "重点渲染“杨柳岸、晓风残月”的清冷意境，画面大量留白以突出孤寂与漂泊感。",
+      "acceptable_realizations": [
+        "拂晓微光中垂柳摇曳，残月悬于天际",
+        "空镜停留，风声与水波轻响强化寒意"
+      ],
+      "forbidden_realizations": [
+        "出现繁华街景或温暖色调光源",
+        "意象堆砌过满失去留白余韵"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_willow_wind_moon"
+      ],
+      "expected_phase": "dawn_willow_bank_vision",
+      "semantic_role": "dawn_willow_bank_vision"
+    },
+    {
+      "requirement_id": "vis_05_conclusion",
+      "description": "以虚设良辰美景的对比画面收尾，强化“更与何人说”的诘问余韵与漫长孤独。",
+      "acceptable_realizations": [
+        "繁花明月等美景快速闪现后褪色为灰暗",
+        "人物背影独对空景，字幕淡出留白"
+      ],
+      "forbidden_realizations": [
+        "以团圆或重逢画面作结",
+        "配乐过于激昂破坏低沉收尾"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "concluding_lonely_reflection",
+      "semantic_role": "concluding_lonely_reflection"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_033_01",
+      "description": "柳永因作词忤逆宋仁宗，导致屡试不第，仕途严重受挫。",
+      "audio_triggers": [
+        "作词忤仁宗",
+        "屡试不第",
+        "仕途失意"
+      ],
+      "visual_evidence": [
+        "北宋都城汴京",
+        "柳永得知落榜后的失意神态",
+        "穿着普通文人服饰，无官服",
+        "环境略显压抑"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "街道喧哗声中透露出的孤独感"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_033_02",
+      "description": "柳永心中失意忧愤，常流连于汴京的秦楼楚馆，为歌伶乐伎撰写曲子词，这成为了他生活的重要部分。",
+      "audio_triggers": [
+        "流连坊曲",
+        "秦楼楚馆",
+        "为歌伶乐伎撰写曲子词"
+      ],
+      "visual_evidence": [
+        "北宋教坊酒楼内景",
+        "歌妓弹唱，柳永在席间饮酒作词",
+        "场景繁华但人物神态略带忧伤",
+        "禁止出现明清风格的青楼装饰"
+      ],
+      "sound_evidence": [
+        "宋代丝竹管弦乐声",
+        "女子婉转的演唱声",
+        "酒杯碰撞声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_033_03",
+      "description": "通常认为，因在京城仕途无望，柳永无奈决定离开汴京，南下谋生。",
+      "audio_triggers": [
+        "离开京都",
+        "汴京南下",
+        "飘泊江湖"
+      ],
+      "visual_evidence": [
+        "柳永在住处收拾行装",
+        "准备乘船离开",
+        "面容憔悴，神态决绝与无奈交织"
+      ],
+      "sound_evidence": [
+        "整理衣物和行囊的摩擦声",
+        "沉重的脚步声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_033_04",
+      "description": "临行前，柳永在汴京城郊（都门）的长亭与一位恋人设帐饯别，面对深秋傍晚骤雨初歇的凄冷景色，写下《雨霖铃》以抒离愁。",
+      "audio_triggers": [
+        "都门帐饮",
+        "长亭送别",
+        "写下《雨霖铃》"
+      ],
+      "visual_evidence": [
+        "深秋傍晚，天空阴沉",
+        "汴京郊外十里长亭旁临时搭起的帐篷",
+        "柳永与一位宋代装扮的女子执手流泪无语",
+        "江边停泊着木船（兰舟），船夫在旁等待",
+        "柳永提笔写下词句"
+      ],
+      "sound_evidence": [
+        "秋蝉凄厉急促的鸣叫声",
+        "雨后冷风吹过树叶的沙沙声",
+        "船夫的催促声",
+        "离别时的哽咽抽泣声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "寒蝉凄切，",
+      "pronunciation": "hán chán qī qiè,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "对长亭晚，",
+      "pronunciation": "duì cháng tíng wǎn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "骤雨初歇。",
+      "pronunciation": "zhòu yǔ chū xiē.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "都门帐饮无绪，",
+      "pronunciation": "dū mén zhàng yǐn wú xù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "留恋处、",
+      "pronunciation": "liú liàn chù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "兰舟催发。",
+      "pronunciation": "lán zhōu cuī fā.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "执手相看泪眼，",
+      "pronunciation": "zhí shǒu xiāng kàn lèi yǎn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "竟无语凝噎。",
+      "pronunciation": "jìng wú yǔ níng yē.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念去去、",
+      "pronunciation": "niàn qù qù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千里烟波，",
+      "pronunciation": "qiān lǐ yān bō,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "暮霭沉沉楚天阔。",
+      "pronunciation": "mù ǎi chén chén chǔ tiān kuò.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "多情自古伤离别，",
+      "pronunciation": "duō qíng zì gǔ shāng lí bié,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更那堪、",
+      "pronunciation": "gèng nǎ kān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "冷落清秋节！",
+      "pronunciation": "lěng luò qīng qiū jié!",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今宵酒醒何处？",
+      "pronunciation": "jīn xiāo jiǔ xǐng hé chù?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杨柳岸、",
+      "pronunciation": "yáng liǔ àn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "晓风残月。",
+      "pronunciation": "xiǎo fēng cán yuè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此去经年，",
+      "pronunciation": "cǐ qù jīng nián,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "应是良辰好景虚设。",
+      "pronunciation": "yīng shì liáng chén hǎo jǐng xū shè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "便纵有千种风情，",
+      "pronunciation": "biàn zòng yǒu qiān zhǒng fēng qíng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "更与何人说。",
+      "pronunciation": "gèng yǔ hé rén shuō.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "雨霖铃",
+      "pronunciation": "yǔ lín líng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "柳永",
+      "pronunciation": "liǔ yǒng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "宋仁宗",
+      "pronunciation": "sòng rén zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "汴京",
+      "pronunciation": "biàn jīng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "楚天",
+      "pronunciation": "chǔ tiān",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "那堪",
+      "pronunciation": "nǎ kān",
+      "accepted_variants": [
+        "nà kān"
+      ],
+      "category": "polyphone",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_033_01",
+      "source_event_id": "evt_033_01",
+      "target_event_id": "evt_033_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_033_02",
+      "source_event_id": "evt_033_01",
+      "target_event_id": "evt_033_03",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_033_03",
+      "source_event_id": "evt_033_02",
+      "target_event_id": "evt_033_04",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_033_04",
+      "source_event_id": "evt_033_03",
+      "target_event_id": "evt_033_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/033.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/033.json",
+      "event_gold": "gold_annotation/songci_300/033.json"
+    },
+    "original_sample_id": "033",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

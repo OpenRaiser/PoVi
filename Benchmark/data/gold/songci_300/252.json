@@ -1,0 +1,945 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_252",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为南宋遗民词人刘辰翁于元成宗大德元年（1297年）元宵夜所作，词牌为《宝鼎现》，主旨为寄托亡国哀思。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "宝鼎现",
+          "locator": "title",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这首词作于公元1297年（元成宗大德元年）。在宋亡近二十年后的元宵夜，作者感慨今昔，写下这首《宝鼎现》，寄托亡国哀思。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "刘辰翁（1232—1297）...入元不仕。宋亡前后，多感伤时事的篇章。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确该词创作于宋亡后约二十年，属典型的遗民词范畴。",
+        "作者身份与创作时间直接决定了全词悲凉沉郁的情感基调。"
+      ],
+      "forbidden_assertions": [
+        "该词作于北宋宣和年间",
+        "作者刘辰翁在元朝出仕为官",
+        "词作主旨仅为描写元宵佳节游玩之乐"
+      ]
+    },
+    {
+      "claim_id": "claim_02_structure",
+      "claim": "全词分三叠，分别铺陈北宋汴京元宵繁华、南宋临安承平景象以及入元后元宵萧条与遗民悲泣，通过今昔对比抒发故国之思。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词就分三段分别写北宋、南宋及作词当时的节场景。因此形成强烈的对比，以现作者悼念恨怅之情。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "红妆春骑...天上人间梦里。",
+          "locator": "l01-l12",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词作采用时空跳跃与强烈对比手法，教学时应引导学生按朝代更迭划分三段层次。",
+        "三叠结构内在逻辑紧密，情感由盛转衰，层层递进。"
+      ],
+      "forbidden_assertions": [
+        "全词仅描写单一时代的元宵节",
+        "三段之间为并列的景物堆砌，无情感递进",
+        "上阕与下阕描写的是同一时空"
+      ]
+    },
+    {
+      "claim_id": "claim_03_allusion_copper",
+      "claim": "词中“抱铜仙、清泪如水”借用魏明帝拆迁汉武铜人潸然泪下的典故，隐喻北宋灭亡、故国沦丧的悲痛。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "抱铜仙清泪如水：此句运用金铜仙人的典故。魏明帝时诏宫官牵牛西取汉武帝时所造的铜人，铜人竟潸然泪下，用这典故寄寓作者亡国之痛。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "父老犹记宣和事，抱铜仙、清泪如水。",
+          "locator": "l05",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该典故是全词情感由北宋转入南宋/亡国叙事的关键枢纽。",
+        "“清泪如水”将历史典故具象化为父老遗民的现实悲泣。"
+      ],
+      "forbidden_assertions": [
+        "铜仙流泪指代自然降雨或天气变化",
+        "此典故与朝代更迭或政治变迁无关",
+        "宣和事仅指宋徽宗个人爱好"
+      ]
+    },
+    {
+      "claim_id": "claim_04_mirror",
+      "claim": "“肯把菱花扑碎”反用南朝徐德言破镜重圆典故，以反问语气表达在繁华表象下对国破家亡悲剧的隐忧与无奈。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "有没有人象南朝徐德言那样预料到将有国破家亡之祸，而预先将菱花镜打破，与妻子各执一半，以作他日团圆的凭证。“肯把菱花扑碎”一句，寓有词人刻骨铭心的亡国之痛",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "poem",
+          "text": "看往来、神仙才子，肯把菱花扑碎。",
+          "locator": "l08",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可指出此处为反诘，暗示时人沉溺享乐，未料大祸将至。",
+        "菱花镜的“碎”象征家国完整性的不可挽回。"
+      ],
+      "forbidden_assertions": [
+        "菱花扑碎指代打碎酒杯或器物",
+        "此句纯粹描写女子梳妆打扮的日常",
+        "破镜典故在此处表示夫妻团圆"
+      ]
+    },
+    {
+      "claim_id": "claim_05_nichang",
+      "claim": "结句“便当日亲见《霓裳》，天上人间梦里”化用李煜《浪淘沙》语意，强调即使亲历过北宋极盛，如今也如隔世般虚幻，深化亡国幻灭感。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "“天上人间梦里”用李后主《浪淘沙》“流水落花春去也，天上人间”语，辞气悲凉亡国之痛。跃然纸上，读之令人抚膺大恸。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "霓裳：《霓裳羽衣曲》与《霓裳羽衣舞》的略称。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "poem",
+          "text": "便当日亲见《霓裳》，天上人间梦里。",
+          "locator": "l12",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "结句是全词情感高潮，教学需点明其与李煜词的互文关系。",
+        "“天上人间”在此处指代故国繁华与当下凄凉的巨大落差。"
+      ],
+      "forbidden_assertions": [
+        "《霓裳》指代唐代某位具体宫女或现代舞蹈",
+        "天上人间指代地理上的南北方划分",
+        "结句表达的是对梦境的向往而非幻灭"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_allusions",
+      "claim": "词中“彩鸾”用唐代裴航与云英、或太和末年裴航与樊彩鸾结为夫妇的传说（此处指大和末年彩鸾与文箫结为夫妇的传说），“金吾”指执金吾禁夜制度，元夕特许弛禁。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "大和末年，有一叫彩鸾的绝代女子和一前观中的相恋，结为夫妇。“箫声断，约彩鸾归去”即用此事来摹写男女恋事。古代京城有执金吾（执金吾）禁夜制度，“唯正月十五日夜，敕许金吾弛禁，前后各一日。”“未怕金吾呵醉”写出元夕夜禁令不张，自由欢乐的氛围。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "poem",
+          "text": "箫声断、约彩鸾归去，未怕金吾呵醉。",
+          "locator": "l03",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“约彩鸾归去”借仙侣传说描摹元夕男女相约、自由恋爱的浪漫情景。",
+        "“未怕金吾呵醉”体现了元宵节打破平日宵禁、全城狂欢的特殊民俗背景。"
+      ],
+      "forbidden_assertions": [
+        "彩鸾在词中指代真实的鸟类",
+        "金吾在词中指代某种乐器或武器"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_music",
+      "claim": "“念奴”借指唱技精妙的歌女；“三千乐指”指宋代教坊乐队旧例，由三百人组成，一人十指，故称“三千乐指”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "念奴：本是唐天宝中名娼，此借用以说明唱技之精。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "三千乐指：宋时旧例，教坊乐队由三百人组成，一人十指，故称“三千乐指”。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "听得念奴歌起...空见说、三千乐指。",
+          "locator": "l04,l09",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“三千乐指”是宫廷音乐盛况的代称，入元后儿童只能“空见说”，表现了盛世不再的悲凉。"
+      ],
+      "forbidden_assertions": [
+        "三千乐指指三千名乐师",
+        "念奴是词人当时亲眼所见的唐代歌女"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "明确《宝鼎现》为刘辰翁于元初所作的长调词，核心主题为遗民亡国之痛。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "宋末元初刘辰翁的元宵感怀之作",
+        "寄托故国之思的《宝鼎现》"
+      ],
+      "forbidden_claims": [
+        "北宋宣和年间的应制词",
+        "描写个人闲愁的婉约小令"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_structure",
+      "category": "structure",
+      "description": "识别词作三叠分别对应北宋汴京、南宋临安、元初现实的时空递进与对比逻辑。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上中下三阕按朝代更迭顺序铺陈",
+        "三叠结构形成今昔盛衰的强烈对照"
+      ],
+      "forbidden_claims": [
+        "三段为并列的景物描写无时间线索",
+        "全词仅聚焦于单一历史时期"
+      ],
+      "source_claim_ids": [
+        "claim_02_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12"
+      ]
+    },
+    {
+      "unit_id": "req_03_lexical",
+      "category": "lexical",
+      "description": "准确理解“金吾”“念奴”“宣和”“三千乐指”“彩鸾”等专有名词与典故的历史文化指涉。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "金吾指京城治安官，宣和为宋徽宗年号",
+        "三千乐指代宋代教坊三百人乐队，彩鸾用仙侣传说"
+      ],
+      "forbidden_claims": [
+        "金吾为乐器名或武将称号",
+        "三千乐指指代三千士兵或普通乐师"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_03_allusion_copper",
+        "claim_06_lexical_allusions",
+        "claim_07_lexical_music"
+      ],
+      "line_ids": [
+        "l03",
+        "l04",
+        "l05",
+        "l09"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor_source",
+      "category": "metaphor_source",
+      "description": "解析“铜仙清泪”“菱花扑碎”“鲛珠坠”等意象的典故来源与象征指向。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "铜仙泪喻亡国悲泣，菱花碎喻家国难圆",
+        "鲛珠坠将神话转化为现实遗民之泪"
+      ],
+      "forbidden_claims": [
+        "铜仙指代自然神祇或降雨",
+        "菱花指代真实水生植物",
+        "鲛珠为装饰性珠宝无情感寄托"
+      ],
+      "source_claim_ids": [
+        "claim_03_allusion_copper",
+        "claim_04_mirror"
+      ],
+      "line_ids": [
+        "l05",
+        "l08",
+        "l11"
+      ]
+    },
+    {
+      "unit_id": "req_05_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "把握结句“天上人间梦里”的情感边界，明确其非个人离愁而是时代巨变的幻灭感。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "化用李煜词意升华家国之悲",
+        "梦境意象指向故国繁华的不可复现"
+      ],
+      "forbidden_claims": [
+        "仅理解为男女相思或普通梦境实录",
+        "天上人间指代具体的地理空间"
+      ],
+      "source_claim_ids": [
+        "claim_05_nichang"
+      ],
+      "line_ids": [
+        "l12"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_copper",
+      "line_ids": [
+        "l05"
+      ],
+      "source_domain": [
+        "抱铜仙、清泪如水"
+      ],
+      "target_domain": [
+        "北宋灭亡、文物南迁的亡国之痛"
+      ],
+      "bridges": [
+        "借用魏明帝迁汉武帝金铜仙人，铜人潸然泪下的典故，隐喻故国沦丧、臣民流离的悲怆。"
+      ],
+      "context_claim_ids": [
+        "claim_03_allusion_copper"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可指代南宋朝廷南渡时的仓皇与屈辱，或象征文化正统的被迫中断。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_mirror",
+      "line_ids": [
+        "l08"
+      ],
+      "source_domain": [
+        "肯把菱花扑碎"
+      ],
+      "target_domain": [
+        "国破家亡、夫妻/君臣离散与团圆无望"
+      ],
+      "bridges": [
+        "反用南朝徐德言破镜重圆典故，以“肯把”反问，暗示繁华之下无人预见国破，或暗指破镜难圆的绝望。"
+      ],
+      "context_claim_ids": [
+        "claim_04_mirror"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "部分解读认为指代不愿与世俗同流合污而自毁高洁，但结合上下文更倾向家国隐喻。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_tears",
+      "line_ids": [
+        "l11"
+      ],
+      "source_domain": [
+        "暗滴鲛珠坠"
+      ],
+      "target_domain": [
+        "遗民暗泣的悲苦与复国无力的现实"
+      ],
+      "bridges": [
+        "鲛人泣珠神话转化为现实中的老泪纵横，将神话的奇幻与现实的凄惨叠加，强化哀婉氛围。"
+      ],
+      "context_claim_ids": [
+        "claim_02_structure",
+        "claim_05_nichang"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为对前朝繁华消逝的具象化哀悼，亦暗含对年轻一代无缘见证盛世的惋惜。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_04_spring",
+      "line_ids": [
+        "l10"
+      ],
+      "source_domain": [
+        "等多时春不归来"
+      ],
+      "target_domain": [
+        "故国复兴的希望渺茫/太平盛世不再"
+      ],
+      "bridges": [
+        "以自然节令“春”隐喻政治清明与故国繁华，春不归来即指宋祚已终，复国无望。"
+      ],
+      "context_claim_ids": [
+        "claim_02_structure"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "亦可单纯指代元宵佳节热闹气氛的消散，或指代词人自身青春与抱负的虚掷。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening",
+      "description": "清晰呈现词牌《宝鼎现》、作者刘辰翁及完整原文，确保断句与版本一致，配合沉稳旁白。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现原文，背景为素雅水墨",
+        "旁白朗读时同步显示标准断句字幕"
+      ],
+      "forbidden_realizations": [
+        "漏掉关键诗句或擅自改动字词",
+        "使用过于鲜艳喧闹的开场动画破坏遗民词基调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_recitation",
+      "semantic_role": "opening_title_and_recitation"
+    },
+    {
+      "requirement_id": "vis_02_northern_song",
+      "description": "动态展现北宋汴京元宵“红妆春骑”“楼台歌舞”的喧闹繁华，画面明亮，节奏轻快。",
+      "acceptable_realizations": [
+        "使用暖色调与流动光影表现市井游春与歌舞升平",
+        "配合轻快丝竹乐，镜头跟随彩旗与莲步移动"
+      ],
+      "forbidden_realizations": [
+        "画面昏暗或节奏拖沓",
+        "出现元代服饰或建筑形制"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "northern_song_prosperity_depiction",
+      "semantic_role": "northern_song_prosperity_depiction"
+    },
+    {
+      "requirement_id": "vis_03_transition",
+      "description": "画面色调转暗，呈现“抱铜仙”典故意象与“菱花扑碎”的象征性破碎特效，暗示国运转折。",
+      "acceptable_realizations": [
+        "铜人雕像特写伴随水滴声，镜面裂纹缓慢蔓延",
+        "光影由暖转冷，繁华街景逐渐虚化"
+      ],
+      "forbidden_realizations": [
+        "直接展示血腥战争场面",
+        "破碎特效过于夸张脱离古典意境"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_copper",
+        "meta_02_mirror"
+      ],
+      "expected_phase": "southern_song_transition_and_allusion",
+      "semantic_role": "southern_song_transition_and_allusion"
+    },
+    {
+      "requirement_id": "vis_04_sorrow",
+      "description": "刻画“竹马儿童”“灯前拥髻”“鲛珠坠”的凄凉场景，对比前文繁华，突出遗民悲泣。",
+      "acceptable_realizations": [
+        "孤灯下老者捧髻垂泪的剪影，孩童茫然仰望",
+        "泪滴特写化为珍珠落入暗水，泛起涟漪"
+      ],
+      "forbidden_realizations": [
+        "人物表情过于夸张或戏剧化",
+        "背景音乐突然激昂打断哀婉氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_03_tears"
+      ],
+      "expected_phase": "yuan_dynasty_sorrow_and_reflection",
+      "semantic_role": "yuan_dynasty_sorrow_and_reflection"
+    },
+    {
+      "requirement_id": "vis_05_closing",
+      "description": "结尾以水墨晕染或梦境消散效果呈现“天上人间梦里”，字幕逐字浮现，留白处理。",
+      "acceptable_realizations": [
+        "画面逐渐淡出至留白，仅余“天上人间梦里”五字",
+        "配合悠长箫声渐弱，营造余韵"
+      ],
+      "forbidden_realizations": [
+        "强行给出明确结局或现代场景",
+        "字幕停留时间过短或排版混乱"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_04_spring"
+      ],
+      "expected_phase": "closing_emotional_culmination",
+      "semantic_role": "closing_emotional_culmination"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_252_01",
+      "description": "北宋宣和年间，都城汴京的元宵灯节极为繁华，仕女出游，百戏喧阗，呈现出一派承平奢华的盛况。",
+      "audio_triggers": [
+        "北宋",
+        "宣和",
+        "汴京",
+        "元宵",
+        "繁华",
+        "喧阗"
+      ],
+      "visual_evidence": [
+        "北宋京城闹市",
+        "灯火辉煌",
+        "贵妇盛妆骑马游春",
+        "高竿彩旗林立",
+        "皇帝车辇行经大路",
+        "金吾卫放宽夜禁"
+      ],
+      "sound_evidence": [
+        "喧闹的市井人声",
+        "悠扬婉转的箫声",
+        "歌女清脆的唱腔"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_252_02",
+      "description": "北宋灭亡后，南宋定都临安（今杭州）。承平时期，临安沙河塘及西湖一带的元宵夜同样繁华绮丽，作者刘辰翁曾亲历或熟知这一盛况。",
+      "audio_triggers": [
+        "南宋",
+        "临安",
+        "沙河塘",
+        "西湖",
+        "元夕",
+        "多丽"
+      ],
+      "visual_evidence": [
+        "南宋都城夜景",
+        "水面灯烛倒映",
+        "达官贵人的府第连绵",
+        "西湖十里碧波泛着月光",
+        "才子佳人游历寻欢"
+      ],
+      "sound_evidence": [
+        "波浪荡漾声",
+        "游人笑语声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_252_03",
+      "description": "南宋灭亡，蒙古统治江南。刘辰翁入元不仕，隐居乡里，沦为前朝遗民，国家覆亡给他留下刻骨铭心的伤痛。",
+      "audio_triggers": [
+        "宋亡",
+        "入元不仕",
+        "亡国之痛",
+        "遗民",
+        "沦亡"
+      ],
+      "visual_evidence": [
+        "战乱后的萧条景象",
+        "刘辰翁脱下宋朝官服换上布衣",
+        "神情悲愤凄凉"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_252_04",
+      "description": "通常认为在元成宗大德元年（1297年）的元宵夜，宋亡已近二十年，市面萧条。年迈的刘辰翁在孤灯下追忆汴京与临安的往昔灯节，悲从中来，写下《宝鼎现》抒发亡国哀思。",
+      "audio_triggers": [
+        "大德元年",
+        "元宵夜",
+        "孤灯",
+        "追忆",
+        "宝鼎现",
+        "创作"
+      ],
+      "visual_evidence": [
+        "元初萧条冷清的元宵夜",
+        "年迈的刘辰翁容颜苍老",
+        "在室内孤灯下捧着发髻暗自落泪",
+        "提笔写下词作",
+        "禁止出现繁华喧闹的现代灯会画面"
+      ],
+      "sound_evidence": [
+        "孤寂的叹息声",
+        "低微的啜泣声",
+        "毛笔在纸上书写的沙沙声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "红妆春骑，",
+      "pronunciation": "hóng zhuāng chūn jì,",
+      "accepted_variants": [
+        "hóng zhuāng chūn qí,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "踏月影竿旗穿市。",
+      "pronunciation": "tà yuè yǐng gān qí chuān shì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望不尽、",
+      "pronunciation": "wàng bù jìn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "楼台歌舞，",
+      "pronunciation": "lóu tái gē wǔ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "习习香尘莲步底。",
+      "pronunciation": "xí xí xiāng chén lián bù dǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "箫声断、",
+      "pronunciation": "xiāo shēng duàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "约彩鸾归去，",
+      "pronunciation": "yuē cǎi luán guī qù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "未怕金吾呵醉。",
+      "pronunciation": "wèi pà jīn wú hē zuì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "甚辇路、",
+      "pronunciation": "shèn niǎn lù,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "喧阗且止，",
+      "pronunciation": "xuān tián qiě zhǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "听得念奴歌起。",
+      "pronunciation": "tīng dé niàn nú gē qǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "父老犹记宣和事，",
+      "pronunciation": "fù lǎo yóu jì xuān hé shì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "抱铜仙、",
+      "pronunciation": "bào tóng xiān,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "清泪如水。",
+      "pronunciation": "qīng lèi rú shuǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "还转盼、",
+      "pronunciation": "hái zhuǎn pàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "沙河多丽。",
+      "pronunciation": "shā hé duō lì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "滉漾明光连邸第，",
+      "pronunciation": "huàng yàng míng guāng lián dǐ dì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "帘影冻、",
+      "pronunciation": "lián yǐng dòng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "散红光成绮。",
+      "pronunciation": "sàn hóng guāng chéng qǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "月浸葡萄十里，",
+      "pronunciation": "yuè jìn pú táo shí lǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "看往来、",
+      "pronunciation": "kàn wǎng lái,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "神仙才子，",
+      "pronunciation": "shén xiān cái zǐ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "肯把菱花扑碎。",
+      "pronunciation": "kěn bǎ líng huā pū suì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "肠断竹马儿童，",
+      "pronunciation": "cháng duàn zhú mǎ ér tóng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "空见说、",
+      "pronunciation": "kōng jiàn shuō,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "三千乐指。",
+      "pronunciation": "sān qiān yuè zhǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "等多时春不归来，",
+      "pronunciation": "děng duō shí chūn bù guī lái,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "到春时欲睡。",
+      "pronunciation": "dào chūn shí yù shuì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "又说向灯前拥髻，",
+      "pronunciation": "yòu shuō xiàng dēng qián yōng jì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "暗滴鲛珠坠。",
+      "pronunciation": "àn dī jiāo zhū zhuì.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "便当日亲见《霓裳》，",
+      "pronunciation": "biàn dāng rì qīn jiàn 《ní cháng》,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "天上人间梦里。",
+      "pronunciation": "tiān shàng rén jiān mèng lǐ.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "宝鼎现",
+      "pronunciation": "bǎo dǐng xiàn",
+      "category": "poem",
+      "importance": 2
+    },
+    {
+      "term": "刘辰翁",
+      "pronunciation": "liú chén wēng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "汴京",
+      "pronunciation": "biàn jīng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "临安",
+      "pronunciation": "lín ān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "沙河塘",
+      "pronunciation": "shā hé táng",
+      "category": "place",
+      "importance": 1
+    },
+    {
+      "term": "宣和",
+      "pronunciation": "xuān hé",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "金吾",
+      "pronunciation": "jīn wú",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "念奴",
+      "pronunciation": "niàn nú",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "彩鸾",
+      "pronunciation": "cǎi luán",
+      "category": "allusion",
+      "importance": 2
+    },
+    {
+      "term": "霓裳",
+      "pronunciation": "ní cháng",
+      "accepted_variants": [
+        "ní shāng"
+      ],
+      "category": "allusion",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_252_01",
+      "source_event_id": "evt_252_01",
+      "target_event_id": "evt_252_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_252_02",
+      "source_event_id": "evt_252_02",
+      "target_event_id": "evt_252_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_252_03",
+      "source_event_id": "evt_252_03",
+      "target_event_id": "evt_252_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_252_04",
+      "source_event_id": "evt_252_04",
+      "target_event_id": "evt_252_01",
+      "relation_type": "RECALL_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_252_05",
+      "source_event_id": "evt_252_04",
+      "target_event_id": "evt_252_02",
+      "relation_type": "RECALL_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/252.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/252.json",
+      "event_gold": "gold_annotation/songci_300/252.json"
+    },
+    "original_sample_id": "252",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

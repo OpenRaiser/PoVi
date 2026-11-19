@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "019_tangshi_229_2c77f109b1ef",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "登黄鹤楼",
+    "author": "崔颢",
+    "dynasty": "唐",
+    "form": "七言律诗",
+    "text": "昔人已乘黄鹤去，此地空余黄鹤楼。\n黄鹤一去不复返，白云千载空悠悠。\n晴川历历汉阳树，芳草萋萋鹦鹉洲。\n日暮乡关何处是，烟波江上使人愁。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "昔人已乘黄鹤去，此地空余黄鹤楼。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "黄鹤一去不复返，白云千载空悠悠。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "晴川历历汉阳树，芳草萋萋鹦鹉洲。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "日暮乡关何处是，烟波江上使人愁。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "2c77f109b1ef39e888ad0417",
+    "global_index": 19
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": "0.1",
+  "principle": "Visuals should perform the metaphorical inference before narration names its limit or evidence.",
+  "patterns": [
+    {
+      "intent": "causal_recall",
+      "techniques": ["flashback_insert", "sound_bridge", "repeated_prop", "match_cut"],
+      "use_when": "A present poetic image should recall an earlier biographical cause.",
+      "prompt_guidance": "Generate the recalled event as an independent stable shot; reuse a short excerpt later in edit_groups instead of asking one generation to contain a flashback.",
+      "avoid": ["full verbal explanation", "multi-scene generation prompt", "long flashback that interrupts the poem"]
+    },
+    {
+      "intent": "blocked_aspiration",
+      "techniques": ["frame_within_frame", "closed_door", "slow_pull_back", "negative_space"],
+      "use_when": "A character can act but cannot move the institution or long-term goal.",
+      "prompt_guidance": "Place the person behind architecture or at the end of a corridor; let the camera withdraw while the document remains in foreground.",
+      "avoid": ["narration stating frustration directly", "generic sad close-up"]
+    },
+    {
+      "intent": "search",
+      "techniques": ["subjective_pan", "foreground_occlusion", "interrupted_scan", "sound_narrowing"],
+      "use_when": "The poem moves from public spectacle to uncertain searching.",
+      "prompt_guidance": "Use one directional scan per generated shot; create interruptions through passing sleeves, lantern frames or crowd movement.",
+      "avoid": ["random camera movement", "immediate reveal of the target"]
+    },
+    {
+      "intent": "sudden_discovery",
+      "techniques": ["delayed_reveal", "reverse_pan", "rack_focus", "brief_hold"],
+      "use_when": "A discovery should feel earned after searching.",
+      "prompt_guidance": "Hold the target outside the initial frame, then reveal it through a single turn or focus change and pause after recognition.",
+      "avoid": ["target visible from the start", "fast reveal without pause"]
+    },
+    {
+      "intent": "public_center_vs_private_edge",
+      "techniques": ["edge_composition", "opposing_motion", "wide_negative_space", "parallel_montage"],
+      "use_when": "The subject remains apart from a crowd without narration announcing isolation.",
+      "prompt_guidance": "Keep the crowd moving toward the bright center while the subject remains near a frame edge or moves against the flow.",
+      "avoid": ["color contrast as the only signal", "explicit symbolic labels"]
+    },
+    {
+      "intent": "contested_interpretation",
+      "techniques": ["silhouette", "ambiguous_pov", "partial_occlusion", "open_ending"],
+      "use_when": "The visual must support several readings such as lover, confidant or projected self.",
+      "prompt_guidance": "Avoid clear facial identity and causal certainty; use back view, side silhouette or an unresolved gaze line.",
+      "avoid": ["identifying the figure", "literal political emblem", "single definitive reaction"]
+    },
+    {
+      "intent": "time_or_identity_continuity",
+      "techniques": ["graphic_match", "same_composition", "match_on_action", "repeated_prop"],
+      "use_when": "A young action should transform into a later political or poetic identity.",
+      "prompt_guidance": "Match a rope to a brush stroke, a map line to a lantern road, or the same back-view composition across ages.",
+      "avoid": ["expository date cards", "unmotivated dissolve"]
+    }
+  ]
+}

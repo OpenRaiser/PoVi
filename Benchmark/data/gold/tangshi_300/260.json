@@ -1,0 +1,808 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_260",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《江雪》是唐代诗人柳宗元创作的一首五言绝句，全诗共20字。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：江雪 作者：柳宗元 朝代：唐 体裁：五言绝句",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_1",
+          "text": "千山鸟飞绝，万径人踪灭。孤舟蓑笠翁，独钓寒江雪。",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "柳宗元（773—819），字子厚，唐代文学家、思想家",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将该作品归入唐代柳宗元的山水诗代表作序列进行教学"
+      ],
+      "forbidden_assertions": [
+        "声称《江雪》为其他唐代诗人所作",
+        "错误标注该诗体裁为七言绝句"
+      ]
+    },
+    {
+      "claim_id": "claim_02_lexical_definition",
+      "claim": "诗中核心字词释义：绝为无、没有，万径是虚指千万条路，人踪指人的脚印或踪迹，孤为孤零零，独为独自。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "绝：无，没有。万径：虚指，指千万条路。人踪：人的脚印。孤：孤零零。独：独自。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "绝：无，没有。万径：虚指，指千万条路。人踪：人的脚印。独：独自。",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "人踪：人的踪迹。",
+          "locator": "注释三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可引导学生体会“万”字作为虚指在诗歌夸张手法中的作用"
+      ],
+      "forbidden_assertions": [
+        "将“万径”解释为实数一万条道路",
+        "把“绝”释义为“飞得很快”"
+      ]
+    },
+    {
+      "claim_id": "claim_03_literal_translation",
+      "claim": "全诗字面含义为：所有山上飞鸟的身影已经绝迹，所有道路都不见人的踪迹，江面孤舟上有一位披戴着蓑笠的老翁，独自在漫天风雪覆盖的寒冷江面上垂钓。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "所有山上飞鸟的身影已经绝迹，所有道路都不见人的踪迹。江面孤舟上，一位披戴着蓑笠的老翁，独自在漫天风雪中垂钓。",
+          "locator": "译文一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "所有的山上，飞鸟的身影已经绝迹，所有道路都不见人的踪迹。江面孤舟上，一位披戴着蓑笠的老翁，独自在大雪覆盖的寒冷江面上垂钓。",
+          "locator": "译文二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_3",
+          "text": "所有的山，飞鸟全都断绝；所有的路，不见人影踪迹。江上孤舟，渔翁披蓑戴笠；独自垂钓，不怕冰雪侵袭。",
+          "locator": "译文三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将该诗画面概括为“寒江独钓图”进行通俗讲解"
+      ],
+      "forbidden_assertions": [
+        "擅自添加原诗不存在的情节，比如老翁身边还有其他随从"
+      ]
+    },
+    {
+      "claim_id": "claim_04_creation_background",
+      "claim": "该诗作于柳宗元贬谪永州司马期间（有元和二年即807年一说），是永贞革新失败后，诗人身处受监视的困境下，借湘江雪景寄托自身傲岸情怀的作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "此诗作于谪居永州期间（公元805年—815年）。唐顺宗永贞元年（805），柳宗元参加了王叔文集团发动的永贞革新运动，改革很快失败，柳宗元被贬为永州司马，流放十年。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "《江雪》此诗作于元和二年（807年），柳宗元贬谪永州司马期间。参与\"永贞革新\"失败后，诗人身处\"僇人\"困境，借湘江雪景寄托傲岸情怀。",
+          "locator": "创作背景二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_3",
+          "text": "柳宗元被贬官到有“南荒”之称的永州。他在任所名为司马，实际上是毫无实权而受地方官员监视的“罪犯”。他就借描写景物，借歌咏隐居在山水之间的渔翁，来寄托自己清高而孤傲的情感，抒发自己在政治上失意的郁闷苦恼。",
+          "locator": "创作背景三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可关联永贞革新的时代背景讲解诗人的创作心境"
+      ],
+      "forbidden_assertions": [
+        "声称该诗是柳宗元在长安为官时期创作的作品"
+      ]
+    },
+    {
+      "claim_id": "claim_05_artistic_structure",
+      "claim": "该诗采用以广大寥廓的远景背景衬托极小的核心人物的反衬结构，前两句用“千山”“万径”的夸张写法构建绝对寂静的空茫天地，后两句聚焦孤舟独钓的渔翁，形成极强的视觉张力。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "为了突出主要的描写对象，诗人不惜用一半篇幅去描写它的背景，而且使这个背景尽量广大寥廓，几乎到了浩瀚无边的程度。背景越广大，主要的描写对象就越显得突出。诗人用“千山”、“万径”这两个词，目的是为了给下面两句的“孤舟”和“独钓”的画面作陪衬。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "“千山”和“万径”也是诗人刻意精雕的意象。山以千计，径以万数，诗人勾勒出浩渺苍茫的背景，这个背景似乎能延伸到整个宇宙空间。“绝”和“灭”下笔沉重，将环境的寂静冷清刻画得愈加鲜明。这种夸张的手法，摒除了杂乱的表象，有利于凸显下文老翁的形象。",
+          "locator": "赏析三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可将该结构类比为电影的远景推近景的镜头语言进行讲解"
+      ],
+      "forbidden_assertions": [
+        "声称前两句的“绝”“灭”是为了表现诗人对自然环境的厌恶"
+      ]
+    },
+    {
+      "claim_id": "claim_06_fisherman_symbol",
+      "claim": "诗中寒江独钓的蓑笠翁形象是柳宗元本人思想感情的寄托和写照，象征着诗人清高孤傲、不屈于严酷现实的精神品格。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "这个被幻化了的、美化了的渔翁形象，实际正是柳宗元本人的思想感情的寄托 and 写照。",
+          "locator": "赏析二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_3",
+          "text": "这两句描写也是柳宗元的情感寄托，诗人以“蓑笠翁”自喻，他垂钓于江雪里，正如柳宗元“垂钓”于严酷的政治环境中。而老翁泰然静坐的形象，正是诗人孤高不折、坚忍不拔的精神体现。",
+          "locator": "赏析三",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "诗中\"独钓\"的老翁形象，既是其政治孤独的隐喻，也是对抗命运的精神象征。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可延伸讲解该渔翁形象对后世文人画“寒江独钓”主题的深远影响"
+      ],
+      "forbidden_assertions": [
+        "认定渔翁形象完全是写实记录，与诗人自身精神世界毫无关联"
+      ]
+    },
+    {
+      "claim_id": "claim_07_author_info",
+      "claim": "柳宗元字子厚，世称“柳河东”、“河东先生”、“柳柳州”，是唐代文学家、哲学家、散文家和思想家，唐宋八大家之一，与韩愈并称“韩柳”，与刘禹锡并称“刘柳”，与王维、孟浩然、韦应物并称“王孟韦柳”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_author_bio_1",
+          "text": "柳宗元（773—819），字子厚，唐代文学家、思想家，河东解县（今山西运城）人，世称“柳河东”。与韩愈共倡古文运动，同列“唐宋八大家”。因参与“永贞革新”被贬永州、柳州，故又称“柳柳州”。诗亦清峻，与刘禹锡并称“刘柳”。",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_2",
+          "text": "柳宗元（公元773年—公元819年），字子厚，汉族，河东人，唐宋八大家之一，唐代文学家、哲学家、散文家和思想家世称“柳河东” “河东先生”，因官终柳州刺史，又称“柳柳州”。与韩愈并称为“韩柳”，与刘禹锡并称“刘柳”，与王维、孟浩然、韦应物并称“王孟韦柳”。",
+          "locator": "作者简介二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "柳宗元在诗歌和散文领域均有极高造诣，其山水诗与王维等人齐名"
+      ],
+      "forbidden_assertions": [
+        "声称柳宗元不属于唐宋八大家"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_suoli",
+      "claim": "“蓑笠”指蓑衣和斗笠，是古代用来防雨挡雨的衣帽，其中“蓑”指古代防雨的衣服，“笠”指用竹篾编成的防雨帽子。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "蓑笠：蓑衣和斗笠。蓑：古代用来防雨的衣服；笠：古代用来防雨的帽子，用竹篾编成。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "蓑笠（suō lì）：蓑衣和斗笠　笠：用竹篾编成的帽子。（“蓑” ，古代用来防雨的衣服；“笠” ，古代用来防雨的帽子。）",
+          "locator": "注释二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_3",
+          "text": "蓑笠：蓑衣笠帽，用来挡雨之物。",
+          "locator": "注释三",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "蓑笠是古代江南水乡渔翁极具代表性的日常装束"
+      ],
+      "forbidden_assertions": [
+        "将“蓑笠”解释为丝绸制成的华丽衣物"
+      ]
+    },
+    {
+      "claim_id": "claim_09_hanjiangxue_art",
+      "claim": "诗末“寒江雪”三字将“江”与“雪”两个关系最远的形象联系在一起，创造出空蒙、遥远的远距离镜头感，烘托出水天不分、上下苍茫一片的气氛，并点明气候、暗示渔翁精神世界。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "至于这种远距离感觉的形成，主要是作者把一个“雪”字放在全诗的最末尾，并且同“江”字连起来所产生的效果。...作者却偏偏用了“寒江雪”三个字，把“江”和“雪”这两个关系最远的形象联系到一起，这就给人以一种比较空蒙、比较遥远、比较缩小了的感觉，这就形成了远距离的镜头。...把水天不分、上下苍茫一片的气氛也完全烘托出来了。至于上面再用一个“寒”字，固然是为了点明气候；但诗人的主观意图却是在想不动声色地写出渔翁的精神世界。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“寒江雪”三字是全诗的画龙点睛之笔，将全诗的景与人有机融合"
+      ],
+      "forbidden_assertions": [
+        "认为“寒江雪”三字只是为了凑韵，没有任何艺术效果"
+      ]
+    },
+    {
+      "claim_id": "claim_10_historical_detail",
+      "claim": "柳宗元因永贞革新失败被贬永州司马，实际上是毫无实权且受地方官员监视的“罪犯”，只能寄居在龙兴寺的西厢房，精神上受到极大刺激和压抑。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_3",
+          "text": "他在任所名为司马，实际上是毫无实权而受地方官员监视的“罪犯”。官署里没有他的住处，不得不在和尚庙——龙兴寺的西厢里安身。...柳宗元自从被贬到永州之后，精神上受到很大刺激和压抑",
+          "locator": "创作背景三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "极度压抑的政治处境促使柳宗元在自然山水中寻找精神寄托"
+      ],
+      "forbidden_assertions": [
+        "声称柳宗元在永州担任司马期间享有丰厚的物质条件和极高的政治实权"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明《江雪》的题名、作者、所属朝代和五言绝句的体裁属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《江雪》是唐代柳宗元创作的经典五言绝句",
+        "柳宗元的《江雪》是中唐山水诗的代表性作品"
+      ],
+      "forbidden_claims": [
+        "《江雪》是宋代的作品",
+        "《江雪》的作者是韩愈"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_vocabulary",
+      "category": "lexical",
+      "description": "掌握诗中绝、万径、人踪、孤、独等核心字词的准确含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“万径”是虚指，用来形容道路数量极多",
+        "“绝”和“灭”在诗中表示无、没有和绝迹"
+      ],
+      "forbidden_claims": [
+        "“人踪灭”指的是人被大雪掩埋",
+        "“绝”在这里的意思是“绝妙”"
+      ],
+      "source_claim_ids": [
+        "claim_02_lexical_definition"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_03_literal_meaning",
+      "category": "literal_meaning",
+      "description": "能够完整准确复述全诗的表层画面含义，清晰描述诗中呈现的寒江雪景场景。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "天地间所有山上都没有飞鸟，所有路上都没有行人，只有一个渔翁在大雪覆盖的寒江上独自垂钓"
+      ],
+      "forbidden_claims": [
+        "诗里描写的是春天江边的景色",
+        "渔翁身边有很多同伴一起钓鱼"
+      ],
+      "source_claim_ids": [
+        "claim_03_literal_translation"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_historical_context",
+      "category": "historical_context",
+      "description": "了解该诗的创作背景，明确其是柳宗元永贞革新失败后贬谪永州时期的作品。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "柳宗元参与政治革新失败被贬到永州，在极度失意的处境下写下了《江雪》来抒发自己的情怀"
+      ],
+      "forbidden_claims": [
+        "这首诗是柳宗元年轻时候在长安游山玩水时写的",
+        "创作背景和永贞革新完全没有关系"
+      ],
+      "source_claim_ids": [
+        "claim_04_creation_background"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_05_structure_skill",
+      "category": "structure",
+      "description": "理解本诗以广大空茫的远景背景反衬微小核心人物的艺术结构特点。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "前两句写千万座山千万条路都空无一人，把背景拉得特别大，后两句的孤舟老翁就显得特别突出"
+      ],
+      "forbidden_claims": [
+        "这首诗的结构是先写渔翁再写背景",
+        "“千山”“万径”的写法完全没有夸张成分"
+      ],
+      "source_claim_ids": [
+        "claim_05_artistic_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_symbol_interpretation",
+      "category": "interpretive_boundary",
+      "description": "明确渔翁形象是柳宗元自身人格的投射，把握作品寄寓的清高孤傲、不屈于逆境的核心主旨。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "诗里的渔翁就是柳宗元自己的化身，哪怕环境再严酷，他也坚守自己的品格不肯妥协"
+      ],
+      "forbidden_claims": [
+        "这首诗只是单纯描写雪景，完全没有寄托任何作者的个人情感",
+        "渔翁是一个为了生计不怕冷的普通渔夫，没有任何象征意义"
+      ],
+      "source_claim_ids": [
+        "claim_06_fisherman_symbol"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_summary",
+      "category": "summary",
+      "description": "能够完整总结《江雪》的内容、艺术特色和思想内涵。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "《江雪》用极简的20个字，构建了一个万籁俱寂的冰雪世界，通过独钓寒江的渔翁形象，表达了柳宗元贬谪期间孤高不屈的精神品格"
+      ],
+      "forbidden_claims": [
+        "《江雪》是一首描写诗人热爱雪景的闲适小诗，没有任何深层含义"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity",
+        "claim_03_literal_translation",
+        "claim_06_fisherman_symbol"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_author_status",
+      "category": "poem_identity",
+      "description": "掌握作者柳宗元的文学史地位及其与其他著名诗人的并称。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "柳宗元是唐宋八大家之一，与韩愈并称韩柳，与刘禹锡并称刘柳"
+      ],
+      "forbidden_claims": [
+        "柳宗元与李白并称李柳"
+      ],
+      "source_claim_ids": [
+        "claim_07_author_info"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_09_lexical_suoli",
+      "category": "lexical",
+      "description": "掌握“蓑笠”的具体名物训诂，理解其防雨挡雨的功用及构成。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“蓑”是古代防雨的衣服，“笠”是用竹篾编成的防雨帽子"
+      ],
+      "forbidden_claims": [
+        "“蓑笠”是古代渔夫捕鱼用的网具"
+      ],
+      "source_claim_ids": [
+        "claim_08_lexical_suoli"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_snow_environment",
+      "line_ids": [
+        "l01",
+        "l02"
+      ],
+      "source_domain": [
+        "飞鸟绝迹、人踪消失、漫天大雪覆盖的寒冷寂静的江天世界"
+      ],
+      "target_domain": [
+        "中唐时期严酷的政治环境",
+        "柳宗元贬谪永州后所处的孤立压抑的现实处境"
+      ],
+      "bridges": [
+        "二者都呈现出极端寒冷、空寂、没有生机的特征",
+        "二者都对身处其中的主体形成了强大的压迫感"
+      ],
+      "context_claim_ids": [
+        "claim_04_creation_background",
+        "claim_05_artistic_structure"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将寒江雪解读为广义的世俗污浊环境，象征着与清高人格对立的世俗世界"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_fisherman_self",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "身披蓑笠、独自在寒江大雪中垂钓的孤孑老翁"
+      ],
+      "target_domain": [
+        "贬谪永州期间的柳宗元本人",
+        "坚守高洁品格、不与世俗同流合污的理想人格"
+      ],
+      "bridges": [
+        "二者都处于极端孤孑、严酷的环境之中",
+        "二者都表现出超然物外、孤傲不屈、不为外力所动的精神特质"
+      ],
+      "context_claim_ids": [
+        "claim_06_fisherman_symbol"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将渔翁解读为中国古代文人普遍向往的隐士形象，不特指柳宗元个人"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_title",
+      "description": "开场清晰展示《江雪》的诗题、作者、朝代信息，同步呈现完整原诗文本，无错字漏字。",
+      "acceptable_realizations": [
+        "古风题签样式呈现标题作者，旁白朗读时同步逐行弹出诗句字幕"
+      ],
+      "forbidden_realizations": [
+        "诗句出现错字，将“独钓寒江雪”写为“独钓寒江鱼”",
+        "遗漏作者柳宗元的身份介绍"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_presentation",
+      "semantic_role": "opening_title_presentation"
+    },
+    {
+      "requirement_id": "vis_02_vast_winter_scene",
+      "description": "呈现前两句诗的远景画面：连绵千山被大雪覆盖，没有飞鸟踪迹，千万条道路都被积雪掩埋，完全看不到行人脚印，营造空茫寂静的氛围。",
+      "acceptable_realizations": [
+        "航拍视角扫过连绵的雪山，镜头下移展现空旷无人的雪原道路，全程只有落雪的音效没有其他杂音"
+      ],
+      "forbidden_realizations": [
+        "画面里出现成群的飞鸟和往来的行人，破坏原诗的寂静氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_snow_environment"
+      ],
+      "expected_phase": "vast_snowy_background_rendering",
+      "semantic_role": "vast_snowy_background_rendering"
+    },
+    {
+      "requirement_id": "vis_03_lone_fisherman_appear",
+      "description": "镜头从广阔的雪原远景推近，聚焦到江心一叶孤零零的小船上，船上的渔翁身披蓑衣头戴斗笠，端坐在船舷边手持钓竿。",
+      "acceptable_realizations": [
+        "用长焦镜头从远处慢慢拉近，突出天地的广阔和渔翁个体的渺小对比"
+      ],
+      "forbidden_realizations": [
+        "渔翁身边出现其他人物，小船装饰华丽不符合孤舟的设定"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_fisherman_self"
+      ],
+      "expected_phase": "lone_fisherman_focusing",
+      "semantic_role": "lone_fisherman_focusing"
+    },
+    {
+      "requirement_id": "vis_04_core_fishing_scene",
+      "description": "定格“独钓寒江雪”的核心画面，漫天飞雪落在江面、渔翁的蓑笠和钓线上，突出渔翁泰然不动、不为严寒所动的姿态。",
+      "acceptable_realizations": [
+        "慢镜头展现雪花飘落的细节，渔翁的面部表情平静坚毅，没有任何瑟缩的神态"
+      ],
+      "forbidden_realizations": [
+        "渔翁冻得瑟瑟发抖，完全不符合孤傲不屈的人物设定"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_snow_environment",
+        "meta_02_fisherman_self"
+      ],
+      "expected_phase": "cold_river_snow_fishing_climax",
+      "semantic_role": "cold_river_snow_fishing_climax"
+    },
+    {
+      "requirement_id": "vis_05_theme_closure",
+      "description": "收尾画面配合旁白点明渔翁形象的象征意义，关联柳宗元贬谪的人生经历，升华作品的精神内涵。",
+      "acceptable_realizations": [
+        "画面渐变为传统水墨风格的寒江独钓图，同步弹出相关的主旨讲解文字"
+      ],
+      "forbidden_realizations": [
+        "随意添加无关的现代元素，破坏整首诗的清冷幽僻的整体意境"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [],
+      "expected_phase": "theme_interpretation_closure",
+      "semantic_role": "theme_interpretation_closure"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_260_01",
+      "description": "唐顺宗永贞元年（805年），柳宗元参加了以王叔文为首的“永贞革新”运动，但因遭到保守势力与宦官的联合反攻，革新很快宣告失败。",
+      "audio_triggers": [
+        "永贞元年",
+        "王叔文",
+        "政治革新",
+        "革新失败",
+        "宦官的反攻"
+      ],
+      "visual_evidence": [
+        "唐代朝堂环境",
+        "官员们激烈争辩的场景",
+        "宦官与保守派官员面露得意的神态",
+        "柳宗元身穿唐代朝服，神情严峻或失落"
+      ],
+      "sound_evidence": [
+        "朝堂上的争辩声",
+        "沉重压抑的背景音乐表明局势突变"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_260_02",
+      "description": "革新失败后，柳宗元被贬为永州司马，名义上为官，实则毫无实权且受地方官员监视。因官署无处安身，他只能寄居在和尚庙龙兴寺的西厢房里。",
+      "audio_triggers": [
+        "贬为永州司马",
+        "南荒",
+        "毫无实权",
+        "罪犯",
+        "龙兴寺"
+      ],
+      "visual_evidence": [
+        "破败冷清的寺庙厢房",
+        "环境昏暗压抑",
+        "柳宗元着装简朴，可能正搬入寺庙",
+        "门外有地方差役在暗中窥伺监视"
+      ],
+      "sound_evidence": [
+        "沉闷的寺庙木鱼声或远处的钟声",
+        "凄凉的秋风或冬风声",
+        "脚步声与开门声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_260_03",
+      "description": "谪居永州期间，身处“僇人”困境的柳宗元精神受到极大刺激与压抑，心中充满政治失意的郁闷、幽愤与深沉的孤独。",
+      "audio_triggers": [
+        "精神受到很大刺激",
+        "压抑",
+        "政治失意",
+        "郁闷苦恼",
+        "幽愤的心情"
+      ],
+      "visual_evidence": [
+        "柳宗元独自在庭院或窗前徘徊",
+        "面容清瘦憔悴，愁眉不展",
+        "独自叹息，凝视着凄寒的自然景色"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "萧瑟的风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_260_04",
+      "description": "通常认为在元和二年（807年）左右，柳宗元借永州寒冬大雪之景，化身雪中垂钓的老翁，写下了千古名篇《江雪》，以此寄托自己孤高不屈、坚忍不拔的傲岸情怀。",
+      "audio_triggers": [
+        "元和二年",
+        "写下了这首",
+        "江雪",
+        "孤高不折",
+        "寄托自己清高而孤傲的情感"
+      ],
+      "visual_evidence": [
+        "柳宗元在书案前挥毫落笔",
+        "镜头可由现实过渡到诗意幻境：大雪纷飞、水天一色的江面",
+        "一叶孤舟上，一位披蓑戴笠的老翁独自静坐垂钓",
+        "老翁神态泰然自若，任凭风雪侵袭"
+      ],
+      "sound_evidence": [
+        "呼啸的寒风声",
+        "大雪簌簌落下的声音",
+        "毛笔在纸上摩擦的书写声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "千山鸟飞绝，",
+      "pronunciation": "qiān shān niǎo fēi jué，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "万径人踪灭。",
+      "pronunciation": "wàn jìng rén zōng miè。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "孤舟蓑笠翁，",
+      "pronunciation": "gū zhōu suō lì wēng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "独钓寒江雪。",
+      "pronunciation": "dú diào hán jiāng xuě。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "柳宗元",
+      "pronunciation": "liǔ zōng yuán",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "王叔文",
+      "pronunciation": "wáng shū wén",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "永州",
+      "pronunciation": "yǒng zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "龙兴寺",
+      "pronunciation": "lóng xīng sì",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "永贞",
+      "pronunciation": "yǒng zhēn",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "元和",
+      "pronunciation": "yuán hé",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "司马",
+      "pronunciation": "sī mǎ",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "僇人",
+      "pronunciation": "lù rén",
+      "category": "other",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_260_01",
+      "source_event_id": "evt_260_01",
+      "target_event_id": "evt_260_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_260_02",
+      "source_event_id": "evt_260_02",
+      "target_event_id": "evt_260_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_260_03",
+      "source_event_id": "evt_260_03",
+      "target_event_id": "evt_260_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/260.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/260.json",
+      "event_gold": "gold_annotation/tangshi_300/260.json"
+    },
+    "original_sample_id": "260",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

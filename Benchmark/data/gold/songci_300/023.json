@@ -1,0 +1,644 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_023",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《采桑子·群芳过后西湖好》为北宋欧阳修晚年退居颍州时所作，属《采桑子》组词之一。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：采桑子；作者：欧阳修；朝代：宋；体裁：词",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "本词作于公元1071年（熙宁四年），这年六月，欧阳修以太子少师的身份辞职，回到颍州。暮春时节来到西湖游玩，心生喜悦而作《采桑子》十首。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "欧阳修（1007—1072）……晚年自号“六一居士”……",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可明确该词为欧阳修晚年退居颍州期间所作，反映其辞官后的心境。",
+        "该词是《采桑子》组词中的一首，非独立孤篇。"
+      ],
+      "forbidden_assertions": [
+        "该词作于欧阳修早年或贬谪时期。",
+        "该词非欧阳修所作或为伪托。",
+        "该词与颍州西湖无关。"
+      ]
+    },
+    {
+      "claim_id": "claim_02_l01_imagery",
+      "claim": "上片以白描手法勾勒暮春西湖景物：残红散落、柳絮迷蒙、垂柳随风，突出“好”字，无伤春之意。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_translation_1",
+          "text": "虽说是百花凋落，暮春时节的西湖依然是美的，残花轻盈飘落……柳絮时而飘浮，时而飞旋……杨柳向下垂落……",
+          "locator": "译文一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "群芳过后：百花凋零之后。狼籍残红：残花纵横散乱的样子。蒙蒙：细雨迷蒙的样子，以此形容飞扬的柳絮。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "上片侧重客观写景，通过“残红”“飞絮”“垂柳”展现暮春特有的生机与动态美。",
+        "“好”字定下全词情感基调，表明词人对暮春景色的欣赏而非哀叹。"
+      ],
+      "forbidden_assertions": [
+        "上片表达了强烈的伤春悲秋或迟暮之悲。",
+        "“狼籍”指狼群聚集或贬义混乱。",
+        "“蒙蒙”形容大雨倾盆。"
+      ]
+    },
+    {
+      "claim_id": "claim_03_l02_mood",
+      "claim": "下片写游人散去、笙歌停歇后，词人垂帘静观双燕归巢，体悟到繁华落尽后的空寂与安谧，心境安闲自适。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_translation_2",
+          "text": "游人尽兴散去，笙箫歌声也渐渐静息，才开始觉得一片空寂，又仿佛正需要这份安谧。……只见双燕从蒙蒙细雨中归来，这才拉起了帘子。",
+          "locator": "译文二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "虽写残春景色，却无伤春之感……创造出一种清幽静谧的艺术境界。而词人的安闲自适，也就在这种境界中自然地表现出来。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“春空”并非消极虚无，而是喧嚣褪去后内心的澄明与对宁静的主动接纳。",
+        "双燕归来与细雨交织，强化了词人寄情自然、超然物外的闲适情怀。"
+      ],
+      "forbidden_assertions": [
+        "“春空”指春天完全结束令人绝望或空虚。",
+        "“双燕”象征词人渴望重返朝廷或政治抱负。",
+        "下片表达了孤独寂寞与人生失意。"
+      ]
+    },
+    {
+      "claim_id": "claim_04_artistic_style",
+      "claim": "全词纯用白描，语言清丽自然，不事雕琢，情景交融，营造出空灵淡远、清幽静谧的艺术境界。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "以疏淡轻快的笔墨描绘了颍州西湖的暮春景……情景交融，真切动人。词中很少修饰，特别是前后两片，纯用白描，却颇耐寻味。……语言清丽，风格空灵淡远，全词充溢着悠然闲怡之趣。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学可强调该词以简淡笔触传达深远意境，体现宋代文人词重神韵、轻辞藻的审美倾向。",
+        "白描手法使景物与情感自然贴合，避免直抒胸臆的刻意。"
+      ],
+      "forbidden_assertions": [
+        "该词大量使用典故、辞藻华丽或属于豪放派风格。",
+        "全词情感外露，直白宣泄个人情绪。"
+      ]
+    },
+    {
+      "claim_id": "claim_05_lexical_details",
+      "claim": "词中“西湖”特指颍州西湖，而非杭州西湖；“狼籍”同“狼藉”，形容残花散乱；“阑干”意为横斜、纵横交错；“帘栊”指窗帘和窗棂。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "西湖：指颍州西湖，在今安徽阜阳西北……狼籍残红：残花纵横散乱的样子……狼籍，同“狼藉”……阑干：横斜，纵横交错。帘栊：窗帘和窗棂，泛指门窗的帘子。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "[西湖]指颍州西湖，在今安徽阜阳县西北……[帘栊]：窗户。栊，窗棂。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“阑干”在此处并非指防护栏杆，而是形容垂柳枝条纵横交错的形态。",
+        "“帘栊”在不同注释中可泛指门窗的帘子或特指窗户。"
+      ],
+      "forbidden_assertions": [
+        "词中的“西湖”是指浙江杭州西湖。",
+        "“阑干”在词中是指木质或石质的护栏。"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、时代、词牌及所属组词背景。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋欧阳修晚年退居颍州时所作《采桑子》组词之一",
+        "欧阳修《采桑子·群芳过后西湖好》"
+      ],
+      "forbidden_claims": [
+        "该词为唐代作品或他人所作",
+        "该词与颍州西湖或《采桑子》组词无关"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical",
+      "category": "historical_context",
+      "description": "理解欧阳修辞官归隐颍州的时代背景及其寄情湖山、安闲自适的心境。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "熙宁四年欧阳修以太子少师致仕后游西湖所作",
+        "反映北宋士大夫晚年退居后的闲适生活与审美追求"
+      ],
+      "forbidden_claims": [
+        "该词作于欧阳修仕途巅峰或贬谪流放期间",
+        "词中隐含对朝政的激烈批判或政治失意"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_literal",
+      "category": "literal_meaning",
+      "description": "准确翻译并理解上下片所描绘的暮春西湖自然景物与人事活动转换。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "上片写暮春西湖残红飞絮、垂柳迎风之景；下片写游人散去、笙歌停歇、垂帘观燕之态",
+        "虽百花凋零西湖依然美好，喧闹过后方觉春空宁静"
+      ],
+      "forbidden_claims": [
+        "“狼籍”意为狼群聚集或贬义混乱",
+        "“春空”指春天彻底毁灭或词人极度悲伤"
+      ],
+      "source_claim_ids": [
+        "claim_02_l01_imagery",
+        "claim_03_l02_mood"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_structure",
+      "category": "structure",
+      "description": "把握全词由景入情、由动转静的章法结构与白描手法的运用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "上片铺陈暮春景物，下片转入人事与心境，动静相衬",
+        "纯用白描勾勒画面，以景结情，结构疏朗自然"
+      ],
+      "forbidden_claims": [
+        "全词结构紧凑堆砌，缺乏留白",
+        "上下片内容割裂，无内在逻辑关联"
+      ],
+      "source_claim_ids": [
+        "claim_04_artistic_style"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确本词“虽写残春却无伤春之感”的情感基调与清幽静谧的审美取向。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "突破传统伤春悲秋窠臼，展现对暮春清幽之美的欣赏",
+        "情感内敛含蓄，以安闲自适取代哀怨惆怅"
+      ],
+      "forbidden_claims": [
+        "该词核心情感是伤春悲秋或人生迟暮之叹",
+        "词风豪放激昂或辞藻华丽堆砌"
+      ],
+      "source_claim_ids": [
+        "claim_03_l02_mood",
+        "claim_04_artistic_style"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_lexical",
+      "category": "lexical",
+      "description": "掌握词中“西湖”、“狼籍”、“阑干”、“帘栊”等核心词汇的特定含义与指代。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "西湖指颍州西湖而非杭州西湖，阑干指垂柳枝条横斜交错",
+        "狼籍同狼藉，帘栊指窗帘和窗棂"
+      ],
+      "forbidden_claims": [
+        "将西湖误认为杭州西湖",
+        "将阑干解释为人工护栏"
+      ],
+      "source_claim_ids": [
+        "claim_05_lexical_details"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_swallow",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "双燕归来细雨中"
+      ],
+      "target_domain": [
+        "词人退居颍州后安闲自适、寄情自然的心境"
+      ],
+      "bridges": [
+        "燕子归巢的自然习性暗合词人辞官归隐、回归田园的人生选择，细雨迷蒙烘托出远离尘嚣的宁静氛围"
+      ],
+      "context_claim_ids": [
+        "claim_03_l02_mood"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可单纯视为暮春实景白描，不作政治或人生隐喻；或理解为对自然节律与生命轮回的客观观照"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_spring_empty",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "始觉春空"
+      ],
+      "target_domain": [
+        "繁华喧嚣褪去后内心的澄澈与安谧"
+      ],
+      "bridges": [
+        "物理空间的游人散尽与听觉上的笙歌停歇，共同转化为心理层面的‘空’，非虚无而是卸下重负后的轻松与对清静之美的主动接纳"
+      ],
+      "context_claim_ids": [
+        "claim_03_l02_mood",
+        "claim_04_artistic_style"
+      ],
+      "status": "plausible",
+      "alternative_readings": [
+        "结合译文‘又仿佛正需要这份安谧’，可解读为词人对独处时光的珍视；亦有读者或认为略带淡淡怅惘，但整体仍归于闲适"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰展示词牌、题名、作者及完整原文，排版符合宋词传统格式，标点句序准确。",
+      "acceptable_realizations": [
+        "开场题签后逐句浮现原文，配以淡雅宋体字",
+        "旁白朗读时同步显示字幕，背景留白"
+      ],
+      "forbidden_realizations": [
+        "漏掉词牌或作者信息",
+        "擅自改动字词、错乱句序或使用现代标点替代传统断句"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_text_display",
+      "semantic_role": "opening_title_and_text_display"
+    },
+    {
+      "requirement_id": "vis_02_l01_scenery",
+      "description": "以水墨或淡雅动画呈现“狼籍残红”“飞絮蒙蒙”“垂柳阑干”的暮春西湖实景，突出自然生机而非衰败。",
+      "acceptable_realizations": [
+        "镜头缓推，落花与柳絮在微风中轻盈飘舞，垂柳拂水",
+        "色彩以青绿与淡粉为主，避免灰暗压抑的色调"
+      ],
+      "forbidden_realizations": [
+        "画面呈现狂风暴雨或残花满地狼藉的破败感",
+        "使用高饱和度或现代都市元素干扰古典意境"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "upper_stanza_spring_scenery_sketch",
+      "semantic_role": "upper_stanza_spring_scenery_sketch"
+    },
+    {
+      "requirement_id": "vis_03_l02_transition",
+      "description": "画面由喧闹渐转宁静，表现游人散去、笙歌停息、词人垂下帘栊的动作与空间转换。",
+      "acceptable_realizations": [
+        "远景人群渐隐，乐声淡出，镜头聚焦室内垂帘动作",
+        "光影由明转暗，配合‘始觉春空’的留白处理"
+      ],
+      "forbidden_realizations": [
+        "画面突然切断或节奏突兀，破坏由动转静的连贯性",
+        "将‘春空’表现为荒凉破败或人物愁苦表情"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_spring_empty"
+      ],
+      "expected_phase": "lower_stanza_noise_to_silence_transition",
+      "semantic_role": "lower_stanza_noise_to_silence_transition"
+    },
+    {
+      "requirement_id": "vis_04_ending_swallow",
+      "description": "特写双燕穿细雨归巢的画面，配合‘始觉春空’的余韵，营造清幽静谧的收束感。",
+      "acceptable_realizations": [
+        "细雨如丝，双燕低飞掠过水面或屋檐，镜头缓缓拉远",
+        "背景音仅留极轻的雨声与微风，突出空灵意境"
+      ],
+      "forbidden_realizations": [
+        "燕子形象夸张或带有拟人化喜剧色彩",
+        "雨势过大或画面嘈杂，破坏宁静氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_swallow"
+      ],
+      "expected_phase": "drizzle_swallow_return_finale",
+      "semantic_role": "drizzle_swallow_return_finale"
+    },
+    {
+      "requirement_id": "vis_05_style_mood",
+      "description": "通过留白与淡彩对比，直观传达‘白描手法’与‘无伤春之感’的审美特征。",
+      "acceptable_realizations": [
+        "画面大面积留白，仅以简笔勾勒核心意象，配以风格解析字幕",
+        "对比传统伤春词画面，突出本词清丽淡远的独特气质"
+      ],
+      "forbidden_realizations": [
+        "画面堆砌繁复装饰 or 过度渲染悲情色彩",
+        "脱离原词意境强行添加现代视觉特效"
+      ],
+      "importance": 2,
+      "required_visibility": false,
+      "metaphor_ids": [
+        "meta_01_swallow",
+        "meta_02_spring_empty"
+      ],
+      "expected_phase": "aesthetic_style_and_mood_reflection",
+      "semantic_role": "aesthetic_style_and_mood_reflection"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_023_01",
+      "description": "通常认为公元1071年（熙宁四年），欧阳修以太子少师的身份辞职致仕，返回颍州退居，开始了晚年安闲的隐退生活。",
+      "audio_triggers": [
+        "熙宁四年",
+        "太子少师",
+        "辞职",
+        "退居",
+        "颍州"
+      ],
+      "visual_evidence": [
+        "北宋时期",
+        "老年欧阳修",
+        "辞官行装",
+        "回到颍州宅邸"
+      ],
+      "sound_evidence": [
+        "马车行驶声",
+        "行李搬运声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_023_02",
+      "description": "暮春时节，欧阳修游览颍州西湖，见残红遍地、飞絮迷蒙，并在画船上欣赏笙箫歌乐，游人熙熙攘攘。",
+      "audio_triggers": [
+        "暮春时节",
+        "游览西湖",
+        "画船",
+        "游人",
+        "笙歌"
+      ],
+      "visual_evidence": [
+        "颍州西湖景致",
+        "残花散落满地",
+        "飞扬的柳絮",
+        "湖面游船",
+        "宴饮与乐器演奏"
+      ],
+      "sound_evidence": [
+        "水波荡漾声",
+        "笙管管弦声",
+        "游人喧哗喧闹声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_023_03",
+      "description": "游人尽兴散去，笙箫停止，环境变得空寂。欧阳修回到居室垂下窗帘，在细雨中静静观看双燕飞回，内心感到无比安闲自适。",
+      "audio_triggers": [
+        "笙歌散尽",
+        "游人去",
+        "回到居室",
+        "垂下帘栊",
+        "双燕归来"
+      ],
+      "visual_evidence": [
+        "空寂无人的湖畔",
+        "室内窗棂边",
+        "垂落的窗帘",
+        "窗外迷蒙细雨",
+        "两只燕子在雨中飞回"
+      ],
+      "sound_evidence": [
+        "人群远去的脚步声",
+        "乐曲停息后的安静",
+        "淅沥的细雨声",
+        "燕子的呢喃声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_023_04",
+      "description": "欧阳修深爱颍州西湖风光，心生喜悦，提笔写下包含本篇在内的多首《采桑子》，抒发晚年寄情湖山、清幽淡远的闲怡情怀。",
+      "audio_triggers": [
+        "作《采桑子》",
+        "寄情湖山",
+        "安闲自适",
+        "颇耐寻味"
+      ],
+      "visual_evidence": [
+        "老年欧阳修安坐于书案前",
+        "纸笔墨砚",
+        "挥毫书写",
+        "画面浮现残红飞絮与双燕的诗词意象"
+      ],
+      "sound_evidence": [
+        "研墨声",
+        "毛笔摩擦纸面写字的声音"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "群芳过后西湖好，",
+      "pronunciation": "qún fāng guò hòu xī hú hǎo，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "狼籍残红，",
+      "pronunciation": "láng jí cán hóng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "飞絮蒙蒙，",
+      "pronunciation": "fēi xù méng méng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "垂柳阑干尽日风。",
+      "pronunciation": "chuí liǔ lán gān jìn rì fēng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "笙歌散尽游人去，",
+      "pronunciation": "shēng gē sàn jìn yóu rén qù，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "始觉春空，",
+      "pronunciation": "shǐ jué chūn kōng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "垂下帘栊，",
+      "pronunciation": "chuí xià lián lóng，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "双燕归来细雨中。",
+      "pronunciation": "shuāng yàn guī lái xì yǔ zhōng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "欧阳修",
+      "pronunciation": "ōu yáng xiū",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "采桑子",
+      "pronunciation": "cǎi sāng zǐ",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "颍州",
+      "pronunciation": "yǐng zhōu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "熙宁",
+      "pronunciation": "xī níng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "太子少师",
+      "pronunciation": "tài zǐ shào shī",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_023_01",
+      "source_event_id": "evt_023_01",
+      "target_event_id": "evt_023_02",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_023_02",
+      "source_event_id": "evt_023_02",
+      "target_event_id": "evt_023_03",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_023_03",
+      "source_event_id": "evt_023_02",
+      "target_event_id": "evt_023_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_023_04",
+      "source_event_id": "evt_023_03",
+      "target_event_id": "evt_023_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_023_05",
+      "source_event_id": "evt_023_01",
+      "target_event_id": "evt_023_04",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/023.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/023.json",
+      "event_gold": "gold_annotation/songci_300/023.json"
+    },
+    "original_sample_id": "023",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

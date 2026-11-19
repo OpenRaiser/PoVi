@@ -1,0 +1,693 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_078",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "本词为北宋词人秦观所作，秦观系“苏门四学士”之一，被尊为婉约派一代词宗。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "浣溪沙 秦观 宋",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "秦观（1049—1100），字少游，号淮海居士，高邮（今江苏高邮）人，北宋著名词人，\"苏门四学士\"之一。",
+          "locator": "作者简介一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_2",
+          "text": "被尊为婉约派一代词宗",
+          "locator": "作者简介二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确作者为北宋婉约词宗，属苏门文人集团"
+      ],
+      "forbidden_assertions": [
+        "称作者为唐代诗人或豪放派代表",
+        "将词牌误标为诗题"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme",
+      "claim": "全词以轻浅色调与白描手法，描绘一个女子在春阴清晨里所生发的淡淡哀愁与百无聊赖的闲愁，意境幽渺凄清。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "这首词以轻浅的色调、幽渺的意境，描绘一个女子在春阴的清晨里所生发的淡淡哀愁和轻轻寂寞。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "飞花轻舞如虚无缥缈的梦境，丝丝细雨落下如同我的忧愁。",
+          "locator": "译文一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出“闲愁”为全词情感基调，不涉具体政治或爱情事件"
+      ],
+      "forbidden_assertions": [
+        "将词中情感解读为激昂悲愤或明确的政治讽喻",
+        "认为词作主旨为歌颂春景明媚"
+      ]
+    },
+    {
+      "claim_id": "claim_03_lexical",
+      "claim": "“漠漠”形容像清寒一样的冷漠；“轻寒”指薄寒，有别于严寒和料峭春寒；“晓阴”指早晨天阴；“无赖”在此作无聊、无意趣解，为词人厌恶、无可奈何之语；“穷秋”指晚秋，秋天走到了尽头。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "漠漠：形容像清寒一样的冷漠。轻寒：指薄寒，不同于严寒和料峭的春寒。晓阴：早晨时天阴。无赖：无聊，无意趣。穷秋：晚秋，秋天走到了尽头。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "无赖：词人厌恶之语。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可解释“无赖”非现代贬义，而是古典诗词中表“无奈/无聊”的特定用法"
+      ],
+      "forbidden_assertions": [
+        "将“无赖”解释为现代汉语中的“流氓”或“不讲理”",
+        "将“穷秋”误解为初春或盛夏"
+      ]
+    },
+    {
+      "claim_id": "claim_04_structure",
+      "claim": "词分上下两片，上片写晨起之感和室内之景，下片转入对春愁的正面描写；末句“宝帘闲挂小银钩”实为过片之倒装句，使上下片对称工整，极富回环变化的结构之美。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "上片写晨起之感和室内之景...下片写倚窗所见，转入对春愁的正面描写...细推词脉，此句应为过片之倒装句。而在结构艺术上，词人作如是倒装，使得词之上、下片对称工整，显得精巧别致，极富回环变化的结构之美。",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出倒装手法使上下片对称工整，增强回环之美"
+      ],
+      "forbidden_assertions": [
+        "认为“宝帘闲挂”是独立于写景之外的突兀结尾",
+        "忽略倒装结构导致时空逻辑混乱"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor",
+      "claim": "“自在飞花轻似梦，无边丝雨细如愁”打破常规比喻逻辑，反其道而行之，以具体可感的“飞花”“丝雨”反喻抽象的“梦”与“愁”，借“轻”“细”建立联系，被称为“感情误置”。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_2",
+          "text": "一般的比喻，都是以具体的事物去形容抽象的事物...但词人在这里却是反其道而行之。他不说梦似飞花，愁如丝雨，而说飞花似梦，丝雨如愁也同样很新奇。这种现象，约翰·鲁斯金称为“感情误置”",
+          "locator": "赏析二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可强调此比喻的“反常合道”与“感情误置”艺术效果"
+      ],
+      "forbidden_assertions": [
+        "认为此句仅为单纯写景，不具比喻功能",
+        "强行解释为比喻具体实物"
+      ]
+    },
+    {
+      "claim_id": "claim_06_background",
+      "claim": "此词约作于秦观中年时期，当时他仕途不顺，屡遭贬谪，心境忧郁。整首词以闺阁闲愁为表，实则寄托了词人内心的孤寂与无奈，体现了秦观“以柔写愁”的独特风格。",
+      "status": "licensed_interpretation",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_2",
+          "text": "此词约作于秦观中年时期，当时他仕途不顺，屡遭贬谪，心境忧郁。整首词以闺阁闲愁为表，实则寄托了词人内心的孤寂与无奈，体现了秦观婉约词“以柔写愁”的独特风格。",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可联系作者贬谪经历理解词中“闲愁”的深层心理动因"
+      ],
+      "forbidden_assertions": [
+        "断言此词为某次具体贬谪事件的纪实之作",
+        "完全割裂背景与文本的联系"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_more",
+      "claim": "“淡烟流水”指画屏上轻烟淡淡、流水潺潺的样子；“幽”指意境悠远；“宝帘”指缀着珠宝的帘子，形容华丽的帘幕；“闲挂”指很随意地挂着。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "淡烟流水：指轻烟淡淡，流水潺潺的样子。宝帘：指缀着珠宝的帘子，文中用来形容华丽的帘幕。闲挂：指很随意地挂着。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_2",
+          "text": "幽：意境悠远。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出“闲挂”中的“闲”字是全词百无聊赖情感基调的红线"
+      ],
+      "forbidden_assertions": [
+        "将“淡烟流水”误解为室外的真实自然景观",
+        "将“宝帘”解释为普通的布帘"
+      ]
+    },
+    {
+      "claim_id": "claim_08_cipai_origin",
+      "claim": "《浣溪沙》原为唐教坊曲名，本为舞曲，“沙”又写作“纱”，又称《小庭花》、《满院春》。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_notes_2",
+          "text": "①《浣溪沙》原唐教坊曲名，本为舞曲。“沙”又写作“纱”。又称《小庭花》、《满院春》。另有一体五十六字。",
+          "locator": "注释二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可说明词牌名在流传过程中的别名与异体"
+      ],
+      "forbidden_assertions": [
+        "认为《浣溪沙》词牌仅有秦观这一种格式"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确说明作品题名、作者、朝代及词体身份。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "北宋秦观所作《浣溪沙》词",
+        "婉约派代表秦少游的词作"
+      ],
+      "forbidden_claims": [
+        "误标为唐诗或豪放派作品",
+        "混淆词牌与诗题"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_lexical",
+      "category": "lexical",
+      "description": "准确理解“漠漠”“无赖”“穷秋”“轻寒”“晓阴”等核心词汇在古典语境中的特定含义。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“无赖”指百无聊赖/无奈，“漠漠”指寒气弥漫",
+        "“穷秋”即深秋/晚秋，“轻寒”指薄寒"
+      ],
+      "forbidden_claims": [
+        "以现代汉语词义解释“无赖”",
+        "忽略“穷秋”的晚秋指代"
+      ],
+      "source_claim_ids": [
+        "claim_03_lexical"
+      ],
+      "line_ids": [
+        "l01"
+      ]
+    },
+    {
+      "unit_id": "req_03_literal_meaning",
+      "category": "literal_meaning",
+      "description": "梳理全词字面场景：晨起轻寒侵楼、晓阴如秋、画屏幽静，继而转写窗外飞花细雨与闲挂的珠帘。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "描绘春阴清晨室内外清冷幽静的画面",
+        "上片写室内晨寒，下片写窗外春景"
+      ],
+      "forbidden_claims": [
+        "将场景理解为盛夏酷暑或喧闹市井",
+        "忽略“宝帘闲挂”的倒装逻辑"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme",
+        "claim_04_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor_source",
+      "category": "metaphor_source",
+      "description": "识别“飞花”“丝雨”作为喻体（意象）在词中的具体呈现。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "以飘忽的飞花与绵密的丝雨作为核心意象",
+        "选取自然景物作为比喻载体"
+      ],
+      "forbidden_claims": [
+        "认为“飞花”“丝雨”仅为纯客观白描，不具比喻功能"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_05_mapping_bridge",
+      "category": "mapping_bridge",
+      "description": "阐明“轻似梦”“细如愁”的连接逻辑：以“轻”“细”为共同特征，将抽象情感具象化。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "借飞花之轻飘喻梦境之虚幻，借丝雨之绵密喻愁绪之繁多",
+        "反常比喻建立抽象与具体的通感"
+      ],
+      "forbidden_claims": [
+        "强行寻找飞花与梦境在物理形态上的相似性",
+        "认为比喻方向应为“梦似飞花”"
+      ],
+      "source_claim_ids": [
+        "claim_05_metaphor"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_06_interpretive_boundary",
+      "category": "interpretive_boundary",
+      "description": "把握词作情感边界：表面写春阴闲愁与闺阁寂寞，深层可关联作者中年贬谪的身世之感，但不宜过度索隐为具体政治事件。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "闲愁中暗含人生际遇的无奈与空虚",
+        "结合仕途坎坷理解其凄怨感伤"
+      ],
+      "forbidden_claims": [
+        "将词作坐实为某次具体党争的檄文",
+        "完全剥离背景仅作纯景物赏析"
+      ],
+      "source_claim_ids": [
+        "claim_06_background"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_07_lexical_more",
+      "category": "lexical",
+      "description": "准确理解“淡烟流水”“幽”“宝帘”“闲挂”等词在词中的含义与作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "“淡烟流水”指画屏上的图案，“幽”指意境悠远",
+        "“宝帘”指华丽的帘幕，“闲挂”指随意挂着"
+      ],
+      "forbidden_claims": [
+        "将画屏上的“淡烟流水”误认为室外实景"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_more"
+      ],
+      "line_ids": [
+        "l01",
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_reading",
+      "category": "alternative_reading",
+      "description": "了解词牌《浣溪沙》的来源、别称及异体字。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "《浣溪沙》本为唐教坊舞曲，又名《小庭花》等",
+        "“沙”字可写作“纱”"
+      ],
+      "forbidden_claims": [
+        "认为《浣溪沙》只有一种固定格式和名称"
+      ],
+      "source_claim_ids": [
+        "claim_08_cipai_origin"
+      ],
+      "line_ids": []
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_flying_flowers_dream",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "自在飞花"
+      ],
+      "target_domain": [
+        "虚无缥缈的梦境"
+      ],
+      "bridges": [
+        "二者皆具“轻”的特质，飞花飘忽不定与梦境无凭依、易消散的状态相通"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可视为“感情误置”，词人将自身对春梦无凭的怅惘投射于无情飞花之上"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_silk_rain_sorrow",
+      "line_ids": [
+        "l02"
+      ],
+      "source_domain": [
+        "无边丝雨"
+      ],
+      "target_domain": [
+        "漫无边际的闲愁"
+      ],
+      "bridges": [
+        "二者皆具“细”与“绵长”的特质，丝雨淅沥不绝与愁绪纷乱难解、挥之不去的心理状态相契合"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "丝雨亦可象征词人仕途坎坷中连绵不断的压抑与无奈"
+      ],
+      "importance": 3
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_identity",
+      "description": "清晰展示词牌、题名、作者及朝代，配合原诗全文逐句浮现。",
+      "acceptable_realizations": [
+        "题签淡入后分句呈现，旁白同步朗读",
+        "水墨背景上逐字浮现，保持古典排版"
+      ],
+      "forbidden_realizations": [
+        "遗漏词牌或作者信息",
+        "擅自改动原句顺序或添加现代标点"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_display",
+      "semantic_role": "opening_title_display"
+    },
+    {
+      "requirement_id": "vis_02_indoor_scene",
+      "description": "呈现上片室内晨寒与画屏幽景的清冷色调，突出“轻寒上小楼”的动态与“晓阴”的暗淡氛围。",
+      "acceptable_realizations": [
+        "使用低饱和度冷色调，画面由下至上缓慢推移表现“上”字",
+        "画屏虚化处理，营造幽迷淡远感"
+      ],
+      "forbidden_realizations": [
+        "使用明亮暖色调或喧闹动态特效",
+        "将画屏内容具象化为清晰写实图案"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "indoor_morning_chill",
+      "semantic_role": "indoor_morning_chill"
+    },
+    {
+      "requirement_id": "vis_03_outdoor_window",
+      "description": "视线转向窗外，展现飞花飘舞与细雨迷蒙的交织画面，为下片比喻做视觉铺垫。",
+      "acceptable_realizations": [
+        "镜头由室内推至窗棂，飞花与丝雨以慢镜头呈现",
+        "画面边缘做柔焦处理，营造迷离感"
+      ],
+      "forbidden_realizations": [
+        "画面过于写实清晰，破坏“幽渺”意境",
+        "添加无关人物或动物干扰视线"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "outdoor_window_gaze",
+      "semantic_role": "outdoor_window_gaze"
+    },
+    {
+      "requirement_id": "vis_04_metaphor_visual",
+      "description": "将“飞花似梦”“丝雨如愁”进行视觉化叠影处理，体现抽象情感与具体景物的交融。",
+      "acceptable_realizations": [
+        "飞花轨迹渐变为梦境光晕，雨丝线条与愁绪波纹重叠",
+        "使用半透明叠加与慢速粒子效果"
+      ],
+      "forbidden_realizations": [
+        "使用具象化的人物哭泣或直白文字标签强行解释",
+        "色彩过于浓烈刺眼"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_flying_flowers_dream",
+        "meta_02_silk_rain_sorrow"
+      ],
+      "expected_phase": "metaphor_overlay",
+      "semantic_role": "metaphor_overlay"
+    },
+    {
+      "requirement_id": "vis_05_curtain_hook",
+      "description": "特写“宝帘闲挂小银钩”，以倒装逻辑揭示视角转换，呼应全词“闲”字基调。",
+      "acceptable_realizations": [
+        "镜头拉回室内，银钩与珠帘以静态特写呈现",
+        "配合环境音渐弱，突出“闲”字留白"
+      ],
+      "forbidden_realizations": [
+        "将银钩处理为动态摇晃或添加无关装饰物",
+        "镜头切换过快破坏倒装节奏"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "curtain_hook_reveal",
+      "semantic_role": "curtain_hook_reveal"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_078_01",
+      "description": "北宋哲宗时期，新旧党争激烈，秦观（字少游）身处其间，仕途连遭打击。他屡困京洛，后又一再被远谪至处州、郴州、横州、雷州等地，命运坎坷，备受排抑。",
+      "audio_triggers": [
+        "新旧两党斗争",
+        "连遭打击",
+        "屡困京洛",
+        "远谪南荒"
+      ],
+      "visual_evidence": [
+        "宋代官员服饰",
+        "朝堂上的党争争吵场面",
+        "秦观面容憔悴，乘车马在崎岖的贬谪路途上跋涉",
+        "远离京城的荒凉南方环境"
+      ],
+      "sound_evidence": [
+        "沉重的车马声",
+        "凄凉的马嘶声",
+        "叹息声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 3
+    },
+    {
+      "event_id": "evt_078_02",
+      "description": "通常认为，在仕途不顺、屡遭贬谪的中年时期，秦观心境极度孤寂忧郁。这种满腹人生际遇的凄怨感伤，成为他这一时期词作的重要情感基调。",
+      "audio_triggers": [
+        "仕途不顺",
+        "心境忧郁",
+        "中年时期"
+      ],
+      "visual_evidence": [
+        "秦观在简陋的书房内独坐",
+        "眉宇间流露出愁苦与无奈",
+        "案头摆放着笔墨纸砚"
+      ],
+      "sound_evidence": [
+        "平缓低沉的古琴声"
+      ],
+      "tolerance_seconds": 2,
+      "importance": 2
+    },
+    {
+      "event_id": "evt_078_03",
+      "description": "本词的具体创作时间不可确考，通常认为是在一个春阴寒薄的早晨，秦观借闺阁闲愁为表，将内心的百无聊赖与孤寂寄托于“漠漠轻寒”“飞花丝雨”等幽渺意境中，创作出这首《浣溪沙》。",
+      "audio_triggers": [
+        "作年目下已难确考",
+        "春寒",
+        "清晨",
+        "写就了这首词"
+      ],
+      "visual_evidence": [
+        "清晨阴暗的天空",
+        "轻烟笼罩的流水与画屏",
+        "窗外柳絮飞舞，细雨如丝",
+        "华丽的珠帘随意挂在银钩上",
+        "词人在书案前挥毫写下诗句"
+      ],
+      "sound_evidence": [
+        "淅淅沥沥的细雨声",
+        "微风吹拂窗帘的沙沙声",
+        "毛笔在纸上书写的声音"
+      ],
+      "tolerance_seconds": 1,
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "漠漠轻寒上小楼，",
+      "pronunciation": "mò mò qīng hán shàng xiǎo lóu ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "晓阴无赖似穷秋，",
+      "pronunciation": "xiǎo yīn wú lài sì qióng qiū ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "淡烟流水画屏幽。",
+      "pronunciation": "dàn yān liú shuǐ huà píng yōu 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自在飞花轻似梦，",
+      "pronunciation": "zì zài fēi huā qīng sì mèng ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "无边丝雨细如愁，",
+      "pronunciation": "wú biān sī yǔ xì rú chóu ，",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "宝帘闲挂小银钩。",
+      "pronunciation": "bǎo lián xián guà xiǎo yín gōu 。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "秦观",
+      "pronunciation": "qín guān",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "少游",
+      "pronunciation": "shǎo yóu",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "浣溪沙",
+      "pronunciation": "huàn xī shā",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "处州",
+      "pronunciation": "chǔ zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "郴州",
+      "pronunciation": "chēn zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "横州",
+      "pronunciation": "héng zhōu",
+      "category": "place",
+      "importance": 1
+    },
+    {
+      "term": "雷州",
+      "pronunciation": "léi zhōu",
+      "category": "place",
+      "importance": 1
+    },
+    {
+      "term": "哲宗",
+      "pronunciation": "zhé zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "绍圣",
+      "pronunciation": "shào shèng",
+      "category": "other",
+      "importance": 1
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_078_01",
+      "source_event_id": "evt_078_01",
+      "target_event_id": "evt_078_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_078_02",
+      "source_event_id": "evt_078_02",
+      "target_event_id": "evt_078_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/078.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/078.json",
+      "event_gold": "gold_annotation/songci_300/078.json"
+    },
+    "original_sample_id": "078",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

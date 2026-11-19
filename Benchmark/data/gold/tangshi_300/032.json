@@ -1,0 +1,492 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_032",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_poem_identity",
+      "claim": "《感遇·兰叶春葳蕤》是唐代张九龄创作的五言古诗，属于其《感遇》组诗系列作品。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：感遇·兰叶春葳蕤，作者：张九龄，朝代：唐，体裁：五言古诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "张九龄的五言古诗，诗风清淡，以素练质朴的语言，寄托深远的人生慨望，对扫除唐初所沿习的六朝绮靡诗风，贡献尤大。有《曲江集》。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品定位为张九龄托物言志类五言古诗的代表性篇目"
+      ],
+      "forbidden_assertions": [
+        "声称该作品是其他唐代诗人所作",
+        "错误将该诗归类为七言绝句或律诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_text_distinction",
+      "claim": "《感遇·兰叶春葳蕤》的通行文本共四句二十字，与同组《感遇》中“江南有丹橘”篇目是两首独立作品，内容互不重叠。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "兰叶春葳蕤，桂华秋皎洁。欣欣此生意，自尔为佳节。谁知林栖者，闻风坐相悦。草木有本心，何求美人折！",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "江南有丹橘，经冬犹绿林。岂伊地气暖？自有岁寒心。可以荐嘉客，奈何阻重深。运命惟所遇，循环不可寻。徒言树桃李，此木岂无阴？",
+          "locator": "原文版本二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可向学生说明《感遇》是多首作品组成的咏怀组诗，不同篇目共用托物言志的创作手法"
+      ],
+      "forbidden_assertions": [
+        "将两首不同篇目的诗句混同为同一首作品的内容",
+        "声称《感遇·兰叶春葳蕤》中出现了丹橘相关意象"
+      ]
+    },
+    {
+      "claim_id": "claim_03_common_theme",
+      "claim": "张九龄的《感遇》组诗普遍采用草木意象寄托情志，借草木的自然属性比喻自身坚守道义、不趋炎附势的高洁人格，具有“托讽禽鸟，寄词草树”的骚雅遗风。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "托讽禽鸟，寄词草树，郁然与骚人同风。就是指这类《感遇诗》。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "张九龄是一位有胆识、有远见的著名政治家、文学家、诗人、名相。他忠耿尽职，秉公守则，直言敢谏，选贤任能，不徇私枉法，不趋炎附势，敢与恶势力作斗争，为“开元之治”作出了积极贡献。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可以将《感遇·兰叶春葳蕤》的兰桂意象和同组丹橘意象的表达逻辑做关联对比讲解"
+      ],
+      "forbidden_assertions": [
+        "声称这首诗完全没有寄托诗人自身品格追求的内涵"
+      ]
+    },
+    {
+      "claim_id": "claim_04_author_reputation",
+      "claim": "张九龄是唐代有名的贤相，举止优雅，风度不凡，其去世后唐玄宗对宰相推荐之士总要问“风度得如九龄否？”，其诗歌被刘熙载评价为“独能超出一格，为李、杜开先”。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_author_bio_1",
+          "text": "是唐代有名的贤相；举止优雅，风度不凡。自张九龄去世后，唐玄宗对宰相推荐之士，总要问“风度得如九龄否？”",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "刘熙载在《艺概》中，称张九龄的诗歌“独能超出一格，为李、杜开先”。这一评价是非常恰当的。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "张九龄高雅的个人风度与其诗歌中展现的清淡、高洁意境相得益彰"
+      ],
+      "forbidden_assertions": [
+        "声称张九龄在唐代政治和文学史上无足轻重"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确说明《感遇·兰叶春葳蕤》的题名、作者、朝代、体裁以及所属组诗的基本属性。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首是唐代名相张九龄创作的五言古诗，属于《感遇》组诗中的经典咏志作品",
+        "张九龄《感遇》十二首中以兰桂起兴的代表性篇目"
+      ],
+      "forbidden_claims": [
+        "这首是宋代诗人的作品",
+        "这首诗是七言律诗体裁"
+      ],
+      "source_claim_ids": [
+        "claim_01_poem_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_text_distinction",
+      "category": "structure",
+      "description": "明确区分《感遇·兰叶春葳蕤》与同组“江南有丹橘”篇目的文本边界，避免篇目混淆。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "《感遇》是多首作品组成的组诗，兰桂篇和丹橘篇是两首独立的作品，各有完整表意"
+      ],
+      "forbidden_claims": [
+        "兰叶春葳蕤这首诗里出现了丹橘的意象",
+        "两首诗的诗句可以随意拼接混用"
+      ],
+      "source_claim_ids": [
+        "claim_02_text_distinction"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    },
+    {
+      "unit_id": "req_03_creation_context",
+      "category": "historical_context",
+      "description": "结合张九龄刚正不阿、风度不凡的贤相生平背景，以及刘熙载对其“为李、杜开先”的评价，理解《感遇》组诗托物言志的创作逻辑。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "张九龄作为开元贤相，其诗歌寄托深远，借草木意象寄托自己不肯趋炎附势的品格追求"
+      ],
+      "forbidden_claims": [
+        "这首诗是张九龄青年时期为了干谒权贵博取功名所作的行卷诗"
+      ],
+      "source_claim_ids": [
+        "claim_03_common_theme",
+        "claim_04_author_reputation"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_04_literal_and_implied_meaning",
+      "category": "literal_meaning",
+      "description": "准确讲解全诗字面含义与核心主旨：春兰秋桂顺应时节自然生长，生机盎然，隐士闻其芬芳心生赏慕，但草木的本性自在，并非为了求人采摘赏识。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "春兰在春日繁茂舒展，秋桂在秋夜皎洁盛放，它们自然流露勃勃生机，各自成就美好的节令，山林中的隐士闻到芬芳心生喜爱，但草木自有它的天性，哪里是为了求得旁人折取赏识呢"
+      ],
+      "forbidden_claims": [
+        "兰桂努力生长就是为了得到隐士的赏识采摘"
+      ],
+      "source_claim_ids": [
+        "claim_03_common_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_orchid_osmanthus_metaphor",
+      "line_ids": [
+        "l01",
+        "l02"
+      ],
+      "source_domain": [
+        "春日繁茂舒展的兰叶",
+        "秋夜皎洁盛放的桂花"
+      ],
+      "target_domain": [
+        "坚守本心、不刻意博取外界赞赏的高洁贤才群体"
+      ],
+      "bridges": [
+        "兰逢春自然葳蕤、桂遇秋自然皎洁，完全顺应自身生长本性，并非为了刻意讨好外界而存在，与正直文人恪守道义、不刻意追逐名利的行为特征高度契合"
+      ],
+      "context_claim_ids": [
+        "claim_03_common_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可将兰桂分别对应不同时节、不同人生阶段各守其志的两类君子形象"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_grass_tree_heart_metaphor",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "草木与生俱来的自然生长本性"
+      ],
+      "target_domain": [
+        "君子根植于内心、不需要外界认可证明的内生道德操守"
+      ],
+      "bridges": [
+        "草木的本心是自然属性，不需要依靠被人采摘来证明自身价值，对应君子的道德追求是内生的，不需要依靠权贵的赏识提拔来实现自我意义"
+      ],
+      "context_claim_ids": [
+        "claim_03_common_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "这里的草木本心也可以泛指所有平凡生命自带的固有价值，不需要依附外界评价"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_poem_presentation",
+      "description": "开场清晰呈现诗题、作者、朝代信息，同步展示全诗完整文本，无错字漏字。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_full_poem_display",
+      "acceptable_realizations": [
+        "古风卷轴题签样式展示诗题作者信息，旁白朗读时逐行同步弹出诗句字幕"
+      ],
+      "forbidden_realizations": [
+        "将同组丹橘篇的诗句混入本诗文本展示",
+        "出现错字漏字改动原诗内容"
+      ],
+      "semantic_role": "opening_title_and_full_poem_display"
+    },
+    {
+      "requirement_id": "vis_02_seasonal_flora_scene",
+      "description": "依次呈现春日兰叶繁茂、秋夜桂华皎洁的自然山水画面，对应开篇两句的核心意象。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_orchid_osmanthus_metaphor"
+      ],
+      "expected_phase": "spring_orchid_and_autumn_osmanthus_landscape",
+      "acceptable_realizations": [
+        "春日山谷间兰草丛生、绿意盎然的画面自然转接到秋夜月光下桂树满枝盛放的画面"
+      ],
+      "forbidden_realizations": [
+        "颠倒兰桂的季节属性，将兰放在秋季、桂放在春季"
+      ],
+      "semantic_role": "spring_orchid_and_autumn_osmanthus_landscape"
+    },
+    {
+      "requirement_id": "vis_03_hermit_reaction_scene",
+      "description": "呈现山林隐士闻到兰桂芬芳、面露赏慕神色的场景，对应第三句“闻风坐相悦”的内容。",
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "forest_hermit_adoration_scene",
+      "acceptable_realizations": [
+        "身着素色古装的隐士在山林间驻足，望向兰桂生长的方向面露赞许神色"
+      ],
+      "forbidden_realizations": [
+        "将隐士形象绘制为身着官服的达官贵人"
+      ],
+      "semantic_role": "forest_hermit_adoration_scene"
+    },
+    {
+      "requirement_id": "vis_04_core_theme_visualization",
+      "description": "用画面点出草木本心不待美人折的核心主旨，托出诗人坚守品格不求赏识的情志。",
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_grass_tree_heart_metaphor"
+      ],
+      "expected_phase": "core_theme_conclusion_visualization",
+      "acceptable_realizations": [
+        "镜头定格在崖边独自盛放的兰桂，没有任何人伸手采摘，画面旁弹出主旨说明文字"
+      ],
+      "forbidden_realizations": [
+        "将有人伸手折取兰桂作为核心收尾画面"
+      ],
+      "semantic_role": "core_theme_conclusion_visualization"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_032_01",
+      "description": "唐玄宗开元年间，张九龄曾辅佐玄宗为宰相。他忠耿尽职、直言敢谏，是开元盛世时期著名的贤相。",
+      "audio_triggers": [
+        "开元盛世",
+        "贤相",
+        "直言敢谏"
+      ],
+      "visual_evidence": [
+        "盛唐宫廷环境",
+        "身着唐代高官朝服的张九龄",
+        "向皇帝进谏或处理政务的场景"
+      ],
+      "sound_evidence": [
+        "朝堂上的议政声",
+        "威严的宫廷雅乐"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_032_02",
+      "description": "随着唐玄宗逐渐听信谗言，张九龄遭到排挤，最终被罢免宰相之职，通常认为其随后退居荆州等地，陷入政治低谷与羁旅之思。",
+      "audio_triggers": [
+        "听信谗言",
+        "罢免",
+        "退相",
+        "贬谪"
+      ],
+      "visual_evidence": [
+        "张九龄脱去宰相朝服，换上级别较低的官服或常服",
+        "神情落寞但依旧从容坚毅",
+        "离开繁华长安，身处相对荒僻的荆楚之地",
+        "禁止出现张九龄在贬谪后大声痛哭或崩溃的画面，需保持名相风度"
+      ],
+      "sound_evidence": [
+        "沉闷的马车声",
+        "萧瑟的秋风声",
+        "低沉悲凉的背景音乐"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_032_03",
+      "description": "在遭贬的处境下，张九龄依然不甘沉沦，坚守正道。他托物言志，借春兰与秋桂的芳洁，写下《感遇·兰叶春葳蕤》，表明自己不受外界际遇影响的高洁本心。",
+      "audio_triggers": [
+        "托物言志",
+        "草木有本心",
+        "何求美人折",
+        "写下感遇"
+      ],
+      "visual_evidence": [
+        "张九龄在书案前挥毫作诗",
+        "案头或庭院中可见茂盛葳蕤的春兰或皎洁的秋桂",
+        "张九龄神态从容淡定，体现“草木有本心”的超然"
+      ],
+      "sound_evidence": [
+        "平缓高洁的古琴声",
+        "衣袖摩擦声",
+        "毛笔书写在纸帛上的沙沙声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "兰叶春葳蕤，",
+      "pronunciation": "lán yè chūn wēi ruí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "桂华秋皎洁。",
+      "pronunciation": "guì huá qiū jiǎo jié.",
+      "accepted_variants": [
+        "guì huā qiū jiǎo jié."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "欣欣此生意，",
+      "pronunciation": "xīn xīn cǐ shēng yì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自尔为佳节。",
+      "pronunciation": "zì ěr wéi jiā jié.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "谁知林栖者，",
+      "pronunciation": "shuí zhī lín qī zhě,",
+      "accepted_variants": [
+        "shéi zhī lín qī zhě,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "闻风坐相悦。",
+      "pronunciation": "wén fēng zuò xiāng yuè.",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "草木有本心，",
+      "pronunciation": "cǎo mù yǒu běn xīn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "何求美人折！",
+      "pronunciation": "hé qiú měi rén zhé!",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "张九龄",
+      "pronunciation": "zhāng jiǔ líng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "唐玄宗",
+      "pronunciation": "táng xuán zōng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "荆州",
+      "pronunciation": "jīng zhōu",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "感遇",
+      "pronunciation": "gǎn yù",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "开元",
+      "pronunciation": "kāi yuán",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_032_01",
+      "source_event_id": "evt_032_01",
+      "target_event_id": "evt_032_02",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_032_02",
+      "source_event_id": "evt_032_02",
+      "target_event_id": "evt_032_03",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/032.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/032.json",
+      "event_gold": "gold_annotation/tangshi_300/032.json"
+    },
+    "original_sample_id": "032",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

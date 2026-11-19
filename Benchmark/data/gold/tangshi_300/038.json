@@ -1,0 +1,1785 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "tangshi_300_038",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《琵琶行》是唐代诗人白居易创作的经典长篇七言古诗（歌行体），为其现实主义代表作之一。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "诗歌元数据明确标注题名《琵琶行》、作者白居易、朝代唐、体裁七言古诗",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "白居易为唐代现实主义诗人，代表作包含《琵琶行》，倡导新乐府运动",
+          "locator": "作者简介一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可将该作品归入中唐长篇叙事歌行的代表性作品序列",
+        "可关联白居易浅白通俗的整体创作风格进行讲解"
+      ],
+      "forbidden_assertions": [
+        "声称《琵琶行》作者为其他唐代诗人",
+        "将该作品体裁判定为律诗、绝句等近体诗"
+      ]
+    },
+    {
+      "claim_id": "claim_02_creation_context",
+      "claim": "该诗作于唐元和十一年（816年），是白居易被贬江州司马的第二年，秋夜在浔阳江头送客偶遇长安琵琶女后，结合自身仕途贬谪遭遇创作而成。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "元和十年白居易因主张严缉刺杀宰相的凶手被贬江州司马，次年秋偶遇歌女创作《琵琶行》",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_background_2",
+          "text": "诗作于元和十一年白居易44岁贬江州司马时，偶遇歌女触发谪居郁愤",
+          "locator": "创作背景二",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可关联中唐藩镇作乱、朝政动荡的时代背景理解诗人被贬的合理性",
+        "可说明该作品标志着白居易创作从讽喻向感伤风格的转变"
+      ],
+      "forbidden_assertions": [
+        "声称该诗作于白居易在朝任左拾遗时期",
+        "虚构白居易与琵琶女此前就相识的情节"
+      ]
+    },
+    {
+      "claim_id": "claim_03_core_theme",
+      "claim": "全诗核心主旨句为“同是天涯沦落人，相逢何必曾相识”，通过琵琶女的悲惨身世与诗人自身贬谪遭遇的双向映衬，抒发二人跨越身份的失意共情。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "本诗诗眼是“同是天涯沦落人，相逢何必曾相识”，既反映琵琶女的不幸命运，也抒发诗人自身宦途打击的感慨",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "同是天涯沦落人，相逢何必曾相识",
+          "locator": "l40",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可说明该主旨既指向琵琶女作为底层艺人的“天涯沦落之恨”，也指向白居易作为失意士人的“天涯沦落之恨”",
+        "可引申出中唐时期不同阶层群体普遍的失意苦闷情绪"
+      ],
+      "forbidden_assertions": [
+        "片面将主旨仅解读为对琵琶女的同情，忽略诗人自身情感的投射",
+        "声称该诗句是描写二人久别重逢的感慨"
+      ]
+    },
+    {
+      "claim_id": "claim_04_music_description_skill",
+      "claim": "诗中大量运用通感与具象日常意象比喻不同阶段的琵琶乐声，将抽象无形的音乐转化为可感知的视觉、听觉具象画面，是古典诗歌音乐描写的经典段落。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "作品艺术成功点在于用优美鲜明有音乐感的语言，用视觉形象表现听觉所得的感受",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "对大弦、小弦、急雨、私语等音乐相关意象的词义做了明确注释",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可梳理从试弹、流畅、滞涩、爆发到收尾的完整乐声变化脉络",
+        "可说明音乐节奏的变化同步对应琵琶女情绪的起伏"
+      ],
+      "forbidden_assertions": [
+        "声称这些音乐描写是对某首现存唐代琵琶曲的完整录音记录",
+        "否定 these 比喻的通感修辞属性"
+      ]
+    },
+    {
+      "claim_id": "claim_06_double_line_structure",
+      "claim": "全诗采用明暗双线叙事结构，明线为琵琶女的身世遭遇，暗线为诗人自身的贬谪感受，两条线索在“同是天涯沦落人”主旨句处完成汇合。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "全文以人物为线索，明线写琵琶女身世，暗线写诗人感受，一明一暗一实一虚让情节波澜起伏",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "可说明双线结构让两个不同阶层人物的命运形成互文映衬",
+        "可梳理出从闻琵琶、听叙说到抒共情的三层叙事推进逻辑"
+      ],
+      "forbidden_assertions": [
+        "声称全诗只有琵琶女叙事这一条线索",
+        "将双线汇合点错误定位在开篇送别段落"
+      ]
+    },
+    {
+      "claim_id": "claim_05_text_variants",
+      "claim": "现存《琵琶行》不同传世版本存在少量异文，比如全诗总字数有六百一十二、六百一十六的差异，“冰下滩/冰下难”“云篦/银篦”等局部用字存在不同表述。",
+      "status": "documented",
+      "importance": 1,
+      "evidence": [
+        {
+          "source_id": "source_original_1",
+          "text": "文本内容中“幽咽泉流冰下难”“钿头银篦击节碎”，无并序部分的六百一十六字说明",
+          "locator": "原文版本一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_2",
+          "text": "并序部分标注凡六百一十六言，“幽咽泉流冰下难”“门前冷落鞍马稀”",
+          "locator": "原文版本二",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_original_3",
+          "text": "并序部分标注凡六百一十二言，“幽咽泉流冰下滩”“钿头云篦击节碎”“门前冷落车马稀”",
+          "locator": "原文版本三",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "异文差异属于古代诗歌传抄过程中的正常现象，不影响作品核心表意",
+        "不同版本的用字各有修辞合理性"
+      ],
+      "forbidden_assertions": [
+        "声称某一版本是唯一绝对正确的原版文本，其他版本均为伪作",
+        "随意改动核心名句的用字而不做版本说明"
+      ]
+    },
+    {
+      "claim_id": "claim_07_historical_authenticity_dispute",
+      "claim": "宋人洪迈认为白居易在浔阳江头夜遇琵琶女一事在历史上未必真实存在，可能是作者为了抒发自身的“天涯沦落之恨”而虚构的情节。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "宋人洪迈认为夜遇琵琶女事未必可信，作者是通过虚构的情节，抒发他自己的“天涯沦落之恨”",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "文学创作允许虚构，即使情节为虚构，其反映的社会现实和抒发的共情依然具有极高的艺术真实性"
+      ],
+      "forbidden_assertions": [
+        "断言夜遇琵琶女一事在历史上绝对是白居易的真实经历，不容任何质疑"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_green_gown",
+      "claim": "诗末“青衫”指唐代八品、九品文官的服色。白居易当时作为江州司马，官阶为将侍郎、从九品，因而身穿青衫，此词借代其官职低微与贬谪失意。",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "青衫：唐朝八品、九品文官的服色。白居易当时的官阶是将侍郎，从九品，所以服青衫。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "“青衫湿”不仅是泪水打湿衣服的写实，更是对自己贬谪低微身份的自嘲与悲叹"
+      ],
+      "forbidden_assertions": [
+        "认为“青衫”是唐代高级官员或宰相的服色"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_poem_identity",
+      "category": "poem_identity",
+      "description": "准确掌握《琵琶行》的题名、作者、所属朝代、体裁属性与文学地位。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "《琵琶行》是中唐白居易创作的长篇七言歌行",
+        "白居易的《琵琶行》是唐代著名现实主义长篇叙事诗"
+      ],
+      "forbidden_claims": [
+        "《琵琶行》是李白所作",
+        "《琵琶行》是唐代律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_historical_context",
+      "category": "historical_context",
+      "description": "掌握《琵琶行》的创作时间、白居易被贬江州司马的时代背景与创作触发契机。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这首诗是元和十一年白居易被贬江州第二年，浔阳江头偶遇琵琶女后写的",
+        "白居易因为主张严缉刺杀宰相武元衡的凶手触怒权贵被贬，在江州写下《琵琶行》"
+      ],
+      "forbidden_claims": [
+        "这首诗是白居易在长安做官时写的",
+        "白居易被贬江州是因为写诗讽刺杨贵妃"
+      ],
+      "source_claim_ids": [
+        "claim_02_creation_context"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07"
+      ]
+    },
+    {
+      "unit_id": "req_03_core_lexical",
+      "category": "lexical",
+      "description": "掌握诗中重点文言词汇的准确含义，包括琵琶演奏术语、唐代专有名词等。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "拢、捻、抹、挑都是琵琶演奏的指法动作",
+        "青衫是唐代八品九品低级文官的官服，对应白居易当时江州司马的低阶身份"
+      ],
+      "forbidden_claims": [
+        "教坊是唐代民间自发组织的乐舞机构",
+        "青衫是唐代高级官员的官服"
+      ],
+      "source_claim_ids": [
+        "claim_04_music_description_skill",
+        "claim_08_lexical_green_gown"
+      ],
+      "line_ids": [
+        "l15",
+        "l16",
+        "l17",
+        "l18",
+        "l19",
+        "l20",
+        "l21",
+        "l22",
+        "l23",
+        "l24",
+        "l25",
+        "l29",
+        "l51"
+      ]
+    },
+    {
+      "unit_id": "req_04_narrative_structure",
+      "category": "structure",
+      "description": "理解全诗明暗双线的叙事结构，梳理明线琵琶女身世、暗线诗人贬谪感受的推进脉络。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "琵琶女的人生经历和诗人的贬谪遭遇两条线并行推进，最后在共情点汇合",
+        "从送客、闻琵琶、邀相见、听演奏、听身世、抒共情到泣下，情节层层递进"
+      ],
+      "forbidden_claims": [
+        "全诗只有琵琶女讲故事这一条线索",
+        "诗人的情感表达在开篇就全部直接抒发完毕"
+      ],
+      "source_claim_ids": [
+        "claim_06_double_line_structure"
+      ],
+      "line_ids": [
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14",
+        "l15",
+        "l16",
+        "l17",
+        "l18",
+        "l19",
+        "l20",
+        "l21",
+        "l22",
+        "l23",
+        "l24",
+        "l25",
+        "l26",
+        "l27",
+        "l28",
+        "l29",
+        "l30",
+        "l31",
+        "l32",
+        "l33",
+        "l34",
+        "l35",
+        "l36",
+        "l37",
+        "l38",
+        "l39",
+        "l40",
+        "l41",
+        "l42",
+        "l43",
+        "l44",
+        "l45",
+        "l46",
+        "l47",
+        "l48",
+        "l49",
+        "l50",
+        "l51"
+      ]
+    },
+    {
+      "unit_id": "req_05_theme_interpretation_boundary",
+      "category": "interpretive_boundary",
+      "description": "准确理解“同是天涯沦落人”主旨的双重指向，兼顾琵琶女与诗人双方的失意共情，并知晓关于夜遇事件真实性的学术争议。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "这句诗既写琵琶女年长色衰漂泊江湖的不幸，也写诗人被贬谪的仕途失意，二人惺惺相惜",
+        "宋代学者洪迈曾指出夜遇琵琶女一事可能为虚构，但这并不削弱诗歌抒发的沦落之恨的艺术真实性"
+      ],
+      "forbidden_claims": [
+        "这句诗只是诗人对琵琶女的同情，和他自己的遭遇没关系",
+        "这句诗是写白居易和琵琶女是旧相识"
+      ],
+      "source_claim_ids": [
+        "claim_03_core_theme",
+        "claim_07_historical_authenticity_dispute"
+      ],
+      "line_ids": [
+        "l40"
+      ]
+    },
+    {
+      "unit_id": "req_06_text_variant_knowledge",
+      "category": "alternative_reading",
+      "description": "了解《琵琶行》不同传世版本的异文现象，知晓常见的局部用字差异。",
+      "importance": 1,
+      "acceptable_paraphrases": [
+        "不同版本里“冰下难”和“冰下滩”的表述都有各自的修辞合理性",
+        "不同版本标注的全诗总字数有差异是古代传抄导致的正常现象"
+      ],
+      "forbidden_claims": [
+        "只有某一个版本的《琵琶行》是完全正确的，其他版本都是伪造的",
+        "异文差异会直接改变全诗的核心主旨"
+      ],
+      "source_claim_ids": [
+        "claim_05_text_variants"
+      ],
+      "line_ids": [
+        "l21"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_big_string_rain",
+      "line_ids": [
+        "l19"
+      ],
+      "source_domain": [
+        "暴风骤雨的密集宏大声响"
+      ],
+      "target_domain": [
+        "琵琶最粗的大弦发出的沉重抑扬、宏亮悠长的嘈嘈声"
+      ],
+      "bridges": [
+        "急雨密集、冲击力强的听觉质感，和大弦厚重响亮的音色特征高度匹配"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可引申为用暴雨扑面而来的画面感，烘托琵琶乐声开篇就极具张力的听觉效果"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_small_string_speech",
+      "line_ids": [
+        "l19"
+      ],
+      "source_domain": [
+        "人与人之间私下耳语的低缓细碎声响"
+      ],
+      "target_domain": [
+        "琵琶最细的小弦发出的和缓幽细、急切细碎的切切声"
+      ],
+      "bridges": [
+        "私语音量低、内容委婉的特征，和小弦细腻幽微的音色特征完全契合"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可解读为乐声暗含琵琶女难以对外人明说的满腹心事，如同私语般委婉倾诉"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_03_pearls_jade_disc",
+      "line_ids": [
+        "l20"
+      ],
+      "source_domain": [
+        "大小珍珠接连掉落在光洁玉盘上发出的错落清脆声响"
+      ],
+      "target_domain": [
+        "大小弦交错弹奏时发出的错落交织、圆润清亮的乐声"
+      ],
+      "bridges": [
+        "珠落玉盘的音色圆润、颗粒感强、错落交织的听觉效果，和大小弦错杂弹奏的乐声质感完全一致"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也可侧面烘托琵琶女演奏技艺的娴熟精湛，弹出的每一个音都圆润饱满没有瑕疵"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_04_spring_ice_block",
+      "line_ids": [
+        "l21",
+        "l22"
+      ],
+      "source_domain": [
+        "在冰层下阻塞难通、流动滞涩的幽咽泉水"
+      ],
+      "target_domain": [
+        "琵琶乐声从流畅转向冷涩、凝滞、渐趋停歇的状态"
+      ],
+      "bridges": [
+        "冰下泉水受阻不畅、流动越来越慢的物理状态，和乐声从滑向涩、逐渐凝滞的变化节奏高度相似"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "异文版本中的“冰下滩”可解读为泉水在冰下浅滩上艰难行进的画面，同样指向乐声滞涩难通的状态"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_05_silver_bottle_water",
+      "line_ids": [
+        "l24"
+      ],
+      "source_domain": [
+        "银瓶突然破裂、水浆骤然溅射的突发声响"
+      ],
+      "target_domain": [
+        "琵琶乐声从短暂停歇后骤然爆发的洪亮冲击力声响"
+      ],
+      "bridges": [
+        "银瓶乍破的突发感、水浆迸射的强劲冲击力，对应乐声从沉寂中瞬间迸发的强烈听觉冲击效果"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也暗喻琵琶女积压多年的幽愁暗恨在这一刻彻底冲破束缚，毫无保留地倾泻而出"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_06_iron_cavalry_charge",
+      "line_ids": [
+        "l24"
+      ],
+      "source_domain": [
+        "铁甲骑兵突然发起冲锋、刀枪碰撞齐鸣的雄浑声响"
+      ],
+      "target_domain": [
+        "琵琶乐声进入高潮段落时雄浑铿锵、充满力量感的声响"
+      ],
+      "bridges": [
+        "铁骑突袭的雄壮气势、刀枪齐鸣的铿锵质感，对应乐声高潮段落震撼人心的力量感"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也暗合中唐藩镇作乱、朝堂动荡的时代背景，给音乐描写赋予了厚重的现实指向"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_07_silk_tear",
+      "line_ids": [
+        "l25"
+      ],
+      "source_domain": [
+        "完整丝织品被猛然撕裂的清脆干脆声响"
+      ],
+      "target_domain": [
+        "乐曲收尾时琵琶四弦同时发声的戛然而止的收束音"
+      ],
+      "bridges": [
+        "裂帛声响脆、戛然而止的特征，和曲终时四弦齐鸣干脆利落的收束效果完全匹配"
+      ],
+      "context_claim_ids": [
+        "claim_04_music_description_skill"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "也烘托出乐曲结束后余音震荡的断裂感，瞬间把沉浸在音乐中的听者拉回现实场景"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening_title_presentation",
+      "description": "开场清晰呈现《琵琶行》的题名、作者、朝代、体裁信息，完整展示诗前小序与全诗文本，字句准确无错漏。",
+      "acceptable_realizations": [
+        "古风题签样式开场，配合旁白朗读逐行弹出字幕",
+        "背景搭配浔阳秋江远景，同步展示基础文学常识卡片"
+      ],
+      "forbidden_realizations": [
+        "擅自改动核心名句的用字，不标注版本差异",
+        "遗漏诗前小序部分的内容"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_poem_identity_intro",
+      "semantic_role": "opening_poem_identity_intro"
+    },
+    {
+      "requirement_id": "vis_02_riverside_farewell_scene",
+      "description": "还原浔阳江头秋夜送别的场景，呈现枫叶荻花、秋风瑟瑟、茫茫江月浸江水的萧瑟氛围。",
+      "acceptable_realizations": [
+        "冷色调秋夜江面全景，主客在船上举杯对坐，岸边枫叶荻花随风晃动",
+        "江面月光随波晃动的特写镜头"
+      ],
+      "forbidden_realizations": [
+        "把送别场景设置在白日闹市岸边",
+        "画面整体色调明亮温暖不符合秋夜萧瑟感"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "riverside_farewell_atmosphere_building",
+      "semantic_role": "riverside_farewell_atmosphere_building"
+    },
+    {
+      "requirement_id": "vis_03_invite_pipa_performer",
+      "description": "呈现主人忽闻琵琶声、移船相近、邀琵琶女相见，琵琶女千呼万唤始出来犹抱琵琶半遮面的经典出场画面。",
+      "acceptable_realizations": [
+        "循着水面琵琶声的声源镜头移动，两艘客船慢慢靠拢",
+        "琵琶女半侧身站在船舷边，怀中琵琶遮住半张脸的特写"
+      ],
+      "forbidden_realizations": [
+        "琵琶女形象设计过于浮夸不符合年长色衰的人物设定",
+        "直接让琵琶女大大方方站在船头没有半遮面的细节"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "invite_pipa_player_to_meet",
+      "semantic_role": "invite_pipa_player_to_meet"
+    },
+    {
+      "requirement_id": "vis_04_music_imagery_visualization",
+      "description": "琵琶演奏段落同步把所有音乐比喻的具象画面逐一呈现，将抽象的乐声转化为可见的动态视觉元素。",
+      "acceptable_realizations": [
+        "乐声响起时同步对应出现急雨打窗、耳边私语、珍珠滚落玉盘、冰下泉流、银瓶破水、铁骑冲锋、撕裂丝帛的动态画面",
+        "琵琶女手指弹奏指法的特写穿插在意象画面之间"
+      ],
+      "forbidden_realizations": [
+        "音乐段落全程只拍人物弹琴，完全不做比喻意象的可视化呈现",
+        "意象画面 and 乐声节奏完全脱节不匹配"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_big_string_rain",
+        "meta_02_small_string_speech",
+        "meta_03_pearls_jade_disc",
+        "meta_04_spring_ice_block",
+        "meta_05_silver_bottle_water",
+        "meta_06_iron_cavalry_charge",
+        "meta_07_silk_tear"
+      ],
+      "expected_phase": "pipa_music_imagery_visualization",
+      "semantic_role": "pipa_music_imagery_visualization"
+    },
+    {
+      "requirement_id": "vis_05_pipa_woman_life_narration",
+      "description": "穿插琵琶女自述身世的闪回画面，呈现她年少在长安教坊风光无限、年长漂泊守空船的人生对比。",
+      "acceptable_realizations": [
+        "暖色调闪回画面展示年少时五陵年少争缠头的热闹宴饮场景，冷色调画面展示如今江口守空船的孤寂场景",
+        "琵琶女低头垂泪、妆泪红阑干的特写"
+      ],
+      "forbidden_realizations": [
+        "把琵琶女的早年生活刻画成完全幸福没有隐忧",
+        "闪回画面的时代细节不符合唐代长安教坊的设定"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "pipa_woman_life_story_retelling",
+      "semantic_role": "pipa_woman_life_story_retelling"
+    },
+    {
+      "requirement_id": "vis_06_shared_sorrow_climax",
+      "description": "呈现诗人听闻身世后共情抒发“同是天涯沦落人”的场景，收尾展示满座掩泣、江州司马青衫湿的经典结局画面。",
+      "acceptable_realizations": [
+        "白居易抬手掩面，青色官袍前襟被泪水打湿的特写",
+        "江心一轮白月悬在夜空的远景收尾"
+      ],
+      "forbidden_realizations": [
+        "把结局处理成二人相遇后开怀畅饮大醉而归的欢乐场景",
+        "青衫的服色错误设计成红色紫色等高阶官服颜色"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "mutual_empathy_emotion_climax",
+      "semantic_role": "mutual_empathy_emotion_climax"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_038_01",
+      "description": "元和十年（公元815年），唐朝藩镇势力派刺客在长安街头刺死宰相、刺伤御史中丞，朝野大哗。白居易上表主张严缉凶手。",
+      "audio_triggers": [
+        "元和十年",
+        "刺客在长安街头",
+        "上表主张严缉凶手"
+      ],
+      "visual_evidence": [
+        "唐代长安街头环境",
+        "刺客行刺官员的混乱场景",
+        "白居易身着唐代官服在书案前写奏表"
+      ],
+      "sound_evidence": [
+        "街道上的惊呼与混乱声",
+        "毛笔书写声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_038_02",
+      "description": "白居易因上表被指有“擅越职分”之嫌，加上平素多作讽喻诗得罪朝中权贵，被贬为江州司马。",
+      "audio_triggers": [
+        "擅越职分",
+        "得罪了朝中权贵",
+        "被贬为江州司马"
+      ],
+      "visual_evidence": [
+        "白居易黯然离开长安的场景",
+        "整理行囊或乘车马赴任",
+        "禁止出现现代交通工具或非唐代服饰"
+      ],
+      "sound_evidence": [
+        "沉重的马车声",
+        "萧瑟的风声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_038_03",
+      "description": "元和十一年（公元816年）秋天，44岁的白居易贬居江州。秋夜他在浔阳江头送别客人时，偶遇一位年少时红极一时、年老后被人抛弃的长安歌女。",
+      "audio_triggers": [
+        "元和十一年",
+        "秋夜浔阳江头",
+        "偶遇一位年少因艺技红极一时",
+        "年老被人抛弃的歌女"
+      ],
+      "visual_evidence": [
+        "秋夜江边环境",
+        "停泊的客船",
+        "白居易与客人送别的场景",
+        "抱琵琶的歌女身影"
+      ],
+      "sound_evidence": [
+        "江水拍岸声",
+        "秋夜虫鸣或风声",
+        "隐约的琵琶弹奏声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_038_04",
+      "description": "歌女的凄凉遭遇触发了白居易“谪居卧病”的郁愤。他结合自己仕途受挫被贬的经历产生强烈共情，用歌行体裁创作出《琵琶行》，标志其创作风格由讽喻向感伤转变。",
+      "audio_triggers": [
+        "谪居卧病",
+        "天涯沦落",
+        "结合自己仕途遭遇",
+        "创作出了这首著名的《琵琶行》"
+      ],
+      "visual_evidence": [
+        "白居易在舟中或案前哀伤沉思",
+        "提笔写下诗句",
+        "神情郁愤与感伤"
+      ],
+      "sound_evidence": [
+        "悲凉感伤的背景音乐",
+        "落笔写字的沙沙声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "元和十年，",
+      "pronunciation": "yuán hé shí nián",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "余左迁九江郡司马。",
+      "pronunciation": "yú zuǒ qiān jiǔ jiāng jùn sī mǎ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "明年秋，",
+      "pronunciation": "míng nián qiū",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "送客湓浦口，",
+      "pronunciation": "sòng kè pén pǔ kǒu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "闻舟中夜弹琵琶者，",
+      "pronunciation": "wén zhōu zhōng yè tán pí pá zhě",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "听其音，",
+      "pronunciation": "tīng qí yīn",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "铮铮然有京都声。",
+      "pronunciation": "zhēng zhēng rán yǒu jīng dū shēng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "问其人，",
+      "pronunciation": "wèn qí rén",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "本长安倡女，",
+      "pronunciation": "běn cháng ān chāng nǚ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "尝学琵琶于穆、",
+      "pronunciation": "cháng xué pí pá yú mù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曹二善才，",
+      "pronunciation": "cáo èr shàn cái",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "年长色衰，",
+      "pronunciation": "nián zhǎng sè shuāi",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "委身为贾人妇。",
+      "pronunciation": "wěi shēn wéi gǔ rén fù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遂命酒，",
+      "pronunciation": "suì mìng jiǔ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "使快弹数曲。",
+      "pronunciation": "shǐ kuài tán shù qǔ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曲罢悯默，",
+      "pronunciation": "qǔ bà mǐn mò",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自叙少小时欢乐事，",
+      "pronunciation": "zì xù shào xiǎo shí huān lè shì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今漂沦憔悴，",
+      "pronunciation": "jīn piāo lún qiáo cuì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "转徙于江湖间。",
+      "pronunciation": "zhuǎn xǐ yú jiāng hú jiān",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "余出官二年，",
+      "pronunciation": "yú chū guān èr nián",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "恬然自安；",
+      "pronunciation": "tián rán zì ān",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "感斯人言，",
+      "pronunciation": "gǎn sī rén yán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "是夕始觉有迁谪意。",
+      "pronunciation": "shì xī shǐ jué yǒu qiān zhé yì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "因为长句，",
+      "pronunciation": "yīn wéi cháng jù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "琵琶行",
+      "pronunciation": "pí pá xíng",
+      "category": "other",
+      "importance": 3
+    },
+    {
+      "term": "白居易",
+      "pronunciation": "bái jū yì",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "九江郡",
+      "pronunciation": "jiǔ jiāng jùn",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "湓浦口",
+      "pronunciation": "pén pǔ kǒu",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "司马",
+      "pronunciation": "sī mǎ",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "长安",
+      "pronunciation": "cháng ān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "倡女",
+      "pronunciation": "chāng nǚ",
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "善才",
+      "pronunciation": "shàn cái",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "贾人",
+      "pronunciation": "gǔ rén",
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "因为",
+      "pronunciation": "yīn wéi",
+      "category": "polyphone",
+      "importance": 3
+    },
+    {
+      "term": "歌以赠之，",
+      "pronunciation": "gē yǐ zèng zhī,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凡六百一十二言，",
+      "pronunciation": "fán liù bǎi yī shí èr yán,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "命曰《琵琶行》。",
+      "pronunciation": "mìng yuē 《pí pá xíng》。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "浔阳江头夜送客，",
+      "pronunciation": "xún yáng jiāng tóu yè sòng kè,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "枫叶荻花秋瑟瑟。",
+      "pronunciation": "fēng yè dí huā qiū sè sè。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "主人下马客在船，",
+      "pronunciation": "zhǔ rén xià mǎ kè zài chuán,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "举酒欲饮无管弦。",
+      "pronunciation": "jǔ jiǔ yù yǐn wú guǎn xián。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "醉不成欢惨将别，",
+      "pronunciation": "zuì bù chéng huān cǎn jiāng bié,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "别时茫茫江浸月。",
+      "pronunciation": "bié shí máng máng jiāng jìn yuè。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "忽闻水上琵琶声，",
+      "pronunciation": "hū wén shuǐ shàng pí pá shēng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "主人忘归客不发。",
+      "pronunciation": "zhǔ rén wàng guī kè bù fā。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "寻声暗问弹者谁，",
+      "pronunciation": "xún shēng àn wèn tán zhě shuí,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "琵琶声停欲语迟。",
+      "pronunciation": "pí pá shēng tíng yù yǔ chí。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "移船相近邀相见，",
+      "pronunciation": "yí chuán xiāng jìn yāo xiāng jiàn,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "添酒回灯重开宴。",
+      "pronunciation": "tiān jiǔ huí dēng chóng kāi yàn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "千呼万唤始出来，",
+      "pronunciation": "qiān hū wàn huàn shǐ chū lái,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "犹抱琵琶半遮面。",
+      "pronunciation": "yóu bào pí pá bàn zhē miàn。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "转轴拨弦三两声，",
+      "pronunciation": "zhuǎn zhóu bō xián sān liǎng shēng,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "未成曲调先有情。",
+      "pronunciation": "wèi chéng qǔ diào xiān yǒu qíng。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "弦弦掩抑声声思，",
+      "pronunciation": "xián xián yǎn yì shēng shēng sì,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "似诉平生不得志。",
+      "pronunciation": "sì sù píng shēng bù dé zhì。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "低眉信手续续弹，",
+      "pronunciation": "dī méi xìn shǒu xù xù tán,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "说尽心中无限事。",
+      "pronunciation": "shuō jìn xīn zhōng wú xiàn shì。",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "轻拢慢捻抹复挑，",
+      "pronunciation": "qīng lǒng màn niǎn mǒ fù tiǎo,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "浔阳江",
+      "pronunciation": "xún yáng jiāng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "思",
+      "pronunciation": "sì",
+      "accepted_variants": [
+        "sī"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "挑",
+      "pronunciation": "tiǎo",
+      "accepted_variants": [
+        "tiāo"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "重",
+      "pronunciation": "chóng",
+      "accepted_variants": [
+        "zhòng"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "调",
+      "pronunciation": "diào",
+      "accepted_variants": [
+        "tiáo"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "初为霓裳后六幺。",
+      "pronunciation": "chū wéi ní cháng hòu lù yāo",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "大弦嘈嘈如急雨，",
+      "pronunciation": "dà xián cáo cáo rú jí yǔ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "小弦切切如私语。",
+      "pronunciation": "xiǎo xián qiè qiè rú sī yǔ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "嘈嘈切切错杂弹，",
+      "pronunciation": "cáo cáo qiè qiè cuò zá tán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "大珠小珠落玉盘。",
+      "pronunciation": "dà zhū xiǎo zhū luò yù pán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "间关莺语花底滑，",
+      "pronunciation": "jiān guān yīng yǔ huā dǐ huá",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "幽咽泉流冰下滩。",
+      "pronunciation": "yōu yè quán liú bīng xià tān",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "冰泉冷涩弦凝绝，",
+      "pronunciation": "bīng quán lěng sè xián níng jué",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凝绝不通声渐歇。",
+      "pronunciation": "níng jué bù tōng shēng jiàn xiē",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "别有幽愁暗恨生，",
+      "pronunciation": "bié yǒu yōu chóu àn hèn shēng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "此时无声胜有声。",
+      "pronunciation": "cǐ shí wú shēng shèng yǒu shēng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "银瓶乍破水浆迸，",
+      "pronunciation": "yín píng zhà pò shuǐ jiāng bèng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "铁骑突出刀枪鸣。",
+      "pronunciation": "tiě jì tū chū dāo qiāng míng",
+      "accepted_variants": [
+        "tiě qí tū chū dāo qiāng míng"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曲终收拨当心画，",
+      "pronunciation": "qǔ zhōng shōu bō dāng xīn huà",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "四弦一声如裂帛。",
+      "pronunciation": "sì xián yī shēng rú liè bó",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "东船西舫悄无言，",
+      "pronunciation": "dōng chuán xī fǎng qiǎo wú yán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "唯见江心秋月白。",
+      "pronunciation": "wéi jiàn jiāng xīn qiū yuè bái",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "沉吟放拨插弦中，",
+      "pronunciation": "chén yín fàng bō chā xián zhōng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "整顿衣裳起敛容。",
+      "pronunciation": "zhěng dùn yī cháng qǐ liǎn róng",
+      "accepted_variants": [
+        "zhěng dùn yī shang qǐ liǎn róng"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "自言本是京城女，",
+      "pronunciation": "zì yán běn shì jīng chéng nǚ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "家在虾蟆陵下住。",
+      "pronunciation": "jiā zài há ma líng xià zhù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "十三学得琵琶成，",
+      "pronunciation": "shí sān xué dé pí pá chéng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "名属教坊第一部。",
+      "pronunciation": "míng shǔ jiào fāng dì yī bù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "曲罢常教善才伏，",
+      "pronunciation": "qǔ bà cháng jiào shàn cái fú",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "霓裳",
+      "pronunciation": "ní cháng",
+      "category": "allusion",
+      "importance": 2
+    },
+    {
+      "term": "六幺",
+      "pronunciation": "lù yāo",
+      "accepted_variants": [
+        "liù yāo"
+      ],
+      "category": "allusion",
+      "importance": 2
+    },
+    {
+      "term": "间关",
+      "pronunciation": "jiān guān",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "幽咽",
+      "pronunciation": "yōu yè",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "铁骑",
+      "pronunciation": "tiě jì",
+      "accepted_variants": [
+        "tiě qí"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "当心画",
+      "pronunciation": "dāng xīn huà",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "虾蟆陵",
+      "pronunciation": "há ma líng",
+      "category": "place",
+      "importance": 3
+    },
+    {
+      "term": "教坊",
+      "pronunciation": "jiào fāng",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "妆成每被秋娘妒。",
+      "pronunciation": "zhuāng chéng měi bèi qiū niáng dù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "五陵年少争缠头，",
+      "pronunciation": "wǔ líng nián shào zhēng chán tóu",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一曲红绡不知数。",
+      "pronunciation": "yī qǔ hóng xiāo bù zhī shù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "钿头云篦击节碎，",
+      "pronunciation": "diàn tóu yún bì jī jié suì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "血色罗裙翻酒污。",
+      "pronunciation": "xuè sè luó qún fān jiǔ wū",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今年欢笑复明年，",
+      "pronunciation": "jīn nián huān xiào fù míng nián",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "秋月春风等闲度。",
+      "pronunciation": "qiū yuè chūn fēng děng xián dù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "弟走从军阿姨死，",
+      "pronunciation": "dì zǒu cóng jūn ā yí sǐ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "暮去朝来颜色故。",
+      "pronunciation": "mù qù zhāo lái yán sè gù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "门前冷落车马稀，",
+      "pronunciation": "mén qián lěng luò chē mǎ xī",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "老大嫁作商人妇。",
+      "pronunciation": "lǎo dà jià zuò shāng rén fù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "商人重利轻别离，",
+      "pronunciation": "shāng rén zhòng lì qīng bié lí",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "前月浮梁买茶去。",
+      "pronunciation": "qián yuè fú liáng mǎi chá qù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "去来江口守空船，",
+      "pronunciation": "qù lái jiāng kǒu shǒu kōng chuán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "绕船明月江水寒。",
+      "pronunciation": "rào chuán míng yuè jiāng shuǐ hán",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夜深忽梦少年事，",
+      "pronunciation": "yè shēn hū mèng shào nián shì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "梦啼妆泪红阑干。",
+      "pronunciation": "mèng tí zhuāng lèi hóng lán gān",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "我闻琵琶已叹息，",
+      "pronunciation": "wǒ wén pí pá yǐ tàn xī",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "又闻此语重唧唧。",
+      "pronunciation": "yòu wén cǐ yǔ chóng jī jī",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "同是天涯沦落人，",
+      "pronunciation": "tóng shì tiān yá lún luò rén",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "相逢何必曾相识。",
+      "pronunciation": "xiāng féng hé bì céng xiāng shí",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "我从去年辞帝京，",
+      "pronunciation": "wǒ cóng qù nián cí dì jīng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "谪居卧病浔阳城。",
+      "pronunciation": "zhé jū wò bìng xún yáng chéng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "浔阳地僻无音乐，",
+      "pronunciation": "xún yáng dì pì wú yīn yuè",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "秋娘",
+      "pronunciation": "qiū niáng",
+      "category": "allusion",
+      "importance": 2
+    },
+    {
+      "term": "五陵",
+      "pronunciation": "wǔ líng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "年少",
+      "pronunciation": "nián shào",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "钿头",
+      "pronunciation": "diàn tóu",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "云篦",
+      "pronunciation": "yún bì",
+      "category": "other",
+      "importance": 1
+    },
+    {
+      "term": "朝来",
+      "pronunciation": "zhāo lái",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "浮梁",
+      "pronunciation": "fú liáng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "红阑干",
+      "pronunciation": "hóng lán gān",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "重唧唧",
+      "pronunciation": "chóng jī jī",
+      "accepted_variants": [
+        "zhòng jī jī"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "浔阳",
+      "pronunciation": "xún yáng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "终岁不闻丝竹声。",
+      "pronunciation": "zhōng suì bù wén sī zhú shēng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "住近湓江地低湿，",
+      "pronunciation": "zhù jìn pén jiāng dì dī shī",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "黄芦苦竹绕宅生。",
+      "pronunciation": "huáng lú kǔ zhú rào zhái shēng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "其间旦暮闻何物，",
+      "pronunciation": "qí jiān dàn mù wén hé wù",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杜鹃啼血猿哀鸣。",
+      "pronunciation": "dù juān tí xuè yuán āi míng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "春江花朝秋月夜，",
+      "pronunciation": "chūn jiāng huā zhāo qiū yuè yè",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "往往取酒还独倾。",
+      "pronunciation": "wǎng wǎng qǔ jiǔ hái dú qīng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "岂无山歌与村笛，",
+      "pronunciation": "qǐ wú shān gē yǔ cūn dí",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "呕哑嘲哳难为听。",
+      "pronunciation": "ōu yā zhāo zhā nán wéi tīng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "今夜闻君琵琶语，",
+      "pronunciation": "jīn yè wén jūn pí pá yǔ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "如听仙乐耳暂明。",
+      "pronunciation": "rú tīng xiān yuè ěr zàn míng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "莫辞更坐弹一曲，",
+      "pronunciation": "mò cí gèng zuò tán yī qǔ",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "为君翻作琵琶行。",
+      "pronunciation": "wèi jūn fān zuò pí pá xíng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "感我此言良久立，",
+      "pronunciation": "gǎn wǒ cǐ yán liáng jiǔ lì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "却坐促弦弦转急。",
+      "pronunciation": "què zuò cù xián xián zhuǎn jí",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凄凄不似向前声，",
+      "pronunciation": "qī qī bù sì xiàng qián shēng",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "满座重闻皆掩泣。",
+      "pronunciation": "mǎn zuò chóng wén jiē yǎn qì",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "座中泣下谁最多，",
+      "pronunciation": "zuò zhōng qì xià shuí zuì duō",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "江州司马青衫湿。",
+      "pronunciation": "jiāng zhōu sī mǎ qīng shān shī",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "琵琶行",
+      "pronunciation": "pí pá xíng",
+      "category": "poem",
+      "importance": 1
+    },
+    {
+      "term": "湓江",
+      "pronunciation": "pén jiāng",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "江州司马",
+      "pronunciation": "jiāng zhōu sī mǎ",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "呕哑嘲哳",
+      "pronunciation": "ōu yā zhāo zhā",
+      "accepted_variants": [
+        "ō yā zhāo zhā"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "难为",
+      "pronunciation": "nán wéi",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "仙乐",
+      "pronunciation": "xiān yuè",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "更坐",
+      "pronunciation": "gèng zuò",
+      "accepted_variants": [
+        "gēng zuò"
+      ],
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "一曲",
+      "pronunciation": "yī qǔ",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "为君",
+      "pronunciation": "wèi jūn",
+      "category": "polyphone",
+      "importance": 2
+    },
+    {
+      "term": "重闻",
+      "pronunciation": "chóng wén",
+      "category": "polyphone",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_038_01",
+      "source_event_id": "evt_038_01",
+      "target_event_id": "evt_038_02",
+      "relation_type": "CAUSES",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_038_02",
+      "source_event_id": "evt_038_02",
+      "target_event_id": "evt_038_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_038_03",
+      "source_event_id": "evt_038_03",
+      "target_event_id": "evt_038_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_038_04",
+      "source_event_id": "evt_038_02",
+      "target_event_id": "evt_038_04",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "tangshi_300",
+    "source_files": {
+      "data": "data/tangshi_300/038.json",
+      "core_gold": "gold_annotation/tangshi_300_gold_final/038.json",
+      "event_gold": "gold_annotation/tangshi_300/038.json"
+    },
+    "original_sample_id": "038",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "057_songci_190_7be758626ea4",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "扬州慢",
+    "author": "姜夔",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "淮左名都，竹西佳处，解鞍少驻初程。\n过春风十里，尽荠麦青青。\n自胡马窥江去后，废池乔木，犹厌言兵。\n渐黄昏，清角吹寒，都在空城。\n杜郎俊赏，算而今、重到须惊。\n纵豆蔻词工，青楼梦好，难赋深情。\n二十四桥仍在，波心荡冷月无声。\n念桥边红药，年年知为谁生？",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "淮左名都，竹西佳处，解鞍少驻初程。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "过春风十里，尽荠麦青青。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "自胡马窥江去后，废池乔木，犹厌言兵。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "渐黄昏，清角吹寒，都在空城。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "杜郎俊赏，算而今、重到须惊。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "纵豆蔻词工，青楼梦好，难赋深情。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "二十四桥仍在，波心荡冷月无声。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "念桥边红药，年年知为谁生？"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "7be758626ea4c12d58c4f891",
+    "global_index": 57
+  }
+}

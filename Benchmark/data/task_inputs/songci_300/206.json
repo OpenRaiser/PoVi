@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "109_songci_206_1a3387c6cbea",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "双双燕",
+    "author": "史达祖",
+    "dynasty": "宋",
+    "form": "词",
+    "text": "过春社了，度帘幕中间，去年尘冷。\n差池欲住，试入旧巢相并。\n还相雕梁藻井，又软语商量不定。\n飘然快拂花梢，翠尾分开红影。\n芳径，芹泥雨润，爱贴地争飞，竟夸轻俊。\n红楼归晚，看足柳昏花暝。\n应自栖香正稳，便忘了天涯芳信。\n愁损翠黛双蛾，日日画阑独凭。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "过春社了，度帘幕中间，去年尘冷。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "差池欲住，试入旧巢相并。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "还相雕梁藻井，又软语商量不定。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "飘然快拂花梢，翠尾分开红影。"
+      },
+      {
+        "line_id": "l05",
+        "order": 5,
+        "text": "芳径，芹泥雨润，爱贴地争飞，竟夸轻俊。"
+      },
+      {
+        "line_id": "l06",
+        "order": 6,
+        "text": "红楼归晚，看足柳昏花暝。"
+      },
+      {
+        "line_id": "l07",
+        "order": 7,
+        "text": "应自栖香正稳，便忘了天涯芳信。"
+      },
+      {
+        "line_id": "l08",
+        "order": 8,
+        "text": "愁损翠黛双蛾，日日画阑独凭。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "1a3387c6cbeae3827f16aa72",
+    "global_index": 109
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "017_tangshi_168_e70afe998189",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "望月怀远",
+    "author": "张九龄",
+    "dynasty": "唐",
+    "form": "五言律诗",
+    "text": "海上生明月，天涯共此时。\n情人怨遥夜，竟夕起相思。\n灭烛怜光满，披衣觉露滋。\n不堪盈手赠，还寝梦佳期。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "海上生明月，天涯共此时。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "情人怨遥夜，竟夕起相思。"
+      },
+      {
+        "line_id": "l03",
+        "order": 3,
+        "text": "灭烛怜光满，披衣觉露滋。"
+      },
+      {
+        "line_id": "l04",
+        "order": 4,
+        "text": "不堪盈手赠，还寝梦佳期。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "e70afe998189338d85213db3",
+    "global_index": 17
+  }
+}

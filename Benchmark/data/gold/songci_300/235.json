@@ -1,0 +1,1099 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_235",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "作品为南宋词人吴文英所作，词牌为《莺啼序》，又名“春晚感怀”或“感怀”，全词共二百四十字，是词调中最长的一种。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "题名：莺啼序 作者：吴文英 朝代：宋 体裁：词 词牌：莺啼序",
+          "locator": "poem",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "吴文英（1200—1268），南宋词人，字君特，号梦窗，浙江宁波人。",
+          "locator": "作者简介一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "一共四片240字，是最长的词调。这首词在《宋六十名家词》中又题作 ‘春晚感怀’、‘感怀’",
+          "locator": "赏析二",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可明确指出该词为宋代长调慢词的代表作",
+        "可提及作者别号“梦窗”及其在词史上的地位"
+      ],
+      "forbidden_assertions": [
+        "该词为唐代或明代作品",
+        "词牌名或作者姓名张冠李戴",
+        "声称该词篇幅短小或为小令"
+      ]
+    },
+    {
+      "claim_id": "claim_02_theme_structure",
+      "claim": "全词分为四段（四片），结构大开大阖、时空交错，融伤春、怀旧与悼亡于一体，核心主旨为悼念杭州亡妾。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "全词分为四段，长达二百四十字...集中而形象地表现了伤春惜别之情，在结构上体现出时空交错的特点。",
+          "locator": "赏析一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_appreciation_2",
+          "text": "本词抒写春晚感怀，融伤春、怀旧、悼亡于一体...这是吴文英为悼念亡妾而做的一首词",
+          "locator": "赏析二",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_background_1",
+          "text": "这首《莺啼序·残寒正欺病酒》 当作于宝祐（宋理宗年号，1253—1258）初年，为作者悼念亡妾之作。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出四片分别对应现实伤春、西湖旧游、重访悼亡、长恨相思的叙事脉络",
+        "可强调该词虽涉个人情事，但情感真挚，非寻常艳词可比"
+      ],
+      "forbidden_assertions": [
+        "该词主旨为纯粹的政治讽喻或边塞征战",
+        "全词仅写伤春而无悼亡之意",
+        "结构为单线平铺直叙无时空跳跃"
+      ]
+    },
+    {
+      "claim_id": "claim_03_metaphor_catkins",
+      "claim": "词中“念羁情、游荡随风，化为轻絮”将漂泊的羁旅愁思与伤春之情，比喻为随风飘荡的柳絮。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "念羁情、游荡随风，化为轻絮。",
+          "locator": "l04",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_1",
+          "text": "我的心中有千万缕羁思旅情，恰似随风游荡，化作了柳絮轻扬飘浮。",
+          "locator": "译文一",
+          "authority": "low"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "羁情：离情。一说指情思随风飘荡。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "柳絮意象强化了词人客居他乡、无所依托的漂泊感",
+        "此句起到承上启下作用，由眼前暮春之景自然过渡至下片回忆"
+      ],
+      "forbidden_assertions": [
+        "轻絮指代具体的某位女子",
+        "羁情仅指对朝廷的忠君之思"
+      ]
+    },
+    {
+      "claim_id": "claim_04_metaphor_herbs_time",
+      "claim": "“幽兰旋老，杜若还生”以香草的荣枯更替，象征时光流逝、人事代谢，反衬词人长期羁旅水乡的孤寂。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "幽兰旋老，杜若还生，水乡尚寄旅。",
+          "locator": "l09",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_translation_2",
+          "text": "幽兰转眼间就已老去，汀洲上新生的杜若散着香气，岁月匆匆流逝，我依旧在水乡漂泊羁旅。",
+          "locator": "译文二",
+          "authority": "low"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "幽兰：幽香的兰花。旋：不久。杜若：生长在水边的一种香草...",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "香草意象继承楚辞传统，暗含对美好事物消逝的痛惜",
+        "自然物候的循环与人事的不可逆形成张力，深化羁旅之悲"
+      ],
+      "forbidden_assertions": [
+        "幽兰与杜若仅作为植物学名词出现，无象征意义",
+        "该句表达的是对农业丰收的喜悦"
+      ]
+    },
+    {
+      "claim_id": "claim_05_metaphor_objects_grief",
+      "claim": "“亸凤迷归，破鸾慵舞”借垂翅孤凤与破镜孤鸾的意象，隐喻词人丧偶后的失意迷惘与无心欢娱的哀痛。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "亸凤迷归，破鸾慵舞。",
+          "locator": "l14",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "亸凤：垂翅之凤，喻失意之意。一说凤指凤钗。破鸾：失去伴侣的鸾鸟。一说鸾指鸾镜。",
+          "locator": "注释一",
+          "authority": "medium"
+        },
+        {
+          "source_id": "source_translation_3",
+          "text": "我就像垂下翅膀的孤凤忘记了归路，又像孤苦无依的孤鸾懒得飞翔起舞一样。",
+          "locator": "译文三",
+          "authority": "low"
+        }
+      ],
+      "acceptable_inferences": [
+        "凤鸾成双的传统文化符号被打破，直接映射伴侣亡故后的形单影只",
+        "可结合“暗点检”动作，理解为睹物思人、触物伤情的心理外化"
+      ],
+      "forbidden_assertions": [
+        "凤鸾指代朝廷官员或政治盟友",
+        "该句描写的是节日庆典中的舞蹈表演"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_allusions",
+      "claim": "词中多处使用典故：“仙溪”暗用汉刘晨、阮肇遇仙的故事，指女子所住的地方；“锦儿”用钱塘名妓杨爱爱侍婢的典故代指侍女；“桃根渡”用东晋王献之迎送爱妾桃叶的典故，指代与情人相会之处。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "溯红渐招入仙溪，锦儿偷寄幽素。...记当时、短楫桃根渡",
+          "locator": "l06",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "记当时、短楫桃根渡",
+          "locator": "l11",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "仙溪：指女子所住的地方。此暗用汉刘晨、阮肇遇仙的故事。锦儿：据宋洪遂《侍儿小名录》载，锦儿是钱塘名妓杨爱爱的侍婢，此处用为侍女的代称。桃根渡：渡口名，即桃叶渡...传说东晋王献之有爱妾名桃叶...此指自己与情人相会之处。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "典故的使用增强了词作的典雅感与抒情的含蓄性",
+        "“仙溪”与“桃根渡”均暗示了词人与情人之间如仙境般美好却短暂的遇合"
+      ],
+      "forbidden_assertions": [
+        "锦儿是词人真实的侍女名字",
+        "桃根渡是指词人与情人在南京的真实分别地点"
+      ]
+    },
+    {
+      "claim_id": "claim_07_disputed_readings",
+      "claim": "词中多处字词存在异解或争议：“冉冉”可解为柔媚美好或徐徐上升；“羁情”可解为离情或情思随风飘荡；“亸凤”一说指垂翅之凤（喻失意），一说指凤钗；“破鸾”一说指失伴鸾鸟，一说指鸾镜；“辽海”一说指辽河流域以东至海地区，一说泛指大海。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "冉冉：柔媚美好貌。一解为徐徐上升貌。羁情：离情。一说指情思随风飘荡。亸凤：垂翅之凤，喻失意之意。一说凤指凤钗。破鸾：失去伴侣的鸾鸟。一说鸾指鸾镜。辽海：辽阔的海面。一说辽河流域以东至海地区。此泛指大海。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "这些异解反映了吴文英词作“深曲密丽、讲究字面”的艺术特色，给读者留下了多义的审美空间",
+        "无论是实物（凤钗、鸾镜）还是象征（孤凤、孤鸾），其传达的丧偶悲情在本质上是一致的"
+      ],
+      "forbidden_assertions": [
+        "“亸凤破鸾”只有一种标准解释，其他解释均为错误",
+        "“辽海”在此处特指具体的地理政治边界"
+      ]
+    },
+    {
+      "claim_id": "claim_08_lexical_grief",
+      "claim": "词中“断红”指和着胭脂的泪水；“瘗玉埋香”指伊人亡故；“鬓侵半苎”以白色苎麻纤维喻指头发半白；“离痕欢唾”中“痕”指泪痕，“欢唾”指欢闹时向情人吐的口水，合喻过去的悲欢情事。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "断红湿、歌纨金缕。...瘗玉埋香，几番风雨。...叹鬓侵半苎。...离痕欢唾，尚染鲛绡",
+          "locator": "l07",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "瘗玉埋香，几番风雨。",
+          "locator": "l10",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "叹鬓侵半苎。",
+          "locator": "l13",
+          "authority": "high"
+        },
+        {
+          "source_id": "poem",
+          "text": "离痕欢唾，尚染鲛绡",
+          "locator": "l14",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "断红：指和着胭脂的泪水。瘗玉埋香：指伊人亡故。鬓侵半苎：头发半白。苎：苎麻，纤维白色，此喻指白发。离痕欢唾：喻指过去的悲欢情事。痕：泪痕。欢唾：欢闹时向情人吐的口水。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“离痕欢唾”极具生活细节感，表现了词人与亡妾生前亲昵、欢洽的恩爱生活",
+        "“鬓侵半苎”形象地展现了词人因极度悲伤和岁月流逝而迅速衰老的外貌特征"
+      ],
+      "forbidden_assertions": [
+        "“断红”指红色的花瓣被折断",
+        "“欢唾”指对情人的厌恶或唾弃"
+      ]
+    },
+    {
+      "claim_id": "claim_09_creation_background",
+      "claim": "《莺啼序》词调实为吴文英首创。此词当作于宝祐初年（1253—1258），当时作者应当不在杭州，可能是在苏州，因春暮而愁，回想往事而作。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "《莺啼序》词调始见于《梦窗词》集及赵闻礼《阳春白雪》所载徐宝之词，实为吴文英之首创。这首《莺啼序·残寒正欺病酒》 当作于宝祐（宋理宗年号，1253—1258）初年...创作此词的时候，作者应当不在杭州，可能是在苏州，因春暮而愁，于是回想往事，感怀发兴。",
+          "locator": "创作背景一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人身在苏州，却魂牵梦绕于杭州的亡妾，这种空间上的阻隔加深了词作的羁旅之悲",
+        "作为词调的首创者，吴文英在此词中展现了极高的驾驭长调慢词的艺术功力"
+      ],
+      "forbidden_assertions": [
+        "该词是吴文英在杭州西湖现场即兴创作的",
+        "《莺啼序》词调在唐代就已经非常流行"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确掌握词作题名、作者、朝代、词牌及二百四十字长调的篇幅特征。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "南宋吴文英的《莺啼序》",
+        "梦窗词中最长的慢词《春晚感怀》"
+      ],
+      "forbidden_claims": [
+        "作者为北宋或明代词人",
+        "该词为五言绝句或七言律诗"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "理解该词约作于南宋宝祐初年，地点在苏州，核心创作动机为悼念杭州亡妾。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "吴文英客居苏州时追忆杭州亡妾之作",
+        "宝祐年间春晚感怀悼亡词"
+      ],
+      "forbidden_claims": [
+        "创作于北宋汴京或南宋临安",
+        "为应酬唱和或祝寿之作"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme_structure"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "把握全词四片（段）的时空交错布局与伤春、怀旧、悼亡的情感递进脉络。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "四段式结构，现实与回忆交织",
+        "由景入情，由昔及今的层进式布局"
+      ],
+      "forbidden_claims": [
+        "全词为单一线性叙事无时空转换",
+        "四片内容彼此独立无逻辑关联"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme_structure"
+      ],
+      "line_ids": [
+        "l01-l16"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "识别并解析词中“轻絮”“幽兰/杜若”“亸凤/破鸾”等核心意象的比喻与象征内涵。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "以柳絮喻漂泊愁思，以香草喻时光代谢，以孤凤破镜喻丧偶之痛",
+        "借自然物候与器物意象外化内心哀悼"
+      ],
+      "forbidden_claims": [
+        "意象仅为客观景物白描，无情感投射",
+        "凤鸾意象指代政治失意或仕途坎坷"
+      ],
+      "source_claim_ids": [
+        "claim_03_metaphor_catkins",
+        "claim_04_metaphor_herbs_time",
+        "claim_05_metaphor_objects_grief"
+      ],
+      "line_ids": [
+        "l04",
+        "l09",
+        "l14"
+      ]
+    },
+    {
+      "unit_id": "req_05_boundary",
+      "category": "interpretive_boundary",
+      "description": "明确词中悼亡意象的情感边界，聚焦个人身世与爱情悲剧，避免过度引申为宏大政治寄托。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "主旨集中于个人悼亡与羁旅之悲，非家国兴亡之叹",
+        "情感真挚细腻，属典型婉约悼亡词范畴"
+      ],
+      "forbidden_claims": [
+        "该词暗讽南宋朝廷偏安或主战派失势",
+        "瘗玉埋香隐喻国家覆灭或都城沦陷"
+      ],
+      "source_claim_ids": [
+        "claim_02_theme_structure"
+      ],
+      "line_ids": [
+        "l10",
+        "l15"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_catkins",
+      "line_ids": [
+        "l04"
+      ],
+      "source_domain": [
+        "轻絮（随风飘荡的柳絮）"
+      ],
+      "target_domain": [
+        "羁旅愁思与伤春之情"
+      ],
+      "bridges": [
+        "柳絮无根、轻盈、随风游荡的物理特性，与词人客居异乡、无所依托、愁绪纷飞的内心状态高度同构"
+      ],
+      "context_claim_ids": [
+        "claim_03_metaphor_catkins"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "部分解读认为此句仅为暮春实景的客观白描，柳絮飘飞是节令特征，不必然构成明确的比喻关系",
+        "亦可视为词人主观情绪向自然景物的投射（移情），而非严格修辞学上的明喻或暗喻"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_02_herbs",
+      "line_ids": [
+        "l09"
+      ],
+      "source_domain": [
+        "幽兰旋老，杜若还生（香草的荣枯更替）"
+      ],
+      "target_domain": [
+        "青春年华的消逝、美好人事的代谢与词人羁旅滞留的无奈"
+      ],
+      "bridges": [
+        "继承楚辞香草美人传统，以植物生命周期的短暂与循环，映射人事不可挽留与自身漂泊无期的对比"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_herbs_time"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "可视为江南水乡暮春物候的忠实记录，强调季节转换带来的直观视觉与嗅觉冲击",
+        "亦有学者认为“杜若还生”暗含对生命延续的微弱希冀，与“幽兰旋老”形成辩证张力"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_phoenix_mirror",
+      "line_ids": [
+        "l14"
+      ],
+      "source_domain": [
+        "亸凤（垂翅之凤/凤钗），破鸾（失伴之鸾/破镜）"
+      ],
+      "target_domain": [
+        "丧偶后的形单影只、精神萎靡与无心欢娱的哀痛"
+      ],
+      "bridges": [
+        "凤鸾在传统文化中本为成双成对的祥瑞象征，垂翅与破镜直接解构了圆满意象，具象化伴侣亡故后的残缺与孤寂"
+      ],
+      "context_claim_ids": [
+        "claim_05_metaphor_objects_grief"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "注释指出“凤”“鸾”实指女子遗留的凤钗与鸾镜实物，此处为借物抒情（借代），而非直接比喻词人自身",
+        "亦可理解为词人将自身心理状态拟物化，使抽象的悲痛获得可触可感的物质载体"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_opening",
+      "description": "清晰展示词牌、题名、作者及朝代信息，配合沉稳舒缓的旁白朗读，奠定全词哀婉基调。",
+      "acceptable_realizations": [
+        "水墨风格题签渐显，逐字浮现题名与作者",
+        "背景配以极淡的暮春烟雨纹理，不喧宾夺主"
+      ],
+      "forbidden_realizations": [
+        "使用鲜艳明快的色彩或欢快配乐",
+        "遗漏词牌名或作者字号"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_author_display",
+      "semantic_role": "opening_title_and_author_display"
+    },
+    {
+      "requirement_id": "vis_02_spring_catkins",
+      "description": "呈现暮春残寒、沉香掩户、飞燕入城及柳絮飘飞的画面，配合l04羁情化絮的隐喻，营造漂泊无依的氛围。",
+      "acceptable_realizations": [
+        "镜头由紧闭的雕花窗棂缓缓推至庭院，捕捉飞燕与漫天轻絮",
+        "柳絮飘动轨迹与镜头运动同步，暗示愁绪的蔓延"
+      ],
+      "forbidden_realizations": [
+        "柳絮呈现为盛夏繁茂景象或冬季雪景",
+        "画面过于喧闹，破坏“残寒病酒”的孤寂感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_catkins"
+      ],
+      "expected_phase": "present_late_spring_and_wandering_sorrow",
+      "semantic_role": "present_late_spring_and_wandering_sorrow"
+    },
+    {
+      "requirement_id": "vis_03_past_romance",
+      "description": "展现西湖画船、柳岸系马、银屏幽会及斜阳鸥鹭的往昔欢愉场景，通过暖色调与柔光与后文悼亡形成强烈对比。",
+      "acceptable_realizations": [
+        "采用暖金色调与柔焦滤镜，呈现画船游湖与银屏深处的温馨片段",
+        "斜阳余晖洒在空荡的湖堤上，鸥鹭掠过水面，暗示欢愉已逝"
+      ],
+      "forbidden_realizations": [
+        "将西湖场景处理为现代都市景观或喧闹集市",
+        "画面色彩与前后段落无区分，削弱时空交错感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "past_west_lake_romance_and_fleeting_joy",
+      "semantic_role": "past_west_lake_romance_and_fleeting_joy"
+    },
+    {
+      "requirement_id": "vis_04_mourning_grief",
+      "description": "描绘幽兰杜若更迭、败壁题诗、孤凤破镜及哀筝独奏的意象群，具象化悼亡之痛与长恨相思，收束全篇。",
+      "acceptable_realizations": [
+        "特写镜头聚焦于染泪的丝帕、垂翅的凤钗与裂痕的鸾镜",
+        "画面色调转为冷灰，配合哀筝弦音与江南千里江水的空镜叠化"
+      ],
+      "forbidden_realizations": [
+        "直接呈现血腥或恐怖元素以表现“瘗玉埋香”",
+        "凤钗与鸾镜以崭新完好状态出现，违背“破”“亸”的文本设定"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_02_herbs",
+        "meta_03_phoenix_mirror"
+      ],
+      "expected_phase": "present_mourning_and_eternal_longing",
+      "semantic_role": "present_mourning_and_eternal_longing"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_235_01",
+      "description": "吴文英一生未入仕途，以布衣身份在各级官员幕府中游走，长期寓居在苏州、杭州等地。",
+      "audio_triggers": [
+        "一生未仕",
+        "布衣游幕",
+        "长期寓居苏杭"
+      ],
+      "visual_evidence": [
+        "南宋市井街巷",
+        "身着平民或文士服饰的青年",
+        "乘船游历往返于城镇之间"
+      ],
+      "sound_evidence": [
+        "市井喧闹声",
+        "橹摇水波声"
+      ],
+      "importance": 1
+    },
+    {
+      "event_id": "evt_235_02",
+      "description": "通常认为，吴文英曾在杭州西湖度过长达十年的寓居生活，期间与一名女子相识相恋，两人曾有过一段美好欢乐的时光。",
+      "audio_triggers": [
+        "十载西湖",
+        "相恋",
+        "欢乐时光",
+        "杭州爱妾"
+      ],
+      "visual_evidence": [
+        "宋代西湖春景",
+        "岸边垂柳系马",
+        "青年文人与女子互通书信、同游西湖"
+      ],
+      "sound_evidence": [
+        "水波轻拍声",
+        "男女欢声笑语"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_235_03",
+      "description": "后来，作者与该女子无奈分别，曾在墙壁上题诗留念。不久后，这名女子不幸离世，香消玉殒。",
+      "audio_triggers": [
+        "生离死别",
+        "题诗",
+        "不幸离世",
+        "香消玉殒"
+      ],
+      "visual_evidence": [
+        "渡口黯然送别",
+        "残破的墙壁上和着眼泪题诗",
+        "孤坟凄凉景象"
+      ],
+      "sound_evidence": [
+        "悲伤的叹息声",
+        "挥毫写字声",
+        "风雨摧花声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_235_04",
+      "description": "失去爱妾后，吴文英离开杭州，孤身一人客居苏州等地，过着孤独羁旅的生活。",
+      "audio_triggers": [
+        "客居苏州",
+        "孤独羁旅",
+        "水乡寄旅"
+      ],
+      "visual_evidence": [
+        "水乡客栈",
+        "中年的吴文英独自饮酒",
+        "愁容满面"
+      ],
+      "sound_evidence": [
+        "窗外风雨声",
+        "孤寂的脚步声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_235_05",
+      "description": "吴文英曾重返西湖寻访故地，但佳人已逝，故人无信，往事如烟，徒留感伤。",
+      "audio_triggers": [
+        "重返西湖",
+        "寻访故地",
+        "六桥无信"
+      ],
+      "visual_evidence": [
+        "荒凉清冷的西湖六桥",
+        "寻访无果的失落背影"
+      ],
+      "sound_evidence": [
+        "空旷环境中的风声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_235_06",
+      "description": "通常认为在宝祐初年的暮春，作者独居苏州，借酒消愁却难抵残寒。他翻检亡妾留下的手帕等旧物，在无限相思与悼亡之情中写下长词《莺啼序》。",
+      "audio_triggers": [
+        "宝祐初年",
+        "暮春",
+        "病酒残寒",
+        "翻检旧物",
+        "写下莺啼序"
+      ],
+      "visual_evidence": [
+        "晚春黄昏的屋内",
+        "沉香炉燃着香",
+        "书案前翻看带有泪痕的丝帕",
+        "提笔写下沉痛的诗句"
+      ],
+      "sound_evidence": [
+        "晚飞的燕子啼叫声",
+        "哀怨的古筝声",
+        "悲叹声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "残寒正欺病酒，",
+      "pronunciation": "cán hán zhèng qī bìng jiǔ ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "掩沉香绣户。",
+      "pronunciation": "yǎn chén xiāng xiù hù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "燕来晚、",
+      "pronunciation": "yàn lái wǎn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "飞入西城，",
+      "pronunciation": "fēi rù xī chéng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "似说春事迟暮。",
+      "pronunciation": "sì shuō chūn shì chí mù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "画船载、",
+      "pronunciation": "huà chuán zài ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "清明过却，",
+      "pronunciation": "qīng míng guò què ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "晴烟冉冉吴宫树。",
+      "pronunciation": "qíng yān rǎn rǎn wú gōng shù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念羁情、",
+      "pronunciation": "niàn jī qíng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "游荡随风，",
+      "pronunciation": "yóu dàng suí fēng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "化为轻絮。",
+      "pronunciation": "huà wéi qīng xù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "十载西湖，",
+      "pronunciation": "shí zǎi xī hú ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "傍柳系马，",
+      "pronunciation": "bàng liǔ xì mǎ ,",
+      "accepted_variants": [
+        "bàng liǔ jì mǎ ,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "趁娇尘软雾。",
+      "pronunciation": "chèn jiāo chén ruǎn wù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "溯红渐招入仙溪，",
+      "pronunciation": "sù hóng jiàn zhāo rù xiān xī ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "锦儿偷寄幽素。",
+      "pronunciation": "jǐn ér tōu jì yōu sù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "倚银屏、",
+      "pronunciation": "yǐ yín píng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "春宽梦窄，",
+      "pronunciation": "chūn kuān mèng zhǎi ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "断红湿、",
+      "pronunciation": "duàn hóng shī ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "歌纨金缕。",
+      "pronunciation": "gē wán jīn lǚ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "暝堤空，",
+      "pronunciation": "míng dī kōng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "轻把斜阳，",
+      "pronunciation": "qīng bǎ xié yáng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "总还鸥鹭。",
+      "pronunciation": "zǒng huán ōu lù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "幽兰旋老，",
+      "pronunciation": "yōu lán xuán lǎo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "杜若还生，",
+      "pronunciation": "dù ruò huán shēng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "水乡尚寄旅。",
+      "pronunciation": "shuǐ xiāng shàng jì lǚ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "别后访、",
+      "pronunciation": "bié hòu fǎng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "六桥无信，",
+      "pronunciation": "liù qiáo wú xìn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "事往花萎，",
+      "pronunciation": "shì wǎng huā wěi ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "瘗玉埋香，",
+      "pronunciation": "yì yù mái xiāng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "几番风雨。",
+      "pronunciation": "jǐ fān fēng yǔ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "长波妒盼，",
+      "pronunciation": "cháng bō dù pàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遥山羞黛，",
+      "pronunciation": "yáo shān xiū dài ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渔灯分影春江宿，",
+      "pronunciation": "yú dēng fēn yǐng chūn jiāng sù ,",
+      "accepted_variants": [
+        "yú dēng fēn yǐng chūn jiāng xiǔ ,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "记当时、",
+      "pronunciation": "jì dāng shí ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "短楫桃根渡，",
+      "pronunciation": "duǎn jí táo gēn dù ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "青楼彷佛。",
+      "pronunciation": "qīng lóu fǎng fú .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "临分败壁题诗，",
+      "pronunciation": "lín fēn bài bì tí shī ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "泪墨惨澹尘土。",
+      "pronunciation": "lèi mò cǎn dàn chén tǔ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "危亭望极，",
+      "pronunciation": "wēi tíng wàng jí ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "草色天涯，",
+      "pronunciation": "cǎo sè tiān yá ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "叹鬓侵半苎。",
+      "pronunciation": "tàn bìn qīn bàn zhù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "暗点检、",
+      "pronunciation": "àn diǎn jiǎn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "离痕欢唾，",
+      "pronunciation": "lí hén huān tuò ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "尚染鲛绡，",
+      "pronunciation": "shàng rǎn jiāo xiāo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "亸凤迷归，",
+      "pronunciation": "duǒ fèng mí guī ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "破鸾慵舞。",
+      "pronunciation": "pò luán yōng wǔ .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "殷勤待写，",
+      "pronunciation": "yīn qín dài xiě ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "书中长恨，",
+      "pronunciation": "shū zhōng cháng hèn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "蓝霞辽海沉过雁，",
+      "pronunciation": "lán xiá liáo hǎi chén guò yàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "漫相思、",
+      "pronunciation": "màn xiāng sī ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "弹入哀筝柱。",
+      "pronunciation": "tán rù āi zhēng zhù .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "伤心千里江南，",
+      "pronunciation": "shāng xīn qiān lǐ jiāng nán ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "怨曲重招，",
+      "pronunciation": "yuàn qǔ chóng zhāo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "断魂在否？",
+      "pronunciation": "duàn hún zài fǒu ?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "吴文英",
+      "pronunciation": "wú wén yīng",
+      "category": "person",
+      "importance": 3
+    },
+    {
+      "term": "宝祐",
+      "pronunciation": "bǎo yòu",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "莺啼序",
+      "pronunciation": "yīng tí xù",
+      "category": "other",
+      "importance": 3
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_235_01",
+      "source_event_id": "evt_235_01",
+      "target_event_id": "evt_235_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_235_02",
+      "source_event_id": "evt_235_02",
+      "target_event_id": "evt_235_03",
+      "relation_type": "BEFORE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_235_03",
+      "source_event_id": "evt_235_03",
+      "target_event_id": "evt_235_04",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_235_04",
+      "source_event_id": "evt_235_03",
+      "target_event_id": "evt_235_05",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_235_05",
+      "source_event_id": "evt_235_03",
+      "target_event_id": "evt_235_06",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_235_06",
+      "source_event_id": "evt_235_05",
+      "target_event_id": "evt_235_06",
+      "relation_type": "INPUT_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_235_07",
+      "source_event_id": "evt_235_04",
+      "target_event_id": "evt_235_06",
+      "relation_type": "ALIGNS_WITH",
+      "importance": 2
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/235.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/235.json",
+      "event_gold": "gold_annotation/songci_300/235.json"
+    },
+    "original_sample_id": "235",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}

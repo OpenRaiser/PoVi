@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.4",
+  "sample_id": "070_tangshi_315_76d3ae0b9e4b",
+  "track": "text_planning",
+  "setting": "standard",
+  "poem": {
+    "title": "乌衣巷",
+    "author": "刘禹锡",
+    "dynasty": "唐",
+    "form": "七言绝句",
+    "text": "朱雀桥边野草花，乌衣巷口夕阳斜。\n旧时王谢堂前燕，飞入寻常百姓家。",
+    "lines": [
+      {
+        "line_id": "l01",
+        "order": 1,
+        "text": "朱雀桥边野草花，乌衣巷口夕阳斜。"
+      },
+      {
+        "line_id": "l02",
+        "order": 2,
+        "text": "旧时王谢堂前燕，飞入寻常百姓家。"
+      }
+    ]
+  },
+  "source_provenance": {
+    "work_id": "76d3ae0b9e4b8544574ebb47",
+    "global_index": 70
+  }
+}

@@ -1,0 +1,1129 @@
+{
+  "schema_version": "0.2",
+  "sample_id": "songci_300_039",
+  "gold_status": "adjudicated_gold",
+  "evidence_claims": [
+    {
+      "claim_id": "claim_01_identity",
+      "claim": "《戚氏》为北宋词人柳永所创制的长调慢词，全词三叠共212字，被誉为柳词压轴之作。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "poem",
+          "text": "戚氏",
+          "locator": "cipai",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_notes_1",
+          "text": "戚氏：词牌名，为柳永所创，长调慢词，《乐章集》收入“中吕调”。全词三叠，计212字，为北宋长调慢词之最，亦堪称柳词压轴之作。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_author_bio_1",
+          "text": "柳永（约984—1053）……开创“慢词”长调体裁",
+          "locator": "作者简介一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学中可强调该词牌为柳永自创",
+        "可指出该词在宋词长调发展中的重要体制地位"
+      ],
+      "forbidden_assertions": [
+        "该词牌为前人已有旧曲",
+        "全词字数非212字或结构非三叠",
+        "作者为苏轼或其他宋代词人"
+      ]
+    },
+    {
+      "claim_id": "claim_02_background",
+      "claim": "此词约作于柳永晚年外放荆南（湖北江陵）期间，时年过五十，仅任县令级小官，仕途失意与羁旅愁思交织。",
+      "status": "consensus",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_background_1",
+          "text": "从词中“宋玉悲感，向此临水与登山”来看，这首词当写于湖北江陵，当时柳永外放荆南，已经年过五十，只做个相当于县令的小官，心情自然十分苦闷。",
+          "locator": "创作背景一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "当时柳永外放荆南，已经年过五十，只做个相当于县令的小官，心情自然十分苦闷。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中悲秋与羁旅情绪与其晚年贬谪境遇直接相关",
+        "可结合宋玉悲秋典故理解其不遇之叹"
+      ],
+      "forbidden_assertions": [
+        "作于柳永少年游历时期",
+        "作于其高中进士的得意之时",
+        "创作地点在汴京而非江陵"
+      ]
+    },
+    {
+      "claim_id": "claim_03_structure",
+      "claim": "全词分三叠，按时间顺序由傍晚至深夜再到拂晓，空间由近处庭轩推至远方江关，情感由写景转入忆旧与自伤。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "全词共分三片：头一片，写作者白天的所见所闻第二片写情，写作者“更阑”的所见所感第三片写意，写作者对往事的追忆，抒发自己的感慨。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "由傍晚到深夜、由深夜至黎明一丝不乱；由眼前望江关、由孤馆怀帝京自然运转。",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "教学可引导学生按时间线索梳理词意",
+        "三叠分别侧重写景、抒情、议论/忆旧"
+      ],
+      "forbidden_assertions": [
+        "全词为单片结构",
+        "时间顺序为倒叙或跳跃无序",
+        "下片主要描写未来愿景"
+      ]
+    },
+    {
+      "claim_id": "claim_04_metaphor_time",
+      "claim": "词中以“迅景如梭”“漏箭移”等意象比喻光阴飞逝，以“旧游似梦”喻指往昔繁华的虚幻与不可追。",
+      "status": "consensus",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "迅景：岁月也，光阴易逝，故称。漏箭：古时以漏壶滴水计时，漏箭移即光阴动也。",
+          "locator": "注释一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "很通俗的比喻，却让读者眼前出现了词人那再清晰不过的痛苦面容。逝去的日子如云烟……",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可指出柳永善用日常器物与天文现象喻指时间流逝",
+        "比喻强化了人生短暂与功名未就的焦虑"
+      ],
+      "forbidden_assertions": [
+        "漏箭指代具体的兵器",
+        "迅景指快速移动 of 自然景色而非时间",
+        "旧游似梦表示梦境成真"
+      ]
+    },
+    {
+      "claim_id": "claim_05_theme",
+      "claim": "词作核心矛盾在于“念利名、憔悴长萦绊”的仕途追求与“未名未禄，绮陌红楼”的市井流连之间的挣扎，最终以“抱影无眠”的孤寂作结。",
+      "status": "licensed_interpretation",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "一面痛恨“名牵利惹”，一面甘之如饴。行文至此，那贯穿于词人一生的矛盾开始在这“驱驱行役”上初露端倪。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "念利名、憔悴长萦绊……停灯向晓，抱影无眠。",
+          "locator": "赏析一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "可探讨宋代文人仕隐矛盾与市井文化的冲突",
+        "结尾的无眠是矛盾无法排解的具象化"
+      ],
+      "forbidden_assertions": [
+        "词人完全看破红尘放弃名利",
+        "词作主旨为单纯赞美京城繁华",
+        "抱影无眠表示期待天明出游"
+      ]
+    },
+    {
+      "claim_id": "claim_06_lexical_jingwu",
+      "claim": "“井梧”指井旁的梧桐，其典故源自唐代薛涛的《井梧吟》：“庭除一古桐，耸干入云中。枝迎南北鸟，叶送往来风。”",
+      "status": "documented",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "井梧：井旁挺拔的梧桐古树。源自唐薛涛《井梧吟》：\"庭除一古桐,耸干入云中。枝迎南北鸟，叶送往来风。\"",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词中借井梧零乱的景象，不仅写秋景之凋零，也暗寓羁旅漂泊、送往迎来的身世之感"
+      ],
+      "forbidden_assertions": [
+        "井梧是指水井中生长的植物",
+        "井梧典故出自宋代苏轼的诗作"
+      ]
+    },
+    {
+      "claim_id": "claim_07_lexical_longshui",
+      "claim": "“陇水”在词中疑非指具体的河流名，而是借用北朝乐府《陇头歌辞》中“陇头流水，鸣声呜咽”的意境，表达行人的飘然旷野与思乡哀痛。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "陇水：疑非河流名，实为陇头流水之意。北朝乐府有《陇头歌辞》……",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "倦听陇水潺湲，是词人将主观的厌倦与愁苦投射于客观水声的艺术表现"
+      ],
+      "forbidden_assertions": [
+        "陇水在词中确指湖北江陵当地的一条具体河流",
+        "陇水潺湲在词中是欢快悦耳的象征"
+      ]
+    },
+    {
+      "claim_id": "claim_08_allusion_songyu",
+      "claim": "“宋玉悲感”典出战国楚宋玉作《九辩》，其以悲秋起兴，抒发孤身逆旅之寂寞与生不逢时之感，词人借此自况。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "宋玉悲感：战国·楚宋玉作《九辩》，曾以悲秋起兴，抒孤身逆旅之寂寞，发生不逢时之感慨。",
+          "locator": "注释一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "词人临水登山，在空间上与宋玉悲秋的楚地（江陵）重合，强化了跨越千年的情感共鸣"
+      ],
+      "forbidden_assertions": [
+        "宋玉悲感是指宋玉因国家灭亡而绝食",
+        "宋玉是唐代的著名悲情诗人"
+      ]
+    },
+    {
+      "claim_id": "claim_09_lexical_jiangguan",
+      "claim": "“江关”在词中疑指荆门，即今湖北省枝城市和宜昌市夹江对峙的荆门、虎牙二山，战国时为楚地。",
+      "status": "disputed",
+      "importance": 2,
+      "evidence": [
+        {
+          "source_id": "source_notes_1",
+          "text": "江关：疑即指荆门，荆门、虎牙二山（分别在今湖北省枝城市和宜昌市）夹江对峙，古称江关，战国时为楚地。",
+          "locator": "注释一",
+          "authority": "medium"
+        }
+      ],
+      "acceptable_inferences": [
+        "“望江关”的动作体现了词人登高远眺、心系远方的羁旅情怀"
+      ],
+      "forbidden_assertions": [
+        "江关在词中确指长江三峡的夔门",
+        "江关是指京城的城门"
+      ]
+    },
+    {
+      "claim_id": "claim_10_reception_history",
+      "claim": "宋代评论界对《戚氏》评价极高，王灼在《碧鸡漫志》中曾引宋人语评价其为“《离骚》寂寞千载后，《戚氏》凄凉一曲终”，认为其可与《离骚》媲美。",
+      "status": "documented",
+      "importance": 3,
+      "evidence": [
+        {
+          "source_id": "source_appreciation_1",
+          "text": "宋时“《离骚》寂寞千年后，《戚氏》凄凉一曲终”的评价也必非空穴来风。",
+          "locator": "赏析一",
+          "authority": "high"
+        },
+        {
+          "source_id": "source_appreciation_1",
+          "text": "宋《碧鸡漫志》：“离骚寂寞千载后，戚氏凄凉一曲终。”宋人的评价，让这首冠古绝今之词当之无愧！王灼",
+          "locator": "赏析一",
+          "authority": "high"
+        }
+      ],
+      "acceptable_inferences": [
+        "该词在艺术结构、情感深度和篇幅体制上，都被宋人视为长调慢词的巅峰之作"
+      ],
+      "forbidden_assertions": [
+        "《碧鸡漫志》对《戚氏》持全盘否定态度",
+        "“离骚寂寞”的评价是现代学者首创的"
+      ]
+    }
+  ],
+  "required_information": [
+    {
+      "unit_id": "req_01_identity",
+      "category": "poem_identity",
+      "description": "准确识记词牌《戚氏》为柳永自创长调，掌握其212字三叠的体制特征。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "柳永自创的212字长调慢词",
+        "北宋词人柳永的代表性三叠词"
+      ],
+      "forbidden_claims": [
+        "该词牌为唐代教坊旧曲",
+        "全词共四叠或字数不足200"
+      ],
+      "source_claim_ids": [
+        "claim_01_identity"
+      ],
+      "line_ids": []
+    },
+    {
+      "unit_id": "req_02_context",
+      "category": "historical_context",
+      "description": "结合柳永晚年外放荆南、年过五十且官阶低微的背景，理解词中悲秋与羁旅愁绪的现实根源。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "作于柳永晚年贬谪江陵时期",
+        "反映其五十岁后仕途困顿与漂泊心境"
+      ],
+      "forbidden_claims": [
+        "创作于柳永少年科举得意之时",
+        "背景为汴京元宵佳节"
+      ],
+      "source_claim_ids": [
+        "claim_02_background"
+      ],
+      "line_ids": [
+        "l04",
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_03_structure",
+      "category": "structure",
+      "description": "梳理全词三叠按“傍晚至深夜至拂晓”的时间推进与“近景至远景至内心”的空间情感转换脉络。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "按时间顺序分写暮景、夜思、晓叹",
+        "三叠分别侧重写景、忆旧、抒怀"
+      ],
+      "forbidden_claims": [
+        "全词为意识流跳跃无时间线",
+        "下片主要描写清晨出游之乐"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14",
+        "l15",
+        "l16"
+      ]
+    },
+    {
+      "unit_id": "req_04_metaphor",
+      "category": "metaphor_source",
+      "description": "识别词中“迅景如梭”“漏箭移”“旧游似梦”等核心比喻与借代意象。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "以织布梭与漏壶刻度喻时光飞逝",
+        "以梦境喻指往昔繁华的虚幻"
+      ],
+      "forbidden_claims": [
+        "迅景指代具体的自然风景",
+        "漏箭为行军打仗的武器"
+      ],
+      "source_claim_ids": [
+        "claim_04_metaphor_time"
+      ],
+      "line_ids": [
+        "l13",
+        "l15"
+      ]
+    },
+    {
+      "unit_id": "req_05_boundary",
+      "category": "interpretive_boundary",
+      "description": "把握词人“名利萦绊”与“市井流连”的矛盾心理，避免将其简单归结为纯粹的厌世或享乐。",
+      "importance": 3,
+      "acceptable_paraphrases": [
+        "展现仕途追求与世俗享乐的内心撕扯",
+        "体现传统士大夫与市井文人的双重身份冲突"
+      ],
+      "forbidden_claims": [
+        "词人已彻底放弃功名追求",
+        "全词仅为记录青楼享乐生活"
+      ],
+      "source_claim_ids": [
+        "claim_05_theme"
+      ],
+      "line_ids": [
+        "l10",
+        "l14"
+      ]
+    },
+    {
+      "unit_id": "req_06_summary",
+      "category": "summary",
+      "description": "概括全词以秋景起兴、羁旅为线、忆旧为衬、叹老悲穷为旨的完整意脉。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "借晚秋羁旅之景，抒功名未就、年华老去之悲",
+        "融写景、叙事、抒情于一炉的长调典范"
+      ],
+      "forbidden_claims": [
+        "主旨为歌颂帝里风光",
+        "仅是一首单纯的悲秋之作而无身世之叹"
+      ],
+      "source_claim_ids": [
+        "claim_03_structure",
+        "claim_05_theme"
+      ],
+      "line_ids": [
+        "l01",
+        "l02",
+        "l03",
+        "l04",
+        "l05",
+        "l06",
+        "l07",
+        "l08",
+        "l09",
+        "l10",
+        "l11",
+        "l12",
+        "l13",
+        "l14",
+        "l15",
+        "l16"
+      ]
+    },
+    {
+      "unit_id": "req_07_lexical_jingwu",
+      "category": "lexical",
+      "description": "掌握“井梧”的字面含义及其源自薛涛《井梧吟》的文学典故背景。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "指井边的梧桐，含有送往迎来、羁旅漂泊的寄托",
+        "引用薛涛诗意，表现秋日庭院的荒凉"
+      ],
+      "forbidden_claims": [
+        "井梧是指水井里的水草",
+        "该词无任何典故背景"
+      ],
+      "source_claim_ids": [
+        "claim_06_lexical_jingwu"
+      ],
+      "line_ids": [
+        "l02"
+      ]
+    },
+    {
+      "unit_id": "req_08_alternative_longshui",
+      "category": "alternative_reading",
+      "description": "理解“陇水”在词中并非实指河流，而是借用乐府古辞表达哀怨心境的艺术手法。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "借乐府《陇头歌辞》意境，非实指河流",
+        "以陇头流水的呜咽之声喻指行人的凄楚"
+      ],
+      "forbidden_claims": [
+        "陇水是江陵当地的一条写实河流",
+        "陇水潺湲表达的是欢快愉悦的旅途心情"
+      ],
+      "source_claim_ids": [
+        "claim_07_lexical_longshui"
+      ],
+      "line_ids": [
+        "l05"
+      ]
+    },
+    {
+      "unit_id": "req_09_allusion_songyu",
+      "category": "lexical",
+      "description": "掌握“宋玉悲感”的典故出处及其在词中悲秋自况的抒情作用。",
+      "importance": 2,
+      "acceptable_paraphrases": [
+        "典出宋玉《九辩》的悲秋起兴",
+        "借宋玉因悲秋、逆旅、不逢时而产生的悲感自况"
+      ],
+      "forbidden_claims": [
+        "宋玉悲感是指宋玉因战争而悲伤",
+        "宋玉是宋代的词人"
+      ],
+      "source_claim_ids": [
+        "claim_08_allusion_songyu"
+      ],
+      "line_ids": [
+        "l04"
+      ]
+    }
+  ],
+  "metaphor_maps": [
+    {
+      "metaphor_id": "meta_01_shuttle_time",
+      "line_ids": [
+        "l13"
+      ],
+      "source_domain": [
+        "迅景如梭"
+      ],
+      "target_domain": [
+        "岁月流逝之迅速与不可挽留"
+      ],
+      "bridges": [
+        "梭子织布往来极快，借以具象化抽象的光阴飞逝，突出人生短暂与功业未成的焦灼。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_time"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "亦可理解为对过往欢娱时光匆匆消逝的无奈追忆，侧重心理感受而非物理时间。"
+      ],
+      "importance": 3
+    },
+    {
+      "metaphor_id": "meta_02_dream_past",
+      "line_ids": [
+        "l13"
+      ],
+      "source_domain": [
+        "旧游似梦"
+      ],
+      "target_domain": [
+        "往昔京城繁华与少年狂游的虚幻与不可复得"
+      ],
+      "bridges": [
+        "梦境具有美好却易醒、抓不住的特质，精准映射了词人对过往市井生活的眷恋与现实落差。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_time",
+        "claim_05_theme"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "部分赏析认为此“梦”非纯虚指，而是词人刻意以梦的朦胧美来反衬当下孤馆的凄清。"
+      ],
+      "importance": 2
+    },
+    {
+      "metaphor_id": "meta_03_water_clock",
+      "line_ids": [
+        "l15"
+      ],
+      "source_domain": [
+        "漏箭移"
+      ],
+      "target_domain": [
+        "长夜漫漫中时间的悄然流逝与生命耗损"
+      ],
+      "bridges": [
+        "漏壶滴水刻度移动是古代计时的具象，在此转化为生命在孤寂中无声消磨的隐喻。"
+      ],
+      "context_claim_ids": [
+        "claim_04_metaphor_time"
+      ],
+      "status": "consensus",
+      "alternative_readings": [
+        "结合“稍觉轻寒”，漏箭移亦可视为词人彻夜未眠、对温度与时间变化极度敏感的生理心理双重写照。"
+      ],
+      "importance": 2
+    }
+  ],
+  "visual_requirements": [
+    {
+      "requirement_id": "vis_01_title_text",
+      "description": "清晰展示词牌、作者及全词原文，配合三叠分段排版，确保标点与句读准确。",
+      "acceptable_realizations": [
+        "题签淡入后逐句浮现原文，按上中下三片留白分隔",
+        "旁白诵读时同步高亮当前句读"
+      ],
+      "forbidden_realizations": [
+        "将三叠混排不分段",
+        "擅自改动原文字词或标点"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "opening_title_and_text_display",
+      "semantic_role": "opening_title_and_text_display"
+    },
+    {
+      "requirement_id": "vis_02_twilight_landscape",
+      "description": "呈现微雨庭轩、萧疏槛菊、零乱井梧与黯淡夕阳的晚秋羁旅画面，色调偏冷灰。",
+      "acceptable_realizations": [
+        "水墨晕染风格展现秋雨残烟与孤馆远景",
+        "镜头由近处庭院缓缓推至远方江关与飞云"
+      ],
+      "forbidden_realizations": [
+        "使用明媚春光或繁华市井画面",
+        "忽略“残烟”“黯淡”的凄凉氛围"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "twilight_journey_landscape",
+      "semantic_role": "twilight_journey_landscape"
+    },
+    {
+      "requirement_id": "vis_03_night_time_metaphor",
+      "description": "可视化“迅景如梭”“旧游似梦”“漏箭移”等意象，通过光影流转与织梭、漏壶动画表现时光飞逝与往事如烟。",
+      "acceptable_realizations": [
+        "半透明织梭快速穿梭叠化至漏壶滴水特写",
+        "繁华旧游画面以水波纹或烟雾形态消散"
+      ],
+      "forbidden_realizations": [
+        "将漏箭具象化为真实兵器或箭矢",
+        "梦境画面过于写实而失去朦胧虚幻感"
+      ],
+      "importance": 2,
+      "required_visibility": true,
+      "metaphor_ids": [
+        "meta_01_shuttle_time",
+        "meta_02_dream_past",
+        "meta_03_water_clock"
+      ],
+      "expected_phase": "midnight_time_and_memory_visualization",
+      "semantic_role": "midnight_time_and_memory_visualization"
+    },
+    {
+      "requirement_id": "vis_04_dawn_solitude",
+      "description": "刻画拂晓时分画角残声、停灯向晓、抱影无眠的孤寂剪影，突出词人彻夜难眠的定格画面。",
+      "acceptable_realizations": [
+        "冷色调晨光中词人独对窗畔的侧影，灯火渐熄",
+        "远处画角声配合画面淡出，留白处理"
+      ],
+      "forbidden_realizations": [
+        "表现词人起身出游或与人交谈",
+        "画面转为明亮欢快色调"
+      ],
+      "importance": 3,
+      "required_visibility": true,
+      "metaphor_ids": [],
+      "expected_phase": "dawn_awakening_and_solitary_vigil",
+      "semantic_role": "dawn_awakening_and_solitary_vigil"
+    }
+  ],
+  "key_events": [
+    {
+      "event_id": "evt_039_01",
+      "description": "柳永早年未得功名时，流连于杭州、苏州及京城汴京等地，常与狂放的朋友们饮酒听歌，过着“暮宴朝欢”的浪漫生活。",
+      "audio_triggers": [
+        "未得功名",
+        "流连",
+        "京城汴京",
+        "暮宴朝欢",
+        "狂朋怪侣"
+      ],
+      "visual_evidence": [
+        "北宋都城繁华街景",
+        "年轻的柳永在歌楼酒肆与朋友饮酒听曲",
+        "红袖添香的宴饮场面"
+      ],
+      "sound_evidence": [
+        "酒杯碰撞声",
+        "欢快的丝竹管弦声",
+        "喧闹的笑语声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_039_02",
+      "description": "柳永有功名用世之志却屡试不第。通常认为，直到景祐元年（1034年）他才在暮年考中进士，步入仕途，历任州县小官，开始了漫长奔波的行役生涯。",
+      "audio_triggers": [
+        "屡试不第",
+        "景祐元年",
+        "暮年及第",
+        "步入仕途",
+        "长年奔波"
+      ],
+      "visual_evidence": [
+        "中老年的柳永身着低阶官员服饰",
+        "乘船或骑马奔波在长途古道上",
+        "神情逐渐显得疲惫憔悴"
+      ],
+      "sound_evidence": [
+        "马蹄声",
+        "车轮辘辘声",
+        "渡口风浪声"
+      ],
+      "importance": 2
+    },
+    {
+      "event_id": "evt_039_03",
+      "description": "通常认为，柳永晚年被外放至荆南（今湖北江陵等地）任职。年过半百的他深感自己被名缰利锁所羁绊，仕途孤寂凄凉。",
+      "audio_triggers": [
+        "外放荆南",
+        "湖北江陵",
+        "年过半百",
+        "名缰利锁",
+        "孤寂凄凉"
+      ],
+      "visual_evidence": [
+        "偏远简陋的荆楚官署或驿馆",
+        "年迈的柳永独自整理公文或沉思",
+        "背影孤索"
+      ],
+      "sound_evidence": [
+        "沉重的叹息声",
+        "萧瑟的秋风声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_039_04",
+      "description": "某晚秋傍晚，微雨初歇，柳永独自客居异地孤馆。眺望江关凄凉秋景，他联想到战国宋玉的悲秋之感，回首自己一生的坎坷与昔日汴京的繁华欢游。",
+      "audio_triggers": [
+        "晚秋傍晚",
+        "客居孤馆",
+        "眺望江关",
+        "宋玉悲感",
+        "回首一生"
+      ],
+      "visual_evidence": [
+        "黄昏时分微雨洒落庭院",
+        "槛外菊花凋零，梧桐落叶",
+        "柳永独倚窗前眺望夕阳与黯淡飞云"
+      ],
+      "sound_evidence": [
+        "淅沥微雨声",
+        "秋蝉与蟋蟀的凄切鸣叫声",
+        "陇水流过的潺潺声"
+      ],
+      "importance": 3
+    },
+    {
+      "event_id": "evt_039_05",
+      "description": "秋夜漫长，寒意渐生，柳永彻夜难眠。直到五更将近，听闻远处画角残声呜咽，他在青灯相伴下，创作出这首长调慢词《戚氏》，诉尽一生羁旅愁肠。",
+      "audio_triggers": [
+        "秋夜漫长",
+        "彻夜难眠",
+        "画角残声",
+        "青灯相伴",
+        "长调戚氏"
+      ],
+      "visual_evidence": [
+        "夜空中清浅的星河与皓月",
+        "柳永在孤馆青灯下提笔写词",
+        "漏壶滴水打在刻度上",
+        "柳永吹灭灯火，抱影枯坐至拂晓"
+      ],
+      "sound_evidence": [
+        "滴漏的滴答声",
+        "远方军营凄厉的画角残声",
+        "夜风拂过窗棂声"
+      ],
+      "importance": 3
+    }
+  ],
+  "pronunciation_lexicon": [
+    {
+      "term": "晚秋天，",
+      "pronunciation": "wǎn qiū tiān ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "一霎微雨洒庭轩。",
+      "pronunciation": "yí shà wēi yǔ sǎ tíng xuān .",
+      "accepted_variants": [
+        "yī shà wēi yǔ sǎ tíng xuān ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "槛菊萧疏，",
+      "pronunciation": "jiàn jú xiāo shū ,",
+      "accepted_variants": [
+        "kǎn jú xiāo shū ,"
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "井梧零乱，",
+      "pronunciation": "jǐng wú líng luàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "惹残烟。",
+      "pronunciation": "rě cán yān .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "凄然，",
+      "pronunciation": "qī rán ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "望江关，",
+      "pronunciation": "wàng jiāng guān ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "飞云黯淡夕阳闲。",
+      "pronunciation": "fēi yún àn dàn xī yáng xián .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "当时宋玉悲感，",
+      "pronunciation": "dāng shí sòng yù bēi gǎn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "向此临水与登山。",
+      "pronunciation": "xiàng cǐ lín shuǐ yǔ dēng shān .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "远道迢递，",
+      "pronunciation": "yuǎn dào tiáo dì ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "行人凄楚，",
+      "pronunciation": "xíng rén qī chǔ ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "倦听陇水潺湲。",
+      "pronunciation": "juàn tīng lǒng shuǐ chán yuán .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "正蝉吟败叶，",
+      "pronunciation": "zhèng chán yín bài yè ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "蛩响衰草，",
+      "pronunciation": "qióng xiǎng shuāi cǎo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "相应喧喧。",
+      "pronunciation": "xiāng yìng xuān xuān .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "孤馆度日如年，",
+      "pronunciation": "gū guǎn dù rì rú nián ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "风露渐变，",
+      "pronunciation": "fēng lù jiàn biàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "悄悄至更阑。",
+      "pronunciation": "qiǎo qiǎo zhì gēng lán .",
+      "accepted_variants": [
+        "qiāo qiāo zhì gēng lán ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "长天净，",
+      "pronunciation": "cháng tiān jìng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "绛河清浅，",
+      "pronunciation": "jiàng hé qīng qiǎn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "皓月婵娟。",
+      "pronunciation": "hào yuè chán juān .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "思绵绵，",
+      "pronunciation": "sī mián mián ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "夜永对景，",
+      "pronunciation": "yè yǒng duì jǐng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "那堪屈指暗想从前。",
+      "pronunciation": "nǎ kān qū zhǐ àn xiǎng cóng qián .",
+      "accepted_variants": [
+        "nà kān qū zhǐ àn xiǎng cóng qián ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "未名未禄，",
+      "pronunciation": "wèi míng wèi lù ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "绮陌红楼，",
+      "pronunciation": "qǐ mò hóng lóu ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "往往经岁迁延。",
+      "pronunciation": "wǎng wǎng jīng suì qiān yán .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "帝里风光好，",
+      "pronunciation": "dì lǐ fēng guāng hǎo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "当年少日，",
+      "pronunciation": "dāng nián shào rì ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "暮宴朝欢。",
+      "pronunciation": "mù yàn zhāo huān .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "况有狂朋怪侣，",
+      "pronunciation": "kuàng yǒu kuáng péng guài lǚ ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "遇当歌对酒竟留连。",
+      "pronunciation": "yù dāng gē duì jiǔ jìng liú lián .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "别来迅景如梭，",
+      "pronunciation": "bié lái xùn jǐng rú suō ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "旧游似梦，",
+      "pronunciation": "jiù yóu sì mèng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "烟水程何限？",
+      "pronunciation": "yān shuǐ chéng hé xiàn ?",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "念利名、",
+      "pronunciation": "niàn lì míng ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "憔悴长萦绊，",
+      "pronunciation": "qiáo cuì cháng yíng bàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "追往事、",
+      "pronunciation": "zhuī wǎng shì ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "空惨愁颜。",
+      "pronunciation": "kōng cǎn chóu yán .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "漏箭移，",
+      "pronunciation": "lòu jiàn yí ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "稍觉轻寒，",
+      "pronunciation": "shāo jué qīng hán ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "渐呜咽、",
+      "pronunciation": "jiàn wū yè ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "画角数声残。",
+      "pronunciation": "huà jiǎo shù shēng cán .",
+      "accepted_variants": [
+        "huà jué shù shēng cán ."
+      ],
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "对闲窗畔，",
+      "pronunciation": "duì xián chuāng pàn ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "停灯向晓，",
+      "pronunciation": "tíng dēng xiàng xiǎo ,",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "抱影无眠。",
+      "pronunciation": "bào yǐng wú mián .",
+      "category": "poem",
+      "importance": 3
+    },
+    {
+      "term": "柳永",
+      "pronunciation": "liǔ yǒng",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "宋玉",
+      "pronunciation": "sòng yù",
+      "category": "person",
+      "importance": 2
+    },
+    {
+      "term": "戚氏",
+      "pronunciation": "qī shì",
+      "category": "other",
+      "importance": 2
+    },
+    {
+      "term": "荆南",
+      "pronunciation": "jīng nán",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "江关",
+      "pronunciation": "jiāng guān",
+      "category": "place",
+      "importance": 2
+    },
+    {
+      "term": "景祐",
+      "pronunciation": "jǐng yòu",
+      "category": "other",
+      "importance": 2
+    }
+  ],
+  "learning_items": [],
+  "event_relations": [
+    {
+      "relation_id": "rel_039_01",
+      "source_event_id": "evt_039_01",
+      "target_event_id": "evt_039_02",
+      "relation_type": "BEFORE",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_039_02",
+      "source_event_id": "evt_039_02",
+      "target_event_id": "evt_039_03",
+      "relation_type": "STATE_CHANGE",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_039_03",
+      "source_event_id": "evt_039_03",
+      "target_event_id": "evt_039_04",
+      "relation_type": "INPUT_OF",
+      "importance": 3
+    },
+    {
+      "relation_id": "rel_039_04",
+      "source_event_id": "evt_039_01",
+      "target_event_id": "evt_039_04",
+      "relation_type": "RECALL_OF",
+      "importance": 2
+    },
+    {
+      "relation_id": "rel_039_05",
+      "source_event_id": "evt_039_04",
+      "target_event_id": "evt_039_05",
+      "relation_type": "CAUSES",
+      "importance": 3
+    }
+  ],
+  "annotation_metadata": {
+    "collection": "songci_300",
+    "source_files": {
+      "data": "data/songci_300/039.json",
+      "core_gold": "gold_annotation/songci_300_gold_final/039.json",
+      "event_gold": "gold_annotation/songci_300/039.json"
+    },
+    "original_sample_id": "039",
+    "original_gold_status": "llm_reviewed_pending_review",
+    "normalizations": [
+      "Mapped non-schema gold_status values to draft_llm_source_grounded.",
+      "Filled visual_requirements.semantic_role from expected_phase, then requirement_id.",
+      "Initialized learning_items as an empty array because neither source subset provides it."
+    ]
+  }
+}
