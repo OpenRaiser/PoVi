@@ -2,6 +2,13 @@
 
 **PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding**
 
+<p align="center">
+  <a href="https://openraiser.github.io/PoVi/"><img src="https://img.shields.io/badge/Project-Page-2b7fff" alt="Project Page"></a>
+  <a href="https://github.com/OpenRaiser/PoVi"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://huggingface.co/datasets/Fortunaa/PoVi"><img src="https://img.shields.io/badge/Dataset-PoVi-FFD21E?logo=huggingface&logoColor=black" alt="PoVi dataset"></a>
+  <img src="https://img.shields.io/badge/Paper-Coming%20Soon-lightgrey" alt="Paper coming soon">
+</p>
+
 Poetry-to-video needs more than literal scene rendering: compressed language, background knowledge, and metaphor. PoVi is a **benchmark** (PoVi-Bench) and an **agentic generation framework** that rebuilds poem semantics into an evidence-bounded Director Graph, then realizes narration, close reading, character assets, and shot plans before narration-aligned video synthesis.
 
 | | |
