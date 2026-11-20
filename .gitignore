@@ -12,3 +12,7 @@ assets/art/*
 !assets/cases/
 assets/cases/*
 !assets/cases/*.png
+!assets/videos/
+assets/videos/*
+!assets/videos/*.webm
+!assets/videos/*.mp4
